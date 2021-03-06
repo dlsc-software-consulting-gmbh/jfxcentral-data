@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Dirk Lemmermann",
+    "email": "dlemmermann@gmail.com",
+    "companyId": "dlsc",
+    "website": "https://dlsc.com",
+    "blogId": "pixel-perfect",
+    "linkedIn": "https://www.linkedin.com/in/dlemmermann/",
+    "twitter": "dlemmermann",
+    "photo": "dlemmermann.jpg",
+    "champion": true,
+    "rockstar": true,
+    "id": "dlemmermann"
+  },
+  {
+    "name": "Dirk Lemmermann",
+    "email": "dlemmermann@gmail.com",
+    "companyId": "dlsc",
+    "website": "https://dlsc.com",
+    "blogId": "pixel-perfect",
+    "linkedIn": "https://www.linkedin.com/in/dlemmermann/",
+    "twitter": "dlemmermann",
+    "photo": "dlemmermann.jpg",
+    "champion": true,
+    "rockstar": true,
+    "id": "dlemmermann"
+  },
+  {
+    "name": "Dirk Lemmermann",
+    "email": "dlemmermann@gmail.com",
+    "companyId": "dlsc",
+    "website": "https://dlsc.com",
+    "blogId": "pixel-perfect",
+    "linkedIn": "https://www.linkedin.com/in/dlemmermann/",
+    "twitter": "dlemmermann",
+    "photo": "dlemmermann.jpg",
+    "champion": true,
+    "rockstar": true,
+    "id": "dlemmermann"
+  },
+  {
+    "name": "Dirk Lemmermann",
+    "email": "dlemmermann@gmail.com",
+    "companyId": "dlsc",
+    "website": "https://dlsc.com",
+    "blogId": "pixel-perfect",
+    "linkedIn": "https://www.linkedin.com/in/dlemmermann/",
+    "twitter": "dlemmermann",
+    "photo": "dlemmermann.jpg",
+    "champion": true,
+    "rockstar": true,
+    "id": "dlemmermann"
+  }
+]

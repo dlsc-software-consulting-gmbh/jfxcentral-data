@@ -1,0 +1,29 @@
+[
+  {
+    "authors": "Dirk Lemmermann, Steve Smith",
+    "title": "JavaFX in Action",
+    "description": "this book is about ..... bla bla bla",
+    "url": "https://fxexperience.com",
+    "image": "cover.jpg",
+    "isbn": "34234-34-32434",
+    "id": "in-action"
+  },
+  {
+    "authors": "Dirk Lemmermann, Steve Smith",
+    "title": "JavaFX in Action",
+    "description": "this book is about ..... bla bla bla",
+    "url": "https://fxexperience.com",
+    "image": "cover.jpg",
+    "isbn": "34234-34-32434",
+    "id": "in-action"
+  },
+  {
+    "authors": "Dirk Lemmermann, Steve Smith",
+    "title": "JavaFX in Action",
+    "description": "this book is about ..... bla bla bla",
+    "url": "https://fxexperience.com",
+    "image": "cover.jpg",
+    "isbn": "34234-34-32434",
+    "id": "in-action"
+  }
+]
