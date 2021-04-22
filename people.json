@@ -205,8 +205,8 @@
     "linkedIn": "",
     "twitter": "hansolo_",
     "photo": "gerrit-grunwald.jpg",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "g.grunwald"
   },
   {
@@ -219,8 +219,8 @@
     "linkedIn": "",
     "twitter": "hendrikEbbers",
     "photo": "hendrik-ebbers.jpg",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "h.ebbers"
   },
   {
