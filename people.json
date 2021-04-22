@@ -37,8 +37,8 @@
     "linkedIn": "",
     "twitter": "Alessio_Vinerbi",
     "photo": "",
-    "champion": true,
-    "rockstar": true,
+    "champion": false,
+    "rockstar": false,
     "id": "a.vinerbi"
   },
   {
