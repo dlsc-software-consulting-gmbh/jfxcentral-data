@@ -11,7 +11,7 @@
     "photo": "dirk-lemmermann.jpg",
     "champion": true,
     "rockstar": true,
-    "id": "dlemmermann"
+    "id": "d.lemmermann"
   },
   {
     "name": "Andres Almiray",
@@ -22,10 +22,10 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "aalmiray",
-    "photo": "",
+    "photo": "andres.jpg",
     "champion": true,
     "rockstar": true,
-    "id": ""
+    "id": "a.almiray"
   },
   {
     "name": "Alessio Vinerbi",
@@ -39,7 +39,7 @@
     "photo": "",
     "champion": true,
     "rockstar": true,
-    "id": ""
+    "id": "a.vinerbi"
   },
   {
     "name": "Andreas Billmann",
@@ -53,7 +53,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "a.billmann"
   },
   {
     "name": "Arnaud Nouard",
@@ -67,7 +67,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "a.nouard"
   },
   {
     "name": "Bernard Traversat",
@@ -81,7 +81,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "b.traversat"
   },
   {
     "name": "Bertrand Goetzmann",
@@ -95,7 +95,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "b.goetzmann"
   },
   {
     "name": "Bruno Borges",
@@ -106,10 +106,10 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "brunoborges",
-    "photo": "",
+    "photo": "bruno-borges.jpeg",
     "champion": true,
     "rockstar": true,
-    "id": ""
+    "id": "b.borges"
   },
   {
     "name": "Carl Dea",
@@ -123,7 +123,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "c.dea"
   },
   {
     "name": "Christian Campo",
@@ -137,7 +137,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "c.campo"
   },
   {
     "name": "Danno Ferrin",
@@ -151,7 +151,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "d.ferrin"
   },
   {
     "name": "David Grieve",
@@ -165,7 +165,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "d.grieve"
   },
   {
     "name": "Dean Iverson",
@@ -179,7 +179,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "d.iverson"
   },
   {
     "name": "Delorme Loïc",
@@ -193,7 +193,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "d.loic"
   },
   {
     "name": "Gerrit Grunwald",
@@ -207,7 +207,7 @@
     "photo": "gerrit-grunwald.jpg",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "g.grunwald"
   },
   {
     "name": "Hendrik Ebbers",
@@ -218,10 +218,10 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "hendrikEbbers",
-    "photo": "hendrik-ebbers.png",
+    "photo": "hendrik-ebbers.jpg",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "h.ebbers"
   },
   {
     "name": "James Weaver",
@@ -235,7 +235,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "j.weaver"
   },
   {
     "name": "Jasper Potts",
@@ -249,7 +249,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "j.potts"
   },
   {
     "name": "Jeanette Winzenburg",
@@ -263,7 +263,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "j.winzenburg"
   },
   {
     "name": "Jens Deters",
@@ -277,7 +277,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "j.deters"
   },
   {
     "name": "Johan Vos",
@@ -288,10 +288,10 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "johanvos",
-    "photo": "",
+    "photo": "johan.jpg",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "j.vos"
   },
   {
     "name": "Jonathan Giles",
@@ -305,7 +305,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "j.giles"
   },
   {
     "name": "José Pereda",
@@ -316,10 +316,10 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "JPeredaDnr",
-    "photo": "",
+    "photo": "jose.png",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "j.pereda"
   },
   {
     "name": "Michael Heinrichs",
@@ -333,7 +333,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "m.heinrichs"
   },
   {
     "name": "Michael Hoffer",
@@ -344,10 +344,10 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "mihosoft",
-    "photo": "",
+    "photo": "mhoffer.jpg",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "m.hoffer"
   },
   {
     "name": "Mohamed Taman",
@@ -361,7 +361,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "m.taman"
   },
   {
     "name": "Pedro Duque Vieira",
@@ -372,10 +372,10 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "",
-    "photo": "",
+    "photo": "pedro.jpg",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "p.vieira"
   },
   {
     "name": "Peter Pilgrim",
@@ -389,7 +389,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "p.pilgrim"
   },
   {
     "name": "Peter Rogge",
@@ -403,7 +403,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "p.rogge"
   },
   {
     "name": "Sean Phillips",
@@ -417,7 +417,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "s.phillips"
   },
   {
     "name": "Stephen Chin",
@@ -431,7 +431,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "s.chin"
   },
   {
     "name": "Thierry Wasylczenko",
@@ -445,7 +445,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "t.wasylczenko"
   },
   {
     "name": "Tobias Bley",
@@ -459,7 +459,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "t.bley"
   },
   {
     "name": "Tom Schindl",
@@ -473,7 +473,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "t.schindl"
   },
   {
     "name": "Weiqi Gao",
@@ -487,7 +487,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "w.gao"
   },
   {
     "name": "William Antônio",
@@ -501,7 +501,7 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": ""
+    "id": "w.antonio"
   }
 ]
 
