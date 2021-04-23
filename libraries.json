@@ -1,0 +1,27 @@
+[
+  {
+    "title": "GemsFX",
+    "description": "A collection of useful and highly advanced JavaFX controls.",
+    "license": "APACHE2",
+    "homepage": "https://github.com/dlsc-software-consulting-gmbh/GemsFX",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/GemsFX",
+    "personId": "d.lemmermann",
+    "companyId": "dlsc",
+    "logoImageFile": "gemsfx.png",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX",
+    "images": [
+      {
+        "path": "gemsfx/image1",
+        "title": "Image Title",
+        "description": "image description"
+      }
+    ],
+    "videos": [
+      {
+        "description": "video description",
+        "url": "https://www.youtube.com/watch?v=OflZ745MYT0"
+      }
+    ],
+    "id": "gemsfx"
+  }
+]
