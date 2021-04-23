@@ -7,13 +7,73 @@
     "repository": "https://github.com/dlsc-software-consulting-gmbh/GemsFX",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "gemsfx.png",
+    "logoImageFile": "gemsfx/gemsfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX",
     "images": [
       {
-        "path": "gemsfx/image1",
-        "title": "Image Title",
-        "description": "image description"
+        "path": "gemsfx/dialog-pane.png",
+        "title": "Dialog Pane",
+        "description": "A custom control that wraps a text area and adds a resize handle to the lower right corner of it. The area can be configured to be\nresizable in vertical, horizontal, or both directions. "
+      },
+      {
+        "path": "gemsfx/drawer-stackpane.png",
+        "title": "Drawer Stack Pane",
+        "description": "A control for filtering the content of an obserable list. Works in combination with TableView, ListView, or any control that is based on observable lists."
+      },
+      {
+        "path": "gemsfx/duration-picker.png",
+        "title": "Duration Picker",
+        "description": "A small control used for entering a duration. The control can be configured to only allow a duration within the range\ndefined by a minimum and maximum duration. A popup can be used to work with the mouse only. It is also possible to specify whether the fields should \"roll over\"\nor not when they reach their minimum or maximum value. The control supports similar features as the time picker: rollover fields, keyboard support, linking fields, \nfilling fields with leading zeros, etc.."
+      },
+      {
+        "path": "gemsfx/duration-picker-app.png",
+        "title": "Duration Picker App",
+        "description": "A small control used for entering a duration. The control can be configured to only allow a duration within the range\ndefined by a minimum and maximum duration. A popup can be used to work with the mouse only. It is also possible to specify whether the fields should \"roll over\"\nor not when they reach their minimum or maximum value. The control supports similar features as the time picker: rollover fields, keyboard support, linking fields, \nfilling fields with leading zeros, etc.."
+      },
+      {
+        "path": "gemsfx/expanding-text-area.png",
+        "title": "Expanding Text Area",
+        "description": "A customized text area that grows based on its text content. The text area will never show vertical or horizontal scrollbars.\n"
+      },
+      {
+        "path": "gemsfx/filter-view.png",
+        "title": "Filter View",
+        "description": "A control for filtering the content of an observable list. Works in combination with TableView, ListView, or any control that is based on observable lists.\n"
+      },
+      {
+        "path": "gemsfx/payment-options-dark.png",
+        "title": "Payment Options (Dark)",
+        "description": "A specialized subclass of ImageView that can be used to display different graphics for different payment options. Graphics provided by Gregoire Segretain (https://www.sketchappsources.com/contributor/gregoiresgt)\n"
+      },
+      {
+        "path": "gemsfx/payment-options-light.png",
+        "title": "Payment Options (Light)",
+        "description": "A specialized subclass of ImageView that can be used to display different graphics for different payment options. Graphics provided by Gregoire Segretain (https://www.sketchappsources.com/contributor/gregoiresgt)\n"
+      },
+      {
+        "path": "gemsfx/photo-view.png",
+        "title": "Photo View (Avatar)",
+        "description": "A control for adding and editing a user profile photo (or whatever). The user can click on the control to choose an image file\nvia a file chooser (replacable) or via drag and drop. Once added the user can move the image around and zoom in / out. As a convenience\nthe view always provide a cropped version of the original image. This allows applications to store a smaller file on the server / in\nthe database. The control supports some keyboard shortcuts. The file chooser can be activated by pressing SPACE or ENTER. The photo can\nbe removed by pressing DELETE or BACK_SPACE."
+      },
+      {
+        "path": "gemsfx/resizable-text-area.png",
+        "title": "Resizable Text Area",
+        "description": "A custom control that wraps a text area and adds a resize handle to the lower right corner of it. The area can be configured to be\nresizable in vertical, horizontal, or both directions. "
+      },
+      {
+        "path": "gemsfx/rich-textarea.png",
+        "title": "Rich Text Area",
+        "description": "A read-only text area that is capable of displaying nicely formatted text. The control comes with a rich model and a fluent API that will allow you to quickly compose rich text.\n"
+      },
+      {
+        "path": "gemsfx/time-picker.png",
+        "title": "Time Picker",
+        "description": "A small control used for entering a time. The control can be configured with a \"step rate\" for the minutes field (e.g. \"15 minutes\") that will be used when\nincrementing or decrementing the minutes field via the keyboard (arrow keys). The control can also be configured to only allow a time within the time range\ndefined by an earliest and a latest time. A popup can be used to work with the mouse only. It is also possible to specify whether the fields should \"roll over\"\nor not when they reach their minimum or maximum value. For example: the minute field shows 59 minutes and the user wants to increase it via the arrow key. Then\nthe new value will be \"0\" when rollover is enabled. If not the value will remain at 59. Rollover combined with \"linking fields\" will cause the hours field to \nget increased when the minute field rolls over from 59 to 0 or decreased when the minute field rolls over from 0 to 59.\n"
+      },
+      {
+        "path": "gemsfx/time-picker-popup.png",
+        "title": "Time Picker",
+        "description": "A small control used for entering a time. The control can be configured with a \"step rate\" for the minutes field (e.g. \"15 minutes\") that will be used when\nincrementing or decrementing the minutes field via the keyboard (arrow keys). The control can also be configured to only allow a time within the time range\ndefined by an earliest and a latest time. A popup can be used to work with the mouse only. It is also possible to specify whether the fields should \"roll over\"\nor not when they reach their minimum or maximum value. For example: the minute field shows 59 minutes and the user wants to increase it via the arrow key. Then\nthe new value will be \"0\" when rollover is enabled. If not the value will remain at 59. Rollover combined with \"linking fields\" will cause the hours field to \nget increased when the minute field rolls over from 59 to 0 or decreased when the minute field rolls over from 0 to 59.\n"
       }
     ],
     "videos": [
