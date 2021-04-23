@@ -83,5 +83,65 @@
       }
     ],
     "id": "gemsfx"
+  },
+  {
+    "title": "PreferencesFX",
+    "description": "A framework for creating application preferences UIs",
+    "license": "APACHE2",
+    "homepage": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX",
+    "personId": "d.lemmermann",
+    "companyId": "dlsc",
+    "logoImageFile": "preferencesfx/preferencesfx.png",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX",
+    "id": "preferencesfx"
+  },
+  {
+    "title": "CalendarFX",
+    "description": "Professional calendar UIs",
+    "license": "APACHE2",
+    "homepage": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX",
+    "personId": "d.lemmermann",
+    "companyId": "dlsc",
+    "logoImageFile": "calendarfx/calendarfx.png",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX",
+    "id": "calendarfx"
+  },
+  {
+    "title": "FormsFX",
+    "description": "A framework for creating form-based UIs",
+    "license": "APACHE2",
+    "homepage": "https://github.com/dlsc-software-consulting-gmbh/FormsFX",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/FormsFX",
+    "personId": "d.lemmermann",
+    "companyId": "dlsc",
+    "logoImageFile": "formsfx/formsfx.png",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/FormsFX",
+    "id": "formsfx"
+  },
+  {
+    "title": "WorkbenchFX",
+    "description": "A rich client platform for desktop for web applications",
+    "license": "APACHE2",
+    "homepage": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX",
+    "personId": "d.lemmermann",
+    "companyId": "dlsc",
+    "logoImageFile": "workbenchfx/workbenchfx.png",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX",
+    "id": "workbenchfx"
+  },
+  {
+    "title": "FlexGanttFX",
+    "description": "Professional scheduling user interfaces.",
+    "license": "OTHER",
+    "homepage": "https://www.flexganttfx.com",
+    "repository": "",
+    "personId": "d.lemmermann",
+    "companyId": "dlsc",
+    "logoImageFile": "flexganttfx/flexganttfx.png",
+    "issueTracker": "",
+    "id": "flexganttfx"
   }
 ]
