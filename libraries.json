@@ -122,7 +122,7 @@
   },
   {
     "title": "WorkbenchFX",
-    "description": "A rich client platform for desktop for web applications",
+    "description": "A rich client platform for desktop and web applications",
     "license": "APACHE2",
     "homepage": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX",
     "repository": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX",
