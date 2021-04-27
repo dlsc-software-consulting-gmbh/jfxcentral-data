@@ -1,0 +1,19 @@
+{
+  "title": "GMapsFX",
+  "id": "gmapsfx",
+  "description": "A JavaFX wrapper for Google Maps",
+  "license": "APACHE2",
+  "homepage": "",
+  "repository": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX",
+  "personId": "d.lemmermann",
+  "companyId": "dlsc",
+  "logoImageFile": "",
+  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX/issues",
+  "images": [
+    {
+      "path": "map.png",
+      "title": "Google Map View",
+      "description": "Google map with markers"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "PdfFX",
+  "description": "Professional calendar UIs",
+  "license": "APACHE2",
+  "homepage": "",
+  "repository": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX",
+  "personId": "d.lemmermann",
+  "companyId": "dlsc",
+  "logoImageFile": "",
+  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX/issues",
+  "id": "pdffx",
+  "images": [
+    {
+      "path": "pdf-view.png",
+      "title": "PDF View",
+      "description": "Displaying a PDF File"
+    },
+    {
+      "path": "pdf-view-search.png",
+      "title": "PDF Search Results",
+      "description": "Highlighting search results"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "UnitFX",
+  "description": "\nUnitFX is a lightweight framework for creating textfield input controls based on a \"unit of measure\" (UOM).",
+  "license": "APACHE2",
+  "homepage": "",
+  "repository": "https://github.com/dlsc-software-consulting-gmbh/UnitFX",
+  "personId": "d.lemmermann",
+  "companyId": "dlsc",
+  "logoImageFile": "",
+  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
+  "id": "unitfx",
+  "images": [
+    {
+      "path": "demo.png",
+      "title": "Demo Application",
+      "description": "A demo app that highlights the different input fields of UnitFX"
+    }
+  ]
+}

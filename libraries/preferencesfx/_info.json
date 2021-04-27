@@ -1,0 +1,19 @@
+{
+  "title": "PreferencesFX",
+  "description": "A framework for creating application preferences UIs",
+  "license": "APACHE2",
+  "homepage": "",
+  "repository": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX",
+  "personId": "d.lemmermann",
+  "companyId": "dlsc",
+  "logoImageFile": "preferencesfx/preferencesfx.png",
+  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX/issues",
+  "id": "preferencesfx",
+  "images": [
+    {
+      "path": "preferences-demo.png",
+      "title": "Demo Application",
+      "description": "A UI created with PreferencesFX"
+    }
+  ]
+}

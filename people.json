@@ -11,7 +11,21 @@
     "photo": "dirk-lemmermann.jpg",
     "champion": true,
     "rockstar": true,
-    "id": "d.lemmermann"
+    "id": "d.lemmermann",
+    "libraryIds": [
+      "gemsfx",
+      "gmapsfx",
+      "preferencesfx",
+      "calendarfx",
+      "flexganttfx",
+      "unitfx",
+      "keyboardfx",
+      "pdffx",
+      "formsfx",
+      "workbenchfx"
+    ],
+    "bookIds": [
+    ]
   },
   {
     "name": "Andres Almiray",
@@ -25,7 +39,12 @@
     "photo": "andres.jpg",
     "champion": true,
     "rockstar": true,
-    "id": "a.almiray"
+    "id": "a.almiray",
+    "libraryIds": [
+      "ikonli"
+    ],
+    "bookIds": [
+    ]
   },
   {
     "name": "Alessio Vinerbi",

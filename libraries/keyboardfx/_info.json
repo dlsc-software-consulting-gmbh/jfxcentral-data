@@ -1,0 +1,19 @@
+{
+  "title": "KeyboardFX",
+  "description": "An on-screen virtual keyboard for JavaFX applications.",
+  "license": "APACHE2",
+  "homepage": "",
+  "repository": "https://github.com/dlsc-software-consulting-gmbh/KeyboardFX",
+  "personId": "d.lemmermann",
+  "companyId": "dlsc",
+  "logoImageFile": "",
+  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/KeyboardFX/issues",
+  "id": "keyboardfx",
+  "images": [
+    {
+      "path": "keyboard.png",
+      "title": "On-Screen Keyboard",
+      "description": "A virtual on-screen keyboard."
+    }
+  ]
+}
