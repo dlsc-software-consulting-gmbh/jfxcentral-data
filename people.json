@@ -25,6 +25,24 @@
       "workbenchfx"
     ],
     "bookIds": [
+      "getting-started-on-pi"
+    ]
+  },
+  {
+    "name": "Frank Delporte",
+    "description": "Author of 'Getting started with Java on Raspberry Pi'",
+    "email": "frank@webtechie.be",
+    "companyId": "",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "frankdelporte",
+    "twitter": "FrankDelporte",
+    "photo": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "f.delporte",
+    "bookIds": [
+      "getting-started-on-pi"
     ]
   },
   {
