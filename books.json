@@ -24,7 +24,7 @@
     "amazon": "https://www.amazon.com/Introducing-JavaFX-Programming-Oracle-English-ebook/dp/B010CHIM50/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Introducing+JavaFX+8+Programming&qid=1619702132&sr=8-1",
     "image": "books/introducingjfx8cover.jpg",
     "isbn": "978-0071842556",
-    "publishedDate": "06-09-2015"
+    "publishedDate": "2015-06-09"
   },
   {
     "id": "jfx9byexample",
@@ -82,7 +82,7 @@
     "amazon": "https://www.amazon.com/-/de/dp/B00L3TF02K/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Mastering+JavaFX+8+Controls&qid=1619703516&sr=8-1",
     "image": "books/masteringjfx8controls.jpg",
     "isbn": "978-0-0718-3377-6",
-    "publishedDate": "06-16-2014"
+    "publishedDate": "2014-06-16"
   },
   {
     "id": "projava9games",
@@ -112,7 +112,7 @@
     "url": "https://www.apress.com/gp/book/9781484230411",
     "amazon": "https://www.amazon.com/-/de/dp/B0788LZXWX/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=pro+JavaFX+9&qid=1619703685&sr=8-1",
     "image": "books/projfx9.jpg",
-    "isbn": "",
+    "isbn": "978-1-4842-3041-1",
     "publishedDate": "2017-12-13"
   }
 ]
