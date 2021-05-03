@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Java Desktop 2020 - Keynote at JFX Days 2020 | Hendrik Ebbers",
+    "type": "YOUTUBE",
+    "description": "Follow Java Champion Hendrik Ebbers on his story of \"Little Duke's Journey to the Moon\". During this keynote presentation held at JFX Days 2020 on Nov 24, 2020, Hendrik investigates what is wrong with Java in regards of the development of desktop applications. Is this a problem of Java - although it is still one of the most used programming languages? Or is it a problem of Java Desktop respectively JavaFX? Or maybe the problem is the community or - even worse - Oracle itself. \n\nIn this entertaining talk, Hendrik points out that there is no problem with all of the above. Developers need to accept that Java Desktop is a niche. But all together, the community can make this niche shine.",
+    "image": "https://www.youtube.com/watch?v=mIR2TucAwSQ&list=PLF6lMgtZsc9SvcaQElzNEBWWK2rbfgdCc&index=1",
+    "id": "mIR2TucAwSQ",
+    "personIds": [
+      "d.lemmermann"
+    ]
+  }
+]
