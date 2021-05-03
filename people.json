@@ -326,8 +326,8 @@
     "linkedIn": "",
     "twitter": "johanvos",
     "photo": "johan.jpg",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "j.vos"
   },
   {
