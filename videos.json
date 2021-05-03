@@ -21,7 +21,7 @@
     "title": "Moving JavaFX forward - Keynote Day 2 @ JFX Days 2020 | Johan Vos",
     "type": "YOUTUBE",
     "description": "Gluon has been the defacto JavaFX steward since the JavaFX 11 release. Gluon builds and maintains the JavaFX artifacts and makes them available as SDK's as well as on Maven Central. Moving JavaFX forward is often a balance between adding new features and staying at the front of the UI development, while also making sure that the core principles of Java, especially backward compatibility, are respected.\n\u200B\nIn the past year, focus was mainly on the transition to making JavaFX a set of modules that work well with evolving JDK releases as well as integrate with standard build, deploy and devops tools that are popular in the development community. One of the main focusses of JavaFX is to make sure it works on as much platforms as possible: desktop, but also mobile and embedded. In this session, Johan Vos, CEO of Gluon, presented some of the future ideas.",
-    "id": "PEl7Ojla9bc",
+    "id": "Q9ueZa_YkJg",
     "personIds": [
       "j.vos"
     ]
