@@ -137,7 +137,7 @@
     "title": "From Forms to OpenGL | Tom Schindl @ JFX Days 2020",
     "type": "YOUTUBE",
     "description": "Most developers associate integrating OpenGL into JavaFX as a high profile task. For them it might come as a surprise that implementing \"boring\" business UIs that look slick, that are accessible, and that are well architectured, is just as much of a high profile task.\n \nIn this talk we will show real world use cases and highlight how we implemented high quality form-based UIs leveraging JavaFX and code generators. We will talk about \"accessibility\" (a11y) and the roadblocks we hit.\n\u200B\nLast but not least we will talk a bit about DriftFX providing an update on the current status and what comes next.",
-    "id": "https://youtu.be/NusKg2ZWnrg",
+    "id": "NusKg2ZWnrg",
     "personIds": [
       "t.schindl"
     ]
