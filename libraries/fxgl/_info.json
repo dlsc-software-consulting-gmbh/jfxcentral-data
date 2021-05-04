@@ -1,0 +1,34 @@
+{
+  "title": "FXGL",
+  "description": "A JavaFX game engine",
+  "license": "MIT",
+  "homepage": "http://almasb.github.io/FXGLGames/",
+  "repository": "https://github.com/AlmasB/FXGL",
+  "personId": "a.baimagambetov",
+  "companyId": "brighton",
+  "logoImageFile": "fxgl_logo.png",
+  "issueTracker": "https://github.com/AlmasB/FXGL/issues",
+  "id": "fxgl",
+  "images": [
+    {
+      "path": "FXGL_Flappy.jpg",
+      "title": "Flappy Bird",
+      "description": ""
+    },
+    {
+      "path": "FXGL_GeoWars.jpg",
+      "title": "Geometry Wars",
+      "description": ""
+    },
+    {
+      "path": "FXGL_OutRun.jpg",
+      "title": "Outrun",
+      "description": ""
+    },
+    {
+      "path": "FXGL_SpaceInvaders.jpg",
+      "title": "Space Invaders",
+      "description": ""
+    }
+  ]
+}
