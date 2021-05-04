@@ -29,6 +29,24 @@
     ]
   },
   {
+    "name": "Almas Baimagambetov",
+    "description": "Almas is a Senior Lecturer in Game Development at the University of Brighton, with a PhD in Computer Science. He has over 13 years of software development experience and he is a huge fan of open source. His prominent contributions to the JavaFX community include: the FXGL game engine, a wide range of games collated into the FXGLGames repository and a collection of practical JavaFX tutorials.",
+    "email": "almaslvl@gmail.com",
+    "companyId": "brighton",
+    "website": "https://www.youtube.com/channel/UCmjXvUa36DjqCJ1zktXVbUA/videos",
+    "github": "AlmasB",
+    "blogId": "",
+    "linkedIn": "almasb",
+    "twitter": "AlmasBaim",
+    "photo": "almas.jpg",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.baimagambetov",
+    "libraryIds": [
+      "fxgl",
+    ],
+  },
+  {
     "name": "Frank Delporte",
     "description": "Author of 'Getting started with Java on Raspberry Pi'",
     "email": "frank@webtechie.be",

@@ -42,6 +42,7 @@
     "description": "Modern JavaFX provides hardware acceleration support on a range of platforms, including desktop, mobile and embedded, allowing the development of high-performance cross-platform applications. However, to develop games with JavaFX effectively, numerous domain-specific concepts are needed. \n\nTo address this need, the FXGL game engine extends JavaFX and brings support for real-world game development techniques. These include the entity-component model, A* pathfinding, particle systems, sprite sheet animations and many other features. As a result, JavaFX developers can produce games more quickly and more effectively with FXGL. \n\nIntegrating seamlessly with Gluon's Client plugin, FXGL users can easily package their games to native platform images, including Android and iOS. By the end of this session, attendees will be able to: \n\n- Describe and explain basic FXGL features. \n- Produce a simple game with FXGL.\n\nThis session of Almas Baimagambetov was recorded on Nov 24, 2020 during the JFX-Days 2020.",
     "id": "n-6t2-a-D_c",
     "personIds": [
+      "a.baimagambetov"
     ]
   },
   {
