@@ -8,5 +8,27 @@
   "companyId": "",
   "logoImageFile": "",
   "issueTracker": "https://github.com/kordamp/bootstrapfx/issues",
-  "id": "bootstrapfx"
+  "id": "bootstrapfx",
+  "images": [
+    {
+      "path": "buttons.png",
+      "title": "Buttons",
+      "description": ""
+    },
+    {
+      "path": "labels.png",
+      "title": "Labels",
+      "description": ""
+    },
+    {
+      "path": "panels.png",
+      "title": "Panels",
+      "description": ""
+    },
+    {
+      "path": "splitmenu-button.png",
+      "title": "Split Menu Buttons",
+      "description": ""
+    }
+  ]
 }
