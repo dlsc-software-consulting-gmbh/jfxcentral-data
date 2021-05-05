@@ -78,7 +78,11 @@
     "rockstar": true,
     "id": "a.almiray",
     "libraryIds": [
-      "ikonli"
+      "ikonli",
+      "jsilhouette",
+      "bootstrapfx",
+      "harmonicfx",
+      "desktoppanefx"
     ],
     "bookIds": [
     ]

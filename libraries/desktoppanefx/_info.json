@@ -1,0 +1,12 @@
+{
+  "title": "DesktopPaneFX",
+  "description": "DesktopPaneFX is a JavaFX version of Swing’s JDesktopPane which can be used as a container for individual \"child\" similar to JInternalFrames.",
+  "license": "APACHE2",
+  "homepage": "",
+  "repository": "https://github.com/kordamp/desktoppanefx/",
+  "personId": "a.almiray",
+  "companyId": "",
+  "logoImageFile": "",
+  "issueTracker": "https://github.com/kordamp/desktoppanefx/issues",
+  "id": "desktoppanefx"
+}
