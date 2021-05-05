@@ -1,6 +1,6 @@
 {
   "title": "UnitFX",
-  "description": "\nUnitFX is a lightweight framework for creating textfield input controls based on a \"unit of measure\" (UOM).",
+  "description": "UnitFX is a lightweight framework for creating text field input controls based on a \"unit of measure\" (UOM).",
   "license": "APACHE2",
   "homepage": "",
   "repository": "https://github.com/dlsc-software-consulting-gmbh/UnitFX",
