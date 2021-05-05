@@ -73,7 +73,8 @@
     "id": "masteringjfx8controls",
     "authors": "Hendrik Ebbers",
     "personIds": [
-      "h.ebbers"
+      "h.ebbers",
+      "d.lemmermann"
     ],
     "title": "Mastering JavaFX 8 Controls",
     "subtitle": "Create Custom JavaFX 8 Controls for Cross-Platform Applications",
@@ -104,7 +105,8 @@
       "s.chin",
       "w.gao",
       "j.weaver",
-      "d.iverson"
+      "d.iverson",
+      "d.lemmermann"
     ],
     "title": "Pro JavaFX 9",
     "subtitle": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients ",
@@ -113,6 +115,10 @@
     "amazon": "https://www.amazon.com/-/de/dp/B0788LZXWX/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=pro+JavaFX+9&qid=1619703685&sr=8-1",
     "image": "projfx9.jpg",
     "isbn": "978-1-4842-3041-1",
-    "publishedDate": "2017-12-13"
+    "publishedDate": "2017-12-13",
+    "personIds": [
+      "h.ebbers",
+      "d.lemmermann"
+    ]
   }
 ]
