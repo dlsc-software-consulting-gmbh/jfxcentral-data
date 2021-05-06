@@ -8,5 +8,27 @@
   "companyId": "dlsc",
   "logoImageFile": "calendar.png",
   "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
-  "id": "calendarfx"
+  "id": "calendarfx",
+  "images": [
+    {
+      "path": "dayview.png",
+      "title": "Day View",
+      "description": "A view showing the calendar information for a day and also for the previous and next couple of days."
+    },
+    {
+      "path": "monthview.png",
+      "title": "Month View",
+      "description": "A view showing the calendar entries for all days of a given month."
+    },
+    {
+      "path": "weekview.png",
+      "title": "Week View",
+      "description": "A view showing the calendar entries for all days of a week."
+    },
+    {
+      "path": "yearview.png",
+      "title": "Year View",
+      "description": "A view highlighting all days of a given year based on number of entries on that day."
+    }
+  ]
 }
