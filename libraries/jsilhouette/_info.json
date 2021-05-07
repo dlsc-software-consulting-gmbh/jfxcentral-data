@@ -1,12 +1,2 @@
 {
-  "title": "JSilhouette",
-  "description": "JSilhouette provides additional shapes for Java applications. Currently JavaFX is supported.",
-  "license": "APACHE2",
-  "homepage": "",
-  "repository": "https://github.com/kordamp/jsilhouette/",
-  "personId": "a.almiray",
-  "companyId": "",
-  "logoImageFile": "",
-  "issueTracker": "https://github.com/kordamp/jsilhouette/issues",
-  "id": "jsilhouette"
 }

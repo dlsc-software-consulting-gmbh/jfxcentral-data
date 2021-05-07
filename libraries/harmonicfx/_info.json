@@ -1,12 +1,2 @@
 {
-  "title": "HarmonicFX",
-  "description": "A collection of Friday Fun JavaFX components authored by Gerrit Grunwald.",
-  "license": "APACHE2",
-  "homepage": "",
-  "repository": "https://github.com/kordamp/harmonicfx/",
-  "personId": "a.almiray",
-  "companyId": "",
-  "logoImageFile": "",
-  "issueTracker": "https://github.com/kordamp/harmonicfx/issues",
-  "id": "harmonicfx"
 }

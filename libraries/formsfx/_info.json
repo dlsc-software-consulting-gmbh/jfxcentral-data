@@ -1,12 +1,2 @@
 {
-  "title": "FormsFX",
-  "description": "A framework for creating form-based UIs",
-  "license": "APACHE2",
-  "homepage": "",
-  "repository": "https://github.com/dlsc-software-consulting-gmbh/FormsFX",
-  "personId": "d.lemmermann",
-  "companyId": "dlsc",
-  "logoImageFile": "form.png",
-  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/FormsFX/issues",
-  "id": "formsfx"
 }

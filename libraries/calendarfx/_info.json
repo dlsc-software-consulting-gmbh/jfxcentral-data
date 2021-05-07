@@ -1,14 +1,4 @@
 {
-  "title": "CalendarFX",
-  "description": "Professional calendar UIs",
-  "license": "APACHE2",
-  "homepage": "",
-  "repository": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX",
-  "personId": "d.lemmermann",
-  "companyId": "dlsc",
-  "logoImageFile": "calendar.png",
-  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
-  "id": "calendarfx",
   "images": [
     {
       "path": "dayview.png",

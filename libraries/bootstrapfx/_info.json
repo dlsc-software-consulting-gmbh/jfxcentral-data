@@ -1,14 +1,4 @@
 {
-  "title": "BootstrapFX",
-  "description": "Bootstrap for JavaFX",
-  "license": "MIT",
-  "homepage": "",
-  "repository": "https://github.com/kordamp/bootstrapfx/",
-  "personId": "a.almiray",
-  "companyId": "",
-  "logoImageFile": "",
-  "issueTracker": "https://github.com/kordamp/bootstrapfx/issues",
-  "id": "bootstrapfx",
   "images": [
     {
       "path": "buttons.png",

@@ -1,14 +1,4 @@
 {
-  "title": "GemsFX",
-  "id": "gemsfx",
-  "description": "A collection of useful and highly advanced JavaFX controls.",
-  "license": "APACHE2",
-  "homepage": "",
-  "repository": "https://github.com/dlsc-software-consulting-gmbh/GemsFX",
-  "personId": "d.lemmermann",
-  "companyId": "dlsc",
-  "logoImageFile": "diamond_ring.png",
-  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX/issues",
   "images": [
     {
       "path": "dialog-pane.png",

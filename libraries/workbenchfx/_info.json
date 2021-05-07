@@ -1,12 +1,2 @@
 {
-  "title": "WorkbenchFX",
-  "description": "A rich client platform for JavaFX applications.",
-  "license": "APACHE2",
-  "homepage": "",
-  "repository": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX",
-  "personId": "d.lemmermann",
-  "companyId": "dlsc",
-  "logoImageFile": "tools.png",
-  "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX/issues",
-  "id": "workbenchfx"
 }
