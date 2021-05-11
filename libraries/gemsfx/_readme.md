@@ -18,20 +18,20 @@ types of dialogs.
 * Single line text input
 * Multiple line text input
 
-![DialogPane](gemsfx/docs/dialog-pane.png)
+![DialogPane](dialog-pane.png)
 
 ## Resizable Text Area
 
 A custom control that wraps a text area and adds a resize handle to the lower right corner of it. The area can be configured to be
 resizable in vertical, horizontal, or both directions.
 
-![ResizableTextArea](gemsfx/docs/resizable-text-area.png)
+![ResizableTextArea](resizable-text-area.png)
 
 ## Expanding Text Area
 
 A customized text area that grows based on its text content. The text area will never show vertical or horizontal scrollbars.
 
-![ExpandingTextArea](gemsfx/docs/expanding-text-area.png)
+![ExpandingTextArea](expanding-text-area.png)
 
 ## Time Picker
 
@@ -42,7 +42,7 @@ or not when they reach their minimum or maximum value. For example: the minute f
 the new value will be "0" when rollover is enabled. If not the value will remain at 59. Rollover combined with "linking fields" will cause the hours field to
 get increased when the minute field rolls over from 59 to 0 or decreased when the minute field rolls over from 0 to 59.
 
-![TimePicker](gemsfx/docs/time-picker.png)
+![TimePicker](time-picker.png)
 
 ## Duration Picker
 
@@ -51,7 +51,7 @@ defined by a minimum and maximum duration. A popup can be used to work with the 
 or not when they reach their minimum or maximum value. The control supports similar features as the time picker: rollover fields, keyboard support, linking fields,
 filling fields with leading zeros, etc..
 
-![DurationPicker](gemsfx/docs/duration-picker.png)
+![DurationPicker](duration-picker.png)
 
 ## Photo View
 
@@ -61,31 +61,31 @@ the view always provide a cropped version of the original image. This allows app
 the database. The control supports some keyboard shortcuts. The file chooser can be activated by pressing SPACE or ENTER. The photo can
 be removed by pressing DELETE or BACK_SPACE.
 
-![PhotoView](gemsfx/docs/photo-view.png)
+![PhotoView](photo-view.png)
 
 ## Payment Option Controls
 
 A specialized subclass of ImageView that can be used to display different graphics for different payment options. Graphics provided by Gregoire Segretain (https://www.sketchappsources.com/contributor/gregoiresgt)
 
-![LightOption](gemsfx/docs/payment-options-light.png) ![DarkOption](gemsfx/docs/payment-options-dark.png)
+![LightOption](payment-options-light.png) ![DarkOption](payment-options-dark.png)
 
 ## DrawerStackPane
 
 A stackpane with an optional node that can be shown inside a drawer. The drawer is animated and can slide in and out. When the drawer is showing a semi-transparent glass pane will cover the background. In addition the last height of the drawer can be persisted via the preferences API so that next time the drawer will show itself like in the last user session.
 
-![DrawerStackPane](gemsfx/docs/drawer-stackpane.png)
+![DrawerStackPane](drawer-stackpane.png)
 
 ## FilterView
 
 A control for filtering the content of an observable list. Works in combination with TableView, ListView, or any control that is based on observable lists.
 
-![FilterView](gemsfx/docs/filter-view.png)
+![FilterView](filter-view.png)
 
 ## RichTextArea
 
 A read-only text area that is capable of displaying nicely formatted text. The control comes with a rich model and a fluent API that will allow you to quickly compose rich text.
 
-![RichTextArea](gemsfx/docs/rich-textarea.png)
+![RichTextArea](rich-textarea.png)
 
 ```java
 RichTextArea area = new RichTextArea();
