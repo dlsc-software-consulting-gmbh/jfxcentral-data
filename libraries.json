@@ -3,7 +3,7 @@
     "id": "bootstrapfx",
     "title": "BootstrapFX",
     "summary": "Bootstrap for JavaFX",
-    "description": "BootstrapFX is a partial port of link:http://getbootstrap.com/[Twitter Bootstrap] for JavaFX. It mainly provides a CSS\nstylesheet that closely resembles the original while being custom tailored for JavaFX's unique CSS flavor.\n\nIt's worth mentioning that Twitter Bootstrap delivers more than just a standardized look for common widgets. It also\nprovides new widgets, behavior and a grid system. Some of these features may be ported at a later stage to BootstrapFX.",
+    "description": "BootstrapFX is a partial port of link:http://getbootstrap.com/[Twitter Bootstrap] for JavaFX. It mainly provides a CSS stylesheet that closely resembles the original while being custom tailored for JavaFX's unique CSS flavor.\n\nIt's worth mentioning that Twitter Bootstrap delivers more than just a standardized look for common widgets. It also provides new widgets, behavior and a grid system. Some of these features may be ported at a later stage to BootstrapFX.",
     "license": "MIT",
     "personId": "a.almiray",
     "companyId": "",
