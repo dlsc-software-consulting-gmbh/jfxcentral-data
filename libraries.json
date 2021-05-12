@@ -115,7 +115,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "diamond_ring.png",
+    "logoImageFile": "gemsfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX/issues"
   },
   {
@@ -132,7 +132,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "location_pin.png",
+    "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX/issues"
   },
   {
@@ -166,7 +166,7 @@
     "githubBranch": "master",
     "personId": "a.almiray",
     "companyId": "dlsc",
-    "logoImageFile": "paint_brush.png",
+    "logoImageFile": "",
     "issueTracker": "https://github.com/kordamp/ikonli/issues"
   },
   {
@@ -233,7 +233,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "gearwheels.png",
+    "logoImageFile": "preferencesfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX/issues",
     "id": "preferencesfx"
   },
@@ -267,7 +267,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "tools.png",
+    "logoImageFile": "workbenchfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX/issues",
     "id": "workbenchfx"
   }
