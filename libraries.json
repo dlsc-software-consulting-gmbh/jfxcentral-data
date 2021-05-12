@@ -63,7 +63,7 @@
     "githubBranch": "",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "chart_gantt.png",
+    "logoImageFile": "duke_fx-gantt.png",
     "issueTracker": "",
     "id": "flexganttfx"
   },
@@ -97,7 +97,7 @@
     "githubBranch": "master",
     "personId": "a.baimagambetov",
     "companyId": "brighton",
-    "logoImageFile": "fxgl_logo.png",
+    "logoImageFile": "",
     "issueTracker": "https://github.com/AlmasB/FXGL/issues",
     "id": "fxgl"
   },
@@ -199,7 +199,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "keyboard-2.png",
+    "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/KeyboardFX/issues",
     "id": "keyboardfx"
   },
@@ -216,7 +216,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "document_orientation_portrait-2.png",
+    "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX/issues",
     "id": "pdffx"
   },
@@ -250,7 +250,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "scales.png",
+    "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
     "id": "unitfx"
   },
