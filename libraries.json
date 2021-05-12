@@ -23,7 +23,7 @@
     "description": "Professional calendar UIs",
     "documentation": "https://dlsc.com/wp-content/html/calendarfx/manual.html",
     "license": "APACHE2",
-    "logoImageFile": "calendar.png",
+    "logoImageFile": "calendarfx.png",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
     "homepage": "",
@@ -80,7 +80,7 @@
     "githubBranch": "master",
     "personId": "d.lemmermann",
     "companyId": "dlsc",
-    "logoImageFile": "form.png",
+    "logoImageFile": "formsfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/FormsFX/issues",
     "id": "formsfx"
   },
