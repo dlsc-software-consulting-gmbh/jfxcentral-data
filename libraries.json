@@ -13,6 +13,7 @@
     "githubAccount": "kordamp",
     "githubProject": "bootstrapfx",
     "githubBranch": "master",
+    "readme": "README.adoc",
     "logoImageFile": "",
     "issueTracker": "https://github.com/kordamp/bootstrapfx/issues"
   },
