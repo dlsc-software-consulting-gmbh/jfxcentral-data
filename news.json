@@ -1,0 +1,29 @@
+[
+  {
+    "id": "post1",
+    "title": "New Website JFX-Central",
+    "subtitle": "One-stop destination for anything JavaFX",
+    "author": "Dirk Lemmermann",
+    "date": "2021-05-18",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-08"
+  },
+  {
+    "id": "post2",
+    "title": "Title",
+    "subtitle": "Title",
+    "author": "Dirk Lemmermann",
+    "date": "2021-05-18",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-08"
+  },
+  {
+    "id": "post3",
+    "title": "Title",
+    "subtitle": "Title",
+    "author": "Dirk Lemmermann",
+    "date": "2021-05-18",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-08"
+  }
+]
