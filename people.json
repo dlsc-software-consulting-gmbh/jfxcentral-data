@@ -27,7 +27,9 @@
     ],
     "bookIds": [
       "getting-started-on-pi"
-    ]
+    ],
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Almas Baimagambetov",
@@ -45,7 +47,9 @@
     "id": "a.baimagambetov",
     "libraryIds": [
       "fxgl"
-    ]
+    ],
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Frank Delporte",
@@ -62,7 +66,9 @@
     "id": "f.delporte",
     "bookIds": [
       "getting-started-on-pi"
-    ]
+    ],
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Andres Almiray",
@@ -85,7 +91,9 @@
       "desktoppanefx"
     ],
     "bookIds": [
-    ]
+    ],
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Alessio Vinerbi",
@@ -99,7 +107,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "a.vinerbi"
+    "id": "a.vinerbi",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Andreas Billmann",
@@ -113,7 +123,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "a.billmann"
+    "id": "a.billmann",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Arnaud Nouard",
@@ -127,7 +139,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "a.nouard"
+    "id": "a.nouard",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Bernard Traversat",
@@ -141,7 +155,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "b.traversat"
+    "id": "b.traversat",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Bertrand Goetzmann",
@@ -155,7 +171,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "b.goetzmann"
+    "id": "b.goetzmann",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Bruno Borges",
@@ -169,7 +187,9 @@
     "photo": "bruno-borges.jpeg",
     "champion": true,
     "rockstar": true,
-    "id": "b.borges"
+    "id": "b.borges",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Carl Dea",
@@ -183,7 +203,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "c.dea"
+    "id": "c.dea",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Christian Campo",
@@ -197,7 +219,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "c.campo"
+    "id": "c.campo",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Danno Ferrin",
@@ -211,7 +235,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "d.ferrin"
+    "id": "d.ferrin",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "David Grieve",
@@ -225,7 +251,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "d.grieve"
+    "id": "d.grieve",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Dean Iverson",
@@ -239,7 +267,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "d.iverson"
+    "id": "d.iverson",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Delorme Loïc",
@@ -253,7 +283,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "d.loic"
+    "id": "d.loic",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Gerrit Grunwald",
@@ -267,7 +299,9 @@
     "photo": "gerrit-grunwald.jpg",
     "champion": true,
     "rockstar": true,
-    "id": "g.grunwald"
+    "id": "g.grunwald",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Hendrik Ebbers",
@@ -281,7 +315,9 @@
     "photo": "hendrik-ebbers.jpg",
     "champion": true,
     "rockstar": true,
-    "id": "h.ebbers"
+    "id": "h.ebbers",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "James Weaver",
@@ -295,7 +331,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "j.weaver"
+    "id": "j.weaver",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Jasper Potts",
@@ -309,7 +347,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "j.potts"
+    "id": "j.potts",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Jeanette Winzenburg",
@@ -323,7 +363,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "j.winzenburg"
+    "id": "j.winzenburg",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Jens Deters",
@@ -337,7 +379,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "j.deters"
+    "id": "j.deters",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Johan Vos",
@@ -351,7 +395,9 @@
     "photo": "johan.jpg",
     "champion": true,
     "rockstar": true,
-    "id": "j.vos"
+    "id": "j.vos",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Jonathan Giles",
@@ -365,7 +411,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "j.giles"
+    "id": "j.giles",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "José Pereda",
@@ -379,7 +427,9 @@
     "photo": "jose.jpg",
     "champion": false,
     "rockstar": false,
-    "id": "j.pereda"
+    "id": "j.pereda",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Michael Heinrichs",
@@ -393,7 +443,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "m.heinrichs"
+    "id": "m.heinrichs",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Michael Hoffer",
@@ -407,7 +459,9 @@
     "photo": "mhoffer.jpg",
     "champion": false,
     "rockstar": false,
-    "id": "m.hoffer"
+    "id": "m.hoffer",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Mohamed Taman",
@@ -421,7 +475,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "m.taman"
+    "id": "m.taman",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Pedro Duque Vieira",
@@ -435,7 +491,9 @@
     "photo": "pedro.jpg",
     "champion": false,
     "rockstar": false,
-    "id": "p.vieira"
+    "id": "p.vieira",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Peter Pilgrim",
@@ -449,7 +507,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "p.pilgrim"
+    "id": "p.pilgrim",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Peter Rogge",
@@ -463,7 +523,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "p.rogge"
+    "id": "p.rogge",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Sean Phillips",
@@ -477,7 +539,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "s.phillips"
+    "id": "s.phillips",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Stephen Chin",
@@ -491,7 +555,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "s.chin"
+    "id": "s.chin",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Thierry Wasylczenko",
@@ -505,7 +571,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "t.wasylczenko"
+    "id": "t.wasylczenko",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Tobias Bley",
@@ -519,7 +587,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "t.bley"
+    "id": "t.bley",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Tom Schindl",
@@ -533,7 +603,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "t.schindl"
+    "id": "t.schindl",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Weiqi Gao",
@@ -547,7 +619,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "w.gao"
+    "id": "w.gao",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "William Antônio",
@@ -561,7 +635,9 @@
     "photo": "",
     "champion": false,
     "rockstar": false,
-    "id": "w.antonio"
+    "id": "w.antonio",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   }
 ]
 

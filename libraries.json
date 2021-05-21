@@ -15,7 +15,9 @@
     "githubBranch": "master",
     "readme": "README.adoc",
     "logoImageFile": "",
-    "issueTracker": "https://github.com/kordamp/bootstrapfx/issues"
+    "issueTracker": "https://github.com/kordamp/bootstrapfx/issues",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "id": "calendarfx",
@@ -32,7 +34,9 @@
     "githubAccount": "dlsc-software-consulting-gmbh",
     "githubProject": "CalendarFX",
     "githubBranch": "master",
-    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues"
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "id": "desktoppanefx",
@@ -49,7 +53,9 @@
     "githubProject": "desktoppanefx",
     "githubBranch": "master",
     "logoImageFile": "",
-    "issueTracker": "https://github.com/kordamp/desktoppanefx/issues"
+    "issueTracker": "https://github.com/kordamp/desktoppanefx/issues",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "FlexGanttFX",
@@ -66,7 +72,9 @@
     "companyId": "dlsc",
     "logoImageFile": "duke_fx-gantt.png",
     "issueTracker": "",
-    "id": "flexganttfx"
+    "id": "flexganttfx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "FormsFX",
@@ -83,7 +91,9 @@
     "companyId": "dlsc",
     "logoImageFile": "formsfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/FormsFX/issues",
-    "id": "formsfx"
+    "id": "formsfx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "FXGL",
@@ -100,7 +110,9 @@
     "companyId": "brighton",
     "logoImageFile": "",
     "issueTracker": "https://github.com/AlmasB/FXGL/issues",
-    "id": "fxgl"
+    "id": "fxgl",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "GemsFX",
@@ -117,7 +129,9 @@
     "personId": "d.lemmermann",
     "companyId": "dlsc",
     "logoImageFile": "gemsfx.png",
-    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX/issues"
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX/issues",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "GMapsFX",
@@ -134,7 +148,9 @@
     "personId": "d.lemmermann",
     "companyId": "dlsc",
     "logoImageFile": "",
-    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX/issues"
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX/issues",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "HarmonicFX",
@@ -151,7 +167,9 @@
     "companyId": "",
     "logoImageFile": "",
     "issueTracker": "https://github.com/kordamp/harmonicfx/issues",
-    "id": "harmonicfx"
+    "id": "harmonicfx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "Ikonli",
@@ -168,7 +186,9 @@
     "personId": "a.almiray",
     "companyId": "dlsc",
     "logoImageFile": "",
-    "issueTracker": "https://github.com/kordamp/ikonli/issues"
+    "issueTracker": "https://github.com/kordamp/ikonli/issues",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "JSilhouette",
@@ -185,7 +205,9 @@
     "companyId": "",
     "logoImageFile": "",
     "issueTracker": "https://github.com/kordamp/jsilhouette/issues",
-    "id": "jsilhouette"
+    "id": "jsilhouette",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "KeyboardFX",
@@ -202,7 +224,9 @@
     "companyId": "dlsc",
     "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/KeyboardFX/issues",
-    "id": "keyboardfx"
+    "id": "keyboardfx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "PDFViewFX",
@@ -219,7 +243,9 @@
     "companyId": "dlsc",
     "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX/issues",
-    "id": "pdffx"
+    "id": "pdffx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "PreferencesFX",
@@ -236,7 +262,9 @@
     "companyId": "dlsc",
     "logoImageFile": "preferencesfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX/issues",
-    "id": "preferencesfx"
+    "id": "preferencesfx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "UnitFX",
@@ -253,7 +281,9 @@
     "companyId": "dlsc",
     "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
-    "id": "unitfx"
+    "id": "unitfx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   },
   {
     "title": "WorkbenchFX",
@@ -270,6 +300,8 @@
     "companyId": "dlsc",
     "logoImageFile": "workbenchfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX/issues",
-    "id": "workbenchfx"
+    "id": "workbenchfx",
+    "createdOn": "2021-05-18",
+    "modifiedOn": "2021-05-28"
   }
 ]
