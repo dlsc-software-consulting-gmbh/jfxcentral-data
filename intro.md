@@ -3,3 +3,6 @@ related to the JavaFX ecosystem: latest news, a list of people / influencers tha
 write books, give presentations. Blogs with posts specific to JavaFX. A hand-picked list of videos from 
 conferences (such as the JFX-Days), product demos, real-word examples. Collections of books for newbies 
 and pros and a registry of the most popular JavaFX libraries.
+
+> **Note** Will this appear as a note block in our markdown view?
+> A second line
