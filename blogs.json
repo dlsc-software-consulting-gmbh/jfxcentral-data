@@ -1,5 +1,13 @@
 [
   {
+    "id": "gluon",
+    "title": "Gluon News",
+    "summary": "Gluon is the co-steward of JavaFX and the Gluon 'News' page is the place to checkout frequently if you want to stay up to date on the latest developments regarding JavaFX.",
+    "url": "https://gluonhq.com/news/",
+    "createdOn": "2021-05-24",
+    "personId": "j.vos"
+  },
+  {
     "id": "fxexperience",
     "title": "FX Experience",
     "summary": "FX Experience by Jonathan Giles (and Jasper Potts in earlier days) has been the premiere site for JavaFX code, posts, and insights since mid-2009.",
