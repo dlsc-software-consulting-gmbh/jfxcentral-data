@@ -1,9 +1,19 @@
 [
   {
+    "id": "webtechie",
+    "title": "webtechie.be",
+    "summary": "RaspberryPi and JavaFX at its best. You can find it on Frank Delporte's blog.",
+    "url": "https://webtechie.be",
+    "createdOn": "2021-05-24",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
     "id": "foojay",
     "title": "Foofay JavaFX Channel",
-    "summary": "Foojay provides a great JavaFX channel with fresh content provided by various authors.",
-    "url": "https://foojay.io/today/author/carl-dea/",
+    "summary": "Foojay features a great JavaFX channel with fresh content provided by various authors.",
+    "url": "https://foojay.io/today/category/java/javafx/",
     "createdOn": "2021-05-24",
     "personIds": [
       "g.grunwald",
