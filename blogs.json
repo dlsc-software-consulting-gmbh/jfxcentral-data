@@ -5,6 +5,7 @@
     "summary": "RaspberryPi and JavaFX at its best. You can find it on Frank Delporte's blog.",
     "url": "https://webtechie.be",
     "createdOn": "2021-05-24",
+    "feed": "https://webtechie.be/index.xml",
     "personIds": [
       "f.delporte"
     ]
@@ -15,6 +16,7 @@
     "summary": "foojay (Friends of OpenJDK) features a great JavaFX channel with fresh content provided by various authors.",
     "url": "https://foojay.io/today/category/java/javafx/",
     "createdOn": "2021-05-24",
+    "feed": "https://foojay.io/feed/",
     "personIds": [
       "g.grunwald",
       "c.dea",
@@ -70,6 +72,7 @@
     "summary": "Enjoy Pedro Vieira articles on fun Java controls, the JMetro theme, and his experience from working on JavaFX projects as a freelancer and consultant.",
     "url": "https://www.pixelduke.com/",
     "createdOn": "2021-05-24",
+    "feed": "https://www.pixelduke.com/feed/",
     "personIds": [
       "p.vieira"
     ]
