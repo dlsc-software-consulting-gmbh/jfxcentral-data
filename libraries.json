@@ -17,7 +17,9 @@
     "logoImageFile": "",
     "issueTracker": "https://github.com/kordamp/bootstrapfx/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "org.kordamp.bootstrapfx",
+    "artifactId": "bootstrapfx-core"
   },
   {
     "id": "calendarfx",
