@@ -1,7 +1,5 @@
 DesktopPaneFX is a JavaFX version of Swing's JDesktopPane which can be used as a container for individual "child" similar to JInternalFrames.
 
-This project started as a fork of [JavaFXMDI](https://github.com/lincolnminto/javaFXMDI) authored by Lincoln Minto.
-
 ![Screenshot](desktoppanefx.png "Screenshot")
 
 ## Installing
