@@ -48,6 +48,7 @@
     "summary": "Hendrik Ebbers covers various aspects of Java technology on his site and this includes many in-depth posts on JavaFX topics.",
     "url": "http://www.guigarage.com/",
     "createdOn": "2021-05-24",
+    "feed": "https://guigarage.com/feed",
     "personIds": [
       "h.ebbers"
     ]
@@ -58,6 +59,7 @@
     "summary": "Gerrit Grunwald's blog contains tons of cool JavaFX widgets. Especially noteworthy is his 'Friday Fun Component' series",
     "url": "http://harmoniccode.blogspot.de/",
     "createdOn": "2021-05-24",
+    "feed": "https://harmoniccode.blogspot.com/feeds/posts/default",
     "personIds": [
       "g.grunwald"
     ]
@@ -78,6 +80,7 @@
     "summary": "Dirk Lemmermann blogs about JavaFX tips & tricks, custom controls, and 'Real World' applications.",
     "url": "http://dlsc.com/blog/",
     "createdOn": "2021-05-24",
+    "feed": "https://dlemmermann.wordpress.com/feed/",
     "personIds": [
       "d.lemmermann"
     ]
