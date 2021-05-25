@@ -30,6 +30,7 @@
     "summary": "Gluon is the co-steward of JavaFX and the Gluon 'News' page is the place to checkout frequently if you want to stay up to date on the latest developments regarding JavaFX.",
     "url": "https://gluonhq.com/news/",
     "createdOn": "2021-05-24",
+    "feed": "https://gluonhq.com/feed/",
     "personIds": [
       "j.vos"
     ]
