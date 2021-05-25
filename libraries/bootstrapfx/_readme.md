@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation '{project-group}:{project-name}-core:{project-version}'
+    implementation 'org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0'
 }
 ```
 
@@ -23,9 +23,9 @@ Maven
 ```
 <dependencies>
     <dependency>
-        <groupId>{project-group}</groupId>
-        <artifactId>{project-name}-core</artifactId>
-        <version>{project-version}</version>
+        <groupId>org.kordamp.bootstrapfx</groupId>
+        <artifactId>bootstrapfx-core</artifactId>
+        <version>0.4.0</version>
     </dependency>
 </dependencies>
 ```

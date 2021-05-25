@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation '{project-group}:desktoppanefx-core:{project-version}'
+    implementation 'org.kordamp.desktoppanefx:desktoppanefx-core:0.15.0'
 }
 ```
 
@@ -21,9 +21,9 @@ Maven
 ```
 <dependencies>
     <dependency>
-        <groupId>{project-group}</groupId>
+        <groupId>org.kordamp.desktoppanefx</groupId>
         <artifactId>desktoppanefx-core</artifactId>
-        <version>{project-version}</version>
+        <version>0.15.0</version>
     </dependency>
 </dependencies>
 ```
