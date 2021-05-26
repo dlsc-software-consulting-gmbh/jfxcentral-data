@@ -16,7 +16,7 @@
     "summary": "foojay (Friends of OpenJDK) features a great JavaFX channel with fresh content provided by various authors.",
     "url": "https://foojay.io/today/category/java/javafx/",
     "createdOn": "2021-05-24",
-    "feed": "https://foojay.io/feed/",
+    "feed": "https://foojay.io/today/category/java/javafx/feed",
     "personIds": [
       "g.grunwald",
       "c.dea",
