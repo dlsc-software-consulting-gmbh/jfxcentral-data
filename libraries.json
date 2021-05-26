@@ -81,7 +81,7 @@
   {
     "title": "FormsFX",
     "summary": "A framework for creating form-based UIs",
-    "description": "A framework for creating form-based UIs",
+    "description": "Creating forms in JavaFX is a tedious and very error-prone task. FormsFX is a framework which solves this problem. It enables the developer to create forms with ease and creates well-designed and user-friendly forms by default. FormsFX offers a fluent API that is very easy to understand and reduces the amount of coding needed. It creates all the necessary bindings for the properties and *it just works*.\nCreating forms in JavaFX is a tedious and very error-prone task. FormsFX is a framework which solves this problem. It enables the developer to create forms with ease and creates well-designed and user-friendly forms by default. FormsFX offers a fluent API that is very easy to understand and reduces the amount of coding needed. It creates all the necessary bindings for the properties and *it just works*.",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/FormsFX#readme",
     "license": "APACHE2",
     "homepage": "",
