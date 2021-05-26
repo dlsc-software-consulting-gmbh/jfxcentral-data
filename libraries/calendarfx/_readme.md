@@ -1,26 +1,82 @@
-A Java framework for creating sophisticated calendar views based on JavaFX. A detailed developer manual can be found online: [CalendarFX 8 Developer Manual](https://dlsc.com/wp-content/html/calendarfx/manual.html)
+The following section shows you how to quickly setup a JavaFX application that will show a complete calendar user interface. It includes a day view, a week view, a month view, a year view, an agenda view, a calendar selection view, and a search UI.
 
-[![Apache-2 license](https://img.shields.io/badge/license-Apache--2-%230778B9.png)](https://opensource.org/licenses/Apache-2.0)
-[![Maven Central](https://img.shields.io/maven-central/v/com.calendarfx/view)](https://search.maven.org/search?q=g:com.calendarfx+AND+a:view)
-[![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/dlsc-software-consulting-gmbh/CalendarFX)](https://lgtm.com/projects/g/dlsc-software-consulting-gmbh/CalendarFX/alerts)
-[![LGTM Grade](https://img.shields.io/lgtm/grade/java/github/dlsc-software-consulting-gmbh/CalendarFX)](https://lgtm.com/projects/g/dlsc-software-consulting-gmbh/CalendrFX/context:java)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_CalendarFX2&metric=ncloc)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_CalendarFX2&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_CalendarFX2&metric=security_rating)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
+```
+package com.calendarfx.app;
 
-For a quick online demo please checkout [JPro](https://jpro.one) and their [CalendarFX demo](https://demos.jpro.one/calendar.html).
+import java.time.LocalDate;
+import java.time.LocalTime;
 
-![Screenshot](screenshot.png "Screenshot")
+import com.calendarfx.model.Calendar;
+import com.calendarfx.model.Calendar.Style;
+import com.calendarfx.model.CalendarSource;
+import com.calendarfx.view.CalendarView;
 
-# Repository Coordinates
-CalendarFX can be found on [Maven Central](https://search.maven.org/search?q=g:com.calendarfx+AND+a:view) as `com.calendarfx:view`.
+import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-# Modules
+public class CalendarApp extends Application {
 
-* CalendarFXView — the main module containing the various calendar views
-* CalendarFXSampler — a demo app based on FXSampler to test controls individually
-* CalendarFXApp — a demo app (day, week, month, year views).
-* CalendarFXiCal — a demo app for working with iCalendar data
-* CalendarFXGoogle — a demo app for working with Google calendars
-* CalendarFXResourceApp — a demo app for the resource calendar view
-* CalendarFXWeather — a demo app for the month sheet view
+        @Override
+        public void start(Stage primaryStage) throws Exception {
+
+            CalendarView calendarView = new CalendarView(); (1)
+
+                Calendar birthdays = new Calendar("Birthdays"); (2)
+                Calendar holidays = new Calendar("Holidays");
+
+                birthdays.setStyle(Style.STYLE1); (3)
+                holidays.setStyle(Style.STYLE2);
+
+                CalendarSource myCalendarSource = new CalendarSource("My Calendars"); (4)
+                myCalendarSource.getCalendars().addAll(birthdays, holidays);
+
+                calendarView.getCalendarSources().addAll(myCalendarSource); (5)
+
+                calendarView.setRequestedTime(LocalTime.now());
+
+                Thread updateTimeThread = new Thread("Calendar: Update Time Thread") {
+                        @Override
+                        public void run() {
+                                while (true) {
+                                        Platform.runLater(() -> {
+                                                calendarView.setToday(LocalDate.now());
+                                                calendarView.setTime(LocalTime.now());
+                                        });
+
+                                        try {
+                                                // update every 10 seconds
+                                                sleep(10000);
+                                        } catch (InterruptedException e) {
+                                                e.printStackTrace();
+                                        }
+
+                                }
+                        };
+                };
+
+                updateTimeThread.setPriority(Thread.MIN_PRIORITY);
+                updateTimeThread.setDaemon(true);
+                updateTimeThread.start();
+
+                Scene scene = new Scene(calendarView);
+                primaryStage.setTitle("Calendar");
+                primaryStage.setScene(scene);
+                primaryStage.setWidth(1300);
+                primaryStage.setHeight(1000);
+                primaryStage.centerOnScreen();
+                primaryStage.show();
+        }
+
+        public static void main(String[] args) {
+                launch(args);
+        }
+}
+```
+
+1. Create the calendar view
+2. Create one or more calendars
+3. Set a style on each calendar (entries will use different colors)
+4. Create a calendar source (e.g. "Google") and add calendars to it
+5. Add calendars to the view
