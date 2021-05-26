@@ -1,34 +1,4 @@
-DesktopPaneFX is a JavaFX version of Swing's JDesktopPane which can be used as a container for individual "child" similar to JInternalFrames.
-
-![Screenshot](desktoppanefx.png "Screenshot")
-
-## Installing
-
-You can get the latest version of **DesktopPaneFX** directly from the [JCenter](https://bintray.com) repository or Maven Central.
-
-Gradle
-```
-repositories {
-    jcenter()
-}
-
-dependencies {
-    implementation 'org.kordamp.desktoppanefx:desktoppanefx-core:0.15.0'
-}
-```
-
-Maven
-```
-<dependencies>
-    <dependency>
-        <groupId>org.kordamp.desktoppanefx</groupId>
-        <artifactId>desktoppanefx-core</artifactId>
-        <version>0.15.0</version>
-    </dependency>
-</dependencies>
-```
-
-## Example
+The following code shows how to quickly get started with DesktopPaneFX.
 
 ```
 package com.acme;
