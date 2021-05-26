@@ -1,35 +1,3 @@
-BootstrapFX is a partial port of [Twitter Bootstrap](http://getbootstrap.com/) for JavaFX. It mainly provides a CSS
-stylesheet that closely resembles the original while being custom tailored for JavaFX's unique CSS flavor.
-
-It's worth mentioning that Twitter Bootstrap delivers more than just a standardized look for common widgets. It also
-provides new widgets, behavior and a grid system. Some of these features may be ported at a later stage to BootstrapFX.
-
-## Installing
-
-You can get the latest version of **BootstrapFX** from Maven Central.
-
-gradle
-```
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation 'org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0'
-}
-```
-
-Maven
-```
-<dependencies>
-    <dependency>
-        <groupId>org.kordamp.bootstrapfx</groupId>
-        <artifactId>bootstrapfx-core</artifactId>
-        <version>0.4.0</version>
-    </dependency>
-</dependencies>
-```
-
 Once the `bootstrapfx-core` dependency is in your classpath you just need to apply the `boostrapfx.css` stylesheet to
 a scene, for example
 
