@@ -1,14 +1,20 @@
 [
   {
+    "id": "dlsc",
     "name": "DLSC Software & Consulting GmbH",
-    "id": "dlsc"
+    "homepage": "https://dlsc.com",
+    "createdOn": "2021-05-26"
   },
   {
+    "id": "brighton",
     "name": "University of Brighton",
-    "id": "brighton"
+    "homepage": "https://www.brighton.ac.uk/index.aspx",
+    "createdOn": "2021-05-26"
   },
   {
+    "id": "foojay",
     "name": "foojay",
-    "id": "foojay"
+    "homepage" : "https://foojay.io",
+    "createdOn": "2021-05-26"
   }
 ]
