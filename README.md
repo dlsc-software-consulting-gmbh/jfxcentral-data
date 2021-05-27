@@ -4,36 +4,4 @@
 - [Adding a book](#adding-a-book)
 
 ### Adding a Person
-
-
-
-
-
-
-sadfasdf
-asdf
-asdf
-sd
-fasdfasdfasdf
-
-dfadsf
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Adding a Book

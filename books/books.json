@@ -55,6 +55,9 @@
     "amazon": "https://www.amazon.de/JavaFX-Essentials-English-Mohamed-Taman/dp/1784398020/ref=sr_1_2?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=JavaFX+essentials&qid=1619702828&sr=8-2",
     "image": "jfxessentials.jpeg",
     "isbn": "9781784398026",
+    "personIds": [
+      "m.taman"
+    ],
     "publishedDate": "2015-06-29"
   },
   {

@@ -1,0 +1,1 @@
+Java EE architect, fan of Groovy/Grails (trainer), JavaFX, Drupal and Ionic.

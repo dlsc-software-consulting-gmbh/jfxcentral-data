@@ -16,5 +16,23 @@
     "name": "foojay",
     "homepage" : "https://foojay.io",
     "createdOn": "2021-05-26"
+  },
+  {
+    "id": "bestsolution",
+    "name": "bestsolution.at",
+    "homepage" : "https://www.bestsolution.at",
+    "createdOn": "2021-05-27"
+  },
+  {
+    "id": "karakun",
+    "name": "Karakun",
+    "homepage" : "https://karakun.com",
+    "createdOn": "2021-05-27"
+  },
+  {
+    "id": "eppleton",
+    "name": "Eppleton",
+    "homepage" : "https://eppleton.de",
+    "createdOn": "2021-05-27"
   }
 ]

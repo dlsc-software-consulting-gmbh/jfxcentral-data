@@ -1,7 +1,6 @@
 [
   {
     "name": "Dirk Lemmermann",
-    "description": "JavaFX Fan Boy. Java Champion. Java One Rockstar. Open Source Contributor. Freelancer. Consultant. Speaker. Entrepreneur.",
     "email": "dlemmermann@gmail.com",
     "companyId": "dlsc",
     "website": "https://www.dlsc.com",
@@ -29,7 +28,6 @@
   },
   {
     "name": "Almas Baimagambetov",
-    "description": "Almas is a Senior Lecturer in Game Development at the University of Brighton, with a PhD in Computer Science. He has over 13 years of software development experience and he is a huge fan of open source. His prominent contributions to the JavaFX community include: the FXGL game engine, a wide range of games collated into the FXGLGames repository and a collection of practical JavaFX tutorials.",
     "email": "almaslvl@gmail.com",
     "companyId": "brighton",
     "website": "https://www.youtube.com/channel/UCmjXvUa36DjqCJ1zktXVbUA/videos",
@@ -48,7 +46,6 @@
   },
   {
     "name": "Frank Delporte",
-    "description": "Author of 'Getting started with Java on Raspberry Pi'",
     "email": "frank@webtechie.be",
     "companyId": "",
     "website": "",
@@ -66,7 +63,6 @@
   },
   {
     "name": "Andres Almiray",
-    "description": "JSR377 Spec lead, Groovy aficionado, Griffon project lead, Basilisk project lead",
     "email": "",
     "companyId": "",
     "website": "",
@@ -90,7 +86,6 @@
   },
   {
     "name": "Alessio Vinerbi",
-    "description": "Java and JavaFX Senior software engineer",
     "email": "",
     "companyId": "",
     "website": "",
@@ -105,7 +100,6 @@
   },
   {
     "name": "Andreas Billmann",
-    "description": "Java and JavaFX developer",
     "email": "",
     "companyId": "",
     "website": "",
@@ -120,7 +114,6 @@
   },
   {
     "name": "Arnaud Nouard",
-    "description": "Play JavaFX, Drums, Keyboard (those with black and white keys!) and with my Kids.",
     "email": "",
     "companyId": "",
     "website": "",
@@ -135,7 +128,6 @@
   },
   {
     "name": "Bernard Traversat",
-    "description": "Java Language, JVM, JavaScript, JDK, JavaFX, Swing/AWT - Sr. Eng Director, Java Platform Group, Oracle",
     "email": "",
     "companyId": "",
     "website": "",
@@ -150,7 +142,6 @@
   },
   {
     "name": "Bertrand Goetzmann",
-    "description": "Java EE architect, fan of Groovy/Grails (trainer), JavaFX, Drupal and Ionic",
     "email": "",
     "companyId": "",
     "website": "",
@@ -165,7 +156,6 @@
   },
   {
     "name": "Bruno Borges",
-    "description": "Java Champion, Principal Product Manager for Java at Mirosoft",
     "email": "",
     "companyId": "",
     "website": "",
@@ -180,7 +170,6 @@
   },
   {
     "name": "Carl Dea",
-    "description": " Book Author, Blogger, a wannabe GUI guy, JavaFX enthusiast, mobile phones, AI.",
     "email": "",
     "companyId": "",
     "website": "",
@@ -194,23 +183,7 @@
     "modifiedOn": "2021-05-28"
   },
   {
-    "name": "Christian Campo",
-    "description": "Committer in multiple Eclipse projects, interested in JavaFX and Cloud Storage",
-    "email": "",
-    "companyId": "",
-    "website": "",
-    "blogId": "",
-    "linkedIn": "",
-    "twitter": "christiancampo",
-    "champion": false,
-    "rockstar": false,
-    "id": "c.campo",
-    "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
-  },
-  {
     "name": "Danno Ferrin",
-    "description": "Java, JavaFX, Gradle, Groovy, Co-founded Griffon",
     "email": "",
     "companyId": "",
     "website": "",
@@ -225,7 +198,6 @@
   },
   {
     "name": "David Grieve",
-    "description": "Former member of the JavaFX development team at Oracle. Primarily responsible for JavaFX's CSS implementation",
     "email": "",
     "companyId": "",
     "website": "",
@@ -240,7 +212,6 @@
   },
   {
     "name": "Dean Iverson",
-    "description": "JavaFX Author",
     "email": "",
     "companyId": "",
     "website": "",
@@ -254,23 +225,7 @@
     "modifiedOn": "2021-05-28"
   },
   {
-    "name": "Delorme Loïc",
-    "description": "Junior Java SE/EE developer, UI and mobile application lover (JavaFX, #GluonHQ)",
-    "email": "",
-    "companyId": "",
-    "website": "",
-    "blogId": "",
-    "linkedIn": "",
-    "twitter": "delormeloic26",
-    "champion": false,
-    "rockstar": false,
-    "id": "d.loic",
-    "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
-  },
-  {
     "name": "Gerrit Grunwald",
-    "description": "JUG Leader, Java Champion, JavaONE Rockstar, ❤️ Java(FX) and IoT, may the force be with you...",
     "email": "",
     "companyId": "",
     "website": "",
@@ -285,7 +240,6 @@
   },
   {
     "name": "Hendrik Ebbers",
-    "description": "JUG Dortmund Lead, Java Champion, JavaOne Rockstar, JavaFX book author, JSR EG member",
     "email": "",
     "companyId": "",
     "website": "",
@@ -300,7 +254,6 @@
   },
   {
     "name": "James Weaver",
-    "description": "Java/JavaFX/IoT developer, author and speaker",
     "email": "",
     "companyId": "",
     "website": "",
@@ -315,7 +268,6 @@
   },
   {
     "name": "Jasper Potts",
-    "description": "Developer on the JavaFX & Swing teams at Oracle. Working on the new JavaFX Applications, JavaFX UI Controls and Graphics frameworks",
     "email": "",
     "companyId": "",
     "website": "",
@@ -330,7 +282,6 @@
   },
   {
     "name": "Jeanette Winzenburg",
-    "description": "Java desktop consultant: old-time Swing/X enthusiast, grudging adopter of JavaFX",
     "email": "",
     "companyId": "",
     "website": "",
@@ -345,7 +296,6 @@
   },
   {
     "name": "Jens Deters",
-    "description": "JavaFX, MQTT_fx leader, FontAwesomeFX leader, IoT, docker, dcos, NetBeans Dream Team",
     "email": "",
     "companyId": "",
     "website": "",
@@ -360,7 +310,6 @@
   },
   {
     "name": "Johan Vos",
-    "description": "Java developer, Java Champion, co-founder at Gluon, CTO at LodgON, Using JavaFX and Glassfish, working on Gluon, Java EE, DataFX,...",
     "email": "",
     "companyId": "",
     "website": "",
@@ -375,7 +324,6 @@
   },
   {
     "name": "Jonathan Giles",
-    "description": "Former UI controls technical lead of JavaFX team at Oracle",
     "email": "",
     "companyId": "",
     "website": "",
@@ -390,7 +338,6 @@
   },
   {
     "name": "José Pereda",
-    "description": "PhD, Structural Engineer, love coding, Java & JavaFX, JavaFXPorts, mobile apps, IoT. Software Engineer at Gluon",
     "email": "",
     "companyId": "",
     "website": "",
@@ -405,7 +352,6 @@
   },
   {
     "name": "Michael Heinrichs",
-    "description": "Java, Web, JavaFX developer. Interested in agile development and public speaking",
     "email": "",
     "companyId": "",
     "website": "",
@@ -420,7 +366,6 @@
   },
   {
     "name": "Michael Hoffer",
-    "description": "Computer Scientist, Mathematician, Software Developer, Artist",
     "email": "",
     "companyId": "",
     "website": "",
@@ -435,7 +380,6 @@
   },
   {
     "name": "Mohamed Taman",
-    "description": "JCP, Java Champions, Hacker, Speaks Java, Enterprise Architect & Software Development Sr. Manager, Mobile/ Web Architect,international speaker, IoT Geek, Author",
     "email": "",
     "companyId": "",
     "website": "",
@@ -450,7 +394,6 @@
   },
   {
     "name": "Pedro Duque Vieira",
-    "description": "JavaFX and Swing Freelancer and Consultant or more generally a Front End Freelancer, Consultant and Software Designer specialized in user interfaces, contributor to open source. Owner of [Pixel Duke a JavaFX, Swing and Front End consultancy company]",
     "email": "",
     "companyId": "",
     "website": "https://www.pixelduke.com",
@@ -465,7 +408,6 @@
   },
   {
     "name": "Sean Phillips",
-    "description": "NASA contractor. JavaFX, NetBeans Platform. Develops Deep Space Trajectory Design tools and also JavaFX author",
     "email": "",
     "companyId": "",
     "website": "",
@@ -480,7 +422,6 @@
   },
   {
     "name": "Stephen Chin",
-    "description": "JavaFX evangelist, author, speaker, and open-source hacker",
     "email": "",
     "companyId": "",
     "website": "",
@@ -495,7 +436,6 @@
   },
   {
     "name": "Thierry Wasylczenko",
-    "description": "Java, JavaFX, Agile, Speaker, RebelLabs author, SlideshowFX leader",
     "email": "",
     "companyId": "",
     "website": "",
@@ -510,7 +450,6 @@
   },
   {
     "name": "Tom Schindl",
-    "description": "Eclipse Committer, [e(fx)clipse](http://www.efxclipse.org/) project lead and CTO at BestSolution.at",
     "email": "",
     "companyId": "",
     "website": "",
@@ -540,7 +479,6 @@
   },
   {
     "name": "William Antônio",
-    "description": "JBoss Support Engineer and JavaFX enthusiast. Java Blogger.",
     "email": "",
     "companyId": "",
     "website": "",
@@ -552,6 +490,20 @@
     "id": "w.antonio",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
+  },
+  {
+    "name": "Anton Epple",
+    "email": "",
+    "companyId": "eppleton",
+    "website": "https://eppleton.de",
+    "blogId": "",
+    "linkedIn": "",
+    "twitter": "@monacotoni",
+    "champion": true,
+    "rockstar": true,
+    "id": "a.epple",
+    "createdOn": "2021-05-27",
+    "modifiedOn": "2021-05-27"
   }
 ]
 
