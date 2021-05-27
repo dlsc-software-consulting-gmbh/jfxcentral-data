@@ -6,15 +6,15 @@
     "createdOn": "2021-05-26"
   },
   {
-    "id": "gluon",
-    "name": "Gluon",
-    "homepage": "https://gluonhq.com",
-    "createdOn": "2021-05-27"
-  },
-  {
     "id": "jpro",
     "name": "jpro.one",
     "homepage": "https://jpro.one",
+    "createdOn": "2021-05-27"
+  },
+  {
+    "id": "gluon",
+    "name": "Gluon",
+    "homepage": "https://gluonhq.com",
     "createdOn": "2021-05-27"
   },
   {
