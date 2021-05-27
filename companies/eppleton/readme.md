@@ -1,1 +1,2 @@
-Eppleton is a company specialized on NetBeans RCP development. We are developing components and modules with a special focus on bioinformatics. Service offerings include consultancy, training, product customizations and custom development.
+Eppleton is a company specialized on NetBeans RCP development. They are developing components and modules with a special 
+focus on bioinformatics. Service offerings include consultancy, training, product customizations and custom development.
