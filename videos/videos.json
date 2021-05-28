@@ -271,5 +271,19 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "title": "JavaFX real-world application: MINT TRMS Scheduling Demo | Dirk Lemmermann",
+    "type": "Real World Application",
+    "domain": "Planning & Scheduling",
+    "description": "The video shows the scheduling part of the the MINT TRMS (Training and Resource Management) application in action. The software is used by airlines to ensure that their staff is always up-to-date regarding their certifications. MINT TRMS utilizes the FlexGanttFX framework.",
+    "id": "d-oxGpUkFe4",
+    "event": "",
+    "platform": "Desktop",
+    "createdOn": "2021-05-28",
+    "modifiedOn": "2021-05-28",
+    "personIds": [
+      "d.lemmermann"
+    ]
   }
 ]

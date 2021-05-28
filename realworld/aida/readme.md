@@ -4,4 +4,4 @@ The application is created with the mvvmFX framework. We are using CDI as depend
 
 [![Screen 1](screen1.png)]()
 
-[![Screen 1](screen2.png)]()
+[![Screen 2](screen2.png)]()
