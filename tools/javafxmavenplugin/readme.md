@@ -1,5 +1,3 @@
-Maven plugin to run JavaFX 11+ applications
-
 ## Install
 
 The plugin is available via Maven Central.
