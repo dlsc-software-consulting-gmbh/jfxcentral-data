@@ -1,5 +1,15 @@
 [
   {
+    "id": "javafxmavenplugin",
+    "name": "JavaFX Maven Plugin",
+    "url": "https://github.com/openjfx/javafx-maven-plugin"
+  },
+  {
+    "id": "clientplugin",
+    "name": "Gluon Client Maven Plugin",
+    "url": "https://github.com/gluonhq/client-maven-plugin"
+  },
+  {
     "id": "scenicview",
     "name": "Scenic View",
     "url": "https://github.com/JonathanGiles/scenic-view",
