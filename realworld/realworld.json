@@ -143,12 +143,15 @@
     "summary": ""
   },
   {
-    "id": "nasa",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "id": "deepspace",
+    "name": "Deep Space Trajectory Explorer",
+    "company": "NASA",
+    "url": "https://ai-solutions.com/dste/",
+    "domain": "Research",
+    "summary": "Explore possible orbits in space.",
+    "videoIds": [
+      "MotQ1PC1xT8"
+    ]
   },
   {
     "id": "projektpro",
@@ -167,12 +170,15 @@
     "summary": ""
   },
   {
-    "id": "saxonia",
+    "id": "eteoboard",
     "name": "",
     "company": "",
     "url": "",
     "domain": "",
-    "summary": ""
+    "summary": "",
+    "videoIds": [
+      "TlHjX2uZzxA"
+    ]
   },
   {
     "id": "senapt",
@@ -193,10 +199,13 @@
   {
     "id": "sophia",
     "name": "",
-    "company": "",
-    "url": "",
+    "company": "Sophia Genetics",
+    "url": "https://www.sophiagenetics.com",
     "domain": "",
-    "summary": ""
+    "summary": "",
+    "videoIds": [
+      "mJEKQHgBvug"
+    ]
   },
   {
     "id": "threesixty",
