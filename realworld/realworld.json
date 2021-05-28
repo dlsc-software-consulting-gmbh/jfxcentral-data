@@ -6,8 +6,7 @@
     "url": "https://xps.sidelinesports.com",
     "domain": "Sports",
     "summary": "An editor for composing coaching videos.",
-    "videoIds": {
-    }
+    "videoIds": []
   },
   {
     "id": "aida",
