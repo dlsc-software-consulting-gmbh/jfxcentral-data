@@ -1,12 +1,12 @@
 [
   {
     "id": "javafxmavenplugin",
-    "name": "JavaFX Maven Plugin",
+    "name": "JavaFX Plugin",
     "url": "https://github.com/openjfx/javafx-maven-plugin"
   },
   {
     "id": "clientplugin",
-    "name": "Gluon Client Maven Plugin",
+    "name": "Client Plugin",
     "url": "https://github.com/gluonhq/client-maven-plugin"
   },
   {
