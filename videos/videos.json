@@ -257,5 +257,19 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "title": "JavaFX real-world application: NEOS @ EBU | Dirk Lemmermann",
+    "type": "Real World Application",
+    "domain": "Planning & Scheduling",
+    "description": "This video shows the NEOS application that is being used by the European Broadcasting Union to schedule resources for broadcasting TV and radio signals. The client was written in JavaFX 8. It communicates with the server via REST service calls.",
+    "id": "RN_Pcu8ssQc",
+    "event": "",
+    "platform": "Desktop",
+    "createdOn": "2021-05-28",
+    "modifiedOn": "2021-05-28",
+    "personIds": [
+      "d.lemmermann"
+    ]
   }
 ]

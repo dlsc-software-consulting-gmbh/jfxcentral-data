@@ -34,11 +34,14 @@
   },
   {
     "id": "ebu",
-    "name": "",
-    "company": "",
+    "name": "NEOS",
+    "company": "European Broadcasting Union",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Planning & Scheduling",
+    "summary": "Radio & TV transmission planning solution.",
+    "videos": [
+      "RN_Pcu8ssQc"
+    ]
   },
   {
     "id": "edgework",
