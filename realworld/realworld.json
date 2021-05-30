@@ -249,18 +249,18 @@
   },
   {
     "id": "zeiss",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "FORUM",
+    "company": "Carl Zeiss Meditec AG",
+    "url": "https://www.zeiss.ch/meditec/produkte/ophthalmologie/ophthalmology-pacs-forum.html",
+    "domain": "Medical",
+    "summary": "Scalable software for ophthalmology"
   },
   {
     "id": "streampi",
-    "name": "",
+    "name": "StreamPi",
     "company": "",
     "url": "stream-pi.com",
-    "domain": "",
+    "domain": "MacroPads",
     "summary": "An open source, cross-platform, programmable, modular Macropad software."
   }
 ]
