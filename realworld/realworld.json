@@ -254,5 +254,13 @@
     "url": "",
     "domain": "",
     "summary": ""
+  },
+  {
+    "id": "streampi",
+    "name": "",
+    "company": "",
+    "url": "stream-pi.com",
+    "domain": "",
+    "summary": "An Opensource, Cross-Platform, Programmable, Modular Macropad Software"
   }
 ]
