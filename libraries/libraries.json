@@ -120,7 +120,9 @@
     "issueTracker": "https://github.com/AlmasB/FXGL/issues",
     "id": "fxgl",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.github.almasb",
+    "artifactId": "fxgl"
   },
   {
     "title": "GemsFX",
@@ -310,7 +312,7 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.unitfx",
-    "artifactId": "unitfx-core"
+    "artifactId": "unitfx"
   },
   {
     "title": "WorkbenchFX",
