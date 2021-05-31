@@ -315,5 +315,16 @@
     "platform": "Desktop",
     "createdOn": "2021-05-28",
     "modifiedOn": "2021-05-28"
+  },
+  {
+    "title": "JavaFX real-world application: Monastery Disentis",
+    "type": "Real World Application",
+    "domain": "Tourism",
+    "description": "A screencast of the JavaFX mobile app of the monastery Disentis. It is used as a guide for the visitors of the monastery.",
+    "id": "67RonidGgEA",
+    "event": "",
+    "platform": "Desktop",
+    "createdOn": "2021-05-28",
+    "modifiedOn": "2021-05-31"
   }
 ]

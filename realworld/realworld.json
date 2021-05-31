@@ -26,11 +26,11 @@
   },
   {
     "id": "debeka",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "Debeka DVC",
+    "company": "Debeka",
+    "url": "https://www.debeka.de/index.html",
+    "domain": "Insurance",
+    "summary": "Insurance coverage check software."
   },
   {
     "id": "ebu",
@@ -122,9 +122,12 @@
     "id": "monastery",
     "name": "",
     "company": "",
-    "url": "",
+    "url": "https://apps.apple.com/ch/app/kloster-disentis/id1208078669?l=en",
     "domain": "",
-    "summary": ""
+    "summary": "",
+    "videoIds": [
+      "67RonidGgEA"
+    ]
   },
   {
     "id": "mosaic",

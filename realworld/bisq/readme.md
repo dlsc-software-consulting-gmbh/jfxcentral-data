@@ -20,8 +20,8 @@ When we say censorship-resistant, we are referring to freedom: users' ability to
 
 [![Screen 2](screen2.png)]()
 
-[![Screen 2](screen3.png)]()
+[![Screen 3](screen3.png)]()
 
-[![Screen 2](screen4.png)]()
+[![Screen 4](screen4.png)]()
 
-[![Screen 2](screen5.png)]()
+[![Screen 5](screen5.png)]()
