@@ -53,8 +53,8 @@
   },
   {
     "id": "emirates",
-    "name": "",
-    "company": "",
+    "name": "Emirates NCO",
+    "company": "Emirates Airlines",
     "url": "",
     "domain": "Logistics",
     "summary": "A resource network optimization solution."
@@ -93,11 +93,11 @@
   },
   {
     "id": "meyersound",
-    "name": "",
+    "name": "MAPP XT",
     "company": "Meyer Sound",
     "url": "https://meyersound.com/product/mapp-xt/",
-    "domain": "",
-    "summary": ""
+    "domain": "Music",
+    "summary": "Audio coverage analysis tool."
   },
   {
     "id": "mint",
