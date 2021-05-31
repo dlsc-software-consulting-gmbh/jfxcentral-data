@@ -44,20 +44,12 @@
     ]
   },
   {
-    "id": "edgework",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
-  },
-  {
     "id": "eizo",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "CuratOR",
+    "company": "EIZO",
+    "url": "https://eizo-or.com/en/global/products/or-software/curator-caliop-vm/",
+    "domain": "Medical",
+    "summary": "Experience the future of operating room technology"
   },
   {
     "id": "emirates",
