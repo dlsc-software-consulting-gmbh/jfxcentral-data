@@ -123,19 +123,19 @@
   },
   {
     "id": "mosaic",
-    "name": "",
-    "company": "",
+    "name": "Mosaic",
+    "company": "Airbus",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Resource Scheduling",
+    "summary": "Satellite ground tracking software."
   },
   {
     "id": "mpmedia",
-    "name": "",
-    "company": "",
+    "name": "mpGAFOR",
+    "company": "mpMedia",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Aviation",
+    "summary": "Flight planning software."
   },
   {
     "id": "deepspace",
@@ -150,54 +150,54 @@
   },
   {
     "id": "projektpro",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "ProjektPro",
+    "company": "ProjektPro",
+    "url": "https://www.projektpro.com",
+    "domain": "Architecture",
+    "summary": "Office software for architects."
   },
   {
     "id": "psi",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "PSI ASM",
+    "company": "PSI",
+    "url": "https://www.psi.pl/en/products-services/production/",
+    "domain": "Manufacturing Execution Systems",
+    "summary": "Production process tracking."
   },
   {
     "id": "eteoboard",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": "",
+    "name": "eteoBoard",
+    "company": "Saxonia Systems / ZEISS",
+    "url": "https://marketplace.atlassian.com/apps/1220715/eteoboard-the-more-agile-agile-board?hosting=server&tab=overview",
+    "domain": "Agile Project Management",
+    "summary": "Agile board for teams.",
     "videoIds": [
       "TlHjX2uZzxA"
     ]
   },
   {
     "id": "senapt",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "Senapt EaaS",
+    "company": "Senapt Inc.",
+    "url": "https://www.senapt.co.uk",
+    "domain": "CRM",
+    "summary": "CRM system for energy suppliers."
   },
   {
     "id": "skedpal",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "SkedPal",
+    "company": "SkepPad",
+    "url": "https://www.skedpal.com",
+    "domain": "Scheduling",
+    "summary": "Smart calendar to get things done."
   },
   {
     "id": "sophia",
-    "name": "",
+    "name": "Sophia DDM",
     "company": "Sophia Genetics",
     "url": "https://www.sophiagenetics.com",
-    "domain": "",
-    "summary": "",
+    "domain": "Medical",
+    "summary": "Insights from digital health data.",
     "videoIds": [
       "mJEKQHgBvug"
     ]
@@ -212,35 +212,35 @@
   },
   {
     "id": "vesseleditor",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "Vessel Editor",
+    "company": "Contship Italia Group",
+    "url": "https://karakun.com/en/how-do-you-visualize-data/",
+    "domain": "Logistics",
+    "summary": "Optimize utilization of vessel cargo space."
   },
   {
     "id": "witt",
-    "name": "",
-    "company": "",
+    "name": "Call Center App",
+    "company": "Witt Weiden (OTTO)",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "CRM",
+    "summary": "Modern call center application."
   },
   {
     "id": "woanna",
-    "name": "",
-    "company": "",
+    "name": "Woanna",
+    "company": "Woanna",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Team Management",
+    "summary": "Team collaboration and scheduling software."
   },
   {
     "id": "yardeditor",
-    "name": "",
-    "company": "",
-    "url": "",
+    "name": "Yard Editor",
+    "company": "Contship Italia Group",
+    "url": "https://karakun.com/en/how-do-you-visualize-data/",
     "domain": "",
-    "summary": ""
+    "summary": "Optimize utilization of container yards."
   },
   {
     "id": "zeiss",
