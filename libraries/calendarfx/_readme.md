@@ -1,3 +1,5 @@
+## Getting Started
+
 The following section shows you how to quickly setup a JavaFX application that will show a complete calendar user interface. It includes a day view, a week view, a month view, a year view, an agenda view, a calendar selection view, and a search UI.
 
 ```

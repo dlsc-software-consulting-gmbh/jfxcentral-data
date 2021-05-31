@@ -1,3 +1,5 @@
+## Getting Started
+
 Once the `bootstrapfx-core` dependency is in your classpath you just need to apply the `boostrapfx.css` stylesheet to
 a scene, for example
 

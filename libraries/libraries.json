@@ -38,7 +38,9 @@
     "githubBranch": "master",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.calendarfx",
+    "artifactId": "calendar"
   },
   {
     "id": "desktoppanefx",
@@ -57,7 +59,9 @@
     "logoImageFile": "",
     "issueTracker": "https://github.com/kordamp/desktoppanefx/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "org.kordamp.desktoppanefx",
+    "artifactId": "desktoppanefx-core"
   },
   {
     "title": "FlexGanttFX",
@@ -95,7 +99,9 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/FormsFX/issues",
     "id": "formsfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc.formsfx",
+    "artifactId": "formsfx-core"
   },
   {
     "title": "FXGL",
@@ -133,7 +139,10 @@
     "logoImageFile": "gemsfx.png",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc.gemsfx",
+    "artifactId": "gemsfx"
+
   },
   {
     "title": "GMapsFX",
@@ -152,7 +161,9 @@
     "logoImageFile": "",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc",
+    "artifactId": "GMapsFX"
   },
   {
     "title": "HarmonicFX",
@@ -171,7 +182,9 @@
     "issueTracker": "https://github.com/kordamp/harmonicfx/issues",
     "id": "harmonicfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "org.kordamp.harmonicfx",
+    "artifactId": "harmonicfx-core"
   },
   {
     "title": "Ikonli",
@@ -190,7 +203,9 @@
     "logoImageFile": "",
     "issueTracker": "https://github.com/kordamp/ikonli/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "org.kordamp.ikonli",
+    "artifactId": "ikonli-javafx"
   },
   {
     "title": "JSilhouette",
@@ -209,7 +224,9 @@
     "issueTracker": "https://github.com/kordamp/jsilhouette/issues",
     "id": "jsilhouette",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "org.kordamp.jsilhouette",
+    "artifactId": "jsilhouette-javafx"
   },
   {
     "title": "KeyboardFX",
@@ -228,7 +245,9 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/KeyboardFX/issues",
     "id": "keyboardfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc.keyboardfx",
+    "artifactId": "keyboardfx"
   },
   {
     "title": "PDFViewFX",
@@ -247,7 +266,9 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX/issues",
     "id": "pdffx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc.pdfviewfx",
+    "artifactId": "pdfviewfx"
   },
   {
     "title": "PreferencesFX",
@@ -266,7 +287,9 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX/issues",
     "id": "preferencesfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc.preferencesfx",
+    "artifactId": "preferencesfx-core"
   },
   {
     "title": "UnitFX",
@@ -285,7 +308,9 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
     "id": "unitfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc.unitfx",
+    "artifactId": "unitfx-core"
   },
   {
     "title": "WorkbenchFX",
@@ -304,6 +329,8 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX/issues",
     "id": "workbenchfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "groupId": "com.dlsc.workbenchfx",
+    "artifactId": "workbenchfx-core"
   }
 ]
