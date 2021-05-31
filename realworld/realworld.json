@@ -10,11 +10,11 @@
   },
   {
     "id": "aida",
-    "name": "",
-    "company": "",
+    "name": "AIDA",
+    "company": "Deutsche AIDS Stiftung",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Office Integration",
+    "summary": "Office integration software to support AIDS patients."
   },
   {
     "id": "bisq",
@@ -56,40 +56,40 @@
     "name": "",
     "company": "",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Logistics",
+    "summary": "A resource network optimization solution."
   },
   {
     "id": "equinox",
-    "name": "",
-    "company": "",
+    "name": "Airbus Equinox",
+    "company": "Airbus",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Engineering",
+    "summary": "Simulation and analysis software."
   },
   {
     "id": "hrc",
-    "name": "",
-    "company": "",
+    "name": "HRC-Matic",
+    "company": "AISO",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Business Registry",
+    "summary": "Business registry software."
   },
   {
     "id": "justiz",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "GeFa",
+    "company": "BestSolution",
+    "url": "https://gefa-justiz.de",
+    "domain": "Justice",
+    "summary": "Management software for justice processes."
   },
   {
     "id": "lynden",
-    "name": "",
-    "company": "",
+    "name": "Lynden",
+    "company": "Lynden",
     "url": "",
-    "domain": "",
-    "summary": ""
+    "domain": "Logistics",
+    "summary": "Resource scheduling application."
   },
   {
     "id": "meyersound",
@@ -101,22 +101,22 @@
   },
   {
     "id": "mint",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": "",
+    "name": "MINT TRMS",
+    "company": "Mint Media",
+    "url": "https://mintsoftwaresystems.com",
+    "domain": "Aviation",
+    "summary": "Training and resource management for airlines.",
     "videoIds": [
       "d-oxGpUkFe4"
     ]
   },
   {
     "id": "monastery",
-    "name": "",
-    "company": "",
+    "name": "Monastery Disentis",
+    "company": "Monastery Disentis",
     "url": "https://apps.apple.com/ch/app/kloster-disentis/id1208078669?l=en",
-    "domain": "",
-    "summary": "",
+    "domain": "Tourism",
+    "summary": "Tourist guide for mobile devices.",
     "videoIds": [
       "67RonidGgEA"
     ]
