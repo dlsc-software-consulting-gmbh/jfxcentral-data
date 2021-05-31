@@ -1,4 +1,5 @@
-All in one application for crm, projectmanagement, todos. Trello, wunderlist, asana, dropbox, mail.. all in one place.
+All in one application for crm, projectmanagement, todos. Trello, wunderlist, asana, 
+dropbox, mail ... all in one place.
 
 [![Screen 1](screen1.jpg)]()
 
