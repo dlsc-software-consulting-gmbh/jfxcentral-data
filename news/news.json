@@ -1,7 +1,7 @@
 [
   {
     "id": "release-16",
-    "type": "MISC",
+    "type": "RELEASE",
     "title": "JavaFX 16 has been released.",
     "subtitle": "These are the release highlights",
     "author": "Abhinay Agarwal",
