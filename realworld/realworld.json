@@ -18,11 +18,11 @@
   },
   {
     "id": "bisq",
-    "name": "",
-    "company": "",
-    "url": "",
-    "domain": "",
-    "summary": ""
+    "name": "bisq",
+    "company": "bisq",
+    "url": "https://bisq.network",
+    "domain": "Cryptocurrencies",
+    "summary": "Buy and sell bitcoin privately and securely."
   },
   {
     "id": "debeka",
