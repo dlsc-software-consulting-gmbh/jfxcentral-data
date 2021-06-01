@@ -1,0 +1,19 @@
+[
+  {
+    "id": "makeover",
+    "name": "Extreme GUI Makeover",
+    "type": "APPLICATION",
+    "files": [
+      {
+        "url": "https://dlsc.com/wp-content/html/jfxcentral/makeover.dmg",
+        "fileName": "makeover.dmg",
+        "package": "DMG"
+      },
+      {
+        "url": "https://dlsc.com/wp-content/html/jfxcentral/makeover.dmg",
+        "fileName": "makeover.pkg",
+        "package": "PKG"
+      }
+    ]
+  }
+]
