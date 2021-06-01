@@ -2,6 +2,7 @@
   {
     "id": "makeover",
     "name": "Extreme GUI Makeover",
+    "downloadType": "APPLICATION",
     "personIds": [
       "d.lemmermann",
       "h.ebbers"
@@ -12,7 +13,6 @@
     ],
     "createdOn": "2021-06-01",
     "modifiedOn": "2021-06-01",
-    "type": "APPLICATION",
     "files": [
       {
         "url": "https://dlsc.com/wp-content/html/jfxcentral/makeover.dmg",
