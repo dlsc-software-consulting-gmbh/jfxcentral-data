@@ -12,7 +12,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
-        <javafx.version>17-ea+11</javafx.version>
+
+        <!-- We stay on 11 in this project so that the TestFX stuff and Monocle work correctly. -->
+        <javafx.version>11.0.2</javafx.version>
     </properties>
 
     <dependencies>
@@ -84,7 +86,7 @@
         <dependency>
             <groupId>org.testfx</groupId>
             <artifactId>openjfx-monocle</artifactId>
-            <version>jdk-11+26</version> <!-- jdk-11+26 for Java 11, jdk-9+181 for Java 9, 8u76-b04 for Java 8 -->
+            <version>jdk-11+26</version>
             <scope>test</scope>
         </dependency>
 
