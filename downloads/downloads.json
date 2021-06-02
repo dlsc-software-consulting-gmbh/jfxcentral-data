@@ -43,10 +43,10 @@
     "modifiedOn": "2021-06-02",
     "files": [
       {
-        "name": "DMG for Mac",
+        "name": "MSI for Windows",
         "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-windows-msi.zip",
         "fileName": "",
-        "package": "DMG"
+        "package": "MSI"
       },
       {
         "name": "PKG for Mac",
