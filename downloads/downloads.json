@@ -27,20 +27,5 @@
         "package": "PKG"
       }
     ]
-  },
-  {
-    "id": "test",
-    "title": "Test Download",
-    "downloadType": "PRESENTATION",
-    "createdOn": "2021-06-01",
-    "modifiedOn": "2021-06-01",
-    "files": [
-      {
-        "name": "RTF File in ZIP",
-        "url": "",
-        "fileName": "CHANGES.zip",
-        "package": "ZIP"
-      }
-    ]
   }
 ]
