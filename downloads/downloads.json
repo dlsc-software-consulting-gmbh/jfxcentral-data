@@ -28,7 +28,6 @@
       }
     ]
   },
-
   {
     "id": "emirates",
     "title": "FlexGanttFX POC for Emirates Airlines",
@@ -53,6 +52,37 @@
         "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-mac-pkg.zip",
         "fileName": "",
         "package": "PKG"
+      }
+    ]
+  },
+  {
+    "id": "ikonlibrowser",
+    "title": "Ikonli Browser",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "a.almiray"
+    ],
+    "createdOn": "2021-06-02",
+    "modifiedOn": "2021-06-02",
+    "files": [
+      {
+        "name": "ZIP for Linux",
+        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-linux.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+      {
+        "name": "ZIP for Mac",
+        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-mac.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+
+      {
+        "name": "ZIP for Windows",
+        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-windows.zip",
+        "fileName": "",
+        "package": "ZIP"
       }
     ]
   }
