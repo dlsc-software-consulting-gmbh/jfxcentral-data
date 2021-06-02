@@ -7,6 +7,7 @@ import javafx.scene.image.Image;
 import org.apache.commons.lang3.StringUtils;
 
 import java.net.URL;
+import java.net.URLConnection;
 import java.time.ZonedDateTime;
 import java.util.HashMap;
 
@@ -100,9 +101,12 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
 
             try {
                 URL url = new URL(baseURL + photoFileName + "?" + ZonedDateTime.now().toInstant());
+                URLConnection connection = url.openConnection();
 
-                // create the connection to make sure the file actually exists
-                url.openConnection().connect();
+                System.out.println("loading image: " + url.toExternalForm());
+
+                // start using the connection to make sure the file actually exists
+                connection.connect();
 
                 Image image = new Image(url.toExternalForm(), DataRepository.ASYNC);
                 image.progressProperty().addListener(it -> {
