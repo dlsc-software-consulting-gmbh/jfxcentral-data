@@ -27,5 +27,33 @@
         "package": "PKG"
       }
     ]
+  },
+
+  {
+    "id": "emirates",
+    "title": "FlexGanttFX POC for Emirates Airlines",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "companyIds": [
+      "dlsc"
+    ],
+    "createdOn": "2021-06-02",
+    "modifiedOn": "2021-06-02",
+    "files": [
+      {
+        "name": "DMG for Mac",
+        "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-windows-msi.zip",
+        "fileName": "",
+        "package": "DMG"
+      },
+      {
+        "name": "PKG for Mac",
+        "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-mac-pkg.zip",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
   }
 ]
