@@ -105,8 +105,11 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
 
                 System.out.println("loading image: " + url.toExternalForm());
 
-                // start using the connection to make sure the file actually exists
-                connection.connect();
+                if (!DataRepository.ASYNC) {
+                    // start using the connection to make sure the file actually exists
+                    // but only when we are running our unit tests
+                    connection.connect();
+                }
 
                 Image image = new Image(url.toExternalForm(), DataRepository.ASYNC);
                 image.progressProperty().addListener(it -> {
