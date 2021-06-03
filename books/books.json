@@ -123,5 +123,16 @@
     "amazonASIN": "B00L3TF02K",
     "isbn": "978-0-0718-3377-6",
     "publishedDate": "2014-06-16"
+  },
+  {
+    "id": "dummies",
+    "publisher": "For Dummies",
+    "authors": "Doug Lowe",
+    "title": "JavaFX For Dummies",
+    "subtitle": "Unleash the power of JavaFX for a wide range of devices",
+    "url": "",
+    "amazonASIN": "1118385349",
+    "isbn": " 978-1118385340",
+    "publishedDate": "2014-10-10"
   }
 ]
