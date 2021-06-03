@@ -15,7 +15,7 @@ your side. JavaFX 9 by Example is chock-full of engaging, fun-to-work examples t
 major facets of JavaFX 9. You'll learn to create applications that look good, are fun to use, and that take advantage
 of the medium to present data of all types in ways that engage the user and lead to increased productivity. 
 
-### The book:
+### The Book
 
 - Has been updated with new content on modular development, new APIs, and an example using the Scene Builder tool
 - Is filled with fun and practical code examples that you can modify and drop into your own projects
