@@ -1,26 +1,20 @@
 [
   {
-    "id": "gettingstartedpi",
-    "authors": "Frank Delporte",
+    "id": "projfx9",
+    "authors": "Johan Vos, Stephen Chin, Weiqi Gao, James Weaver, Dean Iverson",
     "personIds": [
-      "f.delporte"
+      "j.vos",
+      "s.chin",
+      "w.gao",
+      "j.weaver",
+      "d.iverson"
     ],
-    "title": "Getting started with Java on the Raspberry Pi",
-    "subtitle": "Learn the power and fun of experimenting with electronics",
-    "url": "https://leanpub.com/gettingstartedwithjavaontheraspberrypi/",
-    "amazonASIN": "B085G6GNDF",
-    "isbn": "978-1-907920-91-2",
-    "publishedDate": "2020-03-02"
-  },
-  {
-    "id": "introducingjfx8programming",
-    "authors": "Herbert Schildt",
-    "title": "Introducing JavaFX 8 Programming",
-    "subtitle": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
-    "url": "https://www.mhprofessional.com/9780071842556-usa-introducing-javafx-8-programming-group",
-    "amazonASIN": "B010CHIM50",
-    "isbn": "978-0071842556",
-    "publishedDate": "2015-06-09"
+    "title": "Pro JavaFX 9",
+    "subtitle": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients ",
+    "url": "https://www.apress.com/gp/book/9781484230411",
+    "amazonASIN": "B0788LZXWX",
+    "isbn": "978-1-4842-3041-1",
+    "publishedDate": "2017-12-13"
   },
   {
     "id": "jfx9byexample",
@@ -38,6 +32,29 @@
     "amazonASIN": "1484219600",
     "isbn": "978-1-4842-1960-7",
     "publishedDate": "2019-09-07"
+  },
+  {
+    "id": "projava9games",
+    "authors": "Wallace Jackson",
+    "title": "Pro Java 9 Games Development",
+    "subtitle": "Leveraging the JavaFX APIs",
+    "url": "https://www.apress.com/gp/book/9781484209745",
+    "amazonASIN": "B077GC338G",
+    "isbn": "978-1-4842-0973-8",
+    "publishedDate": "2017-11-14"
+  },
+  {
+    "id": "gettingstartedpi",
+    "authors": "Frank Delporte",
+    "personIds": [
+      "f.delporte"
+    ],
+    "title": "Getting started with Java on the Raspberry Pi",
+    "subtitle": "Learn the power and fun of experimenting with electronics",
+    "url": "https://leanpub.com/gettingstartedwithjavaontheraspberrypi/",
+    "amazonASIN": "B085G6GNDF",
+    "isbn": "978-1-907920-91-2",
+    "publishedDate": "2020-03-02"
   },
   {
     "id": "jfxessentials",
@@ -63,6 +80,16 @@
     "publishedDate": "2015-03-19"
   },
   {
+    "id": "introducingjfx8programming",
+    "authors": "Herbert Schildt",
+    "title": "Introducing JavaFX 8 Programming",
+    "subtitle": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
+    "url": "https://www.mhprofessional.com/9780071842556-usa-introducing-javafx-8-programming-group",
+    "amazonASIN": "B010CHIM50",
+    "isbn": "978-0071842556",
+    "publishedDate": "2015-06-09"
+  },
+  {
     "id": "masteringjfx8controls",
     "authors": "Hendrik Ebbers",
     "personIds": [
@@ -74,32 +101,5 @@
     "amazonASIN": "B00L3TF02K",
     "isbn": "978-0-0718-3377-6",
     "publishedDate": "2014-06-16"
-  },
-  {
-    "id": "projava9games",
-    "authors": "Wallace Jackson",
-    "title": "Pro Java 9 Games Development",
-    "subtitle": "Leveraging the JavaFX APIs",
-    "url": "https://www.apress.com/gp/book/9781484209745",
-    "amazonASIN": "B077GC338G",
-    "isbn": "978-1-4842-0973-8",
-    "publishedDate": "2017-11-14"
-  },
-  {
-    "id": "projfx9",
-    "authors": "Johan Vos, Stephen Chin, Weiqi Gao, James Weaver, Dean Iverson",
-    "personIds": [
-      "j.vos",
-      "s.chin",
-      "w.gao",
-      "j.weaver",
-      "d.iverson"
-    ],
-    "title": "Pro JavaFX 9",
-    "subtitle": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients ",
-    "url": "https://www.apress.com/gp/book/9781484230411",
-    "amazonASIN": "B0788LZXWX",
-    "isbn": "978-1-4842-3041-1",
-    "publishedDate": "2017-12-13"
   }
 ]
