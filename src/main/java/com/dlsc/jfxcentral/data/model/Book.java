@@ -9,9 +9,8 @@ public class Book extends ModelObject {
     private String authors;
     private String title;
     private String subtitle;
-    private String description;
     private String url;
-    private String amazon;
+    private String amazonASIN;
     private String isbn;
     private LocalDate publishedDate;
     private List<String> personIds = new ArrayList<>();
@@ -41,14 +40,6 @@ public class Book extends ModelObject {
 
     public void setSubtitle(String subtitle) {
         this.subtitle = subtitle;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public String getUrl() {
@@ -83,11 +74,11 @@ public class Book extends ModelObject {
         this.personIds = personIds;
     }
 
-    public String getAmazon() {
-        return amazon;
+    public String getAmazonASIN() {
+        return amazonASIN;
     }
 
-    public void setAmazon(String amazon) {
-        this.amazon = amazon;
+    public void setAmazonASIN(String amazonASIN) {
+        this.amazonASIN = amazonASIN;
     }
 }

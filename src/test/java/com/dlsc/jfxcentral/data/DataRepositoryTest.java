@@ -207,6 +207,21 @@ public class DataRepositoryTest {
     }
 
     @Test
+    public void shouldLoadBooksDescription() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getBooks().isEmpty());
+
+        // when
+        repository.getBooks().forEach(book -> {
+            StringProperty text = repository.bookTextProperty(book);
+
+            // then
+            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for book ID " + book.getId());
+        });
+    }
+
+    @Test
     public void shouldLoadToolsDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();

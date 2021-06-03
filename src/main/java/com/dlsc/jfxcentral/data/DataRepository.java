@@ -68,6 +68,8 @@ public class DataRepository {
 
     private Map<Download, StringProperty> downloadTextMap = new HashMap<>();
 
+    private Map<Book, StringProperty> bookTextMap = new HashMap<>();
+
     private Map<Person, StringProperty> personDescriptionMap = new HashMap<>();
 
     private Map<Tool, StringProperty> toolDescriptionMap = new HashMap<>();
@@ -109,6 +111,7 @@ public class DataRepository {
         toolDescriptionMap.clear();
         realWorldAppDescriptionMap.clear();
         downloadTextMap.clear();
+        bookTextMap.clear();
 
         getPosts().clear();
         getPeople().clear();
@@ -356,6 +359,31 @@ public class DataRepository {
     private void loadDownloadText(Download download, StringProperty textProperty) {
         String url = getBaseUrl() + "downloads/" + download.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
         System.out.println("loading download text from: " + url);
+        String text = loadString(url);
+        if (ASYNC) {
+            Platform.runLater(() -> textProperty.set(text));
+        } else {
+            textProperty.set(text);
+        }
+    }
+
+    public StringProperty bookTextProperty(Book book) {
+        return bookTextMap.computeIfAbsent(book, key -> {
+            StringProperty textProperty = new SimpleStringProperty();
+
+            if (ASYNC) {
+                executor.submit(() -> loadBookText(book, textProperty));
+            } else {
+                loadBookText(book, textProperty);
+            }
+
+            return textProperty;
+        });
+    }
+
+    private void loadBookText(Book book, StringProperty textProperty) {
+        String url = getBaseUrl() + "books/" + book.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        System.out.println("loading book text from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));

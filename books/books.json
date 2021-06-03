@@ -8,7 +8,7 @@
     "title": "Getting started with Java on the Raspberry Pi",
     "subtitle": "Learn the power and fun of experimenting with electronics",
     "url": "https://leanpub.com/gettingstartedwithjavaontheraspberrypi/",
-    "amazon": "https://www.amazon.com/-/de/dp/B085G6GNDF/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Getting+started+with+Java+on+the+Raspberry+Pi&qid=1619702307&sr=8-1",
+    "amazonASIN": "B085G6GNDF",
     "isbn": "978-1-907920-91-2",
     "publishedDate": "2020-03-02"
   },
@@ -18,7 +18,7 @@
     "title": "Introducing JavaFX 8 Programming",
     "subtitle": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
     "url": "https://www.mhprofessional.com/9780071842556-usa-introducing-javafx-8-programming-group",
-    "amazon": "https://www.amazon.com/Introducing-JavaFX-Programming-Oracle-English-ebook/dp/B010CHIM50/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Introducing+JavaFX+8+Programming&qid=1619702132&sr=8-1",
+    "amazonASIN": "B010CHIM50",
     "isbn": "978-0071842556",
     "publishedDate": "2015-06-09"
   },
@@ -35,7 +35,7 @@
     "title": "JavaFX 9 by Example",
     "subtitle": "Rich Client Applications for any Platform",
     "url": "https://www.apress.com/gp/book/9781484219607",
-    "amazon": "https://www.amazon.de/JavaFX-9-Example-Carl-Dea/dp/1484219600/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=JavaFX+9+by+example&qid=1619702427&sr=8-1",
+    "amazonASIN": "1484219600",
     "isbn": "978-1-4842-1960-7",
     "publishedDate": "2019-09-07"
   },
@@ -45,8 +45,8 @@
     "title": "JavaFX Essentials",
     "subtitle": "Create amazing Java GUI applications with this hands-on, fast-paced guide",
     "url": "https://www.packtpub.com/product/javafx-essentials/9781784398026",
-    "amazon": "https://www.amazon.de/JavaFX-Essentials-English-Mohamed-Taman/dp/1784398020/ref=sr_1_2?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=JavaFX+essentials&qid=1619702828&sr=8-2",
     "isbn": "9781784398026",
+    "amazonASIN": "1784398020",
     "personIds": [
       "m.taman"
     ],
@@ -58,7 +58,7 @@
     "title": "Learn JavaFX 8",
     "subtitle": "Building User Experience and Interfaces with Java 8",
     "url": "https://www.apress.com/gp/book/9781484211434",
-    "amazon": "https://www.amazon.de/Learn-JavaFX-Building-Experience-Interfaces/dp/148421143X/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Learn+JavaFX+8&qid=1619702950&sr=8-1",
+    "amazonASIN": "148421143X",
     "isbn": "978-1-4842-1143-4",
     "publishedDate": "2015-03-19"
   },
@@ -71,7 +71,7 @@
     "title": "Mastering JavaFX 8 Controls",
     "subtitle": "Create Custom JavaFX 8 Controls for Cross-Platform Applications",
     "url": "https://www.mhprofessional.com/9780071833776-usa-mastering-javafx-8-controls-group",
-    "amazon": "https://www.amazon.com/-/de/dp/B00L3TF02K/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Mastering+JavaFX+8+Controls&qid=1619703516&sr=8-1",
+    "amazonASIN": "B00L3TF02K",
     "isbn": "978-0-0718-3377-6",
     "publishedDate": "2014-06-16"
   },
@@ -81,7 +81,7 @@
     "title": "Pro Java 9 Games Development",
     "subtitle": "Leveraging the JavaFX APIs",
     "url": "https://www.apress.com/gp/book/9781484209745",
-    "amazon": "https://www.amazon.com/-/de/dp/B077GC338G/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Pro+Java+9+Games+Development&qid=1619703477&sr=8-1",
+    "amazonASIN": "B077GC338G",
     "isbn": "978-1-4842-0973-8",
     "publishedDate": "2017-11-14"
   },
@@ -98,7 +98,7 @@
     "title": "Pro JavaFX 9",
     "subtitle": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients ",
     "url": "https://www.apress.com/gp/book/9781484230411",
-    "amazon": "https://www.amazon.com/-/de/dp/B0788LZXWX/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=pro+JavaFX+9&qid=1619703685&sr=8-1",
+    "amazonASIN": "B0788LZXWX",
     "isbn": "978-1-4842-3041-1",
     "publishedDate": "2017-12-13"
   }
