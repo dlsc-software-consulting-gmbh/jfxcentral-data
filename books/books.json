@@ -1,6 +1,7 @@
 [
   {
     "id": "projfx9",
+    "publisher": "Apress",
     "authors": "Johan Vos, Stephen Chin, Weiqi Gao, James Weaver, Dean Iverson",
     "personIds": [
       "j.vos",
@@ -18,6 +19,7 @@
   },
   {
     "id": "jfx9byexample",
+    "publisher": "Apress",
     "authors": "Carl Dea, Mark Heckler, Gerrit Grunwald, José Pereda, Sean Phillips",
     "personIds": [
       "c.dea",
@@ -35,6 +37,7 @@
   },
   {
     "id": "projava9games",
+    "publisher": "Apress",
     "authors": "Wallace Jackson",
     "title": "Pro Java 9 Games Development",
     "subtitle": "Leveraging the JavaFX APIs",
@@ -45,6 +48,7 @@
   },
   {
     "id": "gettingstartedpi",
+    "publisher": "Frank Delporte",
     "authors": "Frank Delporte",
     "personIds": [
       "f.delporte"
@@ -58,6 +62,7 @@
   },
   {
     "id": "masteringjavafx10",
+    "publisher": "Packt Publishing",
     "authors": "Sergey Grinev",
     "title": "Mastering JavaFX 10",
     "subtitle": "Build advanced and visually stunning Java applications",
@@ -71,6 +76,7 @@
   },
   {
     "id": "jfxessentials",
+    "publisher": "Packt Publishing",
     "authors": "Mohamed Taman",
     "title": "JavaFX Essentials",
     "subtitle": "Create amazing Java GUI applications with this hands-on, fast-paced guide",
@@ -84,6 +90,7 @@
   },
   {
     "id": "learnjfx8",
+    "publisher": "Apress",
     "authors": "Kishori Sharan",
     "title": "Learn JavaFX 8",
     "subtitle": "Building User Experience and Interfaces with Java 8",
@@ -94,6 +101,7 @@
   },
   {
     "id": "introducingjfx8programming",
+    "publisher": "McGraw-Hill",
     "authors": "Herbert Schildt",
     "title": "Introducing JavaFX 8 Programming",
     "subtitle": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
@@ -104,6 +112,7 @@
   },
   {
     "id": "masteringjfx8controls",
+    "publisher": "McGraw-Hill",
     "authors": "Hendrik Ebbers",
     "personIds": [
       "h.ebbers"

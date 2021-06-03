@@ -7,6 +7,7 @@ import java.util.List;
 public class Book extends ModelObject {
 
     private String authors;
+    private String publisher;
     private String title;
     private String subtitle;
     private String url;
@@ -80,5 +81,13 @@ public class Book extends ModelObject {
 
     public void setAmazonASIN(String amazonASIN) {
         this.amazonASIN = amazonASIN;
+    }
+
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
     }
 }
