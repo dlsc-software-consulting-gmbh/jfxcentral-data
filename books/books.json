@@ -57,6 +57,19 @@
     "publishedDate": "2020-03-02"
   },
   {
+    "id": "masteringjavafx10",
+    "authors": "Sergey Grinev",
+    "title": "Mastering JavaFX 10",
+    "subtitle": "Build advanced and visually stunning Java applications",
+    "url": "",
+    "isbn": "1788293827",
+    "amazonASIN": "B079DW68ZQ",
+    "personIds": [
+      "s.grinev"
+    ],
+    "publishedDate": "2018-05-31"
+  },
+  {
     "id": "jfxessentials",
     "authors": "Mohamed Taman",
     "title": "JavaFX Essentials",
