@@ -7,10 +7,8 @@
     ],
     "title": "Getting started with Java on the Raspberry Pi",
     "subtitle": "Learn the power and fun of experimenting with electronics",
-    "description": "Get started with the latest versions of Java, JavaFX, Pi4J, Spring and so much more. Learn the power (and fun!) of experimenting with electronics. All explained in many small and easy to understand examples.\n\nWhen I first managed to blink an LED connected to a Raspberry Pi with Java, I was super excited! Controlling physical things with some lines of code is magic! This book includes a lot of info and history about Java itself and how to install it on the Raspberry Pi. Also, a lot of tips and tricks to become or be a better developer. And above all many simple examples on these and even more other topics:\n\n* The magic of Bits and Bytes and solving the confusion of Java signed values with the help of a led number display.\n* Beautiful user interfaces made with JavaFX so you can interact with the hardware.\n* Pi4J applications to be able to control different types of hardware like LEDs, buttons, displays, led strips, relais boards and more.\n* Spring applications so you can interact with your Pi via web interfaces.\n* How to set up a queue so you can send and receive messages to and from Arduino boards or other Pi's.\n* And a lot of other inspirational ideas and getting started examples, to be able to build your dream do-it-yourself project.\n\nMy goal was to collect all the information I which would have been bundled at the time I started my own experiments with Java on the Raspberry Pi. If you are new to Java, you will learn the language bit by bit by following the examples. As an experienced Java programmer, you will learn how you can extend your knowledge and control the world around you with simple and inexpensive components.",
     "url": "https://leanpub.com/gettingstartedwithjavaontheraspberrypi/",
     "amazon": "https://www.amazon.com/-/de/dp/B085G6GNDF/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Getting+started+with+Java+on+the+Raspberry+Pi&qid=1619702307&sr=8-1",
-    "image": "raspberrypiecover.jpeg",
     "isbn": "978-1-907920-91-2",
     "publishedDate": "2020-03-02"
   },
@@ -19,10 +17,8 @@
     "authors": "Herbert Schildt",
     "title": "Introducing JavaFX 8 Programming",
     "subtitle": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
-    "description": "Introducing JavaFX 8 Programming provides a fast-paced, practical introduction to JavaFX, Java’s next-generation GUI programming framework. In this easy-to-read guide, best-selling author Herb Schildt presents the key topics and concepts you’ll need to start developing modern, dynamic JavaFX GUI applications. The book begins with the fundamentals, including the general form of a JavaFX program. You then advance to event handling, controls, images, fonts, layouts, effects, transforms, animations (including 3-D animations), menus, and more. Numerous complete examples are included that put key topics and techniques into action. Designed for Java programmers, the book’s focus is on the JavaFX API and all examples are written entirely in Java. Best of all, the book is written in the clear, crisp, uncompromising style that has made Herb Schildt the choice of millions worldwide.",
     "url": "https://www.mhprofessional.com/9780071842556-usa-introducing-javafx-8-programming-group",
     "amazon": "https://www.amazon.com/Introducing-JavaFX-Programming-Oracle-English-ebook/dp/B010CHIM50/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Introducing+JavaFX+8+Programming&qid=1619702132&sr=8-1",
-    "image": "introducingjfx8cover.jpg",
     "isbn": "978-0071842556",
     "publishedDate": "2015-06-09"
   },
@@ -38,10 +34,8 @@
     ],
     "title": "JavaFX 9 by Example",
     "subtitle": "Rich Client Applications for any Platform",
-    "description": "Create media-rich client applications using JavaFX 9 and the Java 9 platform. Learn to create GUI-based applications for mobile devices, desktop PCs, and even the web. Incorporate media such as audio and video into your applications. Interface with hardware devices such as Arduino and Leap Motion. Respond to gesture control through devices such as the Leap Motion Controller. Take advantage of the new HTTP2 API to make RESTful web requests and WebSockets calls.\n\nNew to this edition are examples of creating stylized text and loading custom fonts, guidance for working with Scene Builder to create visual layouts, and new content on developing iOS and Android applications using Gluon mobile. The book also covers advanced topics such as custom controls, JavaFX 3D, gesture devices, printing, and animation. Best of all, the book is full of working code that you can adapt and extend to all your future projects.\n\nIs your goal to develop visually exciting applications in the Java language? Then this is the book you want at your side. JavaFX 9 by Example is chock-full of engaging, fun-to-work examples that bring you up to speed on the major facets of JavaFX 9. You'll learn to create applications that look good, are fun to use, and that take advantage of the medium to present data of all types in ways that engage the user and lead to increased productivity. The book:\n\nHas been updated with new content on modular development, new APIs, and an example using the Scene Builder tool\nIs filled with fun and practical code examples that you can modify and drop into your own projects\nIncludes an example using Arduino and an accelerometer sensor to track motion in 3D\nHelps you create JavaFX applications for iOS and Android devices\nWhat You'll Learn\nWork with touch-based interfaces\nInterpret gesture-based events\nUse shapes, color, text, and UI controls to create a simple click and point game\nAdd audio and video to your projects\nUtilize JavaFX 3D\nCreate custom controls using CSS, SVG, and Canvas APIs\nOrganize code into modules using Java Platform Module System (Project Jigsaw)\n\n## Who This Book Is For\nJava developers developing visual and media-rich applications to run on PCs, phones, tablets, Arduino controllers, and more. This includes developers tasked with creating visualizations of data from statistical analysis and from sensor networks. Any developer wanting to develop a polished user-interface in Java will find much to like in this book.",
     "url": "https://www.apress.com/gp/book/9781484219607",
     "amazon": "https://www.amazon.de/JavaFX-9-Example-Carl-Dea/dp/1484219600/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=JavaFX+9+by+example&qid=1619702427&sr=8-1",
-    "image": "jfx9byexample.jpg",
     "isbn": "978-1-4842-1960-7",
     "publishedDate": "2019-09-07"
   },
@@ -50,10 +44,8 @@
     "authors": "Mohamed Taman",
     "title": "JavaFX Essentials",
     "subtitle": "Create amazing Java GUI applications with this hands-on, fast-paced guide",
-    "description": "JavaFX is a software platform to create and deliver rich Internet applications (RIAs) that can run across a wide variety of devices.\n\nJavaFX Essentials will help you to design and build high performance JavaFX 8-based applications that run on a variety of devices.\n\nStarting with the basics of the framework, it will take you all the way through creating your first working application to discovering the core and main JavaFX 8 features, then controlling and monitoring your outside world. The examples provided illustrate different JavaFX and Java SE 8 features.\n\nThis guide is an invaluable tutorial if you are planning to develop and create JavaFX 8 applications to run on a variety of devices and platforms.",
     "url": "https://www.packtpub.com/product/javafx-essentials/9781784398026",
     "amazon": "https://www.amazon.de/JavaFX-Essentials-English-Mohamed-Taman/dp/1784398020/ref=sr_1_2?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=JavaFX+essentials&qid=1619702828&sr=8-2",
-    "image": "jfxessentials.jpeg",
     "isbn": "9781784398026",
     "personIds": [
       "m.taman"
@@ -65,10 +57,8 @@
     "authors": "Kishori Sharan",
     "title": "Learn JavaFX 8",
     "subtitle": "Building User Experience and Interfaces with Java 8",
-    "description": "Learn JavaFX 8 shows you how to start developing rich-client desktop applications using your Java skills and provides comprehensive coverage of JavaFX 8's features. Each chapter starts with an introduction to the topic at hand, followed by a step-by-step discussion of the topic with small snippets of code. The book contains numerous figures aiding readers in visualizing the GUI that is built at every step in the discussion.\n\nThe book starts with an introduction to JavaFX and its history. It lists the system requirements and the steps to start developing JavaFX applications. It shows you how to create a Hello World application in JavaFX, explaining every line of code in the process. Later in the book, author Kishori Sharan discusses advanced topics such as 2D and 3D graphics, charts, FXML, advanced controls, and printing. Some of the advanced controls such as TableView, TreeTableView and WebView are covered at length in separate chapters.\n\nThis book provides complete and comprehensive coverage of JavaFX 8 features; uses an incremental approach to teach JavaFX, assuming no prior GUI knowledge; includes code snippets, complete programs, and pictures; covers MVC patterns using JavaFX; and covers advanced topics such as FXML, effects, transformations, charts, images, canvas, audio and video, DnD, and more. So, after reading and using this book, you'll come away with a comprehensive introduction to the JavaFX APIs as found in the new Java 8 platform.",
     "url": "https://www.apress.com/gp/book/9781484211434",
     "amazon": "https://www.amazon.de/Learn-JavaFX-Building-Experience-Interfaces/dp/148421143X/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Learn+JavaFX+8&qid=1619702950&sr=8-1",
-    "image": "learnjfx8.jpg",
     "isbn": "978-1-4842-1143-4",
     "publishedDate": "2015-03-19"
   },
@@ -80,10 +70,8 @@
     ],
     "title": "Mastering JavaFX 8 Controls",
     "subtitle": "Create Custom JavaFX 8 Controls for Cross-Platform Applications",
-    "description": "Deliver state-of-the-art applications with visually stunning UIs. Mastering JavaFX 8 Controls provides clear instructions, detailed examples, and ready-to-use code samples. Find out how to work with the latest JavaFX APIs, configure UI components, automatically generate FXML, build cutting-edge controls, and effectively apply CSS styling. Troubleshooting, tuning, and deployment are also covered in this Oracle Press guide.\n\n- Understand the properties of JavaFX 8 controls and APIs\nCreate custom controls, transformations, and layouts\n- Work from JavaFX Scene Graph and Scene Builder\n- Visualize data models using advanced control types\n- Use ListView, TableView, and TreeView APIs\n- Handle audio and video content using JavaFX media classes\n- Maximize separation between UI and application logic using FXML\n- Style controls and applications using CSS\n- Extend functionality of Swing and SWT applications with JavaFX\n- Code examples in the book are available for download.",
     "url": "https://www.mhprofessional.com/9780071833776-usa-mastering-javafx-8-controls-group",
     "amazon": "https://www.amazon.com/-/de/dp/B00L3TF02K/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Mastering+JavaFX+8+Controls&qid=1619703516&sr=8-1",
-    "image": "masteringjfx8controls.jpg",
     "isbn": "978-0-0718-3377-6",
     "publishedDate": "2014-06-16"
   },
@@ -92,10 +80,8 @@
     "authors": "Wallace Jackson",
     "title": "Pro Java 9 Games Development",
     "subtitle": "Leveraging the JavaFX APIs",
-    "description": "Use Java 9 and JavaFX 9 to write 3D games for the latest consumer electronics devices. Written by open source gaming expert Wallace Jackson, this book uses Java 9 and NetBeans 9 to add leading-edge features, such as 3D, textures, animation, digital audio, and digital image compositing to your games.\n\nAlong the way you’ll learn about game design, including game design concepts, genres, engines, and UI design techniques. To completely master Java 3D game creation, you will combine this knowledge with a number of JavaFX 9 topics, such as scene graph hierarchy; 3D scene configuration; 3D model design and primitives; model shader creation; and 3D game animation creation. With these skills you will be able to take your 3D Java games to the next level.\n\nThe final section of Pro Java 9 Games Development puts the final polish on your abilities. You’ll see how to add AI logic for random content selection methods; harness a professional scoring engine; and player-proof your event handling. After reading Pro Java 9 Games Development, you will come away with enough 3D expertise to design, develop, and build your own professional Java 9 games, using JavaFX 9 and the latest new media assets.",
     "url": "https://www.apress.com/gp/book/9781484209745",
     "amazon": "https://www.amazon.com/-/de/dp/B077GC338G/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Pro+Java+9+Games+Development&qid=1619703477&sr=8-1",
-    "image": "projava9games.jpg",
     "isbn": "978-1-4842-0973-8",
     "publishedDate": "2017-11-14"
   },
@@ -111,10 +97,8 @@
     ],
     "title": "Pro JavaFX 9",
     "subtitle": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients ",
-    "description": "Use the JavaFX platform to create rich-client Java applications and discover how you can use this powerful Java-based UI platform, which is capable of handling large-scale data-driven business applications for PC as well as mobile and embedded devices.\n\nThe expert authors cover the new more modular JavaFX 9 APIs, development tools, and best practices and provide code examples that explore the exciting new features provided with JavaFX 9, part of Oracle's new Java 9 release.\n\nPro JavaFX 9: A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients also contains engaging tutorials that cover virtually every facet of JavaFX development and reference materials on JavaFX that augment the JavaFX API documentation.",
     "url": "https://www.apress.com/gp/book/9781484230411",
     "amazon": "https://www.amazon.com/-/de/dp/B0788LZXWX/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=pro+JavaFX+9&qid=1619703685&sr=8-1",
-    "image": "projfx9.jpg",
     "isbn": "978-1-4842-3041-1",
     "publishedDate": "2017-12-13"
   }

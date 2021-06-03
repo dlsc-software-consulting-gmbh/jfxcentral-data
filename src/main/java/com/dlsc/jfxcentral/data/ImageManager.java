@@ -63,7 +63,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
     }
 
     public ObjectProperty<Image> bookCoverImageProperty(Book book) {
-        return imageProperty(DataRepository.getInstance().getBaseUrl() + "images/books/", book.getImage());
+        return imageProperty(DataRepository.getInstance().getBaseUrl() + "books/" + book.getId() + "/", "cover.jpg", "book-" + book.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> libraryImageProperty(Library library) {

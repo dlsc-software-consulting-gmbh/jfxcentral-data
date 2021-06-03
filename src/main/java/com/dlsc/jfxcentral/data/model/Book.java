@@ -12,7 +12,6 @@ public class Book extends ModelObject {
     private String description;
     private String url;
     private String amazon;
-    private String image;
     private String isbn;
     private LocalDate publishedDate;
     private List<String> personIds = new ArrayList<>();
@@ -58,14 +57,6 @@ public class Book extends ModelObject {
 
     public void setUrl(String url) {
         this.url = url;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
     }
 
     public String getIsbn() {

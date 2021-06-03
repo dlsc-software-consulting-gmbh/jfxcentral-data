@@ -8,6 +8,10 @@ import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -441,6 +445,38 @@ public class DataRepositoryTest {
 
             // then
             assertNotNull(result.get(), "no download returned for ID " + download.getId());
+        });
+    }
+
+    @Test
+    public void shouldHaveValidDownloadsURL() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getDownloads().isEmpty());
+
+        // when
+        repository.getDownloads().forEach(download -> {
+            download.getFiles().forEach(file -> {
+                String externalizedUrl = file.getUrl();
+                if (StringUtils.isNotBlank(externalizedUrl)) {
+                    System.out.println("checking url: " + externalizedUrl);
+                    try {
+                        URL url = new URL(externalizedUrl);
+                        HttpURLConnection huc = (HttpURLConnection) url.openConnection();
+                        huc.setRequestMethod("HEAD");
+
+                        // then
+                        int responseCode = huc.getResponseCode();
+                        System.out.println("response: " + responseCode);
+
+                        assertEquals(HttpURLConnection.HTTP_OK, responseCode);
+                    } catch (MalformedURLException ex) {
+                        fail("url was invalid, url = " + externalizedUrl);
+                    } catch (IOException e) {
+                        fail(e);
+                    }
+                }
+            });
         });
     }
 }
