@@ -99,6 +99,23 @@
     "modifiedOn": "2021-05-28"
   },
   {
+    "name": "Sergey Grinev",
+    "email": "",
+    "companyId": "",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "sergeygrinev",
+    "twitter": "SergeyGrinev",
+    "champion": false,
+    "rockstar": false,
+    "id": "s.grinev",
+    "createdOn": "2021-06-03",
+    "modifiedOn": "2021-06-03",
+    "bookIds": [
+      "masteringjavafx10"
+    ]
+  },
+  {
     "name": "Andreas Billmann",
     "email": "",
     "companyId": "",
