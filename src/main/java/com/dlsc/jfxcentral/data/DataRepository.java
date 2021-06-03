@@ -1,6 +1,7 @@
 package com.dlsc.jfxcentral.data;
 
 import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.pull.PullRequest;
 import com.dlsc.jfxcentral.data.util.QueryResult;
 import com.fatboyindustrial.gsonjavatime.Converters;
 import com.google.gson.Gson;
@@ -185,6 +186,8 @@ public class DataRepository {
                 readFeeds();
             }
 
+            loadPullRequests();
+
             updateRecentItems();
 
         } catch (Exception e) {
@@ -212,7 +215,7 @@ public class DataRepository {
         items.forEach(item -> {
             LocalDate date = item.getModifiedOn();
             if (date == null) {
-               date = item.getCreatedOn();
+                date = item.getCreatedOn();
             }
             if (date != null) {
                 if (date.isAfter(today.minusWeeks(2))) {
@@ -580,6 +583,20 @@ public class DataRepository {
         this.blogs.setAll(blogs);
     }
 
+    private final ListProperty<PullRequest> pullRequests = new SimpleListProperty<>(this, "pullRequests", FXCollections.observableArrayList());
+
+    public ObservableList<PullRequest> getPullRequests() {
+        return pullRequests.get();
+    }
+
+    public ListProperty<PullRequest> pullRequestsProperty() {
+        return pullRequests;
+    }
+
+    public void setPullRequests(List<PullRequest> pullRequests) {
+        this.pullRequests.setAll(pullRequests);
+    }
+
     private final ListProperty<News> news = new SimpleListProperty<>(this, "news", FXCollections.observableArrayList());
 
     public ObservableList<News> getNews() {
@@ -846,6 +863,50 @@ public class DataRepository {
                 if (!ASYNC && !entries.isEmpty()) {
                     // to save time when unit tests are running
                     break;
+                }
+            }
+        }
+    }
+
+    public void loadPullRequests() {
+        HttpURLConnection con = null;
+
+        for (int page = 1; page < 2; page++) {
+            try {
+                URL url = new URL("https://api.github.com/repos/openjdk/jfx/pulls?state=all&per_page=100&page=" + page);
+
+                con = (HttpURLConnection) url.openConnection();
+                con.setRequestMethod("GET");
+                con.setUseCaches(false);
+
+                int status = con.getResponseCode();
+                if (status == 200) {
+                    BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+                    String inputLine;
+                    StringBuffer content = new StringBuffer();
+                    while ((inputLine = in.readLine()) != null) {
+                        content.append(inputLine);
+                    }
+                    in.close();
+
+                    List<PullRequest> result = gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
+                    }.getType());
+
+                    if (ASYNC) {
+                        Platform.runLater(() -> getPullRequests().addAll(result));
+                    } else {
+                        getPullRequests().addAll(result);
+                    }
+                }
+            } catch (ProtocolException e) {
+                e.printStackTrace();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                if (con != null) {
+                    con.disconnect();
                 }
             }
         }

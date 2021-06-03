@@ -7,5 +7,6 @@ open module jfxcentral.data {
     requires javafx.graphics;
 
     exports com.dlsc.jfxcentral.data;
+    exports com.dlsc.jfxcentral.data.pull;
     exports com.dlsc.jfxcentral.data.model;
 }

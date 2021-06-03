@@ -494,4 +494,13 @@ public class DataRepositoryTest {
             });
         });
     }
+
+    @Test
+    public void shouldGetOpenJFXPullRequests() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+
+        // when
+        repository.loadPullRequests();
+    }
 }

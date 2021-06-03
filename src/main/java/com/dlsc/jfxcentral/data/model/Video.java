@@ -7,23 +7,13 @@ public class Video extends ModelObject {
 
     private String title;
     private String description;
-    private String summary;
-    private List<String> personIds = new ArrayList<>();
-    private String image;
     private String type;
     private String domain;
     private String event;
     private String platform;
+    private List<String> personIds = new ArrayList<>();
 
     public Video() {
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
     }
 
     public String getTitle() {
@@ -48,14 +38,6 @@ public class Video extends ModelObject {
 
     public void setPersonIds(List<String> personIds) {
         this.personIds = personIds;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
     }
 
     public void setType(String type) {
