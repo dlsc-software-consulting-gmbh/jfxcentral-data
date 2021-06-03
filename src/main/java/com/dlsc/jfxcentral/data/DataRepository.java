@@ -205,24 +205,21 @@ public class DataRepository {
     }
 
     private List<ModelObject> findRecentItems(List<? extends ModelObject> items) {
-        items.sort((Comparator<ModelObject>) (m1, m2) -> {
-            LocalDate date1 = m1.getModifiedOn();
-            LocalDate date2 = m2.getModifiedOn();
-
-            if (date1 != null && date2 != null) {
-                return date1.compareTo(date2);
-            } else if (date1 != null) {
-                return -1;
-            }
-
-            return +1;
-        });
-
         List<ModelObject> result = new ArrayList<>();
 
-        for (int i = 0; i < Math.min(3, items.size()); i++) {
-            result.add(items.get(i));
-        }
+        final LocalDate today = LocalDate.now();
+
+        items.forEach(item -> {
+            LocalDate date = item.getModifiedOn();
+            if (date == null) {
+               date = item.getCreatedOn();
+            }
+            if (date != null) {
+                if (date.isAfter(today.minusWeeks(2))) {
+                    result.add(item);
+                }
+            }
+        });
 
         return result;
     }
