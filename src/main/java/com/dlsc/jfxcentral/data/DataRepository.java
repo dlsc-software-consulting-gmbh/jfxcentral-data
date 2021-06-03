@@ -181,7 +181,9 @@ public class DataRepository {
             setDownloads(gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
             }.getType()));
 
-            readFeeds();
+            if (!Boolean.getBoolean("no-feeds")) {
+                readFeeds();
+            }
 
             updateRecentItems();
 
