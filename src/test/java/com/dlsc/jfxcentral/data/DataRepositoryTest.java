@@ -1,9 +1,11 @@
 package com.dlsc.jfxcentral.data;
 
 import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.pull.PullRequest;
 import javafx.beans.property.ListProperty;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.StringProperty;
+import javafx.collections.ObservableList;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -502,5 +504,10 @@ public class DataRepositoryTest {
 
         // when
         repository.loadPullRequests();
+
+        // then
+        ObservableList<PullRequest> pullRequests = repository.getPullRequests();
+
+        assertFalse(pullRequests.isEmpty());
     }
 }

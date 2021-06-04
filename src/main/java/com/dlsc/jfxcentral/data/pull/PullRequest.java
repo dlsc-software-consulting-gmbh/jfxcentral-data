@@ -4,6 +4,8 @@ package com.dlsc.jfxcentral.data.pull;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class PullRequest {
 
     @SerializedName("url")
@@ -33,6 +35,10 @@ public class PullRequest {
     @SerializedName("html_url")
     @Expose
     private String htmlUrl;
+
+    @SerializedName("labels")
+    @Expose
+    private List<Label> labels;
 
     public String getUrl() {
         return url;
@@ -104,5 +110,13 @@ public class PullRequest {
 
     public void setHtmlUrl(String htmlUrl) {
         this.htmlUrl = htmlUrl;
+    }
+
+    public List<Label> getLabels() {
+        return labels;
+    }
+
+    public void setLabels(List<Label> labels) {
+        this.labels = labels;
     }
 }
