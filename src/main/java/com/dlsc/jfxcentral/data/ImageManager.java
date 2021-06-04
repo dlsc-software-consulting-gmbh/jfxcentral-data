@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
 
-    private static final Image USER_IMAGE = new Image(ImageManager.class.getResource("missing-user.png").toExternalForm());
+    private static final Image MISSING_USER_IMAGE = new Image(ImageManager.class.getResource("missing-user.png").toExternalForm());
     private static final Image MISSING_IMAGE = new Image(ImageManager.class.getResource("missing-image.jpg").toExternalForm());
     private static final Image MISSING_VIDEO_IMAGE = new Image(ImageManager.class.getResource("missing-video.png").toExternalForm());
 
@@ -78,6 +78,10 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
         return imageProperty("https://img.youtube.com/vi/" + video.getId(), "/0.jpg", video.getId(), MISSING_VIDEO_IMAGE);
     }
 
+    public ObjectProperty<Image> githubAvatarImageProperty(String loginName) {
+        return imageProperty("https://github.com/", loginName + ".png", "&size=100", "github-" + loginName, MISSING_USER_IMAGE);
+    }
+
     private ObjectProperty<Image> imageProperty(String baseURL, String photoFileName) {
         return imageProperty(baseURL, photoFileName, photoFileName, null);
     }
@@ -87,6 +91,10 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
     }
 
     private ObjectProperty<Image> imageProperty(String baseURL, String photoFileName, String photoKey, Image placeholderImage) {
+        return imageProperty(baseURL, photoFileName, "", photoKey, placeholderImage);
+    }
+
+    private ObjectProperty<Image> imageProperty(String baseURL, String photoFileName, String append, String photoKey, Image placeholderImage) {
         if (StringUtils.isBlank(photoFileName) || StringUtils.isBlank(photoKey)) {
             return new SimpleObjectProperty<>(placeholderImage);
         }
@@ -100,7 +108,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
             }
 
             try {
-                URL url = new URL(baseURL + photoFileName + "?" + ZonedDateTime.now().toInstant());
+                URL url = new URL(baseURL + photoFileName + "?" + ZonedDateTime.now().toInstant() + append);
                 URLConnection connection = url.openConnection();
 
                 System.out.println("loading image: " + url.toExternalForm());

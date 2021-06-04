@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data;
 
+import com.dlsc.jfxcentral.data.pull.PullRequest;
+import com.dlsc.jfxcentral.data.pull.User;
 import javafx.beans.property.ObjectProperty;
 import javafx.scene.image.Image;
 import org.junit.jupiter.api.BeforeAll;
@@ -120,5 +122,23 @@ public class ImageManagerTest {
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
         });
+    }
+
+    @Test
+    public void shouldGetGithubAvatarImage() {
+        // given
+        User user = new User();
+        user.setLogin("dlemmermann");
+
+        PullRequest pr = new PullRequest();
+        pr.setNumber(999);
+        pr.setUser(user);
+
+        // when
+        ObjectProperty<Image> property = ImageManager.getInstance().githubAvatarImageProperty(pr.getUser().getLogin());
+
+        // then
+        assertNotNull(property, "image property is null for avatar");
+        assertNotNull(property.get(), "image is missing for avatar");
     }
 }
