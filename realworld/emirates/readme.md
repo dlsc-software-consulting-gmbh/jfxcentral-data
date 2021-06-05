@@ -11,4 +11,4 @@ satisfied by utilizing the commercial FlexGanttFX framework.
 
 [![Screen 3](screen3.jpg)]()
 
-[![Screen 4](screen3.jpg)]()
+[![Screen 4](screen4.jpg)]()
