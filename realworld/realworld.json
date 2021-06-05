@@ -1,4 +1,14 @@
+
 [
+  {
+    "id": "rnartist",
+    "name": "RNArtist",
+    "company": "Fabrise Jossinet (University of Strasbourg)",
+    "url": "https://github.com/fjossinet/RNArtist",
+    "domain": "Research",
+    "summary": "An editor for creating 2D RNA structures.",
+    "videoIds": []
+  },
   {
     "id": "presentationbuilder",
     "name": "Presentation Builder",
