@@ -97,17 +97,17 @@
     "modifiedOn": "2021-06-05",
     "files": [
       {
-        "name": "Keynote for Mac",
+        "name": "Keynote (Mac)",
         "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/RealWorldFXAppsKeynote.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
-        "name": "PowerPoint for Windows",
+        "name": "PowerPoint (Windows)",
         "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/RealWorldFXAppsPowerpoint.zip",
         "fileName": "",
         "package": "ZIP"
-      },
+      }
     ]
   }
 ]
