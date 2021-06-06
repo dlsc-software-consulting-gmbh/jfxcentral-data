@@ -1,5 +1,3 @@
-# GemsFX
-
 > At least **JDK 11** is required.
 
 ## Dialog Pane
