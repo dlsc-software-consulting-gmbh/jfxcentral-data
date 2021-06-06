@@ -1,8 +1,6 @@
 # GemsFX
 
-*At least **JDK 11** is required.*
-
-[![Maven Central](https://img.shields.io/maven-central/v/com.dlsc.gemsfx/gemsfx)](https://search.maven.org/search?q=g:com.dlsc.gemsfx%20AND%20a:gemsfx)
+> At least **JDK 11** is required.
 
 ## Dialog Pane
 
