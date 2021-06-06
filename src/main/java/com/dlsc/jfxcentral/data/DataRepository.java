@@ -720,6 +720,7 @@ public class DataRepository {
 
         URLConnection connection = url.openConnection();
         connection.setUseCaches(false);
+        connection.setDefaultUseCaches(false);
 
         ReadableByteChannel readChannel = Channels.newChannel(connection.getInputStream());
         File file = File.createTempFile(fileName, ".json");
