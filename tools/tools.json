@@ -3,18 +3,21 @@
     "id": "javafxmavenplugin",
     "name": "JavaFX Plugin",
     "summary": "Maven plugin to run JavaFX 11+ applications.",
+    "tags": "maven, plugin",
     "url": "https://github.com/openjfx/javafx-maven-plugin"
   },
   {
     "id": "clientplugin",
     "name": "Client Plugin",
     "summary": "Create native apps for desktop or mobile devices.",
+    "tags": "maven, plugin, gluon, mobile, embedded, iOS, android, iPhone, iPad",
     "url": "https://github.com/gluonhq/client-maven-plugin"
   },
   {
     "id": "scenicview",
     "name": "Scenic View",
     "summary": "Inspect / debug the scene graph of your application.",
+    "tags": "inspect, developer, development",
     "url": "https://github.com/JonathanGiles/scenic-view",
     "links": [
       {
@@ -35,6 +38,7 @@
     "id": "scenebuilder",
     "name": "Scene Builder",
     "summary": "WYSIWYG editor for building your user interface.",
+    "tags": "UI builder, wysiwyg, editor, user interface, client",
     "url": "https://gluonhq.com/products/scene-builder/",
     "links": [
       {
@@ -47,6 +51,7 @@
     "id": "jpro",
     "name": "JPro",
     "summary": "Deploy and run your applications in browsers.",
+    "tags": "web, browser, web app, web application",
     "url": "https://www.jpro.one",
     "links": [
       {
@@ -67,6 +72,7 @@
     "id": "gluonmobile",
     "name": "Gluon Mobile",
     "summary": "Deploy to mobile devices like iPhones, iPads, or Android.",
+    "tags": "gluon, mobile, ui, navigation",
     "url": "https://gluonhq.com/products/mobile/",
     "links": [
       {
