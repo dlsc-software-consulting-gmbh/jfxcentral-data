@@ -8,6 +8,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-08",
     "personIds": [
       "h.ebbers"
     ]
@@ -21,6 +22,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-08",
     "personIds": [
       "w.weigend"
     ]
@@ -34,6 +36,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-14",
     "personIds": [
       "j.vos"
     ]
@@ -47,6 +50,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-14",
     "personIds": [
       "a.almiray"
     ]
@@ -61,6 +65,7 @@
     "event": "JFX Days 2020",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-21",
     "personIds": [
       "a.baimagambetov"
     ]
@@ -75,6 +80,7 @@
     "event": "JFX Days 2020",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-21",
     "personIds": [
       "f.kirmaier"
     ]
@@ -89,12 +95,13 @@
     "platform": "Desktop",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-28",
     "personIds": [
       "m.hoffer"
     ]
   },
   {
-    "title": "JavaFX real-world application: SenaptCRM | Dirk Lemmermann @ JFX Days 2020",
+    "title": "JavaFX real-world application: Senapt CRM | Dirk Lemmermann @ JFX Days 2020",
     "type": "Real World Application",
     "domain": "Energy, CRM",
     "platform": "Desktop, Web",
@@ -104,6 +111,7 @@
     "platform": "Desktop, Web",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-12-28",
     "personIds": [
       "d.lemmermann"
     ]
@@ -117,6 +125,7 @@
     "platform": "Desktop",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-04",
     "personIds": [
       "j.macaulay"
     ]
@@ -132,6 +141,7 @@
     "platform": "Desktop",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-04",
     "personIds": [
       "p.vieira"
     ]
@@ -145,6 +155,7 @@
     "event": "JFX Days 2020",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-11",
     "personIds": [
       "a.epple"
     ]
@@ -159,6 +170,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-11",
     "personIds": [
       ""
     ]
@@ -172,6 +184,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-18",
     "personIds": [
       "d.lemmermann"
     ]
@@ -186,6 +199,7 @@
     "platform": "Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-18",
     "personIds": [
       ""
     ]
@@ -201,6 +215,7 @@
     "platform": "Desktop",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-25",
     "personIds": [
       ""
     ]
@@ -214,6 +229,7 @@
     "platform": "Desktop",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-02-01",
     "personIds": [
       "t.schindl"
     ]
@@ -227,6 +243,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-02-01",
     "personIds": [
       "r.lichtenberger"
     ]
@@ -240,6 +257,7 @@
     "platform": "Desktop, Web, Mobile, Embedded",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-02-01",
     "personIds": [
       "p.vieira"
     ]
@@ -254,6 +272,7 @@
     "platform": "Desktop",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2021-01-25",
     "personIds": [
       "d.lemmermann"
     ]
@@ -268,6 +287,7 @@
     "platform": "Desktop",
     "createdOn": "2021-05-28",
     "modifiedOn": "2021-05-28",
+    "publishedOn": "2016-01-04",
     "personIds": [
       "d.lemmermann"
     ]
@@ -281,7 +301,8 @@
     "event": "",
     "platform": "Desktop",
     "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "publishedOn": "2016-01-04"
   },
   {
     "title": "JavaFX real-world application: SOPHIA Genetics",
@@ -292,7 +313,8 @@
     "event": "",
     "platform": "Desktop",
     "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "publishedOn": "2020-11-23"
   },
   {
     "title": "JavaFX real-world application: Scrum Board",
@@ -303,7 +325,8 @@
     "event": "",
     "platform": "Desktop",
     "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "publishedOn": "2013-09-18"
   },
   {
     "title": "JavaFX real-world application: Deep Space Trajectory Explorer",
@@ -314,7 +337,8 @@
     "event": "",
     "platform": "Desktop",
     "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "publishedOn": "2015-10-21"
   },
   {
     "title": "JavaFX real-world application: Monastery Disentis",
@@ -325,10 +349,11 @@
     "event": "",
     "platform": "Desktop",
     "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-31"
+    "modifiedOn": "2021-05-31",
+    "publishedOn": "2017-05-08"
   },
   {
-    "title": "Extreme GUI Makeover | JFX Days Zurich 2018",
+    "title": " JFX Days Zurich 2018: Extreme GUI Makeover | Hendrik Ebbers & Dirk Lemmermann",
     "type": "Presentation",
     "domain": "Demo",
     "description": "A recording of Dirk Lemmermann's Hendrik Ebbers' presentation at the JFX Days Zurich 2018. They are showing how a boring application can be pimped to make it look more up-to-date and sexy. CSS Styling, animations, effects, media player integration, transformations, etc... all the good stuff. [JFXDays 2018](http://jfx-days.com)",
@@ -340,6 +365,152 @@
     ],
     "platform": "Desktop",
     "createdOn": "2021-06-07",
-    "modifiedOn": "2021-06-07"
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2019-01-10"
+  },
+
+  {
+    "title": "JFX Days Zurich 2018 Keynote | Dirk Lemmermann et al.",
+    "type": "Keynote",
+    "domain": "",
+    "description": "This is a recording of the keynote of the JFX Days conference in Zurich (December 4th, 2018). The keynote consists of four parts. Introduction DLSC. DLSC Open Source Projects (PreferencesFX (7:20), WorkbenchFX (13:27)), Graviton Presentation (21:53), Show & Tell. The last part shows a total of ten applications that are using JavaFX: Sideline Sports Presentation Builder (31:56), NaviElektro Situational Awareness Applications (33:21), Carl Zeiss (37:40), Sophia AI Genetics (40:00), Rinkai Routing Optimization (42:49), Safran Batch Production (46:23), Woanna Team Collaboration (51:50), Michael Paus Aviation (56:00), Synedra (59:24), Rohm Semiconductors (1:03:02).",
+    "id": "Lg6Hvj7_P14",
+    "event": "JFX Days 2018",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2018-12-13"
+  },
+
+  {
+    "title": "JFX Days Zurich 2018: Custom Controls | Gerrit Grunwald",
+    "type": "Presentation",
+    "domain": "",
+    "description": "A recording of Gerrit Grunwald's presentation on **Custom Controls** at the JFX Days Zurich 2018. You will see and learn how to develop truly professional controls for your apps.",
+    "id": "OuF2BMnCjt4",
+    "event": "JFX Days 2018",
+    "personIds": [
+      "g.grunwald"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2019-01-09"
+  },
+
+  {
+    "title": "JFX Days Zurich 2018: Supercharge the JavaFX Canvas | David Gilbert",
+    "type": "Presentation",
+    "domain": "",
+    "description": "Java charting legend David Gilbert presents FxGraphics2D, a wrapper around the Swing Graphics API.",
+    "id": "iyxrcDThtIo",
+    "event": "JFX Days 2018",
+    "personIds": [
+      "d.gilbert"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2019-01-01"
+  },
+
+  {
+    "title": "JFX Days Zurich 2018: DRIFT Announcement | Tom Schindl",
+    "type": "Presentation",
+    "domain": "",
+    "description": "Tom Schindle's announcement of DRIFT / OpenGL / D3D support for JavaFX.\n",
+    "id": "3OSgPJghGhM",
+    "event": "JFX Days 2018",
+    "personIds": [
+      "t.schindl"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2018-12-09"
+  },
+
+  {
+    "title": "JFX Days Zurich 2018: JavaFX on Mobile & Embedded | Gluon",
+    "type": "Presentation",
+    "domain": "",
+    "description": "This video is about JavaFX on mobile and embedded via Gluon.",
+    "id": "H4wnGgDWZdE",
+    "event": "JFX Days 2018",
+    "personIds": [
+      "j.vos",
+      "j.pereda"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2019-03-27"
+  },
+
+  {
+    "title": "JFX Days Zurich 2018: HTML in JavaFX | Anton Epple",
+    "type": "Presentation",
+    "domain": "",
+    "description": "Listen to Anton Epple explaining how to use the combination of HTML and JavaFX.",
+    "id": "B5CCv0TQoLM",
+    "event": "JFX Days 2018",
+    "personIds": [
+      "a.epple"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2019-04-03"
+  },
+
+  {
+    "title": "JFX Days Zurich 2018: e(fx)clipse | Tom Schindl",
+    "type": "Presentation",
+    "domain": "",
+    "description": "Hear Tom Schindl present the e(fx)clipse project and all the various frameworks it provides to speed up your application development. This presentation also included the world premiere of DRIFT (OpenGL support for JavaFX).",
+    "id": "9g4JrOJ6Clc",
+    "event": "JFX Days 2018",
+    "personIds": [
+      "t.schindl"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2019-04-09"
+  },
+
+  {
+    "title": "JFX Days 2019: NativeFX | Michael Hoffer",
+    "type": "Presentation",
+    "domain": "",
+    "description": "Michael Hoffer presents his open source project NativeFX that takes advantage of JavaFX's capability of native rendering by third party apps (e.g. OpenGL apps). For more info [check out the project's repository on GitHub.](https://github.com/miho/NativeFX).",
+    "id": "nbti6JC3ppU",
+    "event": "JFX Days 2019",
+    "personIds": [
+      "m.hoffer"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2020-03-19"
+  },
+
+  {
+    "title": "JFX Days 2019: Desktop 2019 | Hendrik Ebbers",
+    "type": "Keynote",
+    "domain": "",
+    "description": "Some years ago development of Java Desktop applications was easy: We just downloaded Java 8 from Oracle and got a set of useful tools and framework to develop Java desktop applications:\n\nAWT & Swing\nWebStart\nJavaFX\nJFX Packager\n\nIf you now download a Java version from Oracle (or any other vendor) several of the mentioned tools and frameworks are gone. Some JDKs only contain AWT & Swing for desktop development and miss all the newer tools. But even if they include such tools or frameworks you have sometimes no idea about their state.\n\nIn this session I will give an overview about the differences between JDKs that you can use today and how frameworks like JavaFX are really supported by the vendors. Next to this we will have a look at all the tools that are important for building and installing desktop development.",
+    "id": "VbiokgYUnvr4",
+    "event": "JFX Days 2019",
+    "personIds": [
+      "h.ebbers"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2020-09-07"
   }
 ]
