@@ -512,5 +512,20 @@
     "createdOn": "2021-06-07",
     "modifiedOn": "2021-06-07",
     "publishedOn": "2020-09-07"
+  },
+  {
+    "title": "Oracle CodeOne: JavaFX Tips and Tricks: Reloaded | Dirk Lemmermann",
+    "type": "Presentation",
+    "domain": "",
+    "description": "A tips & tricks session presented by Dirk Lemmermann at Oracle CodeOne in 2019",
+    "id": "sJAjb_Dht_w",
+    "event": "Oracle CodeOne 2019",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2019-09-17"
   }
 ]
