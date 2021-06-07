@@ -924,6 +924,7 @@ public class DataRepository {
         search(getTools(), pattern, result);
         search(getVideos(), pattern, result);
         search(getNews(), pattern, result);
+        search(getDownloads(), pattern, result);
         return result;
     }
 
