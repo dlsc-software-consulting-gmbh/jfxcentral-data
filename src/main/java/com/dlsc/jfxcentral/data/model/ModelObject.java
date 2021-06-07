@@ -1,9 +1,11 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.time.LocalDate;
+import java.util.StringTokenizer;
 
 public abstract class ModelObject {
 
@@ -13,6 +15,24 @@ public abstract class ModelObject {
     private String tags;
 
     protected ModelObject() {
+    }
+
+    public boolean matches(String searchPattern) {
+        return false;
+    }
+
+    protected boolean tagsMatch(String searchPattern) {
+        if (StringUtils.isNotBlank(tags)) {
+            StringTokenizer st = new StringTokenizer(getTags(), ",");
+            while (st.hasMoreTokens()) {
+                String tag = st.nextToken().trim();
+                if (StringUtils.containsAnyIgnoreCase(tag, searchPattern)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 
     public String getTags() {

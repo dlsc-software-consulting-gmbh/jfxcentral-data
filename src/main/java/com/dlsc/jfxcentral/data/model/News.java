@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,6 @@ public class News extends ModelObject {
 
     private String title;
     private String subtitle;
-    private String text;
     private String author;
 
     private Type type = Type.MISC;
@@ -25,6 +26,27 @@ public class News extends ModelObject {
     }
 
     public News() {
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(subtitle, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(author, searchPattern)) {
+            return true;
+        }
+
+        return false;
     }
 
     public Type getType() {
@@ -65,14 +87,6 @@ public class News extends ModelObject {
 
     public void setSubtitle(String subtitle) {
         this.subtitle = subtitle;
-    }
-
-    public String getText() {
-        return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 
     public String getAuthor() {

@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +16,31 @@ public class RealWorldApp extends ModelObject {
     private List<String> videoIds = new ArrayList<>();
 
     public RealWorldApp() {
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(summary, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(company, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(domain, searchPattern)) {
+            return true;
+        }
+
+        return false;
     }
 
     public String getSummary() {

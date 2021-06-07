@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +14,23 @@ public class Tutorial extends ModelObject {
     private List<String> personIds = new ArrayList<>();
 
     public Tutorial() {
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(summary, searchPattern)) {
+            return true;
+        }
+
+        return false;
     }
 
     public String getName() {

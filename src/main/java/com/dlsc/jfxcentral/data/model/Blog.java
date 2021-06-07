@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +15,23 @@ public class Blog extends ModelObject {
     private String feed;
 
     public Blog() {
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(summary, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+            return true;
+        }
+
+        return false;
     }
 
     public String getCompanyId() {

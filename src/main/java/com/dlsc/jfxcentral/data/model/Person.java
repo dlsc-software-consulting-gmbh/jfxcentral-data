@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +30,27 @@ public class Person extends ModelObject {
     }
 
     public Person() {
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(email, searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(description, searchPattern)) {
+            return true;
+        }
+
+        return false;
     }
 
     public String getName() {

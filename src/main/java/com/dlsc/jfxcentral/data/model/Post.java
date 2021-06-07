@@ -2,6 +2,7 @@ package com.dlsc.jfxcentral.data.model;
 
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
+import org.apache.commons.lang3.StringUtils;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -18,6 +19,23 @@ public class Post extends ModelObject {
         this.blog = blog;
         this.syndFeed = syndFeed;
         this.syndEntry = syndEntry;
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(syndEntry.getTitle(), searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(syndEntry.getAuthor(), searchPattern)) {
+            return true;
+        }
+
+        return false;
     }
 
     public Blog getBlog() {

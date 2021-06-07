@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +14,19 @@ public class Company extends ModelObject {
     private List<String> libraryIds = new ArrayList<>();
 
     public Company() {
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
+            return true;
+        }
+
+        return false;
     }
 
     public boolean isConsulting() {

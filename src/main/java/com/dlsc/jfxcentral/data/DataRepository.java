@@ -182,7 +182,7 @@ public class DataRepository {
             setDownloads(gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
             }.getType()));
 
-            if (!Boolean.getBoolean("no-feeds")) {
+            if (!Boolean.getBoolean("no.feeds")) {
                 readFeeds();
             }
 
@@ -911,5 +911,27 @@ public class DataRepository {
                 }
             }
         }
+    }
+
+    public List<ModelObject> search(String pattern) {
+        List<ModelObject> result = new ArrayList<>();
+        search(getBooks(), pattern, result);
+        search(getBlogs(), pattern, result);
+        search(getCompanies(), pattern, result);
+        search(getPeople(), pattern, result);
+        search(getLibraries(), pattern, result);
+        search(getRealWorldApps(), pattern, result);
+        search(getTools(), pattern, result);
+        search(getVideos(), pattern, result);
+        search(getNews(), pattern, result);
+        return result;
+    }
+
+    private void search(List<? extends ModelObject> modelObjects, String pattern, List<ModelObject> result) {
+        modelObjects.forEach(mo -> {
+            if (mo.matches(pattern)) {
+                result.add(mo);
+            }
+        });
     }
 }

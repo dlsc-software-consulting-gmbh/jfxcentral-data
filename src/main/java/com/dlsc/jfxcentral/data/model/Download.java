@@ -1,5 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -68,6 +70,26 @@ public class Download extends ModelObject {
     }
 
     public Download() {
+    }
+
+    @Override
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+
+        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+            return true;
+        }
+
+        for (DownloadFile file : getFiles()) {
+            if (StringUtils.containsAnyIgnoreCase(file.getName(), searchPattern)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public DownloadType getDownloadType() {
