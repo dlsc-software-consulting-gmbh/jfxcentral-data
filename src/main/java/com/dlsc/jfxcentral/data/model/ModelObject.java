@@ -10,8 +10,17 @@ public abstract class ModelObject {
     private String id;
     private LocalDate createdOn;
     private LocalDate modifiedOn;
+    private String tags;
 
     protected ModelObject() {
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
     }
 
     public String getId() {

@@ -2,6 +2,7 @@
   {
     "id": "makeover",
     "title": "Extreme GUI Makeover",
+    "tags": "makeover, demo, presentation, javaone, oracle codeone",
     "downloadType": "APPLICATION",
     "personIds": [
       "d.lemmermann",
@@ -31,6 +32,7 @@
   {
     "id": "emirates",
     "title": "FlexGanttFX POC for Emirates Airlines",
+    "tags": "demo, poc, airline, emirates, scheduling, planning, gantt",
     "downloadType": "APPLICATION",
     "personIds": [
       "d.lemmermann"
@@ -58,6 +60,7 @@
   {
     "id": "ikonlibrowser",
     "title": "Ikonli Browser",
+    "tags": "icons, library, demo, application",
     "downloadType": "APPLICATION",
     "personIds": [
       "a.almiray"
@@ -89,6 +92,7 @@
   {
     "id": "realworld",
     "title": "Real World Apps Presentation",
+    "tags": "real world app, keynote, powerpoint, conference, event, talk, presentation",
     "downloadType": "PRESENTATION",
     "personIds": [
       "d.lemmermann"

@@ -6,6 +6,7 @@
     "createdOn": "2021-05-26",
     "consulting": "true",
     "freelancing": "true",
+    "tags": "freelancing, consulting, custom controls",
     "libraryIds": [
       "unitfx",
       "preferencesfx",
@@ -23,6 +24,7 @@
     "name": "jpro.one",
     "homepage": "https://jpro.one",
     "createdOn": "2021-05-27",
+    "tags": "consulting, web, jpro",
     "consulting": "true",
     "freelancing": "true"
   },
@@ -30,6 +32,7 @@
     "id": "gluon",
     "name": "Gluon",
     "homepage": "https://gluonhq.com",
+    "tags": "mobile, embedded, ios, android, maven plugin",
     "createdOn": "2021-05-27",
     "consulting": "true",
     "freelancing": "true"
@@ -38,6 +41,7 @@
     "id": "foojay",
     "name": "foojay",
     "homepage" : "https://foojay.io",
+    "tags": "blog, news",
     "createdOn": "2021-05-26",
     "consulting": "false",
     "freelancing": "false"
@@ -46,6 +50,7 @@
     "id": "bestsolution",
     "name": "BestSolution",
     "homepage" : "https://www.bestsolution.at",
+    "tags": "consulting",
     "createdOn": "2021-05-27",
     "consulting": "true",
     "freelancing": "false"
@@ -54,6 +59,7 @@
     "id": "karakun",
     "name": "Karakun",
     "homepage" : "https://karakun.com",
+    "tags": "consulting",
     "createdOn": "2021-05-27",
     "consulting": "true",
     "freelancing": "false"
@@ -62,6 +68,7 @@
     "id": "eppleton",
     "name": "Eppleton",
     "homepage" : "https://eppleton.de",
+    "tags": "consulting",
     "createdOn": "2021-05-27",
     "consulting": "true",
     "freelancing": "false"
