@@ -527,5 +527,19 @@
     "createdOn": "2021-06-07",
     "modifiedOn": "2021-06-07",
     "publishedOn": "2019-09-17"
+  },
+  {
+    "title": "JavaFX Graphics Tips and Tricks | Richard Bair",
+    "type": "Presentation",
+    "domain": "",
+    "description": "JavaFX provides a rich set of graphical shapes and attributes that gives application developers many ways to achieve a variety of interesting visual effects. Many of these will serve you well, but some come with a high performance cost. This session provides practical advice on writing efficient JavaFX applications, specifically to help application developers get the most performance out of their applications. It shows several examples of things you should do in your applications and things to avoid in areas such as image loading, transformations, animation, effects, and blending. It also shows you how to use profiling tools in your applications to help you understand the performance bottlenecks and identify the trouble spots.",
+    "id": "ddJpDi5SWFc",
+    "event": "Oracle Learning",
+    "personIds": [
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07",
+    "publishedOn": "2013-01-30"
   }
 ]
