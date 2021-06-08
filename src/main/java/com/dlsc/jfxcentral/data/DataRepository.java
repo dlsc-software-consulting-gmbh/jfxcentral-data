@@ -81,12 +81,18 @@ public class DataRepository {
 
     private Map<Library, StringProperty> libraryReadMeMap = new HashMap<>();
 
+    private boolean loaded = false;
+
     public static synchronized DataRepository getInstance() {
         if (instance == null) {
             instance = new DataRepository();
         }
 
         return instance;
+    }
+
+    public boolean isLoaded() {
+        return loaded;
     }
 
     private DataRepository() {
@@ -109,6 +115,8 @@ public class DataRepository {
     }
 
     public void clearData() {
+        loaded = false;
+
         setHomeText("");
         setOpenJFXText("");
 
@@ -238,6 +246,8 @@ public class DataRepository {
 
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            loaded = true;
         }
     }
 
@@ -902,6 +912,8 @@ public class DataRepository {
             if (StringUtils.isNotBlank(url)) {
 
                 System.out.println("loading blog posts from url: " + url);
+                setMessage("Loading blog: " + blog.getTitle());
+
                 SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
 
                 List<SyndEntry> entries = feed.getEntries();
