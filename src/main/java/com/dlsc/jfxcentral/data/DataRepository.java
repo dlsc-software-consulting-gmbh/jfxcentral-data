@@ -129,66 +129,101 @@ public class DataRepository {
 
     private void loadData() {
         try {
+            double steps = 14d;
+            setProgress(0);
+            setMessage("");
+
+            setMessage("Loading text for start page");
             setHomeText(loadString(getBaseUrl() + "intro.md?time=" + ZonedDateTime.now().toInstant()));
+            setProgress(getProgress() + 1 / steps);
+
+            setMessage("Loading text for OpenJFX project");
             setOpenJFXText(loadString(getBaseUrl() + "openjfx/intro.md?time=" + ZonedDateTime.now().toInstant()));
+            setProgress(getProgress() + 1 / steps);
 
             // load people
+            setMessage("Loading index of people");
             File peopleFile = loadFile("people", getBaseUrl() + "people/people.json");
             setPeople(gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load books
+            setMessage("Loading index of books");
             File booksFile = loadFile("books", getBaseUrl() + "books/books.json");
             setBooks(gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load videos
+            setMessage("Loading index of videos");
             File videosFile = loadFile("videos", getBaseUrl() + "videos/videos.json");
             setVideos(gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load libraries
+            setMessage("Loading index of libraries");
             File librariesFile = loadFile("libraries", getBaseUrl() + "libraries/libraries.json");
             setLibraries(gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load libraries
+            setMessage("Loading index of news");
             File newsFile = loadFile("news", getBaseUrl() + "news/news.json");
             setNews(gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load libraries
+            setMessage("Loading index of blogs");
             File blogsFile = loadFile("blogs", getBaseUrl() + "blogs/blogs.json");
             setBlogs(gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load libraries
+            setMessage("Loading index of companies");
             File companiesFile = loadFile("companies", getBaseUrl() + "companies/companies.json");
             setCompanies(gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load tools
+            setMessage("Loading index of tools");
             File toolsFile = loadFile("tools", getBaseUrl() + "tools/tools.json");
             setTools(gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             // load real world apps
+            setMessage("Loading index of real world apps");
             File realWorldFile = loadFile("realworld", getBaseUrl() + "realworld/realworld.json");
             setRealWorldApps(gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
-            // load dowloads
+            // load downloads
+            setMessage("Loading index of downloads");
             File downloadsFile = loadFile("downloads", getBaseUrl() + "downloads/downloads.json");
             setDownloads(gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
             }.getType()));
+            setProgress(getProgress() + 1 / steps);
 
             if (!Boolean.getBoolean("no.feeds")) {
+                setMessage("Loading blog feeds");
                 readFeeds();
             }
+            setProgress(getProgress() + 1 / steps);
 
+            setMessage("Loading pull requests from OpenJFX project.");
             loadPullRequests();
+            setProgress(getProgress() + 1 / steps);
 
+            setMessage("Updating list of recent items");
             updateRecentItems();
+            setProgress(getProgress() + 1 / steps);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -934,5 +969,33 @@ public class DataRepository {
                 result.add(mo);
             }
         });
+    }
+
+    private final StringProperty message = new SimpleStringProperty(this, "message");
+
+    public String getMessage() {
+        return message.get();
+    }
+
+    public StringProperty messageProperty() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message.set(message);
+    }
+
+    private final DoubleProperty progress = new SimpleDoubleProperty(this, "progress");
+
+    public double getProgress() {
+        return progress.get();
+    }
+
+    public DoubleProperty progressProperty() {
+        return progress;
+    }
+
+    public void setProgress(double progress) {
+        this.progress.set(progress);
     }
 }
