@@ -91,8 +91,16 @@ public class DataRepository {
 
     private DataRepository() {
         recentItems.addListener((Observable it) -> System.out.println("recent items count: " + getRecentItems().size()));
-        loadData();
         sourceProperty().addListener(it -> refreshData());
+
+        if (ASYNC) {
+            Thread thread = new Thread(() -> loadData());
+            thread.setName("Data Repository Thread");
+            thread.setDaemon(true);
+            thread.start();
+        } else {
+            loadData();
+        }
     }
 
     public void refreshData() {
