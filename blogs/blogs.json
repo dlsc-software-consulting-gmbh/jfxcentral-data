@@ -100,7 +100,7 @@
     "id": "pixelperfect",
     "title": "Pixel Perfect",
     "summary": "Dirk Lemmermann blogs about JavaFX tips & tricks, custom controls, and 'Real World' applications.",
-    "url": "http://dlsc.com/blog/",
+    "url": "https://dlemmermann.wordpress.com",
     "createdOn": "2021-05-24",
     "feed": "https://dlemmermann.wordpress.com/feed/",
     "tags:": "tips,tricks,control,real world,apps,examples,custom, jfx-central, jfx-days",
