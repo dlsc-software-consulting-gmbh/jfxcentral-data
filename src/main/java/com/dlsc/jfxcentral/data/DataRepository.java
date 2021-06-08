@@ -231,7 +231,7 @@ public class DataRepository {
 
             setMessage("Updating list of recent items");
             updateRecentItems();
-            setProgress(getProgress() + 1 / steps);
+            setProgress(1);
 
         } catch (Exception e) {
             e.printStackTrace();
