@@ -225,12 +225,15 @@ public class DataRepository {
             }
             setProgress(getProgress() + 1 / steps);
 
-            setMessage("Loading pull requests from OpenJFX project.");
+            setMessage("Loading pull requests from OpenJFX project");
             loadPullRequests();
             setProgress(getProgress() + 1 / steps);
 
             setMessage("Updating list of recent items");
             updateRecentItems();
+            setProgress(getProgress() + 1 / steps);
+
+            setMessage("Done loading");
             setProgress(1);
 
         } catch (Exception e) {
