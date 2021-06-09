@@ -55,6 +55,16 @@ public class ImageManagerTest {
     }
 
     @Test
+    public void shouldGetBlogIconImage() {
+        // when .. then
+        DataRepository.getInstance().getBlogs().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().blogIconImageProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+        });
+    }
+
+    @Test
     public void shouldGetBlogPageLargeImage() {
         // when .. then
         DataRepository.getInstance().getBlogs().forEach(item -> {

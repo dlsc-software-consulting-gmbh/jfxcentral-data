@@ -1,4 +1,4 @@
-JavaFX version 16 has been released. We've tailored down some of the most exciting parts of the release in this document.
+JavaFX version 16 has been released. We've tailored down some of the most exciting parts of the release in this article.
 
 Exciting features:
 - Attenuation has been added for PointLight in JavaFX 3D
