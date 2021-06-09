@@ -65,6 +65,26 @@ public class ImageManagerTest {
     }
 
     @Test
+    public void shouldGetTutorialPageImage() {
+        // when .. then
+        DataRepository.getInstance().getTutorials().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().tutorialImageProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetTutorialPageLargeImage() {
+        // when .. then
+        DataRepository.getInstance().getTutorials().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().tutorialImageLargeProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+        });
+    }
+
+    @Test
     public void shouldGetRealWorldImage() {
         // when .. then
         DataRepository.getInstance().getRealWorldApps().forEach(item -> {
