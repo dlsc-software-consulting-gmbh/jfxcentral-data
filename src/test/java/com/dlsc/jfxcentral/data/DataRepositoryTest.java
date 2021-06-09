@@ -47,6 +47,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getRealWorldApps().isEmpty());
         assertTrue(!repository.getTools().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
+        assertTrue(!repository.getTutorials().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -72,6 +73,7 @@ public class DataRepositoryTest {
         assertTrue(repository.getRealWorldApps().isEmpty());
         assertTrue(repository.getTools().isEmpty());
         assertTrue(repository.getVideos().isEmpty());
+        assertTrue(repository.getTutorials().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -100,6 +102,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getRealWorldApps().isEmpty());
         assertTrue(!repository.getTools().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
+        assertTrue(!repository.getTutorials().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -153,7 +156,7 @@ public class DataRepositoryTest {
     }
 
     @Test
-    public void shouldLoadNews() {
+    public void shouldLoadNewsText() {
         // given
         DataRepository repository = DataRepository.getInstance();
         assertFalse(repository.getNews().isEmpty());
@@ -164,6 +167,21 @@ public class DataRepositoryTest {
 
             // then
             assertTrue(StringUtils.isNotBlank(text.get()), "text missing for news ID " + news.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadTutorialText() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getTutorials().isEmpty());
+
+        // when
+        repository.getTutorials().forEach(tutorial -> {
+            StringProperty text = repository.tutorialTextProperty(tutorial);
+
+            // then
+            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for tutorial ID " + tutorial.getId());
         });
     }
 

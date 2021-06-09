@@ -67,6 +67,8 @@ public class DataRepository {
 
     private Map<News, StringProperty> newsTextMap = new HashMap<>();
 
+    private Map<Tutorial, StringProperty> tutorialTextMap = new HashMap<>();
+
     private Map<Download, StringProperty> downloadTextMap = new HashMap<>();
 
     private Map<Book, StringProperty> bookTextMap = new HashMap<>();
@@ -129,6 +131,7 @@ public class DataRepository {
         realWorldAppDescriptionMap.clear();
         downloadTextMap.clear();
         bookTextMap.clear();
+        tutorialTextMap.clear();
 
         getPosts().clear();
         getPeople().clear();
@@ -141,6 +144,7 @@ public class DataRepository {
         getTools().clear();
         getRealWorldApps().clear();
         getDownloads().clear();
+        getTutorials().clear();
     }
 
     private void loadData() {
@@ -347,6 +351,10 @@ public class DataRepository {
         return videos.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<Tutorial> getTutorialById(String id) {
+        return tutorials.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public ListProperty<Video> getVideosByPerson(Person person) {
         ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
         listProperty.setAll(videos.stream().filter(video -> video.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
@@ -410,6 +418,31 @@ public class DataRepository {
     private void loadNewsText(News news, StringProperty textProperty) {
         String url = getNewsBaseUrl(news) + "/text.md?time=" + ZonedDateTime.now().toInstant();
         System.out.println("loading news from: " + url);
+        String text = loadString(url);
+        if (ASYNC) {
+            Platform.runLater(() -> textProperty.set(text));
+        } else {
+            textProperty.set(text);
+        }
+    }
+
+    public StringProperty tutorialTextProperty(Tutorial tutorial) {
+        return tutorialTextMap.computeIfAbsent(tutorial, key -> {
+            StringProperty textProperty = new SimpleStringProperty();
+
+            if (ASYNC) {
+                executor.submit(() -> loadTutorialText(tutorial, textProperty));
+            } else {
+                loadTutorialText(tutorial, textProperty);
+            }
+
+            return textProperty;
+        });
+    }
+
+    private void loadTutorialText(Tutorial tutorial, StringProperty textProperty) {
+        String url = getBaseUrl() + "tutorials/" + tutorial.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        System.out.println("loading tutorial from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
