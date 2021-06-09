@@ -389,7 +389,7 @@ public class DataRepository {
     private void loadLibraryInfoText(Library library, ObjectProperty<LibraryInfo> infoProperty) {
         try {
             String libraryId = library.getId();
-            File file = loadFile(libraryId + ".json", getBaseUrl() + "libraries/" + libraryId + "/_info.json?time=" + ZonedDateTime.now().toInstant());
+            File file = loadFile(libraryId + ".json", getBaseUrl() + "libraries/" + libraryId + "/info.json?time=" + ZonedDateTime.now().toInstant());
             LibraryInfo result = gson.fromJson(new FileReader(file), LibraryInfo.class);
             if (ASYNC) {
                 Platform.runLater(() -> infoProperty.set(result));
@@ -620,7 +620,7 @@ public class DataRepository {
     }
 
     private void loadLibraryDescription(Library library, StringProperty readmeProperty) {
-        String readmeText = loadString(getBaseUrl() + "libraries/" + library.getId() + "/_readme.md");
+        String readmeText = loadString(getBaseUrl() + "libraries/" + library.getId() + "/readme.md");
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
