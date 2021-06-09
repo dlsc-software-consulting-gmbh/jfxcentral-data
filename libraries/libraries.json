@@ -20,7 +20,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.bootstrapfx",
-    "artifactId": "bootstrapfx-core"
+    "artifactId": "bootstrapfx-core",
+    "ensemble": "true"
   },
   {
     "id": "calendarfx",
@@ -42,7 +43,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.calendarfx",
-    "artifactId": "calendar"
+    "artifactId": "calendar",
+    "ensemble": "false"
   },
   {
     "id": "desktoppanefx",
@@ -64,7 +66,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.desktoppanefx",
-    "artifactId": "desktoppanefx-core"
+    "artifactId": "desktoppanefx-core",
+    "ensemble": "false"
   },
   {
     "title": "FlexGanttFX",
@@ -84,7 +87,8 @@
     "issueTracker": "",
     "id": "flexganttfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "ensemble": "true"
   },
   {
     "title": "FormsFX",
@@ -106,7 +110,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.formsfx",
-    "artifactId": "formsfx-core"
+    "artifactId": "formsfx-core",
+    "ensemble": "false"
   },
   {
     "title": "FXGL",
@@ -128,7 +133,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.github.almasb",
-    "artifactId": "fxgl"
+    "artifactId": "fxgl",
+    "ensemble": "false"
   },
   {
     "title": "GemsFX",
@@ -150,8 +156,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.gemsfx",
-    "artifactId": "gemsfx"
-
+    "artifactId": "gemsfx",
+    "ensemble": "true"
   },
   {
     "title": "GMapsFX",
@@ -173,7 +179,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc",
-    "artifactId": "GMapsFX"
+    "artifactId": "GMapsFX",
+    "ensemble": "false"
   },
   {
     "title": "HarmonicFX",
@@ -195,7 +202,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.harmonicfx",
-    "artifactId": "harmonicfx-core"
+    "artifactId": "harmonicfx-core",
+    "ensemble": "false"
   },
   {
     "title": "Ikonli",
@@ -217,7 +225,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.ikonli",
-    "artifactId": "ikonli-javafx"
+    "artifactId": "ikonli-javafx",
+    "ensemble": "false"
   },
   {
     "title": "JSilhouette",
@@ -239,7 +248,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.jsilhouette",
-    "artifactId": "jsilhouette-javafx"
+    "artifactId": "jsilhouette-javafx",
+    "ensemble": "false"
   },
   {
     "title": "KeyboardFX",
@@ -261,7 +271,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.keyboardfx",
-    "artifactId": "keyboardfx"
+    "artifactId": "keyboardfx",
+    "ensemble": "false"
   },
   {
     "title": "PDFViewFX",
@@ -283,7 +294,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.pdfviewfx",
-    "artifactId": "pdfviewfx"
+    "artifactId": "pdfviewfx",
+    "ensemble": "true"
   },
   {
     "title": "PreferencesFX",
@@ -305,7 +317,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.preferencesfx",
-    "artifactId": "preferencesfx-core"
+    "artifactId": "preferencesfx-core",
+    "ensemble": "false"
   },
   {
     "title": "UnitFX",
@@ -327,7 +340,8 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.unitfx",
-    "artifactId": "unitfx"
+    "artifactId": "unitfx",
+    "ensemble": "false"
   },
   {
     "title": "WorkbenchFX",
@@ -349,6 +363,7 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.workbenchfx",
-    "artifactId": "workbenchfx-core"
+    "artifactId": "workbenchfx-core",
+    "ensemble": "false"
   }
 ]

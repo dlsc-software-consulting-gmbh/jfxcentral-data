@@ -20,6 +20,7 @@ public class Library extends ModelObject {
     private String companyId;
     private String logoImageFile;
     private String issueTracker;
+    private boolean ensemble;
     private String discussionBoard;
     private String javadocs;
 
@@ -58,6 +59,14 @@ public class Library extends ModelObject {
         }
 
         return false;
+    }
+
+    public boolean isEnsemble() {
+        return ensemble;
+    }
+
+    public void setEnsemble(boolean ensemble) {
+        this.ensemble = ensemble;
     }
 
     public String getSummary() {
