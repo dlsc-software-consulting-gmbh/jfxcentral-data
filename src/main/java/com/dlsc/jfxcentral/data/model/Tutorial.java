@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Tutorial extends ModelObject {
 
-    private enum Type {
+    public enum Format {
         VIDEO,
         WEB
     }
@@ -17,7 +17,7 @@ public class Tutorial extends ModelObject {
     private boolean commercial;
     private String summary;
     private String companyId;
-    private Type type;
+    private Format format;
     private List<String> personIds = new ArrayList<>();
 
     public Tutorial() {
@@ -40,12 +40,12 @@ public class Tutorial extends ModelObject {
         return false;
     }
 
-    public Type getType() {
-        return type;
+    public Format getType() {
+        return format;
     }
 
-    public void setType(Type type) {
-        this.type = type;
+    public void setType(Format format) {
+        this.format = format;
     }
 
     public String getName() {

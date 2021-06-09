@@ -515,12 +515,26 @@
     "website": "https://eppleton.de",
     "blogId": "",
     "linkedIn": "",
-    "twitter": "@monacotoni",
+    "twitter": "monacotoni",
     "champion": true,
     "rockstar": true,
     "id": "a.epple",
     "createdOn": "2021-05-27",
     "modifiedOn": "2021-05-27"
+  },
+  {
+    "name": "Jakob Jenkov",
+    "email": "jakob@jenkov.com",
+    "companyId": "",
+    "website": "https://jenkov.com",
+    "blogId": "",
+    "linkedIn": "jakob-jenkov-4a3a8",
+    "twitter": "jjenkov",
+    "champion": false,
+    "rockstar": false,
+    "id": "j.jenkov",
+    "createdOn": "2021-06-09",
+    "modifiedOn": "2021-06-09"
   }
 ]
 
