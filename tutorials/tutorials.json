@@ -2,7 +2,7 @@
   {
     "id": "codemakery",
     "type": "web",
-    "title": "code.makery",
+    "name": "code.makery",
     "summary": "Learning how to code",
     "url": "https://code.makery.ch/library/javafx-tutorial/",
     "commercial": "false"
@@ -10,7 +10,7 @@
   {
     "id": "almastutorials",
     "type": "video",
-    "title": "FXTutorials",
+    "name": "FXTutorials",
     "summary": "Video tutorials covering JavaFX & FXGL game engine",
     "url": "https://github.com/AlmasB/FXTutorials",
     "commercial": "false"
@@ -18,7 +18,7 @@
   {
     "id": "jenkov",
     "type": "web",
-    "title": "jenkov.com",
+    "name": "jenkov.com",
     "summary": "",
     "url": "http://tutorials.jenkov.com/javafx/index.html",
     "commercial": "false"
@@ -26,7 +26,7 @@
   {
     "id": "peggyfisher",
     "type": "web",
-    "title": "LinkedIn Learning | Peggy Fisher",
+    "name": "LinkedIn Learning | Peggy Fisher",
     "summary": "Learning JavaFX GUI Development",
     "url": "https://www.linkedin.com/learning/learning-javafx-gui-development/welcome",
     "commercial": "false"
@@ -34,7 +34,7 @@
   {
     "id": "treehouse",
     "type": "video",
-    "title": "Treehouse Online Course",
+    "name": "Treehouse Online Course",
     "summary": "Build a JavaFX application",
     "url": "https://teamtreehouse.com/library/build-a-javafx-application",
     "commercial": "true"
@@ -42,7 +42,7 @@
   {
     "id": "newboston",
     "type": "video",
-    "title": "JavaFX GUI Design Tutorial on YouTube",
+    "name": "JavaFX GUI Design Tutorial on YouTube",
     "summary": "YouTube playlist with short focused tutorial videos ",
     "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG",
     "commercial": "false"
@@ -50,7 +50,7 @@
   {
     "id": "udemy",
     "type": "video",
-    "title": "JavaFX Online Course @ Udemy",
+    "name": "JavaFX Online Course @ Udemy",
     "summary": "Commercial online course with videos",
     "url": "https://www.udemy.com/course/javafx-gui-programming/",
     "commercial": "true"
