@@ -113,5 +113,30 @@
         "package": "ZIP"
       }
     ]
+  },
+  {
+    "id": "spacefx",
+    "title": "SpaceFX",
+    "tags": "real world app, game, space, shooter, mobile, desktop, web",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "g.grunwald"
+    ],
+    "createdOn": "2021-06-09",
+    "modifiedOn": "2021-06-09",
+    "files": [
+      {
+        "name": "MSI Installer (Windows)",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/1.0.0/SpaceFX-1.0.0.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/1.0.0/SpaceFX-1.0.0.pkg",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
   }
 ]
