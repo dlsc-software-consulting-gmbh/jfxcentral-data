@@ -7,10 +7,17 @@ import java.util.List;
 
 public class Tutorial extends ModelObject {
 
+    private enum Type {
+        VIDEO,
+        WEB
+    }
+
     private String name;
     private String url;
+    private boolean commercial;
     private String summary;
     private String companyId;
+    private Type type;
     private List<String> personIds = new ArrayList<>();
 
     public Tutorial() {
@@ -31,6 +38,14 @@ public class Tutorial extends ModelObject {
         }
 
         return false;
+    }
+
+    public Type getType() {
+        return type;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
     }
 
     public String getName() {
@@ -71,5 +86,13 @@ public class Tutorial extends ModelObject {
 
     public void setPersonIds(List<String> personIds) {
         this.personIds = personIds;
+    }
+
+    public boolean isCommercial() {
+        return commercial;
+    }
+
+    public void setCommercial(boolean commercial) {
+        this.commercial = commercial;
     }
 }

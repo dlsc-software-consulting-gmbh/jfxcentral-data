@@ -145,7 +145,8 @@ public class DataRepository {
 
     private void loadData() {
         try {
-            double steps = 14d;
+            double steps = 15d;
+
             setProgress(0);
             setMessage("");
 
@@ -227,14 +228,23 @@ public class DataRepository {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
+            // load downloads
+            setMessage("Loading index of tutorials");
+            File tutorialsFile = loadFile("tutorials", getBaseUrl() + "tutorials/tutorials.json");
+            setTutorials(gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
+            }.getType()));
+            setProgress(getProgress() + 1 / steps);
+
             if (!Boolean.getBoolean("no.feeds")) {
                 setMessage("Loading blog feeds");
                 readFeeds();
             }
             setProgress(getProgress() + 1 / steps);
 
-            setMessage("Loading pull requests from OpenJFX project");
-            loadPullRequests();
+            if (!Boolean.getBoolean("no.feeds")) {
+                setMessage("Loading pull requests from OpenJFX project");
+                loadPullRequests();
+            }
             setProgress(getProgress() + 1 / steps);
 
             setMessage("Updating list of recent items");
@@ -327,6 +337,14 @@ public class DataRepository {
 
     public Optional<Download> getDownloadById(String id) {
         return downloads.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<News> getNewsById(String id) {
+        return news.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<Video> getVideoById(String id) {
+        return videos.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
     public ListProperty<Video> getVideosByPerson(Person person) {
@@ -679,6 +697,20 @@ public class DataRepository {
 
     public void setBooks(List<Book> books) {
         this.books.setAll(books);
+    }
+
+    private final ListProperty<Tutorial> tutorials = new SimpleListProperty<>(this, "tutorials", FXCollections.observableArrayList());
+
+    public ObservableList<Tutorial> getTutorials() {
+        return tutorials.get();
+    }
+
+    public ListProperty<Tutorial> tutorialsProperty() {
+        return tutorials;
+    }
+
+    public void setTutorials(List<Tutorial> tutorials) {
+        this.tutorials.setAll(tutorials);
     }
 
     private final ListProperty<Video> videos = new SimpleListProperty<>(this, "videos", FXCollections.observableArrayList());

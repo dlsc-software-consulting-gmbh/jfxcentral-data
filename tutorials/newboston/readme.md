@@ -1,0 +1,1 @@
+This is a YouTube playlist for the newboston JavaFX Java GUI Design Tutorials! It's simple and it's good place to start JavaFX.
