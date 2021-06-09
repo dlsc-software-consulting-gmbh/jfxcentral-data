@@ -13,7 +13,10 @@
     "name": "FXTutorials",
     "summary": "Video tutorials covering JavaFX & FXGL game engine",
     "url": "https://github.com/AlmasB/FXTutorials",
-    "commercial": "false"
+    "commercial": "false",
+    "personIds": [
+      "a.baimagambetov"
+    ]
   },
   {
     "id": "jenkov",
@@ -21,7 +24,10 @@
     "name": "jenkov.com",
     "summary": "",
     "url": "http://tutorials.jenkov.com/javafx/index.html",
-    "commercial": "false"
+    "commercial": "false",
+    "personIds": [
+      "j.jenkov"
+    ]
   },
   {
     "id": "peggyfisher",
