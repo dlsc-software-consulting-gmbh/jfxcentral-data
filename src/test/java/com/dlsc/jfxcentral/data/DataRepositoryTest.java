@@ -532,4 +532,42 @@ public class DataRepositoryTest {
 
         assertFalse(pullRequests.isEmpty());
     }
+
+    @Test
+    public void shouldGetVideosByLibrary() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getLibraries().isEmpty());
+
+        // when
+        repository.getLibraries().forEach(library -> {
+            ListProperty<Video> list = repository.getVideosByLibrary(library);
+
+            // then
+            assertNotNull(list.get(), "missing video list for library " + library.getId());
+
+            if (library.getId().equals("tilesfx")) {
+                assertTrue(!list.get().isEmpty(), "no videos returned for library tilesfx");
+            }
+        });
+    }
+
+    @Test
+    public void shouldGetDownloadsByLibrary() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getLibraries().isEmpty());
+
+        // when
+        repository.getLibraries().forEach(library -> {
+            ListProperty<Download> list = repository.getDownloadsByLibrary(library);
+
+            // then
+            assertNotNull(list.get(), "missing downloads list for library " + library.getId());
+
+            if (library.getId().equals("tilesfx")) {
+                assertTrue(!list.get().isEmpty(), "no downloads returned for library tilesfx");
+            }
+        });
+    }
 }

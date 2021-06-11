@@ -361,6 +361,18 @@ public class DataRepository {
         return listProperty;
     }
 
+    public ListProperty<Video> getVideosByLibrary(Library library) {
+        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(library.getVideoIds().stream().map(id -> getVideoById(id).get()).collect(Collectors.toList()));
+        return listProperty;
+    }
+
+    public ListProperty<Download> getDownloadsByLibrary(Library library) {
+        ListProperty<Download> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(library.getDownloadIds().stream().map(id -> getDownloadById(id).get()).collect(Collectors.toList()));
+        return listProperty;
+    }
+
     public ListProperty<Blog> getBlogsByPerson(Person person) {
         ListProperty<Blog> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
         listProperty.setAll(blogs.stream().filter(blog -> blog.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
