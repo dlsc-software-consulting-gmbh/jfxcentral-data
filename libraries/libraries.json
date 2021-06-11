@@ -134,7 +134,10 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.github.almasb",
     "artifactId": "fxgl",
-    "ensemble": "false"
+    "ensemble": "false",
+    "tutorialIds": [
+      "almastutorials"
+    ]
   },
   {
     "title": "GemsFX",

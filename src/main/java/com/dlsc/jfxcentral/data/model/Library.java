@@ -33,6 +33,7 @@ public class Library extends ModelObject {
 
     private List<String> downloadIds = new ArrayList<>();
     private List<String> videoIds = new ArrayList<>();
+    private List<String> tutorialIds = new ArrayList<>();
 
     public Library() {
     }
@@ -270,5 +271,13 @@ public class Library extends ModelObject {
 
     public void setVideoIds(List<String> videoIds) {
         this.videoIds = videoIds;
+    }
+
+    public List<String> getTutorialIds() {
+        return tutorialIds;
+    }
+
+    public void setTutorialIds(List<String> tutorialIds) {
+        this.tutorialIds = tutorialIds;
     }
 }
