@@ -534,6 +534,25 @@ public class DataRepositoryTest {
     }
 
     @Test
+    public void shouldGetTutorialsByLibrary() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getLibraries().isEmpty());
+
+        // when
+        repository.getLibraries().forEach(library -> {
+            ListProperty<Tutorial> list = repository.getTutorialsByLibrary(library);
+
+            // then
+            assertNotNull(list.get(), "missing tutorials list for library " + library.getId());
+
+            if (library.getId().equals("fxgl")) {
+                assertTrue(!list.get().isEmpty(), "no tutorials returned for library fxgl");
+            }
+        });
+    }
+
+    @Test
     public void shouldGetVideosByLibrary() {
         // given
         DataRepository repository = DataRepository.getInstance();
