@@ -72,5 +72,14 @@
     "createdOn": "2021-05-27",
     "consulting": "true",
     "freelancing": "false"
+  },
+  {
+    "id": "azul",
+    "name": "Azul Systems",
+    "homepage" : "https://www.azul.com",
+    "tags": "consulting",
+    "createdOn": "2021-06-11",
+    "consulting": "true",
+    "freelancing": "false"
   }
 ]

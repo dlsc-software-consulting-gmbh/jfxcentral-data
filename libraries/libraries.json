@@ -365,5 +365,28 @@
     "groupId": "com.dlsc.workbenchfx",
     "artifactId": "workbenchfx-core",
     "ensemble": "false"
+  },
+  {
+    "title": "TilesFX",
+    "summary": "Tiles for developing dashboards.",
+    "tags": "tiles, dashboard, rich client, chart, clock, progress, weather, countdown",
+    "description": "A framework for creating tile-based dashboards. The library comes with a lot of built-in tiles and developers can add their own. TilesFX works nicely on desktop, on mobile, and in browsers.",
+    "documentation": "https://github.com/HanSolo/tilesfx/wiki",
+    "license": "APACHE2",
+    "homepage": "https://harmoniccode.blogspot.com/search/label/tilesfx",
+    "javadocs": "",
+    "githubAccount": "HanSolo",
+    "githubProject": "TilesFX",
+    "githubBranch": "master",
+    "personId": "g.grunwald",
+    "companyId": "azul",
+    "logoImageFile": "",
+    "issueTracker": "https://github.com/HanSolo/tilesfx/issues",
+    "id": "tilesfx",
+    "createdOn": "2021-06-11",
+    "modifiedOn": "2021-06-11",
+    "groupId": "eu.hansolo",
+    "artifactId": "tilesfx",
+    "ensemble": "false"
   }
 ]
