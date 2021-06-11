@@ -373,6 +373,12 @@ public class DataRepository {
         return listProperty;
     }
 
+    public ListProperty<Tutorial> getTutorialsByLibrary(Library library) {
+        ListProperty<Tutorial> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(library.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList()));
+        return listProperty;
+    }
+
     public ListProperty<Blog> getBlogsByPerson(Person person) {
         ListProperty<Blog> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
         listProperty.setAll(blogs.stream().filter(blog -> blog.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
