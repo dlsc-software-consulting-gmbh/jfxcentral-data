@@ -44,9 +44,7 @@
     "createdOn": "2021-05-24",
     "feed": "https://gluonhq.com/feed/",
     "tags:": "mobile, openjfx, embedded, maven, gradle, plugin",
-    "personIds": [
-      "j.vos"
-    ]
+    "companyId": "gluon"
   },
   {
     "id": "fxexperience",
