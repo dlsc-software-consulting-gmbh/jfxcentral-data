@@ -3,6 +3,8 @@ package com.dlsc.jfxcentral.data.model;
 import org.apache.commons.lang3.StringUtils;
 
 import java.time.ZonedDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Library extends ModelObject {
 
@@ -28,6 +30,9 @@ public class Library extends ModelObject {
     private String artifactId;
 
     private License license;
+
+    private List<String> downloadIds = new ArrayList<>();
+    private List<String> videoIds = new ArrayList<>();
 
     public Library() {
     }
@@ -249,5 +254,21 @@ public class Library extends ModelObject {
         }
 
         return null;
+    }
+
+    public List<String> getDownloadIds() {
+        return downloadIds;
+    }
+
+    public void setDownloadIds(List<String> downloadIds) {
+        this.downloadIds = downloadIds;
+    }
+
+    public List<String> getVideoIds() {
+        return videoIds;
+    }
+
+    public void setVideoIds(List<String> videoIds) {
+        this.videoIds = videoIds;
     }
 }

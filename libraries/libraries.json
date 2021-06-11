@@ -387,6 +387,12 @@
     "modifiedOn": "2021-06-11",
     "groupId": "eu.hansolo",
     "artifactId": "tilesfx",
-    "ensemble": "false"
+    "ensemble": "false",
+    "videoIDs": [
+      "OuF2BMnCjt4"
+    ],
+    "downloadIds": [
+      "spacefx"
+    ]
   }
 ]
