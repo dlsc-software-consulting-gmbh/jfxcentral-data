@@ -322,11 +322,19 @@ public class DataRepositoryTest {
             if (person.getId().equals("d.lemmermann")) {
                 assertTrue(!list.get().isEmpty(), "no blogs returned for person d.lemmermann");
             }
-
-            if (person.getId().equals("h.ebbers")) {
-                assertTrue(!list.get().isEmpty(), "no blogs returned for person h.ebbers");
-            }
         });
+    }
+
+    @Test
+    public void shouldNotGetGuiGarageBlog() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+
+        // when
+        Optional<Blog> guigarage = repository.getBlogById("guigarage");
+
+        // then
+        assertTrue(guigarage.isEmpty());
     }
 
     @Test

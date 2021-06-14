@@ -704,6 +704,7 @@ public class DataRepository {
 
     public void setLibraries(List<Library> libraries) {
         this.libraries.setAll(libraries);
+        this.libraries.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Blog> blogs = new SimpleListProperty<>(this, "blogs", FXCollections.observableArrayList());
@@ -718,6 +719,7 @@ public class DataRepository {
 
     public void setBlogs(List<Blog> blogs) {
         this.blogs.setAll(blogs);
+        this.blogs.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<PullRequest> pullRequests = new SimpleListProperty<>(this, "pullRequests", FXCollections.observableArrayList());
@@ -746,6 +748,7 @@ public class DataRepository {
 
     public void setNews(List<News> news) {
         this.news.setAll(news);
+        this.news.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Book> books = new SimpleListProperty<>(this, "books", FXCollections.observableArrayList());
@@ -760,6 +763,7 @@ public class DataRepository {
 
     public void setBooks(List<Book> books) {
         this.books.setAll(books);
+        this.books.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Tutorial> tutorials = new SimpleListProperty<>(this, "tutorials", FXCollections.observableArrayList());
@@ -774,6 +778,7 @@ public class DataRepository {
 
     public void setTutorials(List<Tutorial> tutorials) {
         this.tutorials.setAll(tutorials);
+        this.tutorials.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Video> videos = new SimpleListProperty<>(this, "videos", FXCollections.observableArrayList());
@@ -788,6 +793,7 @@ public class DataRepository {
 
     public void setVideos(List<Video> videos) {
         this.videos.setAll(videos);
+        this.videos.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Download> downloads = new SimpleListProperty<>(this, "downloads", FXCollections.observableArrayList());
@@ -803,6 +809,7 @@ public class DataRepository {
 
     public void setDownloads(List<Download> downloads) {
         this.downloads.setAll(downloads);
+        this.downloads.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<RealWorldApp> realWorldApps = new SimpleListProperty<>(this, "realWorldApps", FXCollections.observableArrayList());
@@ -817,6 +824,7 @@ public class DataRepository {
 
     public void setRealWorldApps(List<RealWorldApp> realWorldApps) {
         this.realWorldApps.setAll(realWorldApps);
+        this.realWorldApps.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Tool> tools = new SimpleListProperty<>(this, "tools", FXCollections.observableArrayList());
@@ -831,6 +839,7 @@ public class DataRepository {
 
     public void setTools(List<Tool> tools) {
         this.tools.setAll(tools);
+        this.tools.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Company> companies = new SimpleListProperty<>(this, "companies", FXCollections.observableArrayList());
@@ -845,6 +854,7 @@ public class DataRepository {
 
     public void setCompanies(List<Company> companies) {
         this.companies.setAll(companies);
+        this.companies.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Person> people = new SimpleListProperty<>(this, "people", FXCollections.observableArrayList());
@@ -858,8 +868,8 @@ public class DataRepository {
     }
 
     public void setPeople(List<Person> people) {
-        System.out.println("PEOPLE SIZE: " + people.size());
         this.people.setAll(people);
+        this.people.removeIf(item -> item.isHide());
     }
 
     private File loadFile(String fileName, String urlString) throws IOException {
