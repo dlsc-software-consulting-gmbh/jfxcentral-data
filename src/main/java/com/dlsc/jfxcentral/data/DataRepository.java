@@ -409,7 +409,7 @@ public class DataRepository {
     }
 
     public ListProperty<Library> getLibrariesByPerson(Person person) {
-        List<Library> result = libraries.stream().filter(library -> library.getPersonId().equals(person.getId())).collect(Collectors.toList());
+        List<Library> result = person.getLibraryIds().stream().map(id -> getLibraryById(id).get()).collect(Collectors.toList());
         return new SimpleListProperty<>(FXCollections.observableArrayList(result));
     }
 

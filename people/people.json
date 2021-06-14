@@ -290,7 +290,12 @@
     "rockstar": true,
     "id": "g.grunwald",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "libraryIds": [
+      "harmonicfx",
+      "tilesfx",
+      "medusa"
+    ]
   },
   {
     "name": "Hendrik Ebbers",

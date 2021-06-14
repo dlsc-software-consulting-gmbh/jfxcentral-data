@@ -13,18 +13,15 @@ public class Library extends ModelObject {
     private String homepage;
     private String repository;
     private String documentation;
+    private String issueTracker;
+    private String discussionBoard;
+    private String javadocs;
+    private String groupId;
+    private String artifactId;
     private String githubAccount;
     private String githubProject;
 
-    private String personId;
-    private String companyId;
-    private String issueTracker;
     private boolean ensemble;
-    private String discussionBoard;
-    private String javadocs;
-
-    private String groupId;
-    private String artifactId;
 
     private License license;
 
@@ -128,22 +125,6 @@ public class Library extends ModelObject {
 
     public void setGithubProject(String githubProject) {
         this.githubProject = githubProject;
-    }
-
-    public String getPersonId() {
-        return personId;
-    }
-
-    public void setPersonId(String personId) {
-        this.personId = personId;
-    }
-
-    public String getCompanyId() {
-        return companyId;
-    }
-
-    public void setCompanyId(String companyId) {
-        this.companyId = companyId;
     }
 
     public License getLicense() {
