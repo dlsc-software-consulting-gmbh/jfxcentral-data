@@ -6,8 +6,13 @@ To add data to this repository please follow these steps:
 2. Add your data
 3. Submit a pull request for the `staging` branch
 
->  
->
+> Don't worry too much about breaking things. Unit tests are in place to verify
+> the validity of the data. After those have passed your edits will be reviewed
+> by a human being, yours truly. Once the review is done your pull request will
+> be merged. Please be aware that there is no guarantee that the information provided 
+> by your pull request will appear immediately after merging. The website will be 
+> updated only when explicitly requested by an administrator.
+ 
 Follow these instructions for the different types of data:
 
 - [Adding a person](#adding-a-person) 
