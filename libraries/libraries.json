@@ -418,6 +418,7 @@
     "groupId": "eu.hansolo",
     "artifactId": "medusa",
     "ensemble": "false",
+    "logoAvailable": "false",
     "videoIds": [
       "l2ZYO4HXjLg"
     ],

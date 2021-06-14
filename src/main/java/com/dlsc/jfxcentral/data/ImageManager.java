@@ -80,7 +80,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
 
     public ObjectProperty<Image> libraryImageProperty(Library library) {
         if (library.isLogoAvailable()) {
-            return imageProperty(DataRepository.getInstance().getBaseUrl() + "libraries/" + library.getId() + "/", "logo.png");
+            return imageProperty(DataRepository.getInstance().getBaseUrl() + "libraries/" + library.getId() + "/", "logo.png", "library-" + library.getId(), MISSING_IMAGE);
         }
 
         return new SimpleObjectProperty<>();
