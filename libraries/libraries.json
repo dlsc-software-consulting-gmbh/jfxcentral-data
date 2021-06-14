@@ -365,6 +365,33 @@
     ]
   },
   {
+    "title": "Medusa",
+    "summary": "A JavaFX library for gauges",
+    "tags": "gauges, dashboard, rich client, gauge, clock",
+    "description": "A framework for creating gauges of all kinds. The library comes with a lot of built-in skins and developers can add their own. Medusa works nicely on desktop, on mobile, and in browsers.",
+    "documentation": "https://github.com/HanSolo/Medusa/wiki",
+    "license": "APACHE2",
+    "homepage": "https://harmoniccode.blogspot.com/search/label/medusa",
+    "javadocs": "",
+    "githubAccount": "HanSolo",
+    "githubProject": "Medusa",
+    "personId": "g.grunwald",
+    "companyId": "azul",
+    "issueTracker": "https://github.com/HanSolo/Medusa/issues",
+    "id": "medusa",
+    "createdOn": "2021-06-11",
+    "modifiedOn": "2021-06-11",
+    "groupId": "eu.hansolo",
+    "artifactId": "medusa",
+    "ensemble": "false",
+    "videoIds": [
+      "l2ZYO4HXjLg"
+    ],
+    "downloadIds": [
+      
+    ]
+  },
+  {
     "title": "ControlsFX",
     "summary": "High quality UI controls to complement the core JavaFX distribution.",
     "tags": "actions, borders, breadcrumb, buttonbar, checkcombobox, checklistview, checktreeview, decoration, validation, fxsampler, gridview, hiddensidespane, popover, propertysheet, rangeslider, rating, toggleswitch, map",
