@@ -115,7 +115,7 @@
   },
   {
     "title": "FXGL",
-    "summary": "A JavaFX game engine",
+    "summary": "A JavaFX game engine.",
     "tags": "game, gaming, game engine",
     "description": "A JavaFX game engine",
     "documentation": "https://github.com/AlmasB/FXGL/wiki/FXGL-11",
@@ -165,7 +165,7 @@
   {
     "title": "GMapsFX",
     "id": "gmapsfx",
-    "summary": "A JavaFX wrapper for Google Maps",
+    "summary": "GMapsFX provides a wrapper to the Google Map’s Javascript API, allowing you to use and interact with maps using a pure Java API.",
     "tags": "map, google maps, trip, custom control",
     "description": "A JavaFX wrapper for Google Maps",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX#readme",
@@ -441,7 +441,7 @@
     "license": "APACHE2",
     "homepage": "https://controlsfx.github.io",
     "javadocs": "https://controlsfx.github.io/javadoc/11.1.0/index.html",
-    "repository": "https://controlsfx.github.io",
+    "repository": "https://github.com/controlsfx/controlsfx",
     "githubAccount": "controlsfx",
     "githubProject": "controlsfx",
     "personId": "a.agarwal",
