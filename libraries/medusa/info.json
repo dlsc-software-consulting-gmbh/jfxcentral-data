@@ -1,0 +1,9 @@
+{
+  "images": [
+    {
+      "path": "Overview.png",
+      "title": "Medusa",
+      "description": "A JavaFX library for gauges."
+    }
+  ]
+}
