@@ -79,7 +79,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
     }
 
     public ObjectProperty<Image> libraryImageProperty(Library library) {
-        return imageProperty(DataRepository.getInstance().getBaseUrl() + "libraries/" + library.getId() + "/", library.getLogoImageFile());
+        return imageProperty(DataRepository.getInstance().getBaseUrl() + "libraries/" + library.getId() + "/", "logo.png");
     }
 
     public ObjectProperty<Image> libraryImageProperty(Library library, String imagePath) {

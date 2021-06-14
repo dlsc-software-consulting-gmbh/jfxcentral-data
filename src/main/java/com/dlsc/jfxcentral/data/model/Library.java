@@ -2,7 +2,6 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,12 +14,9 @@ public class Library extends ModelObject {
     private String documentation;
     private String githubAccount;
     private String githubProject;
-    private String githubBranch;
-    private String readme;
 
     private String personId;
     private String companyId;
-    private String logoImageFile;
     private String issueTracker;
     private boolean ensemble;
     private String discussionBoard;
@@ -139,14 +135,6 @@ public class Library extends ModelObject {
         this.companyId = companyId;
     }
 
-    public String getLogoImageFile() {
-        return logoImageFile;
-    }
-
-    public void setLogoImageFile(String logoImageFile) {
-        this.logoImageFile = logoImageFile;
-    }
-
     public License getLicense() {
         return license;
     }
@@ -180,9 +168,6 @@ public class Library extends ModelObject {
     }
 
     public String getDiscussionBoard() {
-        if (isGithub()) {
-
-        }
         return discussionBoard;
     }
 
@@ -204,57 +189,6 @@ public class Library extends ModelObject {
 
     public void setJavadocs(String javadocs) {
         this.javadocs = javadocs;
-    }
-
-    public String getReadme() {
-        if (StringUtils.isNotBlank(readme)) {
-            return readme;
-        }
-        return "README.md";
-    }
-
-    public void setReadme(String readme) {
-        this.readme = readme;
-    }
-
-    public String getGithubBranch() {
-        return githubBranch;
-    }
-
-    public void setGithubBranch(String githubBranch) {
-        this.githubBranch = githubBranch;
-    }
-
-    public String getRepository() {
-        if (isGithub()) {
-            return getGithubUrl();
-        }
-
-        return "";
-    }
-
-    public String getGithubUrl() {
-        return "https://github.com/" + getGithubAccount() + "/" + getGithubProject();
-    }
-
-    public String getGithubRawUrl() {
-        return "https://raw.githubusercontent.com/" + getGithubAccount() + "/" + getGithubProject() + "/" + getGithubBranch();
-    }
-
-    private boolean isGithub() {
-        if (StringUtils.isNotBlank(githubAccount) && StringUtils.isNotBlank(githubProject)) {
-            return true;
-        }
-
-        return false;
-    }
-
-    public String getReadmeFileURL() {
-        if (isGithub()) {
-            return getGithubRawUrl() + "/" + getReadme() + "?time=" + ZonedDateTime.now().toInstant();
-        }
-
-        return null;
     }
 
     public List<String> getDownloadIds() {

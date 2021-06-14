@@ -57,7 +57,8 @@
       "keyboardfx",
       "pdffx",
       "formsfx",
-      "workbenchfx"
+      "workbenchfx",
+      "controlsfx"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
