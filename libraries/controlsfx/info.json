@@ -1,0 +1,84 @@
+{
+  "images": [
+    {
+      "path": "gridview.png",
+      "title": "Grid View",
+      "description": ""
+    },
+    {
+      "path": "hiddensidespane.png",
+      "title": "Hidden Sides Pane",
+      "description": ""
+    },
+    {
+      "path": "listselectionview.png",
+      "title": "List Selection View",
+      "description": ""
+    },
+    {
+      "path": "masterdetailpane.png",
+      "title": "Master Detail Pane",
+      "description": ""
+    },
+    {
+      "path": "notificationpane.png",
+      "title": "Notification Pane",
+      "description": ""
+    },
+    {
+      "path": "notifications.png",
+      "title": "Notifications",
+      "description": ""
+    },
+    {
+      "path": "plusminusslider.png",
+      "title": "Plus Minus Slider",
+      "description": ""
+    },
+    {
+      "path": "popover.png",
+      "title": "Popover",
+      "description": ""
+    },
+    {
+      "path": "propertysheet.png",
+      "title": "Property Sheet",
+      "description": ""
+    },
+    {
+      "path": "rangeslider.png",
+      "title": "Range Slider",
+      "description": ""
+    },
+    {
+      "path": "segmentedbar.png",
+      "title": "Segmented Bar",
+      "description": ""
+    },
+    {
+      "path": "segmentedbutton.png",
+      "title": "Segmented Button",
+      "description": ""
+    },
+    {
+      "path": "spreadsheetview.png",
+      "title": "Spreadsheet View",
+      "description": ""
+    },
+    {
+      "path": "taskmonitor.png",
+      "title": "Task Monitor",
+      "description": ""
+    },
+    {
+      "path": "toggleswitch.png",
+      "title": "Toggle Switch",
+      "description": ""
+    },
+    {
+      "path": "validation.png",
+      "title": "Validation",
+      "description": ""
+    }
+  ]
+}

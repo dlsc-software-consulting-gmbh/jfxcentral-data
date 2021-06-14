@@ -541,5 +541,37 @@
     "createdOn": "2021-06-07",
     "modifiedOn": "2021-06-07",
     "publishedOn": "2013-01-30"
+  },
+  {
+    "title": "In Control with ControlsFX | Eugene Ryzhikov & Jonathan Giles",
+    "type": "Presentation",
+    "domain": "",
+    "description": "ControlsFX is an open source project for JavaFX that aims to provide high-quality UI controls and other tools to complement the core JavaFX distribution. It was developed for JavaFX 8.0 and beyond and has a guiding principle of accepting new controls/features only when all existing code is at an acceptably high level, including thankless jobs such as having high-quality JavaDoc documentation. This session takes you on a practical code-driven walk-through of how to use ControlsFX in your applications, using an example-driven approach; examines many features, both old and new; and provides insight into future plans for this project.",
+    "id": "pjKgPeiWc0o",
+    "event": "JavaOne",
+    "personIds": [
+      "j.giles",
+      "e.ryzhikov"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14",
+    "publishedOn": "2013-06-14"
+  },
+  {
+    "title": "In Control with ControlsFX | Eugene Ryzhikov & Jonathan Giles",
+    "type": "Presentation",
+    "domain": "",
+    "description": "ControlsFX is an open source project for JavaFX that aims to provide high-quality UI controls and other tools to complement the core JavaFX distribution. It was developed for JavaFX 8.0 and beyond and has a guiding principle of accepting new controls/features only when all existing code is at an acceptably high level, including thankless jobs such as having high-quality JavaDoc documentation. This session takes you on a practical code-driven walk-through of how to use ControlsFX in your applications, using an example-driven approach; examines many features, both old and new; and provides insight into future plans for this project.",
+    "id": "pjKgPeiWc0o",
+    "event": "JavaOne",
+    "personIds": [
+      "j.giles",
+      "e.ryzhikov"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14",
+    "publishedOn": "2013-06-14"
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "name": "Eugene Ryzhikov",
+    "email": "",
+    "companyId": "gluon",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "",
+    "twitter": "eryzhikov",
+    "champion": false,
+    "rockstar": true,
+    "id": "e.ryzhikov",
+    "gitHub": "",
+    "libraryIds": [
+      "controlsfx"
+    ],
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14"
+  },
+  {
+    "name": "Abhinay Agarwal",
+    "email": "",
+    "companyId": "gluon",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "",
+    "twitter": "iAbhinay",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.agarwal",
+    "gitHub": "abhinayagarwal",
+    "libraryIds": [
+      "controlsfx"
+    ],
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14"
+  },
+  {
     "name": "Dirk Lemmermann",
     "email": "dlemmermann@gmail.com",
     "companyId": "dlsc",
