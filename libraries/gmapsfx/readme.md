@@ -4,7 +4,26 @@ Source code for the sample map above.
 
 A snippet from the FXML file which includes a reference to the GoogleMapView component within an AnchorPane.
 
-`package com.lynden.gmapsexampleapp;
+```<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import com.lynden.gmapsfx.*?>
+
+<AnchorPane id="AnchorPane" fx:controller="com.lynden.gmapsexampleapp.FXMLController" prefHeight="616.0" prefWidth="737.0">
+    <children>        
+        <GoogleMapView fx:id="mapView" prefHeight="750.0" prefWidth="761.0" AnchorPane.bottomAnchor="-185.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-441.0" AnchorPane.topAnchor="0.0"/>
+        <VBox alignment="TOP_CENTER" fillWidth="false" layoutX="26.0" layoutY="29.0" prefHeight="478.0" prefWidth="221.0" spacing="10.0" styleClass="panel-background" stylesheets="@../styles/Styles.css" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="88.0" BorderPane.alignment="CENTER">
+```
+
+
+The FXMLController class which initializes the Map, Markers, and InfoWindow.
+
+
+```package com.lynden.gmapsexampleapp;
 
 import com.lynden.gmapsfx.GoogleMapView;
 import com.lynden.gmapsfx.MapComponentInitializedListener;
@@ -97,4 +116,4 @@ public class FXMLController implements Initializable, MapComponentInitializedLis
         InfoWindow fredWilkeInfoWindow = new InfoWindow(infoWindowOptions);
         fredWilkeInfoWindow.open(map, fredWilkieMarker);
     }   
-}`
+}```
