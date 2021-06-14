@@ -206,7 +206,11 @@
     "groupId": "org.kordamp.harmonicfx",
     "artifactId": "harmonicfx-core",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "personIds": [
+      "g.grunwald",
+      "a.almiray"
+    ]
   },
   {
     "title": "Ikonli",
