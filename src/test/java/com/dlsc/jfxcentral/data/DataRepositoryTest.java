@@ -368,6 +368,44 @@ public class DataRepositoryTest {
     }
 
     @Test
+    public void shouldGetTutorialsByPerson() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getPeople().isEmpty());
+
+        // when
+        repository.getPeople().forEach(person -> {
+            ListProperty<Tutorial> list = repository.getTutorialsByPerson(person);
+
+            // then
+            assertNotNull(list.get(), "missing tutorials list for person " + person.getId());
+
+            if (person.getId().equals("j.jenkov")) {
+                assertTrue(!list.get().isEmpty(), "no tutorials returned for person j.jenkov");
+            }
+        });
+    }
+
+    @Test
+    public void shouldGetDownloadsByPerson() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getPeople().isEmpty());
+
+        // when
+        repository.getPeople().forEach(person -> {
+            ListProperty<Download> list = repository.getDownloadsByPerson(person);
+
+            // then
+            assertNotNull(list.get(), "missing downloads list for person " + person.getId());
+
+            if (person.getId().equals("d.lemmermann")) {
+                assertTrue(!list.get().isEmpty(), "no tutorials returned for person d.lemmermann");
+            }
+        });
+    }
+
+    @Test
     public void shouldGetPersonById() {
         // given
         DataRepository repository = DataRepository.getInstance();

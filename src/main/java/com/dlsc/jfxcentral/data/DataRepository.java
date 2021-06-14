@@ -686,6 +686,12 @@ public class DataRepository {
         return new SimpleListProperty<>(list);
     }
 
+    public ListProperty<Download> getDownloadsByPerson(Person person) {
+        ObservableList<Download> list = FXCollections.observableArrayList();
+        list.setAll(getDownloads().stream().filter(download -> download.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
+        return new SimpleListProperty<>(list);
+    }
+
     private final ListProperty<Library> libraries = new SimpleListProperty<>(this, "libraries", FXCollections.observableArrayList());
 
     public ObservableList<Library> getLibraries() {
