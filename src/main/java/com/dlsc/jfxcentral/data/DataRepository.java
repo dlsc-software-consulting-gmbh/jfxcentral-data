@@ -110,7 +110,6 @@ public class DataRepository {
 
             // update feeds and pull requests every 12 hours
             Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
-                System.out.println("Feed update thread launched");
                 try {
                     Thread.sleep(Duration.ofHours(12).toMillis());
                 } catch (InterruptedException e) {

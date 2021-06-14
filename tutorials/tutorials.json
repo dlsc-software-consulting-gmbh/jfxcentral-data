@@ -8,6 +8,14 @@
     "commercial": "false"
   },
   {
+    "id": "edencoding",
+    "format": "web",
+    "name": "eden/coding",
+    "summary": "Code snippets ready to use & much more.",
+    "url": "https://edencoding.com/category/javafx/",
+    "commercial": "false"
+  },
+  {
     "id": "almastutorials",
     "format": "video",
     "name": "FXTutorials",

@@ -6,6 +6,8 @@ To add data to this repository please follow these steps:
 2. Add your data
 3. Submit a pull request for the `staging` branch
 
+>  
+>
 Follow these instructions for the different types of data:
 
 - [Adding a person](#adding-a-person) 

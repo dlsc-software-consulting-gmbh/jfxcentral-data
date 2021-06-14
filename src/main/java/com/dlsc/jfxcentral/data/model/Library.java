@@ -11,6 +11,7 @@ public class Library extends ModelObject {
     private String summary;
     private String description;
     private String homepage;
+    private String repository;
     private String documentation;
     private String githubAccount;
     private String githubProject;
@@ -213,5 +214,13 @@ public class Library extends ModelObject {
 
     public void setTutorialIds(List<String> tutorialIds) {
         this.tutorialIds = tutorialIds;
+    }
+
+    public String getRepository() {
+        return repository;
+    }
+
+    public void setRepository(String repository) {
+        this.repository = repository;
     }
 }
