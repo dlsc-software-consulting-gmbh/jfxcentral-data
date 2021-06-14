@@ -13,8 +13,17 @@ public abstract class ModelObject {
     private LocalDate createdOn;
     private LocalDate modifiedOn;
     private String tags;
+    private boolean hide;
 
     protected ModelObject() {
+    }
+
+    public boolean isHide() {
+        return hide;
+    }
+
+    public void setHide(boolean hide) {
+        this.hide = hide;
     }
 
     public boolean matches(String searchPattern) {

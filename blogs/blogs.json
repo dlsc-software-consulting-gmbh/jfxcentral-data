@@ -66,6 +66,7 @@
     "createdOn": "2021-05-24",
     "feed": "https://guigarage.com/feed",
     "tags:": "custom controls, speaker, jfx-days, webstart, jug leader",
+    "hide": "true",
     "personIds": [
       "h.ebbers"
     ]
