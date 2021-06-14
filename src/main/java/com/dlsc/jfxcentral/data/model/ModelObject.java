@@ -1,0 +1,94 @@
+package com.dlsc.jfxcentral.data.model;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
+import java.time.LocalDate;
+import java.util.StringTokenizer;
+
+public abstract class ModelObject {
+
+    private String id;
+    private LocalDate createdOn;
+    private LocalDate modifiedOn;
+    private String tags;
+    private boolean hide;
+
+    protected ModelObject() {
+    }
+
+    public boolean isHide() {
+        return hide;
+    }
+
+    public void setHide(boolean hide) {
+        this.hide = hide;
+    }
+
+    public boolean matches(String searchPattern) {
+        return false;
+    }
+
+    protected boolean tagsMatch(String searchPattern) {
+        if (StringUtils.isNotBlank(tags)) {
+            StringTokenizer st = new StringTokenizer(getTags(), ",");
+            while (st.hasMoreTokens()) {
+                String tag = st.nextToken().trim();
+                if (StringUtils.containsAnyIgnoreCase(tag, searchPattern)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public LocalDate getCreatedOn() {
+        return createdOn;
+    }
+
+    public void setCreatedOn(LocalDate createdOn) {
+        this.createdOn = createdOn;
+    }
+
+    public LocalDate getModifiedOn() {
+        return modifiedOn;
+    }
+
+    public void setModifiedOn(LocalDate modifiedOn) {
+        this.modifiedOn = modifiedOn;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ModelObject that = (ModelObject) o;
+
+        return new EqualsBuilder().append(id, that.id).isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(17, 37).append(id).toHashCode();
+    }
+}

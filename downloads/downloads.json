@@ -1,0 +1,167 @@
+[
+  {
+    "id": "makeover",
+    "title": "Extreme GUI Makeover",
+    "tags": "makeover, demo, presentation, javaone, oracle codeone",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "d.lemmermann",
+      "h.ebbers"
+    ],
+    "companyIds": [
+      "dlsc",
+      "karakun"
+    ],
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
+    "files": [
+      {
+        "name": "DMG for Mac",
+        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/makeover.dmg",
+        "fileName": "",
+        "package": "DMG"
+      },
+      {
+        "name": "PKG for Mac",
+        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/makeover.pkg",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
+  },
+  {
+    "id": "emirates",
+    "title": "FlexGanttFX POC for Emirates Airlines",
+    "tags": "demo, poc, airline, emirates, scheduling, planning, gantt",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "companyIds": [
+      "dlsc"
+    ],
+    "createdOn": "2021-06-02",
+    "modifiedOn": "2021-06-02",
+    "files": [
+      {
+        "name": "MSI for Windows",
+        "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-windows-msi.zip",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "PKG for Mac",
+        "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-mac-pkg.zip",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
+  },
+  {
+    "id": "ikonlibrowser",
+    "title": "Ikonli Browser",
+    "tags": "icons, library, demo, application",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "a.almiray"
+    ],
+    "createdOn": "2021-06-02",
+    "modifiedOn": "2021-06-02",
+    "files": [
+      {
+        "name": "ZIP for Linux",
+        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-linux.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+      {
+        "name": "ZIP for Mac",
+        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-mac.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+
+      {
+        "name": "ZIP for Windows",
+        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-windows.zip",
+        "fileName": "",
+        "package": "ZIP"
+      }
+    ]
+  },
+  {
+    "id": "realworld",
+    "title": "Real World Apps Presentation",
+    "tags": "real world app, keynote, powerpoint, conference, event, talk, presentation",
+    "downloadType": "PRESENTATION",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "createdOn": "2021-06-05",
+    "modifiedOn": "2021-06-05",
+    "files": [
+      {
+        "name": "Keynote (Mac)",
+        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/RealWorldFXAppsKeynote.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+      {
+        "name": "PowerPoint (Windows)",
+        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/RealWorldFXAppsPowerpoint.zip",
+        "fileName": "",
+        "package": "ZIP"
+      }
+    ]
+  },
+  {
+    "id": "spacefx",
+    "title": "SpaceFX",
+    "tags": "real world app, game, space, shooter, mobile, desktop, web",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "g.grunwald"
+    ],
+    "createdOn": "2021-06-09",
+    "modifiedOn": "2021-06-09",
+    "files": [
+      {
+        "name": "MSI Installer (Windows)",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/1.0.0/SpaceFX-1.0.0.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/1.0.0/SpaceFX-1.0.0.pkg",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
+  },
+  {
+    "id": "tilesfx",
+    "title": "TilesFX Demo",
+    "tags": "tilesfx, charts, tile, dashboard",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "g.grunwald"
+    ],
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14",
+    "files": [
+      {
+        "name": "MSI Installer (Windows)",
+        "url": "https://github.com/HanSolo/tilesfxdemo/releases/download/16.1/TilesFXDemo-16.0.0.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "https://github.com/HanSolo/tilesfxdemo/releases/download/16.1/TilesFXDemo-16.0.0.pkg",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
+  }
+]

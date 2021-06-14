@@ -1,0 +1,138 @@
+[
+  {
+    "id": "projfx9",
+    "publisher": "Apress",
+    "authors": "Johan Vos, Stephen Chin, Weiqi Gao, James Weaver, Dean Iverson",
+    "personIds": [
+      "j.vos",
+      "s.chin",
+      "w.gao",
+      "j.weaver",
+      "d.iverson"
+    ],
+    "title": "Pro JavaFX 9",
+    "subtitle": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients ",
+    "url": "https://www.apress.com/gp/book/9781484230411",
+    "amazonASIN": "B0788LZXWX",
+    "isbn": "978-1-4842-3041-1",
+    "publishedDate": "2017-12-13"
+  },
+  {
+    "id": "jfx9byexample",
+    "publisher": "Apress",
+    "authors": "Carl Dea, Mark Heckler, Gerrit Grunwald, José Pereda, Sean Phillips",
+    "personIds": [
+      "c.dea",
+      "m.heckler",
+      "g.grunwald",
+      "j.pereda",
+      "s.phillips"
+    ],
+    "title": "JavaFX 9 by Example",
+    "subtitle": "Rich Client Applications for any Platform",
+    "url": "https://www.apress.com/gp/book/9781484219607",
+    "amazonASIN": "1484219600",
+    "isbn": "978-1-4842-1960-7",
+    "publishedDate": "2019-09-07"
+  },
+  {
+    "id": "projava9games",
+    "publisher": "Apress",
+    "authors": "Wallace Jackson",
+    "title": "Pro Java 9 Games Development",
+    "subtitle": "Leveraging the JavaFX APIs",
+    "url": "https://www.apress.com/gp/book/9781484209745",
+    "amazonASIN": "B077GC338G",
+    "isbn": "978-1-4842-0973-8",
+    "publishedDate": "2017-11-14"
+  },
+  {
+    "id": "gettingstartedpi",
+    "publisher": "Frank Delporte",
+    "authors": "Frank Delporte",
+    "personIds": [
+      "f.delporte"
+    ],
+    "title": "Getting started with Java on the Raspberry Pi",
+    "subtitle": "Learn the power and fun of experimenting with electronics",
+    "url": "https://leanpub.com/gettingstartedwithjavaontheraspberrypi/",
+    "amazonASIN": "B085G6GNDF",
+    "isbn": "978-1-907920-91-2",
+    "publishedDate": "2020-03-02"
+  },
+  {
+    "id": "masteringjavafx10",
+    "publisher": "Packt Publishing",
+    "authors": "Sergey Grinev",
+    "title": "Mastering JavaFX 10",
+    "subtitle": "Build advanced and visually stunning Java applications",
+    "url": "",
+    "isbn": "1788293827",
+    "amazonASIN": "B079DW68ZQ",
+    "personIds": [
+      "s.grinev"
+    ],
+    "publishedDate": "2018-05-31"
+  },
+  {
+    "id": "jfxessentials",
+    "publisher": "Packt Publishing",
+    "authors": "Mohamed Taman",
+    "title": "JavaFX Essentials",
+    "subtitle": "Create amazing Java GUI applications with this hands-on, fast-paced guide",
+    "url": "https://www.packtpub.com/product/javafx-essentials/9781784398026",
+    "isbn": "9781784398026",
+    "amazonASIN": "1784398020",
+    "personIds": [
+      "m.taman"
+    ],
+    "publishedDate": "2015-06-29"
+  },
+  {
+    "id": "learnjfx8",
+    "publisher": "Apress",
+    "authors": "Kishori Sharan",
+    "title": "Learn JavaFX 8",
+    "subtitle": "Building User Experience and Interfaces with Java 8",
+    "url": "https://www.apress.com/gp/book/9781484211434",
+    "amazonASIN": "148421143X",
+    "isbn": "978-1-4842-1143-4",
+    "publishedDate": "2015-03-19"
+  },
+  {
+    "id": "introducingjfx8programming",
+    "publisher": "McGraw-Hill",
+    "authors": "Herbert Schildt",
+    "title": "Introducing JavaFX 8 Programming",
+    "subtitle": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
+    "url": "https://www.mhprofessional.com/9780071842556-usa-introducing-javafx-8-programming-group",
+    "amazonASIN": "B010CHIM50",
+    "isbn": "978-0071842556",
+    "publishedDate": "2015-06-09"
+  },
+  {
+    "id": "masteringjfx8controls",
+    "publisher": "McGraw-Hill",
+    "authors": "Hendrik Ebbers",
+    "personIds": [
+      "h.ebbers"
+    ],
+    "title": "Mastering JavaFX 8 Controls",
+    "subtitle": "Create Custom JavaFX 8 Controls for Cross-Platform Applications",
+    "url": "https://www.mhprofessional.com/9780071833776-usa-mastering-javafx-8-controls-group",
+    "amazonASIN": "B00L3TF02K",
+    "isbn": "978-0-0718-3377-6",
+    "publishedDate": "2014-06-16"
+  },
+  {
+    "id": "dummies",
+    "publisher": "For Dummies",
+    "authors": "Doug Lowe",
+    "title": "JavaFX For Dummies",
+    "subtitle": "Unleash the power of JavaFX for a wide range of devices",
+    "url": "",
+    "amazonASIN": "1118385349",
+    "isbn": " 978-1118385340",
+    "publishedDate": "2014-10-10"
+  }
+]

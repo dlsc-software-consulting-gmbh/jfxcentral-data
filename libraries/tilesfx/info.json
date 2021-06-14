@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "path": "TilesFX.png",
+      "title": "TilesFX Demo Application",
+      "description": "A dashboard created with different tiles from TilesFX."
+    },
+    {
+      "path": "countdown-tile.png",
+      "title": "Countdown Timer",
+      "description": "A tile displaying countdown information."
+    },
+    {
+      "path": "led-tile.png",
+      "title": "LED Tile",
+      "description": "A tile showing a simple LED light."
+    },
+    {
+      "path": "image-counter-tile.png",
+      "title": "Image Counter Tile",
+      "description": "A tile showing an image and a counter."
+    },
+    {
+      "path": "timeline-tile.png",
+      "title": "Timeline Tile",
+      "description": "A tile showing blood sugar values on a timeline."
+    },
+    {
+      "path": "image-tile.png",
+      "title": "Image Tile",
+      "description": "A tile an image."
+    }
+  ]
+}

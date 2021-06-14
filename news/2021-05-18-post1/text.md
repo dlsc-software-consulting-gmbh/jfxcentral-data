@@ -1,7 +1,0 @@
-**Jerusalem (CNN)** Israel and the Palestinian territories were bracing for a potentially tense day of protests and strikes Tuesday, as both sides prepare to bury the victims of the deadliest violence the region has seen in years.
-
-Several people will be laid to rest in Gaza, while a Jewish man, who succumbed to his injuries after being badly wounded during mob violence in the central Israeli city of Lod last week, will also be buried.
-A number of Palestinian groups, including Hamas militants in Gaza and Fatah in the West Bank, called for mass strikes and protests, but it's unclear if those efforts will gain steam. Palestinian factions have made similar calls in the past, only to see demonstration plans fizzle out.
-Israel imposed a partial closure on the West Bank on Tuesday, an Israeli security source told CNN, with only men older than 45 and Palestinian construction workers with work permits allowed to enter Israel.
-Monday night and early Tuesday morning brought a brief glimmer of hope and respite in southern Israel from militants' rockets. The Israel Defense Forces did not report any southern warning sirens from 11:15 p.m. until 5:34 a.m. -- the first time in a week Israel went a night without rocket fire from Gaza, though militants fired two salvos towards southern towns shortly after sunrise, forcing residents to flee to bomb shelters, as they had much of Monday.
-The IDF said about 90 rockets were fired from Gaza toward Israel on Monday, dozens of which were intercepted by Israel's advanced missile defense system. About 20 fell inside Gaza.

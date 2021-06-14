@@ -1,0 +1,88 @@
+[
+  {
+    "id": "javafxmavenplugin",
+    "name": "JavaFX Plugin",
+    "summary": "Maven plugin to run JavaFX 11+ applications.",
+    "tags": "maven, plugin",
+    "url": "https://github.com/openjfx/javafx-maven-plugin"
+  },
+  {
+    "id": "clientplugin",
+    "name": "Client Plugin",
+    "summary": "Create native apps for desktop or mobile devices.",
+    "tags": "maven, plugin, gluon, mobile, embedded, iOS, android, iPhone, iPad",
+    "url": "https://github.com/gluonhq/client-maven-plugin"
+  },
+  {
+    "id": "scenicview",
+    "name": "Scenic View",
+    "summary": "Inspect / debug the scene graph of your application.",
+    "tags": "inspect, developer, development",
+    "url": "https://github.com/JonathanGiles/scenic-view",
+    "links": [
+      {
+        "text": "Download Mac",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-mac.zip"
+      },
+      {
+        "text": "Download Windows",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-win.zip"
+      },
+      {
+        "text": "Download Linux",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-linux.zip"
+      }
+    ]
+  },
+  {
+    "id": "scenebuilder",
+    "name": "Scene Builder",
+    "summary": "WYSIWYG editor for building your user interface.",
+    "tags": "UI builder, wysiwyg, editor, user interface, client",
+    "url": "https://gluonhq.com/products/scene-builder/",
+    "links": [
+      {
+        "text": "Download",
+        "url": "https://gluonhq.com/products/scene-builder/#download"
+      }
+    ]
+  },
+  {
+    "id": "jpro",
+    "name": "JPro",
+    "summary": "Deploy and run your applications in browsers.",
+    "tags": "web, browser, web app, web application",
+    "url": "https://www.jpro.one",
+    "links": [
+      {
+        "text": "Demos",
+        "url": "https://www.jpro.one/?page=demos"
+      },
+      {
+        "text": "Documentation",
+        "url": "https://www.jpro.one/?page=docs/current/1.1/"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://www.jpro.one/?page=prices"
+      }
+    ]
+  },
+  {
+    "id": "gluonmobile",
+    "name": "Gluon Mobile",
+    "summary": "Deploy to mobile devices like iPhones, iPads, or Android.",
+    "tags": "gluon, mobile, ui, navigation",
+    "url": "https://gluonhq.com/products/mobile/",
+    "links": [
+      {
+        "text": "Documentation",
+        "url": "https://docs.gluonhq.com"
+      },
+      {
+        "text": "Buy",
+        "url": "https://gluonhq.com/products/mobile/buy/"
+      }
+    ]
+  }
+]
