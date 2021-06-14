@@ -563,5 +563,17 @@
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14",
     "publishedOn": "2013-06-14"
+  },
+  {
+    "title": "JavaFX Ikonli Font Icon Packs Tutorial",
+    "type": "Tutorial",
+    "domain": "Icons",
+    "description": "How to use icon fonts in your JavaFX application.",
+    "id": "o5UewXgUiYY",
+    "event": "",
+    "platform": "Desktop",
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14",
+    "publishedOn": "2013-06-14"
   }
 ]

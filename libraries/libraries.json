@@ -229,7 +229,13 @@
     "groupId": "org.kordamp.ikonli",
     "artifactId": "ikonli-javafx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "downloadIds": [
+      "ikonlibrowser"
+    ],
+    "videoIds": [
+      "o5UewXgUiYY"
+    ]
   },
   {
     "title": "JSilhouette",
