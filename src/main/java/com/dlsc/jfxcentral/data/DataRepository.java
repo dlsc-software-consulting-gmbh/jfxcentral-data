@@ -25,6 +25,7 @@ import java.nio.channels.Channels;
 import java.nio.channels.FileChannel;
 import java.nio.channels.ReadableByteChannel;
 import java.text.MessageFormat;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -106,6 +107,29 @@ public class DataRepository {
             thread.setName("Data Repository Thread");
             thread.setDaemon(true);
             thread.start();
+
+            // update feeds and pull requests every 12 hours
+            Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
+                System.out.println("Feed update thread launched");
+                try {
+                    Thread.sleep(Duration.ofHours(12).toMillis());
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                try {
+                    readFeeds();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (FeedException e) {
+                    e.printStackTrace();
+                }
+
+                loadPullRequests();
+            });
+            updateFeedsAndPullRequestsThread.setName("Data Repository Feeds Update Thread");
+            updateFeedsAndPullRequestsThread.setDaemon(true);
+            updateFeedsAndPullRequestsThread.start();
         } else {
             loadData();
         }
