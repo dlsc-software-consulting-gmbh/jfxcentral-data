@@ -32,6 +32,8 @@ public class Library extends ModelObject {
     private List<String> videoIds = new ArrayList<>();
     private List<String> tutorialIds = new ArrayList<>();
 
+    private boolean logoAvailable;
+
     public Library() {
     }
 
@@ -62,6 +64,14 @@ public class Library extends ModelObject {
         }
 
         return false;
+    }
+
+    public boolean isLogoAvailable() {
+        return logoAvailable;
+    }
+
+    public void setLogoAvailable(boolean logoAvailable) {
+        this.logoAvailable = logoAvailable;
     }
 
     public boolean isEnsemble() {

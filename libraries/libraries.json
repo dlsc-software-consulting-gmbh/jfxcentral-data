@@ -20,6 +20,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.bootstrapfx",
     "artifactId": "bootstrapfx-core",
+    "logoAvailable": "false",
     "ensemble": "true"
   },
   {
@@ -42,6 +43,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.calendarfx",
     "artifactId": "calendar",
+    "logoAvailable": "true",
     "ensemble": "false"
   },
   {
@@ -64,6 +66,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.desktoppanefx",
     "artifactId": "desktoppanefx-core",
+    "logoAvailable": "false",
     "ensemble": "false"
   },
   {
@@ -84,6 +87,7 @@
     "id": "flexganttfx",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "logoAvailable": "true",
     "ensemble": "true"
   },
   {
@@ -106,6 +110,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.formsfx",
     "artifactId": "formsfx-core",
+    "logoAvailable": "true",
     "ensemble": "false"
   },
   {
@@ -129,6 +134,7 @@
     "groupId": "com.github.almasb",
     "artifactId": "fxgl",
     "ensemble": "false",
+    "logoAvailable": "true",
     "tutorialIds": [
       "almastutorials"
     ]
@@ -153,6 +159,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.gemsfx",
     "artifactId": "gemsfx",
+    "logoAvailable": "true",
     "ensemble": "true"
   },
   {
@@ -175,6 +182,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc",
     "artifactId": "GMapsFX",
+    "logoAvailable": "true",
     "ensemble": "false"
   },
   {
@@ -197,6 +205,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.harmonicfx",
     "artifactId": "harmonicfx-core",
+    "logoAvailable": "false",
     "ensemble": "false"
   },
   {
@@ -219,6 +228,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.ikonli",
     "artifactId": "ikonli-javafx",
+    "logoAvailable": "false",
     "ensemble": "false"
   },
   {
@@ -241,6 +251,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "org.kordamp.jsilhouette",
     "artifactId": "jsilhouette-javafx",
+    "logoAvailable": "false",
     "ensemble": "false"
   },
   {
@@ -263,6 +274,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.keyboardfx",
     "artifactId": "keyboardfx",
+    "logoAvailable": "false",
     "ensemble": "false"
   },
   {
@@ -285,6 +297,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.pdfviewfx",
     "artifactId": "pdfviewfx",
+    "logoAvailable": "false",
     "ensemble": "true"
   },
   {
@@ -307,6 +320,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.preferencesfx",
     "artifactId": "preferencesfx-core",
+    "logoAvailable": "true",
     "ensemble": "false"
   },
   {
@@ -329,6 +343,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.unitfx",
     "artifactId": "unitfx",
+    "logoAvailable": "true",
     "ensemble": "false"
   },
   {
@@ -351,6 +366,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc.workbenchfx",
     "artifactId": "workbenchfx-core",
+    "logoAvailable": "true",
     "ensemble": "false"
   },
   {
@@ -374,6 +390,7 @@
     "groupId": "eu.hansolo",
     "artifactId": "tilesfx",
     "ensemble": "false",
+    "logoAvailable": "false",
     "videoIds": [
       "OuF2BMnCjt4"
     ],
@@ -402,6 +419,7 @@
     "groupId": "org.controlsfx",
     "artifactId": "controlsfx",
     "ensemble": "true",
+    "logoAvailable": "true",
     "videoIds": [
       "pjKgPeiWc0o"
     ]
