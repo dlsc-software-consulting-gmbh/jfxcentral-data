@@ -1,16 +1,5 @@
 ![screenshot of an application created with WorkbenchFX](docs/images/workbenchFX_in_use.png)
 
-# Advantages of WorkbenchFX
-- Less error-prone
-- Less code needed
-- Easy to learn
-- Easy to understand
-- Easy to use, especially for developers which have not much experience in working with JavaFX
-- A well designed, adaptable UI, inspired by the material design standards
-- Multiple, independent *workbench modules*, displayed in Tabs combine into one great application
-- FXML & [Scene Builder](https://gluonhq.com/products/scene-builder/) support
-
-# Main Components
 The most important components are noted in the picture and the corresponding table below:
 
 ![screenshot of the addModulePage](docs/images/components/addModulePage.png)
