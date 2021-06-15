@@ -68,5 +68,13 @@
     "summary": "Commercial online course with videos",
     "url": "https://www.udemy.com/course/javafx-gui-programming/",
     "commercial": "true"
+  },
+  {
+    "id": "fxdocs",
+    "format": "web",
+    "name": "The JavaFX Documentation Project",
+    "summary": "A collaborative effort to collect important JavaFX information from around the web into a single place.",
+    "url": "https://github.com/FXDocs/docs",
+    "commercial": "false"
   }
 ]
