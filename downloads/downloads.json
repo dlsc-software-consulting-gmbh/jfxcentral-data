@@ -186,5 +186,22 @@
         "package": "DMG"
       }
     ]
+  },
+  {
+    "id": "covid",
+    "title": "Covid Data Explorer (FlexGanttFX)",
+    "tags": "covid, data exploration, health, medical",
+    "homepage": "https://www.flexganttfx.com",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-15",
+    "modifiedOn": "2021-06-15",
+    "files": [
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "",
+        "fileName": "covid-explorer-pkg.zip",
+        "package": "PKG"
+      }
+    ]
   }
 ]
