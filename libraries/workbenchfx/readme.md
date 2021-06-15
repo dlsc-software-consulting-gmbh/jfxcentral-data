@@ -1,6 +1,6 @@
 The most important components of *WorkbenchFX* are shown in the picture below and described in the table that follows:
 
-![screenshot of the addModulePage](docs/images/components/addModulePage.png)
+![screenshot of the addModulePage](addModulePage.png)
 
 Nr. | Component           | Description
 --- | ------------------- | -----------
@@ -16,26 +16,26 @@ Nr. | Component           | Description
 10  | `ToolbarItem`       | Depending on the defined attributes, the item behaves like a JavaFX `Label`, `Button` or `MenuButton` (more about `ToolbarItem`s: [ToolbarItem](#toolbaritem))
 11  | Menu button         | It opens the `NavigationDrawer`. The position of the button varies depending on the amount of items to be displayed in the *toolbar* and the `NavigationDrawer`. If the `NavigationDrawer` does not contain any items, the button will not be displayed at all. If any items are in the *toolbar*, it will be displayed on the left side of the *toolbar*, otherwise on the left side of the *tab bar*
 
-![screenshot of the navigationDrawer](docs/images/components/navigationDrawer.png)
+![screenshot of the navigationDrawer](navigationDrawer.png)
 
 Nr. | Component           | Description
 --- | ------------------- | -----------
 12  | `NavigationDrawer`  | It displays a *logo* which can be set in the stylesheet (described in chapter [Setting a Logo](#setting-a-logo)) and the defined `MenuItem`s. The default hover behavior over its items can be changed using the method call `navigationDrawer.setMenuHoverBehavior()`. It can be closed by clicking on the `GlassPane` or by pressing the back arrow button
 13  | `GlassPane`         | The `GlassPane` prevents click events on the components below and adds a scrim to the background. Unless a blocking (modal) overlay is being displayed, clicking on the `GlassPane` closes the overlay (more about the *blocking* attribute: [Custom Overlay](#custom-overlay), [Custom Dialog](#custom-dialog))
 
-![screenshot of the drawer](docs/images/components/drawer.png)
+![screenshot of the drawer](drawer.png)
 
 Nr. | Component           | Description
 --- | ------------------- | -----------
 14  | `Drawer`            | It is possible to use `workbench.showDrawer()` to show drawers with custom content. All four sides of the window are supported (more about `Drawer`s: [Drawer](#drawer))
 
-![screenshot of the dialog](docs/images/components/dialog.png)
+![screenshot of the dialog](dialog.png)
 
 Nr. | Component           | Description
 --- | ------------------- | -----------
 15  | `DialogControl`     | Dialogs can be shown using a variety of predefined dialog types like `showInformationDialog()`, `showErrorDialog`, etc. Calling `workbench.showDialog(WorkbenchDialog)` shows a custom dialog (more about dialogs: [Dialog](#dialog))
 
-![screenshot of the moduleToolbar](docs/images/components/moduleToolbar.png)
+![screenshot of the moduleToolbar](moduleToolbar.png)
 
 Nr. | Component           | Description
 --- | ------------------- | -----------
