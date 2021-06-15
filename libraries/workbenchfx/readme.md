@@ -1,6 +1,6 @@
 ![screenshot of an application created with WorkbenchFX](docs/images/workbenchFX_in_use.png)
 
-The most important components are noted in the picture and the corresponding table below:
+The most important components of *WorkbenchFX* are shown in the picutre above and the corresponding table below:
 
 ![screenshot of the addModulePage](docs/images/components/addModulePage.png)
 
