@@ -1,2 +1,49 @@
 {
+  "images": [
+    {
+      "path": "BooleanField.png",
+      "title": "Boolean Field",
+      "description": ""
+    },
+    {
+      "path": "CheckBoxField.png",
+      "title": "Checkbox Field",
+      "description": ""
+    },
+    {
+      "path": "ComboBoxField.png",
+      "title": "Combobox Field",
+      "description": ""
+    },
+    {
+      "path": "DoubleField.png",
+      "title": "Double Field",
+      "description": ""
+    },
+    {
+      "path": "IntegerField.png",
+      "title": "Integer Field",
+      "description": ""
+    },
+    {
+      "path": "ListField.png",
+      "title": "List Field",
+      "description": ""
+    },
+    {
+      "path": "RadioButtonField.png",
+      "title": "Radio Button Field",
+      "description": ""
+    },
+    {
+      "path": "StringField.png",
+      "title": "String Field",
+      "description": ""
+    },
+    {
+      "path": "StringFieldMulti.png",
+      "title": "String Field (Multi)",
+      "description": ""
+    }
+  ]
 }
