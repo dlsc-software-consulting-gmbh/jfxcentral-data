@@ -91,5 +91,12 @@
     "summary": "A unit testing framework for JavaFX.",
     "tags": "unit test, testing, junit",
     "url": "https://github.com/TestFX/TestFX/blob/master/README.md"
+  },
+  {
+    "id": "cssfx",
+    "name": "CssFX",
+    "summary": "Reload CSS stylesheets at runtime.",
+    "tags": "css, reload, stylesheet",
+    "url": "https://github.com/McFoggy/cssfx"
   }
 ]
