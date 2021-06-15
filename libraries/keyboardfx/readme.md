@@ -1,12 +1,3 @@
-This library provides an on-screen virtual keyboard that allows the user to enter data
-into text fields or text text areas via touch gestures. The default design of the keyboard
-mimics the appearance as it can be found on iPads. However, by customizing the CSS files
-it is possible to achieve pretty much any desired look. 
-
-The controls not only allow the customization of the graphical attributes of the keys but
-also of the availability of the keys. Developers can choose to have any number of keys showing
-at any time, allowing them to create different keyboards for different use cases.
-
 The following code creates an application with an on-screen keyboard for a small number
 of text fields.
 
