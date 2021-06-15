@@ -285,7 +285,7 @@
     "title": "PreferencesFX",
     "summary": "A framework for creating application preferences UIs",
     "tags": "preferences, custom controls, framework",
-    "description": "A framework for creating application preferences UIs",
+    "description": "Creating preference dialogs is a tedious and very error-prone task. PreferencesFX is a framework which solves this problem. It enables the developer to create preference dialogs with ease and creates well-designed and user-friendly preference dialogs by default.",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX#readme",
     "license": "APACHE2",
     "homepage": "",

@@ -1,13 +1,7 @@
-# PreferencesFX
-**Preference dialogs for business applications made easy. Creating preference dialogs in Java has never been this easy!**
-
 ![screenshot of created preferences dialog](preferences-demo.png)
 
 ## Table of Contents
-- [Maven](#maven)
-- [Gradle](#gradle)
-- [What is PreferencesFX](#what-is-preferencesfx)
-- [Advantages](#advantages)
+- [Benefits](#benefits)
 - [Main Features](#main-features)
 - [Documentation](#documentation)
 - [Structure](#structure)
@@ -15,55 +9,11 @@
 - [Defining a preferences dialog](#defining-a-preferences-dialog)
     - [Required arguments](#required-arguments)
     - [Optional arguments](#optional-arguments)
-    - [Setting types](#setting-types)
 - [Localisation](#localisation)
 - [Validation](#validation)
 - [Team](#team)
 
-## Maven
-
-To use this framework as part of your Maven build simply add the following dependency to your pom.xml file:
-
-### Java 8
-```XML
-<dependency>
-  <groupId>com.dlsc.preferencesfx</groupId>
-  <artifactId>preferencesfx-core</artifactId>
-  <version>8.6.0</version>
-</dependency>
-```
-
-### Java 11
-```XML
-<dependency>
-  <groupId>com.dlsc.preferencesfx</groupId>
-  <artifactId>preferencesfx-core</artifactId>
-  <version>11.7.0</version>
-</dependency>
-```
-
-## Gradle
-
-To use this framework as part of your gradle build simply add the following to your build.gradle file and use the following dependency definition:
-
-### Java 8
-```groovy
-dependencies {
-    compile group: 'com.dlsc.preferencesfx', name: 'preferencesfx-core', version: '8.6.0'
-}
-```
-
-### Java 11
-```groovy
-dependencies {
-    compile group: 'com.dlsc.preferencesfx', name: 'preferencesfx-core', version: '11.7.0'
-}
-```
-
-## What is PreferencesFX?
-Creating preference dialogs in JavaFX is a tedious and very error-prone task. PreferencesFX is a framework which solves this problem. It enables the developer to create preference dialogs with ease and creates well-designed and user-friendly preference dialogs by default.
-
-## Advantages
+## Benefits
 - Less error-prone
 - Less code needed
 - Easy to learn
@@ -164,7 +114,7 @@ This code snippet results in the following preferences window, containing three 
 To create a `Setting`, you only need to define a title and a `Property`. `PreferencesFX` does the rest.  
 You can then integrate this `Property` in your application. Changes of values in the preferences dialog will be persisted instantly, however it's up to you to decide whether you want to persist them instantly in your application as well.
 
-#### Required arguments
+### Required arguments
 You have a lot of options to influence the behavior and layout of the preferences dialog.  
 The following parameters are the absolute minimum, needed for the proper functioning of `PreferencesFX`:
 
@@ -174,13 +124,13 @@ Parameter | Description
 `Category description` | Each `Category` must have a description. This is required to display its description in the `TreeView`.
 `Setting description` | Each `Setting` must have a description. It will be displayed on the left of the control, which is used to manipulate the respective `Setting`.
 
-Note: The value of the each `Setting` is stored using the [Java Preferences API](https://docs.oracle.com/javase/8/docs/api/java/util/prefs/Preferences.html) by default.  
-For testing purposes, to clear the saved preferences of the demo, run the method in the class:
+> Note: The value of the each `Setting` is stored using the [Java Preferences API](https://docs.oracle.com/javase/8/docs/api/java/util/prefs/Preferences.html) by default.  
+> For testing purposes, to clear the saved preferences of the demo, run the method in the class:
 ```
 preferencesfx-demo/src/test/java/PreferencesStorageReset.java
 ```
 
-#### Optional arguments
+### Optional arguments
 The following parameters are optionally available to further configure the dialog created by `PreferencesFX`:
 
 Method | Class | Description
@@ -199,147 +149,15 @@ Method | Class | Description
 `.dialogTitle` | `PreferencesFx` | Allows to specify a custom dialog title.
 `.dialogIcon` | `PreferencesFx` | Allows to specify a custom dialog icon.
 
-#### Setting types
-The following table shows how to create `Settings` using the predefined controls and how they look like:
-
-<table>
-    <tr>
-        <th>Syntax</th>
-        <th>Outcome</th>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Integer
-IntegerProperty brightness = new SimpleIntegerProperty(50);
-Setting.of("Brightness", brightness);</pre>
-        </td>
-        <td><img src="images/settings/integer_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Integer Range
-IntegerProperty fontSize = new SimpleIntegerProperty(12);
-Setting.of("Font Size", fontSize, 6, 36);</pre>
-        </td>
-        <td><img src="images/settings/integerSlider_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Double
-DoubleProperty scaling = new SimpleDoubleProperty(1);
-Setting.of("Scaling", scaling);</pre>
-        </td>
-        <td><img src="images/settings/double_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Double Range
-DoubleProperty lineSpacing = new SimpleDoubleProperty(1.5);
-Setting.of("Line Spacing", lineSpacing, 0, 3, 1);</pre>
-        </td>
-        <td><img src="images/settings/doubleSlider_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Boolean
-BooleanProperty nightMode = new SimpleBooleanProperty(true);
-Setting.of("Night Mode", nightMode);</pre>
-        </td>
-        <td><img src="images/settings/boolean_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// String
-StringProperty welcomeText = new SimpleStringProperty("Hello World");
-Setting.of("Welcome Text", welcomeText);</pre>
-        </td>
-        <td><img src="images/settings/string_setting.png"></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Combobox, Single Selection, with ObservableList
-ObservableList<String> resolutionItems = FXCollections.observableArrayList(Arrays.asList(
-  "1024x768", "1280x1024", "1440x900", "1920x1080")
-);
-ObjectProperty<String> resolutionSelection = new SimpleObjectProperty<>("1024x768");
-Setting.of("Resolution", resolutionItems, resolutionSelection);</pre>
-        </td>
-        <td><img src="images/settings/observableList_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Combobox, Single Selection, with ListProperty
-ListProperty<String> orientationItems = new SimpleListProperty<>(
-  FXCollections.observableArrayList(Arrays.asList("Vertical", "Horizontal"))
-);
-ObjectProperty<String> orientationSelection = new SimpleObjectProperty<>("Vertical");
-Setting.of("Orientation", orientationItems, orientationSelection);</pre>
-        </td>
-        <td><img src="images/settings/listProperty_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Combobox, Multi Selection
-ListProperty<String> favoritesItems = new SimpleListProperty<>(
-  FXCollections.observableArrayList(Arrays.asList(
-      "eMovie", "Eboda Phot-O-Shop", "Mikesoft Text",
-      "Mikesoft Numbers", "Mikesoft Present", "IntelliG"
-      )
-  )
-);
-ListProperty<String> favoritesSelection = new SimpleListProperty<>(
-  FXCollections.observableArrayList(Arrays.asList(
-      "Eboda Phot-O-Shop", "Mikesoft Text"))
-);
-Setting.of("Favorites", favoritesItems, favoritesSelection);</pre>
-        </td>
-        <td><img src="images/settings/favourites_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Color
-ObjectProperty<Color> colorProperty = new SimpleObjectProperty<>(Color.PAPAYAWHIP);
-Setting.of("Font Color", colorProperty);</pre>
-        </td>
-        <td><img src="images/settings/color_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// FileChooser / DirectoryChooser
-ObjectProperty<File> fileProperty = new SimpleObjectProperty<>();
-Setting.of("File", fileProperty, false);     // FileChooser
-Setting.of("Directory", fileProperty, true); // DirectoryChooser</pre>
-        </td>
-        <td><img src="images/settings/chooser_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Custom Control
-IntegerProperty customControlProperty = new SimpleIntegerProperty(42);
-IntegerField customControl = Field.ofIntegerType(customControlProperty).render(
-  new IntegerSliderControl(0, 42));
-Setting.of("Favorite Number", customControl, customControlProperty);</pre>
-        </td>
-        <td><img src="images/settings/custom_setting.png"/></td>
-    </tr>
-    <tr>
-        <td><pre lang="java">
-// Static node
-Node staticNode = new Label("This can be your very own placeholder!");
-Setting.of(staticNode);</pre>
-        </td>
-        <td><img src="images/settings/static_node.png"/></td>
-    </tr>
-</table> 
-
-Note: By default, PreferencesFX saves the settings under a key which consists of the breadcrumb to the setting, delimited by `#` signs. If you want to define your own key to be used for saving, use the method `setting.customKey("key")`
-
 ## Localisation
 All displayed strings can be internationalized. You can use [resource bundles](https://docs.oracle.com/javase/8/docs/api/java/util/ResourceBundle.html) to define different locales and use the key instead of the descriptions. Adding i18n support is simply done by calling the method `.i18n()` at the end when creating the preferences:
 
 ```java
-private ResourceBundle rbDE = ResourceBundle.getBundle("demo.demo-locale", new Locale("de", "CH"));
-private ResourceBundle rbEN = ResourceBundle.getBundle("demo.demo-locale", new Locale("en", "UK"));
+private ResourceBundle rbDE = 
+        ResourceBundle.getBundle("demo.demo-locale", new Locale("de", "CH"));
+
+private ResourceBundle rbEN = 
+        ResourceBundle.getBundle("demo.demo-locale", new Locale("en", "UK"));
 
 private ResourceBundleService rbs = new ResourceBundleService(rbEN);
 
