@@ -145,27 +145,3 @@ CSSFXLogger.setLoggerFactory((loggerName) -> (level, message, args) -> {
     System.out.println("I log by myself, original message: " + String.format(message, args));
 });
 ```
-
-## Build & release
-
-### Normal build
-
-- `mvnw clean install` : UI tests are run headless
-- `mvnw -P-ci clean install` : UI tests are run visible on screen
-
-### Release
-
-- `mvnw -Prelease,ci clean install`: this will simulate a full build for oss delivery (javadoc, source attachement, GPG signature, ...)
-- `git tag -a -s -m "release X.Y.Z, additionnal reason" X.Y.Z`: tag the current HEAD with the given tag name. The tag is signed by the author of the release. Adapt with gpg key of maintainer.
-    - Matthieu Brouillard command:  `git tag -a -s -u 2AB5F258 -m "release X.Y.Z, additional reason" X.Y.Z`
-    - Matthieu Brouillard [public key](https://sks-keyservers.net/pks/lookup?op=get&search=0x8139E8632AB5F258)
-- `mvnw -Prelease,ci -DskipTests deploy`
-- `git push --follow-tags origin master`
-
-## Credits
-
-Many thanks to the [JPro](https://www.jpro.one/) company which actively supports [cssfx](https://github.com/McFoggy/cssfx) and promotes its usage.
-
-Also, a big _thank you_ to all [contributors](https://github.com/McFoggy/cssfx/graphs/contributors) and people who reported issues or enhancement requests ; an OSS project is nothing without its users and community.
-
-Special thanks to [Tomas Mikula](https://github.com/TomasMikula) and his [FXMisc](http://www.fxmisc.org/) project umbrella that have simplified the route of CSSFX to maven central prior to version `11.3.0`.  
