@@ -262,9 +262,9 @@
   },
   {
     "title": "PDFViewFX",
-    "summary": "Professional calendar UIs",
+    "summary": "A viewer for PDF files.",
     "tags": "pdf viewer, custom control",
-    "description": "Professional calendar UIs",
+    "description": "The primary view control in this library allows applications to display any PDF file inside their JavaFX application. The view is based on the Apache PDFBox project, which is a very powerful PDF implementation and capable of displaying most PDF files and most PDF features. For more information please consult the [PDFBox homepage.](https://pdfbox.apache.org)",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX#readme",
     "license": "APACHE2",
     "homepage": "",
