@@ -1,2 +1,59 @@
 {
+  "images": [
+    {
+      "path": "arrow.png",
+      "title": "Arrow",
+      "description": ""
+    },
+    {
+      "path": "asterisk.png",
+      "title": "Asterisk",
+      "description": ""
+    },
+    {
+      "path": "astroid.png",
+      "title": "Astroid",
+      "description": ""
+    },
+    {
+      "path": "cross.png",
+      "title": "Cross",
+      "description": ""
+    },
+    {
+      "path": "donut.png",
+      "title": "Donut",
+      "description": ""
+    },
+    {
+      "path": "lauburu.png",
+      "title": "Lauburu",
+      "description": ""
+    },
+    {
+      "path": "multiroundrectangle.png",
+      "title": "Multi Round Rectangle",
+      "description": ""
+    },
+    {
+      "path": "rays.png",
+      "title": "Rays",
+      "description": ""
+    },
+    {
+      "path": "regularpolygon.png",
+      "title": "Regular Polygon",
+      "description": ""
+    },
+    {
+      "path": "roundpin.png",
+      "title": "Round Pin",
+      "description": ""
+    },
+    {
+      "path": "star.png",
+      "title": "Star",
+      "description": ""
+    }
+  ]
 }
