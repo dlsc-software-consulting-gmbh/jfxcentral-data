@@ -163,5 +163,45 @@
         "package": "PKG"
       }
     ]
+  },
+  {
+    "id": "speedtest",
+    "title": "Speed Test",
+    "tags": "bandwidth, speed, internet, connection, isp",
+    "homepage": "https://www.cnlab.ch/en/speedtest",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-15",
+    "modifiedOn": "2021-06-15",
+    "files": [
+      {
+        "name": "EXE (Windows)",
+        "url": "https://download.cnlab.ch/performance/win64/cnlabSpeedTest.exe",
+        "fileName": "",
+        "package": "EXE"
+      },
+      {
+        "name": "DMG Installer (Mac)",
+        "url": "https://download.cnlab.ch/performance/macos/cnlabSpeedTest.dmg",
+        "fileName": "",
+        "package": "DMG"
+      }
+    ]
+  },
+  {
+    "id": "covid",
+    "title": "Covid Data Explorer (FlexGanttFX)",
+    "tags": "covid, data exploration, health, medical",
+    "homepage": "https://www.flexganttfx.com",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-15",
+    "modifiedOn": "2021-06-15",
+    "files": [
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "",
+        "fileName": "covid-explorer-pkg.zip",
+        "package": "PKG"
+      }
+    ]
   }
 ]

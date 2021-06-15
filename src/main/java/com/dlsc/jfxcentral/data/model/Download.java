@@ -8,6 +8,7 @@ import java.util.List;
 public class Download extends ModelObject {
 
     private String title;
+    private String homepage;
     private DownloadType downloadType;
     private List<String> personIds = new ArrayList<>();
     private List<String> companyIds = new ArrayList<>();
@@ -24,7 +25,8 @@ public class Download extends ModelObject {
         PKG,
         MSI,
         ZIP,
-        TXT
+        TXT,
+        EXE
     }
 
     public static class DownloadFile {
@@ -130,5 +132,13 @@ public class Download extends ModelObject {
 
     public void setCompanyIds(List<String> companyIds) {
         this.companyIds = companyIds;
+    }
+
+    public String getHomepage() {
+        return homepage;
+    }
+
+    public void setHomepage(String homepage) {
+        this.homepage = homepage;
     }
 }

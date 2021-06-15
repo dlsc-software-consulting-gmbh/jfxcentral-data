@@ -290,7 +290,12 @@
     "rockstar": true,
     "id": "g.grunwald",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "libraryIds": [
+      "harmonicfx",
+      "tilesfx",
+      "medusa"
+    ]
   },
   {
     "name": "Hendrik Ebbers",
@@ -384,8 +389,8 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "JonathanGiles",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "j.giles",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -398,8 +403,8 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "JPeredaDnr",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "j.pereda",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -412,7 +417,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "net0pyr",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "m.heinrichs",
     "createdOn": "2021-05-18",
@@ -440,7 +445,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "_tamanm",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "m.taman",
     "createdOn": "2021-05-18",
@@ -448,7 +453,7 @@
   },
   {
     "name": "Pedro Duque Vieira",
-    "email": "",
+    "email": "pedro.duquevieira@gmail.com",
     "companyId": "",
     "website": "https://www.pixelduke.com",
     "blogId": "",
@@ -468,8 +473,8 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "SeanMiPhillips",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "s.phillips",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -482,7 +487,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "steveonjava",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "s.chin",
     "createdOn": "2021-05-18",
@@ -510,7 +515,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "tomsontom",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "t.schindl",
     "createdOn": "2021-05-18",
@@ -554,7 +559,7 @@
     "linkedIn": "",
     "twitter": "monacotoni",
     "champion": true,
-    "rockstar": true,
+    "rockstar": false,
     "id": "a.epple",
     "createdOn": "2021-05-27",
     "modifiedOn": "2021-05-27"

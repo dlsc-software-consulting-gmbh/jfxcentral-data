@@ -11,25 +11,25 @@ public class Library extends ModelObject {
     private String summary;
     private String description;
     private String homepage;
+    private String repository;
     private String documentation;
+    private String issueTracker;
+    private String discussionBoard;
+    private String javadocs;
+    private String groupId;
+    private String artifactId;
     private String githubAccount;
     private String githubProject;
 
-    private String personId;
-    private String companyId;
-    private String issueTracker;
     private boolean ensemble;
-    private String discussionBoard;
-    private String javadocs;
-
-    private String groupId;
-    private String artifactId;
 
     private License license;
 
     private List<String> downloadIds = new ArrayList<>();
     private List<String> videoIds = new ArrayList<>();
     private List<String> tutorialIds = new ArrayList<>();
+
+    private boolean logoAvailable;
 
     public Library() {
     }
@@ -61,6 +61,14 @@ public class Library extends ModelObject {
         }
 
         return false;
+    }
+
+    public boolean isLogoAvailable() {
+        return logoAvailable;
+    }
+
+    public void setLogoAvailable(boolean logoAvailable) {
+        this.logoAvailable = logoAvailable;
     }
 
     public boolean isEnsemble() {
@@ -117,22 +125,6 @@ public class Library extends ModelObject {
 
     public void setGithubProject(String githubProject) {
         this.githubProject = githubProject;
-    }
-
-    public String getPersonId() {
-        return personId;
-    }
-
-    public void setPersonId(String personId) {
-        this.personId = personId;
-    }
-
-    public String getCompanyId() {
-        return companyId;
-    }
-
-    public void setCompanyId(String companyId) {
-        this.companyId = companyId;
     }
 
     public License getLicense() {
@@ -213,5 +205,13 @@ public class Library extends ModelObject {
 
     public void setTutorialIds(List<String> tutorialIds) {
         this.tutorialIds = tutorialIds;
+    }
+
+    public String getRepository() {
+        return repository;
+    }
+
+    public void setRepository(String repository) {
+        this.repository = repository;
     }
 }

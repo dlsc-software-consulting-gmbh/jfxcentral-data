@@ -353,7 +353,7 @@
     "publishedOn": "2017-05-08"
   },
   {
-    "title": " JFX Days Zurich 2018: Extreme GUI Makeover | Hendrik Ebbers & Dirk Lemmermann",
+    "title": "JFX Days Zurich 2018: Extreme GUI Makeover | Hendrik Ebbers & Dirk Lemmermann",
     "type": "Presentation",
     "domain": "Demo",
     "description": "A recording of Dirk Lemmermann's Hendrik Ebbers' presentation at the JFX Days Zurich 2018. They are showing how a boring application can be pimped to make it look more up-to-date and sexy. CSS Styling, animations, effects, media player integration, transformations, etc... all the good stuff. [JFXDays 2018](http://jfx-days.com)",
@@ -368,7 +368,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2019-01-10"
   },
-
   {
     "title": "JFX Days Zurich 2018 Keynote | Dirk Lemmermann et al.",
     "type": "Keynote",
@@ -384,7 +383,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2018-12-13"
   },
-
   {
     "title": "JFX Days Zurich 2018: Custom Controls | Gerrit Grunwald",
     "type": "Presentation",
@@ -400,7 +398,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2019-01-09"
   },
-
   {
     "title": "JFX Days Zurich 2018: Supercharge the JavaFX Canvas | David Gilbert",
     "type": "Presentation",
@@ -416,7 +413,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2019-01-01"
   },
-
   {
     "title": "JFX Days Zurich 2018: DRIFT Announcement | Tom Schindl",
     "type": "Presentation",
@@ -432,7 +428,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2018-12-09"
   },
-
   {
     "title": "JFX Days Zurich 2018: JavaFX on Mobile & Embedded | Gluon",
     "type": "Presentation",
@@ -449,7 +444,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2019-03-27"
   },
-
   {
     "title": "JFX Days Zurich 2018: HTML in JavaFX | Anton Epple",
     "type": "Presentation",
@@ -465,7 +459,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2019-04-03"
   },
-
   {
     "title": "JFX Days Zurich 2018: e(fx)clipse | Tom Schindl",
     "type": "Presentation",
@@ -481,7 +474,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2019-04-09"
   },
-
   {
     "title": "JFX Days 2019: NativeFX | Michael Hoffer",
     "type": "Presentation",
@@ -497,7 +489,6 @@
     "modifiedOn": "2021-06-07",
     "publishedOn": "2020-03-19"
   },
-
   {
     "title": "JFX Days 2019: Desktop 2019 | Hendrik Ebbers",
     "type": "Keynote",
@@ -553,6 +544,33 @@
       "j.giles",
       "e.ryzhikov"
     ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14",
+    "publishedOn": "2013-06-14"
+  },
+  {
+    "title": "Medusa Demo",
+    "type": "Demo",
+    "domain": "Charting",
+    "description": "A short video highlighting the various gauges found inside the Medusa project.",
+    "id": "l2ZYO4HXjLg",
+    "event": "",
+    "personIds": [
+      "g.grunwald"
+    ],
+    "platform": "Desktop",
+    "createdOn": "2021-06-14",
+    "modifiedOn": "2021-06-14",
+    "publishedOn": "2013-06-14"
+  },
+  {
+    "title": "JavaFX Ikonli Font Icon Packs Tutorial",
+    "type": "Tutorial",
+    "domain": "Icons",
+    "description": "How to use icon fonts in your JavaFX application.",
+    "id": "o5UewXgUiYY",
+    "event": "",
     "platform": "Desktop",
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14",
