@@ -181,7 +181,7 @@
       },
       {
         "name": "DMG Installer (Mac)",
-        "url": " https://download.cnlab.ch/performance/macos/cnlabSpeedTest.dmg",
+        "url": "https://download.cnlab.ch/performance/macos/cnlabSpeedTest.dmg",
         "fileName": "",
         "package": "DMG"
       }
