@@ -163,5 +163,28 @@
         "package": "PKG"
       }
     ]
+  },
+  {
+    "id": "speedtest",
+    "title": "Speed Test",
+    "tags": "bandwidth, speed, internet, connection, isp",
+    "homepage": "https://www.cnlab.ch/en/speedtest",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-15",
+    "modifiedOn": "2021-06-15",
+    "files": [
+      {
+        "name": "MSI Installer (Windows)",
+        "url": "https://download.cnlab.ch/performance/win64/cnlabSpeedTest.exe",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "DMG Installer (Mac)",
+        "url": " https://download.cnlab.ch/performance/macos/cnlabSpeedTest.dmg",
+        "fileName": "",
+        "package": "DMG"
+      }
+    ]
   }
 ]
