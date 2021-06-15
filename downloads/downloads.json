@@ -174,10 +174,10 @@
     "modifiedOn": "2021-06-15",
     "files": [
       {
-        "name": "MSI Installer (Windows)",
+        "name": "EXE (Windows)",
         "url": "https://download.cnlab.ch/performance/win64/cnlabSpeedTest.exe",
         "fileName": "",
-        "package": "MSI"
+        "package": "EXE"
       },
       {
         "name": "DMG Installer (Mac)",

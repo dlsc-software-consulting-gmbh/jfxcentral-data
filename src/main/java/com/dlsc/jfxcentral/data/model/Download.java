@@ -25,7 +25,8 @@ public class Download extends ModelObject {
         PKG,
         MSI,
         ZIP,
-        TXT
+        TXT,
+        EXE
     }
 
     public static class DownloadFile {
