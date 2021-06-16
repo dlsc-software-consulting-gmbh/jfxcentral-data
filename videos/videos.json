@@ -627,7 +627,10 @@
     "platform": "Desktop",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
-    "publishedOn": "2013-06-16"
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "m.brouillard"
+    ]
   },
   {
     "title": "Introduction to JavaFX Scenic View",
@@ -679,7 +682,10 @@
     "platform": "",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
-    "publishedOn": "2013-06-16"
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "title": "FlexGanttFX - Canvas & Dateline Buffer",
@@ -692,7 +698,10 @@
     "platform": "",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
-    "publishedOn": "2013-06-16"
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "title": "FlexGanttFX - European Broadcasting Union / NEOS",
@@ -705,7 +714,10 @@
     "platform": "",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
-    "publishedOn": "2013-06-16"
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "title": "FlexGanttFX - Emirates Airline",
@@ -718,7 +730,10 @@
     "platform": "",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
-    "publishedOn": "2013-06-16"
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "title": "FlexGanttFX - MINT TRMS Scheduling Demo",
@@ -731,6 +746,9 @@
     "platform": "",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
-    "publishedOn": "2013-06-16"
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "d.lemmermann"
+    ]
   }
 ]
