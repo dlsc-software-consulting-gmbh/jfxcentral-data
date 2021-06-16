@@ -26,9 +26,6 @@
     "summary": "Video tutorials covering JavaFX & FXGL game engine",
     "url": "https://github.com/AlmasB/FXTutorials",
     "commercial": "false",
-    "personIds": [
-      "a.baimagambetov"
-    ],
     "createdOn": "2021-06-15",
     "updatedOn": "2021-06-15"
   },
@@ -39,9 +36,6 @@
     "summary": "",
     "url": "http://tutorials.jenkov.com/javafx/index.html",
     "commercial": "false",
-    "personIds": [
-      "j.jenkov"
-    ],
     "createdOn": "2021-06-15",
     "updatedOn": "2021-06-15"
   },
@@ -91,11 +85,6 @@
     "url": "https://github.com/FXDocs/docs",
     "commercial": "false",
     "createdOn": "2021-06-15",
-    "updatedOn": "2021-06-15",
-    "personIds": [
-      "j.giles",
-      "a.agarwal",
-      "g.grunwald"
-    ]
+    "updatedOn": "2021-06-15"
   }
 ]

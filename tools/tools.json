@@ -3,100 +3,92 @@
     "id": "javafxmavenplugin",
     "name": "JavaFX Plugin",
     "summary": "Maven plugin to run JavaFX 11+ applications.",
+    "description": "The JavaFX plugin allows you to execute JavaFX applications via Maven, independent of whether the application is a modular or non-modular application. The second purpose of this plugin is to enable developers to create custom runtime images for JavaFX applications via the help of the jlink command / tool.",
     "tags": "maven, plugin",
-    "url": "https://github.com/openjfx/javafx-maven-plugin"
+    "groupId": "org.openjfx",
+    "artifactId": "javafx-maven-plugin",
+    "homepage": "",
+    "repository": "https://github.com/openjfx/javafx-maven-plugin"
   },
   {
     "id": "clientplugin",
-    "name": "Client Plugin",
+    "name": "GluonFX Client Plugin",
     "summary": "Create native apps for desktop or mobile devices.",
-    "tags": "maven, plugin, gluon, mobile, embedded, iOS, android, iPhone, iPad",
-    "url": "https://github.com/gluonhq/client-maven-plugin"
+    "description": "GluonFX plugin for maven leverages GraalVM, OpenJDK and JavaFX 11+, by compiling into native code the Java Client application and all its required dependencies, so it can directly be executed as a native application on the target platform.",
+    "tags": "maven, plugin, gluon, mobile, embedded, iOS, android, iPhone, iPad, graalvm, native",
+    "groupId": "com.gluonhq",
+    "artifactId": "gluonfx-maven-plugin",
+    "homepage": "",
+    "repository": "https://github.com/gluonhq/client-maven-plugin",
+    "companyId": "gluon"
   },
   {
     "id": "scenicview",
     "name": "Scenic View",
     "summary": "Inspect / debug the scene graph of your application.",
+    "description": "Scenic View is a JavaFX application designed to make it simple to understand the current state of your application scenegraph, and to also easily manipulate properties of the scenegraph without having to keep editing your code. This lets you find bugs, and get things pixel perfect without having to do the compile-check-compile dance.",
     "tags": "inspect, developer, development",
-    "url": "https://github.com/JonathanGiles/scenic-view",
-    "links": [
-      {
-        "text": "Download Mac",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-mac.zip"
-      },
-      {
-        "text": "Download Windows",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-win.zip"
-      },
-      {
-        "text": "Download Linux",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-linux.zip"
-      }
+    "homepage": "https://github.com/JonathanGiles/scenic-view",
+    "downloadIds": [
+      "scenicview"
+    ],
+    "videoIds": [
+      "peYfsoViKa4"
     ]
   },
   {
     "id": "scenebuilder",
     "name": "Scene Builder",
     "summary": "WYSIWYG editor for building your user interface.",
-    "tags": "UI builder, wysiwyg, editor, user interface, client",
-    "url": "https://gluonhq.com/products/scene-builder/",
-    "links": [
-      {
-        "text": "Download",
-        "url": "https://gluonhq.com/products/scene-builder/#download"
-      }
+    "description": "Scene builder is an editor for rapid application development via drag and drop. Separation of design and logic files allows for team members to quickly and easily focus on their specific layer of application development.",
+    "tags": "UI builder, WYSIWYG, editor, user interface, client",
+    "homepage": "https://gluonhq.com/products/scene-builder/",
+    "downloadIds": [
+      "scenebuilder",
+      "scenebuilder8"
     ]
   },
   {
     "id": "jpro",
     "name": "JPro",
     "summary": "Deploy and run your applications in browsers.",
+    "description": "JPro is a solution that allows you to run your JavaFX application inside browsers. The application gets executed on the server and the its scene graph gets serialized, transferred to the browser, and recreated via HTML and JavaScript.",
     "tags": "web, browser, web app, web application",
-    "url": "https://www.jpro.one",
-    "links": [
-      {
-        "text": "Demos",
-        "url": "https://www.jpro.one/?page=demos"
-      },
-      {
-        "text": "Documentation",
-        "url": "https://www.jpro.one/?page=docs/current/1.1/"
-      },
-      {
-        "text": "Pricing",
-        "url": "https://www.jpro.one/?page=prices"
-      }
-    ]
+    "homepage": "https://www.jpro.one"
   },
   {
     "id": "gluonmobile",
     "name": "Gluon Mobile",
     "summary": "Deploy to mobile devices like iPhones, iPads, or Android.",
+    "description": "Gluon Mobile Provides Fresh, Modern UIs, and Cloud Connectivity. Make use of hardware features on mobile devices in a platform-agnostic way. Gluon Mobile makes available all the storage systems, accelerometers, screen details, GPS devices, and more in a device-independent fashion.",
     "tags": "gluon, mobile, ui, navigation",
-    "url": "https://gluonhq.com/products/mobile/",
-    "links": [
-      {
-        "text": "Documentation",
-        "url": "https://docs.gluonhq.com"
-      },
-      {
-        "text": "Buy",
-        "url": "https://gluonhq.com/products/mobile/buy/"
-      }
-    ]
+    "homepage": "https://gluonhq.com/products/mobile/"
   },
   {
     "id": "testfx",
     "name": "TestFX",
     "summary": "A unit testing framework for JavaFX.",
+    "description": "A fluent and clean API. Flexible setup and cleanup of JavaFX test fixtures. Simple robots to simulate user interactions. Rich collection of matchers and assertions to verify expected states of JavaFX scene-graph nodes.",
     "tags": "unit test, testing, junit",
-    "url": "https://github.com/TestFX/TestFX/blob/master/README.md"
+    "homepage": "https://github.com/TestFX/TestFX/blob/master/README.md",
+    "groupId": "org.testfx",
+    "artifactId": "testfx-core",
+    "videoIds": [
+      "NG03nNpSmgU",
+      "V7IHHZc9Bew"
+    ]
   },
   {
     "id": "cssfx",
-    "name": "CssFX",
+    "name": "CSSFX",
     "summary": "Reload CSS stylesheets at runtime.",
+    "description": "CSSFX enhances developer productivity by providing CSS reloading functionality in your running application. While developing you can run your JavaFX application, modify some CSS sources in your preferred editor, hit save button (or CTLR+S or CMD-S) and your JavaFX application is modified in real time.",
     "tags": "css, reload, stylesheet",
-    "url": "https://github.com/McFoggy/cssfx"
+    "repository": "https://github.com/McFoggy/cssfx",
+    "groupId": "fr.brouillard.oss",
+    "artifactId": "cssfx",
+    "videoIds": [
+      "RELKg32xEWU"
+    ]
   }
 ]

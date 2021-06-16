@@ -61,7 +61,10 @@
     "groupId": "org.kordamp.desktoppanefx",
     "artifactId": "desktoppanefx-core",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "videoIds": [
+      "gUPLJh05b3w"
+    ]
   },
   {
     "title": "FlexGanttFX",
@@ -80,13 +83,20 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
     "logoAvailable": "true",
-    "ensemble": "true"
+    "ensemble": "true",
+    "videoIds": [
+      "v4GkjST64Hk",
+      "Qju5_JYR8nY",
+      "RN_Pcu8ssQc",
+      "d-oxGpUkFe4",
+      "jzy4b5GxkRA"
+    ]
   },
   {
     "title": "FormsFX",
     "summary": "A framework for creating form-based UIs",
     "tags": "form, forms, validation, custom controls, framework",
-    "description": "Creating forms in JavaFX is a tedious and very error-prone task. FormsFX is a framework which solves this problem. It enables the developer to create forms with ease and creates well-designed and user-friendly forms by default. FormsFX offers a fluent API that is very easy to understand and reduces the amount of coding needed. It creates all the necessary bindings for the properties and *it just works*.\nCreating forms in JavaFX is a tedious and very error-prone task. FormsFX is a framework which solves this problem. It enables the developer to create forms with ease and creates well-designed and user-friendly forms by default. FormsFX offers a fluent API that is very easy to understand and reduces the amount of coding needed. It creates all the necessary bindings for the properties and *it just works*.",
+    "description": "Creating forms in JavaFX is a tedious and very error-prone task. FormsFX is a framework which solves this problem. It enables the developer to create forms with ease and creates well-designed and user-friendly forms by default. FormsFX offers a fluent API that is very easy to understand and reduces the amount of coding needed. It creates all the necessary bindings for the properties and *it just works*.",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/FormsFX#readme",
     "license": "APACHE2",
     "homepage": "",
@@ -262,9 +272,9 @@
   },
   {
     "title": "PDFViewFX",
-    "summary": "Professional calendar UIs",
+    "summary": "A viewer for PDF files.",
     "tags": "pdf viewer, custom control",
-    "description": "Professional calendar UIs",
+    "description": "The primary view control in this library allows applications to display any PDF file inside their JavaFX application. The view is based on the Apache PDFBox project, which is a very powerful PDF implementation and capable of displaying most PDF files and most PDF features. For more information please consult the [PDFBox homepage.](https://pdfbox.apache.org)",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX#readme",
     "license": "APACHE2",
     "homepage": "",
@@ -285,7 +295,7 @@
     "title": "PreferencesFX",
     "summary": "A framework for creating application preferences UIs",
     "tags": "preferences, custom controls, framework",
-    "description": "A framework for creating application preferences UIs",
+    "description": "Creating preference dialogs is a tedious and very error-prone task. PreferencesFX is a framework which solves this problem. It enables the developer to create preference dialogs with ease and creates well-designed and user-friendly preference dialogs by default.",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX#readme",
     "license": "APACHE2",
     "homepage": "",
@@ -304,9 +314,9 @@
   },
   {
     "title": "UnitFX",
-    "summary": "UnitFX is a lightweight framework for creating text field input controls based on a \"unit of measure\" (UOM).",
+    "summary": "Unit of measure (UOM) framework.",
     "tags": "units of measure, framework, custom controls, input fields",
-    "description": "UnitFX is a lightweight framework for creating text field input controls based on a \"unit of measure\" (UOM).",
+    "description": "UnitFX is a lightweight framework for creating text field input controls specific for a given *unit of measure* (UOM).",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/UnitFX#readme",
     "license": "APACHE2",
     "homepage": "",
@@ -327,7 +337,7 @@
     "title": "WorkbenchFX",
     "summary": "A rich client platform for JavaFX applications.",
     "tags": "framework, rcp, rich client, modules",
-    "description": "A rich client platform for JavaFX applications.",
+    "description": "*WorkbenchFX* is an out of the box solution to build large applications from multiple views, called modules.\nIt offers a good user experience and a beautiful design.\n\nAs a developer, you often start with the views, so you can quickly show your progress to your customer.\nAfter that, some questions may arise such as:\n- \"How do I bring all those views together?\"\n- \"How do I build the navigation between those views?\"\n- \"How do I establish a good user experience?\"\n\nWhen those questions appear, *WorkbenchFX* comes into play:\nWith *WorkbenchFX* you can focus on designing your views while it is building the application around them.\n\n*WorkbenchFX* scales with growing requirements.\nIn the beginning you just want to navigate through the views, but later on you probably want to use a menu or a toolbar.\nThis, too, is supported by *WorkbenchFX* and you don't have to build anything yourself.\n\nIf you still manage to outgrow the supported workbench features, you can even replace whole parts of it with your own implementations, without having to rewrite the whole workbench.",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX#readme",
     "license": "APACHE2",
     "homepage": "",

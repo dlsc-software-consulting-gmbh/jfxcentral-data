@@ -2,9 +2,6 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Tutorial extends ModelObject {
 
     public enum Format {
@@ -18,7 +15,6 @@ public class Tutorial extends ModelObject {
     private String summary;
     private String companyId;
     private Format format;
-    private List<String> personIds = new ArrayList<>();
 
     public Tutorial() {
     }
@@ -78,14 +74,6 @@ public class Tutorial extends ModelObject {
 
     public void setCompanyId(String companyId) {
         this.companyId = companyId;
-    }
-
-    public List<String> getPersonIds() {
-        return personIds;
-    }
-
-    public void setPersonIds(List<String> personIds) {
-        this.personIds = personIds;
     }
 
     public boolean isCommercial() {

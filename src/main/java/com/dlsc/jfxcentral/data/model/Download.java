@@ -26,7 +26,10 @@ public class Download extends ModelObject {
         MSI,
         ZIP,
         TXT,
-        EXE
+        EXE,
+        RPM,
+        DEB,
+        JAR
     }
 
     public static class DownloadFile {

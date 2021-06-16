@@ -1,2 +1,54 @@
 {
+  "images": [
+    {
+      "path": "screen1.png",
+      "title": "WorkbenchFX (light)",
+      "description": "The workbench running in default mode (light)."
+    },
+    {
+      "path": "screen2.png",
+      "title": "WorkbenchFX (dark)",
+      "description": "The workbench running in dark mode."
+    },
+    {
+      "path": "conditional.png",
+      "title": "Conditional Dialog",
+      "description": ""
+    },
+    {
+      "path": "confirmation.png",
+      "title": "Confirmation Dialog",
+      "description": ""
+    },
+    {
+      "path": "details.png",
+      "title": "Details Dialog",
+      "description": ""
+    },
+    {
+      "path": "error.png",
+      "title": "Error Dialog",
+      "description": ""
+    },
+    {
+      "path": "exception.png",
+      "title": "Exception Dialog",
+      "description": ""
+    },
+    {
+      "path": "information.png",
+      "title": "Information Dialog",
+      "description": ""
+    },
+    {
+      "path": "save.png",
+      "title": "Save Dialog",
+      "description": ""
+    },
+    {
+      "path": "warning.png",
+      "title": "Warning Dialog",
+      "description": ""
+    }
+  ]
 }

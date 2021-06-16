@@ -1,14 +1,3 @@
-## Install
-
-The plugin is available via Maven Central.
-
-In case you want to build and install the latest snapshot, you can
-clone the project, set JDK 11 and run
-
-```
-mvn install
-``` 
-
 ## Usage
 
 Create a new Maven project, use an existing one like [HelloFX](https://github.com/openjfx/samples/tree/master/CommandLine/Modular/Maven/hellofx), or use an [archetype](https://github.com/openjfx/javafx-maven-archetypes).
@@ -107,12 +96,10 @@ The following configuration adds some VM options, and a command line argument:
 </plugin>
 ```
 
-**Note**
-
-It is possible to use a local SDK instead of Maven Central.
-This is helpful for developers trying to test a local build of OpenJFX.
-Since transitive dependencies are not resolved,
-all the required jars needs to be added as a separate dependency, like:
+> It is possible to use a local SDK instead of Maven Central.
+> This is helpful for developers trying to test a local build of OpenJFX.
+> Since transitive dependencies are not resolved,
+> all the required jars needs to be added as a separate dependency, like:
 
 ```
 <properties>
@@ -178,10 +165,3 @@ mvn clean javafx:jlink
 
 target/hello/bin/hellofx
 ```
-
-## Issues and Contributions ##
-
-Issues can be reported to the [Issue tracker](https://github.com/openjfx/javafx-maven-plugin/issues/).
-
-Contributions can be submitted via [Pull requests](https://github.com/openjfx/javafx-maven-plugin/pulls/),
-providing you have signed the [Gluon Individual Contributor License Agreement (CLA)](https://docs.google.com/forms/d/16aoFTmzs8lZTfiyrEm8YgMqMYaGQl0J8wA0VJE2LCCY).

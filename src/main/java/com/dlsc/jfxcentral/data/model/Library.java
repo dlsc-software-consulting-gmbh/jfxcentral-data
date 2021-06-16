@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Library extends ModelObject {
+public class Library extends ModelObject implements Coordinates{
 
     private String title;
     private String summary;
