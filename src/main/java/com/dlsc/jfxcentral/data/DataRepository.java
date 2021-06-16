@@ -390,15 +390,33 @@ public class DataRepository {
         return listProperty;
     }
 
+    public ListProperty<Video> getVideosByTool(Tool tool) {
+        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(tool.getVideoIds().stream().map(id -> getVideoById(id).get()).collect(Collectors.toList()));
+        return listProperty;
+    }
+
     public ListProperty<Download> getDownloadsByLibrary(Library library) {
         ListProperty<Download> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
         listProperty.setAll(library.getDownloadIds().stream().map(id -> getDownloadById(id).get()).collect(Collectors.toList()));
         return listProperty;
     }
 
+    public ListProperty<Download> getDownloadsByTool(Tool tool) {
+        ListProperty<Download> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(tool.getDownloadIds().stream().map(id -> getDownloadById(id).get()).collect(Collectors.toList()));
+        return listProperty;
+    }
+
     public ListProperty<Tutorial> getTutorialsByLibrary(Library library) {
         ListProperty<Tutorial> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
         listProperty.setAll(library.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList()));
+        return listProperty;
+    }
+
+    public ListProperty<Tutorial> getTutorialsByTool(Tool tool) {
+        ListProperty<Tutorial> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(tool.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList()));
         return listProperty;
     }
 
@@ -410,6 +428,16 @@ public class DataRepository {
 
     public ListProperty<Library> getLibrariesByPerson(Person person) {
         List<Library> result = person.getLibraryIds().stream().map(id -> getLibraryById(id).get()).collect(Collectors.toList());
+        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    }
+
+    public ListProperty<Tutorial> getTutorialsByPerson(Person person) {
+        List<Tutorial> result = person.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList());
+        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    }
+
+    public ListProperty<Tool> getToolsByPerson(Person person) {
+        List<Tool> result = person.getToolIds().stream().map(id -> getToolById(id).get()).collect(Collectors.toList());
         return new SimpleListProperty<>(FXCollections.observableArrayList(result));
     }
 
@@ -703,12 +731,6 @@ public class DataRepository {
         return new SimpleListProperty<>(list);
     }
 
-    public ListProperty<Tutorial> getTutorialsByPerson(Person person) {
-        ObservableList<Tutorial> list = FXCollections.observableArrayList();
-        list.setAll(getTutorials().stream().filter(tutorial -> tutorial.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
-        return new SimpleListProperty<>(list);
-    }
-
     public ListProperty<Download> getDownloadsByPerson(Person person) {
         ObservableList<Download> list = FXCollections.observableArrayList();
         list.setAll(getDownloads().stream().filter(download -> download.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
@@ -959,10 +981,10 @@ public class DataRepository {
         this.source.set(source);
     }
 
-    public StringProperty getArtifactVersion(Library library) {
+    public StringProperty getArtifactVersion(Coordinates coordinates) {
 
-        String groupId = library.getGroupId();
-        String artifactId = library.getArtifactId();
+        String groupId = coordinates.getGroupId();
+        String artifactId = coordinates.getArtifactId();
 
         StringProperty result = new SimpleStringProperty("");
 

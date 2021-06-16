@@ -7,12 +7,7 @@ See the [changelog](https://github.com/TestFX/TestFX/blob/master/CHANGES.md) for
 
 ## Features
 
-- A fluent and clean API.
-- Flexible setup and cleanup of JavaFX test fixtures.
-- Simple robots to simulate user interactions.
-- Rich collection of matchers and assertions to verify expected states of JavaFX scene-graph nodes.
-
-**Support for:**
+Support for:
 
 - Java 8/9/10/11+
 - Multiple testing frameworks ([JUnit 4](https://junit.org/junit4/), [JUnit 5](https://junit.org/junit5/), and [Spock](http://spockframework.org/)).

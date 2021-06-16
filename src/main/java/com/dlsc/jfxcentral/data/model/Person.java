@@ -22,6 +22,8 @@ public class Person extends ModelObject {
     private boolean champion;
     private boolean rockstar;
 
+    private List<String> tutorialIds = new ArrayList<>();
+    private List<String> toolIds = new ArrayList<>();
     private List<String> libraryIds = new ArrayList<>();
     private List<String> bookIds = new ArrayList<>();
 
@@ -141,6 +143,10 @@ public class Person extends ModelObject {
         this.companyId = companyId;
     }
 
+    public void setLibraryIds(List<String> libraryIds) {
+        this.libraryIds = libraryIds;
+    }
+
     public List<String> getLibraryIds() {
         return libraryIds;
     }
@@ -151,5 +157,21 @@ public class Person extends ModelObject {
 
     public void setBookIds(List<String> bookIds) {
         this.bookIds = bookIds;
+    }
+
+    public List<String> getToolIds() {
+        return toolIds;
+    }
+
+    public void setToolIds(List<String> toolIds) {
+        this.toolIds = toolIds;
+    }
+
+    public List<String> getTutorialIds() {
+        return tutorialIds;
+    }
+
+    public void setTutorialIds(List<String> tutorialIds) {
+        this.tutorialIds = tutorialIds;
     }
 }
