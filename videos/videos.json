@@ -599,5 +599,29 @@
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
     "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "Testing JavaFX Applications with TestFX 4 (Part1)",
+    "type": "Tutorial",
+    "domain": "Testing",
+    "description": "Introduces how to perform JavaFX interaction tests via TestFX 4.\nTestFX 4 is still in active development (alpha phase) however it has been for some time now. This is a good opportunity to start getting acquainted with it!\n\nThe demo builds on the \"NASA Missions Database\" project already coverered in previous videos and therefore focuses on how to setup TestFX 4 in order to integrate with your JavaFX / Spring Boot application.\n\nOnce setup, I go through some basic functional tests which\nuse the TestFX API.This tutorial is ideal for getting up and started with TestFX 4.",
+    "id": "NG03nNpSmgU",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "Headless testing with JavaFX and TestFX (Part2)",
+    "type": "Tutorial",
+    "domain": "Testing",
+    "description": "Shows you how to setup headless functional testing with TestFx 4 and Java FX 8 in a developer IDE (Netbeans 8.1).\n\nAre you tired of waiting around for your functional tests to complete as they take over your mouse and keyboard, thus slowing your progress? With headless testing in place you can let those functional tests run without being interrupted.\n\nThis quick tutorial shows you how to switch between headful and headless mode testing via the Netbeans IDE.\n\nHere are the System properties you will need to set (as shown in tutorial)...\nSystem.setProperty(\"testfx.robot\", \"glass\");\nSystem.setProperty(\"testfx.headless\", \"true\");\nSystem.setProperty(\"prism.order\", \"sw\");\nSystem.setProperty(\"prism.text\", \"t2k\");\nSystem.setProperty(\"java.awt.headless\", \"true\");",
+    "id": "V7IHHZc9Bew",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
   }
 ]

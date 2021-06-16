@@ -70,7 +70,13 @@
     "summary": "A unit testing framework for JavaFX.",
     "description": "A fluent and clean API. Flexible setup and cleanup of JavaFX test fixtures. Simple robots to simulate user interactions. Rich collection of matchers and assertions to verify expected states of JavaFX scene-graph nodes.",
     "tags": "unit test, testing, junit",
-    "homepage": "https://github.com/TestFX/TestFX/blob/master/README.md"
+    "homepage": "https://github.com/TestFX/TestFX/blob/master/README.md",
+    "groupId": "org.testfx",
+    "artifactId": "textfx-core",
+    "videoIds": [
+      "NG03nNpSmgU",
+      "V7IHHZc9Bew"
+    ]
   },
   {
     "id": "cssfx",
