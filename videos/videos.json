@@ -814,5 +814,21 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "title": "KeyboardFX - On-Screen Keyboard",
+    "tags": "keyboard, touch, on-screen, virtual, gesture, ipad",
+    "type": "Library",
+    "domain": "",
+    "description": "This video shows an intermediate step while developing a custom on-screen keyboard for JavaFX. The keyboard can now slide in/out and show different layouts (keys) depending on the selected textfield (US, DE).",
+    "id": "nZ01ffBOW7U",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "d.lemmermann"
+    ]
   }
 ]
