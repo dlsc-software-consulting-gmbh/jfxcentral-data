@@ -575,5 +575,29 @@
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14",
     "publishedOn": "2013-06-14"
+  },
+  {
+    "title": "CSSFX Introduction",
+    "type": "Tutorial",
+    "domain": "Tool",
+    "description": "CSSFX is a tool for JavaFX developers allowing them to push CSS changes in a running JavaFX application. Modify your project CSS directly in your preferred IDE/editor and changes are directly visible.",
+    "id": "RELKg32xEWU",
+    "event": "",
+    "platform": "Desktop",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "Introduction to JavaFX Scenic View",
+    "type": "Tutorial",
+    "domain": "Tool",
+    "description": "Scenic View is a handy (and free!) tool for analysing a JavaFX scenegraph at runtime. Attend this session to learn more about this tool, and how to use it during the development of your own applications.",
+    "id": "peYfsoViKa4",
+    "event": "Devoxx",
+    "platform": "Desktop",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
   }
 ]

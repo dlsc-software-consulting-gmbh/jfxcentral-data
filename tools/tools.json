@@ -31,6 +31,9 @@
     "homepage": "https://github.com/JonathanGiles/scenic-view",
     "downloadIds": [
       "scenicview"
+    ],
+    "videoIds": [
+      "peYfsoViKa4"
     ]
   },
   {
@@ -76,6 +79,8 @@
     "description": "CSSFX enhances developer productivity by providing CSS reloading functionality in your running application. While developing you can run your JavaFX application, modify some CSS sources in your preferred editor, hit save button (or CTLR+S or CMD-S) and your JavaFX application is modified in real time.",
     "tags": "css, reload, stylesheet",
     "repository": "https://github.com/McFoggy/cssfx",
-    "videoIds": []
+    "videoIds": [
+      "RELKg32xEWU"
+    ]
   }
 ]
