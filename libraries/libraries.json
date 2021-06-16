@@ -61,7 +61,10 @@
     "groupId": "org.kordamp.desktoppanefx",
     "artifactId": "desktoppanefx-core",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "videoIds": [
+      "gUPLJh05b3w"
+    ]
   },
   {
     "title": "FlexGanttFX",

@@ -751,4 +751,20 @@
       "d.lemmermann"
     ]
   }
+  {
+    "title": "DesktopPaneFX Demonstration",
+    "tags": "desktop, mdi, internal windows, jdesktoppane",
+    "type": "Real World Application",
+    "domain": "Planning & Scheduling",
+    "description": "A demonstration of DesktopPaneFX, an MDI component for JavaFX.",
+    "id": "gUPLJh05b3w",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "a.almiray"
+    ]
+  }
 ]
