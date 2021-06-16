@@ -1,6 +1,7 @@
 [
   {
     "title": "Java Desktop 2020 - Keynote at JFX Days 2020 | Hendrik Ebbers",
+    "tags": "",
     "type": "Keynote",
     "description": "Follow Java Champion Hendrik Ebbers on his story of \"Little Duke's Journey to the Moon\". During this keynote presentation held at JFX Days 2020 on Nov 24, 2020, Hendrik investigates what is wrong with Java in regards of the development of desktop applications. Is this a problem of Java - although it is still one of the most used programming languages? Or is it a problem of Java Desktop respectively JavaFX? Or maybe the problem is the community or - even worse - Oracle itself. \n\nIn this entertaining talk, Hendrik points out that there is no problem with all of the above. Developers need to accept that Java Desktop is a niche. But all together, the community can make this niche shine.",
     "id": "mIR2TucAwSQ",
@@ -15,6 +16,7 @@
   },
   {
     "title": "JavaFX Roadmap @ JFX Days 2020 | Wolfgang Weigend",
+    "tags": "",
     "type": "Roadmap",
     "description": "Wolfgang Weigend works as Master Principal Solution Engineer at Oracle Global Services Germany GmbH in the worldwide Java team. He is involved in Java technology, GraalVM and architecture to develop enterprise Java applications. During his talk at the JFX Days 2020 on Nov 24, he presented the JavaFX roadmap and covers topics like OpenJFX, GraalVM and NVIDIA's GPU.\n\nSoftware solution engineer at Oracle about Java technology, GraalVM & architecture to develop enterprise Java applications",
     "id": "PEl7Ojla9bc",
@@ -29,6 +31,7 @@
   },
   {
     "title": "Moving JavaFX forward - Keynote Day 2 @ JFX Days 2020 | Johan Vos",
+    "tags": "",
     "type": "Keynote, Roadmap",
     "description": "Gluon has been the defacto JavaFX steward since the JavaFX 11 release. Gluon builds and maintains the JavaFX artifacts and makes them available as SDK's as well as on Maven Central. Moving JavaFX forward is often a balance between adding new features and staying at the front of the UI development, while also making sure that the core principles of Java, especially backward compatibility, are respected.\n\u200B\nIn the past year, focus was mainly on the transition to making JavaFX a set of modules that work well with evolving JDK releases as well as integrate with standard build, deploy and devops tools that are popular in the development community. One of the main focusses of JavaFX is to make sure it works on as much platforms as possible: desktop, but also mobile and embedded. In this session, Johan Vos, CEO of Gluon, presented some of the future ideas.",
     "id": "Q9ueZa_YkJg",
@@ -42,7 +45,8 @@
     ]
   },
   {
-    "title": "Building Modular JavaFX Applications with JPMS and Layrry | Andres Almiray @ JFX Days 2020\n",
+    "title": "Building Modular JavaFX Applications with JPMS and Layrry | Andres Almiray @ JFX Days 2020",
+    "tags": "module system",
     "type": "Library",
     "description": "The Java Module System lays the foundation for building modularized applications on the JVM. It doesn't concern itself though with resolving module versions and obtaining modules from repositories. This is where Layrry comes in: an API and launcher for modularized Java applications which takes a descriptor of the module layer(s) to assemble, fetches the modules and starts up the application. Layrry also allows dynamic loading.unloading of plugins which makes it ideal for JavaFX applications, allowing app developers to provide behavior on the fly.\n\nPresented by Andres Almiray at JFX Days 2020.",
     "id": "dsUFuIuDqeo",
@@ -56,7 +60,8 @@
     ]
   },
   {
-    "title": "JavaFX Game Development: Enter FXGL Engine | Almas Baimagambetov @ JFX Days 2020\n",
+    "title": "JavaFX Game Development: Enter FXGL Engine | Almas Baimagambetov @ JFX Days 2020",
+    "tags": "gaming",
     "type": "Library",
     "domain": "Gaming",
     "description": "Modern JavaFX provides hardware acceleration support on a range of platforms, including desktop, mobile and embedded, allowing the development of high-performance cross-platform applications. However, to develop games with JavaFX effectively, numerous domain-specific concepts are needed. \n\nTo address this need, the FXGL game engine extends JavaFX and brings support for real-world game development techniques. These include the entity-component model, A* pathfinding, particle systems, sprite sheet animations and many other features. As a result, JavaFX developers can produce games more quickly and more effectively with FXGL. \n\nIntegrating seamlessly with Gluon's Client plugin, FXGL users can easily package their games to native platform images, including Android and iOS. By the end of this session, attendees will be able to: \n\n- Describe and explain basic FXGL features. \n- Produce a simple game with FXGL.\n\nThis session of Almas Baimagambetov was recorded on Nov 24, 2020 during the JFX-Days 2020.",
@@ -72,6 +77,7 @@
   },
   {
     "title": "JPro in Practise | Florian Kirmaier @ JFX Days 2020",
+    "tags": "browser, web, html, js",
     "type": "Library",
     "platform": "Web",
     "description": "In this talk, we will concentrate on three aspect:\n\n(1) We will go through a short and concise hands on tutorial to show how easy it can be to take a running Java application and bring it to the web.  \n\n(2) we will demonstrate some of our running and exciting projects, to show what is doable and what not.  \n\nAnd (3) the session will address a set of recurring Q&A’s experienced from the market, as well as giving room for ad hoc questions from the audience.\n\nThis presentation by Florian Kirmaier has been recorded on Nov 24 during the JFX Days 2020.",
@@ -87,6 +93,7 @@
   },
   {
     "title": "JavaFX Touch @ Industrie | Michael Hoffer @ JFX Days 2020",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Manufacturing, Research",
     "description": "Creating reliable and modern Desktop applications is one of the key strengths of JavaFX. Yes, desktop applications are still relevant. \n\nAt BioFluidiX, we use JavaFX for creating intuitive touch-based user interfaces for controlling our liquid handling robots and other devices. The JavaFX scene graph is ideal for the interactive visualization of robotic actuators and sensors. Java is well equipped for communicating with industrial hardware and the property API is convenient for processing real-time data. \n\nIn this presentation, Michael Hoffer showed real-world applications as well as a user interface for the Arduino-based DIY project \"ZEN-table\", a sand table that draws beautiful sand patterns. ",
@@ -102,6 +109,7 @@
   },
   {
     "title": "JavaFX real-world application: Senapt CRM | Dirk Lemmermann @ JFX Days 2020",
+    "tags": "energy, crm, UK, dcc, heating, climate",
     "type": "Real World Application",
     "domain": "Energy, CRM",
     "platform": "Desktop, Web",
@@ -118,6 +126,7 @@
   },
   {
     "title": "Using JavaFX to Combat Illegal Dynamite Fishing in Tanzania | Jamie Macaulay @ JFX Days 2020",
+    "tags": "research, science, wildlife, academic, sensors",
     "type": "Real World Application",
     "description": "Since the 1960s, indiscriminate fishing techniques using underwater explosives have been widespread across the coastal zone of Tanzania, Africa. So-called “bomb fishing” causes untold damage to the structures (e.g. coral reefs) and soundscapes of marine habitats and the animals within. At its recorded peak in 2016, tens of thousands of bomb blasts were visually recorded along the Tanzanian coastline, with many more likely undetected and unreported, representing a substantial and endemic conservation problem.\n \nGathering data on the location, timing and number of explosions over time is essential for understanding exactly when and where blasting occurs, for alerting enforcement in a timely manner, and for monitoring the effectiveness of any interventions. Listening for bomb blasts underwater (passive acoustic monitoring) has the great advantage over visual observation in that blasts can be detected during both the day and night, and this can be done over thousands of square kilometres.\n \nHowever, such acoustic monitoring schemes generate vast quantities of data which must be automatically analysed. Typically, a machine learning based approach would be used to build an accurate acoustic classifier, however, the combination of little training data on fish bomb blasts and the poorly documented soundscape of Tanzanian reefs mean that building an accurate automated classifier is difficult. Here we instead adopted a hybrid analysis approach, where we ran an automated detector that extracted any sound of interest, and then used JavaFX to build a highly interactive visualisation of the data. This enabled a manual analyst to quickly identify fish bomb blasts, allowing for months of raw data to be sifted through with the times and audio clips of fish bomb blasts extracted in a few hours, compared to the weeks of time it would have taken otherwise.\n \nJavaFX provided the means to build fast and intuitive data visualisation tools, an easy-to-use and attractive GUI, and critically, allowed this to be achieved on modest financial and time budgets. JavaFX enabled real-time conservation in the marine environments, and was key to the success of this (and other) wildlife conservation projects.",
     "id": "b9H6kmEy90c",
@@ -132,6 +141,7 @@
   },
   {
     "title": "JavaFX real-world application: A JavaFX CAD Software | Pedro Duque Vieira @ JFX Days 2020",
+    "tags": "",
     "type": "Real World Application",
     "platform": "Desktop",
     "domain": "CAD",
@@ -148,6 +158,7 @@
   },
   {
     "title": "JavaFX Performance | Anton Epple @ JFX Days 2020",
+    "tags": "tips, tricks",
     "type": "Tips & Tricks",
     "description": "JavaFX is a great framework for creating graphically rich and highly interactive applications. The Scene Graph API makes it really easy to visualize your data with  rich controls, complex animations and CSS styling. When done right, JavaFX applications can be blazingly fast. But while the high level API protects you from having to write lots of graphics code, it also makes finding performance problems hard. In this session recorded at JFX Days 2020, Anton Epple presented tools and strategies for identifying and solving JavaFX performance issues.",
     "id": "m6WIQhH4dZg",
@@ -162,6 +173,7 @@
   },
   {
     "title": "Chart-FX - Why and How to Plot 1001k scientific data points @ 25 Hz | A. Krimm & R. Steinhagen",
+    "tags": "charts, graphs, research, science",
     "type": "Library",
     "domain": "Science",
     "description": "Chart-FX is a scientific charting library focused on performance optimized real-time data visualization at 25 Hz update rates for data sets with a few 10 thousand up to 5 million data points. From its origin, design choices, functional highlights to its real-world high-performance use-cases, and its future, this contribution presents some of the challenges, encountered opportunities as well as benefits since open-sourcing this library.",
@@ -177,6 +189,7 @@
   },
   {
     "title": "GemsFX | Dirk Lemmermann @ JFX Days 2020",
+    "tags": "custom controls",
     "type": "Library",
     "description": "GemsFX is a collection of JavaFX controls and utilities. Dirk Lemmermann presented the date and time pickers, the PDF view control and many more during his session at JFX Days 2020.",
     "id": "jmKYWdNbty0",
@@ -191,6 +204,7 @@
   },
   {
     "title": "Having Fun with Java and JavaFX on the Raspberry Pi | Frank Delporte @ JFX Days 2020",
+    "tags": "raspberry pi, pi, embedded, kiosk",
     "type": "Library",
     "platform": "Embedded",
     "description": "Java, JavaFX and a Raspberry Pi are an ideal combination for any project where you want to connect software and hardware (LEDs, buttons, sensors...) with a beautiful, easy-to-use user interface. In this talk, we will go through the process of building a JavaFX touchscreen user interface to control a relay board and an Arduino with LED strips that were needed to solve the problem of getting my son to the dinner table while he is playing the drums...\n \nThis includes selecting a Java JDK for Raspberry Pi, setting up a Mosquitto queue, programming the Arduino, understanding the GPIO's on the Raspberry Pi, including a web server, and a lot more. We will also have guest appearances of Spring, Undertow, MQTT, OpenWeatherAPI, Pi4J, BellSoft, Gluon, I²C, SPI...\n \nHardware experiments may seem challenging but with some basic knowledge and cheap components, you'll discover it’s a great way to learn a lot of new stuff!",
@@ -206,6 +220,7 @@
   },
   {
     "title": "Shipping JavaFX | Joel Ferreira @ JFX Days 2020",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Logistics",
     "platform": "Desktop",
@@ -222,6 +237,7 @@
   },
   {
     "title": "From Forms to OpenGL | Tom Schindl @ JFX Days 2020",
+    "tags": "",
     "type": "Keynote",
     "description": "Most developers associate integrating OpenGL into JavaFX as a high profile task. For them it might come as a surprise that implementing \"boring\" business UIs that look slick, that are accessible, and that are well architectured, is just as much of a high profile task.\n \nIn this talk we will show real world use cases and highlight how we implemented high quality form-based UIs leveraging JavaFX and code generators. We will talk about \"accessibility\" (a11y) and the roadblocks we hit.\n\u200B\nLast but not least we will talk a bit about DriftFX providing an update on the current status and what comes next.",
     "id": "NusKg2ZWnrg",
@@ -236,6 +252,7 @@
   },
   {
     "title": "ValidatorFX | Robert Lichtenberger @ JFX Days 2020",
+    "tags": "",
     "type": "Library",
     "description": "ValidatorFX is a validation library for JavaFX. It is inspired by ControlsFX but tries to overcome its shortcomings:\n\n- Validations based on arbitrary observable values (not just the value of a control)\n- Validations can decorate an arbitrary number of nodes (not just the one control)\n- Validations can decorate any node (not just Control subtypes)\n- Validations can be done immediately or on-demand (e.g. when clicking a button)\n\nThe central class of ValidatorFX is Validator which contains a number of Checks. As a rule a form will have one Validator object and multiple Checks.",
     "id": "dSYsuPuYaZ8",
@@ -250,6 +267,7 @@
   },
   {
     "title": "A Modern JavaFX Theme: JMetro | Pedro Duque Vieira @ JFX Days 2020",
+    "tags": "",
     "type": "Library",
     "description": "JMetro is an open source theme for JavaFX. A JavaFX theme inspired by Microsoft Fluent Design. It is being used on production ready applications, some notable examples include the famous NASA’s Deep Space Trajectory Explorer application, NASA’s TODV, etc. Besides changing the appearance of controls, it also changes their behavior, with the addition of new functionality (through the skins API). All of this is done without the developer having to change anything in his code. This talk will focus on what is JMetro, how to use it and notable examples of applications using it.",
     "id": "p5YSB8mza94",
@@ -264,6 +282,7 @@
   },
   {
     "title": "JavaFX real-world application: CoachFX | Dirk Lemmermann @ JFX Days 2020",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Sports",
     "description": "Coaching a sports team means far more than just standing on the sidelines of a pitch. Furthermore, coaches need to analyze different game situations and improve the team behavior based on these findings. Want to see how this works? Dirk Lemmermann talked about this during the JFX Days 2020 and presented the CoachFX application as a real-world customer project.",
@@ -279,6 +298,7 @@
   },
   {
     "title": "JavaFX real-world application: NEOS @ EBU | Dirk Lemmermann",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
     "description": "This video shows the NEOS application that is being used by the European Broadcasting Union to schedule resources for broadcasting TV and radio signals. The client was written in JavaFX 8. It communicates with the server via REST service calls.",
@@ -294,6 +314,7 @@
   },
   {
     "title": "JavaFX real-world application: MINT TRMS Scheduling Demo | Dirk Lemmermann",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
     "description": "The video shows the scheduling part of the the MINT TRMS (Training and Resource Management) application in action. The software is used by airlines to ensure that their staff is always up-to-date regarding their certifications. MINT TRMS utilizes the FlexGanttFX framework.",
@@ -306,6 +327,7 @@
   },
   {
     "title": "JavaFX real-world application: SOPHIA Genetics",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Research",
     "description": "SOPHiA for Genomics offers clinical-grade genomic solutions to help experts accurately detect and characterize genomic variants associated with cancers and hereditary disorders, from targeted to full genome applications.\n\n© SOPHiA GENETICS \n\nThe information included in this video has been prepared for and is intended for viewing by a global audience. This video contains information about products which may or may not be available in different countries and if applicable, may or may not have received approval or market clearance by a governmental regulatory body for different indications for use. Please consult local sales representatives.",
@@ -318,6 +340,7 @@
   },
   {
     "title": "JavaFX real-world application: Scrum Board",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Team Management",
     "description": "A short video showing how JavaFX can be used to implement a scrum board for distributed teams. The demo highlights the touch / gesture support built right into Java.",
@@ -330,6 +353,7 @@
   },
   {
     "title": "JavaFX real-world application: Deep Space Trajectory Explorer",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Research",
     "description": "The 100% JavaFX 8 tool allows a trajectory designer to identify, compare and export deep space 3 body system trajectories. The application treats the data itself as the interface allowing the user to interact, search and filter the data visually in multi-dimensional 2D and 3D views. Orbit regimes supported include any Planetary-Moon system, Lagrangian Halo Families and Small Body/Asteroid models.",
@@ -342,6 +366,7 @@
   },
   {
     "title": "JavaFX real-world application: Monastery Disentis",
+    "tags": "",
     "type": "Real World Application",
     "domain": "Tourism",
     "description": "A screencast of the JavaFX mobile app of the monastery Disentis. It is used as a guide for the visitors of the monastery.",
@@ -354,6 +379,7 @@
   },
   {
     "title": "JFX Days Zurich 2018: Extreme GUI Makeover | Hendrik Ebbers & Dirk Lemmermann",
+    "tags": "",
     "type": "Presentation",
     "domain": "Demo",
     "description": "A recording of Dirk Lemmermann's Hendrik Ebbers' presentation at the JFX Days Zurich 2018. They are showing how a boring application can be pimped to make it look more up-to-date and sexy. CSS Styling, animations, effects, media player integration, transformations, etc... all the good stuff. [JFXDays 2018](http://jfx-days.com)",
@@ -370,6 +396,7 @@
   },
   {
     "title": "JFX Days Zurich 2018 Keynote | Dirk Lemmermann et al.",
+    "tags": "",
     "type": "Keynote",
     "domain": "",
     "description": "This is a recording of the keynote of the JFX Days conference in Zurich (December 4th, 2018). The keynote consists of four parts. Introduction DLSC. DLSC Open Source Projects (PreferencesFX (7:20), WorkbenchFX (13:27)), Graviton Presentation (21:53), Show & Tell. The last part shows a total of ten applications that are using JavaFX: Sideline Sports Presentation Builder (31:56), NaviElektro Situational Awareness Applications (33:21), Carl Zeiss (37:40), Sophia AI Genetics (40:00), Rinkai Routing Optimization (42:49), Safran Batch Production (46:23), Woanna Team Collaboration (51:50), Michael Paus Aviation (56:00), Synedra (59:24), Rohm Semiconductors (1:03:02).",
@@ -385,6 +412,7 @@
   },
   {
     "title": "JFX Days Zurich 2018: Custom Controls | Gerrit Grunwald",
+    "tags": "",
     "type": "Presentation",
     "domain": "",
     "description": "A recording of Gerrit Grunwald's presentation on **Custom Controls** at the JFX Days Zurich 2018. You will see and learn how to develop truly professional controls for your apps.",
@@ -400,6 +428,7 @@
   },
   {
     "title": "JFX Days Zurich 2018: Supercharge the JavaFX Canvas | David Gilbert",
+    "tags": "",
     "type": "Presentation",
     "domain": "",
     "description": "Java charting legend David Gilbert presents FxGraphics2D, a wrapper around the Swing Graphics API.",
@@ -415,6 +444,7 @@
   },
   {
     "title": "JFX Days Zurich 2018: DRIFT Announcement | Tom Schindl",
+    "tags": "",
     "type": "Presentation",
     "domain": "",
     "description": "Tom Schindle's announcement of DRIFT / OpenGL / D3D support for JavaFX.\n",
@@ -430,6 +460,7 @@
   },
   {
     "title": "JFX Days Zurich 2018: JavaFX on Mobile & Embedded | Gluon",
+    "tags": "",
     "type": "Presentation",
     "domain": "",
     "description": "This video is about JavaFX on mobile and embedded via Gluon.",
@@ -446,6 +477,7 @@
   },
   {
     "title": "JFX Days Zurich 2018: HTML in JavaFX | Anton Epple",
+    "tags": "",
     "type": "Presentation",
     "domain": "",
     "description": "Listen to Anton Epple explaining how to use the combination of HTML and JavaFX.",
@@ -461,6 +493,7 @@
   },
   {
     "title": "JFX Days Zurich 2018: e(fx)clipse | Tom Schindl",
+    "tags": "",
     "type": "Presentation",
     "domain": "",
     "description": "Hear Tom Schindl present the e(fx)clipse project and all the various frameworks it provides to speed up your application development. This presentation also included the world premiere of DRIFT (OpenGL support for JavaFX).",
@@ -476,6 +509,7 @@
   },
   {
     "title": "JFX Days 2019: NativeFX | Michael Hoffer",
+    "tags": "",
     "type": "Presentation",
     "domain": "",
     "description": "Michael Hoffer presents his open source project NativeFX that takes advantage of JavaFX's capability of native rendering by third party apps (e.g. OpenGL apps). For more info [check out the project's repository on GitHub.](https://github.com/miho/NativeFX).",
@@ -492,6 +526,7 @@
   {
     "title": "JFX Days 2019: Desktop 2019 | Hendrik Ebbers",
     "type": "Keynote",
+    "tags": "",
     "domain": "",
     "description": "Some years ago development of Java Desktop applications was easy: We just downloaded Java 8 from Oracle and got a set of useful tools and framework to develop Java desktop applications:\n\nAWT & Swing\nWebStart\nJavaFX\nJFX Packager\n\nIf you now download a Java version from Oracle (or any other vendor) several of the mentioned tools and frameworks are gone. Some JDKs only contain AWT & Swing for desktop development and miss all the newer tools. But even if they include such tools or frameworks you have sometimes no idea about their state.\n\nIn this session I will give an overview about the differences between JDKs that you can use today and how frameworks like JavaFX are really supported by the vendors. Next to this we will have a look at all the tools that are important for building and installing desktop development.",
     "id": "biokgYUnvr4",
@@ -506,6 +541,7 @@
   },
   {
     "title": "Oracle CodeOne: JavaFX Tips and Tricks: Reloaded | Dirk Lemmermann",
+    "tags": "tips, tricks, designer, figma, adobe",
     "type": "Presentation",
     "domain": "",
     "description": "A tips & tricks session presented by Dirk Lemmermann at Oracle CodeOne in 2019",
@@ -521,6 +557,7 @@
   },
   {
     "title": "JavaFX Graphics Tips and Tricks | Richard Bair",
+    "tags": "graphics, performance, tip, trick",
     "type": "Presentation",
     "domain": "",
     "description": "JavaFX provides a rich set of graphical shapes and attributes that gives application developers many ways to achieve a variety of interesting visual effects. Many of these will serve you well, but some come with a high performance cost. This session provides practical advice on writing efficient JavaFX applications, specifically to help application developers get the most performance out of their applications. It shows several examples of things you should do in your applications and things to avoid in areas such as image loading, transformations, animation, effects, and blending. It also shows you how to use profiling tools in your applications to help you understand the performance bottlenecks and identify the trouble spots.",
@@ -535,6 +572,7 @@
   },
   {
     "title": "In Control with ControlsFX | Eugene Ryzhikov & Jonathan Giles",
+    "tags": "custom controls",
     "type": "Presentation",
     "domain": "",
     "description": "ControlsFX is an open source project for JavaFX that aims to provide high-quality UI controls and other tools to complement the core JavaFX distribution. It was developed for JavaFX 8.0 and beyond and has a guiding principle of accepting new controls/features only when all existing code is at an acceptably high level, including thankless jobs such as having high-quality JavaDoc documentation. This session takes you on a practical code-driven walk-through of how to use ControlsFX in your applications, using an example-driven approach; examines many features, both old and new; and provides insight into future plans for this project.",
@@ -551,6 +589,7 @@
   },
   {
     "title": "Medusa Demo",
+    "tags": "gauges, charts, graphs, instruments",
     "type": "Demo",
     "domain": "Charting",
     "description": "A short video highlighting the various gauges found inside the Medusa project.",
@@ -566,6 +605,7 @@
   },
   {
     "title": "JavaFX Ikonli Font Icon Packs Tutorial",
+    "tags": "icon, material design, fontawesome, awesome, icon font, svg",
     "type": "Tutorial",
     "domain": "Icons",
     "description": "How to use icon fonts in your JavaFX application.",
@@ -578,6 +618,7 @@
   },
   {
     "title": "CSSFX Introduction",
+    "tags": "css, reload, develop, debug",
     "type": "Tutorial",
     "domain": "Tool",
     "description": "CSSFX is a tool for JavaFX developers allowing them to push CSS changes in a running JavaFX application. Modify your project CSS directly in your preferred IDE/editor and changes are directly visible.",
@@ -590,6 +631,7 @@
   },
   {
     "title": "Introduction to JavaFX Scenic View",
+    "tags": "tool, scene, graph, debug",
     "type": "Tutorial",
     "domain": "Tool",
     "description": "Scenic View is a handy (and free!) tool for analysing a JavaFX scenegraph at runtime. Attend this session to learn more about this tool, and how to use it during the development of your own applications.",
@@ -602,6 +644,7 @@
   },
   {
     "title": "Testing JavaFX Applications with TestFX 4 (Part1)",
+    "tags": "tutorial, testing",
     "type": "Tutorial",
     "domain": "Testing",
     "description": "Introduces how to perform JavaFX interaction tests via TestFX 4.\nTestFX 4 is still in active development (alpha phase) however it has been for some time now. This is a good opportunity to start getting acquainted with it!\n\nThe demo builds on the \"NASA Missions Database\" project already coverered in previous videos and therefore focuses on how to setup TestFX 4 in order to integrate with your JavaFX / Spring Boot application.\n\nOnce setup, I go through some basic functional tests which\nuse the TestFX API.This tutorial is ideal for getting up and started with TestFX 4.",
@@ -614,10 +657,76 @@
   },
   {
     "title": "Headless testing with JavaFX and TestFX (Part2)",
+    "tags": "tutorial, testing",
     "type": "Tutorial",
     "domain": "Testing",
     "description": "Shows you how to setup headless functional testing with TestFx 4 and Java FX 8 in a developer IDE (Netbeans 8.1).\n\nAre you tired of waiting around for your functional tests to complete as they take over your mouse and keyboard, thus slowing your progress? With headless testing in place you can let those functional tests run without being interrupted.\n\nThis quick tutorial shows you how to switch between headful and headless mode testing via the Netbeans IDE.\n\nHere are the System properties you will need to set (as shown in tutorial)...\n\n```\nSystem.setProperty(\"testfx.robot\", \"glass\");\nSystem.setProperty(\"testfx.headless\", \"true\");\nSystem.setProperty(\"prism.order\", \"sw\");\nSystem.setProperty(\"prism.text\", \"t2k\");\nSystem.setProperty(\"java.awt.headless\", \"true\");\n```",
     "id": "V7IHHZc9Bew",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "FlexGanttFX - Emirates POC running on iPad",
+    "tags": "ipad, ios, aviation, planning, scheduling, touch",
+    "type": "Library",
+    "domain": "Planning & Scheduling",
+    "description": "This video shows the FlexGanttFX framework for JavaFX running on an iPad thanks to GraalVM and the Gluon client plugin. The code base is 100% identical, no matter if this runs on the desktop, on iOS, on Android, or in the Web (with JPro).",
+    "id": "v4GkjST64Hk",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "FlexGanttFX - Canvas & Dateline Buffer",
+    "tags": "canvas, clipping, tip, trick",
+    "type": "Library",
+    "domain": "Planning & Scheduling",
+    "description": "This video shows how FlexGanttFX utilizes a buffer on both sides of each row's canvas and on both sides of the timeline in order to increase rendering performance. By also drawing into a buffer then Gantt chart needs to perform full redraws less often while the user is scrolling.\n\nPlease notice that the canvas offsets (translate-x) are random. This way a full redraw is not happening for all rows at the same time.",
+    "id": "jzy4b5GxkRA",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "FlexGanttFX - European Broadcasting Union / NEOS",
+    "tags": "planning, scheduling, tv, radio, broadcasting, transmission, resource",
+    "type": "Real World Application",
+    "domain": "Planning & Scheduling",
+    "description": "This video shows the NEOS application that is being used by the European Broadcasting Union to schedule resources for broadcasting TV and radio signals. The client was written in JavaFX 8. It communicates with the server via REST service calls.",
+    "id": "RN_Pcu8ssQc",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "FlexGanttFX - Emirates Airline",
+    "tags": "planning, scheduling, aviation, resource",
+    "type": "Real World Application",
+    "domain": "Planning & Scheduling",
+    "description": "Emirates Airline uses JavaFX in combination with FlexGanttFX for their \"Network Capacity Optimization\" software. It allows the user to insert new flights into the current flight schedule, modify existing flights, delete flights. Different scenarios can be created for each change request and the scenarios can be compared with each other and evaluated based on their impact on the existing schedule.",
+    "id": "Qju5_JYR8nY",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16"
+  },
+  {
+    "title": "FlexGanttFX - MINT TRMS Scheduling Demo",
+    "tags": "planning, scheduling, aviation, resource",
+    "type": "Real World Application",
+    "domain": "Planning & Scheduling",
+    "description": "The video shows the scheduling part of the the MINT TRMS (Training and Resource Management) application in action. The software is used by airlines to ensure that their staff is always up-to-date regarding their certifications. MINT TRMS utilizes the FlexGanttFX framework for the interactive schedule",
+    "id": "d-oxGpUkFe4",
     "event": "",
     "platform": "",
     "createdOn": "2021-06-16",
