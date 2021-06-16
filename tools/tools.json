@@ -72,7 +72,7 @@
     "tags": "unit test, testing, junit",
     "homepage": "https://github.com/TestFX/TestFX/blob/master/README.md",
     "groupId": "org.testfx",
-    "artifactId": "textfx-core",
+    "artifactId": "testfx-core",
     "videoIds": [
       "NG03nNpSmgU",
       "V7IHHZc9Bew"
