@@ -45,9 +45,9 @@
   {
     "id": "desktoppanefx",
     "title": "DesktopPaneFX",
-    "summary": "DesktopPaneFX is a JavaFX version of Swing’s JDesktopPane which can be used as a container for individual \"child\" similar to JInternalFrames.",
+    "summary": "Am MDI solution for JavaFX applications.",
     "tags": "desktop, mdi, jdesktoppane",
-    "description": "DesktopPaneFX is a JavaFX version of Swing’s JDesktopPane which can be used as a container for individual \"child\" similar to JInternalFrames.",
+    "description": "DesktopPaneFX is a JavaFX version of Swing’s JDesktopPane which can be used as a container for individual child nodes similar to JInternalFrames.",
     "documentation": "https://github.com/kordamp/desktoppanefx#readme",
     "license": "APACHE2",
     "homepage": "",
@@ -135,6 +135,9 @@
     "logoAvailable": "true",
     "tutorialIds": [
       "almastutorials"
+    ],
+    "videoIds": [
+      "fuDQg7W0v4g"
     ]
   },
   {
@@ -268,7 +271,10 @@
     "groupId": "com.dlsc.keyboardfx",
     "artifactId": "keyboardfx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "videoIds": [
+      "nZ01ffBOW7U"
+    ]
   },
   {
     "title": "PDFViewFX",
@@ -289,7 +295,10 @@
     "groupId": "com.dlsc.pdfviewfx",
     "artifactId": "pdfviewfx",
     "logoAvailable": "false",
-    "ensemble": "true"
+    "ensemble": "true",
+    "videoIds": [
+      "oyV9q720F9s"
+    ]
   },
   {
     "title": "PreferencesFX",
@@ -379,7 +388,7 @@
       "OuF2BMnCjt4"
     ],
     "downloadIds": [
-      "spacefx"
+      "tilesfx"
     ]
   },
   {
@@ -405,7 +414,6 @@
       "l2ZYO4HXjLg"
     ],
     "downloadIds": [
-      
     ]
   },
   {

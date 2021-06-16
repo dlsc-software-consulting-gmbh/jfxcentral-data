@@ -80,7 +80,6 @@
         "fileName": "",
         "package": "ZIP"
       },
-
       {
         "name": "ZIP for Windows",
         "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-windows.zip",
@@ -96,6 +95,9 @@
     "downloadType": "PRESENTATION",
     "personIds": [
       "d.lemmermann"
+    ],
+    "companyIds": [
+      "dlsc"
     ],
     "createdOn": "2021-06-05",
     "modifiedOn": "2021-06-05",
@@ -195,6 +197,12 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-15",
     "modifiedOn": "2021-06-15",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "companyIds": [
+      "dlsc"
+    ],
     "files": [
       {
         "name": "PKG Installer (Mac)",
@@ -212,6 +220,9 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
+    "personIds": [
+      "j.giles"
+    ],
     "files": [
       {
         "name": "Windows",
@@ -241,6 +252,9 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
+    "companyIds": [
+      "gluon"
+    ],
     "files": [
       {
         "name": "Windows",
@@ -282,6 +296,9 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
+    "companyIds": [
+      "gluon"
+    ],
     "files": [
       {
         "name": "Windows (64)",
@@ -331,6 +348,38 @@
         "fileName": "",
         "package": "JAR"
       }
+    ]
+  },
+  {
+    "id": "fx2048",
+    "title": "fx2048",
+    "tags": "game",
+    "homepage": "https://github.com/brunoborges/fx2048",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "files": [
+      {
+        "name": "Windows (MSI)",
+        "url": "https://github.com/brunoborges/fx2048/releases/download/game2048-20191126.4/fx2048-1.0.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "Mac (DMG)",
+        "url": "https://github.com/brunoborges/fx2048/releases/download/game2048-20191126.4/fx2048-1.0.pkg",
+        "fileName": "",
+        "package": "PKG"
+      },
+      {
+        "name": "Linux (DEB)",
+        "url": "https://github.com/brunoborges/fx2048/releases/download/game2048-20191126.4/fx2048_1.0-1_amd64.deb",
+        "fileName": "",
+        "package": "DEB"
+      }
+    ],
+    "personIds": [
+      "b.borges"
     ]
   }
 ]

@@ -12,7 +12,7 @@
   },
   {
     "id": "clientplugin",
-    "name": "GluonFX Client Plugin",
+    "name": "GluonFX Plugin",
     "summary": "Create native apps for desktop or mobile devices.",
     "description": "GluonFX plugin for maven leverages GraalVM, OpenJDK and JavaFX 11+, by compiling into native code the Java Client application and all its required dependencies, so it can directly be executed as a native application on the target platform.",
     "tags": "maven, plugin, gluon, mobile, embedded, iOS, android, iPhone, iPad, graalvm, native",

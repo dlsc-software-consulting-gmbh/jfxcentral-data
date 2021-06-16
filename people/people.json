@@ -408,6 +408,9 @@
     ],
     "toolIds": [
       "scenicview"
+    ],
+    "libraryIds": [
+      "controlsfx"
     ]
   },
   {
