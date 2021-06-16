@@ -804,7 +804,7 @@
     "tags": "clipping, drawing, animation, animate, shapes, timeline",
     "type": "Real World Application",
     "domain": "Sports",
-    "description": "The video shows an add-on recently made for the \"presenter\" application of the XPS solution for sport teams / coaches. It enables the coach to create animations for a single frame of a video to visualize his observations and ideas. The last addition we recently made to this software is \"smart clipping\", which cuts out players so that the graphic objects (lines, polygons, etc....) will no longer be on top of the players but behind them. The solution delegates the work to a server. In this video we are still working with a slow test server. Performance will be better once the production server is in place.",
+    "description": "The video shows an add-on recently made for the \"presenter\" application of the XPS solution for sport teams / coaches. It enables the coach to create animations for a single frame of a video to visualize his observations and ideas. The last addition we recently made to this software is \"smart clipping\", which cuts out players so that the graphic objects (lines, polygons, etc....) will no longer be on top of the players but behind them. The solution delegates the work to a server. In this video we are still working with a slow test server. Performance will be better once the production server is in place.\n\nThis application also [runs in browsers].(https://demos.jpro.one/coachfx.html)",
     "id": "OflZ745MYT0",
     "event": "",
     "platform": "",
