@@ -1,7 +1,3 @@
-[![CSSFX YouTube demo](http://img.youtube.com/vi/RELKg32xEWU/0.jpg)](http://www.youtube.com/watch?v=RELKg32xEWU)
-
-## Project coordinates
-
 ## Java >= 11
 
 Versions compatible with JavaFX 11 start with `11.X`.  
