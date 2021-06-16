@@ -1,2 +1,29 @@
 {
+  "images": [
+    {
+      "path": "airbus.png",
+      "title": "Airbus Satellite Ground Tracking System Mosaic",
+      "description": ""
+    },
+    {
+      "path": "ebu.png",
+      "title": "European Broadcasting Union (EBU)",
+      "description": ""
+    },
+    {
+      "path": "emirates.png",
+      "title": "Emirates Airlines",
+      "description": ""
+    },
+    {
+      "path": "mint.png",
+      "title": "Mint Media Aviation Software",
+      "description": ""
+    },
+    {
+      "path": "projektpro.png",
+      "title": "ProjektPro Architecture Office Software",
+      "description": ""
+    }
+  ]
 }
