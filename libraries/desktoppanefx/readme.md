@@ -39,11 +39,3 @@ private static int count = 0;
     }
 }
 ```
-
-## Incubating Features
-
-The following features can be activated by defining a System property with a `"true"` value:
-
-| Property                         | Description                                                      |
-|----------------------------------|------------------------------------------------------------------|
-| desktoppanefx.detachable.windows | `InternalWindow` may be detached/attached from/to a `DesktopPane`|
