@@ -292,7 +292,10 @@
     "groupId": "com.dlsc.pdfviewfx",
     "artifactId": "pdfviewfx",
     "logoAvailable": "false",
-    "ensemble": "true"
+    "ensemble": "true",
+    "videoIds": [
+      "oyV9q720F9s"
+    ]
   },
   {
     "title": "PreferencesFX",

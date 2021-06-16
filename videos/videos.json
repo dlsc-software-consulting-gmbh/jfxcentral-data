@@ -782,5 +782,21 @@
     "personIds": [
       "a.baimagambetov"
     ]
+  },
+  {
+    "title": "PDFViewFX",
+    "tags": "pdf, viewer",
+    "type": "Library",
+    "domain": "",
+    "description": "A short demo video of the PDFView control found in the GemsFX project. The control utilises the Apache PDFBox project to render PDF files to a Java2D buffered image and from there converts it to a JavaFX Image object.",
+    "id": "oyV9q720F9s",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "d.lemmermann"
+    ]
   }
 ]
