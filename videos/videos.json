@@ -766,5 +766,21 @@
     "personIds": [
       "a.almiray"
     ]
+  },
+  {
+    "title": "FXGL 11 Showcase Trailer",
+    "tags": "game, gaming, engine",
+    "type": "Library",
+    "domain": "Gaming",
+    "description": "A compilation of FXGL 11 games and demos, showcasing core engine features.",
+    "id": "fuDQg7W0v4g",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "publishedOn": "2013-06-16",
+    "personIds": [
+      "a.baimagambetov"
+    ]
   }
 ]
