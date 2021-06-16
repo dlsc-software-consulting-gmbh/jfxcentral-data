@@ -96,6 +96,9 @@
     "personIds": [
       "d.lemmermann"
     ],
+    "companyIds": [
+      "dlsc"
+    ],
     "createdOn": "2021-06-05",
     "modifiedOn": "2021-06-05",
     "files": [
@@ -194,6 +197,12 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-15",
     "modifiedOn": "2021-06-15",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "companyIds": [
+      "dlsc"
+    ],
     "files": [
       {
         "name": "PKG Installer (Mac)",
@@ -211,6 +220,9 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
+    "personIds": [
+      "j.giles"
+    ],
     "files": [
       {
         "name": "Windows",
@@ -240,6 +252,9 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
+    "companyIds": [
+      "gluon"
+    ],
     "files": [
       {
         "name": "Windows",
@@ -281,6 +296,9 @@
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
+    "companyIds": [
+      "gluon"
+    ],
     "files": [
       {
         "name": "Windows (64)",
@@ -359,6 +377,9 @@
         "fileName": "",
         "package": "DEB"
       }
+    ],
+    "personIds": [
+      "b.borges"
     ]
   }
 ]
