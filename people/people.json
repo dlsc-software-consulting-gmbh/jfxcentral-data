@@ -127,20 +127,20 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-  {
-    "name": "Alessio Vinerbi",
-    "email": "",
-    "companyId": "",
-    "website": "",
-    "blogId": "",
-    "linkedIn": "alessiovinerbi",
-    "twitter": "Alessio_Vinerbi",
-    "champion": false,
-    "rockstar": false,
-    "id": "a.vinerbi",
-    "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
-  },
+//  {
+//    "name": "Alessio Vinerbi",
+//    "email": "",
+//    "companyId": "",
+//    "website": "",
+//    "blogId": "",
+//    "linkedIn": "alessiovinerbi",
+//    "twitter": "Alessio_Vinerbi",
+//    "champion": false,
+//    "rockstar": false,
+//    "id": "a.vinerbi",
+//    "createdOn": "2021-05-18",
+//    "modifiedOn": "2021-05-28"
+//  },
   {
     "name": "Sergey Grinev",
     "email": "",
@@ -264,20 +264,20 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-  {
-    "name": "Jasper Potts",
-    "email": "",
-    "companyId": "",
-    "website": "",
-    "blogId": "",
-    "linkedIn": "",
-    "twitter": "jasperpotts",
-    "champion": false,
-    "rockstar": false,
-    "id": "j.potts",
-    "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
-  },
+//  {
+//    "name": "Jasper Potts",
+//    "email": "",
+//    "companyId": "",
+//    "website": "",
+//    "blogId": "",
+//    "linkedIn": "",
+//    "twitter": "jasperpotts",
+//    "champion": false,
+//    "rockstar": false,
+//    "id": "j.potts",
+//    "createdOn": "2021-05-18",
+//    "modifiedOn": "2021-05-28"
+//  },
 //  {
 //    "name": "Jeanette Winzenburg",
 //    "email": "",
@@ -318,7 +318,12 @@
     "rockstar": true,
     "id": "j.vos",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "toolIds": [
+      "clientplugin",
+      "scenebuilder",
+      "javafxmavenplugin"
+    ]
   },
   {
     "name": "Jonathan Giles",
@@ -355,7 +360,12 @@
     "rockstar": true,
     "id": "j.pereda",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "toolIds": [
+      "clientplugin",
+      "scenebuilder",
+      "javafxmavenplugin"
+    ]
   },
 //  {
 //    "name": "Michael Heinrichs",
