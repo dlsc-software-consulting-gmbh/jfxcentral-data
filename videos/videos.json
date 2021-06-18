@@ -830,5 +830,22 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "title": "KeyboardFX - On-Screen Keyboard",
+    "tags": "game, mobile, gluon, ios, android",
+    "type": "Real World Application",
+    "domain": "Gaming",
+    "description": "The game called 2048 has several implementations, for mobile smartphones and tablets as well as online JavaScript versions. JavaFX comes with amazing features that enables the developers to implement it very quickly and with Java it can be run in any environment that supports Java SE, including a Raspberry Pi. In this session, the developers share with you everything they learned while developing this little game and introduce you to basic UI concepts for gaming development in JavaFX, animations, and CSS styling and show you how and when to apply lambda expressions and make good use of the Stream API.",
+    "id": "20MDfZZ3-18",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-06-18",
+    "modifiedOn": "2021-06-18",
+    "publishedOn": "2013-06-18",
+    "personIds": [
+      "b.borges",
+      "j.pereda"
+    ]
   }
 ]

@@ -451,20 +451,20 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-  {
-    "name": "Thierry Wasylczenko",
-    "email": "",
-    "companyId": "",
-    "website": "",
-    "blogId": "",
-    "linkedIn": "",
-    "twitter": "twasyl",
-    "champion": false,
-    "rockstar": false,
-    "id": "t.wasylczenko",
-    "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
-  },
+//  {
+//    "name": "Thierry Wasylczenko",
+//    "email": "",
+//    "companyId": "",
+//    "website": "",
+//    "blogId": "",
+//    "linkedIn": "",
+//    "twitter": "twasyl",
+//    "champion": false,
+//    "rockstar": false,
+//    "id": "t.wasylczenko",
+//    "createdOn": "2021-05-18",
+//    "modifiedOn": "2021-05-28"
+//  },
   {
     "name": "Tom Schindl",
     "email": "",
@@ -494,20 +494,20 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-  {
-    "name": "William Antônio",
-    "email": "",
-    "companyId": "",
-    "website": "",
-    "blogId": "",
-    "linkedIn": "",
-    "twitter": "William_Antonio",
-    "champion": false,
-    "rockstar": false,
-    "id": "w.antonio",
-    "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
-  },
+//  {
+//    "name": "William Antônio",
+//    "email": "",
+//    "companyId": "",
+//    "website": "",
+//    "blogId": "",
+//    "linkedIn": "",
+//    "twitter": "William_Antonio",
+//    "champion": false,
+//    "rockstar": false,
+//    "id": "w.antonio",
+//    "createdOn": "2021-05-18",
+//    "modifiedOn": "2021-05-28"
+//  },
   {
     "name": "Anton Epple",
     "email": "",
