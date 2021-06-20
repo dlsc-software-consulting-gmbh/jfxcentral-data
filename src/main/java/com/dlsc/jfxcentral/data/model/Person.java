@@ -2,9 +2,6 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Person extends ModelObject {
 
     private String name;
@@ -21,11 +18,6 @@ public class Person extends ModelObject {
 
     private boolean champion;
     private boolean rockstar;
-
-    private List<String> tutorialIds = new ArrayList<>();
-    private List<String> toolIds = new ArrayList<>();
-    private List<String> libraryIds = new ArrayList<>();
-    private List<String> bookIds = new ArrayList<>();
 
     public Person(String name) {
         setName(name);
@@ -141,37 +133,5 @@ public class Person extends ModelObject {
 
     public void setCompanyId(String companyId) {
         this.companyId = companyId;
-    }
-
-    public void setLibraryIds(List<String> libraryIds) {
-        this.libraryIds = libraryIds;
-    }
-
-    public List<String> getLibraryIds() {
-        return libraryIds;
-    }
-
-    public List<String> getBookIds() {
-        return bookIds;
-    }
-
-    public void setBookIds(List<String> bookIds) {
-        this.bookIds = bookIds;
-    }
-
-    public List<String> getToolIds() {
-        return toolIds;
-    }
-
-    public void setToolIds(List<String> toolIds) {
-        this.toolIds = toolIds;
-    }
-
-    public List<String> getTutorialIds() {
-        return tutorialIds;
-    }
-
-    public void setTutorialIds(List<String> tutorialIds) {
-        this.tutorialIds = tutorialIds;
     }
 }

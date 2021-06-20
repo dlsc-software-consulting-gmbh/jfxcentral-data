@@ -378,67 +378,108 @@ public class DataRepository {
         return tutorials.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
-    public ListProperty<Video> getVideosByPerson(Person person) {
-        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(videos.stream().filter(video -> video.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
+    public <T extends ModelObject> ListProperty<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
+        List<T> videosList = getList(clazz);
+        List<String> videoIdsList = getIdList(modelObject, clazz);
+        ListProperty<T> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(videosList.stream().filter(video -> videoIdsList.contains(video.getId()) || getIdList(video, modelObject.getClass()).contains(modelObject.getId())).collect(Collectors.toList()));
         return listProperty;
     }
 
-    public ListProperty<Video> getVideosByLibrary(Library library) {
-        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(library.getVideoIds().stream().map(id -> getVideoById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    private <T extends ModelObject> List<String> getIdList(ModelObject modelObject, Class<T> clazz) {
+        if (clazz.equals(Video.class)) {
+            return modelObject.getVideoIds();
+        } else if (clazz.equals(Book.class)) {
+            return modelObject.getBookIds();
+        } else if (clazz.equals(Library.class)) {
+            return modelObject.getLibraryIds();
+        } else if (clazz.equals(Tutorial.class)) {
+            return modelObject.getTutorialIds();
+        } else if (clazz.equals(Download.class)) {
+            return modelObject.getDownloadIds();
+        } else if (clazz.equals(Person.class)) {
+            return modelObject.getPersonIds();
+        } else if (clazz.equals(Tool.class)) {
+            return modelObject.getToolIds();
+        } else if (clazz.equals(RealWorldApp.class)) {
+            return modelObject.getAppIds();
+        } else if (clazz.equals(News.class)) {
+            return modelObject.getNewsIds();
+        } else if (clazz.equals(Blog.class)) {
+            return modelObject.getBlogIds();
+        } else if (clazz.equals(Company.class)) {
+            return modelObject.getCompanyIds();
+        }
+
+        throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
     }
 
-    public ListProperty<Video> getVideosByTool(Tool tool) {
-        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(tool.getVideoIds().stream().map(id -> getVideoById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    private <T extends ModelObject> List<T> getList(Class<T> clazz) {
+        if (clazz.equals(Video.class)) {
+            return (List<T>) videos.get();
+        } else if (clazz.equals(Book.class)) {
+            return (List<T>) books.get();
+        } else if (clazz.equals(Library.class)) {
+            return (List<T>) libraries.get();
+        } else if (clazz.equals(Tutorial.class)) {
+            return (List<T>) tutorials.get();
+        } else if (clazz.equals(Download.class)) {
+            return (List<T>) downloads.get();
+        } else if (clazz.equals(Person.class)) {
+            return (List<T>) people.get();
+        } else if (clazz.equals(Tool.class)) {
+            return (List<T>) tools.get();
+        } else if (clazz.equals(RealWorldApp.class)) {
+            return (List<T>) realWorldApps.get();
+        } else if (clazz.equals(News.class)) {
+            return (List<T>) news.get();
+        } else if (clazz.equals(Blog.class)) {
+            return (List<T>) blogs.get();
+        } else if (clazz.equals(Company.class)) {
+            return (List<T>) companies.get();
+        }
+
+        throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
     }
 
-    public ListProperty<Download> getDownloadsByLibrary(Library library) {
-        ListProperty<Download> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(library.getDownloadIds().stream().map(id -> getDownloadById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Video> getVideosByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Video.class);
     }
 
-    public ListProperty<Download> getDownloadsByTool(Tool tool) {
-        ListProperty<Download> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(tool.getDownloadIds().stream().map(id -> getDownloadById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Download> getDownloadsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Download.class);
     }
 
-    public ListProperty<Tutorial> getTutorialsByLibrary(Library library) {
-        ListProperty<Tutorial> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(library.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Book> getBooksByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Book.class);
     }
 
-    public ListProperty<Tutorial> getTutorialsByTool(Tool tool) {
-        ListProperty<Tutorial> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(tool.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Tutorial> getTutorialsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Tutorial.class);
     }
 
-    public ListProperty<Blog> getBlogsByPerson(Person person) {
-        ListProperty<Blog> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(blogs.stream().filter(blog -> blog.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Blog> getBlogsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Blog.class);
     }
 
-    public ListProperty<Library> getLibrariesByPerson(Person person) {
-        List<Library> result = person.getLibraryIds().stream().map(id -> getLibraryById(id).get()).collect(Collectors.toList());
-        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    public ListProperty<Library> getLibrariesByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Library.class);
     }
 
-    public ListProperty<Tutorial> getTutorialsByPerson(Person person) {
-        List<Tutorial> result = person.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList());
-        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    public ListProperty<Tool> getToolsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Tool.class);
     }
 
-    public ListProperty<Tool> getToolsByPerson(Person person) {
-        List<Tool> result = person.getToolIds().stream().map(id -> getToolById(id).get()).collect(Collectors.toList());
-        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    public ListProperty<News> getNewsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, News.class);
+    }
+
+    public ListProperty<Company> getCompaniesByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Company.class);
+    }
+
+    public ListProperty<RealWorldApp> getRealWorldAppsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, RealWorldApp.class);
     }
 
     public ObjectProperty<LibraryInfo> libraryInfoProperty(Library library) {
@@ -723,18 +764,6 @@ public class DataRepository {
 
     public void setOpenJFXText(String openJFXText) {
         this.openJFXText.set(openJFXText);
-    }
-
-    public ListProperty<Book> getBooksByPerson(Person person) {
-        ObservableList<Book> list = FXCollections.observableArrayList();
-        list.setAll(getBooks().stream().filter(book -> book.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
-        return new SimpleListProperty<>(list);
-    }
-
-    public ListProperty<Download> getDownloadsByPerson(Person person) {
-        ObservableList<Download> list = FXCollections.observableArrayList();
-        list.setAll(getDownloads().stream().filter(download -> download.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
-        return new SimpleListProperty<>(list);
     }
 
     private final ListProperty<Library> libraries = new SimpleListProperty<>(this, "libraries", FXCollections.observableArrayList());

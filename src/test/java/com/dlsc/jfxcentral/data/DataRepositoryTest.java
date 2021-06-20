@@ -291,7 +291,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Video> list = repository.getVideosByPerson(person);
+            ListProperty<Video> list = repository.getVideosByModelObject(person);
 
             // then
             assertNotNull(list.get(), "missing video list for person " + person.getId());
@@ -314,7 +314,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Blog> list = repository.getBlogsByPerson(person);
+            ListProperty<Blog> list = repository.getBlogsByModelObject(person);
 
             // then
             assertNotNull(list.get(), "missing blog list for person " + person.getId());
@@ -345,7 +345,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Library> list = repository.getLibrariesByPerson(person);
+            ListProperty<Library> list = repository.getLibrariesByModelObject(person);
 
             // then
             assertNotNull(list.get(), "missing library list for person " + person.getId());
@@ -364,7 +364,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Book> list = repository.getBooksByPerson(person);
+            ListProperty<Book> list = repository.getBooksByModelObject(person);
 
             // then
             assertNotNull(list.get(), "missing books list for person " + person.getId());
@@ -383,7 +383,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Tutorial> list = repository.getTutorialsByPerson(person);
+            ListProperty<Tutorial> list = repository.getTutorialsByModelObject(person);
 
             // then
             assertNotNull(list.get(), "missing tutorials list for person " + person.getId());
@@ -402,7 +402,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Download> list = repository.getDownloadsByPerson(person);
+            ListProperty<Download> list = repository.getDownloadsByModelObject(person);
 
             // then
             assertNotNull(list.get(), "missing downloads list for person " + person.getId());
@@ -587,7 +587,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getLibraries().forEach(library -> {
-            ListProperty<Tutorial> list = repository.getTutorialsByLibrary(library);
+            ListProperty<Tutorial> list = repository.getTutorialsByModelObject(library);
 
             // then
             assertNotNull(list.get(), "missing tutorials list for library " + library.getId());
@@ -606,7 +606,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getLibraries().forEach(library -> {
-            ListProperty<Video> list = repository.getVideosByLibrary(library);
+            ListProperty<Video> list = repository.getVideosByModelObject(library);
 
             // then
             assertNotNull(list.get(), "missing video list for library " + library.getId());
@@ -625,7 +625,7 @@ public class DataRepositoryTest {
 
         // when
         repository.getLibraries().forEach(library -> {
-            ListProperty<Download> list = repository.getDownloadsByLibrary(library);
+            ListProperty<Download> list = repository.getDownloadsByModelObject(library);
 
             // then
             assertNotNull(list.get(), "missing downloads list for library " + library.getId());

@@ -2,16 +2,12 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Company extends ModelObject {
 
     private String name;
     private String homepage;
     private boolean consulting;
     private boolean freelancing;
-    private List<String> libraryIds = new ArrayList<>();
 
     public Company() {
     }
@@ -43,14 +39,6 @@ public class Company extends ModelObject {
 
     public void setFreelancing(boolean freelancing) {
         this.freelancing = freelancing;
-    }
-
-    public List<String> getLibraryIds() {
-        return libraryIds;
-    }
-
-    public void setLibraryIds(List<String> libraryIds) {
-        this.libraryIds = libraryIds;
     }
 
     public String getName() {

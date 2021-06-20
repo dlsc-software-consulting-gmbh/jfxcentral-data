@@ -10,8 +10,6 @@ public class Download extends ModelObject {
     private String title;
     private String homepage;
     private DownloadType downloadType;
-    private List<String> personIds = new ArrayList<>();
-    private List<String> companyIds = new ArrayList<>();
     private List<DownloadFile> files = new ArrayList<>();
 
     public enum DownloadType {
@@ -119,22 +117,6 @@ public class Download extends ModelObject {
 
     public void setFiles(List<DownloadFile> files) {
         this.files = files;
-    }
-
-    public List<String> getPersonIds() {
-        return personIds;
-    }
-
-    public void setPersonIds(List<String> personIds) {
-        this.personIds = personIds;
-    }
-
-    public List<String> getCompanyIds() {
-        return companyIds;
-    }
-
-    public void setCompanyIds(List<String> companyIds) {
-        this.companyIds = companyIds;
     }
 
     public String getHomepage() {

@@ -5,6 +5,8 @@ import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public abstract class ModelObject {
@@ -14,6 +16,17 @@ public abstract class ModelObject {
     private LocalDate modifiedOn;
     private String tags;
     private boolean hide;
+
+    private List<String> personIds = new ArrayList<>();
+    private List<String> tutorialIds = new ArrayList<>();
+    private List<String> toolIds = new ArrayList<>();
+    private List<String> libraryIds = new ArrayList<>();
+    private List<String> bookIds = new ArrayList<>();
+    private List<String> companyIds = new ArrayList<>();
+    private List<String> downloadIds = new ArrayList<>();
+    private List<String> videoIds = new ArrayList<>();
+    private List<String> appIds = new ArrayList<>();
+    private List<String> blogIds = new ArrayList<>();
 
     protected ModelObject() {
     }
@@ -90,5 +103,95 @@ public abstract class ModelObject {
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37).append(id).toHashCode();
+    }
+
+    public List<String> getPersonIds() {
+        return personIds;
+    }
+
+    public void setPersonIds(List<String> personIds) {
+        this.personIds = personIds;
+    }
+
+    public List<String> getTutorialIds() {
+        return tutorialIds;
+    }
+
+    public void setTutorialIds(List<String> tutorialIds) {
+        this.tutorialIds = tutorialIds;
+    }
+
+    public List<String> getToolIds() {
+        return toolIds;
+    }
+
+    public void setToolIds(List<String> toolIds) {
+        this.toolIds = toolIds;
+    }
+
+    public List<String> getLibraryIds() {
+        return libraryIds;
+    }
+
+    public void setLibraryIds(List<String> libraryIds) {
+        this.libraryIds = libraryIds;
+    }
+
+    public List<String> getBookIds() {
+        return bookIds;
+    }
+
+    public void setBookIds(List<String> bookIds) {
+        this.bookIds = bookIds;
+    }
+
+    public List<String> getCompanyIds() {
+        return companyIds;
+    }
+
+    public void setCompanyIds(List<String> companyIds) {
+        this.companyIds = companyIds;
+    }
+
+    public List<String> getDownloadIds() {
+        return downloadIds;
+    }
+
+    public void setDownloadIds(List<String> downloadIds) {
+        this.downloadIds = downloadIds;
+    }
+
+    public List<String> getVideoIds() {
+        return videoIds;
+    }
+
+    public void setVideoIds(List<String> videoIds) {
+        this.videoIds = videoIds;
+    }
+
+    public List<String> getAppIds() {
+        return appIds;
+    }
+
+    public void setAppIds(List<String> appIds) {
+        this.appIds = appIds;
+    }
+
+    public List<String> getNewsIds() {
+        return newsIds;
+    }
+
+    public void setNewsIds(List<String> newsIds) {
+        this.newsIds = newsIds;
+    }
+
+    private List<String> newsIds = new ArrayList<>();
+
+    public List<String> getBlogIds() {
+        return blogIds;
+    }
+
+    public void setBlogIds(List<String> blogIds) {
+        this.blogIds = blogIds;
     }
 }

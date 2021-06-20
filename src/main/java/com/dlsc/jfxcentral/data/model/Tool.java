@@ -2,9 +2,6 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Tool extends ModelObject implements Coordinates {
 
     private String name;
@@ -14,10 +11,6 @@ public class Tool extends ModelObject implements Coordinates {
     private String repository;
     private String groupId;
     private String artifactId;
-
-    private List<String> tutorialIds = new ArrayList<>();
-    private List<String> downloadIds = new ArrayList<>();
-    private List<String> videoIds = new ArrayList<>();
 
     public Tool() {
     }
@@ -83,14 +76,6 @@ public class Tool extends ModelObject implements Coordinates {
         this.repository = repository;
     }
 
-    public List<String> getDownloadIds() {
-        return downloadIds;
-    }
-
-    public void setDownloadIds(List<String> downloadIds) {
-        this.downloadIds = downloadIds;
-    }
-
     @Override
     public String getGroupId() {
         return groupId;
@@ -107,21 +92,5 @@ public class Tool extends ModelObject implements Coordinates {
 
     public void setArtifactId(String artifactId) {
         this.artifactId = artifactId;
-    }
-
-    public List<String> getVideoIds() {
-        return videoIds;
-    }
-
-    public void setVideoIds(List<String> videoIds) {
-        this.videoIds = videoIds;
-    }
-
-    public List<String> getTutorialIds() {
-        return tutorialIds;
-    }
-
-    public void setTutorialIds(List<String> tutorialIds) {
-        this.tutorialIds = tutorialIds;
     }
 }

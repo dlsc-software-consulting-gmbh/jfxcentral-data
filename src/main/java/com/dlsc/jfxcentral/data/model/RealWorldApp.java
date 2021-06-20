@@ -2,9 +2,6 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class RealWorldApp extends ModelObject {
 
     private String name;
@@ -12,8 +9,6 @@ public class RealWorldApp extends ModelObject {
     private String company;
     private String domain;
     private String url;
-
-    private List<String> videoIds = new ArrayList<>();
 
     public RealWorldApp() {
     }
@@ -49,14 +44,6 @@ public class RealWorldApp extends ModelObject {
 
     public void setSummary(String summary) {
         this.summary = summary;
-    }
-
-    public List<String> getVideoIds() {
-        return videoIds;
-    }
-
-    public void setVideoIds(List<String> videoIds) {
-        this.videoIds = videoIds;
     }
 
     public String getName() {
