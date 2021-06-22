@@ -379,10 +379,10 @@ public class DataRepository {
     }
 
     public <T extends ModelObject> ListProperty<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
-        List<T> videosList = getList(clazz);
-        List<String> videoIdsList = getIdList(modelObject, clazz);
+        List<T> itemList = getList(clazz);
+        List<String> idsList = getIdList(modelObject, clazz);
         ListProperty<T> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(videosList.stream().filter(video -> videoIdsList.contains(video.getId()) || getIdList(video, modelObject.getClass()).contains(modelObject.getId())).collect(Collectors.toList()));
+        listProperty.setAll(itemList.stream().filter(item -> idsList.contains(item.getId()) || getIdList(item, modelObject.getClass()).contains(modelObject.getId())).collect(Collectors.toList()));
         return listProperty;
     }
 
