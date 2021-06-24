@@ -6,6 +6,7 @@ import java.time.LocalDate;
 
 public class Book extends ModelObject {
 
+    private String summary;
     private String authors;
     private String publisher;
     private String title;
@@ -106,5 +107,13 @@ public class Book extends ModelObject {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 }
