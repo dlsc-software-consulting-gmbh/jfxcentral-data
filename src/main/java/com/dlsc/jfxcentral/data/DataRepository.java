@@ -298,6 +298,8 @@ public class DataRepository {
         getRecentItems().addAll(findRecentItems(getBlogs()));
         getRecentItems().addAll(findRecentItems(getCompanies()));
         getRecentItems().addAll(findRecentItems(getPosts()));
+
+        Collections.sort(getRecentItems(),Comparator.comparing(ModelObject::getCreationOrUpdateDate));
     }
 
     private List<ModelObject> findRecentItems(List<? extends ModelObject> items) {

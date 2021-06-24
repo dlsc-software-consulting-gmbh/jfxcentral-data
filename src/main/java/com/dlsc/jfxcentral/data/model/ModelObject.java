@@ -194,4 +194,17 @@ public abstract class ModelObject {
     public void setBlogIds(List<String> blogIds) {
         this.blogIds = blogIds;
     }
+
+    public LocalDate getCreationOrUpdateDate() {
+        LocalDate modifiedOn = getModifiedOn();
+        if (modifiedOn != null) {
+            return modifiedOn;
+        }
+        LocalDate createdOn = getCreatedOn();
+        if (createdOn != null) {
+            return createdOn;
+        }
+
+        return LocalDate.MIN; // no date means "very old"
+    }
 }
