@@ -299,7 +299,8 @@ public class DataRepository {
         getRecentItems().addAll(findRecentItems(getCompanies()));
         getRecentItems().addAll(findRecentItems(getPosts()));
 
-        Collections.sort(getRecentItems(),Comparator.comparing(ModelObject::getCreationOrUpdateDate));
+        // newest ones on top
+        Collections.sort(getRecentItems(),Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
     }
 
     private List<ModelObject> findRecentItems(List<? extends ModelObject> items) {
