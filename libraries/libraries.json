@@ -179,7 +179,7 @@
     "modifiedOn": "2021-05-28",
     "groupId": "com.dlsc",
     "artifactId": "GMapsFX",
-    "logoAvailable": "true",
+    "logoAvailable": "false",
     "ensemble": "false"
   },
   {
@@ -435,7 +435,7 @@
     "groupId": "org.controlsfx",
     "artifactId": "controlsfx",
     "ensemble": "true",
-    "logoAvailable": "true",
+    "logoAvailable": "false",
     "videoIds": [
       "pjKgPeiWc0o"
     ]
