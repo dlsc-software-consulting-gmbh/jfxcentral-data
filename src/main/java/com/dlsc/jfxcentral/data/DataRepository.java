@@ -314,7 +314,7 @@ public class DataRepository {
                 date = item.getCreatedOn();
             }
             if (date != null) {
-                if (date.isAfter(today.minusWeeks(2))) {
+                if (date.isAfter(today.minusWeeks(4))) {
                     result.add(item);
                 }
             }
