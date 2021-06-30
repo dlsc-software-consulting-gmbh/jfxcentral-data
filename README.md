@@ -17,19 +17,19 @@ To add data to this repository please follow these steps:
 
 This repository contains the data for the following model objects:
 
-- Blog
-- Book
-- Company
-- Download
-- Library
-- News
-- Person
-- RealWorldApp
-- Tool
-- Tutorial
-- Video
+- `Blog`
+- `Book`
+- `Company`
+- `Download`
+- `Library`
+- `News`
+- `Person`
+- `RealWorldApp`
+- `Tool`
+- `Tutorial`
+- `Video`
 
-Instances of these types can be registered in index JSON files in subdirectories that
+Instances of these types can be registered in JSON files in subdirectories that
 match the types of the model objects:
 
 - Blogs inside `blogs/blogs.json`
