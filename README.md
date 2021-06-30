@@ -80,33 +80,44 @@ private List<String> appIds = new ArrayList<>();
 private List<String> blogIds = new ArrayList<>();`
 ```
 
-Example: to link the library FlexGanttFX to the person Dirk Lemmermann we can add the following
-fragment to the libraries.json file.
+Example: to link the library *FlexGanttFX* to the person *Dirk Lemmermann* we can add the following
+fragment to the `libraries.json` file.
 
 ```json
 {
     "id": "flexganttfx",
-    "title: "FlexGanttFX,
-    ...
+    "title": "FlexGanttFX",
     "personIds" : [
       "d.lemmermann"
     ]
 }
 ```
 
-To also add the library to a video on YouTube we can then write:
+To also add a YouTube videos (those need to be registered inside `videos/videos.json`) to the library we can then write:
 
 ```json
 {
     "id": "flexganttfx",
-    "title: "FlexGanttFX,
-    ...
+    "title": "FlexGanttFX",
     "personIds" : [
       "d.lemmermann"
     ],
     "videoIds": [
       "u09iklm65",
       "kl889abV8"
+    ]
+}
+```
+
+The other way around is also possible. We could add the library ID `flexganttfx` to the person
+*Dirk Lemmermann* inside the file `people.json`.
+
+```json
+{
+    "id": "d.lemmermann",
+    "name": "Dirk Lemmermann",
+    "libraryIds" : [
+      "flexganttfx"
     ]
 }
 ```
