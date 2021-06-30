@@ -127,20 +127,6 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-//  {
-//    "name": "Alessio Vinerbi",
-//    "email": "",
-//    "companyId": "",
-//    "website": "",
-//    "blogId": "",
-//    "linkedIn": "alessiovinerbi",
-//    "twitter": "Alessio_Vinerbi",
-//    "champion": false,
-//    "rockstar": false,
-//    "id": "a.vinerbi",
-//    "createdOn": "2021-05-18",
-//    "modifiedOn": "2021-05-28"
-//  },
   {
     "name": "Sergey Grinev",
     "email": "",
@@ -264,48 +250,6 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-//  {
-//    "name": "Jasper Potts",
-//    "email": "",
-//    "companyId": "",
-//    "website": "",
-//    "blogId": "",
-//    "linkedIn": "",
-//    "twitter": "jasperpotts",
-//    "champion": false,
-//    "rockstar": false,
-//    "id": "j.potts",
-//    "createdOn": "2021-05-18",
-//    "modifiedOn": "2021-05-28"
-//  },
-//  {
-//    "name": "Jeanette Winzenburg",
-//    "email": "",
-//    "companyId": "",
-//    "website": "",
-//    "blogId": "",
-//    "linkedIn": "",
-//    "twitter": "kleopatra_jx",
-//    "champion": false,
-//    "rockstar": false,
-//    "id": "j.winzenburg",
-//    "createdOn": "2021-05-18",
-//    "modifiedOn": "2021-05-28"
-//  },
-//  {
-//    "name": "Jens Deters",
-//    "email": "",
-//    "companyId": "",
-//    "website": "",
-//    "blogId": "",
-//    "linkedIn": "",
-//    "twitter": "Jerady",
-//    "champion": false,
-//    "rockstar": false,
-//    "id": "j.deters",
-//    "createdOn": "2021-05-18",
-//    "modifiedOn": "2021-05-28"
-//  },
   {
     "name": "Johan Vos",
     "email": "",
@@ -367,20 +311,6 @@
       "javafxmavenplugin"
     ]
   },
-//  {
-//    "name": "Michael Heinrichs",
-//    "email": "",
-//    "companyId": "",
-//    "website": "",
-//    "blogId": "",
-//    "linkedIn": "",
-//    "twitter": "net0pyr",
-//    "champion": true,
-//    "rockstar": false,
-//    "id": "m.heinrichs",
-//    "createdOn": "2021-05-18",
-//    "modifiedOn": "2021-05-28"
-//  },
   {
     "name": "Michael Hoffer",
     "email": "",
@@ -451,20 +381,6 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-//  {
-//    "name": "Thierry Wasylczenko",
-//    "email": "",
-//    "companyId": "",
-//    "website": "",
-//    "blogId": "",
-//    "linkedIn": "",
-//    "twitter": "twasyl",
-//    "champion": false,
-//    "rockstar": false,
-//    "id": "t.wasylczenko",
-//    "createdOn": "2021-05-18",
-//    "modifiedOn": "2021-05-28"
-//  },
   {
     "name": "Tom Schindl",
     "email": "",
@@ -494,24 +410,10 @@
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
-//  {
-//    "name": "William Antônio",
-//    "email": "",
-//    "companyId": "",
-//    "website": "",
-//    "blogId": "",
-//    "linkedIn": "",
-//    "twitter": "William_Antonio",
-//    "champion": false,
-//    "rockstar": false,
-//    "id": "w.antonio",
-//    "createdOn": "2021-05-18",
-//    "modifiedOn": "2021-05-28"
-//  },
   {
     "name": "Anton Epple",
     "email": "",
-    "companyId": "eppleton",
+    "companyId": "",
     "website": "https://eppleton.de",
     "blogId": "",
     "linkedIn": "",
