@@ -206,8 +206,14 @@
     "files": [
       {
         "name": "PKG Installer (Mac)",
-        "url": "",
-        "fileName": "covid-explorer-pkg.zip",
+        "url": "https://www.flexganttfx.com/downloads/installer/covid-explorer-pkg.zip",
+        "fileName": "",
+        "package": "PKG"
+      },
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "https://www.flexganttfx.com/downloads/installer/covid-explorer-msi.zip",
+        "fileName": "",
         "package": "PKG"
       }
     ]

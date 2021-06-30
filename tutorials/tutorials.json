@@ -1,5 +1,15 @@
 [
   {
+    "id": "openjfxgettingstarted",
+    "format": "web",
+    "name": "OpenJFX Getting Started",
+    "summary": "",
+    "url": "https://code.makery.ch/library/javafx-tutorial/",
+    "commercial": "false",
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
+  },
+  {
     "id": "codemakery",
     "format": "web",
     "name": "code.makery",
