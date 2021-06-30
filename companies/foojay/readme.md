@@ -1,2 +1,2 @@
-Foojay is a central resource for the Java community’s daily information needs, a place for friends of OpenJDK, 
-and a community platform for the Java ecosystem — bringing together and helping Java professionals everywhere.
+Foojay is a central resource for the Java community's daily information needs, a place for friends of OpenJDK, 
+and a community platform for the Java ecosystem - bringing together and helping Java professionals everywhere.

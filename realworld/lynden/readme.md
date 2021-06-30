@@ -1,5 +1,5 @@
 Lynden, Inc. is a freight and logistics company based in the Seattle and Anchorage areas. 
-”Lynden Navigator”, the application developed by us, has two sets of target users within the company.
+"Lynden Navigator", the application developed by us, has two sets of target users within the company.
 
 We have freight terminals across the lower 48 states and in Alaska and Hawaii, as well as in Canada. 
 Navigator was developed to give managers at those terminals the ability to see information regarding 
