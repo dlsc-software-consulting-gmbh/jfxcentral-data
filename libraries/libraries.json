@@ -164,7 +164,7 @@
   {
     "title": "GMapsFX",
     "id": "gmapsfx",
-    "summary": "GMapsFX provides a wrapper to the Google Map’s Javascript API, allowing you to use and interact with maps using a pure Java API.",
+    "summary": "A wrapper around the Google Map Javascript API, allowing you to use and interact with maps using a pure Java API.",
     "tags": "map, google maps, trip, custom control",
     "description": "A JavaFX wrapper for Google Maps",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX#readme",
