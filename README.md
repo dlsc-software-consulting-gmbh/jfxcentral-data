@@ -13,6 +13,109 @@ To add data to this repository please follow these steps:
 > by your pull request will appear immediately after merging. The website will be 
 > updated only when explicitly requested by an administrator.
  
+## General Concepts
+
+This repository contains the data for the following model objects:
+
+- Blog
+- Book
+- Company
+- Download
+- Library
+- News
+- Person
+- RealWorldApp
+- Tool
+- Tutorial
+- Video
+
+Instances of these types can be registered in index JSON files in subdirectories that
+match the types of the model objects:
+
+- Blogs inside `blogs/blogs.json`
+- Books inside `books/books.json`
+- Companies inside `companies/companies.json`
+- Downloads inside `downloads/downloads.json`
+- Libraries inside `libraries/libraries.json`
+- News inside `news/news.json`
+- People inside `people/people.json`
+- Real World Applications inside `realworld/realworld.json`
+- Tools inside `tools/tools.json`
+- Tutorials inside `tutorials/tutorials.json`
+- Videos inside `videos/videos.json`
+
+The design goal for these JSON files was to keep them as simple as possible. One can see that
+a specific directory exists for each model type. Inside those directories one can find another
+level of directories where each directory represents a model object instance. The name of the
+directory has to match the ID given to the instance inside the JSON index files. For example:
+the book *"Pro JavaFX 9"* uses the ID `projfx9`. This means we can find a directory called 
+`books/projfx9`.
+
+Inside most of these instance directories we can then find a file called `readme.md` which allows
+you to add information in markdown syntax for the model object instance. Depending on the model
+object type additional information (optional or required) might be needed.
+
+### Linking
+
+Any model object can be linked to any other business object of any type. The class ModelObject
+contains the following fields that are common to all types:
+
+```java    
+private String id; // the id == directory name
+private LocalDate createdOn; // when was the entry initially added
+private LocalDate modifiedOn; // when was it changed
+private String tags; // some tags to enhance global search
+private boolean hide; // maybe hide the entry for now
+
+// Linking Options
+private List<String> personIds = new ArrayList<>();
+private List<String> tutorialIds = new ArrayList<>();
+private List<String> toolIds = new ArrayList<>();
+private List<String> libraryIds = new ArrayList<>();
+private List<String> bookIds = new ArrayList<>();
+private List<String> companyIds = new ArrayList<>();
+private List<String> downloadIds = new ArrayList<>();
+private List<String> videoIds = new ArrayList<>();
+private List<String> appIds = new ArrayList<>();
+private List<String> blogIds = new ArrayList<>();`
+```
+
+Example: to link the library FlexGanttFX to the person Dirk Lemmermann we can add the following
+fragment to the libraries.json file.
+
+```json
+{
+    "id": "flexganttfx",
+    "title: "FlexGanttFX,
+    ...
+    "personIds" : [
+      "d.lemmermann"
+    ]
+}
+```
+
+To also add the library to a video on YouTube we can then write:
+
+```json
+{
+    "id": "flexganttfx",
+    "title: "FlexGanttFX,
+    ...
+    "personIds" : [
+      "d.lemmermann"
+    ],
+    "videoIds": [
+      "u09iklm65",
+      "kl889abV8"
+    ]
+}
+```
+
+Ideally you take a look at the already existing data in those JSON files. They will pretty much
+tell you what to do.
+
+### Adding a Business Object
+
 Follow these instructions for the different types of data:
 
 - [Adding a person](#adding-a-person) 
