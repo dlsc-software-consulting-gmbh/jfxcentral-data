@@ -211,7 +211,7 @@
         "package": "PKG"
       },
       {
-        "name": "PKG Installer (Mac)",
+        "name": "MSI Installer (Windows)",
         "url": "https://www.flexganttfx.com/downloads/installer/covid-explorer-msi.zip",
         "fileName": "",
         "package": "PKG"
