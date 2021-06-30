@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Blog extends ModelObject {
 
-    private String title;
+    private String name;
     private String url;
     private String summary;
     private String companyId;
@@ -23,7 +23,7 @@ public class Blog extends ModelObject {
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
             return true;
         }
 
@@ -46,12 +46,12 @@ public class Blog extends ModelObject {
         this.summary = summary;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getUrl() {

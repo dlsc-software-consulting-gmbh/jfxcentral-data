@@ -3,7 +3,7 @@ package com.dlsc.jfxcentral.data.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LibraryInfo extends ModelObject {
+public class LibraryInfo {
 
     private List<Image> images = new ArrayList<>();
 

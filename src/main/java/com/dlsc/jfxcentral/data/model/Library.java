@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Library extends ModelObject implements Coordinates{
 
-    private String title;
+    private String name;
     private String summary;
     private String description;
     private String homepage;
@@ -36,7 +36,7 @@ public class Library extends ModelObject implements Coordinates{
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
             return true;
         }
 
@@ -79,12 +79,12 @@ public class Library extends ModelObject implements Coordinates{
         this.summary = summary;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getDescription() {

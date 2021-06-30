@@ -1094,7 +1094,7 @@ public class DataRepository {
             if (StringUtils.isNotBlank(url)) {
 
                 System.out.println("loading blog posts from url: " + url);
-                setMessage("Loading blog: " + blog.getTitle());
+                setMessage("Loading blog: " + blog.getName());
 
                 SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
 
