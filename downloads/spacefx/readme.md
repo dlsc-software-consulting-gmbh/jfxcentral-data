@@ -3,5 +3,3 @@ the browser. A true "write once run anywhere" application that illustrates the t
 promise made by Java and JavaFX. This game was written by Gerrit Grunwald.
 
 A video showing the game play can be [found on YouTube](https://www.youtube.com/watch?v=Kc0lv3R5VG0).
-
-The code can be [found on GitHub](https://github.com/HanSolo/SpaceFX).

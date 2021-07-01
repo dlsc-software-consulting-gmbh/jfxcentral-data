@@ -123,6 +123,7 @@
     "title": "SpaceFX",
     "tags": "real world app, game, space, shooter, mobile, desktop, web",
     "downloadType": "APPLICATION",
+    "homepage": "https://github.com/HanSolo/SpaceFX",
     "personIds": [
       "g.grunwald"
     ],
