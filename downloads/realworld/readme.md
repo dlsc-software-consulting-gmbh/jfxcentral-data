@@ -6,5 +6,5 @@ relationship management software, etc...
 You can also find all of these applications shown in this presentation here on JFX-Central but we figured you might need 
 to show some of this stuff to your "decision makers" in your next meeting with him or her.
 
-For more eye candy please check out Dirk's [Real World Apps Playlist on YouTube](https://www.youtube.com/playlist?list=PLUuxQkXkh-hiVY0lRIX3hWb3jCy7PLB-K).
+For more eye candy please check out the [Real World Apps Playlist on YouTube](https://www.youtube.com/playlist?list=PLUuxQkXkh-hiVY0lRIX3hWb3jCy7PLB-K).
 
