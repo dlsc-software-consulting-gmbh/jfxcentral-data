@@ -13,7 +13,6 @@ import com.rometools.rome.io.FeedException;
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
 import javafx.application.Platform;
-import javafx.beans.Observable;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -99,7 +98,6 @@ public class DataRepository {
     }
 
     private DataRepository() {
-        recentItems.addListener((Observable it) -> System.out.println("recent items count: " + getRecentItems().size()));
         sourceProperty().addListener(it -> refreshData());
 
         if (ASYNC) {
@@ -107,36 +105,49 @@ public class DataRepository {
             thread.setName("Data Repository Thread");
             thread.setDaemon(true);
             thread.start();
-
-            // update feeds and pull requests every 12 hours
-            Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
-                try {
-                    Thread.sleep(Duration.ofHours(12).toMillis());
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-
-                try {
-                    loadFeeds();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (FeedException e) {
-                    e.printStackTrace();
-                }
-
-                loadPullRequests();
-            });
-            updateFeedsAndPullRequestsThread.setName("Data Repository Feeds Update Thread");
-            updateFeedsAndPullRequestsThread.setDaemon(true);
-            updateFeedsAndPullRequestsThread.start();
         } else {
             loadData();
         }
     }
 
+    private void loadFeedsAndPullRequestsAsynchronously() {
+        // update feeds and pull requests every 6 hours
+        Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
+            try {
+                loadFeeds();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (FeedException e) {
+                e.printStackTrace();
+            }
+
+            loadPullRequests();
+
+            try {
+                Thread.sleep(Duration.ofHours(6).toMillis());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+
+        updateFeedsAndPullRequestsThread.setName("Data Repository Feeds Update Thread");
+        updateFeedsAndPullRequestsThread.setDaemon(true);
+        updateFeedsAndPullRequestsThread.start();
+    }
+
     public void refreshData() {
         clearData();
         loadData();
+
+        try {
+            loadFeeds();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (FeedException e) {
+            e.printStackTrace();
+        }
+
+        loadPullRequests();
     }
 
     public void clearData() {
@@ -172,7 +183,7 @@ public class DataRepository {
 
     private void loadData() {
         try {
-            double steps = 15d;
+            double steps = 14d;
 
             setProgress(0);
             setMessage("");
@@ -269,6 +280,10 @@ public class DataRepository {
             setMessage("Done loading");
             setProgress(1);
 
+            if (ASYNC) {
+                loadFeedsAndPullRequestsAsynchronously();
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -288,7 +303,7 @@ public class DataRepository {
         getRecentItems().addAll(findRecentItems(getPosts()));
 
         // newest ones on top
-        Collections.sort(getRecentItems(),Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
+        Collections.sort(getRecentItems(), Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
     }
 
     private List<ModelObject> findRecentItems(List<? extends ModelObject> items) {
@@ -1101,11 +1116,17 @@ public class DataRepository {
     }
 
     public void loadFeeds() throws IOException, FeedException {
+        System.out.println("loading feeds");
+
         setLoadingFeeds(true);
 
         try {
+            Platform.runLater(() -> getPosts().clear());
+
             ObservableList<Blog> blogObservableList = getBlogs();
             int size = blogObservableList.size();
+
+            System.out.println("loading feeds from " + size + " blogs");
 
             for (int i = 0; i < size; i++) {
                 Blog blog = blogObservableList.get(i);
@@ -1118,7 +1139,12 @@ public class DataRepository {
                     SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
 
                     List<SyndEntry> entries = feed.getEntries();
-                    entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry)));
+
+                    if (ASYNC) {
+                        Platform.runLater(() -> entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry))));
+                    } else {
+                        entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry)));
+                    }
 
                     if (!ASYNC && !entries.isEmpty()) {
                         // to save time when unit tests are running
@@ -1132,9 +1158,13 @@ public class DataRepository {
     }
 
     public void loadPullRequests() {
+        System.out.println("loading pull requests");
+
         setLoadingPullRequests(true);
 
         try {
+            Platform.runLater(() -> getPullRequests().clear());
+
             HttpURLConnection con = null;
 
             for (int page = 1; page < 2; page++) {
