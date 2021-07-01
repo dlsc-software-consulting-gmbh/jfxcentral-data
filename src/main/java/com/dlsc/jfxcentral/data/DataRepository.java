@@ -707,7 +707,7 @@ public class DataRepository {
     }
 
     public String getBaseUrl() {
-        if (BASE_URL.startsWith("file://")) { // for local tests
+        if (BASE_URL.startsWith("file:/")) { // for local tests
             return BASE_URL;
         }
 
