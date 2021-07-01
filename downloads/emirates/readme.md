@@ -1,3 +1,1 @@
 A proof-of-concept application developed for Emirates Airlines. The demo shows how FlexGanttFX is capable of displaying thousands and thousands of activities (in this case "flights"). Even with a workload like this one the user is still able to operate the Gantt chart nicely and scroll quickly horizontally from one point in time to another and also vertically.
-
-Read more about FlexGanttFX [on the product's homepage](https://www.flexganttfx.com)
