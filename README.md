@@ -45,19 +45,19 @@ match the types of the model objects:
 - Videos inside `videos/videos.json`
 
 The design goal for these JSON files was to keep them as simple as possible. One can see that
-a specific directory exists for each model type. Inside those directories one can find another
-level of directories where each directory represents a model object instance. The name of the
-directory has to match the ID given to the instance inside the JSON index files. For example:
+a specific directory exists for each model object ***type***. Inside those directories one can find another
+level of directories where each directory represents a model object ***instance***. The name of the
+directory has to match the ID given to the ***instance*** inside the JSON index files. For example:
 the book *"Pro JavaFX 9"* uses the ID `projfx9`. This means we can find a directory called 
 `books/projfx9`.
 
-Inside most of these instance directories we can then find a file called `readme.md` which allows
-you to add information in markdown syntax for the model object instance. Depending on the model
-object type additional information (optional or required) might be needed.
+Inside most of these directories we can then find a file called `readme.md` which allows
+you to add information (in markdown syntax) about the model object ***instance***. Depending on the
+***type*** of the model object additional information (optional or required) might be needed.
 
 ### Linking
 
-Any model object can be linked to any other business object of any type. The class ModelObject
+Any model object can be linked to any other model object of any type. The class ModelObject
 contains the following fields that are common to all types:
 
 ```java    
@@ -93,7 +93,7 @@ fragment to the `libraries.json` file.
 }
 ```
 
-To also add a YouTube videos (those need to be registered inside `videos/videos.json`) to the library we can then write:
+To also add YouTube videos (those need to be registered inside `videos/videos.json`) to the library we can then write:
 
 ```json
 {
