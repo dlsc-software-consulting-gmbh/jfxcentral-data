@@ -117,7 +117,7 @@ public class DataRepository {
                 }
 
                 try {
-                    readFeeds();
+                    loadFeeds();
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (FeedException e) {
@@ -260,18 +260,6 @@ public class DataRepository {
             File tutorialsFile = loadFile("tutorials", getBaseUrl() + "tutorials/tutorials.json");
             setTutorials(gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
             }.getType()));
-            setProgress(getProgress() + 1 / steps);
-
-            if (!Boolean.getBoolean("no.feeds")) {
-                setMessage("Loading blog feeds");
-                readFeeds();
-            }
-            setProgress(getProgress() + 1 / steps);
-
-            if (!Boolean.getBoolean("no.feeds")) {
-                setMessage("Loading pull requests from OpenJFX project");
-                loadPullRequests();
-            }
             setProgress(getProgress() + 1 / steps);
 
             setMessage("Updating list of recent items");
@@ -1084,72 +1072,112 @@ public class DataRepository {
         return posts;
     }
 
-    public void readFeeds() throws IOException, FeedException {
-        ObservableList<Blog> blogObservableList = getBlogs();
-        int size = blogObservableList.size();
+    private final BooleanProperty loadingFeeds = new SimpleBooleanProperty(this, "loadingFeeds", false);
 
-        for (int i = 0; i < size; i++) {
-            Blog blog = blogObservableList.get(i);
-            String url = blog.getFeed();
-            if (StringUtils.isNotBlank(url)) {
+    public boolean isLoadingFeeds() {
+        return loadingFeeds.get();
+    }
 
-                System.out.println("loading blog posts from url: " + url);
-                setMessage("Loading blog: " + blog.getName());
+    public BooleanProperty loadingFeedsProperty() {
+        return loadingFeeds;
+    }
 
-                SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
+    public void setLoadingFeeds(boolean loadingFeeds) {
+        this.loadingFeeds.set(loadingFeeds);
+    }
 
-                List<SyndEntry> entries = feed.getEntries();
-                entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry)));
+    private final BooleanProperty loadingPullRequests = new SimpleBooleanProperty(this, "loadingPullRequests", false);
 
-                if (!ASYNC && !entries.isEmpty()) {
-                    // to save time when unit tests are running
-                    break;
+    public boolean isLoadingPullRequests() {
+        return loadingPullRequests.get();
+    }
+
+    public BooleanProperty loadingPullRequestsProperty() {
+        return loadingPullRequests;
+    }
+
+    public void setLoadingPullRequests(boolean loadingPullRequests) {
+        this.loadingPullRequests.set(loadingPullRequests);
+    }
+
+    public void loadFeeds() throws IOException, FeedException {
+        setLoadingFeeds(true);
+
+        try {
+            ObservableList<Blog> blogObservableList = getBlogs();
+            int size = blogObservableList.size();
+
+            for (int i = 0; i < size; i++) {
+                Blog blog = blogObservableList.get(i);
+                String url = blog.getFeed();
+                if (StringUtils.isNotBlank(url)) {
+
+                    System.out.println("loading blog posts from url: " + url);
+                    setMessage("Loading blog: " + blog.getName());
+
+                    SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
+
+                    List<SyndEntry> entries = feed.getEntries();
+                    entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry)));
+
+                    if (!ASYNC && !entries.isEmpty()) {
+                        // to save time when unit tests are running
+                        break;
+                    }
                 }
             }
+        } finally {
+            setLoadingFeeds(false);
         }
     }
 
     public void loadPullRequests() {
-        HttpURLConnection con = null;
+        setLoadingPullRequests(true);
 
-        for (int page = 1; page < 2; page++) {
-            try {
-                URL url = new URL("https://api.github.com/repos/openjdk/jfx/pulls?state=all&per_page=100&page=" + page);
+        try {
+            HttpURLConnection con = null;
 
-                con = (HttpURLConnection) url.openConnection();
-                con.setRequestMethod("GET");
-                con.setUseCaches(false);
+            for (int page = 1; page < 2; page++) {
+                try {
+                    URL url = new URL("https://api.github.com/repos/openjdk/jfx/pulls?state=all&per_page=100&page=" + page);
 
-                int status = con.getResponseCode();
-                if (status == 200) {
-                    BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                    String inputLine;
-                    StringBuffer content = new StringBuffer();
-                    while ((inputLine = in.readLine()) != null) {
-                        content.append(inputLine);
+                    con = (HttpURLConnection) url.openConnection();
+                    con.setRequestMethod("GET");
+                    con.setUseCaches(false);
+
+                    int status = con.getResponseCode();
+                    if (status == 200) {
+                        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+                        String inputLine;
+                        StringBuffer content = new StringBuffer();
+                        while ((inputLine = in.readLine()) != null) {
+                            content.append(inputLine);
+                        }
+                        in.close();
+
+                        List<PullRequest> result = gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
+                        }.getType());
+
+                        if (ASYNC) {
+                            Platform.runLater(() -> getPullRequests().addAll(result));
+                        } else {
+                            getPullRequests().addAll(result);
+                        }
                     }
-                    in.close();
-
-                    List<PullRequest> result = gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
-                    }.getType());
-
-                    if (ASYNC) {
-                        Platform.runLater(() -> getPullRequests().addAll(result));
-                    } else {
-                        getPullRequests().addAll(result);
+                } catch (ProtocolException e) {
+                    e.printStackTrace();
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } finally {
+                    if (con != null) {
+                        con.disconnect();
                     }
-                }
-            } catch (ProtocolException e) {
-                e.printStackTrace();
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } finally {
-                if (con != null) {
-                    con.disconnect();
                 }
             }
+        } finally {
+            setLoadingPullRequests(false);
         }
     }
 

@@ -43,7 +43,6 @@ public class DataRepositoryTest {
         assertTrue(!repository.getLibraries().isEmpty());
         assertTrue(!repository.getNews().isEmpty());
         assertTrue(!repository.getPeople().isEmpty());
-        assertTrue(!repository.getPosts().isEmpty());
         assertTrue(!repository.getRealWorldApps().isEmpty());
         assertTrue(!repository.getTools().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
@@ -98,7 +97,6 @@ public class DataRepositoryTest {
         assertTrue(!repository.getLibraries().isEmpty());
         assertTrue(!repository.getNews().isEmpty());
         assertTrue(!repository.getPeople().isEmpty());
-        assertTrue(!repository.getPosts().isEmpty());
         assertTrue(!repository.getRealWorldApps().isEmpty());
         assertTrue(!repository.getTools().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
