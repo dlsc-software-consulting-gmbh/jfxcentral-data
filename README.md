@@ -1,5 +1,3 @@
-XXX
-
 # JFX-Central Data Repository
 
 To add data to this repository please follow these steps:
