@@ -3,6 +3,7 @@
     "id": "makeover",
     "title": "Extreme GUI Makeover",
     "tags": "makeover, demo, presentation, javaone, oracle codeone",
+    "homepage": "https://github.com/hendrikebbers/ExtremeGuiMakeover",
     "downloadType": "APPLICATION",
     "personIds": [
       "d.lemmermann",
