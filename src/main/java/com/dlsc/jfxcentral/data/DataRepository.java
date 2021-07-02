@@ -14,6 +14,7 @@ import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.beans.Observable;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -102,12 +103,27 @@ public class DataRepository extends Application {
 
     private DataRepository() {
         if (ASYNC) {
+            getBlogs().addListener((Observable it) -> {
+                if (!getBlogs().isEmpty()) {
+                    Thread loadFeedsThread = new Thread(() -> loadFeeds());
+                    loadFeedsThread.setName("Update feeds thread");
+                    loadFeedsThread.setDaemon(true);
+                    loadFeedsThread.start();
+                }
+            });
+
+            Thread loadPullRequestsThread = new Thread(() -> loadPullRequests());
+            loadPullRequestsThread.setName("Update OpenJFX pull requests thread");
+            loadPullRequestsThread.setDaemon(true);
+            loadPullRequestsThread.start();
+
             Thread thread = new Thread(() -> loadData());
             thread.setName("Data Repository Thread");
             thread.setDaemon(true);
             thread.start();
         } else {
             loadData();
+            loadFeeds();
             loadPullRequests();
         }
 
@@ -129,14 +145,7 @@ public class DataRepository extends Application {
                     e.printStackTrace();
                 }
 
-                try {
-                    loadFeeds();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (FeedException e) {
-                    e.printStackTrace();
-                }
-
+                loadFeeds();
                 loadPullRequests();
             }
         });
@@ -1140,7 +1149,7 @@ public class DataRepository extends Application {
         });
     }
 
-    public void loadFeeds() throws IOException, FeedException {
+    public void loadFeeds() {
         setLoadingFeeds(true);
 
         try {
@@ -1175,6 +1184,12 @@ public class DataRepository extends Application {
                     }
                 }
             }
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (FeedException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         } finally {
             setLoadingFeeds(false);
         }
