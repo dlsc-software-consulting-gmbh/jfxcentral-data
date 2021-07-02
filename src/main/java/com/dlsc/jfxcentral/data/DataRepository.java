@@ -184,11 +184,11 @@ public class DataRepository {
             setProgress(0);
             setMessage("");
 
-            setMessage("Loading text for start page");
+            setMessage("Loading introduction text");
             setHomeText(loadString(getBaseUrl() + "intro.md"));
             setProgress(getProgress() + 1 / steps);
 
-            setMessage("Loading text for OpenJFX project");
+            setMessage("Loading OpenJFX description");
             setOpenJFXText(loadString(getBaseUrl() + "openjfx/intro.md"));
             setProgress(getProgress() + 1 / steps);
 
