@@ -20,13 +20,9 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.io.*;
 import java.net.*;
-import java.nio.channels.Channels;
-import java.nio.channels.FileChannel;
-import java.nio.channels.ReadableByteChannel;
 import java.text.MessageFormat;
 import java.time.Duration;
 import java.time.LocalDate;
-import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
@@ -189,86 +185,86 @@ public class DataRepository {
             setMessage("");
 
             setMessage("Loading text for start page");
-            setHomeText(loadString(getBaseUrl() + "intro.md?time=" + ZonedDateTime.now().toInstant()));
+            setHomeText(loadString(getBaseUrl() + "intro.md"));
             setProgress(getProgress() + 1 / steps);
 
             setMessage("Loading text for OpenJFX project");
-            setOpenJFXText(loadString(getBaseUrl() + "openjfx/intro.md?time=" + ZonedDateTime.now().toInstant()));
+            setOpenJFXText(loadString(getBaseUrl() + "openjfx/intro.md"));
             setProgress(getProgress() + 1 / steps);
 
             // load people
             setMessage("Loading index of people");
-            File peopleFile = loadFile("people", getBaseUrl() + "people/people.json");
+            File peopleFile = loadFile(getBaseUrl() + "people/people.json");
             setPeople(gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load books
             setMessage("Loading index of books");
-            File booksFile = loadFile("books", getBaseUrl() + "books/books.json");
+            File booksFile = loadFile(getBaseUrl() + "books/books.json");
             setBooks(gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load videos
             setMessage("Loading index of videos");
-            File videosFile = loadFile("videos", getBaseUrl() + "videos/videos.json");
+            File videosFile = loadFile(getBaseUrl() + "videos/videos.json");
             setVideos(gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load libraries
             setMessage("Loading index of libraries");
-            File librariesFile = loadFile("libraries", getBaseUrl() + "libraries/libraries.json");
+            File librariesFile = loadFile(getBaseUrl() + "libraries/libraries.json");
             setLibraries(gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load libraries
             setMessage("Loading index of news");
-            File newsFile = loadFile("news", getBaseUrl() + "news/news.json");
+            File newsFile = loadFile(getBaseUrl() + "news/news.json");
             setNews(gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load libraries
             setMessage("Loading index of blogs");
-            File blogsFile = loadFile("blogs", getBaseUrl() + "blogs/blogs.json");
+            File blogsFile = loadFile(getBaseUrl() + "blogs/blogs.json");
             setBlogs(gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load libraries
             setMessage("Loading index of companies");
-            File companiesFile = loadFile("companies", getBaseUrl() + "companies/companies.json");
+            File companiesFile = loadFile(getBaseUrl() + "companies/companies.json");
             setCompanies(gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load tools
             setMessage("Loading index of tools");
-            File toolsFile = loadFile("tools", getBaseUrl() + "tools/tools.json");
+            File toolsFile = loadFile(getBaseUrl() + "tools/tools.json");
             setTools(gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load real world apps
             setMessage("Loading index of real world apps");
-            File realWorldFile = loadFile("realworld", getBaseUrl() + "realworld/realworld.json");
+            File realWorldFile = loadFile(getBaseUrl() + "realworld/realworld.json");
             setRealWorldApps(gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load downloads
             setMessage("Loading index of downloads");
-            File downloadsFile = loadFile("downloads", getBaseUrl() + "downloads/downloads.json");
+            File downloadsFile = loadFile(getBaseUrl() + "downloads/downloads.json");
             setDownloads(gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
 
             // load downloads
             setMessage("Loading index of tutorials");
-            File tutorialsFile = loadFile("tutorials", getBaseUrl() + "tutorials/tutorials.json");
+            File tutorialsFile = loadFile(getBaseUrl() + "tutorials/tutorials.json");
             setTutorials(gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
             }.getType()));
             setProgress(getProgress() + 1 / steps);
@@ -505,7 +501,7 @@ public class DataRepository {
     private void loadLibraryInfoText(Library library, ObjectProperty<LibraryInfo> infoProperty) {
         try {
             String libraryId = library.getId();
-            File file = loadFile(libraryId + ".json", getBaseUrl() + "libraries/" + libraryId + "/info.json?time=" + ZonedDateTime.now().toInstant());
+            File file = loadFile(getBaseUrl() + "libraries/" + libraryId + "/info.json");
             LibraryInfo result = gson.fromJson(new FileReader(file), LibraryInfo.class);
             if (ASYNC) {
                 Platform.runLater(() -> infoProperty.set(result));
@@ -532,7 +528,7 @@ public class DataRepository {
     }
 
     private void loadNewsText(News news, StringProperty textProperty) {
-        String url = getNewsBaseUrl(news) + "/text.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getNewsBaseUrl(news) + "/text.md";
         System.out.println("loading news from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -557,7 +553,7 @@ public class DataRepository {
     }
 
     private void loadTutorialText(Tutorial tutorial, StringProperty textProperty) {
-        String url = getBaseUrl() + "tutorials/" + tutorial.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getBaseUrl() + "tutorials/" + tutorial.getId() + "/readme.md";
         System.out.println("loading tutorial from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -582,7 +578,7 @@ public class DataRepository {
     }
 
     private void loadDownloadText(Download download, StringProperty textProperty) {
-        String url = getBaseUrl() + "downloads/" + download.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getBaseUrl() + "downloads/" + download.getId() + "/readme.md";
         System.out.println("loading download text from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -607,7 +603,7 @@ public class DataRepository {
     }
 
     private void loadBookText(Book book, StringProperty textProperty) {
-        String url = getBaseUrl() + "books/" + book.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getBaseUrl() + "books/" + book.getId() + "/readme.md";
         System.out.println("loading book text from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -952,25 +948,14 @@ public class DataRepository {
         this.people.removeIf(item -> item.isHide());
     }
 
-    private File loadFile(String fileName, String urlString) throws IOException {
-        // adding caching buster via timestamp
-        urlString = urlString + "?time=" + ZonedDateTime.now().toInstant();
-        System.out.println("url: " + urlString);
+    private File loadFile(String urlString) throws IOException {
+        try {
+            return new File(new URI(urlString));
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
 
-        URL url = new URL(urlString);
-
-        URLConnection connection = url.openConnection();
-        connection.setUseCaches(false);
-        connection.setDefaultUseCaches(false);
-
-        ReadableByteChannel readChannel = Channels.newChannel(connection.getInputStream());
-        File file = File.createTempFile(fileName, ".json");
-        System.out.println("file: " + file.getAbsolutePath());
-        FileOutputStream fileOS = new FileOutputStream(file);
-        FileChannel writeChannel = fileOS.getChannel();
-        writeChannel.transferFrom(readChannel, 0, Long.MAX_VALUE);
-
-        return file;
+        return null;
     }
 
     private String loadString(String address) {
@@ -978,13 +963,8 @@ public class DataRepository {
 
         StringBuilder sb = new StringBuilder();
         try {
-            URL url = new URL(address);
-
-            URLConnection connection = url.openConnection();
-            connection.setUseCaches(false);
-
             // read text returned by server
-            BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            BufferedReader in = new BufferedReader(new FileReader(new File(new URI(address))));
 
             String line;
             while ((line = in.readLine()) != null) {
@@ -997,6 +977,8 @@ public class DataRepository {
             System.out.println("Malformed URL: " + e.getMessage());
         } catch (IOException e) {
             System.out.println("I/O Error: " + e.getMessage());
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
         }
 
         return sb.toString();
