@@ -12,10 +12,12 @@ import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.FeedException;
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
+import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.stage.Stage;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.*;
@@ -29,7 +31,12 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
-public class DataRepository {
+public class DataRepository extends Application {
+
+    public static void main(String[] args) {
+        DataRepository repo = DataRepository.getInstance();
+        repo.messageProperty().addListener(it -> System.out.println(repo.getMessage()));
+    }
 
     public enum Source {
 
@@ -49,7 +56,7 @@ public class DataRepository {
 
     public static boolean ASYNC = true;
 
-    public static String BASE_URL = "https://raw.githubusercontent.com/dlemmermann/jfxcentral-data/";
+    public static String BASE_URL = "file:/Users/lemmi/jfxcentralrepo/"; //https://raw.githubusercontent.com/dlemmermann/jfxcentral-data/";
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
@@ -94,8 +101,6 @@ public class DataRepository {
     }
 
     private DataRepository() {
-        sourceProperty().addListener(it -> refreshData());
-
         if (ASYNC) {
             Thread thread = new Thread(() -> loadData());
             thread.setName("Data Repository Thread");
@@ -103,26 +108,36 @@ public class DataRepository {
             thread.start();
         } else {
             loadData();
+            loadPullRequests();
         }
+
+        loadFeedsAndPullRequestsAsynchronously();
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+
     }
 
     private void loadFeedsAndPullRequestsAsynchronously() {
-        // update feeds and pull requests every 6 hours
+        // update feeds and pull requests every couple of hours
         Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
-            try {
-                loadFeeds();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (FeedException e) {
-                e.printStackTrace();
-            }
+            while (true) {
+                try {
+                    Thread.sleep(Duration.ofHours(3).toMillis());
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
 
-            loadPullRequests();
+                try {
+                    loadFeeds();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (FeedException e) {
+                    e.printStackTrace();
+                }
 
-            try {
-                Thread.sleep(Duration.ofHours(6).toMillis());
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                loadPullRequests();
             }
         });
 
@@ -142,16 +157,6 @@ public class DataRepository {
     private void doRefreshData() {
         clearData();
         loadData();
-
-        try {
-            loadFeeds();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (FeedException e) {
-            e.printStackTrace();
-        }
-
-        loadPullRequests();
     }
 
     public void clearData() {
@@ -283,10 +288,6 @@ public class DataRepository {
 
             setMessage("Done loading");
             setProgress(1);
-
-            if (ASYNC) {
-                loadFeedsAndPullRequestsAsynchronously();
-            }
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -794,8 +795,8 @@ public class DataRepository {
 
     public void setLibraries(List<Library> libraries) {
         Platform.runLater(() -> {
+            libraries.removeIf(l -> l.isHide());
             this.libraries.setAll(libraries);
-            this.libraries.removeIf(item -> item.isHide());
         });
     }
 
@@ -811,8 +812,8 @@ public class DataRepository {
 
     public void setBlogs(List<Blog> blogs) {
         Platform.runLater(() -> {
+            blogs.removeIf(b -> b.isHide());
             this.blogs.setAll(blogs);
-            this.blogs.removeIf(item -> item.isHide());
         });
     }
 
@@ -844,8 +845,8 @@ public class DataRepository {
 
     public void setNews(List<News> news) {
         Platform.runLater(() -> {
+            news.removeIf(item -> item.isHide());
             this.news.setAll(news);
-            this.news.removeIf(item -> item.isHide());
         });
     }
 
@@ -861,8 +862,8 @@ public class DataRepository {
 
     public void setBooks(List<Book> books) {
         Platform.runLater(() -> {
+            books.removeIf(item -> item.isHide());
             this.books.setAll(books);
-            this.books.removeIf(item -> item.isHide());
         });
     }
 
@@ -878,8 +879,8 @@ public class DataRepository {
 
     public void setTutorials(List<Tutorial> tutorials) {
         Platform.runLater(() -> {
+            tutorials.removeIf(item -> item.isHide());
             this.tutorials.setAll(tutorials);
-            this.tutorials.removeIf(item -> item.isHide());
         });
     }
 
@@ -895,8 +896,8 @@ public class DataRepository {
 
     public void setVideos(List<Video> videos) {
         Platform.runLater(() -> {
+            videos.removeIf(item -> item.isHide());
             this.videos.setAll(videos);
-            this.videos.removeIf(item -> item.isHide());
         });
     }
 
@@ -913,8 +914,8 @@ public class DataRepository {
 
     public void setDownloads(List<Download> downloads) {
         Platform.runLater(() -> {
+            downloads.removeIf(item -> item.isHide());
             this.downloads.setAll(downloads);
-            this.downloads.removeIf(item -> item.isHide());
         });
     }
 
@@ -930,8 +931,8 @@ public class DataRepository {
 
     public void setRealWorldApps(List<RealWorldApp> realWorldApps) {
         Platform.runLater(() -> {
+            realWorldApps.removeIf(item -> item.isHide());
             this.realWorldApps.setAll(realWorldApps);
-            this.realWorldApps.removeIf(item -> item.isHide());
         });
     }
 
@@ -947,8 +948,8 @@ public class DataRepository {
 
     public void setTools(List<Tool> tools) {
         Platform.runLater(() -> {
+            tools.removeIf(item -> item.isHide());
             this.tools.setAll(tools);
-            this.tools.removeIf(item -> item.isHide());
         });
     }
 
@@ -964,8 +965,8 @@ public class DataRepository {
 
     public void setCompanies(List<Company> companies) {
         Platform.runLater(() -> {
+            companies.removeIf(item -> item.isHide());
             this.companies.setAll(companies);
-            this.companies.removeIf(item -> item.isHide());
         });
     }
 
@@ -981,8 +982,8 @@ public class DataRepository {
 
     public void setPeople(List<Person> people) {
         Platform.runLater(() -> {
+            people.removeIf(item -> item.isHide());
             this.people.setAll(people);
-            this.people.removeIf(item -> item.isHide());
         });
     }
 
@@ -1140,20 +1141,18 @@ public class DataRepository {
     }
 
     public void loadFeeds() throws IOException, FeedException {
-        System.out.println("loading feeds");
-
         setLoadingFeeds(true);
 
         try {
             Platform.runLater(() -> getPosts().clear());
 
-            ObservableList<Blog> blogObservableList = getBlogs();
-            int size = blogObservableList.size();
+            ObservableList<Blog> blogs = getBlogs();
+            int size = blogs.size();
 
-            System.out.println("loading feeds from " + size + " blogs");
+//            System.out.println("loading feeds from " + size + " blogs");
 
-            for (int i = 0; i < size; i++) {
-                Blog blog = blogObservableList.get(i);
+            for (int i = 0; i < blogs.size(); i++) {
+                Blog blog = blogs.get(i);
                 String url = blog.getFeed();
                 if (StringUtils.isNotBlank(url)) {
 
