@@ -36,7 +36,6 @@ public class DataRepository extends Application {
 
     public static void main(String[] args) {
         DataRepository repo = DataRepository.getInstance();
-        repo.messageProperty().addListener(it -> System.out.println(repo.getMessage()));
     }
 
     public enum Source {
@@ -204,102 +203,117 @@ public class DataRepository extends Application {
 
     private void loadData() {
         try {
-            double steps = 14d;
+            updateMessage("");
 
-            setProgress(0);
-            setMessage("");
+            updateMessage("Loading introduction text");
+            String homeText = loadString(getBaseUrl() + "intro.md");
 
-            setMessage("Loading introduction text");
-            setHomeText(loadString(getBaseUrl() + "intro.md"));
-            setProgress(getProgress() + 1 / steps);
-
-            setMessage("Loading OpenJFX description");
-            setOpenJFXText(loadString(getBaseUrl() + "openjfx/intro.md"));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading OpenJFX description");
+            String openJFXText = loadString(getBaseUrl() + "openjfx/intro.md");
 
             // load people
-            setMessage("Loading index of people");
-            File peopleFile = loadFile(getBaseUrl() + "people/people.json");
-            setPeople(gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of people");
+            File peopleFile = getFile(getBaseUrl() + "people/people.json");
+            List<Person> people = gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
+            }.getType());
 
             // load books
-            setMessage("Loading index of books");
-            File booksFile = loadFile(getBaseUrl() + "books/books.json");
-            setBooks(gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of books");
+            File booksFile = getFile(getBaseUrl() + "books/books.json");
+            List<Book> books = gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
+            }.getType());
 
             // load videos
-            setMessage("Loading index of videos");
-            File videosFile = loadFile(getBaseUrl() + "videos/videos.json");
-            setVideos(gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of videos");
+            File videosFile = getFile(getBaseUrl() + "videos/videos.json");
+            List<Video> videos = gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of libraries");
-            File librariesFile = loadFile(getBaseUrl() + "libraries/libraries.json");
-            setLibraries(gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of libraries");
+            File librariesFile = getFile(getBaseUrl() + "libraries/libraries.json");
+            List<Library> libraries = gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of news");
-            File newsFile = loadFile(getBaseUrl() + "news/news.json");
-            setNews(gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of news");
+            File newsFile = getFile(getBaseUrl() + "news/news.json");
+            List<News> news = gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of blogs");
-            File blogsFile = loadFile(getBaseUrl() + "blogs/blogs.json");
-            setBlogs(gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of blogs");
+            File blogsFile = getFile(getBaseUrl() + "blogs/blogs.json");
+            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of companies");
-            File companiesFile = loadFile(getBaseUrl() + "companies/companies.json");
-            setCompanies(gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of companies");
+            File companiesFile = getFile(getBaseUrl() + "companies/companies.json");
+            List<Company> companies = gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
+            }.getType());
 
             // load tools
-            setMessage("Loading index of tools");
-            File toolsFile = loadFile(getBaseUrl() + "tools/tools.json");
-            setTools(gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of tools");
+            File toolsFile = getFile(getBaseUrl() + "tools/tools.json");
+            List<Tool> tools = gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
+            }.getType());
 
             // load real world apps
-            setMessage("Loading index of real world apps");
-            File realWorldFile = loadFile(getBaseUrl() + "realworld/realworld.json");
-            setRealWorldApps(gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of real world apps");
+            File realWorldFile = getFile(getBaseUrl() + "realworld/realworld.json");
+            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
+            }.getType());
 
             // load downloads
-            setMessage("Loading index of downloads");
-            File downloadsFile = loadFile(getBaseUrl() + "downloads/downloads.json");
-            setDownloads(gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of downloads");
+            File downloadsFile = getFile(getBaseUrl() + "downloads/downloads.json");
+            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
+            }.getType());
 
             // load downloads
-            setMessage("Loading index of tutorials");
-            File tutorialsFile = loadFile(getBaseUrl() + "tutorials/tutorials.json");
-            setTutorials(gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of tutorials");
+            File tutorialsFile = getFile(getBaseUrl() + "tutorials/tutorials.json");
+            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
+            }.getType());
 
-            setMessage("Updating list of recent items");
-            updateRecentItems();
-            setProgress(getProgress() + 1 / steps);
+            List<ModelObject> recentItems = findRecentItems();
 
-            setMessage("Done loading");
-            setProgress(1);
+            if (ASYNC) {
+                Platform.runLater(() -> {
+                    setOpenJFXText(openJFXText);
+                    setHomeText(homeText);
+
+                    setPeople(people);
+                    setBooks(books);
+                    setVideos(videos);
+                    setLibraries(libraries);
+                    setNews(news);
+                    setBlogs(blogs);
+                    setCompanies(companies);
+                    setTools(tools);
+                    setRealWorldApps(realWorldApps);
+                    setDownloads(downloads);
+                    setTutorials(tutorials);
+                    setRecentItems(recentItems);
+                });
+            } else {
+                setOpenJFXText(openJFXText);
+                setHomeText(homeText);
+
+                setPeople(people);
+                setBooks(books);
+                setVideos(videos);
+                setLibraries(libraries);
+                setNews(news);
+                setBlogs(blogs);
+                setCompanies(companies);
+                setTools(tools);
+                setRealWorldApps(realWorldApps);
+                setDownloads(downloads);
+                setTutorials(tutorials);
+                setRecentItems(recentItems);
+            }
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -308,19 +322,21 @@ public class DataRepository extends Application {
         }
     }
 
-    private void updateRecentItems() {
-        getRecentItems().clear();
-        getRecentItems().addAll(findRecentItems(getNews()));
-        getRecentItems().addAll(findRecentItems(getPeople()));
-        getRecentItems().addAll(findRecentItems(getBooks()));
-        getRecentItems().addAll(findRecentItems(getLibraries()));
-        getRecentItems().addAll(findRecentItems(getVideos()));
-        getRecentItems().addAll(findRecentItems(getBlogs()));
-        getRecentItems().addAll(findRecentItems(getCompanies()));
-        getRecentItems().addAll(findRecentItems(getPosts()));
+    private List<ModelObject> findRecentItems() {
+        List<ModelObject> result = new ArrayList<>();
+        result.addAll(findRecentItems(getNews()));
+        result.addAll(findRecentItems(getPeople()));
+        result.addAll(findRecentItems(getBooks()));
+        result.addAll(findRecentItems(getLibraries()));
+        result.addAll(findRecentItems(getVideos()));
+        result.addAll(findRecentItems(getBlogs()));
+        result.addAll(findRecentItems(getCompanies()));
+        result.addAll(findRecentItems(getPosts()));
 
         // newest ones on top
-        Collections.sort(getRecentItems(), Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
+        Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
+
+        return result;
     }
 
     private List<ModelObject> findRecentItems(List<? extends ModelObject> items) {
@@ -353,10 +369,8 @@ public class DataRepository extends Application {
         return recentItems;
     }
 
-    public void setRecentItems(ObservableList<ModelObject> recentItems) {
-        Platform.runLater(() -> {
-            this.recentItems.set(recentItems);
-        });
+    public void setRecentItems(List<ModelObject> recentItems) {
+        this.recentItems.setAll(recentItems);
     }
 
     public Optional<Person> getPersonById(String id) {
@@ -524,7 +538,7 @@ public class DataRepository extends Application {
     private void loadLibraryInfoText(Library library, ObjectProperty<LibraryInfo> infoProperty) {
         try {
             String libraryId = library.getId();
-            File file = loadFile(getBaseUrl() + "libraries/" + libraryId + "/info.json");
+            File file = getFile(getBaseUrl() + "libraries/" + libraryId + "/info.json");
             LibraryInfo result = gson.fromJson(new FileReader(file), LibraryInfo.class);
             if (ASYNC) {
                 Platform.runLater(() -> infoProperty.set(result));
@@ -774,9 +788,7 @@ public class DataRepository extends Application {
     }
 
     public void setHomeText(String homeText) {
-        Platform.runLater(() -> {
-            this.homeText.set(homeText);
-        });
+        this.homeText.set(homeText);
     }
 
     private final StringProperty openJFXText = new SimpleStringProperty(this, "openJFXText");
@@ -790,9 +802,7 @@ public class DataRepository extends Application {
     }
 
     public void setOpenJFXText(String openJFXText) {
-        Platform.runLater(() -> {
-            this.openJFXText.set(openJFXText);
-        });
+        this.openJFXText.set(openJFXText);
     }
 
     private final ListProperty<Library> libraries = new SimpleListProperty<>(this, "libraries", FXCollections.observableArrayList());
@@ -806,10 +816,8 @@ public class DataRepository extends Application {
     }
 
     public void setLibraries(List<Library> libraries) {
-        Platform.runLater(() -> {
-            libraries.removeIf(l -> l.isHide());
-            this.libraries.setAll(libraries);
-        });
+        libraries.removeIf(l -> l.isHide());
+        this.libraries.setAll(libraries);
     }
 
     private final ListProperty<Blog> blogs = new SimpleListProperty<>(this, "blogs", FXCollections.observableArrayList());
@@ -823,10 +831,8 @@ public class DataRepository extends Application {
     }
 
     public void setBlogs(List<Blog> blogs) {
-        Platform.runLater(() -> {
-            blogs.removeIf(b -> b.isHide());
-            this.blogs.setAll(blogs);
-        });
+        blogs.removeIf(b -> b.isHide());
+        this.blogs.setAll(blogs);
     }
 
     private final ListProperty<PullRequest> pullRequests = new SimpleListProperty<>(this, "pullRequests", FXCollections.observableArrayList());
@@ -840,9 +846,7 @@ public class DataRepository extends Application {
     }
 
     public void setPullRequests(List<PullRequest> pullRequests) {
-        Platform.runLater(() -> {
-            this.pullRequests.setAll(pullRequests);
-        });
+        this.pullRequests.setAll(pullRequests);
     }
 
     private final ListProperty<News> news = new SimpleListProperty<>(this, "news", FXCollections.observableArrayList());
@@ -856,10 +860,8 @@ public class DataRepository extends Application {
     }
 
     public void setNews(List<News> news) {
-        Platform.runLater(() -> {
-            news.removeIf(item -> item.isHide());
-            this.news.setAll(news);
-        });
+        news.removeIf(item -> item.isHide());
+        this.news.setAll(news);
     }
 
     private final ListProperty<Book> books = new SimpleListProperty<>(this, "books", FXCollections.observableArrayList());
@@ -873,10 +875,8 @@ public class DataRepository extends Application {
     }
 
     public void setBooks(List<Book> books) {
-        Platform.runLater(() -> {
-            books.removeIf(item -> item.isHide());
-            this.books.setAll(books);
-        });
+        books.removeIf(item -> item.isHide());
+        this.books.setAll(books);
     }
 
     private final ListProperty<Tutorial> tutorials = new SimpleListProperty<>(this, "tutorials", FXCollections.observableArrayList());
@@ -890,10 +890,8 @@ public class DataRepository extends Application {
     }
 
     public void setTutorials(List<Tutorial> tutorials) {
-        Platform.runLater(() -> {
-            tutorials.removeIf(item -> item.isHide());
-            this.tutorials.setAll(tutorials);
-        });
+        tutorials.removeIf(item -> item.isHide());
+        this.tutorials.setAll(tutorials);
     }
 
     private final ListProperty<Video> videos = new SimpleListProperty<>(this, "videos", FXCollections.observableArrayList());
@@ -907,10 +905,8 @@ public class DataRepository extends Application {
     }
 
     public void setVideos(List<Video> videos) {
-        Platform.runLater(() -> {
-            videos.removeIf(item -> item.isHide());
-            this.videos.setAll(videos);
-        });
+        videos.removeIf(item -> item.isHide());
+        this.videos.setAll(videos);
     }
 
     private final ListProperty<Download> downloads = new SimpleListProperty<>(this, "downloads", FXCollections.observableArrayList());
@@ -925,10 +921,8 @@ public class DataRepository extends Application {
     }
 
     public void setDownloads(List<Download> downloads) {
-        Platform.runLater(() -> {
-            downloads.removeIf(item -> item.isHide());
-            this.downloads.setAll(downloads);
-        });
+        downloads.removeIf(item -> item.isHide());
+        this.downloads.setAll(downloads);
     }
 
     private final ListProperty<RealWorldApp> realWorldApps = new SimpleListProperty<>(this, "realWorldApps", FXCollections.observableArrayList());
@@ -942,10 +936,8 @@ public class DataRepository extends Application {
     }
 
     public void setRealWorldApps(List<RealWorldApp> realWorldApps) {
-        Platform.runLater(() -> {
-            realWorldApps.removeIf(item -> item.isHide());
-            this.realWorldApps.setAll(realWorldApps);
-        });
+        realWorldApps.removeIf(item -> item.isHide());
+        this.realWorldApps.setAll(realWorldApps);
     }
 
     private final ListProperty<Tool> tools = new SimpleListProperty<>(this, "tools", FXCollections.observableArrayList());
@@ -959,10 +951,8 @@ public class DataRepository extends Application {
     }
 
     public void setTools(List<Tool> tools) {
-        Platform.runLater(() -> {
-            tools.removeIf(item -> item.isHide());
-            this.tools.setAll(tools);
-        });
+        tools.removeIf(item -> item.isHide());
+        this.tools.setAll(tools);
     }
 
     private final ListProperty<Company> companies = new SimpleListProperty<>(this, "companies", FXCollections.observableArrayList());
@@ -976,10 +966,8 @@ public class DataRepository extends Application {
     }
 
     public void setCompanies(List<Company> companies) {
-        Platform.runLater(() -> {
-            companies.removeIf(item -> item.isHide());
-            this.companies.setAll(companies);
-        });
+        companies.removeIf(item -> item.isHide());
+        this.companies.setAll(companies);
     }
 
     private final ListProperty<Person> people = new SimpleListProperty<>(this, "people", FXCollections.observableArrayList());
@@ -993,13 +981,11 @@ public class DataRepository extends Application {
     }
 
     public void setPeople(List<Person> people) {
-        Platform.runLater(() -> {
-            people.removeIf(item -> item.isHide());
-            this.people.setAll(people);
-        });
+        people.removeIf(item -> item.isHide());
+        this.people.setAll(people);
     }
 
-    private File loadFile(String urlString) throws IOException {
+    private File getFile(String urlString) throws IOException {
         try {
             return new File(new URI(urlString));
         } catch (URISyntaxException e) {
@@ -1169,7 +1155,7 @@ public class DataRepository extends Application {
                 if (StringUtils.isNotBlank(url)) {
 
                     System.out.println("loading blog posts from url: " + url);
-                    setMessage("Loading blog: " + blog.getName());
+                    updateMessage("Loading blog: " + blog.getName());
 
                     SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
 
@@ -1279,35 +1265,7 @@ public class DataRepository extends Application {
         });
     }
 
-    private final StringProperty message = new SimpleStringProperty(this, "message");
-
-    public String getMessage() {
-        return message.get();
-    }
-
-    public StringProperty messageProperty() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        Platform.runLater(() -> {
-            this.message.set(message);
-        });
-    }
-
-    private final DoubleProperty progress = new SimpleDoubleProperty(this, "progress");
-
-    public double getProgress() {
-        return progress.get();
-    }
-
-    public DoubleProperty progressProperty() {
-        return progress;
-    }
-
-    public void setProgress(double progress) {
-        Platform.runLater(() -> {
-            this.progress.set(progress);
-        });
+    public void updateMessage(String message) {
+        System.out.println(message);
     }
 }
