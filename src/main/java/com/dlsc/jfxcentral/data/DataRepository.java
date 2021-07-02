@@ -132,6 +132,14 @@ public class DataRepository {
     }
 
     public void refreshData() {
+        if (ASYNC) {
+            Platform.runLater(() -> doRefreshData());
+        } else {
+            doRefreshData();
+        }
+    }
+
+    private void doRefreshData() {
         clearData();
         loadData();
 
@@ -333,7 +341,9 @@ public class DataRepository {
     }
 
     public void setRecentItems(ObservableList<ModelObject> recentItems) {
-        this.recentItems.set(recentItems);
+        Platform.runLater(() -> {
+            this.recentItems.set(recentItems);
+        });
     }
 
     public Optional<Person> getPersonById(String id) {
@@ -751,7 +761,9 @@ public class DataRepository {
     }
 
     public void setHomeText(String homeText) {
-        this.homeText.set(homeText);
+        Platform.runLater(() -> {
+            this.homeText.set(homeText);
+        });
     }
 
     private final StringProperty openJFXText = new SimpleStringProperty(this, "openJFXText");
@@ -765,7 +777,9 @@ public class DataRepository {
     }
 
     public void setOpenJFXText(String openJFXText) {
-        this.openJFXText.set(openJFXText);
+        Platform.runLater(() -> {
+            this.openJFXText.set(openJFXText);
+        });
     }
 
     private final ListProperty<Library> libraries = new SimpleListProperty<>(this, "libraries", FXCollections.observableArrayList());
@@ -779,8 +793,10 @@ public class DataRepository {
     }
 
     public void setLibraries(List<Library> libraries) {
-        this.libraries.setAll(libraries);
-        this.libraries.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.libraries.setAll(libraries);
+            this.libraries.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Blog> blogs = new SimpleListProperty<>(this, "blogs", FXCollections.observableArrayList());
@@ -794,8 +810,10 @@ public class DataRepository {
     }
 
     public void setBlogs(List<Blog> blogs) {
-        this.blogs.setAll(blogs);
-        this.blogs.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.blogs.setAll(blogs);
+            this.blogs.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<PullRequest> pullRequests = new SimpleListProperty<>(this, "pullRequests", FXCollections.observableArrayList());
@@ -809,7 +827,9 @@ public class DataRepository {
     }
 
     public void setPullRequests(List<PullRequest> pullRequests) {
-        this.pullRequests.setAll(pullRequests);
+        Platform.runLater(() -> {
+            this.pullRequests.setAll(pullRequests);
+        });
     }
 
     private final ListProperty<News> news = new SimpleListProperty<>(this, "news", FXCollections.observableArrayList());
@@ -823,8 +843,10 @@ public class DataRepository {
     }
 
     public void setNews(List<News> news) {
-        this.news.setAll(news);
-        this.news.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.news.setAll(news);
+            this.news.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Book> books = new SimpleListProperty<>(this, "books", FXCollections.observableArrayList());
@@ -838,8 +860,10 @@ public class DataRepository {
     }
 
     public void setBooks(List<Book> books) {
-        this.books.setAll(books);
-        this.books.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.books.setAll(books);
+            this.books.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Tutorial> tutorials = new SimpleListProperty<>(this, "tutorials", FXCollections.observableArrayList());
@@ -853,8 +877,10 @@ public class DataRepository {
     }
 
     public void setTutorials(List<Tutorial> tutorials) {
-        this.tutorials.setAll(tutorials);
-        this.tutorials.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.tutorials.setAll(tutorials);
+            this.tutorials.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Video> videos = new SimpleListProperty<>(this, "videos", FXCollections.observableArrayList());
@@ -868,8 +894,10 @@ public class DataRepository {
     }
 
     public void setVideos(List<Video> videos) {
-        this.videos.setAll(videos);
-        this.videos.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.videos.setAll(videos);
+            this.videos.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Download> downloads = new SimpleListProperty<>(this, "downloads", FXCollections.observableArrayList());
@@ -884,8 +912,10 @@ public class DataRepository {
     }
 
     public void setDownloads(List<Download> downloads) {
-        this.downloads.setAll(downloads);
-        this.downloads.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.downloads.setAll(downloads);
+            this.downloads.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<RealWorldApp> realWorldApps = new SimpleListProperty<>(this, "realWorldApps", FXCollections.observableArrayList());
@@ -899,8 +929,10 @@ public class DataRepository {
     }
 
     public void setRealWorldApps(List<RealWorldApp> realWorldApps) {
-        this.realWorldApps.setAll(realWorldApps);
-        this.realWorldApps.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.realWorldApps.setAll(realWorldApps);
+            this.realWorldApps.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Tool> tools = new SimpleListProperty<>(this, "tools", FXCollections.observableArrayList());
@@ -914,8 +946,10 @@ public class DataRepository {
     }
 
     public void setTools(List<Tool> tools) {
-        this.tools.setAll(tools);
-        this.tools.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.tools.setAll(tools);
+            this.tools.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Company> companies = new SimpleListProperty<>(this, "companies", FXCollections.observableArrayList());
@@ -929,8 +963,10 @@ public class DataRepository {
     }
 
     public void setCompanies(List<Company> companies) {
-        this.companies.setAll(companies);
-        this.companies.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.companies.setAll(companies);
+            this.companies.removeIf(item -> item.isHide());
+        });
     }
 
     private final ListProperty<Person> people = new SimpleListProperty<>(this, "people", FXCollections.observableArrayList());
@@ -944,8 +980,10 @@ public class DataRepository {
     }
 
     public void setPeople(List<Person> people) {
-        this.people.setAll(people);
-        this.people.removeIf(item -> item.isHide());
+        Platform.runLater(() -> {
+            this.people.setAll(people);
+            this.people.removeIf(item -> item.isHide());
+        });
     }
 
     private File loadFile(String urlString) throws IOException {
@@ -1080,7 +1118,9 @@ public class DataRepository {
     }
 
     public void setLoadingFeeds(boolean loadingFeeds) {
-        this.loadingFeeds.set(loadingFeeds);
+        Platform.runLater(() -> {
+            this.loadingFeeds.set(loadingFeeds);
+        });
     }
 
     private final BooleanProperty loadingPullRequests = new SimpleBooleanProperty(this, "loadingPullRequests", false);
@@ -1094,7 +1134,9 @@ public class DataRepository {
     }
 
     public void setLoadingPullRequests(boolean loadingPullRequests) {
-        this.loadingPullRequests.set(loadingPullRequests);
+        Platform.runLater(() -> {
+            this.loadingPullRequests.set(loadingPullRequests);
+        });
     }
 
     public void loadFeeds() throws IOException, FeedException {
@@ -1145,7 +1187,11 @@ public class DataRepository {
         setLoadingPullRequests(true);
 
         try {
-            Platform.runLater(() -> getPullRequests().clear());
+            if (ASYNC) {
+                Platform.runLater(() -> getPullRequests().clear());
+            } else {
+                getPullRequests().clear();
+            }
 
             HttpURLConnection con = null;
 
@@ -1227,7 +1273,9 @@ public class DataRepository {
     }
 
     public void setMessage(String message) {
-        this.message.set(message);
+        Platform.runLater(() -> {
+            this.message.set(message);
+        });
     }
 
     private final DoubleProperty progress = new SimpleDoubleProperty(this, "progress");
@@ -1241,6 +1289,8 @@ public class DataRepository {
     }
 
     public void setProgress(double progress) {
-        this.progress.set(progress);
+        Platform.runLater(() -> {
+            this.progress.set(progress);
+        });
     }
 }
