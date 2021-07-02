@@ -157,15 +157,18 @@ public class DataRepository extends Application {
 
     public void refreshData() {
         if (ASYNC) {
-            Platform.runLater(() -> doRefreshData());
-        } else {
-            doRefreshData();
-        }
-    }
 
-    private void doRefreshData() {
-        clearData();
-        loadData();
+            Platform.runLater(() -> clearData());
+
+            Thread thread = new Thread(() -> loadData());
+            thread.setName("Data Repository Refresh Thread");
+            thread.setDaemon(true);
+            thread.start();
+
+        } else {
+            clearData();
+            loadData();
+        }
     }
 
     public void clearData() {
