@@ -163,3 +163,13 @@ samples found in *FlexGanttFX*, *CalendarFX*, and *ControlsFX* at the same time.
 location of the service provider file and its content inside the `CalendarFXSampler` module.
 
 [![Screen8](screen8.png)]()
+
+### Service Provider & Module System
+
+In Java 11+ projects often use the Java module system. If your application is one of them then you also need to make
+changes to the `module-info.java` file. For CalendarFX it would look like this:
+
+```java
+provides fxsampler.FXSamplerProject with com.calendarfx.demo.CalendarFXFXSamplerProject;
+uses fxsampler.FXSamplerProject;
+```
