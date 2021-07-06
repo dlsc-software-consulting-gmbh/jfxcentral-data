@@ -163,5 +163,30 @@
         "package": "PKG"
       }
     ]
+  },
+  {
+    "id": "jdkmon",
+    "title": "JDKMon",
+    "tags": "jdkmon, tools, jdk, openjdk",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "g.grunwald"
+    ],
+    "createdOn": "2021-07-06",
+    "modifiedOn": "2021-07-06",
+    "files": [
+      {
+        "name": "MSI Installer (Windows)",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/3.7/JDKMon-16.0.0.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/3.7/JDKMon-16.0.0.pkg",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
   }
 ]
