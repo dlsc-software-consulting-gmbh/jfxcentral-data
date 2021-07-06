@@ -34,10 +34,6 @@ import java.util.stream.Collectors;
 
 public class DataRepository extends Application {
 
-    public static void main(String[] args) {
-        DataRepository repo = DataRepository.getInstance();
-    }
-
     public enum Source {
 
         LIVE("live"),
@@ -104,26 +100,26 @@ public class DataRepository extends Application {
         if (ASYNC) {
             getBlogs().addListener((Observable it) -> {
                 if (!getBlogs().isEmpty()) {
-                    Thread loadFeedsThread = new Thread(() -> loadFeeds());
+                    Thread loadFeedsThread = new Thread(() -> loadFeeds("load because list of blogs changed, size = " + getBlogs().size()));
                     loadFeedsThread.setName("Update feeds thread");
                     loadFeedsThread.setDaemon(true);
                     loadFeedsThread.start();
                 }
             });
 
-            Thread loadPullRequestsThread = new Thread(() -> loadPullRequests());
+            Thread loadPullRequestsThread = new Thread(() -> loadPullRequests("initial load via constructor async thread"));
             loadPullRequestsThread.setName("Update OpenJFX pull requests thread");
             loadPullRequestsThread.setDaemon(true);
             loadPullRequestsThread.start();
 
-            Thread thread = new Thread(() -> loadData());
+            Thread thread = new Thread(() -> loadData("initial load via constructor async thread"));
             thread.setName("Data Repository Thread");
             thread.setDaemon(true);
             thread.start();
         } else {
-            loadData();
-            loadFeeds();
-            loadPullRequests();
+            loadData("initial load in constructor");
+            loadFeeds("initial load in constructor");
+            loadPullRequests("initial load in constructor");
         }
 
         loadFeedsAndPullRequestsAsynchronously();
@@ -131,7 +127,6 @@ public class DataRepository extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
     }
 
     private void loadFeedsAndPullRequestsAsynchronously() {
@@ -144,8 +139,8 @@ public class DataRepository extends Application {
                     e.printStackTrace();
                 }
 
-                loadFeeds();
-                loadPullRequests();
+                loadFeeds("periodic background load");
+                loadPullRequests("periodic background load");
             }
         });
 
@@ -159,14 +154,14 @@ public class DataRepository extends Application {
 
             Platform.runLater(() -> clearData());
 
-            Thread thread = new Thread(() -> loadData());
+            Thread thread = new Thread(() -> loadData("explicit async call to refresh method"));
             thread.setName("Data Repository Refresh Thread");
             thread.setDaemon(true);
             thread.start();
 
         } else {
             clearData();
-            loadData();
+            loadData("explicit call to refresh method");
         }
     }
 
@@ -201,7 +196,9 @@ public class DataRepository extends Application {
         getTutorials().clear();
     }
 
-    private void loadData() {
+    private void loadData(String reason) {
+        System.out.println("loading data, reason = " + reason);
+
         try {
             updateMessage("");
 
@@ -280,39 +277,9 @@ public class DataRepository extends Application {
             List<ModelObject> recentItems = findRecentItems();
 
             if (ASYNC) {
-                Platform.runLater(() -> {
-                    setOpenJFXText(openJFXText);
-                    setHomeText(homeText);
-
-                    setPeople(people);
-                    setBooks(books);
-                    setVideos(videos);
-                    setLibraries(libraries);
-                    setNews(news);
-                    setBlogs(blogs);
-                    setCompanies(companies);
-                    setTools(tools);
-                    setRealWorldApps(realWorldApps);
-                    setDownloads(downloads);
-                    setTutorials(tutorials);
-                    setRecentItems(recentItems);
-                });
+                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, recentItems));
             } else {
-                setOpenJFXText(openJFXText);
-                setHomeText(homeText);
-
-                setPeople(people);
-                setBooks(books);
-                setVideos(videos);
-                setLibraries(libraries);
-                setNews(news);
-                setBlogs(blogs);
-                setCompanies(companies);
-                setTools(tools);
-                setRealWorldApps(realWorldApps);
-                setDownloads(downloads);
-                setTutorials(tutorials);
-                setRecentItems(recentItems);
+                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, recentItems);
             }
 
         } catch (Exception e) {
@@ -320,6 +287,24 @@ public class DataRepository extends Application {
         } finally {
             loaded = true;
         }
+    }
+
+    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<ModelObject> recentItems) {
+        setOpenJFXText(openJFXText);
+        setHomeText(homeText);
+
+        setPeople(people);
+        setBooks(books);
+        setVideos(videos);
+        setLibraries(libraries);
+        setNews(news);
+        setBlogs(blogs);
+        setCompanies(companies);
+        setTools(tools);
+        setRealWorldApps(realWorldApps);
+        setDownloads(downloads);
+        setTutorials(tutorials);
+        setRecentItems(recentItems);
     }
 
     private List<ModelObject> findRecentItems() {
@@ -332,6 +317,10 @@ public class DataRepository extends Application {
         result.addAll(findRecentItems(getBlogs()));
         result.addAll(findRecentItems(getCompanies()));
         result.addAll(findRecentItems(getPosts()));
+        result.addAll(findRecentItems(getTools()));
+        result.addAll(findRecentItems(getTutorials()));
+        result.addAll(findRecentItems(getRealWorldApps()));
+        result.addAll(findRecentItems(getDownloads()));
 
         // newest ones on top
         Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
@@ -1138,7 +1127,9 @@ public class DataRepository extends Application {
         });
     }
 
-    public void loadFeeds() {
+    public void loadFeeds(String reason) {
+        System.out.println("loading feeds, reason = " + reason);
+
         setLoadingFeeds(true);
 
         try {
@@ -1184,8 +1175,8 @@ public class DataRepository extends Application {
         }
     }
 
-    public void loadPullRequests() {
-        System.out.println("loading pull requests");
+    public void loadPullRequests(String reason) {
+        System.out.println("loading pull requests, reason = " + reason);
 
         setLoadingPullRequests(true);
 

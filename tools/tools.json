@@ -90,5 +90,16 @@
     "videoIds": [
       "RELKg32xEWU"
     ]
+  },
+  {
+    "id": "fxsampler",
+    "name": "FXSampler",
+    "summary": "Framework for example showcases.",
+    "description": "FXSampler is a small framework for creating a consistent set of samples (examples, demos) for the controls contained within a JavaFX library. FXSampler is a subproject of ControlsFX.",
+    "tags": "sample, demo, showcase",
+    "groupId": "org.openjfx",
+    "artifactId": "fxsampler",
+    "homepage": "https://controlsfx.github.io/fxsampler/",
+    "repository": "https://github.com/controlsfx/controlsfx"
   }
 ]

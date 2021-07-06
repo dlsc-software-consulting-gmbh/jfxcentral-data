@@ -569,7 +569,7 @@ public class DataRepositoryTest {
         DataRepository repository = DataRepository.getInstance();
 
         // when
-        repository.loadPullRequests();
+        repository.loadPullRequests("loading in test");
 
         // then
         ObservableList<PullRequest> pullRequests = repository.getPullRequests();
