@@ -37,7 +37,7 @@ To download an update just click on the archive type tag and choose a folder
 where the download should be stored.
 
 How it looks on MacOS and Linux:
-![Screenshot](https://github.com/HanSolo/jfxcentral-data/raw/JDKMon/downloads/jdkmon/banner.jpg)
+![Screenshot](banner.jpg)
 
 
 How it looks on Windows:
