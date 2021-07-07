@@ -194,6 +194,7 @@ public class DataRepository extends Application {
         getRealWorldApps().clear();
         getDownloads().clear();
         getTutorials().clear();
+        getTips().clear();
     }
 
     private void loadData(String reason) {
@@ -274,12 +275,18 @@ public class DataRepository extends Application {
             List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
             }.getType());
 
+            // load downloads
+            updateMessage("Loading index of tips");
+            File tipsFile = getFile(getBaseUrl() + "tips/tips.json");
+            List<Tip> tips = gson.fromJson(new FileReader(tipsFile), new TypeToken<List<Tip>>() {
+            }.getType());
+
             List<ModelObject> recentItems = findRecentItems();
 
             if (ASYNC) {
-                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, recentItems));
+                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, recentItems));
             } else {
-                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, recentItems);
+                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, recentItems);
             }
 
         } catch (Exception e) {
@@ -289,7 +296,7 @@ public class DataRepository extends Application {
         }
     }
 
-    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<ModelObject> recentItems) {
+    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<Tip> tips, List<ModelObject> recentItems) {
         setOpenJFXText(openJFXText);
         setHomeText(homeText);
 
@@ -305,6 +312,7 @@ public class DataRepository extends Application {
         setDownloads(downloads);
         setTutorials(tutorials);
         setRecentItems(recentItems);
+        setTips(tips);
     }
 
     private List<ModelObject> findRecentItems() {
@@ -321,6 +329,7 @@ public class DataRepository extends Application {
         result.addAll(findRecentItems(getTutorials()));
         result.addAll(findRecentItems(getRealWorldApps()));
         result.addAll(findRecentItems(getDownloads()));
+        result.addAll(findRecentItems(getTips()));
 
         // newest ones on top
         Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
@@ -866,6 +875,20 @@ public class DataRepository extends Application {
     public void setBooks(List<Book> books) {
         books.removeIf(item -> item.isHide());
         this.books.setAll(books);
+    }
+
+    private final ListProperty<Tip> tips = new SimpleListProperty<>(this, "tips", FXCollections.observableArrayList());
+
+    public ObservableList<Tip> getTips() {
+        return tips.get();
+    }
+
+    public ListProperty<Tip> tipsProperty() {
+        return tips;
+    }
+
+    public void setTips(List<Tip> tips) {
+        this.tips.setAll(tips);
     }
 
     private final ListProperty<Tutorial> tutorials = new SimpleListProperty<>(this, "tutorials", FXCollections.observableArrayList());
