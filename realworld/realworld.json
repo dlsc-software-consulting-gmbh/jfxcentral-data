@@ -66,7 +66,13 @@
     "url": "https://eizo-or.com/en/global/products/or-software/curator-caliop-vm/",
     "domain": "Medical",
     "tags": "medical, health, operating room, surgery, video, displays",
-    "summary": "Experience the future of operating room technology"
+    "summary": "Experience the future of operating room technology",
+    "videoIds": [
+      "O6OUmwLAPYM"
+    ],
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "emirates",

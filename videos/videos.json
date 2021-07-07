@@ -847,5 +847,21 @@
       "b.borges",
       "j.pereda"
     ]
+  },
+  {
+    "name": "EIZO CuratOR - Comprehensive Solutions for the Integrated OR",
+    "tags": "or, medical, surgery, video, recording",
+    "type": "Real World Application",
+    "domain": "Medical",
+    "description": "CuratOR means powerful image reproduction and video management technology for visual OR solutions. Designed with scalability and expandability in mind, EIZO offers products and solutions specifically tailored to the requirements and workflow in the OR.",
+    "id": "O6OUmwLAPYM",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-07-07",
+    "modifiedOn": "2021-07-07",
+    "publishedOn": "2013-07-07",
+    "personIds": [
+      "d.lemmermann"
+    ]
   }
 ]

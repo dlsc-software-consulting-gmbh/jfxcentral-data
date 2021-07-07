@@ -449,6 +449,8 @@ public class DataRepository extends Application {
             return modelObject.getBlogIds();
         } else if (clazz.equals(Company.class)) {
             return modelObject.getCompanyIds();
+        } else if (clazz.equals(Tip.class)) {
+            return modelObject.getTipIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -477,6 +479,8 @@ public class DataRepository extends Application {
             return (List<T>) blogs.get();
         } else if (clazz.equals(Company.class)) {
             return (List<T>) companies.get();
+        } else if (clazz.equals(Tip.class)) {
+            return (List<T>) tips.get();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -520,6 +524,14 @@ public class DataRepository extends Application {
 
     public ListProperty<RealWorldApp> getRealWorldAppsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, RealWorldApp.class);
+    }
+
+    public ListProperty<Person> getPeopleByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Person.class);
+    }
+
+    public ListProperty<Tip> getTipsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Tip.class);
     }
 
     public ObjectProperty<LibraryInfo> libraryInfoProperty(Library library) {

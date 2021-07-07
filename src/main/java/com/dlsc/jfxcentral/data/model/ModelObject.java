@@ -29,6 +29,7 @@ public abstract class ModelObject {
     private List<String> videoIds = new ArrayList<>();
     private List<String> appIds = new ArrayList<>();
     private List<String> blogIds = new ArrayList<>();
+    private List<String> tipIds = new ArrayList<>();
 
     protected ModelObject() {
     }
@@ -223,6 +224,14 @@ public abstract class ModelObject {
 
     public void setBlogIds(List<String> blogIds) {
         this.blogIds = blogIds;
+    }
+
+    public List<String> getTipIds() {
+        return tipIds;
+    }
+
+    public void setTipIds(List<String> tipIds) {
+        this.tipIds = tipIds;
     }
 
     public LocalDate getCreationOrUpdateDate() {
