@@ -2,12 +2,9 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Library extends ModelObject implements Coordinates{
 
-    private String title;
+    private String name;
     private String summary;
     private String description;
     private String homepage;
@@ -22,14 +19,9 @@ public class Library extends ModelObject implements Coordinates{
     private String githubProject;
 
     private boolean ensemble;
+    private boolean logoAvailable;
 
     private License license;
-
-    private List<String> downloadIds = new ArrayList<>();
-    private List<String> videoIds = new ArrayList<>();
-    private List<String> tutorialIds = new ArrayList<>();
-
-    private boolean logoAvailable;
 
     public Library() {
     }
@@ -44,7 +36,7 @@ public class Library extends ModelObject implements Coordinates{
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
             return true;
         }
 
@@ -87,12 +79,12 @@ public class Library extends ModelObject implements Coordinates{
         this.summary = summary;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getDescription() {
@@ -181,30 +173,6 @@ public class Library extends ModelObject implements Coordinates{
 
     public void setJavadocs(String javadocs) {
         this.javadocs = javadocs;
-    }
-
-    public List<String> getDownloadIds() {
-        return downloadIds;
-    }
-
-    public void setDownloadIds(List<String> downloadIds) {
-        this.downloadIds = downloadIds;
-    }
-
-    public List<String> getVideoIds() {
-        return videoIds;
-    }
-
-    public void setVideoIds(List<String> videoIds) {
-        this.videoIds = videoIds;
-    }
-
-    public List<String> getTutorialIds() {
-        return tutorialIds;
-    }
-
-    public void setTutorialIds(List<String> tutorialIds) {
-        this.tutorialIds = tutorialIds;
     }
 
     public String getRepository() {

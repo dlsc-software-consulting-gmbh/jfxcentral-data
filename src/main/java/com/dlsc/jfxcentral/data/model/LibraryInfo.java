@@ -3,23 +3,13 @@ package com.dlsc.jfxcentral.data.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LibraryInfo extends ModelObject {
-
-    private String libraryId;
+public class LibraryInfo {
 
     private List<Image> images = new ArrayList<>();
 
     private List<Video> videos = new ArrayList<>();
 
     public LibraryInfo() {
-    }
-
-    public String getLibraryId() {
-        return libraryId;
-    }
-
-    public void setLibraryId(String libraryId) {
-        this.libraryId = libraryId;
     }
 
     public List<Image> getImages() {

@@ -12,29 +12,27 @@ import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.FeedException;
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
+import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.beans.Observable;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.stage.Stage;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.*;
 import java.net.*;
-import java.nio.channels.Channels;
-import java.nio.channels.FileChannel;
-import java.nio.channels.ReadableByteChannel;
 import java.text.MessageFormat;
 import java.time.Duration;
 import java.time.LocalDate;
-import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
-public class DataRepository {
+public class DataRepository extends Application {
 
     public enum Source {
 
@@ -54,7 +52,7 @@ public class DataRepository {
 
     public static boolean ASYNC = true;
 
-    public static String BASE_URL = "https://raw.githubusercontent.com/dlemmermann/jfxcentral-data/";
+    public static String BASE_URL = "file:/Users/lemmi/jfxcentralrepo/"; //https://raw.githubusercontent.com/dlemmermann/jfxcentral-data/";
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
@@ -99,44 +97,72 @@ public class DataRepository {
     }
 
     private DataRepository() {
-        recentItems.addListener((Observable it) -> System.out.println("recent items count: " + getRecentItems().size()));
-        sourceProperty().addListener(it -> refreshData());
-
         if (ASYNC) {
-            Thread thread = new Thread(() -> loadData());
+            getBlogs().addListener((Observable it) -> {
+                if (!getBlogs().isEmpty()) {
+                    Thread loadFeedsThread = new Thread(() -> loadFeeds("load because list of blogs changed, size = " + getBlogs().size()));
+                    loadFeedsThread.setName("Update feeds thread");
+                    loadFeedsThread.setDaemon(true);
+                    loadFeedsThread.start();
+                }
+            });
+
+            Thread loadPullRequestsThread = new Thread(() -> loadPullRequests("initial load via constructor async thread"));
+            loadPullRequestsThread.setName("Update OpenJFX pull requests thread");
+            loadPullRequestsThread.setDaemon(true);
+            loadPullRequestsThread.start();
+
+            Thread thread = new Thread(() -> loadData("initial load via constructor async thread"));
             thread.setName("Data Repository Thread");
             thread.setDaemon(true);
             thread.start();
+        } else {
+            loadData("initial load in constructor");
+            loadFeeds("initial load in constructor");
+            loadPullRequests("initial load in constructor");
+        }
 
-            // update feeds and pull requests every 12 hours
-            Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
+        loadFeedsAndPullRequestsAsynchronously();
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+    }
+
+    private void loadFeedsAndPullRequestsAsynchronously() {
+        // update feeds and pull requests every couple of hours
+        Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
+            while (true) {
                 try {
-                    Thread.sleep(Duration.ofHours(12).toMillis());
+                    Thread.sleep(Duration.ofHours(3).toMillis());
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
 
-                try {
-                    readFeeds();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (FeedException e) {
-                    e.printStackTrace();
-                }
+                loadFeeds("periodic background load");
+                loadPullRequests("periodic background load");
+            }
+        });
 
-                loadPullRequests();
-            });
-            updateFeedsAndPullRequestsThread.setName("Data Repository Feeds Update Thread");
-            updateFeedsAndPullRequestsThread.setDaemon(true);
-            updateFeedsAndPullRequestsThread.start();
-        } else {
-            loadData();
-        }
+        updateFeedsAndPullRequestsThread.setName("Data Repository Feeds Update Thread");
+        updateFeedsAndPullRequestsThread.setDaemon(true);
+        updateFeedsAndPullRequestsThread.start();
     }
 
     public void refreshData() {
-        clearData();
-        loadData();
+        if (ASYNC) {
+
+            Platform.runLater(() -> clearData());
+
+            Thread thread = new Thread(() -> loadData("explicit async call to refresh method"));
+            thread.setName("Data Repository Refresh Thread");
+            thread.setDaemon(true);
+            thread.start();
+
+        } else {
+            clearData();
+            loadData("explicit call to refresh method");
+        }
     }
 
     public void clearData() {
@@ -170,116 +196,91 @@ public class DataRepository {
         getTutorials().clear();
     }
 
-    private void loadData() {
+    private void loadData(String reason) {
+        System.out.println("loading data, reason = " + reason);
+
         try {
-            double steps = 15d;
+            updateMessage("");
 
-            setProgress(0);
-            setMessage("");
+            updateMessage("Loading introduction text");
+            String homeText = loadString(getBaseUrl() + "intro.md");
 
-            setMessage("Loading text for start page");
-            setHomeText(loadString(getBaseUrl() + "intro.md?time=" + ZonedDateTime.now().toInstant()));
-            setProgress(getProgress() + 1 / steps);
-
-            setMessage("Loading text for OpenJFX project");
-            setOpenJFXText(loadString(getBaseUrl() + "openjfx/intro.md?time=" + ZonedDateTime.now().toInstant()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading OpenJFX description");
+            String openJFXText = loadString(getBaseUrl() + "openjfx/intro.md");
 
             // load people
-            setMessage("Loading index of people");
-            File peopleFile = loadFile("people", getBaseUrl() + "people/people.json");
-            setPeople(gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of people");
+            File peopleFile = getFile(getBaseUrl() + "people/people.json");
+            List<Person> people = gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
+            }.getType());
 
             // load books
-            setMessage("Loading index of books");
-            File booksFile = loadFile("books", getBaseUrl() + "books/books.json");
-            setBooks(gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of books");
+            File booksFile = getFile(getBaseUrl() + "books/books.json");
+            List<Book> books = gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
+            }.getType());
 
             // load videos
-            setMessage("Loading index of videos");
-            File videosFile = loadFile("videos", getBaseUrl() + "videos/videos.json");
-            setVideos(gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of videos");
+            File videosFile = getFile(getBaseUrl() + "videos/videos.json");
+            List<Video> videos = gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of libraries");
-            File librariesFile = loadFile("libraries", getBaseUrl() + "libraries/libraries.json");
-            setLibraries(gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of libraries");
+            File librariesFile = getFile(getBaseUrl() + "libraries/libraries.json");
+            List<Library> libraries = gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of news");
-            File newsFile = loadFile("news", getBaseUrl() + "news/news.json");
-            setNews(gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of news");
+            File newsFile = getFile(getBaseUrl() + "news/news.json");
+            List<News> news = gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of blogs");
-            File blogsFile = loadFile("blogs", getBaseUrl() + "blogs/blogs.json");
-            setBlogs(gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of blogs");
+            File blogsFile = getFile(getBaseUrl() + "blogs/blogs.json");
+            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
+            }.getType());
 
             // load libraries
-            setMessage("Loading index of companies");
-            File companiesFile = loadFile("companies", getBaseUrl() + "companies/companies.json");
-            setCompanies(gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of companies");
+            File companiesFile = getFile(getBaseUrl() + "companies/companies.json");
+            List<Company> companies = gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
+            }.getType());
 
             // load tools
-            setMessage("Loading index of tools");
-            File toolsFile = loadFile("tools", getBaseUrl() + "tools/tools.json");
-            setTools(gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of tools");
+            File toolsFile = getFile(getBaseUrl() + "tools/tools.json");
+            List<Tool> tools = gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
+            }.getType());
 
             // load real world apps
-            setMessage("Loading index of real world apps");
-            File realWorldFile = loadFile("realworld", getBaseUrl() + "realworld/realworld.json");
-            setRealWorldApps(gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of real world apps");
+            File realWorldFile = getFile(getBaseUrl() + "realworld/realworld.json");
+            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
+            }.getType());
 
             // load downloads
-            setMessage("Loading index of downloads");
-            File downloadsFile = loadFile("downloads", getBaseUrl() + "downloads/downloads.json");
-            setDownloads(gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of downloads");
+            File downloadsFile = getFile(getBaseUrl() + "downloads/downloads.json");
+            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
+            }.getType());
 
             // load downloads
-            setMessage("Loading index of tutorials");
-            File tutorialsFile = loadFile("tutorials", getBaseUrl() + "tutorials/tutorials.json");
-            setTutorials(gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
-            }.getType()));
-            setProgress(getProgress() + 1 / steps);
+            updateMessage("Loading index of tutorials");
+            File tutorialsFile = getFile(getBaseUrl() + "tutorials/tutorials.json");
+            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
+            }.getType());
 
-            if (!Boolean.getBoolean("no.feeds")) {
-                setMessage("Loading blog feeds");
-                readFeeds();
+            List<ModelObject> recentItems = findRecentItems();
+
+            if (ASYNC) {
+                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, recentItems));
+            } else {
+                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, recentItems);
             }
-            setProgress(getProgress() + 1 / steps);
-
-            if (!Boolean.getBoolean("no.feeds")) {
-                setMessage("Loading pull requests from OpenJFX project");
-                loadPullRequests();
-            }
-            setProgress(getProgress() + 1 / steps);
-
-            setMessage("Updating list of recent items");
-            updateRecentItems();
-            setProgress(getProgress() + 1 / steps);
-
-            setMessage("Done loading");
-            setProgress(1);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -288,16 +289,43 @@ public class DataRepository {
         }
     }
 
-    private void updateRecentItems() {
-        getRecentItems().clear();
-        getRecentItems().addAll(findRecentItems(getNews()));
-        getRecentItems().addAll(findRecentItems(getPeople()));
-        getRecentItems().addAll(findRecentItems(getBooks()));
-        getRecentItems().addAll(findRecentItems(getLibraries()));
-        getRecentItems().addAll(findRecentItems(getVideos()));
-        getRecentItems().addAll(findRecentItems(getBlogs()));
-        getRecentItems().addAll(findRecentItems(getCompanies()));
-        getRecentItems().addAll(findRecentItems(getPosts()));
+    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<ModelObject> recentItems) {
+        setOpenJFXText(openJFXText);
+        setHomeText(homeText);
+
+        setPeople(people);
+        setBooks(books);
+        setVideos(videos);
+        setLibraries(libraries);
+        setNews(news);
+        setBlogs(blogs);
+        setCompanies(companies);
+        setTools(tools);
+        setRealWorldApps(realWorldApps);
+        setDownloads(downloads);
+        setTutorials(tutorials);
+        setRecentItems(recentItems);
+    }
+
+    private List<ModelObject> findRecentItems() {
+        List<ModelObject> result = new ArrayList<>();
+        result.addAll(findRecentItems(getNews()));
+        result.addAll(findRecentItems(getPeople()));
+        result.addAll(findRecentItems(getBooks()));
+        result.addAll(findRecentItems(getLibraries()));
+        result.addAll(findRecentItems(getVideos()));
+        result.addAll(findRecentItems(getBlogs()));
+        result.addAll(findRecentItems(getCompanies()));
+        result.addAll(findRecentItems(getPosts()));
+        result.addAll(findRecentItems(getTools()));
+        result.addAll(findRecentItems(getTutorials()));
+        result.addAll(findRecentItems(getRealWorldApps()));
+        result.addAll(findRecentItems(getDownloads()));
+
+        // newest ones on top
+        Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
+
+        return result;
     }
 
     private List<ModelObject> findRecentItems(List<? extends ModelObject> items) {
@@ -311,7 +339,7 @@ public class DataRepository {
                 date = item.getCreatedOn();
             }
             if (date != null) {
-                if (date.isAfter(today.minusWeeks(2))) {
+                if (date.isAfter(today.minusWeeks(4))) {
                     result.add(item);
                 }
             }
@@ -330,8 +358,8 @@ public class DataRepository {
         return recentItems;
     }
 
-    public void setRecentItems(ObservableList<ModelObject> recentItems) {
-        this.recentItems.set(recentItems);
+    public void setRecentItems(List<ModelObject> recentItems) {
+        this.recentItems.setAll(recentItems);
     }
 
     public Optional<Person> getPersonById(String id) {
@@ -378,67 +406,108 @@ public class DataRepository {
         return tutorials.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
-    public ListProperty<Video> getVideosByPerson(Person person) {
-        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(videos.stream().filter(video -> video.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
+    public <T extends ModelObject> ListProperty<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
+        List<T> itemList = getList(clazz);
+        List<String> idsList = getIdList(modelObject, clazz);
+        ListProperty<T> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
+        listProperty.setAll(itemList.stream().filter(item -> idsList.contains(item.getId()) || getIdList(item, modelObject.getClass()).contains(modelObject.getId())).collect(Collectors.toList()));
         return listProperty;
     }
 
-    public ListProperty<Video> getVideosByLibrary(Library library) {
-        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(library.getVideoIds().stream().map(id -> getVideoById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    private <T extends ModelObject> List<String> getIdList(ModelObject modelObject, Class<T> clazz) {
+        if (clazz.equals(Video.class)) {
+            return modelObject.getVideoIds();
+        } else if (clazz.equals(Book.class)) {
+            return modelObject.getBookIds();
+        } else if (clazz.equals(Library.class)) {
+            return modelObject.getLibraryIds();
+        } else if (clazz.equals(Tutorial.class)) {
+            return modelObject.getTutorialIds();
+        } else if (clazz.equals(Download.class)) {
+            return modelObject.getDownloadIds();
+        } else if (clazz.equals(Person.class)) {
+            return modelObject.getPersonIds();
+        } else if (clazz.equals(Tool.class)) {
+            return modelObject.getToolIds();
+        } else if (clazz.equals(RealWorldApp.class)) {
+            return modelObject.getAppIds();
+        } else if (clazz.equals(News.class)) {
+            return modelObject.getNewsIds();
+        } else if (clazz.equals(Blog.class)) {
+            return modelObject.getBlogIds();
+        } else if (clazz.equals(Company.class)) {
+            return modelObject.getCompanyIds();
+        }
+
+        throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
     }
 
-    public ListProperty<Video> getVideosByTool(Tool tool) {
-        ListProperty<Video> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(tool.getVideoIds().stream().map(id -> getVideoById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    private <T extends ModelObject> List<T> getList(Class<T> clazz) {
+        if (clazz.equals(Video.class)) {
+            return (List<T>) videos.get();
+        } else if (clazz.equals(Book.class)) {
+            return (List<T>) books.get();
+        } else if (clazz.equals(Library.class)) {
+            return (List<T>) libraries.get();
+        } else if (clazz.equals(Tutorial.class)) {
+            return (List<T>) tutorials.get();
+        } else if (clazz.equals(Download.class)) {
+            return (List<T>) downloads.get();
+        } else if (clazz.equals(Person.class)) {
+            return (List<T>) people.get();
+        } else if (clazz.equals(Tool.class)) {
+            return (List<T>) tools.get();
+        } else if (clazz.equals(RealWorldApp.class)) {
+            return (List<T>) realWorldApps.get();
+        } else if (clazz.equals(News.class)) {
+            return (List<T>) news.get();
+        } else if (clazz.equals(Blog.class)) {
+            return (List<T>) blogs.get();
+        } else if (clazz.equals(Company.class)) {
+            return (List<T>) companies.get();
+        }
+
+        throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
     }
 
-    public ListProperty<Download> getDownloadsByLibrary(Library library) {
-        ListProperty<Download> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(library.getDownloadIds().stream().map(id -> getDownloadById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Video> getVideosByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Video.class);
     }
 
-    public ListProperty<Download> getDownloadsByTool(Tool tool) {
-        ListProperty<Download> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(tool.getDownloadIds().stream().map(id -> getDownloadById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Download> getDownloadsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Download.class);
     }
 
-    public ListProperty<Tutorial> getTutorialsByLibrary(Library library) {
-        ListProperty<Tutorial> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(library.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Book> getBooksByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Book.class);
     }
 
-    public ListProperty<Tutorial> getTutorialsByTool(Tool tool) {
-        ListProperty<Tutorial> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(tool.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Tutorial> getTutorialsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Tutorial.class);
     }
 
-    public ListProperty<Blog> getBlogsByPerson(Person person) {
-        ListProperty<Blog> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(blogs.stream().filter(blog -> blog.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
-        return listProperty;
+    public ListProperty<Blog> getBlogsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Blog.class);
     }
 
-    public ListProperty<Library> getLibrariesByPerson(Person person) {
-        List<Library> result = person.getLibraryIds().stream().map(id -> getLibraryById(id).get()).collect(Collectors.toList());
-        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    public ListProperty<Library> getLibrariesByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Library.class);
     }
 
-    public ListProperty<Tutorial> getTutorialsByPerson(Person person) {
-        List<Tutorial> result = person.getTutorialIds().stream().map(id -> getTutorialById(id).get()).collect(Collectors.toList());
-        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    public ListProperty<Tool> getToolsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Tool.class);
     }
 
-    public ListProperty<Tool> getToolsByPerson(Person person) {
-        List<Tool> result = person.getToolIds().stream().map(id -> getToolById(id).get()).collect(Collectors.toList());
-        return new SimpleListProperty<>(FXCollections.observableArrayList(result));
+    public ListProperty<News> getNewsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, News.class);
+    }
+
+    public ListProperty<Company> getCompaniesByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Company.class);
+    }
+
+    public ListProperty<RealWorldApp> getRealWorldAppsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, RealWorldApp.class);
     }
 
     public ObjectProperty<LibraryInfo> libraryInfoProperty(Library library) {
@@ -458,7 +527,7 @@ public class DataRepository {
     private void loadLibraryInfoText(Library library, ObjectProperty<LibraryInfo> infoProperty) {
         try {
             String libraryId = library.getId();
-            File file = loadFile(libraryId + ".json", getBaseUrl() + "libraries/" + libraryId + "/info.json?time=" + ZonedDateTime.now().toInstant());
+            File file = getFile(getBaseUrl() + "libraries/" + libraryId + "/info.json");
             LibraryInfo result = gson.fromJson(new FileReader(file), LibraryInfo.class);
             if (ASYNC) {
                 Platform.runLater(() -> infoProperty.set(result));
@@ -485,7 +554,7 @@ public class DataRepository {
     }
 
     private void loadNewsText(News news, StringProperty textProperty) {
-        String url = getNewsBaseUrl(news) + "/text.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getNewsBaseUrl(news) + "/text.md";
         System.out.println("loading news from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -510,7 +579,7 @@ public class DataRepository {
     }
 
     private void loadTutorialText(Tutorial tutorial, StringProperty textProperty) {
-        String url = getBaseUrl() + "tutorials/" + tutorial.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getBaseUrl() + "tutorials/" + tutorial.getId() + "/readme.md";
         System.out.println("loading tutorial from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -535,7 +604,7 @@ public class DataRepository {
     }
 
     private void loadDownloadText(Download download, StringProperty textProperty) {
-        String url = getBaseUrl() + "downloads/" + download.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getBaseUrl() + "downloads/" + download.getId() + "/readme.md";
         System.out.println("loading download text from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -560,7 +629,7 @@ public class DataRepository {
     }
 
     private void loadBookText(Book book, StringProperty textProperty) {
-        String url = getBaseUrl() + "books/" + book.getId() + "/readme.md?time=" + ZonedDateTime.now().toInstant();
+        String url = getBaseUrl() + "books/" + book.getId() + "/readme.md";
         System.out.println("loading book text from: " + url);
         String text = loadString(url);
         if (ASYNC) {
@@ -663,7 +732,7 @@ public class DataRepository {
     }
 
     public String getBaseUrl() {
-        if (BASE_URL.startsWith("file://")) { // for local tests
+        if (BASE_URL.startsWith("file:/")) { // for local tests
             return BASE_URL;
         }
 
@@ -725,18 +794,6 @@ public class DataRepository {
         this.openJFXText.set(openJFXText);
     }
 
-    public ListProperty<Book> getBooksByPerson(Person person) {
-        ObservableList<Book> list = FXCollections.observableArrayList();
-        list.setAll(getBooks().stream().filter(book -> book.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
-        return new SimpleListProperty<>(list);
-    }
-
-    public ListProperty<Download> getDownloadsByPerson(Person person) {
-        ObservableList<Download> list = FXCollections.observableArrayList();
-        list.setAll(getDownloads().stream().filter(download -> download.getPersonIds().contains(person.getId())).collect(Collectors.toList()));
-        return new SimpleListProperty<>(list);
-    }
-
     private final ListProperty<Library> libraries = new SimpleListProperty<>(this, "libraries", FXCollections.observableArrayList());
 
     public ObservableList<Library> getLibraries() {
@@ -748,8 +805,8 @@ public class DataRepository {
     }
 
     public void setLibraries(List<Library> libraries) {
+        libraries.removeIf(l -> l.isHide());
         this.libraries.setAll(libraries);
-        this.libraries.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Blog> blogs = new SimpleListProperty<>(this, "blogs", FXCollections.observableArrayList());
@@ -763,8 +820,8 @@ public class DataRepository {
     }
 
     public void setBlogs(List<Blog> blogs) {
+        blogs.removeIf(b -> b.isHide());
         this.blogs.setAll(blogs);
-        this.blogs.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<PullRequest> pullRequests = new SimpleListProperty<>(this, "pullRequests", FXCollections.observableArrayList());
@@ -792,8 +849,8 @@ public class DataRepository {
     }
 
     public void setNews(List<News> news) {
+        news.removeIf(item -> item.isHide());
         this.news.setAll(news);
-        this.news.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Book> books = new SimpleListProperty<>(this, "books", FXCollections.observableArrayList());
@@ -807,8 +864,8 @@ public class DataRepository {
     }
 
     public void setBooks(List<Book> books) {
+        books.removeIf(item -> item.isHide());
         this.books.setAll(books);
-        this.books.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Tutorial> tutorials = new SimpleListProperty<>(this, "tutorials", FXCollections.observableArrayList());
@@ -822,8 +879,8 @@ public class DataRepository {
     }
 
     public void setTutorials(List<Tutorial> tutorials) {
+        tutorials.removeIf(item -> item.isHide());
         this.tutorials.setAll(tutorials);
-        this.tutorials.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Video> videos = new SimpleListProperty<>(this, "videos", FXCollections.observableArrayList());
@@ -837,8 +894,8 @@ public class DataRepository {
     }
 
     public void setVideos(List<Video> videos) {
+        videos.removeIf(item -> item.isHide());
         this.videos.setAll(videos);
-        this.videos.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Download> downloads = new SimpleListProperty<>(this, "downloads", FXCollections.observableArrayList());
@@ -853,8 +910,8 @@ public class DataRepository {
     }
 
     public void setDownloads(List<Download> downloads) {
+        downloads.removeIf(item -> item.isHide());
         this.downloads.setAll(downloads);
-        this.downloads.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<RealWorldApp> realWorldApps = new SimpleListProperty<>(this, "realWorldApps", FXCollections.observableArrayList());
@@ -868,8 +925,8 @@ public class DataRepository {
     }
 
     public void setRealWorldApps(List<RealWorldApp> realWorldApps) {
+        realWorldApps.removeIf(item -> item.isHide());
         this.realWorldApps.setAll(realWorldApps);
-        this.realWorldApps.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Tool> tools = new SimpleListProperty<>(this, "tools", FXCollections.observableArrayList());
@@ -883,8 +940,8 @@ public class DataRepository {
     }
 
     public void setTools(List<Tool> tools) {
+        tools.removeIf(item -> item.isHide());
         this.tools.setAll(tools);
-        this.tools.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Company> companies = new SimpleListProperty<>(this, "companies", FXCollections.observableArrayList());
@@ -898,8 +955,8 @@ public class DataRepository {
     }
 
     public void setCompanies(List<Company> companies) {
+        companies.removeIf(item -> item.isHide());
         this.companies.setAll(companies);
-        this.companies.removeIf(item -> item.isHide());
     }
 
     private final ListProperty<Person> people = new SimpleListProperty<>(this, "people", FXCollections.observableArrayList());
@@ -913,29 +970,18 @@ public class DataRepository {
     }
 
     public void setPeople(List<Person> people) {
+        people.removeIf(item -> item.isHide());
         this.people.setAll(people);
-        this.people.removeIf(item -> item.isHide());
     }
 
-    private File loadFile(String fileName, String urlString) throws IOException {
-        // adding caching buster via timestamp
-        urlString = urlString + "?time=" + ZonedDateTime.now().toInstant();
-        System.out.println("url: " + urlString);
+    private File getFile(String urlString) throws IOException {
+        try {
+            return new File(new URI(urlString));
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
 
-        URL url = new URL(urlString);
-
-        URLConnection connection = url.openConnection();
-        connection.setUseCaches(false);
-        connection.setDefaultUseCaches(false);
-
-        ReadableByteChannel readChannel = Channels.newChannel(connection.getInputStream());
-        File file = File.createTempFile(fileName, ".json");
-        System.out.println("file: " + file.getAbsolutePath());
-        FileOutputStream fileOS = new FileOutputStream(file);
-        FileChannel writeChannel = fileOS.getChannel();
-        writeChannel.transferFrom(readChannel, 0, Long.MAX_VALUE);
-
-        return file;
+        return null;
     }
 
     private String loadString(String address) {
@@ -943,13 +989,8 @@ public class DataRepository {
 
         StringBuilder sb = new StringBuilder();
         try {
-            URL url = new URL(address);
-
-            URLConnection connection = url.openConnection();
-            connection.setUseCaches(false);
-
             // read text returned by server
-            BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            BufferedReader in = new BufferedReader(new FileReader(new File(new URI(address))));
 
             String line;
             while ((line = in.readLine()) != null) {
@@ -962,6 +1003,8 @@ public class DataRepository {
             System.out.println("Malformed URL: " + e.getMessage());
         } catch (IOException e) {
             System.out.println("I/O Error: " + e.getMessage());
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
         }
 
         return sb.toString();
@@ -1052,72 +1095,141 @@ public class DataRepository {
         return posts;
     }
 
-    public void readFeeds() throws IOException, FeedException {
-        ObservableList<Blog> blogObservableList = getBlogs();
-        int size = blogObservableList.size();
+    private final BooleanProperty loadingFeeds = new SimpleBooleanProperty(this, "loadingFeeds", false);
 
-        for (int i = 0; i < size; i++) {
-            Blog blog = blogObservableList.get(i);
-            String url = blog.getFeed();
-            if (StringUtils.isNotBlank(url)) {
+    public boolean isLoadingFeeds() {
+        return loadingFeeds.get();
+    }
 
-                System.out.println("loading blog posts from url: " + url);
-                setMessage("Loading blog: " + blog.getTitle());
+    public BooleanProperty loadingFeedsProperty() {
+        return loadingFeeds;
+    }
 
-                SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
+    public void setLoadingFeeds(boolean loadingFeeds) {
+        Platform.runLater(() -> {
+            this.loadingFeeds.set(loadingFeeds);
+        });
+    }
 
-                List<SyndEntry> entries = feed.getEntries();
-                entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry)));
+    private final BooleanProperty loadingPullRequests = new SimpleBooleanProperty(this, "loadingPullRequests", false);
 
-                if (!ASYNC && !entries.isEmpty()) {
-                    // to save time when unit tests are running
-                    break;
+    public boolean isLoadingPullRequests() {
+        return loadingPullRequests.get();
+    }
+
+    public BooleanProperty loadingPullRequestsProperty() {
+        return loadingPullRequests;
+    }
+
+    public void setLoadingPullRequests(boolean loadingPullRequests) {
+        Platform.runLater(() -> {
+            this.loadingPullRequests.set(loadingPullRequests);
+        });
+    }
+
+    public void loadFeeds(String reason) {
+        System.out.println("loading feeds, reason = " + reason);
+
+        setLoadingFeeds(true);
+
+        try {
+            Platform.runLater(() -> getPosts().clear());
+
+            ObservableList<Blog> blogs = getBlogs();
+            int size = blogs.size();
+
+//            System.out.println("loading feeds from " + size + " blogs");
+
+            for (int i = 0; i < blogs.size(); i++) {
+                Blog blog = blogs.get(i);
+                String url = blog.getFeed();
+                if (StringUtils.isNotBlank(url)) {
+
+                    System.out.println("loading blog posts from url: " + url);
+                    updateMessage("Loading blog: " + blog.getName());
+
+                    SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
+
+                    List<SyndEntry> entries = feed.getEntries();
+
+                    if (ASYNC) {
+                        Platform.runLater(() -> entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry))));
+                    } else {
+                        entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry)));
+                    }
+
+                    if (!ASYNC && !entries.isEmpty()) {
+                        // to save time when unit tests are running
+                        break;
+                    }
                 }
             }
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (FeedException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            setLoadingFeeds(false);
         }
     }
 
-    public void loadPullRequests() {
-        HttpURLConnection con = null;
+    public void loadPullRequests(String reason) {
+        System.out.println("loading pull requests, reason = " + reason);
 
-        for (int page = 1; page < 2; page++) {
-            try {
-                URL url = new URL("https://api.github.com/repos/openjdk/jfx/pulls?state=all&per_page=100&page=" + page);
+        setLoadingPullRequests(true);
 
-                con = (HttpURLConnection) url.openConnection();
-                con.setRequestMethod("GET");
-                con.setUseCaches(false);
+        try {
+            if (ASYNC) {
+                Platform.runLater(() -> getPullRequests().clear());
+            } else {
+                getPullRequests().clear();
+            }
 
-                int status = con.getResponseCode();
-                if (status == 200) {
-                    BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                    String inputLine;
-                    StringBuffer content = new StringBuffer();
-                    while ((inputLine = in.readLine()) != null) {
-                        content.append(inputLine);
+            HttpURLConnection con = null;
+
+            for (int page = 1; page < 2; page++) {
+                try {
+                    URL url = new URL("https://api.github.com/repos/openjdk/jfx/pulls?state=all&per_page=100&page=" + page);
+
+                    con = (HttpURLConnection) url.openConnection();
+                    con.setRequestMethod("GET");
+                    con.setUseCaches(false);
+
+                    int status = con.getResponseCode();
+                    if (status == 200) {
+                        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+                        String inputLine;
+                        StringBuffer content = new StringBuffer();
+                        while ((inputLine = in.readLine()) != null) {
+                            content.append(inputLine);
+                        }
+                        in.close();
+
+                        List<PullRequest> result = gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
+                        }.getType());
+
+                        if (ASYNC) {
+                            Platform.runLater(() -> getPullRequests().addAll(result));
+                        } else {
+                            getPullRequests().addAll(result);
+                        }
                     }
-                    in.close();
-
-                    List<PullRequest> result = gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
-                    }.getType());
-
-                    if (ASYNC) {
-                        Platform.runLater(() -> getPullRequests().addAll(result));
-                    } else {
-                        getPullRequests().addAll(result);
+                } catch (ProtocolException e) {
+                    e.printStackTrace();
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } finally {
+                    if (con != null) {
+                        con.disconnect();
                     }
-                }
-            } catch (ProtocolException e) {
-                e.printStackTrace();
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } finally {
-                if (con != null) {
-                    con.disconnect();
                 }
             }
+        } finally {
+            setLoadingPullRequests(false);
         }
     }
 
@@ -1144,31 +1256,7 @@ public class DataRepository {
         });
     }
 
-    private final StringProperty message = new SimpleStringProperty(this, "message");
-
-    public String getMessage() {
-        return message.get();
-    }
-
-    public StringProperty messageProperty() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message.set(message);
-    }
-
-    private final DoubleProperty progress = new SimpleDoubleProperty(this, "progress");
-
-    public double getProgress() {
-        return progress.get();
-    }
-
-    public DoubleProperty progressProperty() {
-        return progress;
-    }
-
-    public void setProgress(double progress) {
-        this.progress.set(progress);
+    public void updateMessage(String message) {
+        System.out.println(message);
     }
 }

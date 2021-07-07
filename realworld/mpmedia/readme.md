@@ -1,6 +1,6 @@
 - Prototype of a fully JavaFX-based General-Aviation flight planning software.
 - Testbed for new concepts in flight management, data management and flight planning.
-- Special version used by „Deutscher Aeroclub“ DAeC to validate airspace data.
+- Special version used by "Deutscher Aeroclub" DAeC to validate airspace data.
 - Mobile version for flight operation.
 - Web version for community interaction.
 
@@ -55,7 +55,7 @@
 
 The client is identical to the desktop client. Deployment to the web via JPro.
 
-[![Web 1](images/web/small/mpcopilot-web-01.png)]()
+[![Web 1](images/web/small/mpcopilot-web-01.jpg)]()
 
 ### Mobile
 

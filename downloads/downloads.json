@@ -3,6 +3,7 @@
     "id": "makeover",
     "title": "Extreme GUI Makeover",
     "tags": "makeover, demo, presentation, javaone, oracle codeone",
+    "homepage": "https://github.com/hendrikebbers/ExtremeGuiMakeover",
     "downloadType": "APPLICATION",
     "personIds": [
       "d.lemmermann",
@@ -34,6 +35,7 @@
     "title": "FlexGanttFX POC for Emirates Airlines",
     "tags": "demo, poc, airline, emirates, scheduling, planning, gantt",
     "downloadType": "APPLICATION",
+    "homepage": "https://www.flexganttfx.com",
     "personIds": [
       "d.lemmermann"
     ],
@@ -121,6 +123,7 @@
     "title": "SpaceFX",
     "tags": "real world app, game, space, shooter, mobile, desktop, web",
     "downloadType": "APPLICATION",
+    "homepage": "https://github.com/HanSolo/SpaceFX",
     "personIds": [
       "g.grunwald"
     ],
@@ -206,8 +209,14 @@
     "files": [
       {
         "name": "PKG Installer (Mac)",
-        "url": "",
-        "fileName": "covid-explorer-pkg.zip",
+        "url": "https://www.flexganttfx.com/downloads/installer/covid-explorer-pkg.zip",
+        "fileName": "",
+        "package": "PKG"
+      },
+      {
+        "name": "MSI Installer (Windows)",
+        "url": "https://www.flexganttfx.com/downloads/installer/covid-explorer-msi.zip",
+        "fileName": "",
         "package": "PKG"
       }
     ]
@@ -379,7 +388,8 @@
       }
     ],
     "personIds": [
-      "b.borges"
+      "b.borges",
+      "j.pereda"
     ]
   },
   {

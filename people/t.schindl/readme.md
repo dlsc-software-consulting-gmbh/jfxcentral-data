@@ -1,1 +1,1 @@
-Eclipse Committer, [e(fx)clipse](http://www.efxclipse.org/) project lead and CTO at BestSolution.at.
+Eclipse Committer, e(fx)clipse project lead and CTO at BestSolution.at.

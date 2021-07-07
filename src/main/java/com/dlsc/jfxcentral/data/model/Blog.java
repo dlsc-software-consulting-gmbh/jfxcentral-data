@@ -2,16 +2,12 @@ package com.dlsc.jfxcentral.data.model;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Blog extends ModelObject {
 
-    private String title;
+    private String name;
     private String url;
     private String summary;
     private String companyId;
-    private List<String> personIds = new ArrayList<>();
     private String feed;
 
     public Blog() {
@@ -27,7 +23,7 @@ public class Blog extends ModelObject {
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
             return true;
         }
 
@@ -50,12 +46,12 @@ public class Blog extends ModelObject {
         this.summary = summary;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getUrl() {
@@ -64,14 +60,6 @@ public class Blog extends ModelObject {
 
     public void setUrl(String url) {
         this.url = url;
-    }
-
-    public List<String> getPersonIds() {
-        return personIds;
-    }
-
-    public void setPersonIds(List<String> personIds) {
-        this.personIds = personIds;
     }
 
     public String getFeed() {

@@ -3,11 +3,10 @@ package com.dlsc.jfxcentral.data.model;
 import org.apache.commons.lang3.StringUtils;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Book extends ModelObject {
 
+    private String summary;
     private String authors;
     private String publisher;
     private String title;
@@ -15,8 +14,8 @@ public class Book extends ModelObject {
     private String url;
     private String amazonASIN;
     private String isbn;
+
     private LocalDate publishedDate;
-    private List<String> personIds = new ArrayList<>();
 
     public Book() {
     }
@@ -94,14 +93,6 @@ public class Book extends ModelObject {
         this.publishedDate = publishedDate;
     }
 
-    public List<String> getPersonIds() {
-        return personIds;
-    }
-
-    public void setPersonIds(List<String> personIds) {
-        this.personIds = personIds;
-    }
-
     public String getAmazonASIN() {
         return amazonASIN;
     }
@@ -116,5 +107,13 @@ public class Book extends ModelObject {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 }

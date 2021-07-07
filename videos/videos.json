@@ -80,7 +80,7 @@
     "tags": "browser, web, html, js",
     "type": "Library",
     "platform": "Web",
-    "description": "In this talk, we will concentrate on three aspect:\n\n(1) We will go through a short and concise hands on tutorial to show how easy it can be to take a running Java application and bring it to the web.  \n\n(2) we will demonstrate some of our running and exciting projects, to show what is doable and what not.  \n\nAnd (3) the session will address a set of recurring Q&A’s experienced from the market, as well as giving room for ad hoc questions from the audience.\n\nThis presentation by Florian Kirmaier has been recorded on Nov 24 during the JFX Days 2020.",
+    "description": "In this talk, we will concentrate on three aspects:\n\n(1) We will go through a short and concise hands on tutorial to show how easy it can be to take a running Java application and bring it to the web.  \n\n(2) we will demonstrate some of our running and exciting projects, to show what is doable and what not.  \n\nAnd (3) the session will address a set of recurring Q&A’s experienced from the market, as well as giving room for ad hoc questions from the audience.\n\nThis presentation by Florian Kirmaier has been recorded on Nov 24 during the JFX Days 2020.",
     "id": "_Cf4djWcpxA",
     "platform": "Web",
     "event": "JFX Days 2020",
@@ -128,7 +128,7 @@
     "title": "Using JavaFX to Combat Illegal Dynamite Fishing in Tanzania | Jamie Macaulay @ JFX Days 2020",
     "tags": "research, science, wildlife, academic, sensors",
     "type": "Real World Application",
-    "description": "Since the 1960s, indiscriminate fishing techniques using underwater explosives have been widespread across the coastal zone of Tanzania, Africa. So-called “bomb fishing” causes untold damage to the structures (e.g. coral reefs) and soundscapes of marine habitats and the animals within. At its recorded peak in 2016, tens of thousands of bomb blasts were visually recorded along the Tanzanian coastline, with many more likely undetected and unreported, representing a substantial and endemic conservation problem.\n \nGathering data on the location, timing and number of explosions over time is essential for understanding exactly when and where blasting occurs, for alerting enforcement in a timely manner, and for monitoring the effectiveness of any interventions. Listening for bomb blasts underwater (passive acoustic monitoring) has the great advantage over visual observation in that blasts can be detected during both the day and night, and this can be done over thousands of square kilometres.\n \nHowever, such acoustic monitoring schemes generate vast quantities of data which must be automatically analysed. Typically, a machine learning based approach would be used to build an accurate acoustic classifier, however, the combination of little training data on fish bomb blasts and the poorly documented soundscape of Tanzanian reefs mean that building an accurate automated classifier is difficult. Here we instead adopted a hybrid analysis approach, where we ran an automated detector that extracted any sound of interest, and then used JavaFX to build a highly interactive visualisation of the data. This enabled a manual analyst to quickly identify fish bomb blasts, allowing for months of raw data to be sifted through with the times and audio clips of fish bomb blasts extracted in a few hours, compared to the weeks of time it would have taken otherwise.\n \nJavaFX provided the means to build fast and intuitive data visualisation tools, an easy-to-use and attractive GUI, and critically, allowed this to be achieved on modest financial and time budgets. JavaFX enabled real-time conservation in the marine environments, and was key to the success of this (and other) wildlife conservation projects.",
+    "description": "Since the 1960s, indiscriminate fishing techniques using underwater explosives have been widespread across the coastal zone of Tanzania, Africa. So-called \"bomb fishing\" causes untold damage to the structures (e.g. coral reefs) and soundscapes of marine habitats and the animals within. At its recorded peak in 2016, tens of thousands of bomb blasts were visually recorded along the Tanzanian coastline, with many more likely undetected and unreported, representing a substantial and endemic conservation problem.\n \nGathering data on the location, timing and number of explosions over time is essential for understanding exactly when and where blasting occurs, for alerting enforcement in a timely manner, and for monitoring the effectiveness of any interventions. Listening for bomb blasts underwater (passive acoustic monitoring) has the great advantage over visual observation in that blasts can be detected during both the day and night, and this can be done over thousands of square kilometres.\n \nHowever, such acoustic monitoring schemes generate vast quantities of data which must be automatically analysed. Typically, a machine learning based approach would be used to build an accurate acoustic classifier, however, the combination of little training data on fish bomb blasts and the poorly documented soundscape of Tanzanian reefs mean that building an accurate automated classifier is difficult. Here we instead adopted a hybrid analysis approach, where we ran an automated detector that extracted any sound of interest, and then used JavaFX to build a highly interactive visualisation of the data. This enabled a manual analyst to quickly identify fish bomb blasts, allowing for months of raw data to be sifted through with the times and audio clips of fish bomb blasts extracted in a few hours, compared to the weeks of time it would have taken otherwise.\n \nJavaFX provided the means to build fast and intuitive data visualisation tools, an easy-to-use and attractive GUI, and critically, allowed this to be achieved on modest financial and time budgets. JavaFX enabled real-time conservation in the marine environments, and was key to the success of this (and other) wildlife conservation projects.",
     "id": "b9H6kmEy90c",
     "event": "JFX Days 2020",
     "platform": "Desktop",
@@ -829,6 +829,23 @@
     "publishedOn": "2013-06-16",
     "personIds": [
       "d.lemmermann"
+    ]
+  },
+  {
+    "title": "How to Build the Game 2048 with JavaFX and Java: Lessons Learned",
+    "tags": "game, mobile, gluon, ios, android",
+    "type": "Real World Application",
+    "domain": "Gaming",
+    "description": "The game called 2048 has several implementations, for mobile smartphones and tablets as well as online JavaScript versions. JavaFX comes with amazing features that enables the developers to implement it very quickly and with Java it can be run in any environment that supports Java SE, including a Raspberry Pi. In this session, the developers share with you everything they learned while developing this little game and introduce you to basic UI concepts for gaming development in JavaFX, animations, and CSS styling and show you how and when to apply lambda expressions and make good use of the Stream API.",
+    "id": "20MDfZZ3-18",
+    "event": "JavaOne 2014",
+    "platform": "",
+    "createdOn": "2021-06-18",
+    "modifiedOn": "2021-06-18",
+    "publishedOn": "2013-06-18",
+    "personIds": [
+      "b.borges",
+      "j.pereda"
     ]
   }
 ]

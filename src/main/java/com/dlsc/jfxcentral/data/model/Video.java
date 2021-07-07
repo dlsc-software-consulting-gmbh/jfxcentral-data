@@ -3,8 +3,6 @@ package com.dlsc.jfxcentral.data.model;
 import org.apache.commons.lang3.StringUtils;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Video extends ModelObject {
 
@@ -14,7 +12,6 @@ public class Video extends ModelObject {
     private String domain;
     private String event;
     private String platform;
-    private List<String> personIds = new ArrayList<>();
     private LocalDate publishedOn;
 
     public Video() {
@@ -67,14 +64,6 @@ public class Video extends ModelObject {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public List<String> getPersonIds() {
-        return personIds;
-    }
-
-    public void setPersonIds(List<String> personIds) {
-        this.personIds = personIds;
     }
 
     public void setType(String type) {

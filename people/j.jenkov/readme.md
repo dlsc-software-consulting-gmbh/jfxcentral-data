@@ -1,1 +1,1 @@
-Software development, IT architecture, runs https://jenkov.com, Java, web, distributed systems.
+Software development, IT architecture, runs jenkov.com site, Java, web, distributed systems.

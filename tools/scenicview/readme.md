@@ -21,24 +21,32 @@ You can also download platform-independent releases [JDK 8](https://download.jon
 
 Download the Scenic View custom image for your platform from the above links. Unzip and then run:
 
-	cd scenicview/bin
-	./scenicView
+```
+cd scenicview/bin
+./scenicView
+```
 
 Also, you can clone or download this project, and run Scenic View as stand-alone application:
 
-	./gradlew run
+```
+./gradlew run
+```
 
 or if you build a custom image:
 
-	cd build/scenicview/bin
-	./scenicView
+```
+cd build/scenicview/bin
+./scenicView
+```
 
 Then run a JavaFX application, and it will be detected by Scenic View.
 
 Alternatively, you can also run the `scenicview.jar` in any platform, providing that JDK 11 and JavaFX SDK 11 are installed:
 
-	cd build/libs/
-	java --module-path /path-to/javafx-11-sdk/lib --add-modules javafx.web,javafx.fxml,javafx.swing -jar scenicview.jar
+```
+cd build/libs/
+java --module-path /path-to/javafx-11-sdk/lib --add-modules javafx.web,javafx.fxml,javafx.swing -jar scenicview.jar
+```
 
 ##### Notes
 
@@ -55,39 +63,45 @@ the JavaFX dependencies, you should add them to your project, in case these were
 
 For instance, if you are running a gradle project, add the jar to a `libs` folder, then add it to the `build.gradle` file, like:
 
-        plugins {
-            id 'application'
-            id 'org.openjfx.javafxplugin' version '0.0.7'
-        }
+```
+plugins {
+  id 'application'
+  id 'org.openjfx.javafxplugin' version '0.0.7'
+}
 
-        repositories {
-            mavenCentral()
-        }
+repositories {
+  mavenCentral()
+}
 
-        dependencies {
-            implementation files('libs/scenicview.jar')
-        }
+dependencies {
+  implementation files('libs/scenicview.jar')
+}
 
-        javafx {
-            modules = ['javafx.web', 'javafx.fxml', 'javafx.swing']
-        }
+javafx {
+  modules = ['javafx.web', 'javafx.fxml', 'javafx.swing']
+}
+```
 
 Also add it to the `module-info.java` file requirements:
 
-        requires javafx.controls;
-        requires javafx.fxml;
-        requires transitive javafx.web;
-        requires transitive javafx.swing;
+```
+requires javafx.controls;
+requires javafx.fxml;
+requires transitive javafx.web;
+requires transitive javafx.swing;
 
-        requires org.scenicview.scenicview;
+requires org.scenicview.scenicview;
+```
 
 Finally, you can run it from the application class:
 
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+```
+Scene scene = new Scene(root);
+stage.setScene(scene);
+stage.show();
         
-        ScenicView.show(scene);
+ScenicView.show(scene);
+```
 
 ## License
 

@@ -1,1 +1,1 @@
-Author of 'Getting started with Java on Raspberry Pi'
+Author of 'Getting started with Java on Raspberry Pi'.
