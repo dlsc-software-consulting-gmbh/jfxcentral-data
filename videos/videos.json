@@ -614,7 +614,10 @@
     "platform": "Desktop",
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14",
-    "publishedOn": "2013-06-14"
+    "publishedOn": "2013-06-14",
+    "tipIds": [
+      "ikonli"
+    ]
   },
   {
     "name": "CSSFX Introduction",
