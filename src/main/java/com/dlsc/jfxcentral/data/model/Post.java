@@ -23,7 +23,7 @@ public class Post extends ModelObject {
 
     @Override
     public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
+        if (super.matches(searchPattern)) {
             return true;
         }
 

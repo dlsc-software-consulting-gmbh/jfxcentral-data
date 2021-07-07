@@ -1,6 +1,6 @@
 [
   {
-    "title": "Java Desktop 2020 - Keynote at JFX Days 2020 | Hendrik Ebbers",
+    "name": "Java Desktop 2020 - Keynote at JFX Days 2020 | Hendrik Ebbers",
     "tags": "",
     "type": "Keynote",
     "description": "Follow Java Champion Hendrik Ebbers on his story of \"Little Duke's Journey to the Moon\". During this keynote presentation held at JFX Days 2020 on Nov 24, 2020, Hendrik investigates what is wrong with Java in regards of the development of desktop applications. Is this a problem of Java - although it is still one of the most used programming languages? Or is it a problem of Java Desktop respectively JavaFX? Or maybe the problem is the community or - even worse - Oracle itself. \n\nIn this entertaining talk, Hendrik points out that there is no problem with all of the above. Developers need to accept that Java Desktop is a niche. But all together, the community can make this niche shine.",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "title": "JavaFX Roadmap @ JFX Days 2020 | Wolfgang Weigend",
+    "name": "JavaFX Roadmap @ JFX Days 2020 | Wolfgang Weigend",
     "tags": "",
     "type": "Roadmap",
     "description": "Wolfgang Weigend works as Master Principal Solution Engineer at Oracle Global Services Germany GmbH in the worldwide Java team. He is involved in Java technology, GraalVM and architecture to develop enterprise Java applications. During his talk at the JFX Days 2020 on Nov 24, he presented the JavaFX roadmap and covers topics like OpenJFX, GraalVM and NVIDIA's GPU.\n\nSoftware solution engineer at Oracle about Java technology, GraalVM & architecture to develop enterprise Java applications",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "title": "Moving JavaFX forward - Keynote Day 2 @ JFX Days 2020 | Johan Vos",
+    "name": "Moving JavaFX forward - Keynote Day 2 @ JFX Days 2020 | Johan Vos",
     "tags": "",
     "type": "Keynote, Roadmap",
     "description": "Gluon has been the defacto JavaFX steward since the JavaFX 11 release. Gluon builds and maintains the JavaFX artifacts and makes them available as SDK's as well as on Maven Central. Moving JavaFX forward is often a balance between adding new features and staying at the front of the UI development, while also making sure that the core principles of Java, especially backward compatibility, are respected.\n\u200B\nIn the past year, focus was mainly on the transition to making JavaFX a set of modules that work well with evolving JDK releases as well as integrate with standard build, deploy and devops tools that are popular in the development community. One of the main focusses of JavaFX is to make sure it works on as much platforms as possible: desktop, but also mobile and embedded. In this session, Johan Vos, CEO of Gluon, presented some of the future ideas.",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "title": "Building Modular JavaFX Applications with JPMS and Layrry | Andres Almiray @ JFX Days 2020",
+    "name": "Building Modular JavaFX Applications with JPMS and Layrry | Andres Almiray @ JFX Days 2020",
     "tags": "module system",
     "type": "Library",
     "description": "The Java Module System lays the foundation for building modularized applications on the JVM. It doesn't concern itself though with resolving module versions and obtaining modules from repositories. This is where Layrry comes in: an API and launcher for modularized Java applications which takes a descriptor of the module layer(s) to assemble, fetches the modules and starts up the application. Layrry also allows dynamic loading.unloading of plugins which makes it ideal for JavaFX applications, allowing app developers to provide behavior on the fly.\n\nPresented by Andres Almiray at JFX Days 2020.",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "title": "JavaFX Game Development: Enter FXGL Engine | Almas Baimagambetov @ JFX Days 2020",
+    "name": "JavaFX Game Development: Enter FXGL Engine | Almas Baimagambetov @ JFX Days 2020",
     "tags": "gaming",
     "type": "Library",
     "domain": "Gaming",
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "title": "JPro in Practise | Florian Kirmaier @ JFX Days 2020",
+    "name": "JPro in Practise | Florian Kirmaier @ JFX Days 2020",
     "tags": "browser, web, html, js",
     "type": "Library",
     "platform": "Web",
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "title": "JavaFX Touch @ Industrie | Michael Hoffer @ JFX Days 2020",
+    "name": "JavaFX Touch @ Industrie | Michael Hoffer @ JFX Days 2020",
     "tags": "",
     "type": "Real World Application",
     "domain": "Manufacturing, Research",
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "title": "JavaFX real-world application: Senapt CRM | Dirk Lemmermann @ JFX Days 2020",
+    "name": "JavaFX real-world application: Senapt CRM | Dirk Lemmermann @ JFX Days 2020",
     "tags": "energy, crm, UK, dcc, heating, climate",
     "type": "Real World Application",
     "domain": "Energy, CRM",
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "title": "Using JavaFX to Combat Illegal Dynamite Fishing in Tanzania | Jamie Macaulay @ JFX Days 2020",
+    "name": "Using JavaFX to Combat Illegal Dynamite Fishing in Tanzania | Jamie Macaulay @ JFX Days 2020",
     "tags": "research, science, wildlife, academic, sensors",
     "type": "Real World Application",
     "description": "Since the 1960s, indiscriminate fishing techniques using underwater explosives have been widespread across the coastal zone of Tanzania, Africa. So-called \"bomb fishing\" causes untold damage to the structures (e.g. coral reefs) and soundscapes of marine habitats and the animals within. At its recorded peak in 2016, tens of thousands of bomb blasts were visually recorded along the Tanzanian coastline, with many more likely undetected and unreported, representing a substantial and endemic conservation problem.\n \nGathering data on the location, timing and number of explosions over time is essential for understanding exactly when and where blasting occurs, for alerting enforcement in a timely manner, and for monitoring the effectiveness of any interventions. Listening for bomb blasts underwater (passive acoustic monitoring) has the great advantage over visual observation in that blasts can be detected during both the day and night, and this can be done over thousands of square kilometres.\n \nHowever, such acoustic monitoring schemes generate vast quantities of data which must be automatically analysed. Typically, a machine learning based approach would be used to build an accurate acoustic classifier, however, the combination of little training data on fish bomb blasts and the poorly documented soundscape of Tanzanian reefs mean that building an accurate automated classifier is difficult. Here we instead adopted a hybrid analysis approach, where we ran an automated detector that extracted any sound of interest, and then used JavaFX to build a highly interactive visualisation of the data. This enabled a manual analyst to quickly identify fish bomb blasts, allowing for months of raw data to be sifted through with the times and audio clips of fish bomb blasts extracted in a few hours, compared to the weeks of time it would have taken otherwise.\n \nJavaFX provided the means to build fast and intuitive data visualisation tools, an easy-to-use and attractive GUI, and critically, allowed this to be achieved on modest financial and time budgets. JavaFX enabled real-time conservation in the marine environments, and was key to the success of this (and other) wildlife conservation projects.",
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "title": "JavaFX real-world application: A JavaFX CAD Software | Pedro Duque Vieira @ JFX Days 2020",
+    "name": "JavaFX real-world application: A JavaFX CAD Software | Pedro Duque Vieira @ JFX Days 2020",
     "tags": "",
     "type": "Real World Application",
     "platform": "Desktop",
@@ -157,7 +157,7 @@
     ]
   },
   {
-    "title": "JavaFX Performance | Anton Epple @ JFX Days 2020",
+    "name": "JavaFX Performance | Anton Epple @ JFX Days 2020",
     "tags": "tips, tricks",
     "type": "Tips & Tricks",
     "description": "JavaFX is a great framework for creating graphically rich and highly interactive applications. The Scene Graph API makes it really easy to visualize your data with  rich controls, complex animations and CSS styling. When done right, JavaFX applications can be blazingly fast. But while the high level API protects you from having to write lots of graphics code, it also makes finding performance problems hard. In this session recorded at JFX Days 2020, Anton Epple presented tools and strategies for identifying and solving JavaFX performance issues.",
@@ -172,7 +172,7 @@
     ]
   },
   {
-    "title": "Chart-FX - Why and How to Plot 1001k scientific data points @ 25 Hz | A. Krimm & R. Steinhagen",
+    "name": "Chart-FX - Why and How to Plot 1001k scientific data points @ 25 Hz | A. Krimm & R. Steinhagen",
     "tags": "charts, graphs, research, science",
     "type": "Library",
     "domain": "Science",
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "title": "GemsFX | Dirk Lemmermann @ JFX Days 2020",
+    "name": "GemsFX | Dirk Lemmermann @ JFX Days 2020",
     "tags": "custom controls",
     "type": "Library",
     "description": "GemsFX is a collection of JavaFX controls and utilities. Dirk Lemmermann presented the date and time pickers, the PDF view control and many more during his session at JFX Days 2020.",
@@ -203,7 +203,7 @@
     ]
   },
   {
-    "title": "Having Fun with Java and JavaFX on the Raspberry Pi | Frank Delporte @ JFX Days 2020",
+    "name": "Having Fun with Java and JavaFX on the Raspberry Pi | Frank Delporte @ JFX Days 2020",
     "tags": "raspberry pi, pi, embedded, kiosk",
     "type": "Library",
     "platform": "Embedded",
@@ -219,7 +219,7 @@
     ]
   },
   {
-    "title": "Shipping JavaFX | Joel Ferreira @ JFX Days 2020",
+    "name": "Shipping JavaFX | Joel Ferreira @ JFX Days 2020",
     "tags": "",
     "type": "Real World Application",
     "domain": "Logistics",
@@ -236,7 +236,7 @@
     ]
   },
   {
-    "title": "From Forms to OpenGL | Tom Schindl @ JFX Days 2020",
+    "name": "From Forms to OpenGL | Tom Schindl @ JFX Days 2020",
     "tags": "",
     "type": "Keynote",
     "description": "Most developers associate integrating OpenGL into JavaFX as a high profile task. For them it might come as a surprise that implementing \"boring\" business UIs that look slick, that are accessible, and that are well architectured, is just as much of a high profile task.\n \nIn this talk we will show real world use cases and highlight how we implemented high quality form-based UIs leveraging JavaFX and code generators. We will talk about \"accessibility\" (a11y) and the roadblocks we hit.\n\u200B\nLast but not least we will talk a bit about DriftFX providing an update on the current status and what comes next.",
@@ -251,7 +251,7 @@
     ]
   },
   {
-    "title": "ValidatorFX | Robert Lichtenberger @ JFX Days 2020",
+    "name": "ValidatorFX | Robert Lichtenberger @ JFX Days 2020",
     "tags": "",
     "type": "Library",
     "description": "ValidatorFX is a validation library for JavaFX. It is inspired by ControlsFX but tries to overcome its shortcomings:\n\n- Validations based on arbitrary observable values (not just the value of a control)\n- Validations can decorate an arbitrary number of nodes (not just the one control)\n- Validations can decorate any node (not just Control subtypes)\n- Validations can be done immediately or on-demand (e.g. when clicking a button)\n\nThe central class of ValidatorFX is Validator which contains a number of Checks. As a rule a form will have one Validator object and multiple Checks.",
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "title": "A Modern JavaFX Theme: JMetro | Pedro Duque Vieira @ JFX Days 2020",
+    "name": "A Modern JavaFX Theme: JMetro | Pedro Duque Vieira @ JFX Days 2020",
     "tags": "",
     "type": "Library",
     "description": "JMetro is an open source theme for JavaFX. A JavaFX theme inspired by Microsoft Fluent Design. It is being used on production ready applications, some notable examples include the famous NASA’s Deep Space Trajectory Explorer application, NASA’s TODV, etc. Besides changing the appearance of controls, it also changes their behavior, with the addition of new functionality (through the skins API). All of this is done without the developer having to change anything in his code. This talk will focus on what is JMetro, how to use it and notable examples of applications using it.",
@@ -281,7 +281,7 @@
     ]
   },
   {
-    "title": "JavaFX real-world application: CoachFX | Dirk Lemmermann @ JFX Days 2020",
+    "name": "JavaFX real-world application: CoachFX | Dirk Lemmermann @ JFX Days 2020",
     "tags": "",
     "type": "Real World Application",
     "domain": "Sports",
@@ -297,7 +297,7 @@
     ]
   },
   {
-    "title": "JavaFX real-world application: NEOS @ EBU | Dirk Lemmermann",
+    "name": "JavaFX real-world application: NEOS @ EBU | Dirk Lemmermann",
     "tags": "",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
@@ -313,7 +313,7 @@
     ]
   },
   {
-    "title": "JavaFX real-world application: MINT TRMS Scheduling Demo | Dirk Lemmermann",
+    "name": "JavaFX real-world application: MINT TRMS Scheduling Demo | Dirk Lemmermann",
     "tags": "",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
@@ -326,7 +326,7 @@
     "publishedOn": "2016-01-04"
   },
   {
-    "title": "JavaFX real-world application: SOPHIA Genetics",
+    "name": "JavaFX real-world application: SOPHIA Genetics",
     "tags": "",
     "type": "Real World Application",
     "domain": "Research",
@@ -339,7 +339,7 @@
     "publishedOn": "2020-11-23"
   },
   {
-    "title": "JavaFX real-world application: Scrum Board",
+    "name": "JavaFX real-world application: Scrum Board",
     "tags": "",
     "type": "Real World Application",
     "domain": "Team Management",
@@ -352,7 +352,7 @@
     "publishedOn": "2013-09-18"
   },
   {
-    "title": "JavaFX real-world application: Deep Space Trajectory Explorer",
+    "name": "JavaFX real-world application: Deep Space Trajectory Explorer",
     "tags": "",
     "type": "Real World Application",
     "domain": "Research",
@@ -365,7 +365,7 @@
     "publishedOn": "2015-10-21"
   },
   {
-    "title": "JavaFX real-world application: Monastery Disentis",
+    "name": "JavaFX real-world application: Monastery Disentis",
     "tags": "",
     "type": "Real World Application",
     "domain": "Tourism",
@@ -378,7 +378,7 @@
     "publishedOn": "2017-05-08"
   },
   {
-    "title": "JFX Days Zurich 2018: Extreme GUI Makeover | Hendrik Ebbers & Dirk Lemmermann",
+    "name": "JFX Days Zurich 2018: Extreme GUI Makeover | Hendrik Ebbers & Dirk Lemmermann",
     "tags": "",
     "type": "Presentation",
     "domain": "Demo",
@@ -395,7 +395,7 @@
     "publishedOn": "2019-01-10"
   },
   {
-    "title": "JFX Days Zurich 2018 Keynote | Dirk Lemmermann et al.",
+    "name": "JFX Days Zurich 2018 Keynote | Dirk Lemmermann et al.",
     "tags": "",
     "type": "Keynote",
     "domain": "",
@@ -411,7 +411,7 @@
     "publishedOn": "2018-12-13"
   },
   {
-    "title": "JFX Days Zurich 2018: Custom Controls | Gerrit Grunwald",
+    "name": "JFX Days Zurich 2018: Custom Controls | Gerrit Grunwald",
     "tags": "",
     "type": "Presentation",
     "domain": "",
@@ -427,7 +427,7 @@
     "publishedOn": "2019-01-09"
   },
   {
-    "title": "JFX Days Zurich 2018: Supercharge the JavaFX Canvas | David Gilbert",
+    "name": "JFX Days Zurich 2018: Supercharge the JavaFX Canvas | David Gilbert",
     "tags": "",
     "type": "Presentation",
     "domain": "",
@@ -443,7 +443,7 @@
     "publishedOn": "2019-01-01"
   },
   {
-    "title": "JFX Days Zurich 2018: DRIFT Announcement | Tom Schindl",
+    "name": "JFX Days Zurich 2018: DRIFT Announcement | Tom Schindl",
     "tags": "",
     "type": "Presentation",
     "domain": "",
@@ -459,7 +459,7 @@
     "publishedOn": "2018-12-09"
   },
   {
-    "title": "JFX Days Zurich 2018: JavaFX on Mobile & Embedded | Gluon",
+    "name": "JFX Days Zurich 2018: JavaFX on Mobile & Embedded | Gluon",
     "tags": "",
     "type": "Presentation",
     "domain": "",
@@ -476,7 +476,7 @@
     "publishedOn": "2019-03-27"
   },
   {
-    "title": "JFX Days Zurich 2018: HTML in JavaFX | Anton Epple",
+    "name": "JFX Days Zurich 2018: HTML in JavaFX | Anton Epple",
     "tags": "",
     "type": "Presentation",
     "domain": "",
@@ -492,7 +492,7 @@
     "publishedOn": "2019-04-03"
   },
   {
-    "title": "JFX Days Zurich 2018: e(fx)clipse | Tom Schindl",
+    "name": "JFX Days Zurich 2018: e(fx)clipse | Tom Schindl",
     "tags": "",
     "type": "Presentation",
     "domain": "",
@@ -508,7 +508,7 @@
     "publishedOn": "2019-04-09"
   },
   {
-    "title": "JFX Days 2019: NativeFX | Michael Hoffer",
+    "name": "JFX Days 2019: NativeFX | Michael Hoffer",
     "tags": "",
     "type": "Presentation",
     "domain": "",
@@ -524,7 +524,7 @@
     "publishedOn": "2020-03-19"
   },
   {
-    "title": "JFX Days 2019: Desktop 2019 | Hendrik Ebbers",
+    "name": "JFX Days 2019: Desktop 2019 | Hendrik Ebbers",
     "type": "Keynote",
     "tags": "",
     "domain": "",
@@ -540,7 +540,7 @@
     "publishedOn": "2020-09-07"
   },
   {
-    "title": "Oracle CodeOne: JavaFX Tips and Tricks: Reloaded | Dirk Lemmermann",
+    "name": "Oracle CodeOne: JavaFX Tips and Tricks: Reloaded | Dirk Lemmermann",
     "tags": "tips, tricks, designer, figma, adobe",
     "type": "Presentation",
     "domain": "",
@@ -556,7 +556,7 @@
     "publishedOn": "2019-09-17"
   },
   {
-    "title": "JavaFX Graphics Tips and Tricks | Richard Bair",
+    "name": "JavaFX Graphics Tips and Tricks | Richard Bair",
     "tags": "graphics, performance, tip, trick",
     "type": "Presentation",
     "domain": "",
@@ -571,7 +571,7 @@
     "publishedOn": "2013-01-30"
   },
   {
-    "title": "In Control with ControlsFX | Eugene Ryzhikov & Jonathan Giles",
+    "name": "In Control with ControlsFX | Eugene Ryzhikov & Jonathan Giles",
     "tags": "custom controls",
     "type": "Presentation",
     "domain": "",
@@ -588,7 +588,7 @@
     "publishedOn": "2013-06-14"
   },
   {
-    "title": "Medusa Demo",
+    "name": "Medusa Demo",
     "tags": "gauges, charts, graphs, instruments",
     "type": "Demo",
     "domain": "Charting",
@@ -604,7 +604,7 @@
     "publishedOn": "2013-06-14"
   },
   {
-    "title": "JavaFX Ikonli Font Icon Packs Tutorial",
+    "name": "JavaFX Ikonli Font Icon Packs Tutorial",
     "tags": "icon, material design, fontawesome, awesome, icon font, svg",
     "type": "Tutorial",
     "domain": "Icons",
@@ -617,7 +617,7 @@
     "publishedOn": "2013-06-14"
   },
   {
-    "title": "CSSFX Introduction",
+    "name": "CSSFX Introduction",
     "tags": "css, reload, develop, debug",
     "type": "Tutorial",
     "domain": "Tool",
@@ -633,7 +633,7 @@
     ]
   },
   {
-    "title": "Introduction to JavaFX Scenic View",
+    "name": "Introduction to JavaFX Scenic View",
     "tags": "tool, scene, graph, debug",
     "type": "Tutorial",
     "domain": "Tool",
@@ -646,7 +646,7 @@
     "publishedOn": "2013-06-16"
   },
   {
-    "title": "Testing JavaFX Applications with TestFX 4 (Part1)",
+    "name": "Testing JavaFX Applications with TestFX 4 (Part1)",
     "tags": "tutorial, testing",
     "type": "Tutorial",
     "domain": "Testing",
@@ -659,7 +659,7 @@
     "publishedOn": "2013-06-16"
   },
   {
-    "title": "Headless testing with JavaFX and TestFX (Part2)",
+    "name": "Headless testing with JavaFX and TestFX (Part2)",
     "tags": "tutorial, testing",
     "type": "Tutorial",
     "domain": "Testing",
@@ -672,7 +672,7 @@
     "publishedOn": "2013-06-16"
   },
   {
-    "title": "FlexGanttFX - Emirates POC running on iPad",
+    "name": "FlexGanttFX - Emirates POC running on iPad",
     "tags": "ipad, ios, aviation, planning, scheduling, touch",
     "type": "Library",
     "domain": "Planning & Scheduling",
@@ -688,7 +688,7 @@
     ]
   },
   {
-    "title": "FlexGanttFX - Canvas & Dateline Buffer",
+    "name": "FlexGanttFX - Canvas & Dateline Buffer",
     "tags": "canvas, clipping, tip, trick",
     "type": "Library",
     "domain": "Planning & Scheduling",
@@ -704,7 +704,7 @@
     ]
   },
   {
-    "title": "FlexGanttFX - European Broadcasting Union / NEOS",
+    "name": "FlexGanttFX - European Broadcasting Union / NEOS",
     "tags": "planning, scheduling, tv, radio, broadcasting, transmission, resource",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
@@ -720,7 +720,7 @@
     ]
   },
   {
-    "title": "FlexGanttFX - Emirates Airline",
+    "name": "FlexGanttFX - Emirates Airline",
     "tags": "planning, scheduling, aviation, resource",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
@@ -736,7 +736,7 @@
     ]
   },
   {
-    "title": "FlexGanttFX - MINT TRMS Scheduling Demo",
+    "name": "FlexGanttFX - MINT TRMS Scheduling Demo",
     "tags": "planning, scheduling, aviation, resource",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
@@ -752,7 +752,7 @@
     ]
   },
   {
-    "title": "DesktopPaneFX Demonstration",
+    "name": "DesktopPaneFX Demonstration",
     "tags": "desktop, mdi, internal windows, jdesktoppane",
     "type": "Real World Application",
     "domain": "Planning & Scheduling",
@@ -768,7 +768,7 @@
     ]
   },
   {
-    "title": "FXGL 11 Showcase Trailer",
+    "name": "FXGL 11 Showcase Trailer",
     "tags": "game, gaming, engine",
     "type": "Library",
     "domain": "Gaming",
@@ -784,7 +784,7 @@
     ]
   },
   {
-    "title": "PDFViewFX",
+    "name": "PDFViewFX",
     "tags": "pdf, viewer",
     "type": "Library",
     "domain": "",
@@ -800,7 +800,7 @@
     ]
   },
   {
-    "title": "XPS - DrawFX",
+    "name": "XPS - DrawFX",
     "tags": "clipping, drawing, animation, animate, shapes, timeline",
     "type": "Real World Application",
     "domain": "Sports",
@@ -816,7 +816,7 @@
     ]
   },
   {
-    "title": "KeyboardFX - On-Screen Keyboard",
+    "name": "KeyboardFX - On-Screen Keyboard",
     "tags": "keyboard, touch, on-screen, virtual, gesture, ipad",
     "type": "Library",
     "domain": "",
@@ -832,7 +832,7 @@
     ]
   },
   {
-    "title": "How to Build the Game 2048 with JavaFX and Java: Lessons Learned",
+    "name": "How to Build the Game 2048 with JavaFX and Java: Lessons Learned",
     "tags": "game, mobile, gluon, ios, android",
     "type": "Real World Application",
     "domain": "Gaming",

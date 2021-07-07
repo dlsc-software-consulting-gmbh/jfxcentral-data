@@ -12,6 +12,8 @@ import java.util.StringTokenizer;
 public abstract class ModelObject {
 
     private String id;
+    private String name;
+    private String summary;
     private LocalDate createdOn;
     private LocalDate modifiedOn;
     private String tags;
@@ -31,16 +33,44 @@ public abstract class ModelObject {
     protected ModelObject() {
     }
 
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(getName(), searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(getSummary(), searchPattern)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
     public boolean isHide() {
         return hide;
     }
 
     public void setHide(boolean hide) {
         this.hide = hide;
-    }
-
-    public boolean matches(String searchPattern) {
-        return false;
     }
 
     protected boolean tagsMatch(String searchPattern) {

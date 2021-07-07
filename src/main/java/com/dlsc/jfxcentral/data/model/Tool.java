@@ -4,8 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Tool extends ModelObject implements Coordinates {
 
-    private String name;
-    private String summary;
     private String description;
     private String homepage;
     private String repository;
@@ -17,15 +15,7 @@ public class Tool extends ModelObject implements Coordinates {
 
     @Override
     public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(summary, searchPattern)) {
+        if (super.matches(searchPattern)) {
             return true;
         }
 
@@ -50,22 +40,6 @@ public class Tool extends ModelObject implements Coordinates {
 
     public void setHomepage(String homepage) {
         this.homepage = homepage;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getRepository() {

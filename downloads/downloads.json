@@ -1,7 +1,7 @@
 [
   {
     "id": "makeover",
-    "title": "Extreme GUI Makeover",
+    "name": "Extreme GUI Makeover",
     "tags": "makeover, demo, presentation, javaone, oracle codeone",
     "homepage": "https://github.com/hendrikebbers/ExtremeGuiMakeover",
     "downloadType": "APPLICATION",
@@ -32,7 +32,7 @@
   },
   {
     "id": "emirates",
-    "title": "FlexGanttFX POC for Emirates Airlines",
+    "name": "FlexGanttFX POC for Emirates Airlines",
     "tags": "demo, poc, airline, emirates, scheduling, planning, gantt",
     "downloadType": "APPLICATION",
     "homepage": "https://www.flexganttfx.com",
@@ -61,7 +61,7 @@
   },
   {
     "id": "ikonlibrowser",
-    "title": "Ikonli Browser",
+    "name": "Ikonli Browser",
     "tags": "icons, library, demo, application",
     "downloadType": "APPLICATION",
     "personIds": [
@@ -92,7 +92,7 @@
   },
   {
     "id": "realworld",
-    "title": "Real World Apps Presentation",
+    "name": "Real World Apps Presentation",
     "tags": "real world app, keynote, powerpoint, conference, event, talk, presentation",
     "downloadType": "PRESENTATION",
     "personIds": [
@@ -120,7 +120,7 @@
   },
   {
     "id": "spacefx",
-    "title": "SpaceFX",
+    "name": "SpaceFX",
     "tags": "real world app, game, space, shooter, mobile, desktop, web",
     "downloadType": "APPLICATION",
     "homepage": "https://github.com/HanSolo/SpaceFX",
@@ -146,7 +146,7 @@
   },
   {
     "id": "tilesfx",
-    "title": "TilesFX Demo",
+    "name": "TilesFX Demo",
     "tags": "tilesfx, charts, tile, dashboard",
     "downloadType": "APPLICATION",
     "personIds": [
@@ -171,7 +171,7 @@
   },
   {
     "id": "speedtest",
-    "title": "Speed Test",
+    "name": "Speed Test",
     "tags": "bandwidth, speed, internet, connection, isp",
     "homepage": "https://www.cnlab.ch/en/speedtest",
     "downloadType": "APPLICATION",
@@ -194,7 +194,7 @@
   },
   {
     "id": "covid",
-    "title": "Covid Data Explorer (FlexGanttFX)",
+    "name": "Covid Data Explorer (FlexGanttFX)",
     "tags": "covid, data exploration, health, medical",
     "homepage": "https://www.flexganttfx.com",
     "downloadType": "APPLICATION",
@@ -223,7 +223,7 @@
   },
   {
     "id": "scenicview",
-    "title": "Scenic View",
+    "name": "Scenic View",
     "tags": "debug, inspect, scene graph",
     "homepage": "https://github.com/JonathanGiles/scenic-view",
     "downloadType": "APPLICATION",
@@ -255,7 +255,7 @@
   },
   {
     "id": "scenebuilder",
-    "title": "Scene Builder 16.0.0 (March 26th, 2021)",
+    "name": "Scene Builder 16.0.0 (March 26th, 2021)",
     "tags": "debug, inspect, scene graph",
     "homepage": "https://gluonhq.com/products/scene-builder/",
     "downloadType": "APPLICATION",
@@ -299,7 +299,7 @@
   },
   {
     "id": "scenebuilder8",
-    "title": "Scene Builder 8.5.0 (June 5th, 2018)",
+    "name": "Scene Builder 8.5.0 (June 5th, 2018)",
     "tags": "debug, inspect, scene graph",
     "homepage": "https://gluonhq.com/products/scene-builder/",
     "downloadType": "APPLICATION",
@@ -361,7 +361,7 @@
   },
   {
     "id": "fx2048",
-    "title": "fx2048",
+    "name": "fx2048",
     "tags": "game",
     "homepage": "https://github.com/brunoborges/fx2048",
     "downloadType": "APPLICATION",
@@ -394,7 +394,7 @@
   },
   {
     "id": "jdkmon",
-    "title": "JDKMon",
+    "name": "JDKMon",
     "tags": "jdkmon, tools, jdk, openjdk",
     "downloadType": "APPLICATION",
     "personIds": [

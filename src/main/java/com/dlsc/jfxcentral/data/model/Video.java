@@ -6,7 +6,6 @@ import java.time.LocalDate;
 
 public class Video extends ModelObject {
 
-    private String title;
     private String description;
     private String type;
     private String domain;
@@ -19,11 +18,7 @@ public class Video extends ModelObject {
 
     @Override
     public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+        if (super.matches(searchPattern)) {
             return true;
         }
 
@@ -48,14 +43,6 @@ public class Video extends ModelObject {
         }
 
         return false;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public String getDescription() {
