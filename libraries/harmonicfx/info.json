@@ -1,2 +1,49 @@
 {
+  "images": [
+    {
+      "path": "CircularPlot.png",
+      "title": "Circular Plot",
+      "description": ""
+    },
+    {
+      "path": "ConcentricRingChart.png",
+      "title": "Concentric Ring Chart",
+      "description": ""
+    },
+    {
+      "path": "CoxcombChart.png",
+      "title": "Coxcomb Chart",
+      "description": ""
+    },
+    {
+      "path": "ParallelCoordinatesChart.png",
+      "title": "Parallel Coordinates",
+      "description": ""
+    },
+    {
+      "path": "SankeyPlot.png",
+      "title": "Sankey Plot",
+      "description": ""
+    },
+    {
+      "path": "SmoothCharts.png",
+      "title": "Smooth Charts",
+      "description": ""
+    },
+    {
+      "path": "SunburstChart.png",
+      "title": "Sunburst Chart",
+      "description": ""
+    },
+    {
+      "path": "TimeControl.png",
+      "title": "Time Control",
+      "description": ""
+    },
+    {
+      "path": "WeatherFX.png",
+      "title": "Weather Station",
+      "description": ""
+    }
+  ]
 }

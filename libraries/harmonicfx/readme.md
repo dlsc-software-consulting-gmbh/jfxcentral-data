@@ -1,0 +1,4 @@
+HarmonicFX is a compilation of the various components written by Gerrit Grunwald as part
+of his "Friday Fun" posts on his blog [over at "Harmonic Code"](http://harmoniccode.blogspot.ch/search/label/fridayfun).
+
+![Blog](blog.png)

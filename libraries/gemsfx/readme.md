@@ -1,6 +1,4 @@
-> At least **JDK 11** is required.
-
-## Dialog Pane
+### Dialog Pane
 
 The class DialogPane can be used as a layer on top of any application. It offers various methods to display different
 types of dialogs.
@@ -16,20 +14,20 @@ types of dialogs.
 
 ![DialogPane](dialog-pane.png)
 
-## Resizable Text Area
+### Resizable Text Area
 
 A custom control that wraps a text area and adds a resize handle to the lower right corner of it. The area can be configured to be
 resizable in vertical, horizontal, or both directions.
 
 ![ResizableTextArea](resizable-text-area.png)
 
-## Expanding Text Area
+### Expanding Text Area
 
 A customized text area that grows based on its text content. The text area will never show vertical or horizontal scrollbars.
 
 ![ExpandingTextArea](expanding-text-area.png)
 
-## Time Picker
+### Time Picker
 
 A small control used for entering a time. The control can be configured with a "step rate" for the minutes field (e.g. "15 minutes") that will be used when
 incrementing or decrementing the minutes field via the keyboard (arrow keys). The control can also be configured to only allow a time within the time range
@@ -40,7 +38,7 @@ get increased when the minute field rolls over from 59 to 0 or decreased when th
 
 ![TimePicker](time-picker.png)
 
-## Duration Picker
+### Duration Picker
 
 A small control used for entering a duration. The control can be configured to only allow a duration within the range
 defined by a minimum and maximum duration. A popup can be used to work with the mouse only. It is also possible to specify whether the fields should "roll over"
@@ -49,7 +47,7 @@ filling fields with leading zeros, etc..
 
 ![DurationPicker](duration-picker.png)
 
-## Photo View
+### Photo View
 
 A control for adding and editing a user profile photo (or whatever). The user can click on the control to choose an image file
 via a file chooser (replacable) or via drag and drop. Once added the user can move the image around and zoom in / out. As a convenience
@@ -59,63 +57,61 @@ be removed by pressing DELETE or BACK_SPACE.
 
 ![PhotoView](photo-view.png)
 
-## Payment Option Controls
+### Payment Option Controls
 
 A specialized subclass of ImageView that can be used to display different graphics for different payment options. Graphics provided by Gregoire Segretain (https://www.sketchappsources.com/contributor/gregoiresgt)
 
 ![LightOption](payment-options-light.png) ![DarkOption](payment-options-dark.png)
 
-## DrawerStackPane
+### DrawerStackPane
 
 A stackpane with an optional node that can be shown inside a drawer. The drawer is animated and can slide in and out. When the drawer is showing a semi-transparent glass pane will cover the background. In addition the last height of the drawer can be persisted via the preferences API so that next time the drawer will show itself like in the last user session.
 
 ![DrawerStackPane](drawer-stackpane.png)
 
-## FilterView
+### FilterView
 
 A control for filtering the content of an observable list. Works in combination with TableView, ListView, or any control that is based on observable lists.
 
 ![FilterView](filter-view.png)
 
-## RichTextArea
+### RichTextArea
 
 A read-only text area that is capable of displaying nicely formatted text. The control comes with a rich model and a fluent API that will allow you to quickly compose rich text.
 
 ![RichTextArea](rich-textarea.png)
 
-```java
+```
 RichTextArea area = new RichTextArea();
 area.setDocument(
-RTDocument.create(
-RTHeading.create("Heading 1"),
-RTParagraph.create(
-RTText.create("This is the first paragraph. "),
-RTText.create("Some text comes here before the link that "),
-RTLink.create("points to the website ", "https://www.dlsc.com"),
-RTText.create("of DLSC Software & Consulting.")
-),
-RTParagraph.create(
-RTText.create("Here comes the second paragraph.")
-),
-RTParagraph.create(),
-RTHeading.create("Heading 2"),
-RTParagraph.create(
-RTText.create("Some text for the first paragraph after heading 2."),
-RTList.create(
-RTListItem.create("List item 1"),
-RTListItem.create("List item 2"),
-RTListItem.create("List item 3",
-RTList.create(
-RTListItem.create("Sub item A"),
-RTListItem.create("Sub item B"),
-RTListItem.create("Sub item C"),
-RTListItem.create("Sub item D")
-)
-),
-RTListItem.create("List item 4")
-)
-)
-)
+    RTDocument.create(
+        RTHeading.create("Heading 1"),
+        RTParagraph.create(
+            RTText.create("This is the first paragraph. "),
+            RTText.create("Some text comes here before the link that "),
+            RTLink.create("points to the website ", "https://www.dlsc.com"),
+            RTText.create("of DLSC Software & Consulting.")
+        ),
+        RTParagraph.create(
+            RTText.create("Here comes the second paragraph.")
+        ),
+        RTParagraph.create(),
+        RTHeading.create("Heading 2"),
+        RTParagraph.create(
+            RTText.create("Text for the first paragraph after heading 2."),
+            RTList.create(
+                RTListItem.create("List item 1"),
+                RTListItem.create("List item 2"),
+                RTListItem.create("List item 3",
+            RTList.create(
+                RTListItem.create("Sub item A"),
+                RTListItem.create("Sub item B"),
+                RTListItem.create("Sub item C"),
+                RTListItem.create("Sub item D")
+            )
+        ),
+        RTListItem.create("List item 4")
+    )
 );
 ```
 
@@ -124,6 +120,7 @@ RTListItem.create("List item 4")
 You can run the demos using Maven by typing any of the following lines into your
 terminal:
 
+```
 mvn javafx:run -f gemsfx-demo/pom.xml -Dmain.class=com.dlsc.gemsfx.demo.DialogsApp
 mvn javafx:run -f gemsfx-demo/pom.xml -Dmain.class=com.dlsc.gemsfx.demo.DrawerApp
 mvn javafx:run -f gemsfx-demo/pom.xml -Dmain.class=com.dlsc.gemsfx.demo.DurationPickerApp
@@ -137,3 +134,4 @@ mvn javafx:run -f gemsfx-demo/pom.xml -Dmain.class=com.dlsc.gemsfx.demo.PhotoVie
 mvn javafx:run -f gemsfx-demo/pom.xml -Dmain.class=com.dlsc.gemsfx.demo.ResizableTextAreaApp
 mvn javafx:run -f gemsfx-demo/pom.xml -Dmain.class=com.dlsc.gemsfx.demo.RichTextAreaApp
 mvn javafx:run -f gemsfx-demo/pom.xml -Dmain.class=com.dlsc.gemsfx.demo.TimePickerApp
+```

@@ -1,0 +1,1 @@
+CO-Founder and CTO at Sandec GmbH. Master-mind behind JPRO.

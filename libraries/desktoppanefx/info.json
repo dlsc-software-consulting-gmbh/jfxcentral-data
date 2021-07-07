@@ -1,2 +1,9 @@
 {
+  "images": [
+    {
+      "path": "desktoppanefx.png",
+      "title": "DesktopPane",
+      "description": ""
+    }
+  ]
 }

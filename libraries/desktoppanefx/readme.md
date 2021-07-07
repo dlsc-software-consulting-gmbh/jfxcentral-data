@@ -14,7 +14,8 @@ import org.kordamp.desktoppanefx.scene.layout.InternalWindow;
 import org.kordamp.ikonli.javafx.FontIcon;
 
 public class Example extends Application {
-private static int count = 0;
+    
+    private static int count = 0;
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -39,11 +40,3 @@ private static int count = 0;
     }
 }
 ```
-
-## Incubating Features
-
-The following features can be activated by defining a System property with a `"true"` value:
-
-| Property                         | Description                                                      |
-|----------------------------------|------------------------------------------------------------------|
-| desktoppanefx.detachable.windows | `InternalWindow` may be detached/attached from/to a `DesktopPane`|

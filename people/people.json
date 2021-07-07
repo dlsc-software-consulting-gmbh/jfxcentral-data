@@ -32,6 +32,9 @@
     "libraryIds": [
       "controlsfx"
     ],
+    "tutorialIds": [
+      "fxdocs"
+    ],
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14"
   },
@@ -77,6 +80,9 @@
     "id": "a.baimagambetov",
     "libraryIds": [
       "fxgl"
+    ],
+    "tutorialIds": [
+      "fxdocs"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -290,7 +296,15 @@
     "rockstar": true,
     "id": "g.grunwald",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "libraryIds": [
+      "harmonicfx",
+      "tilesfx",
+      "medusa"
+    ],
+    "tutorialIds": [
+      "fxdocs"
+    ]
   },
   {
     "name": "Hendrik Ebbers",
@@ -384,11 +398,20 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "JonathanGiles",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "j.giles",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2021-05-28",
+    "tutorialIds": [
+      "fxdocs"
+    ],
+    "toolIds": [
+      "scenicview"
+    ],
+    "libraryIds": [
+      "controlsfx"
+    ]
   },
   {
     "name": "José Pereda",
@@ -398,8 +421,8 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "JPeredaDnr",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "j.pereda",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -412,7 +435,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "net0pyr",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "m.heinrichs",
     "createdOn": "2021-05-18",
@@ -440,7 +463,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "_tamanm",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "m.taman",
     "createdOn": "2021-05-18",
@@ -448,7 +471,7 @@
   },
   {
     "name": "Pedro Duque Vieira",
-    "email": "",
+    "email": "pedro.duquevieira@gmail.com",
     "companyId": "",
     "website": "https://www.pixelduke.com",
     "blogId": "",
@@ -468,8 +491,8 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "SeanMiPhillips",
-    "champion": false,
-    "rockstar": false,
+    "champion": true,
+    "rockstar": true,
     "id": "s.phillips",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -482,7 +505,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "steveonjava",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "s.chin",
     "createdOn": "2021-05-18",
@@ -510,7 +533,7 @@
     "blogId": "",
     "linkedIn": "",
     "twitter": "tomsontom",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "t.schindl",
     "createdOn": "2021-05-18",
@@ -554,7 +577,7 @@
     "linkedIn": "",
     "twitter": "monacotoni",
     "champion": true,
-    "rockstar": true,
+    "rockstar": false,
     "id": "a.epple",
     "createdOn": "2021-05-27",
     "modifiedOn": "2021-05-27"
@@ -571,7 +594,45 @@
     "rockstar": false,
     "id": "j.jenkov",
     "createdOn": "2021-06-09",
-    "modifiedOn": "2021-06-09"
+    "modifiedOn": "2021-06-09",
+    "tutorialIds": [
+      "jenkov"
+    ]
+  },
+  {
+    "name": "Matthieu Brouillard",
+    "email": "",
+    "companyId": "",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "matthieu-brouillard-5b57a624",
+    "twitter": "alightinthefog",
+    "champion": false,
+    "rockstar": false,
+    "id": "m.brouillard",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "toolIds": [
+      "cssfx"
+    ]
+  },
+  {
+    "name": "Florian Kirmaier",
+    "email": "fk@sandec.de",
+    "companyId": "jpro",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "floriankirmaier",
+    "twitter": "FlorianKirmaier",
+    "champion": false,
+    "rockstar": false,
+    "id": "f.kirmaier",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "toolIds": [
+      "jpro",
+      "cssfx"
+    ]
   }
 ]
 

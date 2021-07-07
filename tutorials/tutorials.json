@@ -5,7 +5,19 @@
     "name": "code.makery",
     "summary": "Learning how to code",
     "url": "https://code.makery.ch/library/javafx-tutorial/",
-    "commercial": "false"
+    "commercial": "false",
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
+  },
+  {
+    "id": "edencoding",
+    "format": "web",
+    "name": "eden/coding",
+    "summary": "Code snippets ready to use & much more.",
+    "url": "https://edencoding.com/category/javafx/",
+    "commercial": "false",
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
   },
   {
     "id": "almastutorials",
@@ -14,9 +26,8 @@
     "summary": "Video tutorials covering JavaFX & FXGL game engine",
     "url": "https://github.com/AlmasB/FXTutorials",
     "commercial": "false",
-    "personIds": [
-      "a.baimagambetov"
-    ]
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
   },
   {
     "id": "jenkov",
@@ -25,9 +36,8 @@
     "summary": "",
     "url": "http://tutorials.jenkov.com/javafx/index.html",
     "commercial": "false",
-    "personIds": [
-      "j.jenkov"
-    ]
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
   },
   {
     "id": "peggyfisher",
@@ -43,7 +53,9 @@
     "name": "Treehouse Online Course",
     "summary": "Build a JavaFX application",
     "url": "https://teamtreehouse.com/library/build-a-javafx-application",
-    "commercial": "true"
+    "commercial": "true",
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
   },
   {
     "id": "newboston",
@@ -51,7 +63,9 @@
     "name": "JavaFX GUI Design Tutorial on YouTube",
     "summary": "YouTube playlist with short focused tutorial videos ",
     "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG",
-    "commercial": "false"
+    "commercial": "false",
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
   },
   {
     "id": "udemy",
@@ -59,6 +73,18 @@
     "name": "JavaFX Online Course @ Udemy",
     "summary": "Commercial online course with videos",
     "url": "https://www.udemy.com/course/javafx-gui-programming/",
-    "commercial": "true"
+    "commercial": "true",
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
+  },
+  {
+    "id": "fxdocs",
+    "format": "web",
+    "name": "The JavaFX Documentation Project",
+    "summary": "A collaborative effort to collect important JavaFX information from around the web into a single place.",
+    "url": "https://github.com/FXDocs/docs",
+    "commercial": "false",
+    "createdOn": "2021-06-15",
+    "updatedOn": "2021-06-15"
   }
 ]

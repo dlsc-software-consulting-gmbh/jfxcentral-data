@@ -1,0 +1,1 @@
+Senior Software Architect, Java & JEE Specialist, OSS contributor, Devoxx speaker.

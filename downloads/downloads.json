@@ -80,7 +80,6 @@
         "fileName": "",
         "package": "ZIP"
       },
-
       {
         "name": "ZIP for Windows",
         "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-windows.zip",
@@ -96,6 +95,9 @@
     "downloadType": "PRESENTATION",
     "personIds": [
       "d.lemmermann"
+    ],
+    "companyIds": [
+      "dlsc"
     ],
     "createdOn": "2021-06-05",
     "modifiedOn": "2021-06-05",
@@ -162,6 +164,222 @@
         "fileName": "",
         "package": "PKG"
       }
+    ]
+  },
+  {
+    "id": "speedtest",
+    "title": "Speed Test",
+    "tags": "bandwidth, speed, internet, connection, isp",
+    "homepage": "https://www.cnlab.ch/en/speedtest",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-15",
+    "modifiedOn": "2021-06-15",
+    "files": [
+      {
+        "name": "EXE (Windows)",
+        "url": "https://download.cnlab.ch/performance/win64/cnlabSpeedTest.exe",
+        "fileName": "",
+        "package": "EXE"
+      },
+      {
+        "name": "DMG Installer (Mac)",
+        "url": "https://download.cnlab.ch/performance/macos/cnlabSpeedTest.dmg",
+        "fileName": "",
+        "package": "DMG"
+      }
+    ]
+  },
+  {
+    "id": "covid",
+    "title": "Covid Data Explorer (FlexGanttFX)",
+    "tags": "covid, data exploration, health, medical",
+    "homepage": "https://www.flexganttfx.com",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-15",
+    "modifiedOn": "2021-06-15",
+    "personIds": [
+      "d.lemmermann"
+    ],
+    "companyIds": [
+      "dlsc"
+    ],
+    "files": [
+      {
+        "name": "PKG Installer (Mac)",
+        "url": "",
+        "fileName": "covid-explorer-pkg.zip",
+        "package": "PKG"
+      }
+    ]
+  },
+  {
+    "id": "scenicview",
+    "title": "Scenic View",
+    "tags": "debug, inspect, scene graph",
+    "homepage": "https://github.com/JonathanGiles/scenic-view",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "personIds": [
+      "j.giles"
+    ],
+    "files": [
+      {
+        "name": "Windows",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-win.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+      {
+        "name": "Mac",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-mac.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+      {
+        "name": "Linux",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-linux.zip",
+        "fileName": "",
+        "package": "ZIP"
+      }
+    ]
+  },
+  {
+    "id": "scenebuilder",
+    "title": "Scene Builder 16.0.0 (March 26th, 2021)",
+    "tags": "debug, inspect, scene graph",
+    "homepage": "https://gluonhq.com/products/scene-builder/",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "companyIds": [
+      "gluon"
+    ],
+    "files": [
+      {
+        "name": "Windows",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/16.0.0/install/windows/SceneBuilder-16.0.0.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "Mac",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/16.0.0/install/mac/SceneBuilder-16.0.0.dmg",
+        "fileName": "",
+        "package": "DMG"
+      },
+      {
+        "name": "Linux RPM",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/16.0.0/install/linux/SceneBuilder-16.0.0.rpm",
+        "fileName": "",
+        "package": "RPM"
+      },
+      {
+        "name": "Linux DEB",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/16.0.0/install/linux/SceneBuilder-16.0.0.deb",
+        "fileName": "",
+        "package": "DEB"
+      },
+      {
+        "name": "JAR File",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/16.0.0/scenebuilder-kit-16.0.0.jar",
+        "fileName": "",
+        "package": "JAR"
+      }
+    ]
+  },
+  {
+    "id": "scenebuilder8",
+    "title": "Scene Builder 8.5.0 (June 5th, 2018)",
+    "tags": "debug, inspect, scene graph",
+    "homepage": "https://gluonhq.com/products/scene-builder/",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "companyIds": [
+      "gluon"
+    ],
+    "files": [
+      {
+        "name": "Windows (64)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-windows-x64/",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "Windows (32)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-windows/",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "Mac",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-mac/",
+        "fileName": "",
+        "package": "DMG"
+      },
+      {
+        "name": "Linux RPM (64)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-linux-rpm/",
+        "fileName": "",
+        "package": "RPM"
+      },
+      {
+        "name": "Linux RPM (32)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-linux-rpm-x86/",
+        "fileName": "",
+        "package": "RPM"
+      },
+      {
+        "name": "Linux DEB (64)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-linux-deb/",
+        "fileName": "",
+        "package": "DEB"
+      },
+      {
+        "name": "Linux DEB (32)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-linux-deb-x86/",
+        "fileName": "",
+        "package": "DEB"
+      },
+      {
+        "name": "Executable JAR File",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=/download/scene-builder-jar/",
+        "fileName": "",
+        "package": "JAR"
+      }
+    ]
+  },
+  {
+    "id": "fx2048",
+    "title": "fx2048",
+    "tags": "game",
+    "homepage": "https://github.com/brunoborges/fx2048",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-06-16",
+    "modifiedOn": "2021-06-16",
+    "files": [
+      {
+        "name": "Windows (MSI)",
+        "url": "https://github.com/brunoborges/fx2048/releases/download/game2048-20191126.4/fx2048-1.0.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "Mac (DMG)",
+        "url": "https://github.com/brunoborges/fx2048/releases/download/game2048-20191126.4/fx2048-1.0.pkg",
+        "fileName": "",
+        "package": "PKG"
+      },
+      {
+        "name": "Linux (DEB)",
+        "url": "https://github.com/brunoborges/fx2048/releases/download/game2048-20191126.4/fx2048_1.0-1_amd64.deb",
+        "fileName": "",
+        "package": "DEB"
+      }
+    ],
+    "personIds": [
+      "b.borges"
     ]
   },
   {
