@@ -22,9 +22,11 @@
     "artifactId": "gluonfx-maven-plugin",
     "homepage": "",
     "repository": "https://github.com/gluonhq/client-maven-plugin",
-    "companyId": "gluon",
     "createdOn": "2021-06-01",
-    "modifiedOn": "2021-06-01"
+    "modifiedOn": "2021-06-01",
+    "companyIds": [
+      "gluon"
+    ]
   },
   {
     "id": "scenicview",
@@ -54,6 +56,9 @@
     "downloadIds": [
       "scenebuilder",
       "scenebuilder8"
+    ],
+    "companyIds": [
+      "gluon"
     ]
   },
   {
@@ -64,7 +69,10 @@
     "tags": "web, browser, web app, web application",
     "homepage": "https://www.jpro.one",
     "createdOn": "2021-06-01",
-    "modifiedOn": "2021-06-01"
+    "modifiedOn": "2021-06-01",
+    "companyIds": [
+      "jpro"
+    ]
   },
   {
     "id": "gluonmobile",
@@ -74,7 +82,10 @@
     "tags": "gluon, mobile, ui, navigation",
     "homepage": "https://gluonhq.com/products/mobile/",
     "createdOn": "2021-06-01",
-    "modifiedOn": "2021-06-01"
+    "modifiedOn": "2021-06-01",
+    "companyIds": [
+      "gluon"
+    ]
   },
   {
     "id": "testfx",
