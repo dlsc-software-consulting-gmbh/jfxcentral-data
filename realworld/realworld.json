@@ -90,7 +90,10 @@
     "url": "",
     "domain": "Logistics",
     "tags": "logistics, planning, scheduling, flexgantt, flexganttfx, gantt chart, airline, aircraft",
-    "summary": "A resource network optimization solution."
+    "summary": "A resource network optimization solution.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "equinox",
@@ -108,7 +111,10 @@
     "url": "",
     "domain": "Business Registry",
     "tags": "business, office, government, database, forms",
-    "summary": "Business registry software."
+    "summary": "Business registry software.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "justiz",
