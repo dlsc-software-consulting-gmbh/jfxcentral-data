@@ -76,6 +76,8 @@ public class DataRepository extends Application {
 
     private Map<Tool, StringProperty> toolDescriptionMap = new HashMap<>();
 
+    private Map<Tip, StringProperty> tipDescriptionMap = new HashMap<>();
+
     private Map<RealWorldApp, StringProperty> realWorldAppDescriptionMap = new HashMap<>();
 
     private Map<Company, StringProperty> companyDescriptionMap = new HashMap<>();
@@ -177,6 +179,7 @@ public class DataRepository extends Application {
         personDescriptionMap.clear();
         companyDescriptionMap.clear();
         toolDescriptionMap.clear();
+        tipDescriptionMap.clear();
         realWorldAppDescriptionMap.clear();
         downloadTextMap.clear();
         bookTextMap.clear();
@@ -687,6 +690,29 @@ public class DataRepository extends Application {
 
     private void loadToolDescription(Tool tool, StringProperty readmeProperty) {
         String readmeText = loadString(getBaseUrl() + "tools/" + tool.getId() + "/readme.md");
+        if (ASYNC) {
+            Platform.runLater(() -> readmeProperty.set(readmeText));
+        } else {
+            readmeProperty.set(readmeText);
+        }
+    }
+
+    public StringProperty tipDescriptionProperty(Tip tip) {
+        return tipDescriptionMap.computeIfAbsent(tip, key -> {
+            StringProperty readmeProperty = new SimpleStringProperty();
+
+            if (ASYNC) {
+                executor.submit(() -> loadTipDescription(tip, readmeProperty));
+            } else {
+                loadTipDescription(tip, readmeProperty);
+            }
+
+            return readmeProperty;
+        });
+    }
+
+    private void loadTipDescription(Tip tip, StringProperty readmeProperty) {
+        String readmeText = loadString(getBaseUrl() + "tips/" + tip.getId() + "/readme.md");
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
