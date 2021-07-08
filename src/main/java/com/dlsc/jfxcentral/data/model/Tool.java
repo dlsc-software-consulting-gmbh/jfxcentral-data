@@ -1,10 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
-import org.apache.commons.lang3.StringUtils;
-
 public class Tool extends ModelObject implements Coordinates {
 
-    private String description;
     private String homepage;
     private String repository;
     private String groupId;
@@ -19,19 +16,7 @@ public class Tool extends ModelObject implements Coordinates {
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(description, searchPattern)) {
-            return true;
-        }
-
         return false;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public String getHomepage() {

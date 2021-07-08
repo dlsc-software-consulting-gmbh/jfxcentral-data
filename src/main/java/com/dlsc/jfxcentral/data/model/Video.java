@@ -6,7 +6,6 @@ import java.time.LocalDate;
 
 public class Video extends ModelObject {
 
-    private String description;
     private String type;
     private String domain;
     private String event;
@@ -19,10 +18,6 @@ public class Video extends ModelObject {
     @Override
     public boolean matches(String searchPattern) {
         if (super.matches(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(description, searchPattern)) {
             return true;
         }
 
@@ -43,14 +38,6 @@ public class Video extends ModelObject {
         }
 
         return false;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public void setType(String type) {

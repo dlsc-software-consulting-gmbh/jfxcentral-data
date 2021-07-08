@@ -13,8 +13,6 @@ public class Person extends ModelObject {
     private String twitter;
     private String gitHub;
 
-    private String description;
-
     private boolean champion;
     private boolean rockstar;
 
@@ -32,10 +30,6 @@ public class Person extends ModelObject {
         }
 
         if (StringUtils.containsAnyIgnoreCase(email, searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(description, searchPattern)) {
             return true;
         }
 
@@ -88,14 +82,6 @@ public class Person extends ModelObject {
 
     public void setGitHub(String gitHub) {
         this.gitHub = gitHub;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public boolean isChampion() {

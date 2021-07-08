@@ -418,6 +418,10 @@ public class DataRepository extends Application {
         return tutorials.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<Tip> getTipById(String id) {
+        return tips.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> ListProperty<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);

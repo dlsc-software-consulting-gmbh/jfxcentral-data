@@ -14,6 +14,7 @@ public abstract class ModelObject {
     private String id;
     private String name;
     private String summary;
+    private String description;
     private LocalDate createdOn;
     private LocalDate modifiedOn;
     private String tags;
@@ -47,6 +48,14 @@ public abstract class ModelObject {
             return true;
         }
 
+        if (StringUtils.containsAnyIgnoreCase(getSummary(), searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(getDescription(), searchPattern)) {
+            return true;
+        }
+
         return false;
     }
 
@@ -56,6 +65,14 @@ public abstract class ModelObject {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getSummary() {

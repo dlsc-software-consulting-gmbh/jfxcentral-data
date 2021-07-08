@@ -4,7 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Library extends ModelObject implements Coordinates {
 
-    private String description;
     private String homepage;
     private String repository;
     private String documentation;
@@ -27,10 +26,6 @@ public class Library extends ModelObject implements Coordinates {
     @Override
     public boolean matches(String searchPattern) {
         if (super.matches(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(description, searchPattern)) {
             return true;
         }
 
@@ -59,14 +54,6 @@ public class Library extends ModelObject implements Coordinates {
 
     public void setEnsemble(boolean ensemble) {
         this.ensemble = ensemble;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public String getHomepage() {
