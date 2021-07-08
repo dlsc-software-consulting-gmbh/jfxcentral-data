@@ -1,12 +1,7 @@
 package com.dlsc.jfxcentral.data.model;
 
-import org.apache.commons.lang3.StringUtils;
-
 public class Tool extends ModelObject implements Coordinates {
 
-    private String name;
-    private String summary;
-    private String description;
     private String homepage;
     private String repository;
     private String groupId;
@@ -17,31 +12,11 @@ public class Tool extends ModelObject implements Coordinates {
 
     @Override
     public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(summary, searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(description, searchPattern)) {
+        if (super.matches(searchPattern)) {
             return true;
         }
 
         return false;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public String getHomepage() {
@@ -50,22 +25,6 @@ public class Tool extends ModelObject implements Coordinates {
 
     public void setHomepage(String homepage) {
         this.homepage = homepage;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getRepository() {

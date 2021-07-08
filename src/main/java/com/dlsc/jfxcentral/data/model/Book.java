@@ -6,10 +6,8 @@ import java.time.LocalDate;
 
 public class Book extends ModelObject {
 
-    private String summary;
     private String authors;
     private String publisher;
-    private String title;
     private String subtitle;
     private String url;
     private String amazonASIN;
@@ -22,15 +20,11 @@ public class Book extends ModelObject {
 
     @Override
     public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
+        if (super.matches(searchPattern)) {
             return true;
         }
 
         if (StringUtils.containsAnyIgnoreCase(authors, searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
             return true;
         }
 
@@ -51,14 +45,6 @@ public class Book extends ModelObject {
 
     public void setAuthors(String authors) {
         this.authors = authors;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public String getSubtitle() {
@@ -107,13 +93,5 @@ public class Book extends ModelObject {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
     }
 }

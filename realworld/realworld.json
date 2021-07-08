@@ -18,7 +18,10 @@
     "domain": "Sports",
     "tags": "sports, coaching, video",
     "summary": "An editor for composing coaching videos.",
-    "videoIds": []
+    "videoIds": [],
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "aida",
@@ -45,7 +48,10 @@
     "url": "https://www.debeka.de/index.html",
     "domain": "Insurance",
     "tags": "insurance, office",
-    "summary": "Insurance coverage check software."
+    "summary": "Insurance coverage check software.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "ebu",
@@ -57,6 +63,9 @@
     "summary": "Radio & TV transmission planning solution.",
     "videos": [
       "RN_Pcu8ssQc"
+    ],
+    "personIds": [
+      "d.lemmermann"
     ]
   },
   {
@@ -66,7 +75,13 @@
     "url": "https://eizo-or.com/en/global/products/or-software/curator-caliop-vm/",
     "domain": "Medical",
     "tags": "medical, health, operating room, surgery, video, displays",
-    "summary": "Experience the future of operating room technology"
+    "summary": "Experience the future of operating room technology",
+    "videoIds": [
+      "O6OUmwLAPYM"
+    ],
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "emirates",
@@ -75,7 +90,10 @@
     "url": "",
     "domain": "Logistics",
     "tags": "logistics, planning, scheduling, flexgantt, flexganttfx, gantt chart, airline, aircraft",
-    "summary": "A resource network optimization solution."
+    "summary": "A resource network optimization solution.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "equinox",
@@ -93,7 +111,10 @@
     "url": "",
     "domain": "Business Registry",
     "tags": "business, office, government, database, forms",
-    "summary": "Business registry software."
+    "summary": "Business registry software.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "justiz",
@@ -102,7 +123,10 @@
     "url": "https://gefa-justiz.de",
     "domain": "Justice",
     "tags": "legal, forms",
-    "summary": "Management software for justice processes."
+    "summary": "Management software for justice processes.",
+    "personIds": [
+      "t.schindl"
+    ]
   },
   {
     "id": "lynden",
@@ -132,6 +156,9 @@
     "summary": "Training and resource management for airlines.",
     "videoIds": [
       "d-oxGpUkFe4"
+    ],
+    "personIds": [
+      "d.lemmermann"
     ]
   },
   {
@@ -174,6 +201,9 @@
     "summary": "Explore possible orbits in space.",
     "videoIds": [
       "MotQ1PC1xT8"
+    ],
+    "personIds": [
+      "s.phillips"
     ]
   },
   {
@@ -183,7 +213,10 @@
     "url": "https://www.projektpro.com",
     "domain": "Architecture",
     "tags": "architecture, office, simulation, flexgantt, flexganttfx, planning, scheduling, gantt",
-    "summary": "Office software for architects."
+    "summary": "Office software for architects.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "psi",
@@ -213,7 +246,10 @@
     "url": "https://www.senapt.co.uk",
     "domain": "CRM",
     "tags": "crm, energy, dcc, uk, back office",
-    "summary": "CRM system for energy suppliers."
+    "summary": "CRM system for energy suppliers.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "skedpal",
@@ -222,7 +258,10 @@
     "url": "https://www.skedpal.com",
     "domain": "Scheduling",
     "tags": "calendar, scheduling, planning",
-    "summary": "Smart calendar to get things done."
+    "summary": "Smart calendar to get things done.",
+    "personIds": [
+      "d.lemmermann"
+    ]
   },
   {
     "id": "sophia",
@@ -252,7 +291,10 @@
     "url": "https://karakun.com/en/how-do-you-visualize-data/",
     "domain": "Logistics",
     "tags": "ship, logistics, planning, container, editor",
-    "summary": "Optimize utilization of vessel cargo space."
+    "summary": "Optimize utilization of vessel cargo space.",
+    "personIds": [
+      "g.grunwald"
+    ]
   },
   {
     "id": "witt",
@@ -279,7 +321,10 @@
     "url": "https://karakun.com/en/how-do-you-visualize-data/",
     "domain": "",
     "tags": "ship, yard, logistics, planning, container, editor",
-    "summary": "Optimize utilization of container yards."
+    "summary": "Optimize utilization of container yards.",
+    "personIds": [
+      "g.grunwald"
+    ]
   },
   {
     "id": "zeiss",
@@ -288,7 +333,10 @@
     "url": "https://www.zeiss.ch/meditec/produkte/ophthalmologie/ophthalmology-pacs-forum.html",
     "domain": "Medical",
     "tags": "eye, examination, medical, health, patient",
-    "summary": "Scalable software for ophthalmology"
+    "summary": "Scalable software for ophthalmology",
+    "personIds": [
+      "f.kirmaier"
+    ]
   },
   {
     "id": "streampi",

@@ -8,7 +8,9 @@
     "groupId": "org.openjfx",
     "artifactId": "javafx-maven-plugin",
     "homepage": "",
-    "repository": "https://github.com/openjfx/javafx-maven-plugin"
+    "repository": "https://github.com/openjfx/javafx-maven-plugin",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01"
   },
   {
     "id": "clientplugin",
@@ -20,7 +22,11 @@
     "artifactId": "gluonfx-maven-plugin",
     "homepage": "",
     "repository": "https://github.com/gluonhq/client-maven-plugin",
-    "companyId": "gluon"
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
+    "companyIds": [
+      "gluon"
+    ]
   },
   {
     "id": "scenicview",
@@ -29,6 +35,8 @@
     "description": "Scenic View is a JavaFX application designed to make it simple to understand the current state of your application scenegraph, and to also easily manipulate properties of the scenegraph without having to keep editing your code. This lets you find bugs, and get things pixel perfect without having to do the compile-check-compile dance.",
     "tags": "inspect, developer, development",
     "homepage": "https://github.com/JonathanGiles/scenic-view",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
     "downloadIds": [
       "scenicview"
     ],
@@ -43,18 +51,28 @@
     "description": "Scene builder is an editor for rapid application development via drag and drop. Separation of design and logic files allows for team members to quickly and easily focus on their specific layer of application development.",
     "tags": "UI builder, WYSIWYG, editor, user interface, client",
     "homepage": "https://gluonhq.com/products/scene-builder/",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
     "downloadIds": [
       "scenebuilder",
       "scenebuilder8"
+    ],
+    "companyIds": [
+      "gluon"
     ]
   },
   {
     "id": "jpro",
     "name": "JPro",
     "summary": "Deploy and run your applications in browsers.",
-    "description": "JPro is a solution that allows you to run your JavaFX application inside browsers. The application gets executed on the server and the its scene graph gets serialized, transferred to the browser, and recreated via HTML and JavaScript.",
+    "description": "JPro is a solution that allows you to run your JavaFX application inside browsers. The application gets executed on the server and its scene graph gets serialized, transferred to the browser, and recreated via HTML and JavaScript.",
     "tags": "web, browser, web app, web application",
-    "homepage": "https://www.jpro.one"
+    "homepage": "https://www.jpro.one",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
+    "companyIds": [
+      "jpro"
+    ]
   },
   {
     "id": "gluonmobile",
@@ -62,7 +80,12 @@
     "summary": "Deploy to mobile devices like iPhones, iPads, or Android.",
     "description": "Gluon Mobile Provides Fresh, Modern UIs, and Cloud Connectivity. Make use of hardware features on mobile devices in a platform-agnostic way. Gluon Mobile makes available all the storage systems, accelerometers, screen details, GPS devices, and more in a device-independent fashion.",
     "tags": "gluon, mobile, ui, navigation",
-    "homepage": "https://gluonhq.com/products/mobile/"
+    "homepage": "https://gluonhq.com/products/mobile/",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
+    "companyIds": [
+      "gluon"
+    ]
   },
   {
     "id": "testfx",
@@ -73,6 +96,8 @@
     "homepage": "https://github.com/TestFX/TestFX/blob/master/README.md",
     "groupId": "org.testfx",
     "artifactId": "testfx-core",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
     "videoIds": [
       "NG03nNpSmgU",
       "V7IHHZc9Bew"
@@ -87,6 +112,8 @@
     "repository": "https://github.com/McFoggy/cssfx",
     "groupId": "fr.brouillard.oss",
     "artifactId": "cssfx",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01",
     "videoIds": [
       "RELKg32xEWU"
     ]
@@ -100,6 +127,8 @@
     "groupId": "org.controlsfx",
     "artifactId": "fxsampler",
     "homepage": "https://controlsfx.github.io/fxsampler/",
-    "repository": "https://github.com/controlsfx/controlsfx"
+    "repository": "https://github.com/controlsfx/controlsfx",
+    "createdOn": "2021-06-01",
+    "modifiedOn": "2021-06-01"
   }
 ]

@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Download extends ModelObject {
 
-    private String title;
     private String homepage;
     private DownloadType downloadType;
     private List<DownloadFile> files = new ArrayList<>();
@@ -77,12 +76,7 @@ public class Download extends ModelObject {
 
     @Override
     public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
-            return true;
-        }
-
-
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
+        if (super.matches(searchPattern)) {
             return true;
         }
 
@@ -101,14 +95,6 @@ public class Download extends ModelObject {
 
     public void setDownloadType(DownloadType downloadType) {
         this.downloadType = downloadType;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public List<DownloadFile> getFiles() {

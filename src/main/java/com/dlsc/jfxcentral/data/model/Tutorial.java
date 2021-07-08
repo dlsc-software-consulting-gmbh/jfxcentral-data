@@ -1,7 +1,5 @@
 package com.dlsc.jfxcentral.data.model;
 
-import org.apache.commons.lang3.StringUtils;
-
 public class Tutorial extends ModelObject {
 
     public enum Format {
@@ -9,31 +7,12 @@ public class Tutorial extends ModelObject {
         WEB
     }
 
-    private String name;
     private String url;
     private boolean commercial;
-    private String summary;
     private String companyId;
     private Format format;
 
     public Tutorial() {
-    }
-
-    @Override
-    public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(summary, searchPattern)) {
-            return true;
-        }
-
-        return false;
     }
 
     public Format getType() {
@@ -44,28 +23,12 @@ public class Tutorial extends ModelObject {
         this.format = format;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getUrl() {
         return url;
     }
 
     public void setUrl(String url) {
         this.url = url;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
     }
 
     public String getCompanyId() {

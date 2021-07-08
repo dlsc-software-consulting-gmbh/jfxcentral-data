@@ -28,6 +28,7 @@ This repository contains the data for the following model objects:
 - `Tool`
 - `Tutorial`
 - `Video`
+- `Tip`
 
 Instances of these types can be registered in JSON files in subdirectories that
 match the types of the model objects:
@@ -43,6 +44,7 @@ match the types of the model objects:
 - Tools inside `tools/tools.json`
 - Tutorials inside `tutorials/tutorials.json`
 - Videos inside `videos/videos.json`
+- Tips inside `tips/tips.json`
 
 The design goal for these JSON files was to keep them as simple as possible. One can see that
 a specific directory exists for each model object ***type***. Inside those directories one can find another
@@ -78,6 +80,7 @@ private List<String> downloadIds = new ArrayList<>();
 private List<String> videoIds = new ArrayList<>();
 private List<String> appIds = new ArrayList<>();
 private List<String> blogIds = new ArrayList<>();`
+private List<String> tipIds = new ArrayList<>();`
 ```
 
 Example: to link the library *FlexGanttFX* to the person *Dirk Lemmermann* we can add the following
@@ -125,7 +128,7 @@ The other way around is also possible. We could add the library ID `flexganttfx`
 Ideally you take a look at the already existing data in those JSON files. They will pretty much
 tell you what to do.
 
-### Adding a Business Object
+### Examples
 
 Follow these instructions for the different types of data:
 
@@ -149,5 +152,3 @@ Follow these instructions for the different types of data:
 4. To the directory created in step 2: add a file called `readme.md` and add a "getting started" documentation or whatever you deem most important to know about the library.
 5. To the directory created in step 2: add (or copy) the file `info.json` and list screenshots or videos (those also need to be in the same directory).
 5. If the library entry inside the file `libraries/libraries.json` references other entities (for example a video or a tutorial) then make sure to also add those to the repository.
-
-### Adding a Book
