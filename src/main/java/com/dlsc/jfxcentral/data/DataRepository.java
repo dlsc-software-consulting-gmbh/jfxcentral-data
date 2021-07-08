@@ -1195,15 +1195,12 @@ public class DataRepository extends Application {
     public void loadFeeds(String reason) {
         System.out.println("loading feeds, reason = " + reason);
 
-        setLoadingFeeds(true);
+        Platform.runLater(() -> setLoadingFeeds(true));
 
         try {
             Platform.runLater(() -> getPosts().clear());
 
             ObservableList<Blog> blogs = getBlogs();
-            int size = blogs.size();
-
-//            System.out.println("loading feeds from " + size + " blogs");
 
             for (int i = 0; i < blogs.size(); i++) {
                 Blog blog = blogs.get(i);
@@ -1236,7 +1233,7 @@ public class DataRepository extends Application {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            setLoadingFeeds(false);
+            Platform.runLater(() -> setLoadingFeeds(false));
         }
     }
 
