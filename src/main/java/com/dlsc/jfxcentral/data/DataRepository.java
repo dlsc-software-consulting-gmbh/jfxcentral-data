@@ -1310,6 +1310,8 @@ public class DataRepository extends Application {
         search(getVideos(), pattern, result);
         search(getNews(), pattern, result);
         search(getDownloads(), pattern, result);
+        search(getTutorials(), pattern, result);
+        search(getTips(), pattern, result);
         return result;
     }
 
