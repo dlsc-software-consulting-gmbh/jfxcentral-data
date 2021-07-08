@@ -5,7 +5,6 @@ import com.dlsc.jfxcentral.data.pull.PullRequest;
 import javafx.beans.property.ListProperty;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.StringProperty;
-import javafx.collections.ObservableList;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -16,6 +15,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -68,7 +68,6 @@ public class DataRepositoryTest {
         assertTrue(repository.getLibraries().isEmpty());
         assertTrue(repository.getNews().isEmpty());
         assertTrue(repository.getPeople().isEmpty());
-        assertTrue(repository.getPosts().isEmpty());
         assertTrue(repository.getRealWorldApps().isEmpty());
         assertTrue(repository.getTools().isEmpty());
         assertTrue(repository.getVideos().isEmpty());
@@ -569,11 +568,9 @@ public class DataRepositoryTest {
         DataRepository repository = DataRepository.getInstance();
 
         // when
-        repository.loadPullRequests("loading in test");
+        List<PullRequest> pullRequests = repository.loadPullRequests();
 
         // then
-        ObservableList<PullRequest> pullRequests = repository.getPullRequests();
-
         assertFalse(pullRequests.isEmpty());
     }
 

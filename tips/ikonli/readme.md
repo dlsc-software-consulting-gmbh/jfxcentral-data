@@ -147,7 +147,7 @@ public enum MyIcon implements Ikon {
         return description;
     }
  
-    public char getCode() {
+    public int getCode() {
         return icon;
     }
  

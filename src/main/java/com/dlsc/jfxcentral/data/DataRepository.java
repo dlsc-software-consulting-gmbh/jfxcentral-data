@@ -14,7 +14,6 @@ import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.beans.Observable;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -24,7 +23,6 @@ import org.apache.commons.lang3.StringUtils;
 import java.io.*;
 import java.net.*;
 import java.text.MessageFormat;
-import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -100,67 +98,29 @@ public class DataRepository extends Application {
 
     private DataRepository() {
         if (ASYNC) {
-            getBlogs().addListener((Observable it) -> {
-                if (!getBlogs().isEmpty()) {
-                    Thread loadFeedsThread = new Thread(() -> loadFeeds("load because list of blogs changed, size = " + getBlogs().size()));
-                    loadFeedsThread.setName("Update feeds thread");
-                    loadFeedsThread.setDaemon(true);
-                    loadFeedsThread.start();
-                }
-            });
-
-            Thread loadPullRequestsThread = new Thread(() -> loadPullRequests("initial load via constructor async thread"));
-            loadPullRequestsThread.setName("Update OpenJFX pull requests thread");
-            loadPullRequestsThread.setDaemon(true);
-            loadPullRequestsThread.start();
-
             Thread thread = new Thread(() -> loadData("initial load via constructor async thread"));
             thread.setName("Data Repository Thread");
             thread.setDaemon(true);
             thread.start();
         } else {
             loadData("initial load in constructor");
-            loadFeeds("initial load in constructor");
-            loadPullRequests("initial load in constructor");
         }
-
-        loadFeedsAndPullRequestsAsynchronously();
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
     }
 
-    private void loadFeedsAndPullRequestsAsynchronously() {
-        // update feeds and pull requests every couple of hours
-        Thread updateFeedsAndPullRequestsThread = new Thread(() -> {
-            while (true) {
-                try {
-                    Thread.sleep(Duration.ofHours(3).toMillis());
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-
-                loadFeeds("periodic background load");
-                loadPullRequests("periodic background load");
-            }
-        });
-
-        updateFeedsAndPullRequestsThread.setName("Data Repository Feeds Update Thread");
-        updateFeedsAndPullRequestsThread.setDaemon(true);
-        updateFeedsAndPullRequestsThread.start();
-    }
-
     public void refreshData() {
         if (ASYNC) {
+            Platform.runLater(() -> {
+                clearData();
 
-            Platform.runLater(() -> clearData());
-
-            Thread thread = new Thread(() -> loadData("explicit async call to refresh method"));
-            thread.setName("Data Repository Refresh Thread");
-            thread.setDaemon(true);
-            thread.start();
-
+                Thread thread = new Thread(() -> loadData("explicit async call to refresh method"));
+                thread.setName("Data Repository Refresh Thread");
+                thread.setDaemon(true);
+                thread.start();
+            });
         } else {
             clearData();
             loadData("explicit call to refresh method");
@@ -185,7 +145,6 @@ public class DataRepository extends Application {
         bookTextMap.clear();
         tutorialTextMap.clear();
 
-        getPosts().clear();
         getPeople().clear();
         getLibraries().clear();
         getBooks().clear();
@@ -327,7 +286,6 @@ public class DataRepository extends Application {
         result.addAll(findRecentItems(getVideos()));
         result.addAll(findRecentItems(getBlogs()));
         result.addAll(findRecentItems(getCompanies()));
-        result.addAll(findRecentItems(getPosts()));
         result.addAll(findRecentItems(getTools()));
         result.addAll(findRecentItems(getTutorials()));
         result.addAll(findRecentItems(getRealWorldApps()));
@@ -875,20 +833,6 @@ public class DataRepository extends Application {
         this.blogs.setAll(blogs);
     }
 
-    private final ListProperty<PullRequest> pullRequests = new SimpleListProperty<>(this, "pullRequests", FXCollections.observableArrayList());
-
-    public ObservableList<PullRequest> getPullRequests() {
-        return pullRequests.get();
-    }
-
-    public ListProperty<PullRequest> pullRequestsProperty() {
-        return pullRequests;
-    }
-
-    public void setPullRequests(List<PullRequest> pullRequests) {
-        this.pullRequests.setAll(pullRequests);
-    }
-
     private final ListProperty<News> news = new SimpleListProperty<>(this, "news", FXCollections.observableArrayList());
 
     public ObservableList<News> getNews() {
@@ -1150,149 +1094,69 @@ public class DataRepository extends Application {
         }
     }
 
-    private final ListProperty<Post> posts = new SimpleListProperty<>(this, "posts", FXCollections.observableArrayList());
-
-    public ObservableList<Post> getPosts() {
-        return posts.get();
-    }
-
-    public ListProperty<Post> postsProperty() {
-        return posts;
-    }
-
-    private final BooleanProperty loadingFeeds = new SimpleBooleanProperty(this, "loadingFeeds", false);
-
-    public boolean isLoadingFeeds() {
-        return loadingFeeds.get();
-    }
-
-    public BooleanProperty loadingFeedsProperty() {
-        return loadingFeeds;
-    }
-
-    public void setLoadingFeeds(boolean loadingFeeds) {
-        Platform.runLater(() -> {
-            this.loadingFeeds.set(loadingFeeds);
-        });
-    }
-
-    private final BooleanProperty loadingPullRequests = new SimpleBooleanProperty(this, "loadingPullRequests", false);
-
-    public boolean isLoadingPullRequests() {
-        return loadingPullRequests.get();
-    }
-
-    public BooleanProperty loadingPullRequestsProperty() {
-        return loadingPullRequests;
-    }
-
-    public void setLoadingPullRequests(boolean loadingPullRequests) {
-        Platform.runLater(() -> {
-            this.loadingPullRequests.set(loadingPullRequests);
-        });
-    }
-
-    public void loadFeeds(String reason) {
-        System.out.println("loading feeds, reason = " + reason);
-
-        Platform.runLater(() -> setLoadingFeeds(true));
+    public List<Post> loadPosts(Blog blog) {
+        System.out.println("loading posts for blog " + blog.getName());
 
         try {
-            Platform.runLater(() -> getPosts().clear());
-
-            ObservableList<Blog> blogs = getBlogs();
-
-            for (int i = 0; i < blogs.size(); i++) {
-                Blog blog = blogs.get(i);
-                String url = blog.getFeed();
-                if (StringUtils.isNotBlank(url)) {
-
-                    System.out.println("loading blog posts from url: " + url);
-                    updateMessage("Loading blog: " + blog.getName());
-
-                    SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
-
-                    List<SyndEntry> entries = feed.getEntries();
-
-                    if (ASYNC) {
-                        Platform.runLater(() -> entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry))));
-                    } else {
-                        entries.forEach(entry -> getPosts().add(new Post(blog, feed, entry)));
-                    }
-
-                    if (!ASYNC && !entries.isEmpty()) {
-                        // to save time when unit tests are running
-                        break;
-                    }
-                }
+            String url = blog.getFeed();
+            if (StringUtils.isNotBlank(url)) {
+                SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
+                List<SyndEntry> entries = feed.getEntries();
+                List<Post> posts = new ArrayList<>();
+                entries.forEach(entry -> posts.add(new Post(blog, feed, entry)));
+                return posts;
             }
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
+        } catch (MalformedURLException ex) {
+            ex.printStackTrace();
         } catch (FeedException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            Platform.runLater(() -> setLoadingFeeds(false));
         }
+
+        return Collections.emptyList();
     }
 
-    public void loadPullRequests(String reason) {
-        System.out.println("loading pull requests, reason = " + reason);
+    public List<PullRequest> loadPullRequests() {
+        System.out.println("loading pull requests");
 
-        setLoadingPullRequests(true);
+        HttpURLConnection con = null;
 
-        try {
-            if (ASYNC) {
-                Platform.runLater(() -> getPullRequests().clear());
-            } else {
-                getPullRequests().clear();
-            }
+        for (int page = 1; page < 2; page++) {
+            try {
+                URL url = new URL("https://api.github.com/repos/openjdk/jfx/pulls?state=all&per_page=100&page=" + page);
 
-            HttpURLConnection con = null;
+                con = (HttpURLConnection) url.openConnection();
+                con.setRequestMethod("GET");
+                con.setUseCaches(false);
 
-            for (int page = 1; page < 2; page++) {
-                try {
-                    URL url = new URL("https://api.github.com/repos/openjdk/jfx/pulls?state=all&per_page=100&page=" + page);
-
-                    con = (HttpURLConnection) url.openConnection();
-                    con.setRequestMethod("GET");
-                    con.setUseCaches(false);
-
-                    int status = con.getResponseCode();
-                    if (status == 200) {
-                        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                        String inputLine;
-                        StringBuffer content = new StringBuffer();
-                        while ((inputLine = in.readLine()) != null) {
-                            content.append(inputLine);
-                        }
-                        in.close();
-
-                        List<PullRequest> result = gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
-                        }.getType());
-
-                        if (ASYNC) {
-                            Platform.runLater(() -> getPullRequests().addAll(result));
-                        } else {
-                            getPullRequests().addAll(result);
-                        }
+                int status = con.getResponseCode();
+                if (status == 200) {
+                    BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+                    String inputLine;
+                    StringBuffer content = new StringBuffer();
+                    while ((inputLine = in.readLine()) != null) {
+                        content.append(inputLine);
                     }
-                } catch (ProtocolException e) {
-                    e.printStackTrace();
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } finally {
-                    if (con != null) {
-                        con.disconnect();
-                    }
+                    in.close();
+
+                    return gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
+                    }.getType());
+                }
+            } catch (ProtocolException e) {
+                e.printStackTrace();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                if (con != null) {
+                    con.disconnect();
                 }
             }
-        } finally {
-            setLoadingPullRequests(false);
         }
+
+        return Collections.emptyList();
     }
 
     public List<ModelObject> search(String pattern) {
