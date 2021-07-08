@@ -405,13 +405,13 @@
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/3.7/JDKMon-16.0.0.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.2/JDKMon-16.0.2.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/3.7/JDKMon-16.0.0.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.2/JDKMon-16.0.2.pkg",
         "fileName": "",
         "package": "PKG"
       }
