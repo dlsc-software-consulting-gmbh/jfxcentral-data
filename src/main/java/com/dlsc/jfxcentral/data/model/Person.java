@@ -4,7 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Person extends ModelObject {
 
-    private String name;
     private String email;
     private String companyId;
 
@@ -13,8 +12,6 @@ public class Person extends ModelObject {
     private String linkedIn;
     private String twitter;
     private String gitHub;
-
-    private String description;
 
     private boolean champion;
     private boolean rockstar;
@@ -28,11 +25,7 @@ public class Person extends ModelObject {
 
     @Override
     public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
+        if (super.matches(searchPattern)) {
             return true;
         }
 
@@ -40,19 +33,7 @@ public class Person extends ModelObject {
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(description, searchPattern)) {
-            return true;
-        }
-
         return false;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getEmail() {
@@ -101,14 +82,6 @@ public class Person extends ModelObject {
 
     public void setGitHub(String gitHub) {
         this.gitHub = gitHub;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public boolean isChampion() {

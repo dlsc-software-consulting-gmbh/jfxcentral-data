@@ -11,7 +11,7 @@
       "j.weaver",
       "d.iverson"
     ],
-    "title": "Pro JavaFX 9",
+    "name": "Pro JavaFX 9",
     "subtitle": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients ",
     "url": "https://www.apress.com/gp/book/9781484230411",
     "amazonASIN": "B0788LZXWX",
@@ -30,7 +30,7 @@
       "j.pereda",
       "s.phillips"
     ],
-    "title": "JavaFX 9 by Example",
+    "name": "JavaFX 9 by Example",
     "subtitle": "Rich Client Applications for any Platform",
     "url": "https://www.apress.com/gp/book/9781484219607",
     "amazonASIN": "1484219600",
@@ -42,7 +42,7 @@
     "summary": "Use Java 9 and JavaFX 9 to write 3D games for the latest consumer electronics devices. Written by open source gaming expert Wallace Jackson, this book uses Java 9 and NetBeans 9 to add leading-edge features, such as 3D, textures, animation, digital audio, and digital image compositing to your games.",
     "publisher": "Apress",
     "authors": "Wallace Jackson",
-    "title": "Pro Java 9 Games Development",
+    "name": "Pro Java 9 Games Development",
     "subtitle": "Leveraging the JavaFX APIs",
     "url": "https://www.apress.com/gp/book/9781484209745",
     "amazonASIN": "B077GC338G",
@@ -57,19 +57,22 @@
     "personIds": [
       "f.delporte"
     ],
-    "title": "Getting started with Java on the Raspberry Pi",
+    "name": "Getting started with Java on the Raspberry Pi",
     "subtitle": "Learn the power and fun of experimenting with electronics",
     "url": "https://leanpub.com/gettingstartedwithjavaontheraspberrypi/",
     "amazonASIN": "B085G6GNDF",
     "isbn": "978-1-907920-91-2",
-    "publishedDate": "2020-03-02"
+    "publishedDate": "2020-03-02",
+    "videoIds": [
+      "Thzh7bislEg"
+    ]
   },
   {
     "id": "masteringjavafx10",
     "summary": "Leverage advanced GUI programming techniques using the latest JavaFX 10 framework. Create dynamic content using the animation API and work with different application layers. Create and customize plugins and use them efficiently in different applications.",
     "publisher": "Packt Publishing",
     "authors": "Sergey Grinev",
-    "title": "Mastering JavaFX 10",
+    "name": "Mastering JavaFX 10",
     "subtitle": "Build advanced and visually stunning Java applications",
     "url": "",
     "isbn": "1788293827",
@@ -84,7 +87,7 @@
     "summary": "JavaFX Essentials will help you to design and build high performance JavaFX 8-based applications that run on a variety of devices.",
     "publisher": "Packt Publishing",
     "authors": "Mohamed Taman",
-    "title": "JavaFX Essentials",
+    "name": "JavaFX Essentials",
     "subtitle": "Create amazing Java GUI applications with this hands-on, fast-paced guide",
     "url": "https://www.packtpub.com/product/javafx-essentials/9781784398026",
     "isbn": "9781784398026",
@@ -99,7 +102,7 @@
     "summary": "Learn JavaFX 8 shows you how to start developing rich-client desktop applications using your Java skills and provides comprehensive coverage of JavaFX 8's features. Each chapter starts with an introduction to the topic at hand, followed by a step-by-step discussion of the topic with small snippets of code.",
     "publisher": "Apress",
     "authors": "Kishori Sharan",
-    "title": "Learn JavaFX 8",
+    "name": "Learn JavaFX 8",
     "subtitle": "Building User Experience and Interfaces with Java 8",
     "url": "https://www.apress.com/gp/book/9781484211434",
     "amazonASIN": "148421143X",
@@ -111,7 +114,7 @@
     "summary": "Introducing JavaFX 8 Programming provides a fast-paced, practical introduction to JavaFX, Java's next-generation GUI programming framework. In this easy-to-read guide, best-selling author Herb Schildt presents the key topics and concepts you'll need to start developing modern, dynamic JavaFX GUI applications.",
     "publisher": "McGraw-Hill",
     "authors": "Herbert Schildt",
-    "title": "Introducing JavaFX 8 Programming",
+    "name": "Introducing JavaFX 8 Programming",
     "subtitle": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
     "url": "https://www.mhprofessional.com/9780071842556-usa-introducing-javafx-8-programming-group",
     "amazonASIN": "B010CHIM50",
@@ -126,7 +129,7 @@
     "personIds": [
       "h.ebbers"
     ],
-    "title": "Mastering JavaFX 8 Controls",
+    "name": "Mastering JavaFX 8 Controls",
     "subtitle": "Create Custom JavaFX 8 Controls for Cross-Platform Applications",
     "url": "https://www.mhprofessional.com/9780071833776-usa-mastering-javafx-8-controls-group",
     "amazonASIN": "B00L3TF02K",
@@ -138,7 +141,7 @@
     "summary": "This accessible book highlights the most important features of the powerful JavaFX graphics platform, giving you the tools to understand it quickly and easily.",
     "publisher": "For Dummies",
     "authors": "Doug Lowe",
-    "title": "JavaFX For Dummies",
+    "name": "JavaFX For Dummies",
     "subtitle": "Unleash the power of JavaFX for a wide range of devices",
     "url": "",
     "amazonASIN": "1118385349",

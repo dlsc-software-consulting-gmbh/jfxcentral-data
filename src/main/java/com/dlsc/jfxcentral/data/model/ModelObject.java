@@ -12,6 +12,9 @@ import java.util.StringTokenizer;
 public abstract class ModelObject {
 
     private String id;
+    private String name;
+    private String summary;
+    private String description;
     private LocalDate createdOn;
     private LocalDate modifiedOn;
     private String tags;
@@ -27,8 +30,57 @@ public abstract class ModelObject {
     private List<String> videoIds = new ArrayList<>();
     private List<String> appIds = new ArrayList<>();
     private List<String> blogIds = new ArrayList<>();
+    private List<String> tipIds = new ArrayList<>();
 
     protected ModelObject() {
+    }
+
+    public boolean matches(String searchPattern) {
+        if (tagsMatch(searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(getName(), searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(getSummary(), searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(getSummary(), searchPattern)) {
+            return true;
+        }
+
+        if (StringUtils.containsAnyIgnoreCase(getDescription(), searchPattern)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 
     public boolean isHide() {
@@ -37,10 +89,6 @@ public abstract class ModelObject {
 
     public void setHide(boolean hide) {
         this.hide = hide;
-    }
-
-    public boolean matches(String searchPattern) {
-        return false;
     }
 
     protected boolean tagsMatch(String searchPattern) {
@@ -193,6 +241,14 @@ public abstract class ModelObject {
 
     public void setBlogIds(List<String> blogIds) {
         this.blogIds = blogIds;
+    }
+
+    public List<String> getTipIds() {
+        return tipIds;
+    }
+
+    public void setTipIds(List<String> tipIds) {
+        this.tipIds = tipIds;
     }
 
     public LocalDate getCreationOrUpdateDate() {

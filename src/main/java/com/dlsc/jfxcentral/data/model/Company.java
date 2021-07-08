@@ -4,25 +4,11 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Company extends ModelObject {
 
-    private String name;
     private String homepage;
     private boolean consulting;
     private boolean freelancing;
 
     public Company() {
-    }
-
-    @Override
-    public boolean matches(String searchPattern) {
-        if (tagsMatch(searchPattern)) {
-            return true;
-        }
-
-        if (StringUtils.containsAnyIgnoreCase(name, searchPattern)) {
-            return true;
-        }
-
-        return false;
     }
 
     public boolean isConsulting() {
@@ -39,14 +25,6 @@ public class Company extends ModelObject {
 
     public void setFreelancing(boolean freelancing) {
         this.freelancing = freelancing;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getHomepage() {

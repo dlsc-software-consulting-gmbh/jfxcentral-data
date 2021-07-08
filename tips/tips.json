@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ikonli",
+    "name": "Need Icons? Use Ikonli!",
+    "summary": "Using icon fonts with the Ikonli library.",
+    "description": "",
+    "tags": "ikonli, icon, icons, font",
+    "createdOn": "2021-07-06",
+    "modifiedOn": "2021-07-06",
+    "peopleIds": [
+      "d.lemmermann"
+    ],
+    "videoIds": [
+      "o5UewXgUiYY"
+    ],
+    "downloadIds": [
+      "ikonlibrowser"
+    ],
+    "libraryIds" : [
+      "ikonli"
+    ]
+  },
+  {
+    "id": "masking",
+    "name": "Masking / Clipping / Alpha Channel",
+    "summary": "Make nodes on side fade out / vanish.",
+    "tags": "clip, clipping, mask, masking, alpha",
+    "createdOn": "2021-07-07",
+    "modifiedOn": "2021-07-07",
+    "peopleIds": [
+      "d.lemmermann"
+    ]
+  }
+]
