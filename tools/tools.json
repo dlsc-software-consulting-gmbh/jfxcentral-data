@@ -65,7 +65,7 @@
     "id": "jpro",
     "name": "JPro",
     "summary": "Deploy and run your applications in browsers.",
-    "description": "JPro is a solution that allows you to run your JavaFX application inside browsers. The application gets executed on the server and the its scene graph gets serialized, transferred to the browser, and recreated via HTML and JavaScript.",
+    "description": "JPro is a solution that allows you to run your JavaFX application inside browsers. The application gets executed on the server and its scene graph gets serialized, transferred to the browser, and recreated via HTML and JavaScript.",
     "tags": "web, browser, web app, web application",
     "homepage": "https://www.jpro.one",
     "createdOn": "2021-06-01",
