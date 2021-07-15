@@ -403,7 +403,7 @@ public class DataRepository extends Application {
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
     }
 
-    private <T extends ModelObject> List<T> getList(Class<T> clazz) {
+    public <T extends ModelObject> List<T> getList(Class<T> clazz) {
         if (clazz.equals(Video.class)) {
             return (List<T>) videos.get();
         } else if (clazz.equals(Book.class)) {
@@ -431,6 +431,10 @@ public class DataRepository extends Application {
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
+    }
+
+    public ModelObject getByID(Class<? extends ModelObject> clz, String id) {
+        return getList(clz).stream().filter(item -> item.getId().equals(id)).findFirst().get();
     }
 
     public ListProperty<Video> getVideosByModelObject(ModelObject modelObject) {
