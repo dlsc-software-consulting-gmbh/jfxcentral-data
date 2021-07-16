@@ -442,5 +442,22 @@
     "videoIds": [
       "pjKgPeiWc0o"
     ]
+  },
+  {
+    "name": "MDFX",
+    "summary": "Displays Markdown in pure JavaFX",
+    "tags": "control, markdown, javafx",
+    "description": "MDFX is a simple markdown-renderer for JavaFX. It's based on [flexmark-java](https://github.com/vsch/flexmark-java).\nThe text you are currently reading, is displayed with MDFX. Most of the text in JFXCentral use MDFX to display richtext. \nIt is used to render the [documentation for jpro](https://www.jpro.one/?page=docs/current/1.1/) at [jpro.one](https://www.jpro.one/).",
+    "license": "APACHE2",
+    "homepage": "https://github.com/JPro-one/markdown-javafx-renderer",
+    "repository": "https://github.com/JPro-one/markdown-javafx-renderer",
+    "githubAccount": "JPro-one",
+    "githubProject": "markdown-javafx-renderer",
+    "issueTracker": "https://github.com/JPro-one/markdown-javafx-renderer/issues",
+    "id": "mdfx",
+    "createdOn": "2021-07-16",
+    "modifiedOn": "2021-07-16",
+    "ensemble": "false",
+    "logoAvailable": "false"
   }
 ]
