@@ -1,4 +1,4 @@
-Gluon is a Java technology company laser-focused on developing libraries, services, and tooling around the 
+Gluon is a Java technology company focused on developing libraries, services, and tooling around the 
 goal of having Java on mobile devices.
 
 *Gluon Charm* provides functionality for connecting to remote web services, accessing hardware specific functionality 
