@@ -1106,7 +1106,20 @@ public class DataRepository extends Application {
         return Collections.emptyList();
     }
 
+    private long cachedPullrequestsTime = 0;
+    private long timeToReloadSeconds = 600;
+    private List<PullRequest> cachedPullrequests = null;
     public List<PullRequest> loadPullRequests() {
+        long time = System.currentTimeMillis() / 1000;
+        if(cachedPullrequestsTime + timeToReloadSeconds > time) {
+            return cachedPullrequests;
+        }
+        cachedPullrequestsTime = time;
+        cachedPullrequests = loadPullRequestsImpl();
+        return cachedPullrequests;
+
+    }
+    private List<PullRequest> loadPullRequestsImpl() {
         System.out.println("loading pull requests");
 
         HttpURLConnection con = null;
