@@ -227,12 +227,11 @@ public class DataRepository extends Application {
             List<Tip> tips = gson.fromJson(new FileReader(tipsFile), new TypeToken<List<Tip>>() {
             }.getType());
 
-            List<ModelObject> recentItems = findRecentItems();
 
             if (ASYNC) {
-                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, recentItems));
+                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips));
             } else {
-                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, recentItems);
+                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips);
             }
 
             System.out.println("data loading finished");
@@ -243,7 +242,7 @@ public class DataRepository extends Application {
         }
     }
 
-    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<Tip> tips, List<ModelObject> recentItems) {
+    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<Tip> tips) {
         setOpenJFXText(openJFXText);
         setHomeText(homeText);
 
@@ -258,8 +257,10 @@ public class DataRepository extends Application {
         setRealWorldApps(realWorldApps);
         setDownloads(downloads);
         setTutorials(tutorials);
-        setRecentItems(recentItems);
         setTips(tips);
+
+        List<ModelObject> recentItems = findRecentItems();
+        setRecentItems(recentItems);
     }
 
     private List<ModelObject> findRecentItems() {
@@ -294,7 +295,7 @@ public class DataRepository extends Application {
                 date = item.getCreatedOn();
             }
             if (date != null) {
-                if (date.isAfter(today.minusWeeks(4))) {
+                if (date.isAfter(today.minusWeeks(8))) {
                     result.add(item);
                 }
             }
