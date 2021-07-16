@@ -6,14 +6,14 @@ Swing and JavaFX were mixed multiple times, which results in challenges regardin
 of the EDT and the JavaFX thread, focus problems, problems with shortcut handling and look and 
 feel differences.
 
-[![Screen 1](screen1.jpg)]()
+![Screen 1](screen1.jpg)
 
-[![Screen 1](screen2.jpg)]()
+![Screen 1](screen2.jpg)
 
-[![Screen 1](screen3.jpg)]()
+![Screen 1](screen3.jpg)
 
-[![Screen 1](screen4.jpg)]()
+![Screen 1](screen4.jpg)
 
-[![Screen 1](screen5.jpg)]()
+![Screen 1](screen5.jpg)
 
-[![Screen 1](screen6.jpg)]()
+![Screen 1](screen6.jpg)

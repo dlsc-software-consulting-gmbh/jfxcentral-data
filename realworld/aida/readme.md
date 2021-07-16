@@ -2,8 +2,8 @@ The "Deutsche AIDS Stiftung" (eng. German AIDS Foundation) is helping people tha
 
 The application is created with the mvvmFX framework. We are using CDI as dependency injection container and JPA for persistence. Interesting tasks were the fast loading and processing of large TIFF documents and the auto-saving of the application state to the database without a specific user interaction.
 
-[![Screen 1](screen1.jpg)]()
+![Screen 1](screen1.jpg)
 
-[![Screen 2](screen2.jpg)]()
+![Screen 2](screen2.jpg)
 
-[![Screen 3](screen3.jpg)]()
+![Screen 3](screen3.jpg)

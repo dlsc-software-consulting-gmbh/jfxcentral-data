@@ -7,7 +7,7 @@ the freight that is scheduled to arrive at their facility, as well as the freigh
 depart from their facility. This information will help managers to allocate their resources -both human 
 and equipment (trucks, trailers, etc.)- more efficiently.
 
-[![Screen 1](screen1.png)]()
+![Screen 1](screen1.png)
 
 The second set of users of the Navigator application are customer service personnel. Since the Navigator 
 application is built on the NetBeans Rich Client Platform, we were able to develop the customer service 

@@ -15,25 +15,25 @@ be noted that the right-hand side can show any kind of control for interacting w
 does not have to be a property sheet. However, very often the property sheet is the fastest way of coming 
 up with a good way of manipulating the control.
 
-[![Screen1](screen1.png)]()
+![Screen1](screen1.png)
 
 The center pane has several tabs. The first one shows the actual sample. The second one displays the 
 javadocs / API of the control. Ideally each sample shows exactly the API of the featured control and 
 not just the index page of the entire framework API. Which page gets loaded into this tab can be 
 configured individually for each sample.
 
-[![Screen2](screen2.png)]()
+![Screen2](screen2.png)
 
 The next tab is used for showing source code. This can be any code that is relevant for the 
 sample but in most cases it shows the code of the sample itself.
 
-[![Screen3](screen3.png)]()
+![Screen3](screen3.png)
 
 Tab number four contains CSS styling information that is relevant for the selected sample. If your 
 control overrides the `getUserAgentStylesheet()` method then the tab should display the stylesheet that 
 is returned by this method.
 
-[![Screen4](screen4.png)]()
+![Screen4](screen4.png)
 
 ### The Setup
 
@@ -83,7 +83,7 @@ The welcome page is optional and allows the developer to specify a title for the
 will be presented to the user when the sampler application starts up. The *CalendarFX* sampler shows a 
 simple “about message”.
 
-[![Screen5](screen5.png)]()
+![Screen5](screen5.png)
 
 ### Base Package
 
@@ -92,13 +92,13 @@ samples found in the base package at the top of the navigation tree on the left-
 Samples found in sub packages will end up in a tree node. The image below shows the package structure of 
 the CalendarFX sampler project.
 
-[![Screen6](screen6.png)]()
+![Screen6](screen6.png)
 
 The base package for *CalendarFX* is com.calendarfx.demo and because the “day entry view” sample was 
 found inside the entries package it means that the sample will be displayed in a tree node called 
 “Entries”. The next image shows how the navigation tree reflects the package structure.
 
-[![Screen7](screen7.png)]()
+![Screen7](screen7.png)
 
 You will notice that the samples are all prefixed with “Hello…”. This is simply a convention inherited 
 from the *ControlsFX* project. There is no technical reason for it.
@@ -162,7 +162,7 @@ found in several JARs at the same time. If we wanted to we could create a single
 samples found in *FlexGanttFX*, *CalendarFX*, and *ControlsFX* at the same time. The image below shows the 
 location of the service provider file and its content inside the `CalendarFXSampler` module.
 
-[![Screen8](screen8.png)]()
+![Screen8](screen8.png)
 
 ### Service Provider & Module System
 
