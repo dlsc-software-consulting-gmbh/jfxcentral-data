@@ -1,7 +1,4 @@
 
-## Usage
-
-
 ### Add the library to your project:
 For Gradle, add the following to your `build.gradle`:
 
@@ -11,7 +8,7 @@ repositories {
     maven {
         url "https://sandec.jfrog.io/artifactory/repo"
     }
-
+}
 ```
 Add The following dependency:
 ```
