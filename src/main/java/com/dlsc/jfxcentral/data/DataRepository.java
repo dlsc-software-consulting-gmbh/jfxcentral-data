@@ -163,82 +163,66 @@ public class DataRepository extends Application {
         System.out.println("loading data, reason = " + reason);
 
         try {
-            updateMessage("");
-
-            updateMessage("Loading introduction text");
             String homeText = loadString(getBaseUrl() + "intro.md");
 
-            updateMessage("Loading OpenJFX description");
             String openJFXText = loadString(getBaseUrl() + "openjfx/intro.md");
 
             // load people
-            updateMessage("Loading index of people");
             File peopleFile = getFile(getBaseUrl() + "people/people.json");
             List<Person> people = gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
             }.getType());
 
             // load books
-            updateMessage("Loading index of books");
             File booksFile = getFile(getBaseUrl() + "books/books.json");
             List<Book> books = gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
             }.getType());
 
             // load videos
-            updateMessage("Loading index of videos");
             File videosFile = getFile(getBaseUrl() + "videos/videos.json");
             List<Video> videos = gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
             }.getType());
 
             // load libraries
-            updateMessage("Loading index of libraries");
             File librariesFile = getFile(getBaseUrl() + "libraries/libraries.json");
             List<Library> libraries = gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
             }.getType());
 
             // load libraries
-            updateMessage("Loading index of news");
             File newsFile = getFile(getBaseUrl() + "news/news.json");
             List<News> news = gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
             }.getType());
 
             // load libraries
-            updateMessage("Loading index of blogs");
             File blogsFile = getFile(getBaseUrl() + "blogs/blogs.json");
             List<Blog> blogs = gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
             }.getType());
 
             // load libraries
-            updateMessage("Loading index of companies");
             File companiesFile = getFile(getBaseUrl() + "companies/companies.json");
             List<Company> companies = gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
             }.getType());
 
             // load tools
-            updateMessage("Loading index of tools");
             File toolsFile = getFile(getBaseUrl() + "tools/tools.json");
             List<Tool> tools = gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
             }.getType());
 
             // load real world apps
-            updateMessage("Loading index of real world apps");
             File realWorldFile = getFile(getBaseUrl() + "realworld/realworld.json");
             List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
             }.getType());
 
             // load downloads
-            updateMessage("Loading index of downloads");
             File downloadsFile = getFile(getBaseUrl() + "downloads/downloads.json");
             List<Download> downloads = gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
             }.getType());
 
             // load downloads
-            updateMessage("Loading index of tutorials");
             File tutorialsFile = getFile(getBaseUrl() + "tutorials/tutorials.json");
             List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
             }.getType());
 
             // load downloads
-            updateMessage("Loading index of tips");
             File tipsFile = getFile(getBaseUrl() + "tips/tips.json");
             List<Tip> tips = gson.fromJson(new FileReader(tipsFile), new TypeToken<List<Tip>>() {
             }.getType());
@@ -251,6 +235,7 @@ public class DataRepository extends Application {
                 setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, recentItems);
             }
 
+            System.out.println("data loading finished");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -1182,9 +1167,5 @@ public class DataRepository extends Application {
                 result.add(mo);
             }
         });
-    }
-
-    public void updateMessage(String message) {
-        System.out.println(message);
     }
 }
