@@ -464,6 +464,20 @@
       "jpro",
       "cssfx"
     ]
+  },
+  {
+    "name": "Adam Carroll",
+    "email": "",
+    "companyId": "",
+    "website": "https://vocabhunter.github.io/",
+    "blogId": "vocabhunter",
+    "linkedIn": "",
+    "twitter": "vocabhunterapp",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.carroll",
+    "createdOn": "2021-07-22",
+    "modifiedOn": "2021-07-22"
   }
 ]
 
