@@ -129,6 +129,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
                 property.set(image);
             } catch (Exception e) {
                 e.printStackTrace();
+                throw new RuntimeException(e);
             }
 
             return property;
