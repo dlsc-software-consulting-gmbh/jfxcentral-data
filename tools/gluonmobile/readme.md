@@ -1,7 +1,7 @@
 Gluon mobile provides fresh, modern UIs, cloud Connectivity, and hardware access for JavaFX applications
 running on mobile devices.
 
-[![Screenshot](screenshot.png)]()
+![Screenshot](screenshot.png)
 
 ## Java End-to-End
 

@@ -2,11 +2,11 @@
 
 I recently had to implement a custom control that lets the user select a single item out of a list of items. This “SelectionStrip” control had to lay out the items horizontally and in case of too many items allow the user to scroll horizontally left and right. The control was to be used in a space-constrained area, so the buttons for scrolling should only appear when needed. They also should not waste any additional space when showing. So I decided to place them on top of the control on the left and right sides. All of this was easily achieved, except that it was now difficult to distinguish the scroll buttons from the items. This can be seen in the three images below.
 
-[![Screen 1](screen1.png)]()
+![Screen 1](screen1.png)
 
-[![Screen 2](screen2.png)]()
+![Screen 2](screen2.png)
 
-[![Screen 3](screen3.png)]()
+![Screen 3](screen3.png)
 
 ### Alpha Channel?
 
@@ -16,21 +16,21 @@ So I thought it would be nice to somehow fade out the items when they are close 
 
 So far most of the clips I used for custom controls were simple rectangles. They usually made sure that children nodes that reached outside the layout bounds of their parent control were not or only partially visible. But this clip was different, it was more complex. It had to define three different zones. A “fade-in” area on the left-hand side, a “full opacity” area in the center, and a “fade-out” area on the right-hand side. For this to work I defined a “Group” that consists of three filled “Rectangle” nodes. While the fill color of the center rectangle is a solid black, the fill colors of the other two rectangles are linear gradients going from transparent to black and vice versa. The image below illustrates this.
 
-[![Screen 4](screen4.png)]()
+![Screen 4](screen4.png)
 
 With this setup we can now add any node as a child to the stack pane and it will be drawn with fade-in and fade-out effects on its sides.
 
-[![Screen 5](screen5.png)]()
+![Screen 5](screen5.png)
 
 ### Result
 
 When applied to the “SelectionStrip” control from the beginning the scroll arrows / buttons are now always nicely visible and the overall user experience has become a little bit more pleasing. It is these little details that make the difference between a UI that is considered a “student project” or a “commercial application”. So sometimes it is really worth investing time in them.
 
-[![Screen 6](screen6.png)]()
+![Screen 6](screen6.png)
 
-[![Screen 7](screen7.png)]()
+![Screen 7](screen7.png)
 
-[![Screen 8](screen8.png)]()
+![Screen 8](screen8.png)
 
 ### Source Code
 

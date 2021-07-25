@@ -7,10 +7,10 @@ Together with Contship, Karakun developed two editors that simplify and optimize
 Editor may be used to visualize and manage bays (container block in the transverse direction) of container ships, 
 the Yard Editor is the ideal tool for visualizing port facilities and for optimizing local processes.  
 
-[![Screen 1](screen1.jpg)]()
+![Screen 1](screen1.jpg)
 
-[![Screen 2](screen2.jpg)]()
+![Screen 2](screen2.jpg)
 
-[![Screen 3](screen3.jpg)]()
+![Screen 3](screen3.jpg)
 
-[![Screen 4](screen4.jpg)]()
+![Screen 4](screen4.jpg)

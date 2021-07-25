@@ -98,15 +98,15 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
         return remoteImageProperty("https://github.com/", loginName + ".png", "&size=100", "github-" + loginName, MISSING_USER_IMAGE);
     }
 
-    private ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String photoKey) {
+    ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String photoKey) {
         return localImageProperty(baseURL, photoFileName, photoKey, null);
     }
 
-    private ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String photoKey, Image placeholderImage) {
+    ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String photoKey, Image placeholderImage) {
         return localImageProperty(baseURL, photoFileName, "", photoKey, placeholderImage);
     }
 
-    private ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String append, String photoKey, Image placeholderImage) {
+    ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String append, String photoKey, Image placeholderImage) {
         if (StringUtils.isBlank(photoFileName) || StringUtils.isBlank(photoKey)) {
             return new SimpleObjectProperty<>(placeholderImage);
         }
@@ -123,9 +123,13 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
                 URL url = new URL(baseURL + photoFileName);
                 System.out.println("loading image from local repository: " + url.toExternalForm());
                 Image image = new Image(url.toExternalForm());
+                if(image.getException() != null) {
+                    throw image.getException();
+                }
                 property.set(image);
             } catch (Exception e) {
                 e.printStackTrace();
+                throw new RuntimeException(e);
             }
 
             return property;

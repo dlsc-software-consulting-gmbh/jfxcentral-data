@@ -1,5 +1,4 @@
-The Karakun AG was established in 2018 and is home of more than 60 employees based in Switzerland, Germany and India. 
-Their core business is the development of custom-tailored software solutions in B2B environments based on Java and web 
+Karakun's core business is the development of custom-tailored software solutions in B2B environments based on Java and web 
 technologies using agile methodologies. With their user-centric approach, they do not only focus on supporting users in 
 getting their work done properly but also on enjoying the software tools they deliver.
 
