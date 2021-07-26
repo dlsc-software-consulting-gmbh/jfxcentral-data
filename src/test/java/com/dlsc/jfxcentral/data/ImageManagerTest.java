@@ -39,6 +39,16 @@ public class ImageManagerTest {
     }
 
     @Test
+    public void shouldGetPersonImage() {
+        // when .. then
+        DataRepository.getInstance().getPeople().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().personImageProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+        });
+    }
+
+    @Test
     public void shouldGetNewsBanner() {
         // when .. then
         DataRepository.getInstance().getNews().forEach(item -> {
