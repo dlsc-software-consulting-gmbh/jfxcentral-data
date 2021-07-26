@@ -60,40 +60,6 @@
     ]
   },
   {
-    "id": "ikonlibrowser",
-    "name": "Ikonli Browser",
-    "tags": "icons, library, demo, application",
-    "downloadType": "APPLICATION",
-    "personIds": [
-      "a.almiray"
-    ],
-    "createdOn": "2021-06-02",
-    "modifiedOn": "2021-06-02",
-    "files": [
-      {
-        "name": "ZIP for Linux",
-        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-linux.zip",
-        "fileName": "",
-        "package": "ZIP"
-      },
-      {
-        "name": "ZIP for Mac",
-        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-mac.zip",
-        "fileName": "",
-        "package": "ZIP"
-      },
-      {
-        "name": "ZIP for Windows",
-        "url": "https://github.com/kordamp/ikonli/releases/download/early-access/ikonli-browser-early-access-windows.zip",
-        "fileName": "",
-        "package": "ZIP"
-      }
-    ],
-    "tipIds": [
-      "ikonli"
-    ]
-  },
-  {
     "id": "realworld",
     "name": "Real World Apps Presentation",
     "tags": "real world app, keynote, powerpoint, conference, event, talk, presentation",
