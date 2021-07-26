@@ -72,5 +72,14 @@
     "createdOn": "2021-06-11",
     "consulting": "true",
     "freelancing": "false"
+  },
+  {
+    "id": "pixelduke.company",
+    "name": "Pixel Duke",
+    "homepage" : "https://www.pixelduke.com",
+    "tags": "consulting",
+    "createdOn": "2021-07-25",
+    "consulting": "true",
+    "freelancing": "true"
   }
 ]
