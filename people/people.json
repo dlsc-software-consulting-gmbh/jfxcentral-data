@@ -331,14 +331,18 @@
   {
     "name": "Pedro Duque Vieira",
     "email": "pedro.duquevieira@gmail.com",
-    "companyId": "",
+    "companyId": "pixelduke.company",
     "website": "https://www.pixelduke.com",
-    "blogId": "",
-    "linkedIn": "",
-    "twitter": "",
+    "blogId": "pixelduke",
+    "linkedIn": "pedro-duque-vieira-2644038",
+    "twitter": "P_Duke",
     "champion": false,
     "rockstar": false,
     "id": "p.vieira",
+    "github": "dukke",
+    "libraryIds": [
+      "jmetro"
+    ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
@@ -460,6 +464,9 @@
     "id": "f.kirmaier",
     "createdOn": "2021-06-16",
     "modifiedOn": "2021-06-16",
+    "libraryIds": [
+      "mdfx"
+    ],
     "toolIds": [
       "jpro",
       "cssfx"

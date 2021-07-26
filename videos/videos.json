@@ -1,5 +1,21 @@
 [
   {
+    "name": "Modellus + FXRibbon + JMetro (interview with Pedro Duque Vieira on Almas channel)",
+    "tags": "modelling, mathematics, university, teaching, academic, Library",
+    "type": "Real World Application",
+    "domain": "Education",
+    "platform": "Desktop",
+    "description": "Interview on Almas channel with Pedro Duque Vieira. Talking about Modellus a free JavaFX application used worldwide, mostly on Universities and High Schools.\n\n On this talk Pedro also talks about FXRibbon, a Microsoft Ribbon like control for Javafx. And JMetro, a modern JavaFX theme.",
+    "id": "SVek-DzR5B8",
+    "event": "",
+    "createdOn": "2021-07-25",
+    "modifiedOn": "2021-07-25",
+    "publishedOn": "2021-01-15",
+    "personIds": [
+      "p.vieira"
+    ]
+  },
+  {
     "name": "Java Desktop 2020 - Keynote at JFX Days 2020 | Hendrik Ebbers",
     "tags": "",
     "type": "Keynote",

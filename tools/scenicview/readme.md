@@ -1,7 +1,7 @@
 Scenic View is a JavaFX application designed to make it simple to understand the current state of your application scenegraph, and to also easily manipulate properties of the scenegraph without having to keep editing your code.
 This lets you find bugs, and get things pixel perfect without having to do the compile-check-compile dance.
 
-[![Scenic View Screenshot](screenshot.png)]()
+![Scenic View Screenshot](screenshot.png)
 
 ## Downloads
 

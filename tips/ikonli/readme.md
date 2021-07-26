@@ -60,7 +60,7 @@ be added to your Maven project’s POM file if you want to use the Material Desi
 Icon fonts often come with a lot of icons in them. So finding the right one is hard. Ikonli makes this 
 easy by providing a “cheat sheet” for each font. The one for “Material Design” icons can be seen below.
 
-[![Cheat Sheet](screen1.png)]()
+![Cheat Sheet](screen1.png)
 
 ### Coding
 
@@ -101,21 +101,21 @@ such a font. They let you choose icons from various already existing fonts but t
 upload your own SVG files. The one I used is called Fontello. It has three main areas: icon selection 
 and / or upload, customize names, customize codes.
 
-[![Screen 2](screen2.png)]()
+![Screen 2](screen2.png)
 
-[![Screen 3](screen3.png)]()
+![Screen 3](screen3.png)
 
-[![Screen 4](screen4.png)]()
+![Screen 4](screen4.png)
 
 Once you have configured your icons properly online you can then download the result as a ZIP file. 
 Inside the ZIP file you will find the icon font in various formats.
 
-[![Screen 5](screen5.png)]()
+![Screen 5](screen5.png)
 
 To verify that all of your icons are actually inside the font you can open the file via “Font Book” 
 (on Mac). It should look something like this:
 
-[![Screen 6](screen6.png)]()
+![Screen 6](screen6.png)
 
 ### Icon Enum
 
@@ -204,5 +204,5 @@ META-INF/services. Inside this file you need to add the full class name of your 
 The following screenshot shows the font module we use in our Maven project. Your project should look 
 similar to that.
 
-[![Screen 7](screen7.png)]()
+![Screen 7](screen7.png)
 

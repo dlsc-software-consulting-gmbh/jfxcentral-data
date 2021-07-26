@@ -3,10 +3,10 @@ data of existing businesses. It is a pure database application with a strong foc
 users have to be able to quickly enter a lot of data about businesses. This is still a weak point in JavaFX but 
 AISO was able to find a solution.
 
-[![Screen 1](screen1.jpeg)]()
+![Screen 1](screen1.jpeg)
 
-[![Screen 1](screen2.jpeg)]()
+![Screen 1](screen2.jpeg)
 
-[![Screen 1](screen3.jpeg)]()
+![Screen 1](screen3.jpeg)
 
-[![Screen 1](screen4.jpeg)]()
+![Screen 1](screen4.jpeg)
