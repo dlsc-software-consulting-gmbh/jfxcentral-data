@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "JMetro_showcase-model-view-1536x832.png",
+      "title": "CAD Application (using Light Theme)",
+      "description": "HERO - CAD Application"
+    },
+    {
+      "path": "JMetroSample-DansoftOwner_FXTaskbarProgressBar.png",
+      "title": "Application (using Dark Theme)",
+      "description": "Application using JMetro - created by DansoftOwner"
+    },
+    {
+      "path": "JMetro_ChessGame_JohnSirach.png",
+      "title": "Chess Game (using Dark Theme)",
+      "description": "Chess game - created by John Sirach"
+    }
+  ]
+}
