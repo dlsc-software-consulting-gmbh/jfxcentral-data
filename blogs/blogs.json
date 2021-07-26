@@ -106,5 +106,17 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "id": "vocabhunter",
+    "name": "VocabHunter Tech and Release Blog",
+    "summary": "Information about VocabHunter, Santulator and the tech behind them.",
+    "url": "https://vocabhunter.github.io/blog/",
+    "createdOn": "2021-07-22",
+    "feed": "https://vocabhunter.github.io/feed.xml",
+    "tags:": "java,javafx,applications,open source",
+    "personIds": [
+      "a.carroll"
+    ]
   }
 ]
