@@ -7,8 +7,8 @@ one easy step. SkedPal determines what is feasible and realistic based on your p
 Reduce overwhelm, overbooking and procrastination by letting SkedPal budget your valuable 
 time for you.
 
-[![Screen 1](screen1.jpg)]()
+![Screen 1](screen1.jpg)
 
-[![Screen 2](screen2.jpg)]()
+![Screen 2](screen2.jpg)
 
-[![Screen 3](screen3.jpg)]()
+![Screen 3](screen3.jpg)

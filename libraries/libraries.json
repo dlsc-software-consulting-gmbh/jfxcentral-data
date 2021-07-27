@@ -235,6 +235,32 @@
     ]
   },
   {
+    "id": "jmetro",
+    "name": "JMetro",
+    "summary": "JavaFX Theme inspired by Fluent Design (not a copy)",
+    "tags": "theme, skin",
+    "description": "JavaFX Theme inspired by Fluent Design (not a copy). JMetro is not a theme that tries to mimic the native Windows theme / look and feel, or a theme that is a direct copy of Fluent Design. It is rather a theme inspired by Fluent Design and adapted to fit the JavaFX SDK. There are also changes that have been made according to my personal opinions on some of Fluent Design’s particularities.\n\nJMetro is composed by a set controls, stylesheets and skins.",
+    "documentation": "https://pixelduke.com/java-javafx-theme-jmetro/",
+    "license": "new BSD",
+    "homepage": "https://pixelduke.com/java-javafx-theme-jmetro/",
+    "javadocs": "",
+    "repository": "https://github.com/JFXtras/jfxtras-styles",
+    "githubAccount": "JFXtras",
+    "githubProject": "jfxtras-styles",
+    "issueTracker": "https://github.com/JFXtras/jfxtras-styles/issues",
+    "createdOn": "2021-07-25",
+    "modifiedOn": "2021-07-25",
+    "groupId": "org.jfxtras",
+    "artifactId": "jmetro",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "videoIds": [
+      "p5YSB8mza94",
+      "Ihrtn0N7yMs",
+      "U7wdvhRKEiY"
+    ]
+  },
+  {
     "name": "JSilhouette",
     "summary": "Additional shapes.",
     "tags": "shapes, custom controls",
@@ -442,5 +468,22 @@
     "videoIds": [
       "pjKgPeiWc0o"
     ]
+  },
+  {
+    "name": "MDFX",
+    "summary": "Displays Markdown in pure JavaFX",
+    "tags": "control, markdown, javafx",
+    "description": "MDFX is a simple markdown-renderer for JavaFX. It's based on [flexmark-java](https://github.com/vsch/flexmark-java).\nThe text you are currently reading, is displayed with MDFX. Most of the text in JFXCentral use MDFX to display richtext. \nIt is used to render the [documentation for jpro](https://www.jpro.one/?page=docs/current/1.1/) at [jpro.one](https://www.jpro.one/).",
+    "license": "APACHE2",
+    "homepage": "https://github.com/JPro-one/markdown-javafx-renderer",
+    "repository": "https://github.com/JPro-one/markdown-javafx-renderer",
+    "githubAccount": "JPro-one",
+    "githubProject": "markdown-javafx-renderer",
+    "issueTracker": "https://github.com/JPro-one/markdown-javafx-renderer/issues",
+    "id": "mdfx",
+    "createdOn": "2021-07-16",
+    "modifiedOn": "2021-07-16",
+    "ensemble": "false",
+    "logoAvailable": "false"
   }
 ]
