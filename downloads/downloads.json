@@ -408,19 +408,19 @@
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.8/JDKMon-16.0.8.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.11/JDKMon-16.0.11.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.8/JDKMon-16.0.8.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.11/JDKMon-16.0.11.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.8/jdkmon_16.0.8-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/16.0.11/jdkmon_16.0.11-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       }
