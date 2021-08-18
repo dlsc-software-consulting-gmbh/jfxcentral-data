@@ -425,5 +425,47 @@
         "package": "DEB"
       }
     ]
+  },
+  {
+    "id": "binjr",
+    "name": "binjr",
+    "tags": "time series, visualization, monitoring, charts, logs",
+    "homepage": "https://binjr.eu",
+    "repository": "https://github.com/binjr/binjr",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-08-18",
+    "modifiedOn": "2021-08-18",
+    "files": [
+      {
+        "name": "Windows (MSI)",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_windows-amd64.msi",
+        "fileName": "",
+        "package": "MSI"
+      }, 
+      {
+        "name": "Windows (ZIP)",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_windows-amd64.zip",
+        "fileName": "",
+        "package": "ZIP"
+      },
+      {
+        "name": "macOS (DMG)",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_mac-x86_64.dmg",
+        "fileName": "",
+        "package": "DMG"
+      },
+      {
+        "name": "macOS (TAR.GZ)",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_mac-x86_64.tar.gz",
+        "fileName": "",
+        "package": "TAR.GZ"
+      },
+      {
+        "name": "Linux (TAR.GZ)",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_linux-amd64.tar.gz",
+        "fileName": "",
+        "package": "TAR.GZ"
+      }
+    ]
   }
 ]
