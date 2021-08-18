@@ -1,0 +1,1 @@
+_binjr_ is a standalone time series browser. it renders time series data produced by other applications as dynamically editable views and provides advanced features to navigate the data smoothly and efficiently.
