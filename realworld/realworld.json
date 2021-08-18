@@ -42,6 +42,18 @@
     "summary": "Buy and sell bitcoin privately and securely."
   },
   {
+    "id": "binjr",
+    "name": "binjr",
+    "company": "",
+    "url": "https://binjr.eu",
+    "domain": "IT / Science / Software development",
+    "tags": "time series, visualization, monitoring, charts, logs",
+    "summary": "A Time Series Browser.",
+    "downloadIds": [
+      "binjr"
+    ]
+  },
+  {
     "id": "debeka",
     "name": "Debeka DVC",
     "company": "Debeka",
