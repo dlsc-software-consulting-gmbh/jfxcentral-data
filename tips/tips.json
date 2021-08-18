@@ -30,5 +30,16 @@
     "peopleIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "id": "scrollshadow",
+    "name": "ScrollPane with DropShadow",
+    "summary": "Show a shadow inside a scrollpane.",
+    "tags": "scrollpane, shadow",
+    "createdOn": "2021-08-17",
+    "modifiedOn": "2021-08-17",
+    "peopleIds": [
+      "d.lemmermann"
+    ]
   }
 ]
