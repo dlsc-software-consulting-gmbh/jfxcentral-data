@@ -54,18 +54,6 @@
     ]
   },
   {
-    "id": "debeka",
-    "name": "Debeka DVC",
-    "company": "Debeka",
-    "url": "https://www.debeka.de/index.html",
-    "domain": "Insurance",
-    "tags": "insurance, office",
-    "summary": "Insurance coverage check software.",
-    "personIds": [
-      "d.lemmermann"
-    ]
-  },
-  {
     "id": "ebu",
     "name": "NEOS",
     "company": "European Broadcasting Union",
