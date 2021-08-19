@@ -1,4 +1,4 @@
-### Motivationx
+### Motivation
 
 I have been coding JavaFX applications and libraries since 2013 and one thing they all had in common was 
 that I needed to find good icons / graphics that I could use for them. As a former Swing developer I started 
