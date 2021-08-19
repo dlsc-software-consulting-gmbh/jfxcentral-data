@@ -77,7 +77,7 @@ public class DataRepositoryTest {
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
 
         // make sure to load the data again, otherwise the following tests will have nothing to work with
-        repository.refreshData();
+        repository.loadData();
     }
 
     @Test
@@ -86,7 +86,7 @@ public class DataRepositoryTest {
         DataRepository repository = DataRepository.getInstance();
 
         // when
-        repository.refreshData();
+        repository.loadData();
 
         // then
         assertTrue(!repository.getBlogs().isEmpty());
