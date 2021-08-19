@@ -1,7 +1,7 @@
 [
   {
     "id": "javafxmavenplugin",
-    "name": "JavaFX Plugin...",
+    "name": "JavaFX Plugin",
     "summary": "Maven plugin to run JavaFX 11+ applications.",
     "description": "The JavaFX plugin allows you to execute JavaFX applications via Maven, independent of whether the application is a modular or non-modular application. The second purpose of this plugin is to enable developers to create custom runtime images for JavaFX applications via the help of the jlink command / tool.",
     "tags": "maven, plugin",
