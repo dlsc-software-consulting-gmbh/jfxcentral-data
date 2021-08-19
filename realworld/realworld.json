@@ -54,18 +54,6 @@
     ]
   },
   {
-    "id": "debeka",
-    "name": "Debeka DVC",
-    "company": "Debeka",
-    "url": "https://www.debeka.de/index.html",
-    "domain": "Insurance",
-    "tags": "insurance, office",
-    "summary": "Insurance coverage check software.",
-    "personIds": [
-      "d.lemmermann"
-    ]
-  },
-  {
     "id": "ebu",
     "name": "NEOS",
     "company": "European Broadcasting Union",
@@ -304,8 +292,8 @@
     "domain": "Logistics",
     "tags": "ship, logistics, planning, container, editor",
     "summary": "Optimize utilization of vessel cargo space.",
-    "personIds": [
-      "g.grunwald"
+    "companyIds": [
+      "karakun"
     ]
   },
   {
@@ -334,8 +322,8 @@
     "domain": "",
     "tags": "ship, yard, logistics, planning, container, editor",
     "summary": "Optimize utilization of container yards.",
-    "personIds": [
-      "g.grunwald"
+    "companyIds": [
+      "karakun"
     ]
   },
   {
