@@ -14,7 +14,7 @@ Below you see before and after scrolling screenshots of one of the screens of ou
 
 ### After Scrolling
 
-![Screen 2](screen1.png)
+![Screen 2](screen2.png)
 
 BTW: I implemented this in such a way that the drop shadow doesn’t just appear all of a sudden, but it moves into the
 viewport step by step, depending on how far the user has scrolled. To see this you need to scroll down very slowly.
