@@ -41,5 +41,17 @@
     "peopleIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "id": "invisiblenodes",
+    "name": "Make Layouts Ignore Invisible Nodes",
+    "summary": "Use visible and managed properties the right way.",
+    "description": "",
+    "tags": "hide, node, visible, managed",
+    "createdOn": "2021-08-19",
+    "modifiedOn": "2021-08-19",
+    "peopleIds": [
+      "d.lemmermann"
+    ]
   }
 ]
