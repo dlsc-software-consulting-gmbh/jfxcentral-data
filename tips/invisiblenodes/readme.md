@@ -1,9 +1,15 @@
-Back in the days when I was still implementing UIs in Swing I used to be a big fan of MigLayout (“one layout manager to rule them all”, right Mikael?). One of the features I really liked was the possibility to define different behaviors when a component became invisible. MigLayout allowed me to either preserve the space that the now invisible component occupied or to make it available for the still visible components. So how can I do this in JavaFX?
+Back in the days when I was still implementing UIs in Swing I used to be a big fan of MigLayout. 
+One of the features I really liked was the possibility to define different behaviors when a component 
+became invisible. MigLayout allowed me to either preserve the space that the now invisible component 
+occupied or to make it available for the still visible components. So how can I do this in JavaFX?
 
-Even though the answer is quite simple it is not obvious by looking at the API. JavaFX uses layout panes such as VBox, HBox, BorderPane, FlowPane, or GridPane, to lay out managed children nodes. The keyword here is “managed”. The layout panes only consider those nodes inside their layout algorithms that are flagged as managed (default is true). The same is true for the the code that computes the pref, min, max widths of a pane. This code also only considers managed nodes.
+Even though the answer is quite simple it is not obvious by looking at the API. JavaFX uses layout 
+panes such as VBox, HBox, BorderPane, FlowPane, or GridPane, to lay out managed children nodes. The 
+keyword here is “managed”. The layout panes only consider those nodes inside their layout algorithms 
+that are flagged as managed (default is true). The same is true for the code that computes the pref, min, 
+max widths of a pane. This code also only considers managed nodes.
 
 Let’s look at an example. We create an HBox with four labels. Initially it looks like this.
-
 
 ![Screen 1](screen1.png)
 
@@ -11,7 +17,9 @@ We now set the visibility of label 2 to false and we receive this layout.
 
 ![Screen 2](screen2.png)
 
-To reuse the space that used to be occupied by the label we now set the “managed” property of label 2 to false. As you can see below the remaining three labels are now filling the entire width of the HBox and the width of the HBox was adjusted properly.
+To reuse the space that used to be occupied by the label we now set the “managed” property of label 2 to 
+false. As you can see below the remaining three labels are now filling the entire width of the HBox and 
+the width of the HBox was adjusted properly.
 
 ![Screen 3](screen3.png)
 
