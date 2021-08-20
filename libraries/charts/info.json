@@ -1,0 +1,129 @@
+{
+  "images": [
+    {
+      "path": "arcchart.png",
+      "title": "Arc Chart",
+      "description": ""
+    },
+    {
+      "path": "areaheatmap.png",
+      "title": "Area Heatmap",
+      "description": ""
+    },
+    {
+      "path": "bubblegridchart.png",
+      "title": "Bubble Grid Chart",
+      "description": ""
+    },
+    {
+      "path": "circularplot.png",
+      "title": "Circular Plot",
+      "description": ""
+    },
+    {
+      "path": "comparisonringchart.png",
+      "title": "Comparison Ring Chart",
+      "description": ""
+    },
+    {
+      "path": "concentricringchart.png",
+      "title": "Concentric Ring Chart",
+      "description": ""
+    },
+    {
+      "path": "coxcombchart.png",
+      "title": "Coxcomb Chart",
+      "description": ""
+    },
+    {
+      "path": "forcedirectedgraph.png",
+      "title": "Force Directed Graph",
+      "description": ""
+    },
+    {
+      "path": "heatmap.png",
+      "title": "Heat Map",
+      "description": ""
+    },
+    {
+      "path": "horizonchart.png",
+      "title": "Horizon Chart",
+      "description": ""
+    },
+    {
+      "path": "linechart.png",
+      "title": "Line Chart",
+      "description": ""
+    },
+    {
+      "path": "logarithmicchart.png",
+      "title": "Logarithmic Chart",
+      "description": ""
+    },
+    {
+      "path": "matrixheatmap.png",
+      "title": "Matrix Heat Map",
+      "description": ""
+    },
+    {
+      "path": "nestedbarchart.png",
+      "title": "Nested Bar Chart",
+      "description": ""
+    },
+    {
+      "path": "parallelcoordinateschart.png",
+      "title": "Parallel Coordinates Chart",
+      "description": ""
+    },
+    {
+      "path": "paretochart.png",
+      "title": "Pareto Chart",
+      "description": ""
+    },
+    {
+      "path": "playfairchart.png",
+      "title": "Playfair Chart",
+      "description": ""
+    },
+    {
+      "path": "polarchart.png",
+      "title": "Polar Chart",
+      "description": ""
+    },
+    {
+      "path": "radarchart.png",
+      "title": "Radar Chart",
+      "description": ""
+    },
+    {
+      "path": "ridgelinechart.png",
+      "title": "Ridge Line Chart",
+      "description": ""
+    },
+    {
+      "path": "sankeyplot.png",
+      "title": "Sankey Plot",
+      "description": ""
+    },
+    {
+      "path": "sectorchart.png",
+      "title": "Sector Chart",
+      "description": ""
+    },
+    {
+      "path": "streamchart.png",
+      "title": "Stream Chart",
+      "description": ""
+    },
+    {
+      "path": "sunburstchart.png",
+      "title": "Sunburst Chart",
+      "description": ""
+    },
+    {
+      "path": "voronoichart.png",
+      "title": "Voronoi Chart",
+      "description": ""
+    }
+  ]
+}

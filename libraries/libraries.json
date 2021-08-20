@@ -394,6 +394,39 @@
     "ensemble": "false"
   },
   {
+    "name": "Charts",
+    "summary": "A library for scientific charts in JavaFX",
+    "tags": "charts, rich client, chart, scientific",
+    "description": "A library for creating scientific charts in JavaFX. The library comes with charts that are completely based on JavaFX canvas (for performance reasons).",
+    "documentation": "https://github.com/HanSolo/charts/wiki",
+    "license": "APACHE2",
+    "homepage": "https://harmoniccode.blogspot.com/search/label/chart",
+    "javadocs": "",
+    "repository": "https://github.com/HanSolo/charts",
+    "githubAccount": "HanSolo",
+    "githubProject": "charts",
+    "issueTracker": "https://github.com/HanSolo/charts/issues",
+    "id": "charts",
+    "createdOn": "2021-06-11",
+    "modifiedOn": "2021-06-11",
+    "groupId": "eu.hansolo.fx",
+    "artifactId": "charts",
+    "ensemble": "false",
+    "logoAvailable": "false",
+    "videoIds": [
+      "Csl0yIdqWB8",
+      "C0YA8QA1K8k",
+      "qaQ2Dh_0pgU",
+      "gE1PJoLzMvk",
+      "SX5jGJFz2-M",
+      "UQGiRTNhvKU",
+      "QsjigWQjc"
+    ],
+    "downloadIds": [
+      "charts"
+    ]
+  },
+  {
     "name": "TilesFX",
     "summary": "Tiles for developing dashboards.",
     "tags": "tiles, dashboard, rich client, chart, clock, progress, weather, countdown",

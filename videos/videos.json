@@ -882,5 +882,117 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "name": "Sankeyplot Demo",
+    "tags": "charts, scientific, video, recording",
+    "type": "Library",
+    "domain": "Charts",
+    "description": "Short demo video of the selection in the Charts library Sankey Plot",
+    "id": "Csl0yIdqWB8",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-08-20",
+    "modifiedOn": "2021-08-20",
+    "publishedOn": "2013-08-20",
+    "personIds": [
+      "g.grunwald"
+    ]
+  },
+  {
+    "name": "Worldmap Chart connections Demo",
+    "tags": "charts, scientific, video, recording",
+    "type": "Library",
+    "domain": "Charts",
+    "description": "Short demo video showing animated connections on the Charts library Worldmap",
+    "id": "C0YA8QA1K8k",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-08-20",
+    "modifiedOn": "2021-08-20",
+    "publishedOn": "2013-08-20",
+    "personIds": [
+      "g.grunwald"
+    ]
+  },
+  {
+    "name": "Parallel Coordinates Chart Demo",
+    "tags": "charts, scientific, video, recording",
+    "type": "Library",
+    "domain": "Charts",
+    "description": "Short demo video showing the Parallel Coordinates Chart of the Charts library",
+    "id": "qaQ2Dh_0pgU",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-08-20",
+    "modifiedOn": "2021-08-20",
+    "publishedOn": "2013-08-20",
+    "personIds": [
+      "g.grunwald"
+    ]
+  },
+  {
+    "name": "Comparison Ring Chart Demo",
+    "tags": "charts, scientific, video, recording",
+    "type": "Library",
+    "domain": "Charts",
+    "description": "Short demo video showing the Comparison Ring Chart of the Charts library",
+    "id": "gE1PJoLzMvk",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-08-20",
+    "modifiedOn": "2021-08-20",
+    "publishedOn": "2013-08-20",
+    "personIds": [
+      "g.grunwald"
+    ]
+  },
+  {
+    "name": "Concentric Ring Chart Demo",
+    "tags": "charts, scientific, video, recording",
+    "type": "Library",
+    "domain": "Charts",
+    "description": "Short demo video showing the Concentric Ring Chart of the Charts library",
+    "id": "SX5jGJFz2-M",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-08-20",
+    "modifiedOn": "2021-08-20",
+    "publishedOn": "2013-08-20",
+    "personIds": [
+      "g.grunwald"
+    ]
+  },
+  {
+    "name": "Matrix Heatmap Chart Demo",
+    "tags": "charts, scientific, video, recording",
+    "type": "Library",
+    "domain": "Charts",
+    "description": "Short demo video showing the Matrix Heatmap Chart of the Charts library",
+    "id": "UQGiRTNhvKU",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-08-20",
+    "modifiedOn": "2021-08-20",
+    "publishedOn": "2013-08-20",
+    "personIds": [
+      "g.grunwald"
+    ]
+  },
+  {
+    "name": "Smoothed Chart Demo",
+    "tags": "charts, scientific, video, recording",
+    "type": "Library",
+    "domain": "Charts",
+    "description": "Short demo video showing the Smoothed Chart of the Charts library",
+    "id": "f-QsjigWQjc",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-08-20",
+    "modifiedOn": "2021-08-20",
+    "publishedOn": "2013-08-20",
+    "personIds": [
+      "g.grunwald"
+    ]
   }
 ]
