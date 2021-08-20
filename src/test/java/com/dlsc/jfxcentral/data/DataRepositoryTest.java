@@ -11,9 +11,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.testfx.framework.junit5.ApplicationExtension;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.List;
 import java.util.Optional;
@@ -134,6 +136,38 @@ public class DataRepositoryTest {
 
             // then
             assertNotNull(info.get(), "info missing for library ID " + lib.getId());
+        });
+    }
+
+
+    @Test
+    public void shouldLoadLibraryInfoFiles() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+
+        assertFalse(repository.getLibraries().isEmpty());
+
+        // when
+        repository.getLibraries().forEach(lib -> {
+            ObjectProperty<LibraryInfo> info = repository.libraryInfoProperty(lib);
+
+
+            LibraryInfo libraryInfo = info.get();
+            libraryInfo.getImages().forEach(image -> {
+                String path = image.getPath();
+
+                // then
+                assertTrue(StringUtils.isNotBlank(path));
+
+                try {
+                    URL url = new URL(DataRepository.BASE_URL + "libraries/" + lib.getId() + "/" + path);
+                    System.out.println("library info file url = " + url.toExternalForm());
+                    File file = new File(url.toURI());
+                    assertTrue(file.exists());
+                } catch (MalformedURLException | URISyntaxException e) {
+                    fail(e);
+                }
+            });
         });
     }
 
