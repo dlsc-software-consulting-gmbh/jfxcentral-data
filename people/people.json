@@ -205,7 +205,8 @@
     "libraryIds": [
       "harmonicfx",
       "tilesfx",
-      "medusa"
+      "medusa",
+      "charts"
     ],
     "tutorialIds": [
       "fxdocs"
