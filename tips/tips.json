@@ -53,5 +53,17 @@
     "peopleIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "id": "hiresicons",
+    "name": "HiRes / Retina Icons",
+    "summary": "Automatically use high resolution icons.",
+    "description": "",
+    "tags": "icon, icons, hires, retina",
+    "createdOn": "2021-08-22",
+    "modifiedOn": "2021-08-22",
+    "peopleIds": [
+      "d.lemmermann"
+    ]
   }
 ]
