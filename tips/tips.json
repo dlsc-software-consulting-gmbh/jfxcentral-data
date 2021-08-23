@@ -65,5 +65,17 @@
     "peopleIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "id": "darcula",
+    "name": "Dark / Darcula Theme",
+    "summary": "A dark theme for your application.",
+    "description": "",
+    "tags": "dark, darcula, theme, css",
+    "createdOn": "2021-08-22",
+    "modifiedOn": "2021-08-22",
+    "peopleIds": [
+      "d.lemmermann"
+    ]
   }
 ]
