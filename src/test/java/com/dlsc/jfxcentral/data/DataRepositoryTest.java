@@ -388,6 +388,26 @@ public class DataRepositoryTest {
     }
 
     @Test
+    public void shouldGetTipsByPerson() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getPeople().isEmpty());
+
+        // when
+        repository.getPeople().forEach(person -> {
+            ListProperty<Tip> list = repository.getTipsByModelObject(person);
+
+            // then
+            assertNotNull(list.get(), "missing tip list for person " + person.getId());
+
+            if (person.getId().equals("d.lemmermann")) {
+                assertTrue(!list.get().isEmpty(), "no libraries returned for person d.lemmermann");
+                assertTrue(list.get().size() > 1, "not enough tips returned for d.lemmermann");
+            }
+        });
+    }
+
+    @Test
     public void shouldGetBooksByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
