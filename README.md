@@ -134,7 +134,6 @@ Follow these instructions for the different types of data:
 
 - [Adding a person](#adding-a-person) 
 - [Adding a library](#adding-a-library)
-- [Adding a book](#adding-a-book)
 
 ### Adding a Person
 
