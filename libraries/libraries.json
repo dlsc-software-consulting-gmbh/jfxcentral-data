@@ -114,6 +114,27 @@
     "ensemble": "false"
   },
   {
+    "name": "FXGraphics2D",
+    "summary": "A JavaFX library that allows Java2D code (Graphics2D) to be used to draw to a Canvas node.",
+    "tags": "graphics, Java2D",
+    "description": "FXGraphics2D is an implementation of Java's Graphics2D API that targets the JavaFX Canvas. It makes it possible to reuse existing Java2D code in a JavaFX application.",
+    "documentation": "https://github.com/jfree/fxgraphics2d/blob/master/README.md",
+    "license": "BSD",
+    "homepage": "",
+    "javadocs": "",
+    "repository": "https://github.com/jfree/fxgraphics2d",
+    "githubAccount": "jfree",
+    "githubProject": "fxgraphics2d",
+    "issueTracker": "https://github.com/jfree/fxgraphics2d/issues",
+    "id": "fxgraphics2d",
+    "createdOn": "2021-08-28",
+    "modifiedOn": "2021-08-28",
+    "groupId": "org.jfree",
+    "artifactId": "org.jfree.fxgraphics2d",
+    "logoAvailable": "false",
+    "ensemble": "false"
+  },
+  {
     "name": "FXGL",
     "summary": "A JavaFX game engine.",
     "tags": "game, gaming, game engine",

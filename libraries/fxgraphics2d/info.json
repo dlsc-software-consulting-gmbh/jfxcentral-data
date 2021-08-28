@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "path": "demo1.png",
+      "title": "FXGraphics2DDemo1",
+      "description": "A demo showing JFreeChart rendering to a JavaFX canvas."
+    },
+    {
+      "path": "test-output.png",
+      "title": "Test Image",
+      "description": "A test image from the JFree Graphics2D Tester.."
+    }
+  ]
+}
