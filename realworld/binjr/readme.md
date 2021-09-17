@@ -27,8 +27,8 @@ Behind the scene, _binjr_ uses Apache Lucene to index data from log files; meani
 language to hack through vast quantities logged events.
 
 It also allows _binjr_ to open log files of any size; unlike most text editors which will fail to load multi
-gigabytes-sized files as they try to fit it all in memory, _binjr_ will happily index those and present a paginated view so that memory usage remains reasonable, while the backing index ensures navigating and searching is lighting
-fast.
+gigabytes-sized files as they try to fit it all in memory, _binjr_ will happily index those and present a paginated view
+so that memory usage remains reasonable, while the backing index ensures navigating and searching is lightning fast.
 
 ![Screen 2](screen2.png)
 
@@ -40,5 +40,5 @@ local solution (the data never needs to be pushed to the cloud - or anywhere els
 setup nor maintenance to speak of.
  
 > _binjr_ is developed and released as Free and Open Source Software, under the [Apache License version 2.0](https://github.com/binjr/binjr/blob/master/LICENSE.md).  
-> You can find all the source code and the issue tracker at [https://github.com/binjr/binjr](https://github.com/binjr/binjr)  
+> You can find the source code and the issue tracker at [https://github.com/binjr/binjr](https://github.com/binjr/binjr)  
 > More information, user guide and download links are available at [https://binjr.eu](https://binjr.eu)
