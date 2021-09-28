@@ -8,5 +8,15 @@
     "tags": "release, javafx, highlights, notes",
     "createdOn": "2021-03-18",
     "modifiedOn": "2021-03-18"
+  },
+  {
+    "id": "release-17",
+    "type": "RELEASE",
+    "name": "JavaFX 17 has been released.",
+    "subtitle": "These are the release highlights",
+    "author": "Abhinay Agarwal",
+    "tags": "release, javafx, highlights, notes",
+    "createdOn": "2021-09-07",
+    "modifiedOn": "2021-09-07"
   }
 ]
