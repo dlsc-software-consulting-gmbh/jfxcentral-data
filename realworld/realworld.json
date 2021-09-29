@@ -346,5 +346,17 @@
     "domain": "MacroPads",
     "tags": "streaming, twitch, social, marco pad",
     "summary": "An open source, cross-platform, programmable, modular Macropad software."
+  },
+  {
+    "id": "pdfsam",
+    "name": "PDFsam Basic",
+    "company": "Sober Lemur S.a.s.",
+    "url": "https://pdfsam.org",
+    "domain": "PDF editing",
+    "tags": "pdf, office",
+    "summary": "A free and open source application to split, merge, extract pages, rotate and mix PDF files.",
+    "companyIds": [
+      "soberlemur"
+    ]
   }
 ]
