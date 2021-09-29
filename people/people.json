@@ -483,6 +483,24 @@
     "id": "a.carroll",
     "createdOn": "2021-07-22",
     "modifiedOn": "2021-07-22"
+  },
+  {
+    "name": "Andrea Vacondio",
+    "email": "andrea@soberlemur.com",
+    "companyId": "soberlemur",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "torakiki",
+    "twitter": "Torakiki610",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.vacondio",
+    "gitHub": "torakiki",
+    "appIds": [
+      "pdfsam"
+    ],
+    "createdOn": "2021-09-28",
+    "modifiedOn": "2021-09-28"
   }
 ]
 

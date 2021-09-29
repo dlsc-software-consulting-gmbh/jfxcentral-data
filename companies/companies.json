@@ -81,5 +81,14 @@
     "createdOn": "2021-07-25",
     "consulting": "true",
     "freelancing": "true"
+  },
+  {
+    "id": "soberlemur",
+    "name": "Sober Lemur S.a.s.",
+    "homepage" : "https://soberlemur.com",
+    "tags": "pdf",
+    "createdOn": "2021-09-28",
+    "consulting": "false",
+    "freelancing": "false"
   }
 ]
