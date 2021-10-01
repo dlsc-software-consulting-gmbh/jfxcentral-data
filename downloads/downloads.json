@@ -420,25 +420,25 @@
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/JDKMon-17.0.4.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/JDKMon-17.0.5.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/JDKMon-17.0.4.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/JDKMon-17.0.5.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/jdkmon_17.0.4-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/jdkmon_17.0.5-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/jdkmon-17.0.4-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.4/jdkmon-17.0.5-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       }
