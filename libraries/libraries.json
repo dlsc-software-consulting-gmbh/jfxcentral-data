@@ -377,7 +377,7 @@
     "tags": "custom controls, richtext editor",
     "description": "RichTextFX provides a memory-efficient text area that allows the developer to style ranges of text and display custom objects in-line (no more HTMLEditor).",
     "documentation": "https://github.com/FXMisc/RichTextFX#readme",
-    "license": "BSD-2-Clause or GPLv2",
+    "license": "BSD2",
     "homepage": "",
     "javadocs": "",
     "repository": "https://github.com/FXMisc/RichTextFX",
