@@ -39,6 +39,4 @@ It provides many of the same powerful visualization and search features while st
 local solution (the data never needs to be pushed to the cloud - or anywhere else for that matter), and requiring no
 setup nor maintenance to speak of.
  
-> _binjr_ is developed and released as Free and Open Source Software, under the [Apache License version 2.0](https://github.com/binjr/binjr/blob/master/LICENSE.md).  
-> You can find the source code and the issue tracker at [https://github.com/binjr/binjr](https://github.com/binjr/binjr)  
-> More information, user guide and download links are available at [https://binjr.eu](https://binjr.eu)
+> _binjr_ is developed and released as Free and Open Source Software, under the [Apache License version 2.0](https://github.com/binjr/binjr/blob/master/LICENSE.md). You can find the source code and the issue tracker at [https://github.com/binjr/binjr](https://github.com/binjr/binjr). More information, user guide and download links are available at [https://binjr.eu](https://binjr.eu)
