@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "bootstrapfx",
     "name": "BootstrapFX",
@@ -369,6 +369,27 @@
     "groupId": "com.dlsc.preferencesfx",
     "artifactId": "preferencesfx-core",
     "logoAvailable": "true",
+    "ensemble": "false"
+  },
+  {
+    "name": "RichTextFX",
+    "summary": "A base for rich-text editors and code editors with syntax highlighting",
+    "tags": "custom controls, richtext editor",
+    "description": "RichTextFX provides a memory-efficient text area that allows the developer to style ranges of text and display custom objects in-line (no more HTMLEditor).",
+    "documentation": "https://github.com/FXMisc/RichTextFX#readme",
+    "license": "BSD-2-Clause or GPLv2",
+    "homepage": "",
+    "javadocs": "",
+    "repository": "https://github.com/FXMisc/RichTextFX",
+    "githubAccount": "FXMisc",
+    "githubProject": "RichTextFX",
+    "issueTracker": "https://github.com/FXMisc/RichTextFX/issues",
+    "id": "richtextfx",
+    "createdOn": "2021-10-26",
+    "modifiedOn": "2021-10-26",
+    "groupId": "org.fxmisc.richtext",
+    "artifactId": "richtextfx",
+    "logoAvailable": "false",
     "ensemble": "false"
   },
   {
