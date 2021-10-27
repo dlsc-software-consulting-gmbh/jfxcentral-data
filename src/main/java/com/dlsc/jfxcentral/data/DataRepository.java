@@ -82,11 +82,12 @@ public class DataRepository extends Application {
 
     private Map<Library, StringProperty> libraryReadMeMap = new HashMap<>();
 
-    private boolean loaded = false;
+    private boolean loaded;
 
     public static synchronized DataRepository getInstance() {
         if (instance == null) {
             instance = new DataRepository();
+            instance.loadData();
         }
 
         return instance;
@@ -97,33 +98,22 @@ public class DataRepository extends Application {
     }
 
     private DataRepository() {
-        if (ASYNC) {
-            Thread thread = new Thread(() -> loadData("initial load via constructor async thread"));
-            thread.setName("Data Repository Thread");
-            thread.setDaemon(true);
-            thread.start();
-        } else {
-            loadData("initial load in constructor");
-        }
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
     }
 
-    public void refreshData() {
+    public void loadData() {
         if (ASYNC) {
             Platform.runLater(() -> {
-                clearData();
-
-                Thread thread = new Thread(() -> loadData("explicit async call to refresh method"));
+                Thread thread = new Thread(() -> doLoadData("call to loadData() method"));
                 thread.setName("Data Repository Refresh Thread");
                 thread.setDaemon(true);
                 thread.start();
             });
         } else {
-            clearData();
-            loadData("explicit call to refresh method");
+            doLoadData("explicit call to refresh method");
         }
     }
 
@@ -159,7 +149,7 @@ public class DataRepository extends Application {
         getTips().clear();
     }
 
-    private void loadData(String reason) {
+    private void doLoadData(String reason) {
         System.out.println("loading data, reason = " + reason);
 
         try {
@@ -227,7 +217,6 @@ public class DataRepository extends Application {
             List<Tip> tips = gson.fromJson(new FileReader(tipsFile), new TypeToken<List<Tip>>() {
             }.getType());
 
-
             if (ASYNC) {
                 Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips));
             } else {
@@ -243,6 +232,8 @@ public class DataRepository extends Application {
     }
 
     private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<Tip> tips) {
+        clearData();
+
         setOpenJFXText(openJFXText);
         setHomeText(homeText);
 
