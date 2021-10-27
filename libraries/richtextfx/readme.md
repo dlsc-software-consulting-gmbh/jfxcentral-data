@@ -1,4 +1,3 @@
-
 RichTextFX
 ==========
 
@@ -69,4 +68,3 @@ This renders the text in the range `[from, to)` in red.
 #### CodeArea
 
 `CodeArea` is a variant of `StyleClassedTextArea` that uses a fixed width font by default, making it a convenient base for source code editors. `CodeArea` is used in the [Java Keywords demo](https://github.com/FXMisc/RichTextFX/richtextfx-demos/README.md#automatic-highlighting-of-java-keywords).
-
