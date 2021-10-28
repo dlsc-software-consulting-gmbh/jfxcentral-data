@@ -416,29 +416,29 @@
       "g.grunwald"
     ],
     "createdOn": "2021-07-06",
-    "modifiedOn": "2021-07-12",
+    "modifiedOn": "2021-10-28",
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/JDKMon-17.0.6.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/JDKMon-17.0.7.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/JDKMon-17.0.6.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/JDKMon-17.0.7.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/jdkmon_17.0.6-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/jdkmon_17.0.7-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/jdkmon-17.0.6-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/jdkmon-17.0.7-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       }
