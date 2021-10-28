@@ -416,29 +416,29 @@
       "g.grunwald"
     ],
     "createdOn": "2021-07-06",
-    "modifiedOn": "2021-07-12",
+    "modifiedOn": "2021-10-28",
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/JDKMon-17.0.6.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/JDKMon-17.0.7.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/JDKMon-17.0.6.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/JDKMon-17.0.7.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/jdkmon_17.0.6-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/jdkmon_17.0.7-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.6/jdkmon-17.0.6-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.7/jdkmon-17.0.7-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       }
@@ -452,35 +452,35 @@
     "repository": "https://github.com/binjr/binjr",
     "downloadType": "APPLICATION",
     "createdOn": "2021-08-18",
-    "modifiedOn": "2021-09-17",
+    "modifiedOn": "2021-10-27",
     "files": [
       {
         "name": "Windows (MSI)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.3.0/binjr-3.3.0_windows-amd64.msi",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.4.0/binjr-3.4.0_windows-amd64.msi",
         "fileName": "",
         "package": "MSI"
       }, 
       {
         "name": "Windows (ZIP)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.3.0/binjr-3.3.0_windows-amd64.zip",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.4.0/binjr-3.4.0_windows-amd64.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "macOS (PKG)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.3.0/binjr-3.3.0_mac-x86_64.pkg",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.4.0/binjr-3.4.0_mac-x86_64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "macOS (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.3.0/binjr-3.3.0_mac-x86_64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.4.0/binjr-3.4.0_mac-x86_64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       },
       {
         "name": "Linux (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.3.0/binjr-3.3.0_linux-amd64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.4.0/binjr-3.4.0_linux-amd64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       }
