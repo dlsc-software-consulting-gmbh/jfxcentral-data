@@ -82,6 +82,8 @@ public class DataRepository extends Application {
 
     private Map<Library, StringProperty> libraryReadMeMap = new HashMap<>();
 
+    private Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
+
     private boolean loaded;
 
     public static synchronized DataRepository getInstance() {
@@ -134,6 +136,7 @@ public class DataRepository extends Application {
         downloadTextMap.clear();
         bookTextMap.clear();
         tutorialTextMap.clear();
+        linksOfTheWeekReadMeMap.clear();
 
         getPeople().clear();
         getLibraries().clear();
@@ -147,6 +150,7 @@ public class DataRepository extends Application {
         getDownloads().clear();
         getTutorials().clear();
         getTips().clear();
+        getLinksOfTheWeek().clear();
     }
 
     private void doLoadData(String reason) {
@@ -217,10 +221,15 @@ public class DataRepository extends Application {
             List<Tip> tips = gson.fromJson(new FileReader(tipsFile), new TypeToken<List<Tip>>() {
             }.getType());
 
+            // load downloads
+            File linksOfTheWeekFile = getFile(getBaseUrl() + "links/links.json");
+            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile), new TypeToken<List<LinksOfTheWeek>>() {
+            }.getType());
+
             if (ASYNC) {
-                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips));
+                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links));
             } else {
-                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips);
+                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links);
             }
 
             System.out.println("data loading finished");
@@ -231,7 +240,9 @@ public class DataRepository extends Application {
         }
     }
 
-    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries, List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads, List<Tutorial> tutorials, List<Tip> tips) {
+    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries,
+                         List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads,
+                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links) {
         clearData();
 
         setOpenJFXText(openJFXText);
@@ -249,6 +260,7 @@ public class DataRepository extends Application {
         setDownloads(downloads);
         setTutorials(tutorials);
         setTips(tips);
+        setLinksOfTheWeek(links);
 
         List<ModelObject> recentItems = findRecentItems();
         setRecentItems(recentItems);
@@ -268,6 +280,7 @@ public class DataRepository extends Application {
         result.addAll(findRecentItems(getRealWorldApps()));
         result.addAll(findRecentItems(getDownloads()));
         result.addAll(findRecentItems(getTips()));
+        result.addAll(findRecentItems(getLinksOfTheWeek()));
 
         // newest ones on top
         Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
@@ -357,6 +370,10 @@ public class DataRepository extends Application {
         return tips.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<LinksOfTheWeek> getLinksOfTheWeekById(String id) {
+        return linksOfTheWeek.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> ListProperty<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
@@ -390,6 +407,8 @@ public class DataRepository extends Application {
             return modelObject.getCompanyIds();
         } else if (clazz.equals(Tip.class)) {
             return modelObject.getTipIds();
+        } else if (clazz.equals(LinksOfTheWeek.class)) {
+            return modelObject.getLinksOfTheWeekIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -420,6 +439,8 @@ public class DataRepository extends Application {
             return (List<T>) companies.get();
         } else if (clazz.equals(Tip.class)) {
             return (List<T>) tips.get();
+        } else if (clazz.equals(LinksOfTheWeek.class)) {
+            return (List<T>) linksOfTheWeek.get();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -477,6 +498,10 @@ public class DataRepository extends Application {
         return getLinkedObjects(modelObject, Tip.class);
     }
 
+    public ListProperty<LinksOfTheWeek> getLinksOfTheWeekByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, LinksOfTheWeek.class);
+    }
+
     public ObjectProperty<LibraryInfo> libraryInfoProperty(Library library) {
         return libraryInfoMap.computeIfAbsent(library, key -> {
             ObjectProperty<LibraryInfo> infoProperty = new SimpleObjectProperty<>();
@@ -523,6 +548,31 @@ public class DataRepository extends Application {
     private void loadNewsText(News news, StringProperty textProperty) {
         String url = getNewsBaseUrl(news) + "/text.md";
         System.out.println("loading news from: " + url);
+        String text = loadString(url);
+        if (ASYNC) {
+            Platform.runLater(() -> textProperty.set(text));
+        } else {
+            textProperty.set(text);
+        }
+    }
+
+    public StringProperty linksOfTheWeekTextProperty(LinksOfTheWeek links) {
+        return linksOfTheWeekReadMeMap.computeIfAbsent(links, key -> {
+            StringProperty textProperty = new SimpleStringProperty();
+
+            if (ASYNC) {
+                executor.submit(() -> loadLinksOfTheWeekText(links, textProperty));
+            } else {
+                loadLinksOfTheWeekText(links, textProperty);
+            }
+
+            return textProperty;
+        });
+    }
+
+    private void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
+        String url = getBaseUrl() + "links/" + links.getId() + "/readme.md";
+        System.out.println("loading links of the week from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
@@ -844,6 +894,20 @@ public class DataRepository extends Application {
         this.books.setAll(books);
     }
 
+    private final ListProperty<LinksOfTheWeek> linksOfTheWeek = new SimpleListProperty<>(this, "linksOfTheWeeks", FXCollections.observableArrayList());
+
+    public ObservableList<LinksOfTheWeek> getLinksOfTheWeek() {
+        return linksOfTheWeek.get();
+    }
+
+    public ListProperty<LinksOfTheWeek> linksOfTheWeekProperty() {
+        return linksOfTheWeek;
+    }
+
+    public void setLinksOfTheWeek(List<LinksOfTheWeek> linksOfTheWeek) {
+        this.linksOfTheWeek.setAll(linksOfTheWeek);
+    }
+
     private final ListProperty<Tip> tips = new SimpleListProperty<>(this, "tips", FXCollections.observableArrayList());
 
     public ObservableList<Tip> getTips() {
@@ -1036,7 +1100,7 @@ public class DataRepository extends Application {
         HttpURLConnection con = null;
 
         try {
-            URL url = new URL(MessageFormat.format("http://search.maven.org/solrsearch/select?q=g:{0}+AND+a:{1}", groupId, artifactId));
+            URL url = new URL(MessageFormat.format("https://search.maven.org/solrsearch/select?q=g:{0}+AND+a:{1}", groupId, artifactId));
 
             con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
@@ -1060,7 +1124,11 @@ public class DataRepository extends Application {
                     result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
                 }
             } else {
-                result.set("unknown");
+                if (ASYNC) {
+                    Platform.runLater(() -> result.set("unknown"));
+                } else {
+                    result.set("unknown");
+                }
             }
         } catch (ProtocolException e) {
             e.printStackTrace();
@@ -1098,12 +1166,13 @@ public class DataRepository extends Application {
         return Collections.emptyList();
     }
 
-    private long cachedPullrequestsTime = 0;
+    private long cachedPullrequestsTime;
     private long timeToReloadSeconds = 600;
-    private List<PullRequest> cachedPullrequests = null;
+    private List<PullRequest> cachedPullrequests;
+
     public List<PullRequest> loadPullRequests() {
         long time = System.currentTimeMillis() / 1000;
-        if(cachedPullrequestsTime + timeToReloadSeconds > time) {
+        if (cachedPullrequestsTime + timeToReloadSeconds > time) {
             return cachedPullrequests;
         }
         cachedPullrequestsTime = time;
@@ -1111,6 +1180,7 @@ public class DataRepository extends Application {
         return cachedPullrequests;
 
     }
+
     private List<PullRequest> loadPullRequestsImpl() {
         System.out.println("loading pull requests");
 
