@@ -1,7 +1,7 @@
 This week saw updates to this site, a couple of new product releases, and several interesting online reads.
 
-- **Dirk Lemmermann** and **Florian Kirmaier** finished the mobile version of JFX Central and published it at [jfx-central.com](jfx-central.com).
-This release required the addition of full support for gesture events which was added to the [JPRO solution](jpro-one.net).
+- **Dirk Lemmermann** and **Florian Kirmaier** finished the mobile version of JFX Central and published it at [https://jfx-central.com](jfx-central.com).
+This release required the addition of full support for gesture events which was added to the [JPRO solution](https://www.jpro.one).
 
 - **Gluon** released the [next iteration of their Gluon Mobile product](https://gluonhq.com/gluon-mobile-next-iteration/), which consists of the subcomponents _Charm Glisten_ (for the frontend), _Attach_ (for mobile services integration), and _Gluon Afterburner_ (for dependency injection).
 
