@@ -1,5 +1,23 @@
 [
   {
+    "name": "Agostino De Marco",
+    "email": "agostino.demarco@unina.it",
+    "companyId": "smartup.engineering",
+    "website": "https://www.docenti.unina.it/agostino.demarco",
+    "gitHub": "agodemar",
+    "blogId": "",
+    "linkedIn": "agostino-de-marco",
+    "twitter": "agodemar",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.demarco",
+    "appIds": [
+      "jpadmodeller"
+    ],
+    "createdOn": "2021-11-02",
+    "modifiedOn": "2021-11-02"
+  },
+  {
     "name": "Eugene Ryzhikov",
     "email": "",
     "companyId": "gluon",
