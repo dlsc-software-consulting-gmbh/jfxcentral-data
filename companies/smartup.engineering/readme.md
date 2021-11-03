@@ -1,15 +1,6 @@
-SmartUp Engineering is an Italian startup company and a spin-off of the University of Naples Federico II.
-The company focuses on:
-- Developing software for industrial and scientific applications related to aerospace.
-- Supporting the design, development and testing of innovative aerial platforms for aerial, maritime and land applications.
-- Applying innovative technologies to various industrial fields, including the aerospace, mechanical and energy sectors.
-SmartUp Engineering offers aeronautical engineering services and software tailored to customer needs.
-Thanks to a consolidated background in aircraft design, services and products include:
-- aerodynamic design and analysis of complete aircraft and of its subcomponents, 
-- software development for aerospace design, 
-- wind tunnel tests,
-- flight tests,
-- flight simulation studies,
-- flight dynamics modelling.
+SmartUp Engineering is an Italian startup and a spin-off company of the University of Naples Federico II.
+The company develops software for industrial and scientific applications related to the aerospace field, and supports the design-development-testing cycle of innovative flying platforms for aerial, maritime and land applications. 
 
-SmartUp Engineering develops and sells JPAD Modeller, a software conceived to support aircraft design workflows. This software is an efficient pre-processor for several third-party software tools which are typically used for aircraft conceptual and preliminary design studies. JPAD Modeller features a UI made with JavaFX and leverages the computational library named JPAD (Java API for Aircraft Design). 
+SmartUp Engineering offers aeronautical engineering services and develops software solutions tailored to the customer needs, thanks to a consolidated experience in aircraft design.
+
+SmartUp Engineering develops and sells _JPAD Modeller_, a knowledge-based modelling tool that supports aircraft design workflows. This software is an efficient pre-processor for several third-party applications which are typically used for aircraft conceptual and preliminary design studies. JPAD Modeller features a UI made with JavaFX and leverages the computational library named JPAD (Java API for Aircraft Design). 
