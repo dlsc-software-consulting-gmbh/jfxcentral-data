@@ -605,7 +605,7 @@ public class DataRepositoryTest {
                         int responseCode = huc.getResponseCode();
                         System.out.println("response: " + responseCode);
 
-                        assertEquals(HttpURLConnection.HTTP_OK, responseCode);
+                        assertEquals(HttpURLConnection.HTTP_OK, responseCode, "checked url: " + url.toExternalForm());
                     } catch (MalformedURLException ex) {
                         fail("url was invalid, url = " + externalizedUrl);
                     } catch (IOException e) {
