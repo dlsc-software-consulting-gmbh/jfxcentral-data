@@ -1,13 +1,13 @@
-_JPAD Modeller_ is a knowledge-based shape modelling tool developed to support aircraft design workflows. The software is a desktop application that provides an efficient 3D geometry pre-processor for several third-party computational environments, which are typically used for aircraft conceptual and preliminary design studies. _JPAD Modeller_ features a UI made with JavaFX and leverages the computational library named _JPAD_ (Java API for Aircraft Design).
+_JPAD Modeller_ is a knowledge-based shape modelling tool developed to support aircraft design workflows. The software is a desktop application that provides an efficient 3D geometry pre-processor for several third-party computational environments, which are typically used for aircraft conceptual and preliminary design studies. _JPAD Modeller_ features a UI made with JavaFX and leverages the computational library named _JPAD_ (Java API for Aircraft Design). The internal CAD engine of _JPAD_ is based on [Open CASCADE Technology (OCCT)](https://www.opencascade.com/open-cascade-technology).
 
 **Business model**
 
-The business model of _JPAD Modeller_ is represented by a full-blown parametric model of an entire aircraft, defined within _JPAD_, the underlying API. The aircraft model features several modules that define all the aircraft components (fuselage, wing, empennages, engines, etc). 
+The business model of _JPAD Modeller_ is represented by a full-blown parametric model of an entire aircraft defined within _JPAD_, the underlying API. The aircraft model features several modules that define all the possible components found in transport aircraft (fuselage, wing, empennages, engines, etc). 
 
-The main aircraft data structure collects the high-level parameter (such as the aircraft type, the reference set of regulations, or limit load factor values), keeps a list of all components (such as the fuselage, the wing, tails, etc), specifies the components positions and rotations in a Body Reference Frame (BRF), and points to a number of predefined component definition files. 
-Without the detailed definitions of all components the aircraft model is only an empty container capable of linking together empty aircraft parts. By adding or removing additional components the user can customize the aircraft according to his/her needs. Each aircraft component holds the minimum set of parameters needed to fully describe that aircraft part, simplifying the navigation throughout all aircraft data and the modification of the parametric model. 
+The main aircraft data structure collects the high-level parameters (such as the aircraft type, the reference set of regulations, or limit load factor values), keeps a list of all components (such as the fuselage, the wing, tails, etc), specifies the components positions and rotations in a Body Reference Frame (BRF), and points to a number of predefined component definition files. 
+The aircraft model and the parametric definition of all the components are reflected by the _JPAD Modeller_ UI. By changing, adding or removing components the user can customize the aircraft according to his/her needs.
 
-The same _JPAD Modeller_ aircraft parametric model is also used as a base layer to build up the aircraft CAD model. This is _automatically generated_ starting from the selected set of components and their defining parameters. The CAD model data structure has been designed with a modular approach. The user can decide to generate only one or more of the components that compose the aircraft according to his/her needs.
+The same _JPAD Modeller_ aircraft parametric model is used to build up the aircraft CAD model. This is _automatically generated_ starting from a selected set of components and their defining parameters. Also the CAD model data structure is modular. The user can decide to generate only one or more of the components that compose the aircraft according to his/her needs.
 
 A parametric aircraft model created with _JPAD Modeller_ may result in a fairly complex CAD artifact. The following CAD entities can be defined: 
 - Fuselages with streamlined nose and tail cones.
@@ -22,17 +22,17 @@ A parametric aircraft model created with _JPAD Modeller_ may result in a fairly 
 
 **User experience**
 
-_JPAD Modeller_ provides a simple and efficient user experience. Starting from the setup of the working directories, up to the export of the final aircraft geometry, the software is designed to minimize the user actions necessary to complete a work session. In addition, automatic aircraft geometry checks combined with a smart management of the possible runtime errors and exceptions, enhance the user experience by highlighting errors causes and by suggesting possible solutions. 
+_JPAD Modeller_ provides a simple and efficient user experience. Starting from the setup of the working directories, up to the export of the final aircraft geometry, the software is designed to minimize the user actions necessary to complete a work session. In addition, the user experience is enhanced by automatic aircraft geometry checks combined with a smart management of the possible runtime errors and exceptions. 
 
 An aircraft in _JPAD Modeller_ is defined by hundreds of parameters, the UI provides several info buttons and prompt messages whenever needed, allowing the user to stay focused on his own project and complete successfully an entire work session. 
 
 The workflow of a typical _JPAD Modeller_ session is the following:
 1. Definition of the initial aircraft model,
-    - aircraft initialization with a knowledge-based pre-design module, or
-    - import of a pre-defined aircraft model, or
-    - creation of a design from scratch.
+    - with a dedicated knowledge-based pre-design module, or
+    - by importing a pre-defined aircraft model, or
+    - by creating of a design from scratch.
 2. Management of the aircraft model and its components (add/remove components, parameters modifications, airfoils and engine deck customizations). 
-3. Management of the aircraft CAD model (selecting aircraft components for which CAD generation is required, or advanced CAD features management). 
+3. Management of the aircraft CAD model (selecting aircraft components for which CAD generation is required, or enabling advanced CAD features). 
 4. Update the aircraft CAD model. 
 5. Export the aircraft or its CAD model.
 
