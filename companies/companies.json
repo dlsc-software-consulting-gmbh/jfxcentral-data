@@ -1,5 +1,14 @@
 [
   {
+    "id": "smartup.engineering",
+    "name": "SmartUp Engineering srl",
+    "homepage": "https://www.smartup-engineering.com",
+    "createdOn": "2021-11-02",
+    "consulting": "true",
+    "freelancing": "false",
+    "tags": "consulting, aerospace, jpad modeller"
+  },
+  {
     "id": "dlsc",
     "name": "DLSC Software & Consulting GmbH",
     "homepage": "https://dlsc.com",

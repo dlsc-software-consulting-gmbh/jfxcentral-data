@@ -1,5 +1,37 @@
 [
   {
+    "name": "JPAD Modeller presentation",
+    "tags": "aircraft design, JPAD Modeller, knowledge-based aircraft modelling",
+    "type": "Real World Application",
+    "domain": "Aircraft design",
+    "platform": "Desktop",
+    "description": "A 5 mins demo presentation of JPAD Modeller, exploring the UI and the user experience.",
+    "id": "La-xGA2bw1o",
+    "event": "",
+    "createdOn": "2021-11-02",
+    "modifiedOn": "2021-11-02",
+    "publishedOn": "2021-10-15",
+    "personIds": [
+      "a.demarco"
+    ]
+  },
+  {
+    "name": "Introducing JPAD Modeller",
+    "tags": "aircraft design, JPAD Modeller, knowledge-based aircraft modelling",
+    "type": "Real World Application",
+    "domain": "Aircraft design",
+    "platform": "Desktop",
+    "description": "Introducing JPAD Modeller, an efficient pre-processor for several third-party tools typically used in aircraft conceptual and preliminary design studies.",
+    "id": "-xbaVCw7fAY",
+    "event": "",
+    "createdOn": "2021-11-02",
+    "modifiedOn": "2021-11-02",
+    "publishedOn": "2021-10-15",
+    "personIds": [
+      "a.demarco"
+    ]
+  },
+  {
     "name": "Modellus + FXRibbon + JMetro (interview with Pedro Duque Vieira on Almas channel)",
     "tags": "modelling, mathematics, university, teaching, academic, Library",
     "type": "Real World Application",
