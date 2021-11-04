@@ -98,7 +98,7 @@ The possibility to import pre-defined components enhances the user experience al
 
 **Aircraft management window and component update strategy**
 
-![Screen 15](screen15.JPg)
+![Screen 15](screen15.jpg)
 
 > _JPAD Modeller_ is developed and released as a Commercial Software by [SmartUp Engineering srl](https://www.smartup-engineering.com). More information and a trial request form are available at [https://www.smartup-engineering.com/jpad-modeller](https://www.smartup-engineering.com/jpad-modeller)
 
