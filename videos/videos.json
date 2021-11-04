@@ -387,19 +387,6 @@
     "publishedOn": "2020-11-23"
   },
   {
-    "name": "JavaFX real-world application: Scrum Board",
-    "tags": "",
-    "type": "Real World Application",
-    "domain": "Team Management",
-    "description": "A short video showing how JavaFX can be used to implement a scrum board for distributed teams. The demo highlights the touch / gesture support built right into Java.",
-    "id": "TlHjX2uZzxA",
-    "event": "",
-    "platform": "Desktop",
-    "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-28",
-    "publishedOn": "2013-09-18"
-  },
-  {
     "name": "JavaFX real-world application: Deep Space Trajectory Explorer",
     "tags": "",
     "type": "Real World Application",
