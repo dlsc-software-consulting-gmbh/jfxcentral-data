@@ -331,7 +331,7 @@
     "tags": "theme, skin",
     "description": "JavaFX Theme inspired by Fluent Design (not a copy). JMetro is not a theme that tries to mimic the native Windows theme / look and feel, or a theme that is a direct copy of Fluent Design. It is rather a theme inspired by Fluent Design and adapted to fit the JavaFX SDK. There are also changes that have been made according to my personal opinions on some of Fluent Design’s particularities.\n\nJMetro is composed by a set controls, stylesheets and skins.",
     "documentation": "https://pixelduke.com/java-javafx-theme-jmetro/",
-    "license": "new BSD",
+    "license": "BSD3",
     "homepage": "https://pixelduke.com/java-javafx-theme-jmetro/",
     "javadocs": "",
     "repository": "https://github.com/JFXtras/jfxtras-styles",
