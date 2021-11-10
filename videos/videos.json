@@ -1000,5 +1000,20 @@
     "personIds": [
       "g.grunwald"
     ]
+  },
+  {
+    "name": "MaterialFX v11.6.0 Features Preview",
+    "tags": "material, design, google, custom controls",
+    "type": "Library",
+    "domain": "Custom Controls",
+    "description": "Walk-thru video of the MaterialFX demo application. Quick way to see all features / controls.",
+    "id": "Pf--fVK6hs8",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-11-10",
+    "modifiedOn": "2021-11-10",
+    "publishedOn": "2013-11-10",
+    "personIds": [
+    ]
   }
 ]
