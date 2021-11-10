@@ -2,7 +2,7 @@
   {
     "id": "animatefx",
     "name": "AnimateFX",
-    "summary": "Pre-Built animations.",
+    "summary": "Easy to use animations.",
     "tags": "animation",
     "description": "A library of +70 ready-to-use animations for JavaFX",
     "documentation": "https://github.com/Typhon0/AnimateFX/#readme",
