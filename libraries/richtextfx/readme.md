@@ -1,12 +1,12 @@
 RichTextFX provides a memory-efficient text area for JavaFX that allows the developer to style ranges of text and display custom objects in-line (no more HTMLEditor).
 
-It is intended as a base for rich-text editors and code editors with syntax highlighting. Since it is a base, a number of suggested features (specific syntax highlighters, search-and-replace, specific support for hyperlinks, etc.) have not be implemented directly in this project. Rather, developers can implement these on top of RichTextFX and submit their work as a PR to the `richtextfx-demos` package.
+It is intended as a base for rich-text editors and code editors with syntax highlighting. Since it is a base, a number of suggested features (specific syntax highlighters, search-and-replace, specific support for hyperlinks, etc.) have not be implemented directly in this project. Rather, developers can implement these on top of RichTextFX and submit their work as a PR to the _richtextfx-demos_ package.
 
 For a greater explanation of RichTextFX, its design principles, how it works, and how to style its areas via CSS, please [see the wiki](https://github.com/FXMisc/RichTextFX/wiki)
 
 ### Demos
 
-Stand-alone applications that demonstrate some of the features of RichTextFX can be found [here](https://github.com/FXMisc/RichTextFX/richtextfx-demos/)
+Stand-alone applications that demonstrate various features of RichTextFX can be found [here](https://github.com/FXMisc/RichTextFX/richtextfx-demos/)
 
 ### Features
 
