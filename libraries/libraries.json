@@ -1,5 +1,27 @@
 ﻿[
   {
+    "id": "materialfx",
+    "name": "MaterialFX",
+    "summary": "Controls based on Google's Material design.",
+    "tags": "material, skin, stylesheet, style, design",
+    "description": "A library of material components for JavaFX.",
+    "documentation": "https://github.com/palexdev/MaterialFX#readme",
+    "repository": "https://github.com/palexdev/MaterialFX",
+    "license": "LGPL",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "palexdev",
+    "githubProject": "MaterialFX",
+    "readme": "README.md",
+    "issueTracker": "https://github.com/palexdev/MaterialFX/issues",
+    "createdOn": "2021-11-10",
+    "modifiedOn": "2021-11-10",
+    "groupId": "io.github.palexdev",
+    "artifactId": "materialfx",
+    "logoAvailable": "false",
+    "ensemble": "false"
+  },
+  {
     "id": "animatefx",
     "name": "AnimateFX",
     "summary": "Easy to use animations.",
