@@ -1,47 +1,47 @@
 {
   "images": [
     {
-      "path": "buttons.gif",
+      "path": "buttons.jpg",
       "title": "Buttons",
       "description": ""
     },
     {
-      "path": "checkbox.gif",
+      "path": "checkbox.jpg",
       "title": "Buttons",
       "description": ""
     },
     {
-      "path": "combobox.gif",
+      "path": "combobox.jpg",
       "title": "ComboBox",
       "description": ""
     },
     {
-      "path": "datepicker.gif",
+      "path": "datepicker.jpg",
       "title": "DatePicker",
       "description": ""
     },
     {
-      "path": "dialogs.gif",
+      "path": "dialogs.jpg",
       "title": "Dialogs",
       "description": ""
     },
     {
-      "path": "labels.gif",
+      "path": "labels.jpg",
       "title": "Labels",
       "description": ""
     },
     {
-      "path": "listviews.gif",
+      "path": "listviews.jpg",
       "title": "List Views",
       "description": ""
     },
     {
-      "path": "stepper.gif",
+      "path": "stepper.jpg",
       "title": "Stepper",
       "description": ""
     },
     {
-      "path": "togglebuttons.gif",
+      "path": "togglebuttons.jpg",
       "title": "Toggle Buttons",
       "description": ""
     }
