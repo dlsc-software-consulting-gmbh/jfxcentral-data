@@ -416,41 +416,41 @@
       "g.grunwald"
     ],
     "createdOn": "2021-07-06",
-    "modifiedOn": "2021-10-28",
+    "modifiedOn": "2021-11-09",
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.10/JDKMon-17.0.10.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.11/JDKMon-17.0.11.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.10/JDKMon-17.0.10.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.11/JDKMon-17.0.11.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac M1 instable)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.10/JDKMon-aarch64-17.0.10.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.11/JDKMon-aarch64-17.0.11.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.10/jdkmon_17.0.10-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.11/jdkmon_17.0.11-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.10/jdkmon-17.0.10-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.11/jdkmon-17.0.11-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.10/jdkmon_17.0.10-1_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.11/jdkmon_17.0.11-1_arm64.deb",
         "fileName": "",
         "package": "DEB"
       }
