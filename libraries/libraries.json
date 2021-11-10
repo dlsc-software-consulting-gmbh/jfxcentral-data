@@ -19,7 +19,10 @@
     "groupId": "io.github.palexdev",
     "artifactId": "materialfx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "videoIds": [
+      "Pf--fVK6hs8"
+    ]
   },
   {
     "id": "animatefx",
