@@ -22,6 +22,28 @@
     "ensemble": "false"
   },
   {
+    "id": "gluonmaps",
+    "name": "Gluon Maps",
+    "summary": "Map control for using OpenStreetMaps data.",
+    "tags": "map, openstreetmap",
+    "description": "Map control for using OpenStreetMaps data.",
+    "documentation": "https://github.com/Typhon0/AnimateFX/#readme",
+    "repository": "https://github.com/gluonhq/maps",
+    "license": "GPL",
+    "homepage": "http://gluonhq.com/open-source/maps/",
+    "javadocs": "",
+    "githubAccount": "gluonhq",
+    "githubProject": "maps",
+    "readme": "README.md",
+    "issueTracker": "https://github.com/gluonhq/maps/issues",
+    "createdOn": "2021-11-10",
+    "modifiedOn": "2021-11-10",
+    "groupId": "com.gluonhq",
+    "artifactId": "maps",
+    "logoAvailable": "false",
+    "ensemble": "false"
+  },
+  {
     "id": "bootstrapfx",
     "name": "BootstrapFX",
     "summary": "Bootstrap for JavaFX",
