@@ -1,5 +1,27 @@
 ﻿[
   {
+    "id": "animatefx",
+    "name": "AnimateFX",
+    "summary": "Pre-Built animations.",
+    "tags": "animation",
+    "description": "A library of +70 ready-to-use animations for JavaFX",
+    "documentation": "https://github.com/Typhon0/AnimateFX/#readme",
+    "repository": "https://github.com/Typhon0/AnimateFX",
+    "license": "APACHE2",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "Typhon0",
+    "githubProject": "AnimateFX",
+    "readme": "README.md",
+    "issueTracker": "https://github.com/Typhon0/AnimateFX/issues",
+    "createdOn": "2021-11-10",
+    "modifiedOn": "2021-11-10",
+    "groupId": "io.github.typhon0",
+    "artifactId": "AnimateFX",
+    "logoAvailable": "false",
+    "ensemble": "false"
+  },
+  {
     "id": "bootstrapfx",
     "name": "BootstrapFX",
     "summary": "Bootstrap for JavaFX",
