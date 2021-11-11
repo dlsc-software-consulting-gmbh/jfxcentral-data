@@ -421,6 +421,30 @@
     ]
   },
   {
+    "name": "LibRawFX",
+    "summary": "Adds raw file formats to the image class.",
+    "tags": "libraw, custom image formats",
+    "description": "Integration of LibRaw (https://www.libraw.org) library for JavaFX for all major operating systems (Linux, Windows, OSX). All raw formats can be loaded with the Image class and manipulated by Pixelwriter/Pixelreader. Limitation is that the image class only supports 8-bit color deph but converts all 16bit image format to 8bit automatically.",
+    "documentation": "https://github.com/dlsc-software-consulting-gmbh/LibRawFX#readme",
+    "license": "LGPL-2.1 License",
+    "homepage": "http://www.librawfx.org",
+    "javadocs": "",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/LibRawFX",
+    "githubAccount": "lanthale",
+    "githubProject": "LibRawFX",
+    "issueTracker": "https://github.com/lanthale/LibRawFX/issues",
+    "id": "librawfx",
+    "createdOn": "2021-11-11",
+    "modifiedOn": "2021-11-11",
+    "groupId": "org.librawfx",
+    "artifactId": "LibRawFX",
+    "logoAvailable": "false",
+    "ensemble": "true",
+    "videoIds": [
+      "oyV9q720F9s"
+    ]
+  },
+  {
     "name": "PDFViewFX",
     "summary": "A viewer for PDF files.",
     "tags": "pdf viewer, custom control",
