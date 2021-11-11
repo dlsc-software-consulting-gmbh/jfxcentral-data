@@ -19,7 +19,10 @@
     "groupId": "net.synedra",
     "artifactId": "validatorfx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "videoIds": [
+      "dSYsuPuYaZ8"
+    ]
   },
   {
     "id": "materialfx",
