@@ -22,6 +22,31 @@
     "ensemble": "false"
   },
   {
+    "id": "materialfx",
+    "name": "MaterialFX",
+    "summary": "Controls based on Google's Material design.",
+    "tags": "material, skin, stylesheet, style, design",
+    "description": "A library of material components for JavaFX.",
+    "documentation": "https://github.com/palexdev/MaterialFX#readme",
+    "repository": "https://github.com/palexdev/MaterialFX",
+    "license": "LGPL",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "palexdev",
+    "githubProject": "MaterialFX",
+    "readme": "README.md",
+    "issueTracker": "https://github.com/palexdev/MaterialFX/issues",
+    "createdOn": "2021-11-10",
+    "modifiedOn": "2021-11-10",
+    "groupId": "io.github.palexdev",
+    "artifactId": "materialfx",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "videoIds": [
+      "Pf--fVK6hs8"
+    ]
+  },
+  {
     "id": "animatefx",
     "name": "AnimateFX",
     "summary": "Easy to use animations.",
@@ -328,7 +353,7 @@
     "tags": "theme, skin",
     "description": "JavaFX Theme inspired by Fluent Design (not a copy). JMetro is not a theme that tries to mimic the native Windows theme / look and feel, or a theme that is a direct copy of Fluent Design. It is rather a theme inspired by Fluent Design and adapted to fit the JavaFX SDK. There are also changes that have been made according to my personal opinions on some of Fluent Design’s particularities.\n\nJMetro is composed by a set controls, stylesheets and skins.",
     "documentation": "https://pixelduke.com/java-javafx-theme-jmetro/",
-    "license": "new BSD",
+    "license": "BSD3",
     "homepage": "https://pixelduke.com/java-javafx-theme-jmetro/",
     "javadocs": "",
     "repository": "https://github.com/JFXtras/jfxtras-styles",
