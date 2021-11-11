@@ -1,5 +1,23 @@
 [
   {
+    "name": "Robert Lichtenberger",
+    "email": "r.lichtenberger@gmail.com",
+    "companyId": "synedra",
+    "website": "",
+    "gitHub": "effad",
+    "blogId": "",
+    "linkedIn": "robert-lichtenberger-b31b64164/",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "r.lichtenberger",
+    "libraryIds": [
+      "validatorfx"
+    ],
+    "createdOn": "2021-11-11",
+    "modifiedOn": "2021-11-11"
+  },
+  {
     "name": "Agostino De Marco",
     "email": "agostino.demarco@unina.it",
     "companyId": "smartup.engineering",
