@@ -378,5 +378,27 @@
     "domain": "Transport Optimization",
     "tags": "transport, planning, optimization, vehicle routing problem",
     "summary": "Optimize last mile delivery."
+  },
+  {
+    "id": "photoslide",
+    "name": "PhotoSlide",
+    "company": "None (Spare Time Project)",
+    "url": "https://github.com/lanthale/PhotoSlide",
+    "domain": "Image management",
+    "tags": "photo, video, editing, photography",
+    "summary": "View and edit photos / videos."
+  },
+  {
+    "id": "xpshealth",
+    "name": "XPS Health",
+    "company": "Sideline Sports",
+    "url": "https://xps.sidelinesports.com",
+    "domain": "Sports",
+    "tags": "sports, medical, injuries, illness, doctor",
+    "summary": "A module of the XPS software solution that allows its users to keep track of their team members' health.",
+    "videoIds": [],
+    "personIds": [
+      "d.lemmermann"
+    ]
   }
 ]

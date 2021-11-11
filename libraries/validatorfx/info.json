@@ -1,0 +1,15 @@
+{
+  "images": [
+    {
+      "path": "validatordemo.png",
+      "title": "ValidatorFX in action",
+      "description": "Screenshot of ValidatorFX demo application"
+    },
+  ],
+  "videos": [
+    {
+      "description": "video description",
+      "url": "https://youtu.be/dSYsuPuYaZ8?t=92"
+    }
+  ]
+}

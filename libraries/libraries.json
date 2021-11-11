@@ -1,5 +1,27 @@
 ﻿[
   {
+    "id": "validatorfx",
+    "name": "ValidatorFX",
+    "summary": "Form validation made easy.",
+    "tags": "validation",
+    "description": "A validation library for JavaFX",
+    "documentation": "https://github.com/effad/ValidatorFX#readme",
+    "repository": "https://github.com/effad/ValidatorFX",
+    "license": "BSD3",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "effad",
+    "githubProject": "ValidatorFX",
+    "readme": "README.md",
+    "issueTracker": "https://github.com/effad/ValidatorFX/issues",
+    "createdOn": "2021-11-11",
+    "modifiedOn": "2021-11-11",
+    "groupId": "net.synedra",
+    "artifactId": "validatorfx",
+    "logoAvailable": "false",
+    "ensemble": "false"
+  },
+  {
     "id": "materialfx",
     "name": "MaterialFX",
     "summary": "Controls based on Google's Material design.",
