@@ -432,7 +432,7 @@
       },
       {
         "name": "PKG Installer (Mac M1 instable)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.13/JDKMon-aarch64-17.0.13.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.13/JDKMon-17.0.13-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
