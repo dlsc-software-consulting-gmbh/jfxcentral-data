@@ -151,9 +151,10 @@ public class DataRepositoryTest {
         repository.getLibraries().forEach(lib -> {
             ObjectProperty<LibraryInfo> info = repository.libraryInfoProperty(lib);
 
-
             LibraryInfo libraryInfo = info.get();
             libraryInfo.getImages().forEach(image -> {
+                assertNotNull(image,"image null in library info of library " + lib.getName());
+
                 String path = image.getPath();
 
                 // then
@@ -183,6 +184,21 @@ public class DataRepositoryTest {
 
             // then
             assertTrue(StringUtils.isNotBlank(text.get()), "text missing for person ID " + person.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadLinksOfTheWeek() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getLinksOfTheWeek().isEmpty());
+
+        // when
+        repository.getLinksOfTheWeek().forEach(links -> {
+            StringProperty text = repository.linksOfTheWeekTextProperty(links);
+
+            // then
+            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for links of the week ID " + links.getId());
         });
     }
 
