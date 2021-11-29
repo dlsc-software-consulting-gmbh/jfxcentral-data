@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "path": "overview.png",
+      "path": "example.png",
       "title": "LibRawFX",
       "description": "A JavaFX library for adding raw image format supported by Libraw."
     }

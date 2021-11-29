@@ -4,5 +4,17 @@
     "tags": "jpro, jfxcentral, links, week",
     "createdOn": "2021-10-25",
     "modifiedOn": "2021-10-25"
+  },
+  {
+    "id": "2021-11-15",
+    "tags": "openjfx, lite",
+    "createdOn": "2021-11-15",
+    "modifiedOn": "2021-11-15"
+  },
+  {
+    "id": "2021-11-22",
+    "tags": "openjdk, binjr, flexganttfx, flexgantt, youtube, downloader, smartcsv",
+    "createdOn": "2021-11-22",
+    "modifiedOn": "2021-11-22"
   }
 ]
