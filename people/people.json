@@ -239,7 +239,8 @@
       "harmonicfx",
       "tilesfx",
       "medusa",
-      "charts"
+      "charts",
+      "countries"
     ],
     "tutorialIds": [
       "fxdocs"
