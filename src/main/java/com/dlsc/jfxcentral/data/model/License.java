@@ -8,7 +8,7 @@ public enum License {
     BSD3("BSD 3-Clause 'New' or 'Revised' license"),
     BSD2("BSD 2-Clause 'Simplified' or 'FreeBSD' license"),
     GPL("GNU General Public License (GPL)"),
-    LPGL("GNU Library or 'Lesser' General Public License (LGPL)"),
+    LGPL("GNU Library or 'Lesser' General Public License (LGPL)"),
     MIT("MIT license"),
     MOZILLA("Mozilla Public License 2.0"),
     COMMON("Common Development and Distribution License"),

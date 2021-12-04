@@ -1,5 +1,55 @@
 ﻿[
   {
+    "id": "validatorfx",
+    "name": "ValidatorFX",
+    "summary": "Form validation made easy.",
+    "tags": "validation",
+    "description": "A validation library for JavaFX",
+    "documentation": "https://github.com/effad/ValidatorFX#readme",
+    "repository": "https://github.com/effad/ValidatorFX",
+    "license": "BSD3",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "effad",
+    "githubProject": "ValidatorFX",
+    "readme": "README.md",
+    "issueTracker": "https://github.com/effad/ValidatorFX/issues",
+    "createdOn": "2021-11-11",
+    "modifiedOn": "2021-11-11",
+    "groupId": "net.synedra",
+    "artifactId": "validatorfx",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "videoIds": [
+      "dSYsuPuYaZ8"
+    ]
+  },
+  {
+    "id": "materialfx",
+    "name": "MaterialFX",
+    "summary": "Controls based on Google's Material design.",
+    "tags": "material, skin, stylesheet, style, design",
+    "description": "A library of material components for JavaFX.",
+    "documentation": "https://github.com/palexdev/MaterialFX#readme",
+    "repository": "https://github.com/palexdev/MaterialFX",
+    "license": "LGPL",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "palexdev",
+    "githubProject": "MaterialFX",
+    "readme": "README.md",
+    "issueTracker": "https://github.com/palexdev/MaterialFX/issues",
+    "createdOn": "2021-11-10",
+    "modifiedOn": "2021-11-10",
+    "groupId": "io.github.palexdev",
+    "artifactId": "materialfx",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "videoIds": [
+      "Pf--fVK6hs8"
+    ]
+  },
+  {
     "id": "animatefx",
     "name": "AnimateFX",
     "summary": "Easy to use animations.",
@@ -306,7 +356,7 @@
     "tags": "theme, skin",
     "description": "JavaFX Theme inspired by Fluent Design (not a copy). JMetro is not a theme that tries to mimic the native Windows theme / look and feel, or a theme that is a direct copy of Fluent Design. It is rather a theme inspired by Fluent Design and adapted to fit the JavaFX SDK. There are also changes that have been made according to my personal opinions on some of Fluent Design’s particularities.\n\nJMetro is composed by a set controls, stylesheets and skins.",
     "documentation": "https://pixelduke.com/java-javafx-theme-jmetro/",
-    "license": "new BSD",
+    "license": "BSD3",
     "homepage": "https://pixelduke.com/java-javafx-theme-jmetro/",
     "javadocs": "",
     "repository": "https://github.com/JFXtras/jfxtras-styles",
@@ -376,7 +426,7 @@
     "tags": "libraw, custom image formats",
     "description": "Integration of LibRaw (https://www.libraw.org) library for JavaFX for all major operating systems (Linux, Windows, OSX). All raw formats can be loaded with the Image class and manipulated by Pixelwriter/Pixelreader. Limitation is that the image class only supports 8-bit color deph but converts all 16bit image format to 8bit automatically.",
     "documentation": "https://github.com/dlsc-software-consulting-gmbh/LibRawFX#readme",
-    "license": "LGPL-2.1 License",
+    "license": "LGPL",
     "homepage": "http://www.librawfx.org",
     "javadocs": "",
     "repository": "https://github.com/dlsc-software-consulting-gmbh/LibRawFX",
@@ -389,10 +439,7 @@
     "groupId": "org.librawfx",
     "artifactId": "LibRawFX",
     "logoAvailable": "false",
-    "ensemble": "true",
-    "videoIds": [
-      "oyV9q720F9s"
-    ]
+    "ensemble": "false"
   },
   {
     "name": "PDFViewFX",
@@ -535,6 +582,29 @@
     "downloadIds": [
       "charts"
     ]
+  },
+  {
+    "name": "Countries",
+    "summary": "A library which contains information about countries like their shape, gps coordinates, cities and airports.",
+    "tags": "countries, dashboard, rich client, visualization",
+    "description": "Countries is a JavaFX library which contains information about countries like their shape, gps coordinates and cities.",
+    "documentation": "https://github.com/HanSolo/countries/wiki",
+    "license": "APACHE2",
+    "homepage": "https://harmoniccode.blogspot.com/search/label/countries",
+    "javadocs": "",
+    "repository": "https://github.com/HanSolo/countries",
+    "githubAccount": "HanSolo",
+    "githubProject": "countries",
+    "issueTracker": "https://github.com/HanSolo/countries/issues",
+    "id": "countries",
+    "createdOn": "2021-03-12",
+    "modifiedOn": "2021-03-12",
+    "groupId": "eu.hansolo.fx",
+    "artifactId": "countries",
+    "ensemble": "false",
+    "logoAvailable": "false",
+    "videoIds": [],
+    "downloadIds": []
   },
   {
     "name": "TilesFX",
