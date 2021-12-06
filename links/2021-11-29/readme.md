@@ -1,3 +1,5 @@
-**Gerrit Grunwald** has released a [new library called "countries"](https://harmoniccode.blogspot.com/2021/12/all-things-countries.html) which can be used to display a single country, a region, or a world map. Via overlays additional information can be added to it.
-**Shahzada Hatim** has written a blog post where he shows how to implement a [JavaFX application for reading BLE](https://www.hatimonline.com/2021/11/a-javafx-based-ble-app-for-raspberry-pi.html) (Bluetooth Low Energy) devices via a Raspberry Pi. 
-**JPro** has [released version 2021.2.2](https://www.jpro.one/docs/current/3.1/2021.2.X?) of their tool for running JavaFX applications in browsers.
+- **Gerrit Grunwald** has released a [new library called "countries"](https://harmoniccode.blogspot.com/2021/12/all-things-countries.html) which can be used to display a single country, a region, or a world map. Via overlays additional information can be added to it.
+- **Shahzada Hatim** has written a blog post where he shows how to implement a [JavaFX application for reading BLE](https://www.hatimonline.com/2021/11/a-javafx-based-ble-app-for-raspberry-pi.html) (Bluetooth Low Energy) devices via a Raspberry Pi. 
+- **JPro** has [released version 2021.2.2](https://www.jpro.one/docs/current/3.1/2021.2.X?) of their tool for running JavaFX applications in browsers.
+- **Robert Ladstätter** has published a [new release](https://github.com/rladstaetter/LogoRRR/releases/tag/21.3.2) of his log file viewer LogoRRR (written in JavaFX).
+- **Clemens Lanthaler** developed an [application called FXIconCreator](https://github.com/lanthale/fxiconcreator) for creating app icons out of a single PNG file for all major operating systems.
