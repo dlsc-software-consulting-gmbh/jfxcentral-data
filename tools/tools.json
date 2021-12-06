@@ -130,5 +130,18 @@
     "repository": "https://github.com/controlsfx/controlsfx",
     "createdOn": "2021-06-01",
     "modifiedOn": "2021-06-01"
+  },
+  {
+    "id": "fxiconcreator",
+    "name": "FXIconCreator",
+    "summary": "Tool for creating icons for Windows,Linux,OSX,...",
+    "description": "Small app to create icon sets (multi resolution) for Linux, Windows, OSX from a single PNG imageReason for creating such an app was that I had to create app icons out of png files but I was tired to always fire up different virtual machine only to use the native tools to create the icons. All web based icon converter are converting the icons in the wrong format (not as multi resolution).",
+    "tags": "icons",
+    "groupId": "org.itarchitects",
+    "artifactId": "fxiconcreator",
+    "homepage": "https://github.com/lanthale/FXIconCreator",
+    "repository": "https://github.com/lanthale/FXIconCreator",
+    "createdOn": "2021-12-04",
+    "modifiedOn": "2021-12-04"
   }
 ]

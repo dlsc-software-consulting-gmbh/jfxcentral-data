@@ -400,5 +400,18 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "id": "devoxx",
+    "name": "Devoxx",
+    "company": "Devoxx",
+    "url": "https://devoxx.com",
+    "domain": "Conferences",
+    "tags": "mobile, conference, information, maps",
+    "summary": "Show information about talks, speakers and locations",
+    "videoIds": [],
+    "personIds": [
+      "j.vos"
+    ]
   }
 ]
