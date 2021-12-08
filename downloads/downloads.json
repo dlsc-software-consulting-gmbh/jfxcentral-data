@@ -416,41 +416,41 @@
       "g.grunwald"
     ],
     "createdOn": "2021-07-06",
-    "modifiedOn": "2021-11-18",
+    "modifiedOn": "2021-12-08",
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.14/JDKMon-17.0.14.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.17/JDKMon-17.0.17.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.14/JDKMon-17.0.14.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.17/JDKMon-17.0.17.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac M1)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.14/JDKMon-17.0.14-aarch64.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.17/JDKMon-17.0.17-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.14/jdkmon_17.0.14-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.17/jdkmon_17.0.17-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.14/jdkmon-17.0.14-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.17/jdkmon-17.0.17-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.14/jdkmon_17.0.14-1_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.17/jdkmon_17.0.17-1_arm64.deb",
         "fileName": "",
         "package": "DEB"
       }
