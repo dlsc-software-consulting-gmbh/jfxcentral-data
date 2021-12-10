@@ -99,5 +99,14 @@
     "createdOn": "2021-09-28",
     "consulting": "false",
     "freelancing": "false"
+  },
+  {
+    "id": "qfs",
+    "name": "Quality First Software GmbH",
+    "homepage" : "https://www.qfs.de/en",
+    "tags": "test automation",
+    "createdOn": "2021-12-10",
+    "consulting": "false",
+    "freelancing": "false"
   }
 ]
