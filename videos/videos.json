@@ -1015,5 +1015,22 @@
     "publishedOn": "2021-02-03",
     "personIds": [
     ]
+  },
+  {
+    "name": "QF-Test Overview | GUI Test Tool for Java, Web and Windows",
+    "tags": "testing, test automation",
+    "type": "Tool",
+    "domain": "Test Automation",
+    "description": "A brief overview of the GUI Test tool QF-Test which helps you easily create automated GUI tests for Java Swing, JavaFX, Eclipse / SWT / RCP, Web (AJAX, HTML, DOM) and Desktop Windows applications.",
+    "id": "ifrUL9na1kU",
+    "createdOn": "2021-12-10",
+    "modifiedOn": "2021-12-10",
+    "publishedOn": "2018-04-23",
+    "companyIds": [
+      "qfs"
+    ],
+    "toolIds": [
+      "qftest"
+    ]
   }
 ]
