@@ -143,5 +143,21 @@
     "repository": "https://github.com/lanthale/FXIconCreator",
     "createdOn": "2021-12-04",
     "modifiedOn": "2021-12-04"
+  },
+  {
+    "id": "qftest",
+    "name": "QF-Test",
+    "summary": "Automated GUI testing for Java, Web and Windows applications",
+    "description": "QF-Test is a fully integrated tool for automated GUI testing for Java, Web and Windows applications.",
+    "tags": "test automation, testing",
+    "homepage": "https://www.qfs.de/en",
+    "createdOn": "2021-12-10",
+    "modifiedOn": "2021-12-10",
+    "companyIds": [
+      "qfs"
+    ],
+    "videoIds": [
+      "ifrUL9na1kU"
+    ]
   }
 ]
