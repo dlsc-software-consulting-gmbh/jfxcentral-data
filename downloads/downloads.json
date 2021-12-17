@@ -497,5 +497,35 @@
         "package": "TAR.GZ"
       }
     ]
+  },
+  {
+    "id": "logorrr",
+    "name": "LogoRRR",
+    "tags": "log, log files, visualization, log file analysis, logs",
+    "homepage": "https://www.logorrr.app/",
+    "repository": "https://github.com/rladstaetter/logorrr",
+    "downloadType": "APPLICATION",
+    "createdOn": "2021-12-17",
+    "modifiedOn": "2021-12-17",
+    "files": [
+      {
+        "name": "Windows (EXE)",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/21.3.2/LogoRRR-installer.exe",
+        "fileName": "",
+        "package": "EXE"
+      },
+      {
+        "name": "macOS x86 (PKG)",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/21.3.2/LogoRRR-21.3.2-x86_64.pkg",
+        "fileName": "",
+        "package": "PKG"
+      },
+      {
+        "name": "macOS aarch64 (PKG)",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/21.3.2/LogoRRR-21.3.2-aarch64.pkg",
+        "fileName": "",
+        "package": "PKG"
+      }
+    ]
   }
 ]
