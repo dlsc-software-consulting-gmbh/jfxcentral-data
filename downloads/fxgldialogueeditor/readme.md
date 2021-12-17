@@ -1,0 +1,1 @@
+A dialogue editor built with the [FXGL game engine](https://github.com/AlmasB/FXGL) that saves data in a simple .json format. The .json file is natively supported by FXGL, but can also be imported into other engines and games.
