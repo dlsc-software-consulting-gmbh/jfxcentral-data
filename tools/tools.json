@@ -159,5 +159,18 @@
     "videoIds": [
       "ifrUL9na1kU"
     ]
+  },
+	{
+    "id": "smartfinder",
+    "name": "SmartFinder",
+    "summary": "SmartFinder allows you to use an innovative way to search for your files on the Desktop with an experience similar to Google's search",
+    "description": "With SmartFinder you have everything just a click away and in a single view! From the ability to open the first relevant files already while typing the words to be searched, to links with meta-data to directly filter the results, to viewing an extract of the document with the searched words highlighted!",
+    "tags": "desktop search, windows search, finder, web application",
+    "homepage": "https://serendigity.it/products/smartfinder/",
+    "createdOn": "2021-12-18",
+    "modifiedOn": "2021-12-18",
+    "companyIds": [
+      "serendipity"
+    ]
   }
 ]
