@@ -527,5 +527,26 @@
         "package": "PKG"
       }
     ]
+  },
+  {
+    "id": "fxgldialogueeditor",
+    "name": "FXGL Dialogue Editor",
+    "tags": "game development, dialogue graph, visualization, dialogue editor",
+    "homepage": "https://fxgl.itch.io/fxgl-dialogue-editor",
+    "repository": "https://github.com/AlmasB/FXGL",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "a.baimagambetov"
+    ],
+    "createdOn": "2021-12-17",
+    "modifiedOn": "2021-12-17",
+    "files": [
+      {
+        "name": "Windows ZIP",
+        "url": "https://fxgl.itch.io/fxgl-dialogue-editor",
+        "fileName": "",
+        "package": "ZIP"
+      }
+    ]
   }
 ]
