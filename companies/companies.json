@@ -108,5 +108,17 @@
     "createdOn": "2021-12-10",
     "consulting": "false",
     "freelancing": "false"
+  },
+  {
+    "id": "teamdev",
+    "name": "TeamDev Ltd.",
+    "homepage": "https://www.teamdev.com",
+    "tags": "web, chromium, embedded browser, crawling, jxbrowser, consulting",
+    "createdOn": "2021-12-24",
+    "consulting": "true",
+    "freelancing": "false",
+    "libraryIds": [
+      "jxbrowser"
+    ]
   }
 ]

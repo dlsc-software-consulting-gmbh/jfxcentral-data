@@ -538,6 +538,23 @@
     ],
     "createdOn": "2021-09-28",
     "modifiedOn": "2021-09-28"
+  },
+  {
+    "name": "Vladyslav Lubenskyi",
+    "email": "vladyslav.lubenskyi@teamdev.com",
+    "companyId": "teamdev",
+    "website": "",
+    "gitHub": "vlad-lubenskyi",
+    "blogId": "",
+    "linkedIn": "vladyslav-lubenskyi-8855a049",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "v.lubenskyi",
+    "libraryIds": [
+      "jxbrowser"
+    ],
+    "createdOn": "2021-12-24",
+    "modifiedOn": "2021-12-24"
   }
 ]
-
