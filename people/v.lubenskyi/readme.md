@@ -1,1 +1,1 @@
-A Java team lead in JxBrowser.
+A Java team lead at JxBrowser.
