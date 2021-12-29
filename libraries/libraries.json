@@ -698,5 +698,24 @@
     "modifiedOn": "2021-07-16",
     "ensemble": "false",
     "logoAvailable": "false"
+  },
+  {
+    "id": "jxbrowser",
+    "name": "JxBrowser",
+    "summary": "A browser component with a fully-fledged Chromium under the hood.",
+    "tags": "rich client, embedded browser, chromium, webview alternative",
+    "description": "JxBrowser is a cross-platform library for embedding Chromium into Java applications. It comes as a Maven dependency, no extra effort required. JxBrowser natively supports JavaFX, Swing, and SWT.",
+    "documentation": "https://jxbrowser-support.teamdev.com/docs/guides/introduction/requirements.html",
+    "license": "Commercial",
+    "homepage": "https://www.teamdev.com/jxbrowser",
+    "javadocs": "https://jxbrowser-support.teamdev.com/javadoc/7.21.1",
+    "createdOn": "2021-12-29",
+    "groupId": "com.teamdev.jxbrowser",
+    "artifactId": "jxbrowser-cross-platform",
+    "logoAvailable": "true",
+    "ensemble": "false",
+    "videoIds": [
+      "KGVchexhvvQ"
+    ]
   }
 ]
