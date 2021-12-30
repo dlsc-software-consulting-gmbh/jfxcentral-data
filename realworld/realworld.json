@@ -413,5 +413,14 @@
     "personIds": [
       "j.vos"
     ]
+  },
+  {
+    "id": "smartfinder",
+    "name": "SmartFinder",
+    "company": "serendipity",
+    "url": "https://serendigity.it/products/smartfinder/",
+    "domain": "Desktop Search Tool",
+    "summary": "SmartFinder allows you to use an innovative way to search for your Desktop's files with an experience similar to Google's search",
+    "tags": "desktop search, windows search, finder, web application"
   }
 ]

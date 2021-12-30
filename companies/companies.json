@@ -92,6 +92,15 @@
     "freelancing": "true"
   },
   {
+    "id": "serendipity",
+    "name": "Serendipity S.r.l.",
+    "homepage" : "https://serendigity.it/",
+    "tags": "enterprise search, machine learning, training, java, devops, agile",
+    "createdOn": "2021-12-28",
+    "consulting": "true",
+    "freelancing": "false"
+  },
+  {
     "id": "soberlemur",
     "name": "Sober Lemur S.a.s.",
     "homepage" : "https://soberlemur.com",
