@@ -14,8 +14,6 @@ What if you need to know which files have the same content? Yes, with SmartFinde
 
 ## Some screenshots
 
-![Suggestions and instant search animated](suggestions_animated.gif)
-![Search animated](search_animated.gif)
 ![Suggestions and instant search](suggestions.png)
 ![Metadata statistics and filters](metadata_filters.png)
 ![Metadata results](metadata_results.png)
