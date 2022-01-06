@@ -134,7 +134,7 @@
   {
     "id": "fxiconcreator",
     "name": "FXIconCreator",
-    "summary": "Tool for creating icons for Windows,Linux,OSX,...",
+    "summary": "Tool for creating icons for Windows, Linux, OSX",
     "description": "Small app to create icon sets (multi resolution) for Linux, Windows, OSX from a single PNG imageReason for creating such an app was that I had to create app icons out of png files but I was tired to always fire up different virtual machine only to use the native tools to create the icons. All web based icon converter are converting the icons in the wrong format (not as multi resolution).",
     "tags": "icons",
     "groupId": "org.itarchitects",
