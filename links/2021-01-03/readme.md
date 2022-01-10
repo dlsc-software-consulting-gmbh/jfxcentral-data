@@ -1,1 +1,0 @@
-- **Gerrit Grunwald** has published a new blog post covering his latest chart type addition called ["Radial Tidy Tree"](https://harmoniccode.blogspot.com/2022/01/holiday-fun.html).
