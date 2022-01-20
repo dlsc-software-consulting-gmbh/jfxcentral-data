@@ -1,5 +1,15 @@
 [
   {
+    "id": "release-17.0.2",
+    "type": "RELEASE",
+    "name": "JavaFX 17.0.2 has been released.",
+    "subtitle": "These are the release highlights",
+    "author": "Abhinay Agarwal",
+    "tags": "release, javafx, highlights, notes",
+    "createdOn": "2022-01-20",
+    "modifiedOn": "2022-01-20"
+  },
+  {
     "id": "release-17",
     "type": "RELEASE",
     "name": "JavaFX 17 has been released.",
