@@ -1,0 +1,9 @@
+{
+  "images": [
+    {
+      "path": "example.png",
+      "title": "LibHeifFX",
+      "description": "A JavaFX library for adding heif image format (iPhone) supported by LibHeif."
+    }
+  ]
+}
