@@ -2,7 +2,8 @@ Overview
 --------
 **Orson Charts FX** generates a wide variety of 3D charts for desktop applications on the Java platform. 
 
-![Orson Charts sample](https://www.object-refinery.com/orsoncharts/images/orsoncharts_fx.png)
+![Orson Charts sample](https://user-images.githubusercontent.com/1835893/150652500-87741095-5148-454f-b8e9-8f836174c068.png)
+
 
 Key features include:
 
