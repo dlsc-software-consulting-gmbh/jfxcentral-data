@@ -1,0 +1,2 @@
+- **Gerrit Grunwald** has implemented a [date picker control](https://harmoniccode.blogspot.com/2021/12/dateranger.html) that allows the user to also select date ranges.
+- **Almas Baimagambetov** has [posted a video](https://www.youtube.com/watch?v=PKKF62VGVm8) showing the game "Tower Defense" implemented via the FXGL game engine. This is one of the [many games](https://github.com/AlmasB/FXGLGames) that can be found in the FXGLGames GitHub repository.

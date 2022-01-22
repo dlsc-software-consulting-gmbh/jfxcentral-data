@@ -49,7 +49,7 @@ Option | Description
 `required(boolean)` <br /> `required(String)` | Determines, whether entry in this field is required for the correctness of the form.
 `editable(boolean)` | Determines, whether end users can edit the contents of this field.
 `id(String)` | Describes the field with a unique ID. This is not visible directly, but can be used for styling purposes.
-`styleClass(List&lt;String&gt;)` | Adds styling hooks to the field. This can be used on the view layer.
+`styleClass(List<String>)` | Adds styling hooks to the field. This can be used on the view layer.
 `span(int)` <br /> `span(ColSpan)` | Determines, how many columns the field should span on the view layer. Can be a number between 1 and 12 or a ColSpan fraction.
 `render(SimpleControl)` | Determines the control that is used to render this field on the view layer.
 

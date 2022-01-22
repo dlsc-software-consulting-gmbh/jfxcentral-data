@@ -1,0 +1,4 @@
+- **Andreas Billmann** has created a [JavaFX UI for the YouTube downloader](https://github.com/frosch95/YoutubeDL-UI). Andreas is also the author of [SmartCSV.fx](http://frosch95.github.io/SmartCSV.fx/), an editor for comma separated values files that includes configurable validity checks.
+- **Dirk Lemmermann** has published installers for the [FlexGanttFX sampler application](https://www.flexganttfx.com/pages/download-demos/). He also [reported a bug / memory leak](https://bugs.openjdk.java.net/browse/JDK-8277848) related to ListProperty bindings.
+- **Frederic Thevenet** relased a [new version](https://binjr.eu) of his time series data explorer called _**binjr**_.
+- **Gerrit Grunwald** released [version 17.0.14](https://github.com/HanSolo/JDKMon/releases/tag/17.0.14) of his tool JDKMon. A little tool written in JavaFX that monitors your installed JDK's and informs you about updates.

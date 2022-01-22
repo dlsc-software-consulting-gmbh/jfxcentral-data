@@ -1,0 +1,4 @@
+- **Vladimir Ikryanov** has written a post covering the differences between the standard [JavaFX WebView control and the commercial JxBrowser](https://dzone.com/articles/jxbrowser-and-javafx-webview).
+- **Gerrit Grunwald** published a post covering the migration efforts that went into [porting his iOS app GlucoTracker to JavaFX](https://harmoniccode.blogspot.com/2022/01/glucostatusfx.html).
+- **Dirk Lemmermann** has [added a SearchField control](https://github.com/dlsc-software-consulting-gmbh/GemsFX#search-field) to his GemsFX open source control library. The field provides auto suggestions and also auto completes the first best result in the suggestion list. In addition, text matches are highlighted in the result list.
+- **Almas Baimagambetov** published a tutorial video on YouTube showing [how to implement undo functionality](https://www.youtube.com/watch?v=KQoP9M7silY) in JavaFX.
