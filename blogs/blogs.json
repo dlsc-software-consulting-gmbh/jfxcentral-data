@@ -22,7 +22,7 @@
   },
   {
     "id": "foojay",
-    "name": "foojay.io JavaFX Channel",
+    "name": "foojay",
     "summary": "foojay (Friends of OpenJDK) features a great JavaFX channel with fresh content provided by various authors.",
     "url": "https://foojay.io/today/category/java/javafx/",
     "createdOn": "2021-05-24",
@@ -109,7 +109,7 @@
   },
   {
     "id": "vocabhunter",
-    "name": "VocabHunter Tech and Release Blog",
+    "name": "VocabHunter Blog",
     "summary": "Information about VocabHunter, Santulator and the tech behind them.",
     "url": "https://vocabhunter.github.io/blog/",
     "createdOn": "2021-07-22",

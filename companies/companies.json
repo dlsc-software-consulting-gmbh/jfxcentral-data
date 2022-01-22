@@ -1,5 +1,14 @@
 [
   {
+    "id": "smartup.engineering",
+    "name": "SmartUp Engineering srl",
+    "homepage": "https://www.smartup-engineering.com",
+    "createdOn": "2021-11-02",
+    "consulting": "true",
+    "freelancing": "false",
+    "tags": "consulting, aerospace, jpad modeller"
+  },
+  {
     "id": "dlsc",
     "name": "DLSC Software & Consulting GmbH",
     "homepage": "https://dlsc.com",
@@ -81,5 +90,44 @@
     "createdOn": "2021-07-25",
     "consulting": "true",
     "freelancing": "true"
+  },
+  {
+    "id": "serendipity",
+    "name": "Serendipity S.r.l.",
+    "homepage" : "https://serendigity.it/",
+    "tags": "enterprise search, machine learning, training, java, devops, agile",
+    "createdOn": "2021-12-28",
+    "consulting": "true",
+    "freelancing": "false"
+  },
+  {
+    "id": "soberlemur",
+    "name": "Sober Lemur S.a.s.",
+    "homepage" : "https://soberlemur.com",
+    "tags": "pdf",
+    "createdOn": "2021-09-28",
+    "consulting": "false",
+    "freelancing": "false"
+  },
+  {
+    "id": "qfs",
+    "name": "Quality First Software GmbH",
+    "homepage" : "https://www.qfs.de/en",
+    "tags": "test automation",
+    "createdOn": "2021-12-10",
+    "consulting": "false",
+    "freelancing": "false"
+  },
+  {
+    "id": "teamdev",
+    "name": "TeamDev Ltd.",
+    "homepage": "https://www.teamdev.com",
+    "tags": "web, chromium, embedded browser, crawling, jxbrowser, consulting",
+    "createdOn": "2021-12-29",
+    "consulting": "true",
+    "freelancing": "false",
+    "libraryIds": [
+      "jxbrowser"
+    ]
   }
 ]

@@ -1,5 +1,37 @@
 [
   {
+    "name": "JPAD Modeller presentation",
+    "tags": "aircraft design, JPAD Modeller, knowledge-based aircraft modelling",
+    "type": "Real World Application",
+    "domain": "Aircraft design",
+    "platform": "Desktop",
+    "description": "A 5 mins demo presentation of JPAD Modeller, exploring the UI and the user experience.",
+    "id": "La-xGA2bw1o",
+    "event": "",
+    "createdOn": "2021-11-02",
+    "modifiedOn": "2021-11-02",
+    "publishedOn": "2021-10-15",
+    "personIds": [
+      "a.demarco"
+    ]
+  },
+  {
+    "name": "Introducing JPAD Modeller",
+    "tags": "aircraft design, JPAD Modeller, knowledge-based aircraft modelling",
+    "type": "Real World Application",
+    "domain": "Aircraft design",
+    "platform": "Desktop",
+    "description": "Introducing JPAD Modeller, an efficient pre-processor for several third-party tools typically used in aircraft conceptual and preliminary design studies.",
+    "id": "-xbaVCw7fAY",
+    "event": "",
+    "createdOn": "2021-11-02",
+    "modifiedOn": "2021-11-02",
+    "publishedOn": "2021-10-15",
+    "personIds": [
+      "a.demarco"
+    ]
+  },
+  {
     "name": "Modellus + FXRibbon + JMetro (interview with Pedro Duque Vieira on Almas channel)",
     "tags": "modelling, mathematics, university, teaching, academic, Library",
     "type": "Real World Application",
@@ -340,32 +372,6 @@
     "createdOn": "2021-05-28",
     "modifiedOn": "2021-05-28",
     "publishedOn": "2016-01-04"
-  },
-  {
-    "name": "JavaFX real-world application: SOPHIA Genetics",
-    "tags": "",
-    "type": "Real World Application",
-    "domain": "Research",
-    "description": "SOPHiA for Genomics offers clinical-grade genomic solutions to help experts accurately detect and characterize genomic variants associated with cancers and hereditary disorders, from targeted to full genome applications.\n\n© SOPHiA GENETICS \n\nThe information included in this video has been prepared for and is intended for viewing by a global audience. This video contains information about products which may or may not be available in different countries and if applicable, may or may not have received approval or market clearance by a governmental regulatory body for different indications for use. Please consult local sales representatives.",
-    "id": "mJEKQHgBvug",
-    "event": "",
-    "platform": "Desktop",
-    "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-28",
-    "publishedOn": "2020-11-23"
-  },
-  {
-    "name": "JavaFX real-world application: Scrum Board",
-    "tags": "",
-    "type": "Real World Application",
-    "domain": "Team Management",
-    "description": "A short video showing how JavaFX can be used to implement a scrum board for distributed teams. The demo highlights the touch / gesture support built right into Java.",
-    "id": "TlHjX2uZzxA",
-    "event": "",
-    "platform": "Desktop",
-    "createdOn": "2021-05-28",
-    "modifiedOn": "2021-05-28",
-    "publishedOn": "2013-09-18"
   },
   {
     "name": "JavaFX real-world application: Deep Space Trajectory Explorer",
@@ -993,6 +999,38 @@
     "publishedOn": "2013-08-20",
     "personIds": [
       "g.grunwald"
+    ]
+  },
+  {
+    "name": "MaterialFX v11.6.0 Features Preview",
+    "tags": "material, design, google, custom controls",
+    "type": "Library",
+    "domain": "Custom Controls",
+    "description": "Walk-thru video of the MaterialFX demo application. Quick way to see all features / controls.",
+    "id": "Pf--fVK6hs8",
+    "event": "",
+    "platform": "",
+    "createdOn": "2021-11-10",
+    "modifiedOn": "2021-11-10",
+    "publishedOn": "2021-02-03",
+    "personIds": [
+    ]
+  },
+  {
+    "name": "QF-Test Overview | GUI Test Tool for Java, Web and Windows",
+    "tags": "testing, test automation",
+    "type": "Tool",
+    "domain": "Test Automation",
+    "description": "A brief overview of the GUI Test tool QF-Test which helps you easily create automated GUI tests for Java Swing, JavaFX, Eclipse / SWT / RCP, Web (AJAX, HTML, DOM) and Desktop Windows applications.",
+    "id": "ifrUL9na1kU",
+    "createdOn": "2021-12-10",
+    "modifiedOn": "2021-12-10",
+    "publishedOn": "2018-04-23",
+    "companyIds": [
+      "qfs"
+    ],
+    "toolIds": [
+      "qftest"
     ]
   }
 ]

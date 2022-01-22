@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "webgl.png",
+      "title": "WebGL Support",
+      "description": "A WebGL test opened in JxBrowser."
+    },
+    {
+      "path": "html5.png",
+      "title": "HTML5 Test",
+      "description": "An HTML5 test opened in JxBrowser."
+    },
+    {
+      "path": "architecture.png",
+      "title": "Architecture",
+      "description": "An overview of JxBrowser architecture"
+    }
+  ]
+}

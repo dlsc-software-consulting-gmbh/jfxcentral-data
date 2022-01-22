@@ -22,6 +22,7 @@ This repository contains the data for the following model objects:
 - `Company`
 - `Download`
 - `Library`
+- `LinksOfTheWeek`
 - `News`
 - `Person`
 - `RealWorldApp`
@@ -38,6 +39,7 @@ match the types of the model objects:
 - Companies inside `companies/companies.json`
 - Downloads inside `downloads/downloads.json`
 - Libraries inside `libraries/libraries.json`
+- LinksOfTheWeek inside `links/links.json`
 - News inside `news/news.json`
 - People inside `people/people.json`
 - Real World Applications inside `realworld/realworld.json`
@@ -74,6 +76,7 @@ private List<String> personIds = new ArrayList<>();
 private List<String> tutorialIds = new ArrayList<>();
 private List<String> toolIds = new ArrayList<>();
 private List<String> libraryIds = new ArrayList<>();
+private List<String> linksOfTheWeekIds = new ArrayList<>();
 private List<String> bookIds = new ArrayList<>();
 private List<String> companyIds = new ArrayList<>();
 private List<String> downloadIds = new ArrayList<>();

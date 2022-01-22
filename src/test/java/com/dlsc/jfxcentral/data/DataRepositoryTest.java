@@ -11,9 +11,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.testfx.framework.junit5.ApplicationExtension;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.List;
 import java.util.Optional;
@@ -77,7 +79,7 @@ public class DataRepositoryTest {
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
 
         // make sure to load the data again, otherwise the following tests will have nothing to work with
-        repository.refreshData();
+        repository.loadData();
     }
 
     @Test
@@ -86,7 +88,7 @@ public class DataRepositoryTest {
         DataRepository repository = DataRepository.getInstance();
 
         // when
-        repository.refreshData();
+        repository.loadData();
 
         // then
         assertTrue(!repository.getBlogs().isEmpty());
@@ -137,6 +139,39 @@ public class DataRepositoryTest {
         });
     }
 
+
+    @Test
+    public void shouldLoadLibraryInfoFiles() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+
+        assertFalse(repository.getLibraries().isEmpty());
+
+        // when
+        repository.getLibraries().forEach(lib -> {
+            ObjectProperty<LibraryInfo> info = repository.libraryInfoProperty(lib);
+
+            LibraryInfo libraryInfo = info.get();
+            libraryInfo.getImages().forEach(image -> {
+                assertNotNull(image,"image null in library info of library " + lib.getName());
+
+                String path = image.getPath();
+
+                // then
+                assertTrue(StringUtils.isNotBlank(path));
+
+                try {
+                    URL url = new URL(DataRepository.BASE_URL + "libraries/" + lib.getId() + "/" + path);
+                    System.out.println("library info file url = " + url.toExternalForm());
+                    File file = new File(url.toURI());
+                    assertTrue(file.exists());
+                } catch (MalformedURLException | URISyntaxException e) {
+                    fail(e);
+                }
+            });
+        });
+    }
+
     @Test
     public void shouldLoadPersonDescription() {
         // given
@@ -149,6 +184,21 @@ public class DataRepositoryTest {
 
             // then
             assertTrue(StringUtils.isNotBlank(text.get()), "text missing for person ID " + person.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadLinksOfTheWeek() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getLinksOfTheWeek().isEmpty());
+
+        // when
+        repository.getLinksOfTheWeek().forEach(links -> {
+            StringProperty text = repository.linksOfTheWeekTextProperty(links);
+
+            // then
+            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for links of the week ID " + links.getId());
         });
     }
 
@@ -354,6 +404,26 @@ public class DataRepositoryTest {
     }
 
     @Test
+    public void shouldGetTipsByPerson() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        assertFalse(repository.getPeople().isEmpty());
+
+        // when
+        repository.getPeople().forEach(person -> {
+            ListProperty<Tip> list = repository.getTipsByModelObject(person);
+
+            // then
+            assertNotNull(list.get(), "missing tip list for person " + person.getId());
+
+            if (person.getId().equals("d.lemmermann")) {
+                assertTrue(!list.get().isEmpty(), "no libraries returned for person d.lemmermann");
+                assertTrue(list.get().size() > 1, "not enough tips returned for d.lemmermann");
+            }
+        });
+    }
+
+    @Test
     public void shouldGetBooksByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
@@ -551,7 +621,7 @@ public class DataRepositoryTest {
                         int responseCode = huc.getResponseCode();
                         System.out.println("response: " + responseCode);
 
-                        assertEquals(HttpURLConnection.HTTP_OK, responseCode);
+                        assertEquals(HttpURLConnection.HTTP_OK, responseCode, "checked url: " + url.toExternalForm());
                     } catch (MalformedURLException ex) {
                         fail("url was invalid, url = " + externalizedUrl);
                     } catch (IOException e) {
