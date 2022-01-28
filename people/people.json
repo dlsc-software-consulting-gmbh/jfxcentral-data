@@ -568,7 +568,7 @@
     "rockstar": false,
     "id": "d.redmond",
     "gitHub": "dustinkredmond",
-    "appIds": [
+    "libraryIds": [
       "fxtrayicon"
     ],
     "createdOn": "2022-01-28",
