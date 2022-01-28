@@ -463,6 +463,27 @@
     "ensemble": "false"
   },
   {
+    "name": "Orson Charts FX",
+    "summary": "A 3D chart library for JavaFX applications.",
+    "tags": "charts, 3D",
+    "description": "Orson Charts FX is a library for creating 3D charts in JavaFX applications.",
+    "documentation": "https://github.com/jfree/orsonchartsfx/blob/master/README.md",
+    "license": "GPLV3",
+    "homepage": "https://github.com/jfree/orsonchartsfx",
+    "javadocs": "https://javadoc.io/doc/org.jfree/org.jfree.chart3d.fx/latest/org.jfree.chart3d.fx/module-summary.html",
+    "repository": "https://github.com/jfree/orsonchartsfx",
+    "githubAccount": "jfree",
+    "githubProject": "orsonchartsfx",
+    "issueTracker": "https://github.com/jfree/orsonchartsfx/issues",
+    "id": "orsonchartsfx",
+    "createdOn": "2022-01-22",
+    "modifiedOn": "2022-01-22",
+    "groupId": "org.jfree",
+    "artifactId": "org.jfree.chart3d.fx",
+    "logoAvailable": "false",
+    "ensemble": "false"
+  },
+  {
     "name": "PDFViewFX",
     "summary": "A viewer for PDF files.",
     "tags": "pdf viewer, custom control",
