@@ -738,5 +738,21 @@
     "videoIds": [
       "KGVchexhvvQ"
     ]
+  },
+  {
+    "id": "fxtrayicon",
+    "name": "FXTrayIcon",
+    "summary": "A library for JavaFX that lets you add an icon and menu to the SystemTray.",
+    "tags": "tray, tray icon, system tray, javafx trayicon",
+    "description": "FXTrayIcon is a library that allows you to add a system tray icon to your JavaFX program. It works on Windows, MacOS, and some Linux distributions.",
+    "documentation": "https://github.com/dustinkredmond/FXTrayIcon",
+    "license": "MIT",
+    "homepage": "https://github.com/dustinkredmond/FXTrayIcon",
+    "javadocs": "",
+    "createdOn": "2020-08-21",
+    "groupId": "com.dustinredmond.fxtrayicon",
+    "artifactId": "FXTrayIcon",
+    "logoAvailable": "false",
+    "ensemble": "false"
   }
 ]
