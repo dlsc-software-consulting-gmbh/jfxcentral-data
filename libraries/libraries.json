@@ -463,6 +463,27 @@
     "ensemble": "false"
   },
   {
+    "name": "Orson Charts FX",
+    "summary": "A 3D chart library for JavaFX applications.",
+    "tags": "charts, 3D",
+    "description": "Orson Charts FX is a library for creating 3D charts in JavaFX applications.",
+    "documentation": "https://github.com/jfree/orsonchartsfx/blob/master/README.md",
+    "license": "GPLV3",
+    "homepage": "https://github.com/jfree/orsonchartsfx",
+    "javadocs": "https://javadoc.io/doc/org.jfree/org.jfree.chart3d.fx/latest/org.jfree.chart3d.fx/module-summary.html",
+    "repository": "https://github.com/jfree/orsonchartsfx",
+    "githubAccount": "jfree",
+    "githubProject": "orsonchartsfx",
+    "issueTracker": "https://github.com/jfree/orsonchartsfx/issues",
+    "id": "orsonchartsfx",
+    "createdOn": "2022-01-22",
+    "modifiedOn": "2022-01-22",
+    "groupId": "org.jfree",
+    "artifactId": "org.jfree.chart3d.fx",
+    "logoAvailable": "false",
+    "ensemble": "false"
+  },
+  {
     "name": "PDFViewFX",
     "summary": "A viewer for PDF files.",
     "tags": "pdf viewer, custom control",
@@ -738,5 +759,21 @@
     "videoIds": [
       "KGVchexhvvQ"
     ]
+  },
+  {
+    "id": "fxtrayicon",
+    "name": "FXTrayIcon",
+    "summary": "A library for JavaFX that lets you add an icon and menu to the SystemTray.",
+    "tags": "tray, tray icon, system tray, javafx trayicon",
+    "description": "FXTrayIcon is a library that allows you to add a system tray icon to your JavaFX program. It works on Windows, MacOS, and some Linux distributions.",
+    "documentation": "https://github.com/dustinkredmond/FXTrayIcon",
+    "license": "MIT",
+    "homepage": "https://github.com/dustinkredmond/FXTrayIcon",
+    "javadocs": "",
+    "createdOn": "2020-08-21",
+    "groupId": "com.dustinredmond.fxtrayicon",
+    "artifactId": "FXTrayIcon",
+    "logoAvailable": "false",
+    "ensemble": "false"
   }
 ]
