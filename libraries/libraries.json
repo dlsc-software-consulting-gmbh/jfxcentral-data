@@ -774,6 +774,9 @@
     "groupId": "com.dustinredmond.fxtrayicon",
     "artifactId": "FXTrayIcon",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "peopleIds": [
+      "d.redmond"
+    ]
   }
 ]
