@@ -555,5 +555,23 @@
       "jxbrowser"
     ],
     "createdOn": "2021-12-29"
+  },
+  {
+    "name": "Dustin Redmond",
+    "email": "dustin@dustinredmond.com",
+    "companyId": "",
+    "website": "https://dustinredmond.com",
+    "blogId": "",
+    "linkedIn": "dustin-redmond",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "d.redmond",
+    "gitHub": "dustinkredmond",
+    "appIds": [
+      "fxtrayicon"
+    ],
+    "createdOn": "2022-01-28",
+    "modifiedOn": "2022-01-28"
   }
 ]
