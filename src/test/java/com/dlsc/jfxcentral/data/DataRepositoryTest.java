@@ -325,6 +325,7 @@ public class DataRepositoryTest {
                 System.out.println(lib.getId() + " -> " + version.get());
 
                 // then
+                System.out.println(">>>>> " + lib.getId());
                 assertTrue(StringUtils.isNotBlank(version.get()), "unable to retrieve artifact version for library ID " + lib.getId());
             }
         });

@@ -9,9 +9,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.net.URL;
 import java.net.URLConnection;
 import java.time.ZonedDateTime;
-import java.util.HashMap;
 
-public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
+public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
 
     private static final Image MISSING_USER_IMAGE = new Image(ImageManager.class.getResource("missing-user.png").toExternalForm());
     private static final Image MISSING_IMAGE = new Image(ImageManager.class.getResource("missing-image.jpg").toExternalForm());
@@ -111,7 +110,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
             return new SimpleObjectProperty<>(placeholderImage);
         }
 
-        return computeIfAbsent(photoKey, key -> {
+//        return computeIfAbsent(photoKey, key -> {
             ObjectProperty<Image> property = new SimpleObjectProperty<>();
 
             if (DataRepository.ASYNC) {
@@ -133,7 +132,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
             }
 
             return property;
-        });
+//        });
     }
 
     private ObjectProperty<Image> remoteImageProperty(String baseURL, String photoFileName, String photoKey, Image placeholderImage) {
@@ -145,7 +144,7 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
             return new SimpleObjectProperty<>(placeholderImage);
         }
 
-        return computeIfAbsent(photoKey, key -> {
+//        return computeIfAbsent(photoKey, key -> {
             ObjectProperty<Image> property = new SimpleObjectProperty<>();
 
             if (DataRepository.ASYNC) {
@@ -185,6 +184,6 @@ public class ImageManager extends HashMap<String, ObjectProperty<Image>> {
             }
 
             return property;
-        });
+//        });
     }
 }
