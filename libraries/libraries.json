@@ -457,8 +457,8 @@
     "id": "libheiffx",
     "createdOn": "2022-01-22",
     "modifiedOn": "2022-01-22",
-    "groupId": "org.librawheif",
-    "artifactId": "LibHeifFX",
+    "groupId": "",
+    "artifactId": "",
     "logoAvailable": "false",
     "ensemble": "false"
   },
