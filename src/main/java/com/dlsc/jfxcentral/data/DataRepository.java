@@ -28,9 +28,12 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class DataRepository extends Application {
+
+    private static final Logger LOG = Logger.getLogger(DataRepository.class.getName());
 
     public enum Source {
 
@@ -154,7 +157,7 @@ public class DataRepository extends Application {
     }
 
     private void doLoadData(String reason) {
-        System.out.println("loading data, reason = " + reason);
+        LOG.fine("loading data, reason = " + reason);
 
         try {
             String homeText = loadString(getBaseUrl() + "intro.md");
@@ -232,7 +235,7 @@ public class DataRepository extends Application {
                 setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links);
             }
 
-            System.out.println("data loading finished");
+            LOG.fine("data loading finished");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -547,7 +550,7 @@ public class DataRepository extends Application {
 
     private void loadNewsText(News news, StringProperty textProperty) {
         String url = getNewsBaseUrl(news) + "/text.md";
-        System.out.println("loading news from: " + url);
+        LOG.fine("loading news from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
@@ -572,7 +575,7 @@ public class DataRepository extends Application {
 
     private void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
         String url = getBaseUrl() + "links/" + links.getId() + "/readme.md";
-        System.out.println("loading links of the week from: " + url);
+        LOG.fine("loading links of the week from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
@@ -597,7 +600,7 @@ public class DataRepository extends Application {
 
     private void loadTutorialText(Tutorial tutorial, StringProperty textProperty) {
         String url = getBaseUrl() + "tutorials/" + tutorial.getId() + "/readme.md";
-        System.out.println("loading tutorial from: " + url);
+        LOG.fine("loading tutorial from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
@@ -622,7 +625,7 @@ public class DataRepository extends Application {
 
     private void loadDownloadText(Download download, StringProperty textProperty) {
         String url = getBaseUrl() + "downloads/" + download.getId() + "/readme.md";
-        System.out.println("loading download text from: " + url);
+        LOG.fine("loading download text from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
@@ -647,7 +650,7 @@ public class DataRepository extends Application {
 
     private void loadBookText(Book book, StringProperty textProperty) {
         String url = getBaseUrl() + "books/" + book.getId() + "/readme.md";
-        System.out.println("loading book text from: " + url);
+        LOG.fine("loading book text from: " + url);
         String text = loadString(url);
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
@@ -1039,7 +1042,7 @@ public class DataRepository extends Application {
     }
 
     private String loadString(String address) {
-        System.out.println("loading string from: " + address);
+        LOG.fine("loading string from: " + address);
 
         StringBuilder sb = new StringBuilder();
         try {
@@ -1054,9 +1057,9 @@ public class DataRepository extends Application {
             in.close();
 
         } catch (MalformedURLException e) {
-            System.out.println("Malformed URL: " + e.getMessage());
+            LOG.fine("Malformed URL: " + e.getMessage());
         } catch (IOException e) {
-            System.out.println("I/O Error: " + e.getMessage());
+            LOG.fine("I/O Error: " + e.getMessage());
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
@@ -1144,7 +1147,7 @@ public class DataRepository extends Application {
     }
 
     public List<Post> loadPosts(Blog blog) {
-        System.out.println("loading posts for blog " + blog.getName());
+        LOG.fine("loading posts for blog " + blog.getName());
 
         try {
             String url = blog.getFeed();
@@ -1182,7 +1185,7 @@ public class DataRepository extends Application {
     }
 
     private List<PullRequest> loadPullRequestsImpl() {
-        System.out.println("loading pull requests");
+        LOG.fine("loading pull requests");
 
         HttpURLConnection con = null;
 

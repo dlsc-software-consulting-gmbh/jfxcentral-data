@@ -9,8 +9,11 @@ import org.apache.commons.lang3.StringUtils;
 import java.net.URL;
 import java.net.URLConnection;
 import java.time.ZonedDateTime;
+import java.util.logging.Logger;
 
 public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
+
+    private static final Logger LOG = Logger.getLogger(ImageManager.class.getName());
 
     private static final Image MISSING_USER_IMAGE = new Image(ImageManager.class.getResource("missing-user.png").toExternalForm());
     private static final Image MISSING_IMAGE = new Image(ImageManager.class.getResource("missing-image.jpg").toExternalForm());
@@ -120,7 +123,7 @@ public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
 
             try {
                 URL url = new URL(baseURL + photoFileName);
-                System.out.println("loading image from local repository: " + url.toExternalForm());
+                LOG.fine("loading image from local repository: " + url.toExternalForm());
                 Image image = new Image(url.toExternalForm());
                 if(image.getException() != null) {
                     throw image.getException();
@@ -156,7 +159,7 @@ public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
                 URL url = new URL(baseURL + photoFileName + "?" + ZonedDateTime.now().toInstant() + append);
                 URLConnection connection = url.openConnection();
 
-                System.out.println("loading remote image from url: " + url.toExternalForm());
+                LOG.fine("loading remote image from url: " + url.toExternalForm());
 
                 if (!DataRepository.ASYNC) {
                     // start using the connection to make sure the file actually exists
@@ -168,7 +171,7 @@ public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
                 image.progressProperty().addListener(it -> {
                     // exception = 404 -> no image found for given URL
                     if (image.getProgress() == 1 && image.getException() == null) {
-                        System.out.println("Image found for " + url);
+                        LOG.fine("Image found for " + url);
                         property.set(image);
                     }
                 });
