@@ -1032,5 +1032,19 @@
     "toolIds": [
       "qftest"
     ]
+  },
+  {
+    "name": "Start a new JavaFX project in IntelliJ IDEA",
+    "tags": "project setup, intellij",
+    "type": "Tool",
+    "domain": "IDE",
+    "description": "Creating a new JavaFX project has never been easier with the project wizard in Jetbrains IntelliJ IDEA. Creating a new project is just a matter of clicking a few buttons and you have your new user interface application up and running in a matter of minutes...!",
+    "id": "v9rAR3waDJs",
+    "createdOn": "2022-02-04",
+    "modifiedOn": "2022-02-04",
+    "publishedOn": "2022-02-04",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
