@@ -9,9 +9,11 @@ import org.apache.commons.lang3.StringUtils;
 import java.net.URL;
 import java.net.URLConnection;
 import java.time.ZonedDateTime;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.logging.Logger;
 
-public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
+public class ImageManager {
 
     private static final Logger LOG = Logger.getLogger(ImageManager.class.getName());
 
@@ -113,30 +115,30 @@ public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
             return new SimpleObjectProperty<>(placeholderImage);
         }
 
-//        return computeIfAbsent(photoKey, key -> {
-            ObjectProperty<Image> property = new SimpleObjectProperty<>();
+        ObjectProperty<Image> property = new SimpleObjectProperty<>();
 
-            if (DataRepository.ASYNC) {
-                // when unit tests are running we do not want to ever see a placeholder image, because we want to see if the image is missing
-                property.set(placeholderImage);
+        if (DataRepository.ASYNC) {
+            // when unit tests are running we do not want to ever see a placeholder image, because we want to see if the image is missing
+            property.set(placeholderImage);
+        }
+
+        try {
+            URL url = new URL(baseURL + photoFileName);
+            LOG.fine("loading image from local repository: " + url.toExternalForm());
+            Image image = new Image(url.toExternalForm());
+            if (image.getException() != null) {
+                throw image.getException();
             }
+            property.set(image);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
 
-            try {
-                URL url = new URL(baseURL + photoFileName);
-                LOG.fine("loading image from local repository: " + url.toExternalForm());
-                Image image = new Image(url.toExternalForm());
-                if(image.getException() != null) {
-                    throw image.getException();
-                }
-                property.set(image);
-            } catch (Exception e) {
-                e.printStackTrace();
-                throw new RuntimeException(e);
-            }
-
-            return property;
-//        });
+        return property;
     }
+
+    private Map<String, ObjectProperty<Image>> remoteImageCache = new HashMap<>();
 
     private ObjectProperty<Image> remoteImageProperty(String baseURL, String photoFileName, String photoKey, Image placeholderImage) {
         return remoteImageProperty(baseURL, photoFileName, "", photoKey, placeholderImage);
@@ -147,7 +149,7 @@ public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
             return new SimpleObjectProperty<>(placeholderImage);
         }
 
-//        return computeIfAbsent(photoKey, key -> {
+        return remoteImageCache.computeIfAbsent(photoKey, key -> {
             ObjectProperty<Image> property = new SimpleObjectProperty<>();
 
             if (DataRepository.ASYNC) {
@@ -187,6 +189,6 @@ public class ImageManager { //extends HashMap<String, ObjectProperty<Image>> {
             }
 
             return property;
-//        });
+        });
     }
 }

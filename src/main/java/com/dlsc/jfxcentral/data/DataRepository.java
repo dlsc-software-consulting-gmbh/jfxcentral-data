@@ -63,29 +63,29 @@ public class DataRepository extends Application {
 
     private final Gson gson = Converters.registerLocalDate(new GsonBuilder()).setPrettyPrinting().create();
 
-//    private Map<Library, ObjectProperty<LibraryInfo>> libraryInfoMap = new HashMap<>();
-//
-//    private Map<News, StringProperty> newsTextMap = new HashMap<>();
-//
-//    private Map<Tutorial, StringProperty> tutorialTextMap = new HashMap<>();
-//
-//    private Map<Download, StringProperty> downloadTextMap = new HashMap<>();
-//
-//    private Map<Book, StringProperty> bookTextMap = new HashMap<>();
-//
-//    private Map<Person, StringProperty> personDescriptionMap = new HashMap<>();
-//
-//    private Map<Tool, StringProperty> toolDescriptionMap = new HashMap<>();
-//
-//    private Map<Tip, StringProperty> tipDescriptionMap = new HashMap<>();
-//
-//    private Map<RealWorldApp, StringProperty> realWorldAppDescriptionMap = new HashMap<>();
-//
-//    private Map<Company, StringProperty> companyDescriptionMap = new HashMap<>();
-//
-//    private Map<Library, StringProperty> libraryReadMeMap = new HashMap<>();
-//
-//    private Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
+    private Map<Library, ObjectProperty<LibraryInfo>> libraryInfoMap = new HashMap<>();
+
+    private Map<News, StringProperty> newsTextMap = new HashMap<>();
+
+    private Map<Tutorial, StringProperty> tutorialTextMap = new HashMap<>();
+
+    private Map<Download, StringProperty> downloadTextMap = new HashMap<>();
+
+    private Map<Book, StringProperty> bookTextMap = new HashMap<>();
+
+    private Map<Person, StringProperty> personDescriptionMap = new HashMap<>();
+
+    private Map<Tool, StringProperty> toolDescriptionMap = new HashMap<>();
+
+    private Map<Tip, StringProperty> tipDescriptionMap = new HashMap<>();
+
+    private Map<RealWorldApp, StringProperty> realWorldAppDescriptionMap = new HashMap<>();
+
+    private Map<Company, StringProperty> companyDescriptionMap = new HashMap<>();
+
+    private Map<Library, StringProperty> libraryReadMeMap = new HashMap<>();
+
+    private Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
 
     private boolean loaded;
 
@@ -128,18 +128,18 @@ public class DataRepository extends Application {
         setHomeText("");
         setOpenJFXText("");
 
-//        libraryInfoMap.clear();
-//        libraryReadMeMap.clear();
-//        newsTextMap.clear();
-//        personDescriptionMap.clear();
-//        companyDescriptionMap.clear();
-//        toolDescriptionMap.clear();
-//        tipDescriptionMap.clear();
-//        realWorldAppDescriptionMap.clear();
-//        downloadTextMap.clear();
-//        bookTextMap.clear();
-//        tutorialTextMap.clear();
-//        linksOfTheWeekReadMeMap.clear();
+        libraryInfoMap.clear();
+        libraryReadMeMap.clear();
+        newsTextMap.clear();
+        personDescriptionMap.clear();
+        companyDescriptionMap.clear();
+        toolDescriptionMap.clear();
+        tipDescriptionMap.clear();
+        realWorldAppDescriptionMap.clear();
+        downloadTextMap.clear();
+        bookTextMap.clear();
+        tutorialTextMap.clear();
+        linksOfTheWeekReadMeMap.clear();
 
         getPeople().clear();
         getLibraries().clear();
@@ -506,7 +506,7 @@ public class DataRepository extends Application {
     }
 
     public ObjectProperty<LibraryInfo> libraryInfoProperty(Library library) {
-//        return libraryInfoMap.computeIfAbsent(library, key -> {
+        return libraryInfoMap.computeIfAbsent(library, key -> {
             ObjectProperty<LibraryInfo> infoProperty = new SimpleObjectProperty<>();
 
             if (ASYNC) {
@@ -516,7 +516,7 @@ public class DataRepository extends Application {
             }
 
             return infoProperty;
-  //      });
+        });
     }
 
     private void loadLibraryInfoText(Library library, ObjectProperty<LibraryInfo> infoProperty) {
@@ -535,7 +535,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty newsTextProperty(News news) {
-//        return newsTextMap.computeIfAbsent(news, key -> {
+        return newsTextMap.computeIfAbsent(news, key -> {
             StringProperty textProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -545,7 +545,7 @@ public class DataRepository extends Application {
             }
 
             return textProperty;
-  //      });
+        });
     }
 
     private void loadNewsText(News news, StringProperty textProperty) {
@@ -560,7 +560,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty linksOfTheWeekTextProperty(LinksOfTheWeek links) {
-//        return linksOfTheWeekReadMeMap.computeIfAbsent(links, key -> {
+        return linksOfTheWeekReadMeMap.computeIfAbsent(links, key -> {
             StringProperty textProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -570,7 +570,7 @@ public class DataRepository extends Application {
             }
 
             return textProperty;
-  //      });
+        });
     }
 
     private void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
@@ -585,7 +585,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty tutorialTextProperty(Tutorial tutorial) {
-//        return tutorialTextMap.computeIfAbsent(tutorial, key -> {
+        return tutorialTextMap.computeIfAbsent(tutorial, key -> {
             StringProperty textProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -595,7 +595,7 @@ public class DataRepository extends Application {
             }
 
             return textProperty;
-  //      });
+        });
     }
 
     private void loadTutorialText(Tutorial tutorial, StringProperty textProperty) {
@@ -610,7 +610,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty downloadTextProperty(Download download) {
-//        return downloadTextMap.computeIfAbsent(download, key -> {
+        return downloadTextMap.computeIfAbsent(download, key -> {
             StringProperty textProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -620,7 +620,7 @@ public class DataRepository extends Application {
             }
 
             return textProperty;
-  //      });
+        });
     }
 
     private void loadDownloadText(Download download, StringProperty textProperty) {
@@ -635,7 +635,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty bookTextProperty(Book book) {
-//        return bookTextMap.computeIfAbsent(book, key -> {
+        return bookTextMap.computeIfAbsent(book, key -> {
             StringProperty textProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -645,7 +645,7 @@ public class DataRepository extends Application {
             }
 
             return textProperty;
-  //      });
+        });
     }
 
     private void loadBookText(Book book, StringProperty textProperty) {
@@ -660,7 +660,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty personDescriptionProperty(Person person) {
-//        return personDescriptionMap.computeIfAbsent(person, key -> {
+        return personDescriptionMap.computeIfAbsent(person, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -670,7 +670,7 @@ public class DataRepository extends Application {
             }
 
             return readmeProperty;
-  //      });
+        });
     }
 
     private void loadPersonDescription(Person person, StringProperty readmeProperty) {
@@ -683,7 +683,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty toolDescriptionProperty(Tool tool) {
-//        return toolDescriptionMap.computeIfAbsent(tool, key -> {
+        return toolDescriptionMap.computeIfAbsent(tool, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -693,7 +693,7 @@ public class DataRepository extends Application {
             }
 
             return readmeProperty;
- //       });
+        });
     }
 
     private void loadToolDescription(Tool tool, StringProperty readmeProperty) {
@@ -706,7 +706,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty tipDescriptionProperty(Tip tip) {
-//        return tipDescriptionMap.computeIfAbsent(tip, key -> {
+        return tipDescriptionMap.computeIfAbsent(tip, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -716,7 +716,7 @@ public class DataRepository extends Application {
             }
 
             return readmeProperty;
-  //      });
+        });
     }
 
     private void loadTipDescription(Tip tip, StringProperty readmeProperty) {
@@ -729,7 +729,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty realWorldAppDescriptionProperty(RealWorldApp app) {
-//        return realWorldAppDescriptionMap.computeIfAbsent(app, key -> {
+        return realWorldAppDescriptionMap.computeIfAbsent(app, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -739,7 +739,7 @@ public class DataRepository extends Application {
             }
 
             return readmeProperty;
-  //      });
+        });
     }
 
     private void loadRealWorldDescription(RealWorldApp app, StringProperty readmeProperty) {
@@ -752,7 +752,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty companyDescriptionProperty(Company company) {
-//        return companyDescriptionMap.computeIfAbsent(company, key -> {
+        return companyDescriptionMap.computeIfAbsent(company, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -762,7 +762,7 @@ public class DataRepository extends Application {
             }
 
             return readmeProperty;
-  //      });
+        });
     }
 
     private void loadCompanyDescription(Company company, StringProperty readmeProperty) {
@@ -787,7 +787,7 @@ public class DataRepository extends Application {
     }
 
     public StringProperty libraryReadMeProperty(Library library) {
-//        return libraryReadMeMap.computeIfAbsent(library, key -> {
+        return libraryReadMeMap.computeIfAbsent(library, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
 
             if (ASYNC) {
@@ -797,7 +797,7 @@ public class DataRepository extends Application {
             }
 
             return readmeProperty;
-  //      });
+        });
     }
 
     private void loadLibraryDescription(Library library, StringProperty readmeProperty) {
@@ -1170,17 +1170,19 @@ public class DataRepository extends Application {
     }
 
     private long cachedPullrequestsTime;
+
     private long timeToReloadSeconds = 600;
-    private List<PullRequest> cachedPullrequests;
+
+    private List<PullRequest> cachedPullRequests;
 
     public List<PullRequest> loadPullRequests() {
         long time = System.currentTimeMillis() / 1000;
         if (cachedPullrequestsTime + timeToReloadSeconds > time) {
-            return cachedPullrequests;
+            return cachedPullRequests;
         }
         cachedPullrequestsTime = time;
-        cachedPullrequests = loadPullRequestsImpl();
-        return cachedPullrequests;
+        cachedPullRequests = loadPullRequestsImpl();
+        return cachedPullRequests;
 
     }
 
