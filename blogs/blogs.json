@@ -59,19 +59,6 @@
     ]
   },
   {
-    "id": "guigarage",
-    "name": "GUI Garage",
-    "summary": "Hendrik Ebbers covers various aspects of Java technology on his site and this includes many in-depth posts on JavaFX topics.",
-    "url": "http://www.guigarage.com/",
-    "createdOn": "2021-05-24",
-    "feed": "https://guigarage.com/feed",
-    "tags:": "custom controls, speaker, jfx-days, webstart, jug leader",
-    "hide": "true",
-    "personIds": [
-      "h.ebbers"
-    ]
-  },
-  {
     "id": "harmoniccode",
     "name": "Harmonic Code",
     "summary": "Gerrit Grunwald's blog contains tons of cool JavaFX widgets. Especially noteworthy is his 'Friday Fun Component' series",
