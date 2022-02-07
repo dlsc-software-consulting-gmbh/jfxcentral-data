@@ -1122,7 +1122,9 @@ public class DataRepository extends Application {
                 QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
 
                 if (ASYNC) {
-                    Platform.runLater(() -> result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion()));
+                    if (!queryResult.getResponse().getDocs().isEmpty()) {
+                        Platform.runLater(() -> result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion()));
+                    }
                 } else {
                     result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
                 }
