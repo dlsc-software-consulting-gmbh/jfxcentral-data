@@ -278,15 +278,6 @@
     ]
   },
   {
-    "id": "sophia",
-    "name": "Sophia DDM",
-    "company": "Sophia Genetics",
-    "url": "https://www.sophiagenetics.com",
-    "domain": "Medical",
-    "tags": "medical, research, genetics, rna, health",
-    "summary": "Insights from digital health data."
-  },
-  {
     "id": "threesixty",
     "name": "360T Bridge",
     "company": "360T",

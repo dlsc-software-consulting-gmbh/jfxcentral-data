@@ -164,5 +164,17 @@
     "amazonASIN": "1484249259",
     "isbn": "1484249259",
     "publishedDate": "2019-11-13"
+  },
+  {
+    "id": "learnjfx17",
+    "summary": "This book is a reference for building Java applications for desktop, mobile and embedded.",
+    "publisher": "Apress",
+    "authors": "Kishori Sharan, Peter Späth",
+    "name": "Learn JavaFX 17",
+    "subtitle": "Building User Experience and Interfaces with Java",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-7848-2",
+    "amazonASIN": "148427847X",
+    "isbn": "148427847X",
+    "publishedDate": "2022-01-26"
   }
 ]

@@ -109,7 +109,7 @@ PreferencesFx preferencesFx =
 
 This code snippet results in the following preferences window, containing three categories:
 
-![result](docs/images/example_preferences.png)
+![result](images/example_preferences.png)
 
 To create a `Setting`, you only need to define a title and a `Property`. `PreferencesFX` does the rest.  
 You can then integrate this `Property` in your application. Changes of values in the preferences dialog will be persisted instantly, however it's up to you to decide whether you want to persist them instantly in your application as well.

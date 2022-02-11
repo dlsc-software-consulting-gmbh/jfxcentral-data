@@ -1,0 +1,5 @@
+- **Frank Delporte** has published a [new YouTube video](https://www.youtube.com/watch?v=v9rAR3waDJs&t=12s) showing how to setup a JavaFX project in IntelliJ.
+- **Almas Baim** has tweeted a link to a game called ["Territory - animals genetic strategy"](https://store.steampowered.com/app/1621980/Territory__animals_genetic_strategy/) written in JavaFX and FXGL.
+- **Jeanette Winzenburg** has updated her development notes covering her progress on [fixing various table view issues](https://github.com/kleopatra/swingempire-fx/wiki/CellEditEvents).
+- **Dirk Lemmermann** has announced a new open source project called ["ShowcaseFX"](https://github.com/dlsc-software-consulting-gmbh/ShowcaseFX). It can be used for testing the design of CSS stylesheets.
+- **Gluon** has published a new article called ["Create native JavaFX applications using GraalVM 22 builds from Gluon"](https://gluonhq.com/create-native-javafx-applications-using-graalvm-22-builds-from-gluon/). The latest release of their solution for mobile development includes upport for the iOS Simulator.

@@ -1,30 +1,25 @@
-# LibHeifFX
 Integration of Libheif (https://github.com/strukturag/libheif) library for JavaFX for all major operating systems (Linux, Windows, OSX). 
-All flavoris of heif formats can be loaded with the Image class and manipulated by Pixelwriter/Pixelreader. Limitation is that the image class only supports 8-bit color deph but converts all 16bit image format to 8bit automatically.
+All flavors of heif formats can be loaded with the Image class and manipulated by Pixelwriter/Pixelreader. Limitation is that the image class only supports 8-bit color depth but converts all 16 bit image formats to 8 bit automatically.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=CXWX6CAQ5MMV4)
+**JDK 17 is required** because of the foreign linker API usage and the big changes for threading happening in Panama in JDK17
 
-**JDK 17 is required** because of the foreign linker API usage and the big changes for threading happenend in Panama in JDK17
-
-## Status
-Now the lib is in beta status. That means it is tested only on OSX and under different threading scenarious.
+### Status
+The lib is in beta status, which means it is tested only on MacOS X and under various threading scenarios.
 
 Supported OS:
 - Linux (min. glibc 2.27 which means Ubuntu 18 or later)
 - OSX up to 10.15 (actually no M1 build)
 - Windows 10/11
 
-I have integrated Libheif 1.12.0 (https://github.com/strukturag/libheif/releases/tag/v1.12.0)
-
-## Open topics
+### Open topics
 - The lib is not resizing the image data before sending back to the image class
 - No meta data is read out actually
 - Not enabled is AVIF support
 
-## Usage
+### Usage
 Point to the maven coordinates:
 
-```
+```xml
 <dependency>  
     <groupId>org.libheiffx</groupId>    
     <artifactId>LibHeifFX</artifactId>  
@@ -32,11 +27,12 @@ Point to the maven coordinates:
 </dependency>  
 ```  
 
-- In the Class where the start method is add as one of the first lines the following code to install the file handler:
+- In the class where the start method is added as one of the first lines the following code is used to install the file handler:
 
      `HEIFImageLoaderFactory.install();`  
 
 - and add the following lines to your java config:
+
 ```
 --add-modules jdk.incubator.foreign --enable-native-access=org.libheiffx  
 --add-exports=javafx.graphics/com.sun.javafx.iio=org.libheiffx 
@@ -47,7 +43,7 @@ Point to the maven coordinates:
 
 You can have a look into the class TestAPP.java to see how to use it, but generally just create an Image with the URL/stream and add it to the image view:
 
-```
+```java
   Image img=new Image(initialFile.toURI().toURL().toString(), false);  
   ImageView view = new ImageView();  
   view.setFitHeight(200);  
@@ -59,15 +55,7 @@ You can have a look into the class TestAPP.java to see how to use it, but genera
 
 You can also use the lib without adding the file handler. What I mean is that you can also forget the "...install" line and just load a file URL with the lib (see the `TestApp.java` to see how it works).
 
-## Steps to create your own build:
-- OpenJDK/Adoptium 17 or newer
-- JavaFX 11 or newer (17 is recommended)
-- SET JAVA_HOME variable
-- Execute `mvn clean compile package -f LibHeifFX/pom.xml`
-- To run the example execute `mvn javafx:run@cli-default`
-- IDE Integration: execute as a maven goal `javafx:run@ide-debug` or `javafx:run@ide-profile`
-
-# Notes:
+### Notes:
 - The lib is using unoffical JavaFX interfaces
 - The orginal C interface was changed to get it working with project panama
 - The lib is using heavily the foreign memory API from Java 17 including functions from the project Panama and therefore the tool `JExtract` (Available only in JDK 17)
