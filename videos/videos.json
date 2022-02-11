@@ -1032,5 +1032,17 @@
     "toolIds": [
       "qftest"
     ]
+  },
+  {
+    "name": "Front and Center! JavaFX with Spring Boot",
+    "tags": "spring boot springboot REST CRUD ignite",
+    "type": "Tutorial",
+    "domain": "Demo",
+    "description": "How to use JavaFX with Spring Boot",
+    "id": "ypb07LA7hU4",
+    "event": "JChampions Conf",
+    "createdOn": "2022-02-11",
+    "modifiedOn": "2022-02-11",
+    "publishedOn": "2022-01-25"
   }
 ]
