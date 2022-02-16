@@ -6,6 +6,8 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.scene.image.Image;
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.time.ZonedDateTime;
@@ -31,67 +33,67 @@ public class ImageManager {
     }
 
     public ObjectProperty<Image> newsBannerImageProperty(News news) {
-        return localImageProperty(DataRepository.getInstance().getNewsBaseUrl(news) + "/", "banner.jpg", "news-banner-" + news.getId(), MISSING_IMAGE);
+        return localImageProperty(DataRepository.getInstance().getNewsDirectory(news), "banner.jpg", "news-banner-" + news.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> downloadBannerImageProperty(Download download) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "downloads/" + download.getId() + "/", "banner.jpg", "download-banner-" + download.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "downloads/" + download.getId() + "/"), "banner.jpg", "download-banner-" + download.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> blogPageImageProperty(Blog blog) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "blogs/" + blog.getId() + "/", "page-small.png", "blog-page-" + blog.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "blogs/" + blog.getId() + "/"), "page-small.png", "blog-page-" + blog.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> blogIconImageProperty(Blog blog) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "blogs/" + blog.getId() + "/", "icon.png", "blog-icon-" + blog.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "blogs/" + blog.getId() + "/"), "icon.png", "blog-icon-" + blog.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> realWorldAppImageProperty(RealWorldApp app) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "realworld/" + app.getId() + "/", "small.jpg", "real-" + app.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "realworld/" + app.getId() + "/"), "small.jpg", "real-" + app.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> realWorldAppLargeImageProperty(RealWorldApp app) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "realworld/" + app.getId() + "/", "large.jpg", "real-large-" + app.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "realworld/" + app.getId() + "/"), "large.jpg", "real-large-" + app.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> blogPageLargeImageProperty(Blog blog) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "blogs/" + blog.getId() + "/", "page.png", "blog-large-" + blog.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "blogs/" + blog.getId() + "/"), "page.png", "blog-large-" + blog.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> personImageProperty(Person person) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "people/" + person.getId() + "/", "photo.jpeg", "person-" + person.getId());
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "people/" + person.getId() + "/"), "photo.jpeg", "person-" + person.getId());
     }
 
     public ObjectProperty<Image> toolImageProperty(Tool tool) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "tools/" + tool.getId() + "/", "logo.png", "tool-" + tool.getId());
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "tools/" + tool.getId() + "/"), "logo.png", "tool-" + tool.getId());
     }
 
     public ObjectProperty<Image> companyImageProperty(Company company) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "companies/" + company.getId() + "/", "logo.png", "company-" + company.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "companies/" + company.getId() + "/"), "logo.png", "company-" + company.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> tutorialImageProperty(Tutorial tutorial) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "tutorials/" + tutorial.getId() + "/", "small.png", "tutorial-" + tutorial.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "tutorials/" + tutorial.getId() + "/"), "small.png", "tutorial-" + tutorial.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> tutorialImageLargeProperty(Tutorial tutorial) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "tutorials/" + tutorial.getId() + "/", "large.png", "tutorial-large-" + tutorial.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "tutorials/" + tutorial.getId() + "/"), "large.png", "tutorial-large-" + tutorial.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> bookCoverImageProperty(Book book) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "books/" + book.getId() + "/", "cover.jpg", "book-" + book.getId(), MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "books/" + book.getId() + "/"), "cover.jpg", "book-" + book.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> libraryImageProperty(Library library) {
         if (library.isLogoAvailable()) {
-            return localImageProperty(DataRepository.getInstance().getBaseUrl() + "libraries/" + library.getId() + "/", "logo.png", "library-" + library.getId(), MISSING_IMAGE);
+            return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "libraries/" + library.getId() + "/"), "logo.png", "library-" + library.getId(), MISSING_IMAGE);
         }
 
         return new SimpleObjectProperty<>();
     }
 
     public ObjectProperty<Image> libraryImageProperty(Library library, String imagePath) {
-        return localImageProperty(DataRepository.getInstance().getBaseUrl() + "libraries/" + library.getId() + "/", imagePath, imagePath, MISSING_IMAGE);
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "libraries/" + library.getId() + "/"), imagePath, imagePath, MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> youTubeImageProperty(Video video) {
@@ -102,15 +104,15 @@ public class ImageManager {
         return remoteImageProperty("https://github.com/", loginName + ".png", "&size=100", "github-" + loginName, MISSING_USER_IMAGE);
     }
 
-    ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String photoKey) {
+    ObjectProperty<Image> localImageProperty(File baseURL, String photoFileName, String photoKey) {
         return localImageProperty(baseURL, photoFileName, photoKey, null);
     }
 
-    ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String photoKey, Image placeholderImage) {
+    ObjectProperty<Image> localImageProperty(File baseURL, String photoFileName, String photoKey, Image placeholderImage) {
         return localImageProperty(baseURL, photoFileName, "", photoKey, placeholderImage);
     }
 
-    ObjectProperty<Image> localImageProperty(String baseURL, String photoFileName, String append, String photoKey, Image placeholderImage) {
+    ObjectProperty<Image> localImageProperty(File directory, String photoFileName, String append, String photoKey, Image placeholderImage) {
         if (StringUtils.isBlank(photoFileName) || StringUtils.isBlank(photoKey)) {
             return new SimpleObjectProperty<>(placeholderImage);
         }
@@ -122,10 +124,10 @@ public class ImageManager {
             property.set(placeholderImage);
         }
 
-        try {
-            URL url = new URL(baseURL + photoFileName);
-            LOG.fine("loading image from local repository: " + url.toExternalForm());
-            Image image = new Image(url.toExternalForm());
+        File file = new File(directory, photoFileName);
+        try(FileInputStream in = new FileInputStream(file)) {
+            LOG.fine("loading image from local repository: " + file.toURI().toURL().toExternalForm());
+            Image image = new Image(in);
             if (image.getException() != null) {
                 throw image.getException();
             }
