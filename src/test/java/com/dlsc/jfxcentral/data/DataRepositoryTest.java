@@ -158,7 +158,7 @@ public class DataRepositoryTest {
                 // then
                 assertTrue(StringUtils.isNotBlank(path));
 
-                File file = new File(DataRepository.REPO_DIRECTORY, "libraries/" + lib.getId() + "/" + path);
+                File file = new File(DataRepository.getInstance().getRepositoryDirectory(), "libraries/" + lib.getId() + "/" + path);
                 assertTrue(file.exists());
 
             });
