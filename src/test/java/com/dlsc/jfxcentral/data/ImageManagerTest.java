@@ -12,7 +12,7 @@ import org.testfx.framework.junit5.ApplicationExtension;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 /**
- * Tests the existence of the MANDATOR images, e.g. news banner, library icon, etc...
+ * Tests the existence of the MANDATORY images, e.g. news banner, library icon, etc...
  * Some model objects have OPTIONAL images, e.g. a "person".
  */
 @ExtendWith(ApplicationExtension.class)

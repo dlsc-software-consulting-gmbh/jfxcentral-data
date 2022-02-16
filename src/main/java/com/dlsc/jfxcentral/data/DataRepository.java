@@ -765,7 +765,11 @@ public class DataRepository extends Application {
     }
 
     public File getRepositoryDirectory() {
-        return REPO_DIRECTORY;
+        if (ASYNC) {
+            return REPO_DIRECTORY;
+        }
+
+        return new File(".");
     }
 
     public File getNewsDirectory(News news) {
