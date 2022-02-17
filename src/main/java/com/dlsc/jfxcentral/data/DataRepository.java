@@ -772,6 +772,10 @@ public class DataRepository extends Application {
         return new File(".");
     }
 
+    public String getRepositoryDirectoryURL() {
+        return getRepositoryDirectory().toURI().toString();
+    }
+
     public File getNewsDirectory(News news) {
         return new File(getRepositoryDirectory(), "news/" + DATE_FORMATTER.format(news.getCreatedOn()) + "-" + news.getId());
     }
