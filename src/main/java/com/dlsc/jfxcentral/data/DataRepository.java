@@ -22,6 +22,8 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.io.*;
 import java.net.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -34,22 +36,6 @@ import java.util.stream.Collectors;
 public class DataRepository extends Application {
 
     private static final Logger LOG = Logger.getLogger(DataRepository.class.getName());
-
-    public enum Source {
-
-        LIVE("live"),
-        STAGING("staging");
-
-        private String branchName;
-
-        Source(String branchName) {
-            this.branchName = branchName;
-        }
-
-        public String getBranchName() {
-            return branchName;
-        }
-    }
 
     public static boolean ASYNC = true;
 
@@ -166,67 +152,67 @@ public class DataRepository extends Application {
 
             // load people
             File peopleFile = new File(getRepositoryDirectory(), "people/people.json");
-            List<Person> people = gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
+            List<Person> people = gson.fromJson(new FileReader(peopleFile, StandardCharsets.UTF_8), new TypeToken<List<Person>>() {
             }.getType());
 
             // load books
             File booksFile = new File(getRepositoryDirectory(), "books/books.json");
-            List<Book> books = gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
+            List<Book> books = gson.fromJson(new FileReader(booksFile, StandardCharsets.UTF_8), new TypeToken<List<Book>>() {
             }.getType());
 
             // load videos
             File videosFile = new File(getRepositoryDirectory(), "videos/videos.json");
-            List<Video> videos = gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
+            List<Video> videos = gson.fromJson(new FileReader(videosFile, StandardCharsets.UTF_8), new TypeToken<List<Video>>() {
             }.getType());
 
             // load libraries
             File librariesFile = new File(getRepositoryDirectory(), "libraries/libraries.json");
-            List<Library> libraries = gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
+            List<Library> libraries = gson.fromJson(new FileReader(librariesFile, StandardCharsets.UTF_8), new TypeToken<List<Library>>() {
             }.getType());
 
             // load libraries
             File newsFile = new File(getRepositoryDirectory(), "news/news.json");
-            List<News> news = gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
+            List<News> news = gson.fromJson(new FileReader(newsFile, StandardCharsets.UTF_8), new TypeToken<List<News>>() {
             }.getType());
 
             // load libraries
             File blogsFile = new File(getRepositoryDirectory(), "blogs/blogs.json");
-            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
+            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile, StandardCharsets.UTF_8), new TypeToken<List<Blog>>() {
             }.getType());
 
             // load libraries
             File companiesFile = new File(getRepositoryDirectory(), "companies/companies.json");
-            List<Company> companies = gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
+            List<Company> companies = gson.fromJson(new FileReader(companiesFile, StandardCharsets.UTF_8), new TypeToken<List<Company>>() {
             }.getType());
 
             // load tools
             File toolsFile = new File(getRepositoryDirectory(), "tools/tools.json");
-            List<Tool> tools = gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
+            List<Tool> tools = gson.fromJson(new FileReader(toolsFile, StandardCharsets.UTF_8), new TypeToken<List<Tool>>() {
             }.getType());
 
             // load real world apps
             File realWorldFile = new File(getRepositoryDirectory(), "realworld/realworld.json");
-            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
+            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile, StandardCharsets.UTF_8), new TypeToken<List<RealWorldApp>>() {
             }.getType());
 
             // load downloads
             File downloadsFile = new File(getRepositoryDirectory(), "downloads/downloads.json");
-            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
+            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile, StandardCharsets.UTF_8), new TypeToken<List<Download>>() {
             }.getType());
 
             // load downloads
             File tutorialsFile = new File(getRepositoryDirectory(), "tutorials/tutorials.json");
-            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
+            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile, StandardCharsets.UTF_8), new TypeToken<List<Tutorial>>() {
             }.getType());
 
             // load downloads
             File tipsFile = new File(getRepositoryDirectory(), "tips/tips.json");
-            List<Tip> tips = gson.fromJson(new FileReader(tipsFile), new TypeToken<List<Tip>>() {
+            List<Tip> tips = gson.fromJson(new FileReader(tipsFile, StandardCharsets.UTF_8), new TypeToken<List<Tip>>() {
             }.getType());
 
             // load downloads
             File linksOfTheWeekFile = new File(getRepositoryDirectory(), "links/links.json");
-            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile), new TypeToken<List<LinksOfTheWeek>>() {
+            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile, StandardCharsets.UTF_8), new TypeToken<List<LinksOfTheWeek>>() {
             }.getType());
 
             if (ASYNC) {
@@ -523,7 +509,7 @@ public class DataRepository extends Application {
         try {
             String libraryId = library.getId();
             File file = new File(getRepositoryDirectory(), "libraries/" + libraryId + "/info.json");
-            LibraryInfo result = gson.fromJson(new FileReader(file), LibraryInfo.class);
+            LibraryInfo result = gson.fromJson(new FileReader(file, StandardCharsets.UTF_8), LibraryInfo.class);
             if (ASYNC) {
                 Platform.runLater(() -> infoProperty.set(result));
             } else {
@@ -769,7 +755,7 @@ public class DataRepository extends Application {
             return REPO_DIRECTORY;
         }
 
-        return new File(".");
+        return new File(System.getProperty("user.dir"));
     }
 
     public String getRepositoryDirectoryURL() {
@@ -1030,7 +1016,7 @@ public class DataRepository extends Application {
 
         StringBuilder sb = new StringBuilder();
 
-        try (BufferedReader in = new BufferedReader(new FileReader(file))) {
+        try (BufferedReader in = new BufferedReader(new FileReader(file, StandardCharsets.UTF_8))) {
             String line;
             while ((line = in.readLine()) != null) {
                 sb.append(line);
@@ -1043,20 +1029,6 @@ public class DataRepository extends Application {
         }
 
         return sb.toString();
-    }
-
-    private final ObjectProperty<Source> source = new SimpleObjectProperty<>(this, "source", Source.LIVE);
-
-    public Source getSource() {
-        return source.get();
-    }
-
-    public ObjectProperty<Source> sourceProperty() {
-        return source;
-    }
-
-    public void setSource(Source source) {
-        this.source.set(source);
     }
 
     public StringProperty getArtifactVersion(Coordinates coordinates) {
