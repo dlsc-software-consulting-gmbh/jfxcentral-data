@@ -8,7 +8,12 @@ on: [push, pull_request]
 jobs:
   build:
 
-    runs-on: windows-latest
+    name: 'Build ${{ matrix.os }}'
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, macOS-latest, windows-latest ]
+    runs-on: ${{ matrix.os }}
 
     steps:
     - uses: actions/checkout@v2
