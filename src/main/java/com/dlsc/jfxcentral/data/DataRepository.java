@@ -1029,17 +1029,13 @@ public class DataRepository extends Application {
         LOG.fine("loading string from: " + file);
 
         StringBuilder sb = new StringBuilder();
-        try {
-            // read text returned by server
-            BufferedReader in = new BufferedReader(new FileReader(file));
 
+        try (BufferedReader in = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = in.readLine()) != null) {
                 sb.append(line);
                 sb.append("\n");
             }
-            in.close();
-
         } catch (MalformedURLException e) {
             LOG.fine("Malformed URL: " + e.getMessage());
         } catch (IOException e) {
@@ -1093,22 +1089,23 @@ public class DataRepository extends Application {
 
             int status = con.getResponseCode();
             if (status == 200) {
-                BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                String inputLine;
-                StringBuffer content = new StringBuffer();
-                while ((inputLine = in.readLine()) != null) {
-                    content.append(inputLine);
-                }
-                in.close();
-
-                QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
-
-                if (ASYNC) {
-                    if (!queryResult.getResponse().getDocs().isEmpty()) {
-                        Platform.runLater(() -> result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion()));
+                try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
+                    String inputLine;
+                    StringBuffer content = new StringBuffer();
+                    while ((inputLine = in.readLine()) != null) {
+                        content.append(inputLine);
                     }
-                } else {
-                    result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
+                    in.close();
+
+                    QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
+
+                    if (ASYNC) {
+                        if (!queryResult.getResponse().getDocs().isEmpty()) {
+                            Platform.runLater(() -> result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion()));
+                        }
+                    } else {
+                        result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
+                    }
                 }
             } else {
                 if (ASYNC) {
@@ -1132,22 +1129,17 @@ public class DataRepository extends Application {
 
     public List<Post> loadPosts(Blog blog) {
         LOG.fine("loading posts for blog " + blog.getName());
-
-        try {
-            String url = blog.getFeed();
-            if (StringUtils.isNotBlank(url)) {
-                SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
+        String url = blog.getFeed();
+        if (StringUtils.isNotBlank(url)) {
+            List<Post> posts = new ArrayList<>();
+            try (XmlReader reader = new XmlReader(new URL(url))) {
+                SyndFeed feed = new SyndFeedInput().build(reader);
                 List<SyndEntry> entries = feed.getEntries();
-                List<Post> posts = new ArrayList<>();
                 entries.forEach(entry -> posts.add(new Post(blog, feed, entry)));
-                return posts;
+            } catch (Exception ex) {
+                ex.printStackTrace();
             }
-        } catch (MalformedURLException ex) {
-            ex.printStackTrace();
-        } catch (FeedException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+            return posts;
         }
 
         return Collections.emptyList();
@@ -1185,16 +1177,15 @@ public class DataRepository extends Application {
 
                 int status = con.getResponseCode();
                 if (status == 200) {
-                    BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                    String inputLine;
-                    StringBuffer content = new StringBuffer();
-                    while ((inputLine = in.readLine()) != null) {
-                        content.append(inputLine);
+                    try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
+                        String inputLine;
+                        StringBuffer content = new StringBuffer();
+                        while ((inputLine = in.readLine()) != null) {
+                            content.append(inputLine);
+                        }
+                        return gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
+                        }.getType());
                     }
-                    in.close();
-
-                    return gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
-                    }.getType());
                 }
             } catch (ProtocolException e) {
                 e.printStackTrace();
