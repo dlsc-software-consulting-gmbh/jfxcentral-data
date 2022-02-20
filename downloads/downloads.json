@@ -416,41 +416,90 @@
       "g.grunwald"
     ],
     "createdOn": "2021-07-06",
-    "modifiedOn": "2021-12-31",
+    "modifiedOn": "2022-02-18",
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.21/JDKMon-17.0.21.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.22/JDKMon-17.0.22.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.21/JDKMon-17.0.21.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.22/JDKMon-17.0.22.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac M1)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.21/JDKMon-17.0.21-aarch64.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.22/JDKMon-17.0.22-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.21/jdkmon_17.0.21-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.22/jdkmon_17.0.22-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.21/jdkmon-17.0.21-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.22/jdkmon-17.0.22-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.21/jdkmon_17.0.21-1_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.22/jdkmon_17.0.22-1_arm64.deb",
+        "fileName": "",
+        "package": "DEB"
+      }
+    ]
+  },
+  {
+    "id": "glucostatusfx",
+    "name": "GlucoStatusFX",
+    "tags": "glucostatusfx, tools, diabetes, nightscout",
+    "downloadType": "APPLICATION",
+    "personIds": [
+      "g.grunwald"
+    ],
+    "createdOn": "2022-02-18",
+    "modifiedOn": "2022-02-18",
+    "files": [
+      {
+        "name": "MSI Installer (Windows)",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/GlucoStatusFX-17.0.12.msi",
+        "fileName": "",
+        "package": "MSI"
+      },
+      {
+        "name": "PKG Installer (Mac Intel)",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/GlucoStatusFX-17.0.12.pkg",
+        "fileName": "",
+        "package": "PKG"
+      },
+      {
+        "name": "PKG Installer (Mac M1)",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/GlucoStatusFX-17.0.12-aarch64.pkg",
+        "fileName": "",
+        "package": "PKG"
+      },
+      {
+        "name": "DEB Installer (Linux)",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/glucostatusfx_17.0.12-1_amd64.deb",
+        "fileName": "",
+        "package": "DEB"
+      },
+      {
+        "name": "RPM Installer (Linux)",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/glucostatusfx-17.0.12-1.x86_64.rpm",
+        "fileName": "",
+        "package": "RPM"
+      },
+      {
+        "name": "DEB Installer (Linux ARM64)",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/glucostatusfx_17.0.12-1_arm64.deb",
         "fileName": "",
         "package": "DEB"
       }
