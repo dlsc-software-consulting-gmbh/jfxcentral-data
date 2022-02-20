@@ -22,6 +22,8 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.io.*;
 import java.net.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -35,25 +37,9 @@ public class DataRepository extends Application {
 
     private static final Logger LOG = Logger.getLogger(DataRepository.class.getName());
 
-    public enum Source {
-
-        LIVE("live"),
-        STAGING("staging");
-
-        private String branchName;
-
-        Source(String branchName) {
-            this.branchName = branchName;
-        }
-
-        public String getBranchName() {
-            return branchName;
-        }
-    }
-
     public static boolean ASYNC = true;
 
-    public static String BASE_URL = "file:/Users/lemmi/jfxcentralrepo/"; //https://raw.githubusercontent.com/dlemmermann/jfxcentral-data/";
+    public static File REPO_DIRECTORY = new File(System.getProperty("user.home"), ".jfxcentralrepo");
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
@@ -160,73 +146,73 @@ public class DataRepository extends Application {
         LOG.fine("loading data, reason = " + reason);
 
         try {
-            String homeText = loadString(getBaseUrl() + "intro.md");
+            String homeText = loadString(new File(getRepositoryDirectory(), "intro.md"));
 
-            String openJFXText = loadString(getBaseUrl() + "openjfx/intro.md");
+            String openJFXText = loadString(new File(getRepositoryDirectory(), "openjfx/intro.md"));
 
             // load people
-            File peopleFile = getFile(getBaseUrl() + "people/people.json");
-            List<Person> people = gson.fromJson(new FileReader(peopleFile), new TypeToken<List<Person>>() {
+            File peopleFile = new File(getRepositoryDirectory(), "people/people.json");
+            List<Person> people = gson.fromJson(new FileReader(peopleFile, StandardCharsets.UTF_8), new TypeToken<List<Person>>() {
             }.getType());
 
             // load books
-            File booksFile = getFile(getBaseUrl() + "books/books.json");
-            List<Book> books = gson.fromJson(new FileReader(booksFile), new TypeToken<List<Book>>() {
+            File booksFile = new File(getRepositoryDirectory(), "books/books.json");
+            List<Book> books = gson.fromJson(new FileReader(booksFile, StandardCharsets.UTF_8), new TypeToken<List<Book>>() {
             }.getType());
 
             // load videos
-            File videosFile = getFile(getBaseUrl() + "videos/videos.json");
-            List<Video> videos = gson.fromJson(new FileReader(videosFile), new TypeToken<List<Video>>() {
+            File videosFile = new File(getRepositoryDirectory(), "videos/videos.json");
+            List<Video> videos = gson.fromJson(new FileReader(videosFile, StandardCharsets.UTF_8), new TypeToken<List<Video>>() {
             }.getType());
 
             // load libraries
-            File librariesFile = getFile(getBaseUrl() + "libraries/libraries.json");
-            List<Library> libraries = gson.fromJson(new FileReader(librariesFile), new TypeToken<List<Library>>() {
+            File librariesFile = new File(getRepositoryDirectory(), "libraries/libraries.json");
+            List<Library> libraries = gson.fromJson(new FileReader(librariesFile, StandardCharsets.UTF_8), new TypeToken<List<Library>>() {
             }.getType());
 
             // load libraries
-            File newsFile = getFile(getBaseUrl() + "news/news.json");
-            List<News> news = gson.fromJson(new FileReader(newsFile), new TypeToken<List<News>>() {
+            File newsFile = new File(getRepositoryDirectory(), "news/news.json");
+            List<News> news = gson.fromJson(new FileReader(newsFile, StandardCharsets.UTF_8), new TypeToken<List<News>>() {
             }.getType());
 
             // load libraries
-            File blogsFile = getFile(getBaseUrl() + "blogs/blogs.json");
-            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile), new TypeToken<List<Blog>>() {
+            File blogsFile = new File(getRepositoryDirectory(), "blogs/blogs.json");
+            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile, StandardCharsets.UTF_8), new TypeToken<List<Blog>>() {
             }.getType());
 
             // load libraries
-            File companiesFile = getFile(getBaseUrl() + "companies/companies.json");
-            List<Company> companies = gson.fromJson(new FileReader(companiesFile), new TypeToken<List<Company>>() {
+            File companiesFile = new File(getRepositoryDirectory(), "companies/companies.json");
+            List<Company> companies = gson.fromJson(new FileReader(companiesFile, StandardCharsets.UTF_8), new TypeToken<List<Company>>() {
             }.getType());
 
             // load tools
-            File toolsFile = getFile(getBaseUrl() + "tools/tools.json");
-            List<Tool> tools = gson.fromJson(new FileReader(toolsFile), new TypeToken<List<Tool>>() {
+            File toolsFile = new File(getRepositoryDirectory(), "tools/tools.json");
+            List<Tool> tools = gson.fromJson(new FileReader(toolsFile, StandardCharsets.UTF_8), new TypeToken<List<Tool>>() {
             }.getType());
 
             // load real world apps
-            File realWorldFile = getFile(getBaseUrl() + "realworld/realworld.json");
-            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile), new TypeToken<List<RealWorldApp>>() {
+            File realWorldFile = new File(getRepositoryDirectory(), "realworld/realworld.json");
+            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile, StandardCharsets.UTF_8), new TypeToken<List<RealWorldApp>>() {
             }.getType());
 
             // load downloads
-            File downloadsFile = getFile(getBaseUrl() + "downloads/downloads.json");
-            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile), new TypeToken<List<Download>>() {
+            File downloadsFile = new File(getRepositoryDirectory(), "downloads/downloads.json");
+            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile, StandardCharsets.UTF_8), new TypeToken<List<Download>>() {
             }.getType());
 
             // load downloads
-            File tutorialsFile = getFile(getBaseUrl() + "tutorials/tutorials.json");
-            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile), new TypeToken<List<Tutorial>>() {
+            File tutorialsFile = new File(getRepositoryDirectory(), "tutorials/tutorials.json");
+            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile, StandardCharsets.UTF_8), new TypeToken<List<Tutorial>>() {
             }.getType());
 
             // load downloads
-            File tipsFile = getFile(getBaseUrl() + "tips/tips.json");
-            List<Tip> tips = gson.fromJson(new FileReader(tipsFile), new TypeToken<List<Tip>>() {
+            File tipsFile = new File(getRepositoryDirectory(), "tips/tips.json");
+            List<Tip> tips = gson.fromJson(new FileReader(tipsFile, StandardCharsets.UTF_8), new TypeToken<List<Tip>>() {
             }.getType());
 
             // load downloads
-            File linksOfTheWeekFile = getFile(getBaseUrl() + "links/links.json");
-            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile), new TypeToken<List<LinksOfTheWeek>>() {
+            File linksOfTheWeekFile = new File(getRepositoryDirectory(), "links/links.json");
+            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile, StandardCharsets.UTF_8), new TypeToken<List<LinksOfTheWeek>>() {
             }.getType());
 
             if (ASYNC) {
@@ -522,8 +508,8 @@ public class DataRepository extends Application {
     private void loadLibraryInfoText(Library library, ObjectProperty<LibraryInfo> infoProperty) {
         try {
             String libraryId = library.getId();
-            File file = getFile(getBaseUrl() + "libraries/" + libraryId + "/info.json");
-            LibraryInfo result = gson.fromJson(new FileReader(file), LibraryInfo.class);
+            File file = new File(getRepositoryDirectory(), "libraries/" + libraryId + "/info.json");
+            LibraryInfo result = gson.fromJson(new FileReader(file, StandardCharsets.UTF_8), LibraryInfo.class);
             if (ASYNC) {
                 Platform.runLater(() -> infoProperty.set(result));
             } else {
@@ -549,9 +535,7 @@ public class DataRepository extends Application {
     }
 
     private void loadNewsText(News news, StringProperty textProperty) {
-        String url = getNewsBaseUrl(news) + "/text.md";
-        LOG.fine("loading news from: " + url);
-        String text = loadString(url);
+        String text = loadString(new File(getNewsDirectory(news), "/text.md"));
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
         } else {
@@ -574,9 +558,7 @@ public class DataRepository extends Application {
     }
 
     private void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
-        String url = getBaseUrl() + "links/" + links.getId() + "/readme.md";
-        LOG.fine("loading links of the week from: " + url);
-        String text = loadString(url);
+        String text = loadString(new File(getRepositoryDirectory(), "links/" + links.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
         } else {
@@ -599,9 +581,7 @@ public class DataRepository extends Application {
     }
 
     private void loadTutorialText(Tutorial tutorial, StringProperty textProperty) {
-        String url = getBaseUrl() + "tutorials/" + tutorial.getId() + "/readme.md";
-        LOG.fine("loading tutorial from: " + url);
-        String text = loadString(url);
+        String text = loadString(new File(getRepositoryDirectory(), "tutorials/" + tutorial.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
         } else {
@@ -624,9 +604,7 @@ public class DataRepository extends Application {
     }
 
     private void loadDownloadText(Download download, StringProperty textProperty) {
-        String url = getBaseUrl() + "downloads/" + download.getId() + "/readme.md";
-        LOG.fine("loading download text from: " + url);
-        String text = loadString(url);
+        String text = loadString(new File(getRepositoryDirectory(), "downloads/" + download.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
         } else {
@@ -649,9 +627,7 @@ public class DataRepository extends Application {
     }
 
     private void loadBookText(Book book, StringProperty textProperty) {
-        String url = getBaseUrl() + "books/" + book.getId() + "/readme.md";
-        LOG.fine("loading book text from: " + url);
-        String text = loadString(url);
+        String text = loadString(new File(getRepositoryDirectory(), "books/" + book.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
         } else {
@@ -674,7 +650,7 @@ public class DataRepository extends Application {
     }
 
     private void loadPersonDescription(Person person, StringProperty readmeProperty) {
-        String readmeText = loadString(getBaseUrl() + "people/" + person.getId() + "/readme.md");
+        String readmeText = loadString(new File(getRepositoryDirectory(), "people/" + person.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
@@ -697,7 +673,7 @@ public class DataRepository extends Application {
     }
 
     private void loadToolDescription(Tool tool, StringProperty readmeProperty) {
-        String readmeText = loadString(getBaseUrl() + "tools/" + tool.getId() + "/readme.md");
+        String readmeText = loadString(new File(getRepositoryDirectory(), "tools/" + tool.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
@@ -720,7 +696,7 @@ public class DataRepository extends Application {
     }
 
     private void loadTipDescription(Tip tip, StringProperty readmeProperty) {
-        String readmeText = loadString(getBaseUrl() + "tips/" + tip.getId() + "/readme.md");
+        String readmeText = loadString(new File(getRepositoryDirectory(), "tips/" + tip.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
@@ -743,7 +719,7 @@ public class DataRepository extends Application {
     }
 
     private void loadRealWorldDescription(RealWorldApp app, StringProperty readmeProperty) {
-        String readmeText = loadString(getBaseUrl() + "realworld/" + app.getId() + "/readme.md");
+        String readmeText = loadString(new File(getRepositoryDirectory(), "realworld/" + app.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
@@ -766,7 +742,7 @@ public class DataRepository extends Application {
     }
 
     private void loadCompanyDescription(Company company, StringProperty readmeProperty) {
-        String readmeText = loadString(getBaseUrl() + "companies/" + company.getId() + "/readme.md");
+        String readmeText = loadString(new File(getRepositoryDirectory(), "companies/" + company.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
@@ -774,16 +750,20 @@ public class DataRepository extends Application {
         }
     }
 
-    public String getBaseUrl() {
-        if (BASE_URL.startsWith("file:/")) { // for local tests
-            return BASE_URL;
+    public File getRepositoryDirectory() {
+        if (ASYNC) {
+            return REPO_DIRECTORY;
         }
 
-        return BASE_URL + getSource().getBranchName() + "/";
+        return new File(System.getProperty("user.dir"));
     }
 
-    public String getNewsBaseUrl(News news) {
-        return getBaseUrl() + "news/" + DATE_FORMATTER.format(news.getCreatedOn()) + "-" + news.getId();
+    public String getRepositoryDirectoryURL() {
+        return getRepositoryDirectory().toURI().toString();
+    }
+
+    public File getNewsDirectory(News news) {
+        return new File(getRepositoryDirectory(), "news/" + DATE_FORMATTER.format(news.getCreatedOn()) + "-" + news.getId());
     }
 
     public StringProperty libraryReadMeProperty(Library library) {
@@ -801,7 +781,7 @@ public class DataRepository extends Application {
     }
 
     private void loadLibraryDescription(Library library, StringProperty readmeProperty) {
-        String readmeText = loadString(getBaseUrl() + "libraries/" + library.getId() + "/readme.md");
+        String readmeText = loadString(new File(getRepositoryDirectory(), "libraries/" + library.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> readmeProperty.set(readmeText));
         } else {
@@ -1031,54 +1011,24 @@ public class DataRepository extends Application {
         this.people.setAll(people);
     }
 
-    private File getFile(String urlString) throws IOException {
-        try {
-            return new File(new URI(urlString));
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
-
-        return null;
-    }
-
-    private String loadString(String address) {
-        LOG.fine("loading string from: " + address);
+    private String loadString(File file) {
+        LOG.fine("loading string from: " + file);
 
         StringBuilder sb = new StringBuilder();
-        try {
-            // read text returned by server
-            BufferedReader in = new BufferedReader(new FileReader(new File(new URI(address))));
 
+        try (BufferedReader in = new BufferedReader(new FileReader(file, StandardCharsets.UTF_8))) {
             String line;
             while ((line = in.readLine()) != null) {
                 sb.append(line);
                 sb.append("\n");
             }
-            in.close();
-
         } catch (MalformedURLException e) {
             LOG.fine("Malformed URL: " + e.getMessage());
         } catch (IOException e) {
             LOG.fine("I/O Error: " + e.getMessage());
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
         }
 
         return sb.toString();
-    }
-
-    private final ObjectProperty<Source> source = new SimpleObjectProperty<>(this, "source", Source.LIVE);
-
-    public Source getSource() {
-        return source.get();
-    }
-
-    public ObjectProperty<Source> sourceProperty() {
-        return source;
-    }
-
-    public void setSource(Source source) {
-        this.source.set(source);
     }
 
     public StringProperty getArtifactVersion(Coordinates coordinates) {
@@ -1111,22 +1061,23 @@ public class DataRepository extends Application {
 
             int status = con.getResponseCode();
             if (status == 200) {
-                BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                String inputLine;
-                StringBuffer content = new StringBuffer();
-                while ((inputLine = in.readLine()) != null) {
-                    content.append(inputLine);
-                }
-                in.close();
-
-                QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
-
-                if (ASYNC) {
-                    if (!queryResult.getResponse().getDocs().isEmpty()) {
-                        Platform.runLater(() -> result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion()));
+                try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
+                    String inputLine;
+                    StringBuffer content = new StringBuffer();
+                    while ((inputLine = in.readLine()) != null) {
+                        content.append(inputLine);
                     }
-                } else {
-                    result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
+                    in.close();
+
+                    QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
+
+                    if (ASYNC) {
+                        if (!queryResult.getResponse().getDocs().isEmpty()) {
+                            Platform.runLater(() -> result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion()));
+                        }
+                    } else {
+                        result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
+                    }
                 }
             } else {
                 if (ASYNC) {
@@ -1150,22 +1101,17 @@ public class DataRepository extends Application {
 
     public List<Post> loadPosts(Blog blog) {
         LOG.fine("loading posts for blog " + blog.getName());
-
-        try {
-            String url = blog.getFeed();
-            if (StringUtils.isNotBlank(url)) {
-                SyndFeed feed = new SyndFeedInput().build(new XmlReader(new URL(url)));
+        String url = blog.getFeed();
+        if (StringUtils.isNotBlank(url)) {
+            List<Post> posts = new ArrayList<>();
+            try (XmlReader reader = new XmlReader(new URL(url))) {
+                SyndFeed feed = new SyndFeedInput().build(reader);
                 List<SyndEntry> entries = feed.getEntries();
-                List<Post> posts = new ArrayList<>();
                 entries.forEach(entry -> posts.add(new Post(blog, feed, entry)));
-                return posts;
+            } catch (Exception ex) {
+                ex.printStackTrace();
             }
-        } catch (MalformedURLException ex) {
-            ex.printStackTrace();
-        } catch (FeedException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+            return posts;
         }
 
         return Collections.emptyList();
@@ -1203,16 +1149,15 @@ public class DataRepository extends Application {
 
                 int status = con.getResponseCode();
                 if (status == 200) {
-                    BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                    String inputLine;
-                    StringBuffer content = new StringBuffer();
-                    while ((inputLine = in.readLine()) != null) {
-                        content.append(inputLine);
+                    try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
+                        String inputLine;
+                        StringBuffer content = new StringBuffer();
+                        while ((inputLine = in.readLine()) != null) {
+                            content.append(inputLine);
+                        }
+                        return gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
+                        }.getType());
                     }
-                    in.close();
-
-                    return gson.fromJson(content.toString(), new TypeToken<List<PullRequest>>() {
-                    }.getType());
                 }
             } catch (ProtocolException e) {
                 e.printStackTrace();

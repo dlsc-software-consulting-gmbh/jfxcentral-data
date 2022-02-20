@@ -15,7 +15,6 @@ import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.List;
 import java.util.Optional;
@@ -28,7 +27,6 @@ public class DataRepositoryTest {
     @BeforeAll
     public static void setup() {
         DataRepository.ASYNC = false;
-        DataRepository.BASE_URL = "file://" + System.getProperty("user.dir") + "/";
     }
 
     @Test
@@ -153,21 +151,16 @@ public class DataRepositoryTest {
 
             LibraryInfo libraryInfo = info.get();
             libraryInfo.getImages().forEach(image -> {
-                assertNotNull(image,"image null in library info of library " + lib.getName());
+                assertNotNull(image, "image null in library info of library " + lib.getName());
 
                 String path = image.getPath();
 
                 // then
                 assertTrue(StringUtils.isNotBlank(path));
 
-                try {
-                    URL url = new URL(DataRepository.BASE_URL + "libraries/" + lib.getId() + "/" + path);
-                    System.out.println("library info file url = " + url.toExternalForm());
-                    File file = new File(url.toURI());
-                    assertTrue(file.exists());
-                } catch (MalformedURLException | URISyntaxException e) {
-                    fail(e);
-                }
+                File file = new File(DataRepository.getInstance().getRepositoryDirectory(), "libraries/" + lib.getId() + "/" + path);
+                assertTrue(file.exists());
+
             });
         });
     }
