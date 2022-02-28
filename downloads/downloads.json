@@ -465,41 +465,41 @@
       "g.grunwald"
     ],
     "createdOn": "2022-02-18",
-    "modifiedOn": "2022-02-18",
+    "modifiedOn": "2022-02-28",
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/GlucoStatusFX-17.0.12.msi",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.15/GlucoStatusFX-17.0.15.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/GlucoStatusFX-17.0.12.pkg",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.15/GlucoStatusFX-17.0.15.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac M1)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/GlucoStatusFX-17.0.12-aarch64.pkg",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.15/GlucoStatusFX-17.0.15-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/glucostatusfx_17.0.12-1_amd64.deb",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.15/glucostatusfx_17.0.15-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/glucostatusfx-17.0.12-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.15/glucostatusfx-17.0.15-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.12/glucostatusfx_17.0.12-1_arm64.deb",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.15/glucostatusfx_17.0.15-1_arm64.deb",
         "fileName": "",
         "package": "DEB"
       }
