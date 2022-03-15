@@ -257,7 +257,8 @@ public class DataRepository extends Application {
 
     private List<ModelObject> findRecentItems() {
         List<ModelObject> result = new ArrayList<>();
-        result.addAll(findRecentItems(getNews()));
+      // News are not reachable through links!
+      //  result.addAll(findRecentItems(getNews()));
         result.addAll(findRecentItems(getPeople()));
         result.addAll(findRecentItems(getBooks()));
         result.addAll(findRecentItems(getLibraries()));
@@ -269,7 +270,8 @@ public class DataRepository extends Application {
         result.addAll(findRecentItems(getRealWorldApps()));
         result.addAll(findRecentItems(getDownloads()));
         result.addAll(findRecentItems(getTips()));
-        result.addAll(findRecentItems(getLinksOfTheWeek()));
+      // LinksOfTheWeek are not reachable through links!
+      //  result.addAll(findRecentItems(getLinksOfTheWeek()));
 
         // newest ones on top
         Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
