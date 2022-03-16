@@ -15,20 +15,30 @@ DetachableTabPane myTabPane = /* instantiation */;
 
 // when 'myTabPane' is closed, update it to nearest sibling instance
 myTabPane.setOnClosedPassSibling(sibling -> myTabPane = sibling);
+// you can also listen for tab-pane closures via
+myTabPane.setOnRemove(self -> { ... });
 ```
+
+You can control the creation of detachable tab panes created as a result of drag-drop operations via: `DetachableTabPane#setDetachableTabPaneFactory(DetachableTabPaneFactory)`
 
 ## Customization
 
-To customize how detached stage looks like, use custom scene factory:
+To customize how detached stage looks like, use a custom scene factory:
 ```java
-myTabPane.setSceneFactory((param) -> {
-	FrmScope1 frm = new FrmScope1();
-	SplitPane sp = new SplitPane(param);
+myTabPane.setSceneFactory(tabPane -> {
+	SplitPane sp = new SplitPane(tabPane);
 	VBox.setVgrow(sp, Priority.ALWAYS);
-	frm.getChildren().add(sp);
-	Scene scene1 = new Scene(frm);
+
+	FrmScope1 contentWrapper = new FrmScope1();
+	
+	contentWrapper.getChildren().add(sp);
+	Scene scene1 = new Scene(contentWrapper);
 	return scene1;
 });
+```
+Or for window level control, use a custom stage factory:
+```java
+myTabPane.setStageFactory((priorParent, tab) -> new TabStage(priorParent, tab));
 ```
 
 The stylesheet is available at: [tiwulfx-dock.css](https://github.com/panemu/tiwulfx-dock/blob/main/src/main/resources/com/panemu/tiwulfx/control/dock/tiwulfx-dock.css).
@@ -36,3 +46,11 @@ Provide your own version of the stylesheet to override the style of drop guiding
 ```java
 myTabPane.setDropHint(new CustomDropHint());
 ```
+
+When new stages are created as a result from drag-drop operations all stylesheets of the originating scene are copied to the new stage's scene.
+
+## Demo
+
+Small demo applications can be found at: [`src/test/java/com/panemu/tiwulfx/control/dock/`](https://github.com/panemu/tiwulfx-dock/tree/main/src/test/java/com/panemu/tiwulfx/control/dock)
+
+Video: [TiwulFX Dock - 0.2 Demo](https://www.youtube.com/watch?v=YzVmCDTQv4M)
