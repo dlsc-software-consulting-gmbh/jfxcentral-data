@@ -52,5 +52,3 @@ When new stages are created as a result from drag-drop operations all stylesheet
 ## Demo
 
 Small demo applications can be found at: [`src/test/java/com/panemu/tiwulfx/control/dock/`](https://github.com/panemu/tiwulfx-dock/tree/main/src/test/java/com/panemu/tiwulfx/control/dock)
-
-Video: [TiwulFX Dock - 0.2 Demo](https://www.youtube.com/watch?v=YzVmCDTQv4M)

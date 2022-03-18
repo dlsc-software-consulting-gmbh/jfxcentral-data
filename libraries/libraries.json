@@ -793,6 +793,9 @@
     "groupId": "com.panemu",
     "artifactId": "tiwulfx-dock",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "videoIds": [
+      "YzVmCDTQv4M"
+    ]
   }
 ]
