@@ -1,0 +1,9 @@
+{
+  "images": [
+    {
+      "path": "tiwulfx-dock-demo.png",
+      "title": "TiwulFX Dock in action",
+      "description": "A demo application showing a tab being dragged from one tab-pane to another."
+    }
+  ]
+}

@@ -778,5 +778,24 @@
     "peopleIds": [
       "d.redmond"
     ]
+  },
+  {
+    "id": "tiwulfxdock",
+    "name": "TiwulFX Dock",
+    "summary": "An enhanced TabPane that tab-based docking systems.",
+    "tags": "docking, custom control",
+    "description": "TiwulFX Dock is a library that allows you create TabPanes that supports tab reordering, detaching and docking.",
+    "documentation": "https://github.com/panemu/tiwulfx-dock",
+    "license": "MIT",
+    "homepage": "https://github.com/panemu/tiwulfx-dock",
+    "javadocs": "",
+    "createdOn": "2020-10-31",
+    "groupId": "com.panemu",
+    "artifactId": "tiwulfx-dock",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "videoIds": [
+      "YzVmCDTQv4M"
+    ]
   }
 ]

@@ -1058,5 +1058,16 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "TiwulFX Dock - Demo",
+    "tags": "docking, custom controls",
+    "type": "Library",
+    "domain": "Custom Control",
+    "description": "A demonstration of TiwulFX Dock's tab-oriented docking capabilities.",
+    "id": "YzVmCDTQv4M",
+    "createdOn": "2022-03-16",
+    "modifiedOn": "2022-03-16",
+    "publishedOn": "2022-03-16"
   }
 ]
