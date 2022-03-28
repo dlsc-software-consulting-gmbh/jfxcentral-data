@@ -607,7 +607,7 @@
     "issueTracker": "https://github.com/HanSolo/charts/issues",
     "id": "charts",
     "createdOn": "2021-06-11",
-    "modifiedOn": "2021-06-11",
+    "modifiedOn": "2022-03-08",
     "groupId": "eu.hansolo.fx",
     "artifactId": "charts",
     "ensemble": "false",
@@ -640,7 +640,7 @@
     "issueTracker": "https://github.com/HanSolo/countries/issues",
     "id": "countries",
     "createdOn": "2021-12-03",
-    "modifiedOn": "2021-12-03",
+    "modifiedOn": "2022-03-08",
     "groupId": "eu.hansolo.fx",
     "artifactId": "countries",
     "ensemble": "false",
@@ -663,7 +663,7 @@
     "issueTracker": "https://github.com/HanSolo/tilesfx/issues",
     "id": "tilesfx",
     "createdOn": "2021-06-11",
-    "modifiedOn": "2021-06-11",
+    "modifiedOn": "2022-03-08",
     "groupId": "eu.hansolo",
     "artifactId": "tilesfx",
     "ensemble": "false",
@@ -689,7 +689,7 @@
     "issueTracker": "https://github.com/HanSolo/Medusa/issues",
     "id": "medusa",
     "createdOn": "2021-06-11",
-    "modifiedOn": "2021-06-11",
+    "modifiedOn": "2022-03-08",
     "groupId": "eu.hansolo",
     "artifactId": "medusa",
     "ensemble": "false",
@@ -777,6 +777,25 @@
     "ensemble": "false",
     "peopleIds": [
       "d.redmond"
+    ]
+  },
+  {
+    "id": "tiwulfxdock",
+    "name": "TiwulFX Dock",
+    "summary": "An enhanced TabPane that tab-based docking systems.",
+    "tags": "docking, custom control",
+    "description": "TiwulFX Dock is a library that allows you create TabPanes that supports tab reordering, detaching and docking.",
+    "documentation": "https://github.com/panemu/tiwulfx-dock",
+    "license": "MIT",
+    "homepage": "https://github.com/panemu/tiwulfx-dock",
+    "javadocs": "",
+    "createdOn": "2020-10-31",
+    "groupId": "com.panemu",
+    "artifactId": "tiwulfx-dock",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "videoIds": [
+      "YzVmCDTQv4M"
     ]
   }
 ]
