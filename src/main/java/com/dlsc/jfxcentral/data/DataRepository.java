@@ -33,7 +33,7 @@ import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
-public class DataRepository extends Application {
+public class DataRepository {
 
     private static final Logger LOG = Logger.getLogger(DataRepository.class.getName());
 
@@ -78,7 +78,6 @@ public class DataRepository extends Application {
     public static synchronized DataRepository getInstance() {
         if (instance == null) {
             instance = new DataRepository();
-            instance.loadData();
         }
 
         return instance;
@@ -89,10 +88,6 @@ public class DataRepository extends Application {
     }
 
     private DataRepository() {
-    }
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
     }
 
     public void loadData() {
