@@ -10,7 +10,7 @@ What if you need to know which files have the same content? Yes, with SmartFinde
 | Platform | Link|
 |----------| ---------------------|
 | Windows  | [Microsoft Store download link](https://www.microsoft.com/store/apps/9PD0BCV3WKD1) |
-| MacOS    | [Apple MacOS APP Store download link](https://apple.co/3aIWAj6) |
+| MacOS    | [Apple MacOS APP Store download link](https://apps.apple.com/us/app/smartfinder/id1624772158) |
 
 ## SmartFinder in action
 [SmartFinder Youtube playlist](https://www.youtube.com/playlist?list=PLG6jFnBRDFm8aOs9EZrsJ_490X1nWvsH2)
