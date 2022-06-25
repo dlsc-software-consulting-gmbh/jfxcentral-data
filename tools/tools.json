@@ -88,6 +88,19 @@
     ]
   },
   {
+    "id": "gluonstart",
+    "name": "Gluon Start",
+    "summary": "Generate the structure and skeleton of your Java client application.",
+    "description": "Gluon Start is a website which enables you to generate the structure and skeleton of your Java client application.",
+    "tags": "gluon, mobile, ui, navigation, generator",
+    "homepage": "https://start.gluon.io/",
+    "createdOn": "2022-06-06",
+    "modifiedOn": "2021-06-06",
+    "companyIds": [
+      "gluon"
+    ]
+  },
+  {
     "id": "testfx",
     "name": "TestFX",
     "summary": "A unit testing framework for JavaFX.",
