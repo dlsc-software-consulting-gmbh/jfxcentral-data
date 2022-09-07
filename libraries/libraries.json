@@ -797,5 +797,26 @@
     "videoIds": [
       "YzVmCDTQv4M"
     ]
+  },
+  {
+    "name": "AtlantaFX",
+    "summary": "Modern JavaFX CSS theme collection with additional controls.",
+    "tags": "theme, css, custom controls",
+    "description": "Modern JavaFX CSS theme collection with additional controls.",
+    "documentation": "https://github.com/mkpaz/atlantafx#readme",
+    "license": "MIT",
+    "homepage": "https://github.com/mkpaz/atlantafx",
+    "javadocs": "",
+    "repository": "https://github.com/mkpaz/atlantafx",
+    "githubAccount": "mkpaz",
+    "githubProject": "atlantafx",
+    "companyId": "",
+    "issueTracker": "https://github.com/mkpaz/atlantafx/issues",
+    "id": "atlantafx",
+    "createdOn": "2022-09-07",
+    "groupId": "io.github.mkpaz",
+    "artifactId": "atlantafx-base",
+    "logoAvailable": "false",
+    "ensemble": "false"
   }
 ]
