@@ -1,8 +1,28 @@
 {
   "images": [
     {
-      "path": "preview.gif",
+      "path": "preview.png",
       "title": "Preview",
+      "description": ""
+    },
+    {
+      "path": "primer-light.png",
+      "title": "Primer Light theme",
+      "description": ""
+    },
+    {
+      "path": "primer-dark.png",
+      "title": "Primer Dark theme",
+      "description": ""
+    },
+    {
+      "path": "nord-light.png",
+      "title": "Nord Light theme",
+      "description": ""
+    },
+    {
+      "path": "nord-dark.png",
+      "title": "Nord Dark theme",
       "description": ""
     }
   ]

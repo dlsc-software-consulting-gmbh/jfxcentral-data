@@ -1,6 +1,6 @@
-## Features
+![Preview](preview.png)
 
-![Preview](preview.gif)
+## Features
 
 * Modern flat interface inspired by the variety of Web component frameworks.
 * CSS first. It works with existing JavaFX controls.
