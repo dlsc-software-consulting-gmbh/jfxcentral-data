@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "path": "ScrollPane-Skin.gif",
+      "title": "ScrollPane new skin",
+      "description": "ScrollPane FXSkins new skin"
+    },
+    {
+      "path": "Slider-Skin.gif",
+      "title": "Slider new skin",
+      "description": "Slider FXSkins new skin"
+    }
+  ]
+}
