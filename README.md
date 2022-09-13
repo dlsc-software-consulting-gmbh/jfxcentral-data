@@ -22,6 +22,7 @@ This repository contains the data for the following model objects:
 - `Company`
 - `Download`
 - `Library`
+- `LinksOfTheWeek`
 - `News`
 - `Person`
 - `RealWorldApp`
@@ -38,6 +39,7 @@ match the types of the model objects:
 - Companies inside `companies/companies.json`
 - Downloads inside `downloads/downloads.json`
 - Libraries inside `libraries/libraries.json`
+- LinksOfTheWeek inside `links/links.json`
 - News inside `news/news.json`
 - People inside `people/people.json`
 - Real World Applications inside `realworld/realworld.json`
@@ -74,6 +76,7 @@ private List<String> personIds = new ArrayList<>();
 private List<String> tutorialIds = new ArrayList<>();
 private List<String> toolIds = new ArrayList<>();
 private List<String> libraryIds = new ArrayList<>();
+private List<String> linksOfTheWeekIds = new ArrayList<>();
 private List<String> bookIds = new ArrayList<>();
 private List<String> companyIds = new ArrayList<>();
 private List<String> downloadIds = new ArrayList<>();
@@ -134,7 +137,6 @@ Follow these instructions for the different types of data:
 
 - [Adding a person](#adding-a-person) 
 - [Adding a library](#adding-a-library)
-- [Adding a book](#adding-a-book)
 
 ### Adding a Person
 
@@ -152,3 +154,5 @@ Follow these instructions for the different types of data:
 4. To the directory created in step 2: add a file called `readme.md` and add a "getting started" documentation or whatever you deem most important to know about the library.
 5. To the directory created in step 2: add (or copy) the file `info.json` and list screenshots or videos (those also need to be in the same directory).
 5. If the library entry inside the file `libraries/libraries.json` references other entities (for example a video or a tutorial) then make sure to also add those to the repository.
+
+---

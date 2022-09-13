@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "DemoCountryPane.png",
+      "title": "Country",
+      "description": ""
+    },
+    {
+      "path": "DemoRegionPane.png",
+      "title": "Regions",
+      "description": ""
+    },
+    {
+      "path": "DemoWorldPane.png",
+      "title": "Countries",
+      "description": ""
+    }
+  ]
+}

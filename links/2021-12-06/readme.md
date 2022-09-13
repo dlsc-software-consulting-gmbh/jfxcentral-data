@@ -1,0 +1,3 @@
+- **Michael Schnell** has created a GitHub repository with a [template for creating a real-world JavaFX application](https://github.com/fuinorg/javafx-cdi-example). Topics covered are CDI (context and dependency injection, maven setup, GitHub actions, long running tasks, etc...). 
+- **Abhinay Agarwal** announced the release of version 11.1.1 of **ControlsFX** ([release notes](https://github.com/controlsfx/controlsfx/releases/tag/11.1.1)).
+- **Gerrit Grunwald** has published a [blog post covering his latest chart addition](https://harmoniccode.blogspot.com/2021/12/a-versus-b.html), a comparison chart.

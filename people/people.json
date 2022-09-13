@@ -1,5 +1,41 @@
 [
   {
+    "name": "Robert Lichtenberger",
+    "email": "r.lichtenberger@gmail.com",
+    "companyId": "synedra",
+    "website": "",
+    "gitHub": "effad",
+    "blogId": "",
+    "linkedIn": "robert-lichtenberger-b31b64164/",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "r.lichtenberger",
+    "libraryIds": [
+      "validatorfx"
+    ],
+    "createdOn": "2021-11-11",
+    "modifiedOn": "2021-11-11"
+  },
+  {
+    "name": "Agostino De Marco",
+    "email": "agostino.demarco@unina.it",
+    "companyId": "smartup.engineering",
+    "website": "https://www.docenti.unina.it/agostino.demarco",
+    "gitHub": "agodemar",
+    "blogId": "",
+    "linkedIn": "agostino-de-marco",
+    "twitter": "agodemar",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.demarco",
+    "appIds": [
+      "jpadmodeller"
+    ],
+    "createdOn": "2021-11-02",
+    "modifiedOn": "2021-11-02"
+  },
+  {
     "name": "Eugene Ryzhikov",
     "email": "",
     "companyId": "gluon",
@@ -64,10 +100,7 @@
       "controlsfx"
     ],
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
-    "tipIds": [
-      "ikonli"
-    ]
+    "modifiedOn": "2021-05-28"
   },
   {
     "name": "Almas Baimagambetov",
@@ -205,7 +238,9 @@
     "libraryIds": [
       "harmonicfx",
       "tilesfx",
-      "medusa"
+      "medusa",
+      "charts",
+      "countries"
     ],
     "tutorialIds": [
       "fxdocs"
@@ -472,6 +507,72 @@
       "jpro",
       "cssfx"
     ]
+  },
+  {
+    "name": "Adam Carroll",
+    "email": "",
+    "companyId": "",
+    "website": "https://vocabhunter.github.io/",
+    "blogId": "vocabhunter",
+    "linkedIn": "",
+    "twitter": "vocabhunterapp",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.carroll",
+    "createdOn": "2021-07-22",
+    "modifiedOn": "2021-07-22"
+  },
+  {
+    "name": "Andrea Vacondio",
+    "email": "andrea@soberlemur.com",
+    "companyId": "soberlemur",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "torakiki",
+    "twitter": "Torakiki610",
+    "champion": false,
+    "rockstar": false,
+    "id": "a.vacondio",
+    "gitHub": "torakiki",
+    "appIds": [
+      "pdfsam"
+    ],
+    "createdOn": "2021-09-28",
+    "modifiedOn": "2021-09-28"
+  },
+  {
+    "name": "Vladyslav Lubenskyi",
+    "email": "vladyslav.lubenskyi@teamdev.com",
+    "companyId": "teamdev",
+    "website": "",
+    "gitHub": "vlad-lubenskyi",
+    "blogId": "",
+    "linkedIn": "vladyslav-lubenskyi-8855a049",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "v.lubenskyi",
+    "libraryIds": [
+      "jxbrowser"
+    ],
+    "createdOn": "2021-12-29"
+  },
+  {
+    "name": "Dustin Redmond",
+    "email": "dustin@dustinredmond.com",
+    "companyId": "",
+    "website": "https://dustinredmond.com",
+    "blogId": "",
+    "linkedIn": "dustin-redmond",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "d.redmond",
+    "gitHub": "dustinkredmond",
+    "libraryIds": [
+      "fxtrayicon"
+    ],
+    "createdOn": "2022-01-28",
+    "modifiedOn": "2022-01-28"
   }
 ]
-

@@ -88,6 +88,19 @@
     ]
   },
   {
+    "id": "gluonstart",
+    "name": "Gluon Start",
+    "summary": "Generate the structure and skeleton of your Java client application.",
+    "description": "Gluon Start is a website which enables you to generate the structure and skeleton of your Java client application.",
+    "tags": "gluon, mobile, ui, navigation, generator",
+    "homepage": "https://start.gluon.io/",
+    "createdOn": "2022-06-06",
+    "modifiedOn": "2021-06-06",
+    "companyIds": [
+      "gluon"
+    ]
+  },
+  {
     "id": "testfx",
     "name": "TestFX",
     "summary": "A unit testing framework for JavaFX.",
@@ -130,5 +143,34 @@
     "repository": "https://github.com/controlsfx/controlsfx",
     "createdOn": "2021-06-01",
     "modifiedOn": "2021-06-01"
+  },
+  {
+    "id": "fxiconcreator",
+    "name": "FXIconCreator",
+    "summary": "Tool for creating icons for Windows, Linux, OSX",
+    "description": "Small app to create icon sets (multi resolution) for Linux, Windows, OSX from a single PNG imageReason for creating such an app was that I had to create app icons out of png files but I was tired to always fire up different virtual machine only to use the native tools to create the icons. All web based icon converter are converting the icons in the wrong format (not as multi resolution).",
+    "tags": "icons",
+    "groupId": "org.itarchitects",
+    "artifactId": "fxiconcreator",
+    "homepage": "https://github.com/lanthale/FXIconCreator",
+    "repository": "https://github.com/lanthale/FXIconCreator",
+    "createdOn": "2021-12-04",
+    "modifiedOn": "2021-12-04"
+  },
+  {
+    "id": "qftest",
+    "name": "QF-Test",
+    "summary": "Automated GUI testing for Java, Web and Windows applications",
+    "description": "QF-Test is a fully integrated tool for automated GUI testing for Java, Web and Windows applications.",
+    "tags": "test automation, testing",
+    "homepage": "https://www.qfs.de/en",
+    "createdOn": "2021-12-10",
+    "modifiedOn": "2021-12-10",
+    "companyIds": [
+      "qfs"
+    ],
+    "videoIds": [
+      "ifrUL9na1kU"
+    ]
   }
 ]

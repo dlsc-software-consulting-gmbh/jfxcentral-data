@@ -7,7 +7,7 @@
     "tags": "ikonli, icon, icons, font",
     "createdOn": "2021-07-06",
     "modifiedOn": "2021-07-06",
-    "peopleIds": [
+    "personIds": [
       "d.lemmermann"
     ],
     "videoIds": [
@@ -27,7 +27,66 @@
     "tags": "clip, clipping, mask, masking, alpha",
     "createdOn": "2021-07-07",
     "modifiedOn": "2021-07-07",
-    "peopleIds": [
+    "personIds": [
+      "d.lemmermann"
+    ]
+  },
+  {
+    "id": "scrollshadow",
+    "name": "ScrollPane with DropShadow",
+    "summary": "Show a shadow inside a scrollpane.",
+    "tags": "scrollpane, shadow",
+    "createdOn": "2021-08-17",
+    "modifiedOn": "2021-08-17",
+    "personIds": [
+      "d.lemmermann"
+    ]
+  },
+  {
+    "id": "invisiblenodes",
+    "name": "Make Layouts Ignore Invisible Nodes",
+    "summary": "Use visible and managed properties the right way.",
+    "description": "",
+    "tags": "hide, node, visible, managed",
+    "createdOn": "2021-08-19",
+    "modifiedOn": "2021-08-19",
+    "personIds": [
+      "d.lemmermann"
+    ]
+  },
+  {
+    "id": "hiresicons",
+    "name": "HiRes / Retina Icons",
+    "summary": "Automatically use high resolution icons.",
+    "description": "",
+    "tags": "icon, icons, hires, retina",
+    "createdOn": "2021-08-22",
+    "modifiedOn": "2021-08-22",
+    "personIds": [
+      "d.lemmermann"
+    ]
+  },
+  {
+    "id": "darcula",
+    "name": "Dark / Darcula Theme",
+    "summary": "A dark theme for your application.",
+    "description": "",
+    "tags": "dark, darcula, theme, css",
+    "createdOn": "2021-08-22",
+    "modifiedOn": "2021-08-22",
+    "personIds": [
+      "d.lemmermann"
+    ]
+  },
+  {
+    "id": "customlayouts",
+    "name": "Custom Layouts",
+    "summary": "Implement your own layout strategy / pane.",
+    "description": "",
+    "tags": "layout, custom, pane",
+    "createdOn": "2021-08-25",
+    "modifiedOn": "2021-08-25",
+    "personIds": [
       "d.lemmermann"
     ]
   }

@@ -1,6 +1,23 @@
 
 [
   {
+    "id": "jpadmodeller",
+    "name": "JPAD Modeller",
+    "company": "SmartUp Engineering",
+    "url": "https://www.smartup-engineering.com/jpad-modeller",
+    "domain": "Aircraft design",
+    "tags": "aircraft, design, 3D modelling, knowledge-based aircraft shape modelling",
+    "summary": "Knowledge-based aircraft 3D shape initialization and modelling.",
+    "videoIds": [
+      "-xbaVCw7fAY",
+      "La-xGA2bw1o"
+    ],
+    "personIds": [
+      "a.demarco"
+    ]
+
+  },
+  {
     "id": "rnartist",
     "name": "RNArtist",
     "company": "Fabrise Jossinet (University of Strasbourg)",
@@ -42,15 +59,15 @@
     "summary": "Buy and sell bitcoin privately and securely."
   },
   {
-    "id": "debeka",
-    "name": "Debeka DVC",
-    "company": "Debeka",
-    "url": "https://www.debeka.de/index.html",
-    "domain": "Insurance",
-    "tags": "insurance, office",
-    "summary": "Insurance coverage check software.",
-    "personIds": [
-      "d.lemmermann"
+    "id": "binjr",
+    "name": "binjr",
+    "company": "",
+    "url": "https://binjr.eu",
+    "domain": "IT / Science / Software development",
+    "tags": "time series, visualization, monitoring, charts, logs",
+    "summary": "A Time Series Browser.",
+    "downloadIds": [
+      "binjr"
     ]
   },
   {
@@ -234,10 +251,7 @@
     "url": "https://marketplace.atlassian.com/apps/1220715/eteoboard-the-more-agile-agile-board?hosting=server&tab=overview",
     "domain": "Agile Project Management",
     "tags": "agile, software development, project, team",
-    "summary": "Agile board for teams.",
-    "videoIds": [
-      "TlHjX2uZzxA"
-    ]
+    "summary": "Agile board for teams."
   },
   {
     "id": "senapt",
@@ -264,20 +278,8 @@
     ]
   },
   {
-    "id": "sophia",
-    "name": "Sophia DDM",
-    "company": "Sophia Genetics",
-    "url": "https://www.sophiagenetics.com",
-    "domain": "Medical",
-    "tags": "medical, research, genetics, rna, health",
-    "summary": "Insights from digital health data.",
-    "videoIds": [
-      "mJEKQHgBvug"
-    ]
-  },
-  {
     "id": "threesixty",
-    "name": "360T",
+    "name": "360T Bridge",
     "company": "360T",
     "url": "https://www.360t.com/products/360tgtx-suite/",
     "domain": "Trading",
@@ -292,8 +294,8 @@
     "domain": "Logistics",
     "tags": "ship, logistics, planning, container, editor",
     "summary": "Optimize utilization of vessel cargo space.",
-    "personIds": [
-      "g.grunwald"
+    "companyIds": [
+      "karakun"
     ]
   },
   {
@@ -322,8 +324,8 @@
     "domain": "",
     "tags": "ship, yard, logistics, planning, container, editor",
     "summary": "Optimize utilization of container yards.",
-    "personIds": [
-      "g.grunwald"
+    "companyIds": [
+      "karakun"
     ]
   },
   {
@@ -346,5 +348,70 @@
     "domain": "MacroPads",
     "tags": "streaming, twitch, social, marco pad",
     "summary": "An open source, cross-platform, programmable, modular Macropad software."
+  },
+  {
+    "id": "pdfsam",
+    "name": "PDFsam Basic",
+    "company": "Sober Lemur S.a.s.",
+    "url": "https://pdfsam.org",
+    "domain": "PDF editing",
+    "tags": "pdf, office",
+    "summary": "A free and open source application to split, merge, extract pages, rotate and mix PDF files.",
+    "companyIds": [
+      "soberlemur"
+    ]
+  },
+  {
+    "id": "rinkai",
+    "name": "Rinkai Routing",
+    "company": "Rinkai s.r.o.",
+    "url": "https://www.rinkai.cz",
+    "domain": "Transport Optimization",
+    "tags": "transport, planning, optimization, vehicle routing problem",
+    "summary": "Optimize last mile delivery."
+  },
+  {
+    "id": "photoslide",
+    "name": "PhotoSlide",
+    "company": "None (Spare Time Project)",
+    "url": "https://github.com/lanthale/PhotoSlide",
+    "domain": "Image management",
+    "tags": "photo, video, editing, photography",
+    "summary": "View and edit photos / videos."
+  },
+  {
+    "id": "xpshealth",
+    "name": "XPS Health",
+    "company": "Sideline Sports",
+    "url": "https://xps.sidelinesports.com",
+    "domain": "Sports",
+    "tags": "sports, medical, injuries, illness, doctor",
+    "summary": "A module of the XPS software solution that allows its users to keep track of their team members' health.",
+    "videoIds": [],
+    "personIds": [
+      "d.lemmermann"
+    ]
+  },
+  {
+    "id": "devoxx",
+    "name": "Devoxx",
+    "company": "Devoxx",
+    "url": "https://devoxx.com",
+    "domain": "Conferences",
+    "tags": "mobile, conference, information, maps",
+    "summary": "Show information about talks, speakers and locations",
+    "videoIds": [],
+    "personIds": [
+      "j.vos"
+    ]
+  },
+  {
+    "id": "smartfinder",
+    "name": "SmartFinder",
+    "company": "serendipity",
+    "url": "https://serendigity.it/products/smartfinder/",
+    "domain": "Desktop Search Tool",
+    "summary": "SmartFinder allows you to use an innovative way to search for your Desktop's files with an experience similar to Google's search",
+    "tags": "desktop search, windows search, finder, web application"
   }
 ]

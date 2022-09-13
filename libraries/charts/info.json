@@ -1,0 +1,129 @@
+{
+  "images": [
+    {
+      "path": "smallimages/arcchart.jpg",
+      "title": "Arc Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/areaheatmap.jpg",
+      "title": "Area Heatmap",
+      "description": ""
+    },
+    {
+      "path": "smallimages/bubblegridchart.jpg",
+      "title": "Bubble Grid Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/circularplot.jpg",
+      "title": "Circular Plot",
+      "description": ""
+    },
+    {
+      "path": "smallimages/comparisonringchart.jpg",
+      "title": "Comparison Ring Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/concentricringchart.jpg",
+      "title": "Concentric Ring Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/coxcombchart.jpg",
+      "title": "Coxcomb Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/forcedirectedgraph.jpg",
+      "title": "Force Directed Graph",
+      "description": ""
+    },
+    {
+      "path": "smallimages/heatmap.jpg",
+      "title": "Heat Map",
+      "description": ""
+    },
+    {
+      "path": "smallimages/horizonchart.jpg",
+      "title": "Horizon Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/linechart.jpg",
+      "title": "Line Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/logarithmicchart.jpg",
+      "title": "Logarithmic Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/matrixheatmap.jpg",
+      "title": "Matrix Heat Map",
+      "description": ""
+    },
+    {
+      "path": "smallimages/nestedbarchart.jpg",
+      "title": "Nested Bar Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/parallelcoordinateschart.jpg",
+      "title": "Parallel Coordinates Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/paretochart.jpg",
+      "title": "Pareto Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/playfairchart.jpg",
+      "title": "Playfair Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/polarchart.jpg",
+      "title": "Polar Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/radarchart.jpg",
+      "title": "Radar Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/ridgelinechart.jpg",
+      "title": "Ridge Line Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/sankeyplot.jpg",
+      "title": "Sankey Plot",
+      "description": ""
+    },
+    {
+      "path": "smallimages/sectorchart.jpg",
+      "title": "Sector Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/streamchart.jpg",
+      "title": "Stream Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/sunburstchart.jpg",
+      "title": "Sunburst Chart",
+      "description": ""
+    },
+    {
+      "path": "smallimages/voronoichart.jpg",
+      "title": "Voronoi Chart",
+      "description": ""
+    }
+  ]
+}

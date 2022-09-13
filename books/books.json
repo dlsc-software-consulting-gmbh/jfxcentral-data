@@ -147,5 +147,34 @@
     "amazonASIN": "1118385349",
     "isbn": "978-1118385340",
     "publishedDate": "2014-10-10"
+  },
+  {
+    "id": "definitiveguide2modernjavaclients",
+    "summary": "This book is a reference for building Java applications for desktop, mobile and embedded.",
+    "publisher": "Apress",
+    "authors": "Stefen Chin, Johan Vos and James Weaver",
+    "personIds": [
+      "s.chin",
+      "j.vos",
+      "j.weaver"
+    ],
+    "name": "The Definitive Guide to Modern Java Clients with JavaFX",
+    "subtitle": "Cross-Platform Mobile and Cloud Development",
+    "url": "https://www.apress.com/gp/book/9781484249253",
+    "amazonASIN": "1484249259",
+    "isbn": "1484249259",
+    "publishedDate": "2019-11-13"
+  },
+  {
+    "id": "learnjfx17",
+    "summary": "This book is a reference for building Java applications for desktop, mobile and embedded.",
+    "publisher": "Apress",
+    "authors": "Kishori Sharan, Peter Späth",
+    "name": "Learn JavaFX 17",
+    "subtitle": "Building User Experience and Interfaces with Java",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-7848-2",
+    "amazonASIN": "148427847X",
+    "isbn": "148427847X",
+    "publishedDate": "2022-01-26"
   }
 ]
