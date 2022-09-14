@@ -816,5 +816,25 @@
     "artifactId": "atlantafx-base",
     "logoAvailable": "false",
     "ensemble": "false"
+  },
+  {
+    "id": "fxskins",
+    "name": "FXSkins",
+    "summary": "A collection of new Skins for existing JavaFX controls.",
+    "description": "A collection of new Skins for existing JavaFX controls. These Skins will add more functionality to the controls used in your applications with almost no need to make changes to your application's code.",
+    "tags": "control, skin, javafx",
+    "license": "GNU General Public License, version 2, with the Classpath Exception",
+    "homepage": "https://pixelduke.com/fxskins/",
+    "documentation": "https://pixelduke.com/fxskins/",
+    "repository": "https://github.com/dukke/FXSkins",
+    "githubAccount": "dukke",
+    "githubProject": "FXSkins",
+    "issueTracker": "https://github.com/dukke/FXSkins/issues",
+    "createdOn": "2022-09-14",
+    "modifiedOn": "2021-09-14",
+    "ensemble": "false",
+    "logoAvailable": "false",
+    "groupId": "com.pixelduke",
+    "artifactId": "FXSkins"
   }
 ]
