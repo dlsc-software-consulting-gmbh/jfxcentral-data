@@ -176,5 +176,17 @@
     "amazonASIN": "148427847X",
     "isbn": "148427847X",
     "publishedDate": "2022-01-26"
+  },
+  {
+    "id": "fxgl17",
+    "summary": "Understand real-world game development concepts using JavaFX game engine called FXGL.",
+    "publisher": "Apress",
+    "authors": " Almas Baimagambetov",
+    "name": "Learn JavaFX Game and App Development",
+    "subtitle": "With FXGL 17",
+    "url": "https://www.bookdepository.com/Learn-JavaFX-Game-App-Development-Almas-Baimagambetov/9781484286241",
+    "amazonASIN": "1484286243",
+    "isbn": "1484286243",
+    "publishedDate": "2022-09-08"
   }
 ]

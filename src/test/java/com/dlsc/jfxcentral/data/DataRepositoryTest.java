@@ -34,6 +34,7 @@ public class DataRepositoryTest {
 
         // when
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         // then
         assertTrue(!repository.getBlogs().isEmpty());
@@ -56,6 +57,7 @@ public class DataRepositoryTest {
     public void shouldClearData() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         // when
         repository.clearData();
@@ -84,6 +86,7 @@ public class DataRepositoryTest {
     public void shouldRefreshData() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         // when
         repository.loadData();
@@ -109,6 +112,7 @@ public class DataRepositoryTest {
     public void shouldLoadLibraryDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         assertFalse(repository.getLibraries().isEmpty());
 
@@ -125,6 +129,7 @@ public class DataRepositoryTest {
     public void shouldLoadLibraryInfo() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         assertFalse(repository.getLibraries().isEmpty());
 
@@ -142,6 +147,7 @@ public class DataRepositoryTest {
     public void shouldLoadLibraryInfoFiles() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         assertFalse(repository.getLibraries().isEmpty());
 
@@ -169,6 +175,8 @@ public class DataRepositoryTest {
     public void shouldLoadPersonDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -184,6 +192,8 @@ public class DataRepositoryTest {
     public void shouldLoadLinksOfTheWeek() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getLinksOfTheWeek().isEmpty());
 
         // when
@@ -199,6 +209,8 @@ public class DataRepositoryTest {
     public void shouldLoadNewsText() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getNews().isEmpty());
 
         // when
@@ -214,6 +226,8 @@ public class DataRepositoryTest {
     public void shouldLoadTutorialText() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getTutorials().isEmpty());
 
         // when
@@ -229,6 +243,8 @@ public class DataRepositoryTest {
     public void shouldLoadRealWorldDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getRealWorldApps().isEmpty());
 
         // when
@@ -244,6 +260,8 @@ public class DataRepositoryTest {
     public void shouldLoadCompanyDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getCompanies().isEmpty());
 
         // when
@@ -259,6 +277,8 @@ public class DataRepositoryTest {
     public void shouldLoadDownloadsDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getDownloads().isEmpty());
 
         // when
@@ -274,6 +294,8 @@ public class DataRepositoryTest {
     public void shouldLoadBooksDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getBooks().isEmpty());
 
         // when
@@ -289,6 +311,8 @@ public class DataRepositoryTest {
     public void shouldLoadToolsDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getTools().isEmpty());
 
         // when
@@ -304,6 +328,8 @@ public class DataRepositoryTest {
     public void shouldLoadLibraryArtifactVersion() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getLibraries().isEmpty());
 
         // when
@@ -328,6 +354,8 @@ public class DataRepositoryTest {
     public void shouldGetVideosByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -351,6 +379,8 @@ public class DataRepositoryTest {
     public void shouldGetBlogsByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -370,6 +400,8 @@ public class DataRepositoryTest {
     public void shouldNotGetGuiGarageBlog() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
 
         // when
         Optional<Blog> guigarage = repository.getBlogById("guigarage");
@@ -382,6 +414,8 @@ public class DataRepositoryTest {
     public void shouldGetLibrariesByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -401,6 +435,8 @@ public class DataRepositoryTest {
     public void shouldGetTipsByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -421,6 +457,8 @@ public class DataRepositoryTest {
     public void shouldGetBooksByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -440,6 +478,8 @@ public class DataRepositoryTest {
     public void shouldGetTutorialsByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -459,6 +499,8 @@ public class DataRepositoryTest {
     public void shouldGetDownloadsByPerson() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -478,6 +520,8 @@ public class DataRepositoryTest {
     public void shouldGetPersonById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getPeople().isEmpty());
 
         // when
@@ -493,6 +537,8 @@ public class DataRepositoryTest {
     public void shouldGetCompanyById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getCompanies().isEmpty());
 
         // when
@@ -508,6 +554,8 @@ public class DataRepositoryTest {
     public void shouldGetLibraryById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getLibraries().isEmpty());
 
         // when
@@ -523,6 +571,8 @@ public class DataRepositoryTest {
     public void shouldGetBlogById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getBlogs().isEmpty());
 
         // when
@@ -538,6 +588,8 @@ public class DataRepositoryTest {
     public void shouldGetBookById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getBooks().isEmpty());
 
         // when
@@ -553,6 +605,8 @@ public class DataRepositoryTest {
     public void shouldGetRealWorldAppById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getRealWorldApps().isEmpty());
 
         // when
@@ -568,6 +622,8 @@ public class DataRepositoryTest {
     public void shouldGetToolById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getTools().isEmpty());
 
         // when
@@ -583,6 +639,8 @@ public class DataRepositoryTest {
     public void shouldGetDownloadById() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getDownloads().isEmpty());
 
         // when
@@ -598,6 +656,8 @@ public class DataRepositoryTest {
     public void shouldHaveValidDownloadsURL() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getDownloads().isEmpty());
 
         // when
@@ -630,6 +690,7 @@ public class DataRepositoryTest {
     public void shouldGetOpenJFXPullRequests() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         // when
         List<PullRequest> pullRequests = repository.loadPullRequests();
@@ -642,6 +703,8 @@ public class DataRepositoryTest {
     public void shouldGetTutorialsByLibrary() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getLibraries().isEmpty());
 
         // when
@@ -661,6 +724,8 @@ public class DataRepositoryTest {
     public void shouldGetVideosByLibrary() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getLibraries().isEmpty());
 
         // when
@@ -680,6 +745,8 @@ public class DataRepositoryTest {
     public void shouldGetDownloadsByLibrary() {
         // given
         DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
         assertFalse(repository.getLibraries().isEmpty());
 
         // when

@@ -1,13 +1,8 @@
 GlucoStatusFX
 
-<br>
-A glucose status monitor for Nightscout implemented in JavaFX.
+*A glucose status monitor for Nightscout implemented in JavaFX.*
 
-<br>
-<br>
-
-## Intro
-GlucoStatusFX is optimized for Macos but will also run on Windows and Linux. On Macos it will look like a native app, react on dark/light mode changes and also supports the
+*GlucoStatusFX* is optimized for Macos but will also run on Windows and Linux. On Macos it will look like a native app, react on dark/light mode changes and also supports the
 accent color one chooses in the System settings.
 The plan is to also create a version that looks like a native Windows app (but that's not started yet due to the lack of time).
 
@@ -34,36 +29,36 @@ To use this app you need to have a nightscout server which url you have to put i
 text field in the settings dialog.
 In the settings dialog you can will find the following parameters:
 
-<b>"Unit mg/dl":</b><br>
+**"Unit mg/dl"**
 Whatever unit you have defined on your nightscout server you can change the display to either mg/dl or mmol/l. In case you would like to see the values in mg/dl, please enable the switch "Unit mg/dl". If you disable this switch the values will be shown in mmol/l.
 
-<b>"Low value notification":</b><br>
+**"Low value notification"**
 Enable the switch if you would like to receive notifications for low values (in GlucoStatusFX acceptable low means values between min acceptable and 55 mg/dl which is min critical).
 
-<b>"Acceptable low value notification":</b><br>
+**"Acceptable low value notification"**
 Enable the switch if you would like to receive notifications for acceptable low values (in GlucoStatusFX acceptable low means values between min normal and min acceptable values).
 
-<b>"Acceptable high value notification":</b><br>
+**"Acceptable high value notification"**
 Enable the switch if you would like to receive notifications for acceptable high values (in GlucoStatusFX acceptable high means values between max normal and max acceptable values).
 
-<b>"High value notification":</b><br>
+**"High value notification"**
 Enable the switch if you would like to receive notifications for high values (in GlucoStatusFX high means values between max acceptable and 350 mg/dl which is max critical).
 
-<b>"Too low notification interval":</b><br>
+**"Too low notification interval"**
 You can define the interval for notifications of too low values in a range of 5-10 minutes. In case of too low values you will receive notifications in the given interval.
 
-<b>"Too high notification interval":</b><br>
+**"Too high notification interval"**
 You can define the interval for notifications of too high values in a range of 5-30 minutes. In case of too high values you will receive notifications in the given interval.
 
-<b>"Min acceptable":</b><br>
+**"Min acceptable"**
 The min acceptable value can be defined in the range of 60-70 mg/dl.
 
-<b>"Min normal":</b><br>
+**"Min normal"**
 The min normal value can be defined in the range of 70-80 mg/dl.
 
-<b>"Max normal":</b><br>
+**"Max normal"**
 The max normal value can be defined in the range of 120-160 mg/dl.
 
-<b>"Max acceptable":</b><br>
+**"Max acceptable"**
 The max acceptable value can be defined in the range of 120-250 mg/dl.
 
