@@ -836,5 +836,25 @@
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "FXSkins"
+  },
+  {
+    "id": "fxribbon",
+    "name": "FXRibbon",
+    "summary": "Ribbon control for the JavaFX framework.",
+    "description": "Ribbon control for the JavaFX framework, based on Microsoft Ribbon.",
+    "tags": "control, javafx",
+    "license": "GPL2CLASSPATH",
+    "homepage": "https://pixelduke.com/fxribbon/",
+    "documentation": "https://pixelduke.com/fxribbon/",
+    "repository": "https://github.com/dukke/FXRibbon",
+    "githubAccount": "dukke",
+    "githubProject": "FXRibbon",
+    "issueTracker": "https://github.com/dukke/FXRibbon/issues",
+    "createdOn": "2022-09-15",
+    "modifiedOn": "2021-09-15",
+    "ensemble": "false",
+    "logoAvailable": "false",
+    "groupId": "com.pixelduke",
+    "artifactId": "fxribbon"
   }
 ]

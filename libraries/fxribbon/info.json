@@ -1,0 +1,9 @@
+{
+  "images": [
+    {
+      "path": "Ribbon.png",
+      "title": "FXRibbon",
+      "description": "FXRibbon control for JavaFX"
+    }
+  ]
+}
