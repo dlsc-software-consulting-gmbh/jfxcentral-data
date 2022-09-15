@@ -15,7 +15,6 @@
     "personIds": [
       "a.demarco"
     ]
-
   },
   {
     "id": "rnartist",
@@ -413,5 +412,14 @@
     "domain": "Desktop Search Tool",
     "summary": "SmartFinder allows you to use an innovative way to search for your Desktop's files with an experience similar to Google's search",
     "tags": "desktop search, windows search, finder, web application"
+  },
+  {
+    "id": "wrapperrfid",
+    "name": "WrapperRFID",
+    "company": "Wrapper Sistemas LTDA",
+    "url": "https://www.wrapper.com.br/",
+    "domain": "Logistics",
+    "summary": "Control the loading and unloading of products in one of the largest retailers in Brazil. ",
+    "tags": "logistics, planning, scheduling"
   }
 ]
