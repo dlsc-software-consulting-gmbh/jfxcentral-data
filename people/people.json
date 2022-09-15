@@ -380,7 +380,8 @@
     "github": "dukke",
     "libraryIds": [
       "jmetro",
-      "fxskins"
+      "fxskins",
+      "fxribbon"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
