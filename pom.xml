@@ -16,6 +16,8 @@
     <name>JFXCentralData</name>
 
     <properties>
+        <project.identifier>jfxcentraldata</project.identifier>
+        <project.github.repository>dlemmermann/jfxcentral-data</project.github.repository>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
 
