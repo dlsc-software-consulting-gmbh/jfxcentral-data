@@ -35,7 +35,7 @@ Stay on top of your literature: JabRef helps you to collect and organize sources
 |----------| ---------------------|
 | Windows, Mac, Linux  | [Fosshub Download](https://www.fosshub.com/JabRef.html) |
 
-![Screen](screen-shot-1.png)
+![Screen](jabref-mainscreen.png)
 
 ## License
 
