@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "path": "ParallaxPane1.jpg",
+      "title": "ParallaxPane1",
+      "description": "ParallaxPane screen capture 1"
+    },
+    {
+      "path": "ParallaxPane2.jpg",
+      "title": "ParallaxPane2",
+      "description": "ParallaxPane screen capture 2"
+    }
+  ]
+}
