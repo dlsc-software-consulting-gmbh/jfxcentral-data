@@ -1,3 +1,2 @@
-JavaFX and Swing Freelancer and Consultant or more generally a Front End Freelancer, 
-Consultant and Software Designer specialized in user interfaces, contributor to open source. 
-Owner of Pixel Duke a JavaFX, Swing and Front End consultancy company.
+Java and JavaFX Freelancer and Consultant. Pedro's also Software Designer specialized in User Interfaces and User Experience. Contributor to open source.   
+Owner of Pixel Duke a Java, JavaFX, User Interface Design and User Experience consultancy company.
