@@ -136,6 +136,6 @@
     "homepage": "https://www.hydraulic.software",
     "tags": "distribution, packaging, jvm",
     "createdOn": "2022-09-30",
-    "libraryIds": [ "conveyor" ]
+    "toolIds": [ "conveyor" ]
   }
 ]
