@@ -15,7 +15,6 @@
     "personIds": [
       "a.demarco"
     ]
-
   },
   {
     "id": "rnartist",
@@ -422,6 +421,14 @@
     "domain": "Citation management",
     "summary": "JabRef is an open-source, cross-platform citation and reference management tool.",
     "tags": "BibTeX, LaTeX, citation, references, bibliography"
+  },
+  {
+    "id": "wrapperrfid",
+    "name": "WrapperRFID",
+    "company": "Wrapper Sistemas LTDA",
+    "url": "https://www.wrapper.com.br/",
+    "domain": "Logistics",
+    "summary": "Control the loading and unloading of products in one of the largest retailers in Brazil. ",
+    "tags": "logistics, planning, scheduling"
   }
-
 ]
