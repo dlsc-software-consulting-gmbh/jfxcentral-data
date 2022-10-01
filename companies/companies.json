@@ -129,5 +129,13 @@
     "libraryIds": [
       "jxbrowser"
     ]
+  },
+  {
+    "id": "hydraulic",
+    "name": "Hydraulic Software AG",
+    "homepage": "https://www.hydraulic.software",
+    "tags": "distribution, packaging, jvm",
+    "createdOn": "2022-09-30",
+    "toolIds": [ "conveyor" ]
   }
 ]
