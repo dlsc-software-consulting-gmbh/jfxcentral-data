@@ -148,7 +148,7 @@
     "id": "fxiconcreator",
     "name": "FXIconCreator",
     "summary": "Tool for creating icons for Windows, Linux, OSX",
-    "description": "Small app to create icon sets (multi resolution) for Linux, Windows, OSX from a single PNG imageReason for creating such an app was that I had to create app icons out of png files but I was tired to always fire up different virtual machine only to use the native tools to create the icons. All web based icon converter are converting the icons in the wrong format (not as multi resolution).",
+    "description": "Small app to create icon sets (multi resolution) for Linux, Windows, OSX from a single PNG image. Reason for creating such an app was that I had to create app icons out of png files but I was tired to always fire up different virtual machine only to use the native tools to create the icons. All web based icon converter are converting the icons in the wrong format (not as multi resolution).",
     "tags": "icons",
     "groupId": "org.itarchitects",
     "artifactId": "fxiconcreator",
@@ -172,5 +172,15 @@
     "videoIds": [
       "ifrUL9na1kU"
     ]
+  },
+  {
+    "id": "conveyor",
+    "name": "Conveyor",
+    "summary": "Simple application packaging with support for software updates.",
+    "description": "Conveyor makes distributing JavaFX apps as easy as for a web app. It builds self-updating packages/installers, fully signed or self signed and for every desktop OS, from the comfort of your laptop or CI machine.",
+    "tags": "packaging, distribution, updates",
+    "homepage" : "https://www.hydraulic.software",
+    "createdOn" : "2022-09-30",
+    "companyIds": [ "hydraulic" ]
   }
 ]
