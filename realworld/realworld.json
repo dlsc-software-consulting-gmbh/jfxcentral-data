@@ -414,6 +414,15 @@
     "tags": "desktop search, windows search, finder, web application"
   },
   {
+    "id": "jabref",
+    "name": "JabRef",
+    "company": "JabRef e.V.",
+    "url": "https://www.jabref.org/",
+    "domain": "Citation management",
+    "summary": "JabRef is an open-source, cross-platform citation and reference management tool.",
+    "tags": "BibTeX, LaTeX, citation, references, bibliography"
+  },
+  {
     "id": "wrapperrfid",
     "name": "WrapperRFID",
     "company": "Wrapper Sistemas LTDA",
