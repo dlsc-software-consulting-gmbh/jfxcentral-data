@@ -1,7 +1,7 @@
 * [**Gluon**](https://twitter.com/GluonHQ/) announced the release of **Gluon Scene Builder 19**. You can get it from [github.com/gluonhq/scenebuilder/releases](https://github.com/gluonhq/scenebuilder/releases/tag/19.0.0).
   * It incorporates JavaFX 19 wich brings lots of improvements, so you benefit [from all these release highlights](https://openjfx.io/highlights/19/).
   * [This tweet shows a video](https://twitter.com/Raumzeitfalle/status/1578692849746718720?t=mNxAaRN22Frjkf6kTfGy-w&s=09) of a bugfix on macOS where copy&paste often resulted in entries doubled after paste. A new preference setting "alternative paste behavior for text input" is available on macOS and is enabled by default.
-* Already want to test JavaFX 20 Early Access? It's already [available on the **Gluon** website](https://gluonhq.com/products/javafx/#ea)!
+* Want to test JavaFX 20 Early Access? It's already [available on the **Gluon** website](https://gluonhq.com/products/javafx/#ea)!
 * Up till now, each of the newer JavaFX versions could run with a lower JDK, e.g. JavaFX 17 works with JDK 11. But this will change as [was mentioned on the mailinglist](https://mail.openjdk.org/pipermail/openjfx-dev/2022-October/036089.html): "JavaFX 20 requires JDK 17 or later." 
 * [**Abhinay Agarwal**](https://twitter.com/iAbhinay) shared a few very interesting JavaFX links:
   * [**edencoding.com**](https://edencoding.com/category/javafx/) has the "Most vibrant collection of JavaFX articles I have come across recently. Kudos to [**Ed Eden-Rump** AKA NerdyEden](https://twitter.com/NerdyEden)."
