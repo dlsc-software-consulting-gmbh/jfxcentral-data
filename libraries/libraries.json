@@ -875,5 +875,25 @@
     "peopleIds": [
       "j.gassen"
     ]
+  },
+  {
+    "id": "fxparallax",
+    "name": "FXParallax",
+    "summary": "Parallax framework for Java (JavaFX)",
+    "description": "Parallax framework for Java (JavaFX). This framework adds controls to add Parallax effects to JavaFX application, this effect can add a sense of depth (3D like) to where it’s used.",
+    "tags": "control, javafx",
+    "license": "GPL2CLASSPATH",
+    "homepage": "https://www.pixelduke.com/fxparallax",
+    "documentation": "https://www.pixelduke.com/fxparallax",
+    "repository": "https://github.com/dukke/FXParallax",
+    "githubAccount": "dukke",
+    "githubProject": "FXParallax",
+    "issueTracker": "https://github.com/dukke/FXParallax/issues",
+    "createdOn": "2022-10-05",
+    "modifiedOn": "2022-10-05",
+    "ensemble": "false",
+    "logoAvailable": "false",
+    "groupId": "com.pixelduke",
+    "artifactId": "FXParallax"
   }
 ]

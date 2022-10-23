@@ -270,43 +270,49 @@
   },
   {
     "id": "scenebuilder",
-    "name": "Scene Builder 17.0.0 (September 29th, 2021)",
+    "name": "Scene Builder 19.0.0 (October 7th, 2022)",
     "tags": "debug, inspect, scene graph",
     "homepage": "https://gluonhq.com/products/scene-builder/",
     "downloadType": "APPLICATION",
     "createdOn": "2021-09-29",
-    "modifiedOn": "2021-09-29",
+    "modifiedOn": "2021-10-10",
     "companyIds": [
       "gluon"
     ],
     "files": [
       {
         "name": "Windows",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/17.0.0/install/windows/SceneBuilder-17.0.0.msi",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/win/SceneBuilder-19.0.0.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
-        "name": "Mac",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/17.0.0/install/mac/SceneBuilder-17.0.0.dmg",
+        "name": "Mac (Intel)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/mac/SceneBuilder-19.0.0-amd64.dmg",
+        "fileName": "",
+        "package": "DMG"
+      },
+      {
+        "name": "Mac (Apple Silicon)",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/mac/SceneBuilder-19.0.0-aarch64.dmg",
         "fileName": "",
         "package": "DMG"
       },
       {
         "name": "Linux RPM",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/17.0.0/install/linux/SceneBuilder-17.0.0.rpm",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/linux/SceneBuilder-19.0.0.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "Linux DEB",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/17.0.0/install/linux/SceneBuilder-17.0.0.deb",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/linux/SceneBuilder-19.0.0.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "JAR File",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/17.0.0/scenebuilder-kit-17.0.0.jar",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/scenebuilder-kit-19.0.0.jar",
         "fileName": "",
         "package": "JAR"
       }

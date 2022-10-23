@@ -82,5 +82,23 @@
     "tags": "openjfx, links, week, JPackage, IntelliJ, Serendipity, SmartFinder, WebFX, OpenCV",
     "createdOn": "2022-09-30",
     "modifiedOn": "2022-09-30"
+  },
+  {
+    "id": "2022-10-07",
+    "tags": "openjfx, links, week, MarlinFX, CalendarFX, FXGL, SceneBuilder, OrangoMango, Devoxx, Gluon, JabRef, Conveyor, FXParallax, jpro",
+    "createdOn": "2022-10-07",
+    "modifiedOn": "2022-10-07"
+  },
+  {
+    "id": "2022-10-14",
+    "tags": "openjfx, links, week, SceneBuilder, Installer, GemsFX, CalendarFX, Pi4J, Devoxx, FXComponents",
+    "createdOn": "2022-10-14",
+    "modifiedOn": "2022-10-14"
+  },
+  {
+    "id": "2022-10-21",
+    "tags": "openjfx, links, week, Oracle, Gluon, Devoxx, TweetwallFX, FXGL, PhotoSlide, FXComponents, LogoRRR, WebFX",
+    "createdOn": "2022-10-21",
+    "modifiedOn": "2022-10-21"
   }
 ]
