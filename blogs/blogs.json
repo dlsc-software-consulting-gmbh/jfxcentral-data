@@ -105,5 +105,17 @@
     "personIds": [
       "a.carroll"
     ]
+  },
+    {
+    "id": "abhinay.xyz",
+    "name": "Abhinay Agarwal",
+    "summary": "Things good to know about JavaFX",
+    "url": "https://abhinay.xyz/",
+    "createdOn": "2022-10-22",
+    "feed": "https://abhinay.xyz/feed.xml",
+    "tags:": "javafx,fxml,controls,virtualflow, virtual flow, javafx flags, prism, glass, quantum",
+    "personIds": [
+      "a.agarwal"
+    ]
   }
 ]
