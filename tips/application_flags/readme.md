@@ -81,7 +81,7 @@ This is my humble attempt to categorise and list all the flags:
 |  glass.gtk.uiScale | | decimal e.g. "1.25" | Force UI scaling factor |
 | glass.win.forceIntegerRenderScale | true | boolean | Disables force integer rendering scale |
 | glass.win.minHiDPI | | percentage e.g. "125%" |  |
-| glass.win.renderScale |  | percentage e.g. "125%" | 
+| glass.win.renderScale |  | percentage e.g. "125%" | | 
 | glass.win.uiScale |  | percentage e.g. "125%" |  |
 | sun.java2d.uiScale |  | percentage e.g. "125%" |  |
 | sun.java2d.uiScale.enabled |  | true |  |
