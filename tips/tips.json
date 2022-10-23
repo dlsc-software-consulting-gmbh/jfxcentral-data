@@ -89,5 +89,17 @@
     "personIds": [
       "d.lemmermann"
     ]
+  },
+  {
+    "id": "application_flags",
+    "name": "Flags for JavaFX applications",
+    "summary": "Summary of available configuration parameters and flags for JavaFX applications.",
+    "description": "",
+    "tags": "javafx, application, prism, glass, jdk, gtk, monocle, quantum, pulse, GPU, scaling, accessibility, animation",
+    "createdOn": "2022-10-22",
+    "modifiedOn": "2022-10-22",
+    "personIds": [
+      "a.agarwal"
+    ]
   }
 ]

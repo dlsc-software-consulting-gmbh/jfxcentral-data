@@ -579,5 +579,23 @@
     ],
     "createdOn": "2022-01-28",
     "modifiedOn": "2022-01-28"
+  },
+  {
+    "name": "Jan Gassen",
+    "email": "",
+    "companyId": "",
+    "website": "http://www.jangassen.de",
+    "blogId": "",
+    "linkedIn": "jangassen",
+    "twitter": "jan_gassen",
+    "champion": false,
+    "rockstar": false,
+    "id": "j.gassen",
+    "gitHub": "0x4a616e",
+    "libraryIds": [
+      "nsmenufx"
+    ],
+    "createdOn": "2022-10-22",
+    "modifiedOn": "2022-10-22"
   }
 ]

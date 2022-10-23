@@ -1,0 +1,39 @@
+{
+  "images": [
+    {
+      "path": "NSMenuFX.png",
+      "title": "NSMenuFX",
+      "description": "A library to customize the macOS menu bar to give your JavaFX app a more native look and feel."
+    },
+    {
+      "path": "app_menu.png",
+      "title": "Application menu",
+      "description": "macOS application menu"
+    },
+    {
+      "path": "context_dark.png",
+      "title": "Context menu (dark mode)",
+      "description": ""
+    },
+    {
+      "path": "context_light.png",
+      "title": "Context menu (light mode)",
+      "description": ""
+    },
+    {
+      "path": "dock_menu.png",
+      "title": "Dock Icon Menu",
+      "description": ""
+    },
+    {
+      "path": "tray_menu.png",
+      "title": "Tray Menu",
+      "description": ""
+    },
+        {
+      "path": "window_menu.png",
+      "title": "Window Menu",
+      "description": ""
+    }
+  ]
+}
