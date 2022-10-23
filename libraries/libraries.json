@@ -856,5 +856,24 @@
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "fxribbon"
+  },
+  {
+    "id": "nsmenufx",
+    "name": "NSMenuFX",
+    "summary": "A simple library to customize the macOS menu bar to give your JavaFX app a more native look and feel.",
+    "tags": "mac, macOS, NSmenu, app menu, tray, tray icon, system tray, javafx trayicon",
+    "description": "NSMenuFX provides a mapping layer between the JavaFX Menu and AppKits NSMenu objects. It uses JNA to directly set the menus for your application using macOS native API.",
+    "documentation": "https://github.com/0x4a616e/NSMenuFX",
+    "license": "BSD3",
+    "homepage": "https://github.com/0x4a616e/NSMenuFX",
+    "javadocs": "",
+    "createdOn": "2022-10-22",
+    "groupId": "de.jangassen",
+    "artifactId": "nsmenufx",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "peopleIds": [
+      "j.gassen"
+    ]
   }
 ]
