@@ -430,5 +430,20 @@
     "domain": "Logistics",
     "summary": "Control the loading and unloading of products in one of the largest retailers in Brazil. ",
     "tags": "logistics, planning, scheduling"
+  },
+  {
+    "id": "hero",
+    "name": "HERO",
+    "company": "Hero Software",
+    "url": "https://www.hero-software.com.au/",
+    "domain": "Civil Engineering",
+    "tags": "civil engineering, energy efficiency, cad",
+    "summary": "A CAD software for doing energy efficiency assessment",
+    "videoIds": [
+      "8jkKF5LgonQ"
+    ],
+    "personIds": [
+      "p.vieira"
+    ]
   }
 ]
