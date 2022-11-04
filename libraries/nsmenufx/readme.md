@@ -1,10 +1,5 @@
 # NSMenuFX
 
-[![Maven Central](https://img.shields.io/maven-central/v/de.jangassen/nsmenufx.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22de.jangassen%22%20AND%20a:%22nsmenufx%22)
-![Test](https://github.com/0x4a616e/NSMenuFX/workflows/Test/badge.svg)
-![CodeQL](https://github.com/0x4a616e/NSMenuFX/workflows/CodeQL/badge.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/0x4a616e/NSMenuFX/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/0x4a616e/NSMenuFX?targetFile=pom.xml)
-
 A simple library to customize the macOS menu bar to give your JavaFX app
 a more [native look and feel](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/MenuBarMenus.html).  
 

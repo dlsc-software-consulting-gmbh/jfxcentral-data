@@ -100,5 +100,17 @@
     "tags": "openjfx, links, week, Oracle, Gluon, Devoxx, TweetwallFX, FXGL, PhotoSlide, FXComponents, LogoRRR, WebFX",
     "createdOn": "2022-10-21",
     "modifiedOn": "2022-10-21"
+  },
+  {
+    "id": "2022-10-28",
+    "tags": "openjfx, links, week, Mobile, DataVisualization, DesignPatterns, WebFX, NSMenuFX, Flags",
+    "createdOn": "2022-10-28",
+    "modifiedOn": "2022-10-28"
+  },
+  {
+    "id": "2022-11-04",
+    "tags": "openjfx, links, week, Chess, BobFI, VisualModeler, SceneBuilder, JPro",
+    "createdOn": "2022-11-04",
+    "modifiedOn": "2022-11-04"
   }
 ]

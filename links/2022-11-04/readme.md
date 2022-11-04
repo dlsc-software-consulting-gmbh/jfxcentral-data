@@ -1,0 +1,10 @@
+* JavaFX Chess by [**John Sirach**](https://twitter.com/john_sirach) is not a new project, but [**Jakob Jenkov**](https://twitter.com/jjenkov) shared [a tweet about it](https://twitter.com/jjenkov/status/1586785876050427904), and it's always nice [to see a video of this amazing project](https://www.youtube.com/watch?v=6S6km5duBrM).
+* We already shared here that Oracle will also be distributing JavaFX builds, and you can see [the announcement they did at JavaOne here](https://www.youtube.com/watch?v=4hUbmI0nplU&t=1600s).
+  * [**Takaaki Sugiyama**](https://twitter.com/zinbe) shared [a lot of screenshot pictures of the JavaOne presentation "JavaFX 19 and Beyond"](https://twitter.com/zinbe/status/1583208414707998720), and the full presentation by [**Kevin Rushforth**](https://twitter.com/kevinrushforth) is available as a [PDF here](https://cr.openjdk.java.net/~kcr/presentations/javaone-2022/JavaFX-19_Final.pdf).
+* [**Samie Azubike**](https://twitter.com/samieteq) shared a [video in a tweet showing BobFI](https://twitter.com/samieteq/status/1583769072273354752), a nice JavaFX UI to manage tasks, projects, messages, and help you communicate with your team.
+* Some new great demos of the visual modeler, written in JavaFX and integrating OpenCV, by [**Alessio Vinerbi**](https://twitter.com/Alessio_Vinerbi):
+  * [Blending modes](https://twitter.com/Alessio_Vinerbi/status/1586044299996631042)
+  * [Integration of processing nodes](https://twitter.com/Alessio_Vinerbi/status/1587406474313089026)
+* A feature in development for SceneBuilder: drop one or more FXML files into the welcome page to open them, as you can see in [this video](https://twitter.com/Raumzeitfalle/status/1587543306782887937?t=48IdRrEehs88chXQ0iAMKg&s=09) shared by [**Raumzeitfalle**](https://twitter.com/Raumzeitfalle).
+* [**JPro**](https://twitter.com/jpro_one) announced a [new version 2022.1.6](https://www.jpro.one/docs/current/3.1/2022.1.X?) with a modernized FileUpload API, support for multi-file upload, and browser native scrolling.
+  * This means [jfx-central.com](https://www.jfx-central.com/) now also uses this new scrolling implementation.
