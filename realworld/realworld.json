@@ -445,5 +445,20 @@
     "personIds": [
       "p.vieira"
     ]
+  },
+  {
+    "id": "modellusx",
+    "name": "Modellus X",
+    "company": "Pixel Duke and FCT",
+    "url": "https://www.facebook.com/profile.php?id=100057471997396",
+    "domain": "Education",
+    "tags": "education, modelling, physics, mathematics",
+    "summary": "Modellus is a freely available application that enables students and teachers (high school and university) to use mathematics to create or explore models interactively.",
+    "videoIds": [
+      "SVek-DzR5B8"
+    ],
+    "personIds": [
+      "p.vieira"
+    ]
   }
 ]
