@@ -1,0 +1,8 @@
+* [**Rachael Ellen**](https://twitter.com/Geolocoder) shared a [screenshot of an app that sketches polygons](https://twitter.com/Geolocoder/status/1588208416547254272) to highlight abandoned structures of the long deserted settlement of Shiaba, (IsleOfMull, Scotland). The [full project is on GitHub](https://github.com/Esri/arcgis-runtime-samples-java).
+* [**PDFsam**](https://twitter.com/PDFsamOSS), a powerful and professional PDF editor, will have a dark theme in the next major version as [you can see in this screen recording](https://twitter.com/PDFsamOSS/status/1588564518644617216).
+* [**Dirk Lemmermann**](https://twitter.com/dlemmermann) expressed his admiration for [CSSFX](https://www.jfx-central.com/tools/cssfx) that saves him a lot of time while developing by providing CSS reloading functionality in your running application.
+* Regular guests of this weekly list:
+  * Two months ago,[**Robert Ladstätter**](https://twitter.com/rladstaetter) announced the 1000th download of LogoRRR, another JavaFX GUI application! This week he [passed the 2000 downloads](https://twitter.com/logorrr/status/1588802037923254272)! Congratz for a great app!!
+  * The visual modeler by [**Alessio Vinerbi**](https://twitter.com/Alessio_Vinerbi) now also [integrates MQTT as you can see in this screen recording](https://twitter.com/Alessio_Vinerbi/status/1588849677645934594). BTW, this tool is not public yet, but we hope to be able to give it a try ourselves... ;-)
+* New content on jfx-central.com:
+  * Real-world app: ["HERO"](https://www.jfx-central.com/real_world/hero) by [**Pedro Duque Vieira**](https://twitter.com/P_Duke), a CAD application for calculating the energy efficiency of dwellings. 
