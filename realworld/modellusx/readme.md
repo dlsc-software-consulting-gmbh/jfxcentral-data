@@ -17,5 +17,8 @@ on the meaning of models.
 
 Modellux X latest release was in 2012, but it is still being used today.
 
+You can find hundreds of videos on YouTube, made by users from all over the world, that use Modellus to illustrate scientific concepts: 
+[https://www.youtube.com/results?search_query=modellus](https://www.youtube.com/results?search_query=modellus) 
+
 ![Screen 1](screen1.jpg)
 
