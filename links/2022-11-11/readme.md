@@ -5,7 +5,7 @@
 * [**JavaFX3D**](https://twitter.com/JavaFX3D) shared a link to a nice [Monopoly game implemented in JavaFX as a student project by Titof Abdellatif Anflous](https://twitter.com/JavaFX3D/status/1590145286118465536).
 * [**OrangoMango**](https://twitter.com/orango_mango), a Java game developer, [published a video](https://www.youtube.com/watch?v=NOPdE1UoqRw) showing how to make a simple shooter game in Java with the JavaFX framework.
 * Regular guests of this weekly list:
-  * Two months ago,[**Robert Ladstätter**](https://twitter.com/rladstaetter) announced the 1000th download of LogoRRR, another JavaFX GUI application! This week he [passed the 2000 downloads](https://twitter.com/logorrr/status/1588802037923254272)! Congratz for a great app!!
+  * Two months ago, [**Robert Ladstätter**](https://twitter.com/rladstaetter) announced the 1000th download of LogoRRR, another JavaFX GUI application! This week he [passed the 2000 downloads](https://twitter.com/logorrr/status/1588802037923254272)! Congratz for a great app!!
   * The visual modeler by [**Alessio Vinerbi**](https://twitter.com/Alessio_Vinerbi) now also [integrates MQTT as you can see in this screen recording](https://twitter.com/Alessio_Vinerbi/status/1588849677645934594). BTW, this tool is not public yet, but we hope to be able to give it a try ourselves soon... ;-)
   * [**WebFX**](https://twitter.com/WebFXProject) announced that [**Modality**](https://modality.one) chose WebFX as its UI toolkit, being the first real-world WebFX application in development, and is driving forward the WebFX enterprise features. See [video in the tweet](https://twitter.com/WebFXProject/status/1589961407469977600).
 * New content on jfx-central.com:
