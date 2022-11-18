@@ -1,0 +1,1 @@
+* **Inside Java** [published a podcast](https://inside.java/2022/11/18/podcast-027/) with Kevin Rushforth, OpenJFX Project Co-Lead, working at Oracle.
