@@ -29,13 +29,13 @@ JavaFX has various flags to either add debug logs or switch configuration.
 
 ## Quantum
 
-| Flag | Default | Options | Details |
-| :--- | :------ | :------ | :------ |
-| quantum.debug | false | boolean | Force enable a11y on older platforms |
-| quantum.multithreaded | true | boolean | Disables multi-threaded toolkit |
-| quantum.norenderjobs | false | boolean | Quantum will stop submitting render jobs |
-| quantum.singlethreaded | false | boolean | Enable single GUI Threading. Can cause a drop in FPS |
-| quantum.verbose | false | boolean | Verbose logging in Quantum toolkit |
+| Flag | Default | Options | Details                                              |
+| :--- | :------ | :------ |:-----------------------------------------------------|
+| quantum.debug | false | boolean | Force enable a11y on older platforms                 |
+| quantum.multithreaded | true | boolean | Disables multi-threaded toolkit                      |
+| quantum.norenderjobs | false | boolean | Quantum will stop submitting render jobs             |
+| quantum.singlethreaded | false | boolean | Enable single GUI threading. Can cause a drop in FPS |
+| quantum.verbose | false | boolean | Verbose logging in Quantum toolkit                   |
 
 ## Prism
 
