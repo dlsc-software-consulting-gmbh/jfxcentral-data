@@ -1,10 +1,4 @@
-Abhinay Agarwal
-
-JavaFX has various flags to either add debug logs or switch configuration. However, there is no central location which lists all these flags. There have been multiple attempts to officially do this but most of them failed:
-
-* [Need an official document covering Prism flags](https://bugs.openjdk.java.net/browse/JDK-8091497)
-
-This is my humble attempt to categorise and list all the flags:
+JavaFX has various flags to either add debug logs or switch configuration.
 
 ## General
 
