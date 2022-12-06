@@ -445,5 +445,28 @@
     "personIds": [
       "p.vieira"
     ]
+  },
+  {
+    "id": "qfive",
+    "name": "QFive",
+    "company": "Prime Competence",
+    "url": "https://q-five.com/",
+    "domain": "E-Learning",
+    "tags": "e-learning",
+    "summary": "E-Learning platform for enterprise customers",
+    "personIds": [
+      "f.kirmaier"
+    ]
+  },
+  {
+    "id": "nerstar",
+    "name": "NERstar",
+    "company": "SWISS TXT",
+    "url": "https://nerstar.swisstxt.eu/",
+    "domain": "Television subtitling",
+    "summary": "NERstar is a product for subtitle management for Live Television.",
+    "personIds": [
+      "f.kirmaier"
+    ]
   }
 ]
