@@ -39,7 +39,7 @@ public class DataRepository {
 
     public static boolean ASYNC = true;
 
-    public static File REPO_DIRECTORY = new File(System.getProperty("user.home"), ".jfxcentralrepo");
+    public static File REPO_DIRECTORY = new File(System.getProperty("jfxcentral.repo", new File(System.getProperty("user.home"), ".jfxcentralrepo").getAbsolutePath())).getAbsoluteFile();
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
