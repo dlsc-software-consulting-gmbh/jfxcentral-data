@@ -12,4 +12,5 @@
 * New content on jfx-central.com:
   * ["QFive"](https://www.jfx-central.com/real_world/qfive): an e-learning platform for enterprise customers, running on desktop, browser and mobile.
   * ["NERstar"](https://www.jfx-central.com/real_world/nerstar): a cross-platform media application, used to create subtitles for live television, running on desktop and browser.
-  * A total of 40 "real world apps" is now listed on the website!
+  * ["ModellusX"](https://www.jfx-central.com/real_world/modellusx): enables students and teachers to use mathematics to create or explore models interactively. The latest release dates from 2012, but you can still find a [lot of videos created with it on YouTube](https://www.youtube.com/results?search_query=modellus).
+  * Over 40 "real world apps" is now listed on the website!
