@@ -1,14 +1,4 @@
-Abhinay Agarwal
-
-# Flags for JavaFX application
-Oct. 3, 2022
-https://abhinay.xyz/javafx/2022/10/03/OpenJFX-flags.html
-
-JavaFX has various flags to either add debug logs or switch configuration. However, there is no central location which lists all these flags. There have been multiple attempts to officially do this but most of them failed:
-
-* [Need an official document covering Prism flags](https://bugs.openjdk.java.net/browse/JDK-8091497)
-
-This is my humble attempt to categorise and list all the flags:
+JavaFX has various flags to either add debug logs or switch configuration.
 
 ## General
 
@@ -39,13 +29,13 @@ This is my humble attempt to categorise and list all the flags:
 
 ## Quantum
 
-| Flag | Default | Options | Details |
-| :--- | :------ | :------ | :------ |
-| quantum.debug | false | boolean | Force enable a11y on older platforms |
-| quantum.multithreaded | true | boolean | Disables multi-threaded toolkit |
-| quantum.norenderjobs | false | boolean | Quantum will stop submitting render jobs |
-| quantum.singlethreaded | false | boolean | Enable single GUI Threading. Can cause a drop in FPS |
-| quantum.verbose | false | boolean | Verbose logging in Quantum toolkit |
+| Flag | Default | Options | Details                                              |
+| :--- | :------ | :------ |:-----------------------------------------------------|
+| quantum.debug | false | boolean | Force enable a11y on older platforms                 |
+| quantum.multithreaded | true | boolean | Disables multi-threaded toolkit                      |
+| quantum.norenderjobs | false | boolean | Quantum will stop submitting render jobs             |
+| quantum.singlethreaded | false | boolean | Enable single GUI threading. Can cause a drop in FPS |
+| quantum.verbose | false | boolean | Verbose logging in Quantum toolkit                   |
 
 ## Prism
 

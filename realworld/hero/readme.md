@@ -1,4 +1,4 @@
-HERO (Home Energy Rating and Optimisation) is a CAD application for calculating the energy efficiency of dwellings (or multiple dwellings).It can be seen as an application similar to Autocad (which is used in civil engineering, architecture, etc) but with the specific purpose to do energy efficiency assessments. It's a quite complex application that was built in a record time (around 12 to 18 months) and with a much smaller 
+HERO (Home Energy Rating and Optimisation) is a CAD application for calculating the energy efficiency of dwellings (or multiple dwellings). It can be seen as an application similar to Autocad (which is used in civil engineering, architecture, etc) but with the specific purpose to do energy efficiency assessments. It's a quite complex application that was built in a record time (around 12 to 18 months) and with a much smaller 
 budget than competing projects.  
 
 The main view window was built leveraging just the JavaFX scene graph (retained mode graphics). It has thousands of nodes,
