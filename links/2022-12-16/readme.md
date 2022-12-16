@@ -1,0 +1,12 @@
+* Strange things are happening in the online social world... Looking for a friendly environment for the Java, JavaFX, OpenJDK, JVM, Kotlin,... community? Join [foojay.social, more info in this post](https://foojay.io/today/foojay-on-mastodon-an-update/), including a video to get you started.
+* In an interview, [**Frank Delporte**](https://foojay.social/@frankdelporte) spoke with [**Sean Phillips**](https://twitter.com/SeanMiPhillips). Every single thing he touches in his programming life turns into awesomeness. Read more about his work with [Trinity, a tool to visualize Brain Computer Interface data](https://foojay.io/today/visualizing-brain-computer-interface-data-using-javafx/). 
+* [**Antonio Pelusi**](https://twitter.com/antopelusi) shared a complete CSS stylesheet to set a [dark theme in your JavaFX UI](https://www.antoniopelusi.com/posts/javafx-dark-theme/). 
+* [**Donald Raab**](https://twitter.com/TheDonRaab) is searching for a [JavaFX App Store...](https://twitter.com/TheDonRaab/status/1603465185481658394).
+  * And he shared an [overview of his experiments with JavaFX](https://medium.com/javarevisited/my-weird-and-wonderful-first-adventures-with-javafx-6efe3b1923c8) that were also included here in the previous Links Of The Week.
+* [**Alessio Vinerbi**](https://twitter.com/Alessio_Vinerbi) keeps teasing us with his visual modeler application...
+  * [Intergration of Medusa Gauges](https://twitter.com/Alessio_Vinerbi/status/1601913626583093248), a library by [**Gerrit Grunwald**](https://twitter.com/hansolo_).
+  * [Having fun with the canvas](https://twitter.com/Alessio_Vinerbi/status/1601870967399190535?t=DJLwumrOcKpBcTEpMPwvlw&s=09).
+* Last week [**Sean Gilligan**](https://twitter.com/msgilligan) had some ideas to integrate webcams in JavaFX, and it seems [he is making progress...](https://foojay.social/@msgilligan/109491263323925811).
+* [**Matt Coley**](https://twitter.com/MattColey6) shared an [impressive video of Code2HTML with a new UI with docking tabs](https://twitter.com/MattColey6/status/1601273551444905986?t=ChOQm6FpJP4kBSbWs5_Rvg&s=09). 
+* New release:
+  * [1.6.2 of **Serendipity**](https://twitter.com/SerendigityInfo/status/1601150944762216449?t=obFEZKy149MabaV7o1tvXg&s=09): improved suggestions and new image types.
