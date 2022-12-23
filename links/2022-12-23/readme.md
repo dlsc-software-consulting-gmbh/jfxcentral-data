@@ -1,5 +1,6 @@
-This is the last JavaFX LinksOfTheWeek for 2022!
-I wish you all a nice holiday and fantastic start of 2023!!!
+**This is the last JavaFX LinksOfTheWeek for 2022!**
+
+**I wish you all a nice holiday and fantastic start of 2023!!!**
 
 * [**Foojay.io**](https://twitter.com/foojayio), the website for Friends Of OpenJDK, published the podcast ["The State of JavaFX Framework, Libraries, and Projects"](https://foojay.io/today/foojay-podcast-9/). These guests spoke about the JavaFX framework itself, but also about the libraries and applications that are built with it: 
   * [**Pedro Duque Vieira**](https://twitter.com/P_Duke)
