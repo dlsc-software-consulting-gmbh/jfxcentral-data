@@ -486,5 +486,18 @@
     "personIds": [
       "f.kirmaier"
     ]
+  },
+  {
+    "id": "metascrape",
+    "name": "Metascrape",
+    "company": "Lambda Prime",
+    "url": "",
+    "domain": "Internet Scraper",
+    "tags": "internet scraper, law enforcement, marketing",
+    "summary": "Metascrape is an internet scrapper",
+    "videoIds": [],
+    "personIds": [
+      "p.vieira"
+    ]
   }
 ]
