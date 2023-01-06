@@ -22,5 +22,5 @@ It has been two weeks since the previous LinksOfTheWeek, so a lot to share. I'm 
 * [**Thanhpv**](https://twitter.com/realThanhpv/status/1610996195182415874) is impressed by the performance of JavaFX on a 10y old computer. The screen recorder couldn't catch up...
 * [**Sundar Krishnamachari**](https://twitter.com/Tksrajan/status/1610985730200989701) shared a small project that creates a UI client for communication over MQ Telemetry Transport or MQTT, a messaging protocol popular in IOT devices.
 * According to ChatGPT [there are several advantages to using JavaFX over Swing or SWT](https://twitter.com/lofidewanto/status/1610646563285524481).
-* You want more information about JavaFX than you can find here on jfx-central.com? Visit [mkpaz/aboutfx on GitHub](https://github.com/mkpaz/aboutfx)!
+* You want more information about the OpenJFX project than you can find here on jfx-central.com? Visit [mkpaz/aboutfx on GitHub](https://github.com/mkpaz/aboutfx)!
 * According to the "2022 Q4" chart on ["Java InfoQ Trends Report - December 2022"](https://www.infoq.com/articles/java-jvm-trends-2022/), OpenJFX is now considered a software development topic for the Innovators! So a call-out to all innovative people reading this... JavaFX is the way to go! :-)
