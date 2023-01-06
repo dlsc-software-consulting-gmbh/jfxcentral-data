@@ -8,7 +8,8 @@ It has been two weeks since the previous LinksOfTheWeek, so a lot to share. I'm 
 * [**Zoran Sevarac**](https://twitter.com/zsevarac/status/1610634951321346050) shared a screenshot of a Neural network visual Weights Analysis tool under development for the next DeepNetts release. It helps understanding what's going on inside layers, and debugging trained networks. 
 * **Mohammed Saied** demonstrates a [JavaFX GUI to control a car (via YouTube Shorts)](https://www.youtube.com/shorts/fA56jf05M84).
 * [**Heiko Rupp**](https://mastodon.social/@pilhuhn/109609291776854983) is making progress with a Java/JavaFX Mastodon application.
-* [**GZYangKui**](https://twitter.com/YangKui7/status/1609091899562004480?t=Y7LQ24JEmEgcNwKRbQ8YMQ&s=09) shared a video of nes4j - The Nintendo Red and White Machine Simulator - and a link to the sources. And another one [with Super Mario](https://twitter.com/YangKui7/status/1610948697453662211).
+* [**GZYangKui** shared a video of nes4j](https://twitter.com/YangKui7/status/1609091899562004480?t=Y7LQ24JEmEgcNwKRbQ8YMQ&s=09) - The Nintendo Red and White Machine Simulator - and a link to the sources.
+  * And another video [with Super Mario](https://twitter.com/YangKui7/status/1610948697453662211).
 * [**LeeWyatt**](https://twitter.com/LeeWyatt_7788/status/1608797264096657414?t=WaFvuHruHQVnMOgO5bOIiQ&s=09) tweeted a short video introduction on how to use beta 2 of FXTools.
 * [**Hilmi**](https://twitter.com/helmiarkan/status/1608669184560631808?t=7TLax6uVNIq99ZOPvLqQVQ&s=09) made a hospital queue app for his final homework on Data Structures Practicum. Video and link to the sources.
 * [**Peter Pietri**](https://www.reddit.com/r/JavaFX/comments/zy69bk/gilded_sols_brief_overview/) shared info and a video via Reddit of "Gilded Sols", a game based on chess but with fantasy elements.
