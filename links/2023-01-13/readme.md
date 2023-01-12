@@ -3,7 +3,11 @@
 * [**Johan Vos** is looking for help with the JavaFX plugin for Eclipse 2022-12](https://twitter.com/johanvos/status/1611354561863614465). Who has #Eclipse experience and wants to help the #JavaFX community?
 * [**Siegfried Steiner**](https://twitter.com/MetacodesPro/status/1612477239249047552) wrote a very detailed, clear, step-by-step post: "Write once, run anywhere: An Android game using JavaFX and the GraalVM".
 * Another step-by-step by [**Jesse Watson**](https://twitter.com/jessals04/status/1611842000965505025) on how to start a JavaFX project using Eclipse IDE and SceneBuilder. [Read it here](https://www.jessejwatson.com/posts/javafx-how-i-made-my-first-java-gui).
-* [**Almas Baim published a video tutorial**](https://www.youtube.com/watch?v=UAGRgntpliI) in which he uses snow particles to outline an arbitrary String.
-* [**Matthew Wheeler (via YouTube) uses #JavaFX 3D**](https://www.youtube.com/watch?v=2Mjzw_fKqbM) to randomly generate galaxies.
+* [**Almas Baim** published a video tutorial](https://www.youtube.com/watch?v=UAGRgntpliI) in which he uses snow particles to outline an arbitrary String.
+* [**Matthew Wheeler** (via YouTube) uses JavaFX 3D](https://www.youtube.com/watch?v=2Mjzw_fKqbM) to randomly generate galaxies.
 * [**JavaFX3D**](https://twitter.com/JavaFX3D/status/1612944735752310784) found a nice Car Rental System with a JavaFX user interface. Code with screenshots and videos is [available on GitHub](https://github.com/yuenci/Java-Car-Rental-System).
-* [**Dirk Lemmermann shared a teaser**](https://twitter.com/dlemmermann/status/1612469114127147010) of the new layout for jfx-central.com.
+* [**Dirk Lemmermann** shared a teaser](https://twitter.com/dlemmermann/status/1612469114127147010) of the new layout for jfx-central.com.
+* New releases:
+  * [1.5.4 of JFreeChart by **David Gilbert**](https://twitter.com/david_m_gilbert/status/1612140104734089219?t=_DrlFGujAC-b0GMEYa8lmQ&s=09), a project he started in 1999 and although he doesn't spend much time on it these days, he made a new release. And got very nice feedback on this message!
+  * [11.0.7 of GMapsFX by **Dirk Lemmermann**](https://twitter.com/dlemmermann/status/1613501135247101955) is on Maven Central. No new features or bug fixes, simply updated jaxb version from 2 to 4.
+  * [GlucoStatusFX by **Gerrit Grunwald**](https://mastodon.social/@hansolo_/109675689095015969) with a minor bugfix.
