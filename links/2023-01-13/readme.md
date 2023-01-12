@@ -10,4 +10,5 @@
 * New releases:
   * [1.5.4 of JFreeChart by **David Gilbert**](https://twitter.com/david_m_gilbert/status/1612140104734089219?t=_DrlFGujAC-b0GMEYa8lmQ&s=09), a project he started in 1999 and although he doesn't spend much time on it these days, he made a new release. And got very nice feedback on this message!
   * [11.0.7 of GMapsFX by **Dirk Lemmermann**](https://twitter.com/dlemmermann/status/1613501135247101955) is on Maven Central. No new features or bug fixes, simply updated jaxb version from 2 to 4.
+  * [11.55.0 of GemsFX by **Dirk Lemmermann**](https://twitter.com/dlemmermann/status/1613565091110158337).
   * [GlucoStatusFX by **Gerrit Grunwald**](https://mastodon.social/@hansolo_/109675689095015969) with a minor bugfix.
