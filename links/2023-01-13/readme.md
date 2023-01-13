@@ -6,6 +6,7 @@
 * [**Almas Baim** published a video tutorial](https://www.youtube.com/watch?v=UAGRgntpliI) in which he uses snow particles to outline an arbitrary String.
 * [**Matthew Wheeler** (via YouTube) uses JavaFX 3D](https://www.youtube.com/watch?v=2Mjzw_fKqbM) to randomly generate galaxies.
 * [**JavaFX3D**](https://twitter.com/JavaFX3D/status/1612944735752310784) found a nice Car Rental System with a JavaFX user interface. Code with screenshots and videos is [available on GitHub](https://github.com/yuenci/Java-Car-Rental-System).
+* [**Gerrit Grunwald**](https://mastodon.social/@hansolo_/109678192185507846) is modifying the SpaceFX mobile build so that it runs again on iPhone, including an update of the readme regarding the build.
 * [**Dirk Lemmermann** shared a teaser](https://twitter.com/dlemmermann/status/1612469114127147010) of the new layout for jfx-central.com.
 * New releases:
   * [1.5.4 of JFreeChart by **David Gilbert**](https://twitter.com/david_m_gilbert/status/1612140104734089219?t=_DrlFGujAC-b0GMEYa8lmQ&s=09), a project he started in 1999 and although he doesn't spend much time on it these days, he made a new release. And got very nice feedback on this message!
