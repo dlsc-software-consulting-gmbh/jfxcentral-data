@@ -597,5 +597,23 @@
     ],
     "createdOn": "2022-10-22",
     "modifiedOn": "2022-10-22"
+  },
+  {
+    "name": "Simona Russo",
+    "email": "",
+    "companyId": "serendipity",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "simorusso",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "s.russo",
+    "gitHub": "SerendipityOfficialDev",
+    "realworldIds": [
+      "smartfinder"
+    ],
+    "createdOn": "2023-01-19",
+    "modifiedOn": "2023-01-19"
   }
 ]
