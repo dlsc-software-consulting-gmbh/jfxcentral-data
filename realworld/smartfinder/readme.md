@@ -1,7 +1,11 @@
 SmartFinder is a Desktop Search tool that allows you to use an innovative way to search for your Desktop files with an experience similar to Web search!
 
 With SmartFinder you have everything just a click away and in a single view!
-From the ability to open the first relevant files already while typing the words to be searched, to links with **meta-data** to directly filter the results, to viewing an exceprts of the document with the searched words highlighted!
+* search by file name or content;
+* open the first relevant files already while typing the words to be searched;
+* filter the results by metadata;
+* display excerpts of the document with the searched words highlighted
+* ... and much more! See [Feature section](#feature)
 
 What if you need to know which files have the same content? Yes, with SmartFinder you can do this and much more, read all the features we have developed to make you always find what you are looking for and more.
 
