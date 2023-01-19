@@ -15,6 +15,8 @@ What if you need to know which files have the same content? Yes, with SmartFinde
 ## SmartFinder in action
 [SmartFinder Youtube playlist](https://www.youtube.com/playlist?list=PLG6jFnBRDFm8aOs9EZrsJ_490X1nWvsH2)
 
+[![SmartFinder youtube](smartfinder-youtube.png)](https://www.youtube.com/playlist?list=PLG6jFnBRDFm8aOs9EZrsJ_490X1nWvsH2)
+
 ## Feature
 
 * Find any combination of words to search: the words entered are searched regardless of the character type (upper or lower case) and their order;
