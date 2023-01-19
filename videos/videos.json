@@ -1072,7 +1072,7 @@
   }
   {
     "name": "SmartFinder Desktop Search - Sample search",
-    "tags": "desktop search, search engine, windows search, spotlight,",
+    "tags": "desktop search, search engine, windows search, spotlight",
     "type": "Real World Application",
     "domain": "Desktop Search",
     "description": "A demonstration of the SmartFinder search APP",
