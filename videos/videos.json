@@ -1070,4 +1070,16 @@
     "modifiedOn": "2022-03-16",
     "publishedOn": "2022-03-16"
   }
+  {
+    "name": "SmartFinder Desktop Search - Sample search",
+    "tags": "desktop search, search engine, windows search, spotlight,",
+    "type": "Real World Application",
+    "domain": "Desktop Search",
+    "description": "A demonstration of the SmartFinder search APP",
+    "platform": "Desktop",
+    "id": "vwb_L2hD3ds",
+    "createdOn": "2023-01-19",
+    "modifiedOn": "2023-01-19",
+    "publishedOn": "2023-01-19"
+  }
 ]
