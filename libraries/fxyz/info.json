@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "path": "springmesh.png",
+      "title": "Use of SpringMesh to create a 3D mesh of a spring",
+      "description": ""
+    },
+    {
+      "path": "fxsampler.png",
+      "title": "Side popup menu at the left, from where different samples can be selected",
+      "description": ""
+    }
+  ]
+}
