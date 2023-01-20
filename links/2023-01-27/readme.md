@@ -1,0 +1,1 @@
+* Want to learn how to use JavaFX on the Raspberry Pi? [**Frank Delporte** made his Udemy course available for FREE](https://twitter.com/FrankDelporte/status/1616445015269556227)!
