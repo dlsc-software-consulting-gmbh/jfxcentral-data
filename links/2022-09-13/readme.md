@@ -1,5 +1,5 @@
 - On the JavaFX mailing list this thrilling message appeared: "Create release notes for JavaFX 19." And yes, they are [available now on GitHub](https://github.com/openjdk/jfx/blob/205b7211bde0e468e81a135fe37952b7f2b11d45/doc-files/release-notes-19.md)!
-  - If you want to keep following what’s happening inside the JavaFX community, you can suscribe to it via [mail.openjdk.org/mailman/listinfo/openjfx-dev](https://mail.openjdk.org/mailman/listinfo/openjfx-dev).
+  - If you want to keep following what’s happening inside the JavaFX community, you can subscribe to it via [mail.openjdk.org/mailman/listinfo/openjfx-dev](https://mail.openjdk.org/mailman/listinfo/openjfx-dev).
   - As with previous releases, the JavaFX community once again succeeded in keeping the 6-months release cycle going on, with a long list of improvements and fixes!
 - **Pavlo Iatsiuk** announced the first release of DynamoIt — a JavaFX GUI client application for AWS DynamoDB - [on Reddit](https://www.reddit.com/r/JavaFX/comments/xbdi2u/the_first_release_of_dynamoit_gui_client_for_aws/).
   - You can find the release [on GitHub](https://github.com/bykka/dynamoit/releases/tag/1.0.0).
