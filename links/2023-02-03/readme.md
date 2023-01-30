@@ -1,0 +1,4 @@
+* Last week a link was included to Matt Coley sharing his wish-list to extend RichText. There is a [GitHub issue by **Andy Goryachev** of Oracle asking for "Any missing APIs in JavaFX which are needed for RichTextFX"](https://github.com/FXMisc/RichTextFX/issues/1167) to gather feedback.
+* New releases:
+  * [3.2.0 of KeenWrite by **Dave Jarvis**](https://github.com/DaveJarvis/keenwrite) a free, open-source, cross-platform desktop Markdown editor that can produce beautifully typeset PDFs.
+  * [2.2.1 of KeenType used in KeenWrite](https://github.com/DaveJarvis/KeenType) with modernized DANTE e.V.'s Java-based NTS system for rendering TeX.
