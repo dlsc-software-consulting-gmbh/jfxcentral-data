@@ -7,11 +7,11 @@
 * [**OrangoMango** keeps experimenting with 3D](https://twitter.com/orango_mango/status/1620493609287172096).
   * And what is really impressive... [it is running on a Raspberry Pi with 2GB of memory](https://twitter.com/orango_mango/status/1620827009646759937)!
 * [**Adam Bien** talked in his podcast with **Karol Harezlak**](https://twitter.com/AdamBien/status/1619811640802955265) briefly about JavaFX.
-* [**Jhonny Göransson** managed to mix #javafx nodes with raw OpenGL calls](https://twitter.com/jhonnygoransson/status/1620563738347847682) from native cpp via drift-fx. 
+* [**Jhonny Göransson** managed to mix JavaFX nodes with raw OpenGL calls](https://twitter.com/jhonnygoransson/status/1620563738347847682) from native cpp via drift-fx. 
 * We're looking forward to the blogpost [**Gerrit Grunwald** will write on how to run a JavaFX application on iOS using Gluon](https://twitter.com/hansolo_/status/1620132608205266945) with his sample application will JArkanoid.
 * Last week a link was included to Matt Coley sharing his wish-list to extend RichText. There is a [GitHub issue by **Andy Goryachev** of Oracle asking for "Any missing APIs in JavaFX which are needed for RichTextFX"](https://github.com/FXMisc/RichTextFX/issues/1167) to gather feedback.
 * New releases:
   * [3.2.0 of KeenWrite by **Dave Jarvis**](https://github.com/DaveJarvis/keenwrite), a free, open-source, cross-platform desktop Markdown editor that can produce beautifully typeset PDFs.
   * [2.2.1 of KeenType used in KeenWrite](https://github.com/DaveJarvis/KeenType) with modernized DANTE e.V.'s Java-based NTS system for rendering TeX.
   * [3.11 of binjr](https://twitter.com/binjr_app/status/1620873802522701824),  a standalone time series browser that renders data produced by other applications as dynamically editable views and provides advanced features to navigate the data smoothly and efficiently.
-  * [5, 5.0.1 and 5.0.2 of PDFsam](https://twitter.com/PDFsamOSS/status/1620779451146719232) a powerful and professional PDF editor
+  * [5, 5.0.1 and 5.0.2 of PDFsam](https://twitter.com/PDFsamOSS/status/1620779451146719232) a powerful and professional PDF editor.
