@@ -6,6 +6,7 @@
 *  [**Dirk Lemmermann** created a new project on GitHub called LayoutFX](https://twitter.com/dlemmermann/status/1628069536074280964) and would like to use it to collect interesting layout solutions for JavaFX. If you have any custom panes with fancy approaches to laying out scene graph nodes and would like to contribute, then please feel free to add it.
   * He also spotted [JavaFX in the wild, the online presence of an office supplies company](https://twitter.com/dlemmermann/status/1628342392964239360), running in the browser via Jpro
 * The research team of [**Almas Baim** completed basic initialization and setup steps](https://twitter.com/AlmasBaim/status/1627783341805117447) for UI and robot interaction. The hype is real at the Robotics AI Lab.
+* [**Lottie4J** is making small progress](https://foojay.social/@lottie4j/109909075718845055) in bringing LottieFiles animations to JavaFX with a first correctly colored stroke width and color.
 * The [JArkanoid game created by **Gerrit Grunwald**](https://twitter.com/hansolo_/status/1627195942125305858) received a great deal of interest.
   * You can [also run it on Raspberry Pi](https://twitter.com/hansolo_/status/1628055233094991873).
   * He [thanks **Gluon** to make porting to mobile sooooooo easy](https://twitter.com/hansolo_/status/1627022312808513536).
