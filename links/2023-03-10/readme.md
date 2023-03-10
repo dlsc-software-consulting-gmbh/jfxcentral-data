@@ -1,0 +1,7 @@
+* [**Juanan** shared an example to learn how to use a REST API in Java](https://mastodon.social/@juananpe/109989844101182399) with a JavaFX Pokemon viewer. He added links to multiple videos demonstrating the code. Sources are available [on GitHub](https://github.com/juananpe/pokemon-viewer).
+* [**JavaFX 3D** is asking who wants to contribute an importer for FBX or USDZ or GLB / glTF](https://twitter.com/JavaFX3D/status/1632612728664911872) to FXyz. It already has 3D model importers for OBJ and Maya.
+  * He already found a [starting point in an existing java project](https://twitter.com/JavaFX3D/status/1632613330920800256).
+* [**Jakob Jenkov** and **Andres Almiray** are talking about packaging a JavaFX app with JReleaser](https://twitter.com/jjenkov/status/1632112292597751809).
+* Another Minecraft-like world, in the [self-made 3D engine of **OrangoMango**](https://twitter.com/orango_mango/status/1631715021200687104).
+* [**MhamadHarmush** shared Java and JavaFX tutorials in Arabic](https://twitter.com/MhamadHarmush/status/1633840863435714562).
+* [**Johan Vos** shared a tweet with Kevin Rushforth](https://twitter.com/johanvos/status/1633199315291185157) who will be speaking about "JavaFX 20 and Beyond" at Java Developer Day on March 21. 
