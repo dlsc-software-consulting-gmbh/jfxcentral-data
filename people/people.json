@@ -612,5 +612,36 @@
     "gitHub": "SerendipityOfficialDev",
     "createdOn": "2023-01-19",
     "modifiedOn": "2023-01-19"
+  },
+  {
+    "name": "Nikolai Vorobev",
+    "email": "",
+    "companyId": "Intechcore GmbH",
+    "website": "https://intechcore.com",
+    "blogId": "",
+    "linkedIn": "",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "n.vorobev",
+    "gitHub": "",
+    "createdOn": "2023-03-10",
+    "modifiedOn": "2023-03-10"
+  },
+  {
+    "name": "Vasily Smeltsov",
+    "email": "",
+    "companyId": "Intechcore GmbH",
+    "website": "https://intechcore.com",
+    "blogId": "",
+    "linkedIn": "vasily-smeltsov",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "v.smeltsov",
+    "gitHub": "",
+    "createdOn": "2023-03-10",
+    "modifiedOn": "2023-03-10"
   }
+
 ]

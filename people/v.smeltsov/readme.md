@@ -1,0 +1,1 @@
+CEO and founder of Intechcore GmbH and an enthusiastic java software developer.
