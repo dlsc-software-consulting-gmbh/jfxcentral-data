@@ -134,14 +134,14 @@
     "blogId": "",
     "linkedIn": "frankdelporte",
     "twitter": "FrankDelporte",
-    "champion": false,
+    "champion": true,
     "rockstar": false,
     "id": "f.delporte",
     "bookIds": [
       "getting-started-on-pi"
     ],
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28"
+    "modifiedOn": "2023-04-07"
   },
   {
     "name": "Andres Almiray",
