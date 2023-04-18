@@ -28,6 +28,7 @@ public class RSSManager {
 
         // Based on the example provided on
         // https://rometools.github.io/rome/RssAndAtOMUtilitiEsROMEV0.5AndAboveTutorialsAndArticles/RssAndAtOMUtilitiEsROMEV0.5TutorialUsingROMEToCreateAndWriteASyndicationFeed.html
+
         SyndFeed feed = new SyndFeedImpl();
         feed.setFeedType("rss_2.0");
         feed.setTitle("JFX-Central Links Of The Week");
@@ -37,16 +38,17 @@ public class RSSManager {
         List<SyndEntry> entries = new ArrayList<>();
         feed.setEntries(entries);
 
-        for (var linksOfTheWeek : links.stream()
-                .sorted(Comparator.comparing(LinksOfTheWeek::getCreatedOn).reversed())
-                .collect(Collectors.toList())) {
+        List<LinksOfTheWeek> allLinksOfTheWeek = links.stream().sorted(Comparator.comparing(LinksOfTheWeek::getCreatedOn).reversed()).collect(Collectors.toList());
+
+        for (LinksOfTheWeek linksOfTheWeek : allLinksOfTheWeek) {
+            SyndContentImpl description = new SyndContentImpl();
+            description.setType("text/html");
+            description.setValue(getLinksOfTheWeekAsHtml(repository, linksOfTheWeek));
+
             SyndEntry entry = new SyndEntryImpl();
             entry.setTitle("Links Of The Week - " + linksOfTheWeek.getCreatedOn().format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
             entry.setLink("https://jfx-central.com"); // TODO link to correct page with these LOTW on jfxcentral2
             entry.setPublishedDate(DateUtils.asDate(linksOfTheWeek.getCreatedOn()));
-            var description = new SyndContentImpl();
-            description.setType("text/html");
-            description.setValue(getLinksOfTheWeekAsHtml(repository, linksOfTheWeek));
             entry.setDescription(description);
             entries.add(entry);
         }
