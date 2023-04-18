@@ -1,6 +1,5 @@
 package com.dlsc.jfxcentral.data;
 
-import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -27,6 +26,8 @@ public class RSSManagerTest {
         assertFalse(repository.getLinksOfTheWeek().isEmpty());
 
         String rss = RSSManager.createRSS();
+
+        System.out.println(rss);
 
         // when
         assertTrue(StringUtils.isNotBlank(rss), "RSS output with Links Of The Week is missing");
