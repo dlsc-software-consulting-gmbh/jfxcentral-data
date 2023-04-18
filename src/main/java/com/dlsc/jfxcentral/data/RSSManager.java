@@ -6,14 +6,21 @@ import com.rometools.rome.feed.synd.*;
 import com.rometools.rome.io.FeedException;
 import com.rometools.rome.io.SyndFeedOutput;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import org.commonmark.parser.Parser;
 import org.commonmark.renderer.html.HtmlRenderer;
 
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 public class RSSManager {
+
+    private static final Logger LOG = Logger.getLogger(RSSManager.class.getName());
 
     public static String createRSS() {
         DataRepository repository = DataRepository.getInstance();
@@ -30,14 +37,16 @@ public class RSSManager {
         List<SyndEntry> entries = new ArrayList<>();
         feed.setEntries(entries);
 
-        for (var linksOfTheWeek : links) {
+        for (var linksOfTheWeek : links.stream()
+                .sorted(Comparator.comparing(LinksOfTheWeek::getCreatedOn).reversed())
+                .collect(Collectors.toList())) {
             SyndEntry entry = new SyndEntryImpl();
             entry.setTitle("Links Of The Week - " + linksOfTheWeek.getCreatedOn().format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
-            entry.setLink("https://jfx-central.com"); // TODO link to correct page with these LOTW
+            entry.setLink("https://jfx-central.com"); // TODO link to correct page with these LOTW on jfxcentral2
             entry.setPublishedDate(DateUtils.asDate(linksOfTheWeek.getCreatedOn()));
             var description = new SyndContentImpl();
             description.setType("text/html");
-            description.setValue(parseMarkdownToHtml(linksOfTheWeek.getDescription()));
+            description.setValue(getLinksOfTheWeekAsHtml(repository, linksOfTheWeek));
             entry.setDescription(description);
             entries.add(entry);
         }
@@ -51,9 +60,21 @@ public class RSSManager {
         return "";
     }
 
-    private static String parseMarkdownToHtml(String markdown) {
+    private static String getLinksOfTheWeekAsHtml(DataRepository repository, LinksOfTheWeek linksOfTheWeek) {
+        StringProperty markdownContent = new SimpleStringProperty();
+        repository.loadLinksOfTheWeekText(linksOfTheWeek, markdownContent);
+
+        if (markdownContent.get() == null || markdownContent.get().isEmpty()) {
+            LOG.warning("Markdown content not provided");
+            return "";
+        }
         Parser parser = Parser.builder().build();
         HtmlRenderer renderer = HtmlRenderer.builder().build();
-        return renderer.render(parser.parse(markdown));
+        try {
+            return renderer.render(parser.parse(markdownContent.get()));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
     }
 }
