@@ -1,0 +1,12 @@
+* [**Frank Delporte** announced he started working on a new Java library to load and save #LottieFiles and #dotLottie, plus a #JavaFX player](https://foojay.social/@frankdelporte/109745863000952226). The very early steps are taken with a website, Mastodon account, different Lottie JSON files can already be loaded and saved back to the same JSON, and a very first visual output shows there is some valid data being handled. Maybe you have ideas how to move on with visualizing and animating in JavaFX and want to contribute?
+  * He also made his Udemy course [to learn how to use JavaFX on the Raspberry Pi available for FREE](https://twitter.com/FrankDelporte/status/1616445015269556227).
+* During the JChampions Conference, [**Gail Anderson**](https://twitter.com/gail_asgteach) and [**Paul Anderson**](https://twitter.com/Paul_ASGTeach) presented ["Say the Words: Modern Java with JavaFX for Rich Client UIs"](https://www.youtube.com/watch?v=I2p4ojzV5TE).
+* [**Matt Coley** shared his wish-list to extend RichText](https://twitter.com/MattColey6/status/1618550397198827520). You want to join the discussion?
+* [**Sean Phillips** will provide a Keynote presentation at Devnexus 2023](https://twitter.com/SeanMiPhillips/status/1618021863481040897), the largest Java conference in the USA: "Harnessing the Hyper-dimensional Mind: Visualizing Brain Computer Interfaces."
+* [**OrangoMango** posted a video of snake bot](https://twitter.com/orango_mango/status/1618642823074705410) using a pathfinding algorithm.
+  * The sources [are available on GitHub](https://github.com/OrangoMango/Snake). 
+  * And [another video](https://twitter.com/orango_mango/status/1617918969025015809) showing a 3D animation only using matrices and vectors.
+* [**Almas Baim** shared a video](https://twitter.com/AlmasBaim/status/1616901694582931456) illustrating how modifying an entity's TransformComponent will now correctly update the entity's 3D direction and vice versa in FXGL.
+* New releases:
+  * [17.0.45 of JDKMon by **Gerrit Grunwald**](https://foojay.social/@hansolo_@mastodon.social/109743119204551594): minor bugfix.
+  * [1.6.4 of SmartFinder by **Serendipity**](https://twitter.com/SerendigityInfo/status/1616487713074446355) with a new quick search view: filter the search results by categories (Documents, Ebooks, Images,...).
