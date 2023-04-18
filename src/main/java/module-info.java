@@ -6,6 +6,7 @@ open module jfxcentral.data {
     requires gson.javatime.serialisers;
     requires javafx.graphics;
     requires java.logging;
+    requires org.commonmark;
 
     exports com.dlsc.jfxcentral.data;
     exports com.dlsc.jfxcentral.data.pull;
