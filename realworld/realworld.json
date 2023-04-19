@@ -489,5 +489,14 @@
     "personIds": [
       "f.kirmaier"
     ]
+  },
+  {
+    "id": "xpipe",
+    "name": "X-Pipe",
+    "company": "Christopher Schnick",
+    "url": "https://github.com/xpipe-io/xpipe",
+    "domain": "System Administration",
+    "tags": "connections, servers, file management, system administration, development",
+    "summary": "A flexible connection manager and remote file explorer"
   }
 ]
