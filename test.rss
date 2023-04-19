@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>JFX-Central Links Of The Week</title>
+    <link>https://jfx-central.com/rss/linksoftheweek</link>
+    <description>Your weekly update on all-things-JavaFX</description>
+    <item>
+      <title>Links Of The Week - 07-04-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;As announced a few weeks ago, &lt;strong&gt;Sean Phillips&lt;/strong&gt; was one of the keynote speakers at DevNexus in Atlanta. And his talk did not go unnoticed...
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/ixchelruiz/status/1643970024015556608"&gt;&lt;strong&gt;Ixchel Ruiz&lt;/strong&gt;: &amp;quot;Blowing the ceiling of technology, passion, visualization&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos/status/1644239933274574849"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt;: &amp;quot;Innovation by and for devs/humans. Great to see all of this coming together&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/vincentmayers/status/1643970564925673474"&gt;&lt;strong&gt;Vincent Mayers&lt;/strong&gt;: &amp;quot;It’s clear that JavaFX is AMAZING! Thank you GluonHQ and Johan Vos for all your work and support for this&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;And &lt;a href="https://twitter.com/search?q=%40SeanMiPhillips&amp;amp;src=typed_query&amp;amp;f=live"&gt;many more...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://www.reddit.com/r/JavaFX/comments/12biesq/matrix_1_end_scene_special_effect_of_digital_rain/"&gt;intro animation of his talk was shared on Reddit&lt;/a&gt; and shows the creators of the libraries used in his application as if they are trapped in the Matrix...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/C0DEDEAD"&gt;&lt;strong&gt;CodeDead&lt;/strong&gt;&lt;/a&gt; shared a GitHub Actions workflow for the people that are using JDK 20, Gradle and JavaFX 20 &lt;a href="https://www.reddit.com/r/JavaFX/comments/129mkmx/javafx_20_jdk20_gradle_github_actions"&gt;on Reddit&lt;/a&gt; to test, build and package your JavaFX application on Windows, Linux and macOS when creating a pull request on either the main/master or development branches of your GIT project.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1642948896484737025"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; found a performance problem in his 3D engine&lt;/a&gt;, thanks to &lt;strong&gt;Almas Baim&lt;/strong&gt; and VisualVM.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1642661319668031488"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; is adding hex support for tiled .tmx maps to FXGL&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;And was playing with a &lt;a href="https://twitter.com/AlmasBaim/status/1642277058033139712"&gt;cat and PixelBuffer on April 1st&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JavaFX Scene Builder:
+&lt;ul&gt;
+&lt;li&gt;Version 20 is about ready. Feel free to test the &lt;a href="https://github.com/gluonhq/scenebuilder/releases/tag/early-access"&gt;latest snapshots&lt;/a&gt; and report blocking issues.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/cpreisler/status/1643748294898896897"&gt;&lt;strong&gt;Chad Preisler&lt;/strong&gt; shared a video&lt;/a&gt; on how to use GemsFX in Scene Builder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bumped to Java and JavaFX 20:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lanthale/status/1643943442945306625"&gt;LibHEIF 1.2.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://foojay.social/@jabref/110148247312318923"&gt;JabRef with speed improvements on macOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/C0DEDEAD/status/1642571326639538176"&gt;Opal v1.1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lanthale/status/1642981173826842624"&gt;LibrawFX 1.8.4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 06 Apr 2023 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-04-06T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 31-03-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Last week Java and JavaFX 20 were released, but you can already start experimenting with JavaFX 21 Early-Access Builds!
+&lt;ul&gt;
+&lt;li&gt;Get it from &lt;a href="https://gluonhq.com/products/javafx/"&gt;Gluon&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Or &lt;a href="https://mastodon.social/@openjdk/110078557118569030"&gt;OpenJDK&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/shannah78/status/1605922584310452225"&gt;&lt;strong&gt;Steve Hannah&lt;/strong&gt; shared a GitHub action&lt;/a&gt; to generate native installers for Java desktop apps.&lt;/li&gt;
+&lt;li&gt;The 3D engine of &lt;strong&gt;OrangoMango&lt;/strong&gt; has now &lt;a href="https://twitter.com/orango_mango/status/1639660431160532993"&gt;Minecraft-like trees&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SerendigityInfo/status/1639293098227388416"&gt;SmartFinder by &lt;strong&gt;Serendipity&lt;/strong&gt; version 1.7.3 now runs with JavaFX 20&lt;/a&gt;! It's a Desktop Search Tool APP fully developed with Java and JavaFX technology.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; has been very active on Twitter the last week...
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1641412978992902144"&gt;Announcing version 17.3 of FXGL&lt;/a&gt;: improve A* performance, isometric support for .tmx, 3D updates (lookAt, direction, rotation, .obj models), propertyMap convenience API.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1639608367516729349"&gt;Pathfinding solution added to FXGL that outperforms the existing one by up to 80%&lt;/a&gt;, by replacing ArrayList with HashSet in critical code.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1639349553496293377"&gt;Another video with the FXGL engine pathfinding in action&lt;/a&gt;. This demo shows large red areas that are not passable, while dynamic entities are ignored and can be passed through.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1639017161455960064"&gt;Video showing physics sandboxes are never not fun&lt;/a&gt;! You can now pick up any entity as seen in this sample.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1639804091609088002"&gt;Video of text animations with particles&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1640102122350944257"&gt;Video with particles, one as &amp;quot;lead&amp;quot;&lt;/a&gt;, and other particles following with min and max distance, ensuring all particles are connected while the lead moves.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1640474477258760192"&gt;Isometric tile support in FXGL has had significant interest over the years&lt;/a&gt;. The maths looks straightforward but the architecture, as per usual, will need some careful pondering.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1640802453288353792"&gt;Screenshot of initial progress towards having first-class support for isometric levels&lt;/a&gt; in FXGL.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1641582312730030082"&gt;Video showing the new sliders in FXGL&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;And another regular guest of the LinksOfTheWeek... &lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1640703431638753283"&gt;TableView replacement based on GridPane. No virtualisation&lt;/a&gt;. Very useful for small datasets. Will be added to GemsFX very soon.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1640636273239916547"&gt;Screenshot of an answer on GitHub explaining there is only one codebase&lt;/a&gt; for jfxcentral website and desktop app, thanks to &lt;a href="https://twitter.com/jpro_one"&gt;@jpro_one&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1639262929752129544"&gt;The TimePicker in GemsFX has been improved by @cpreisler&lt;/a&gt;. It can now also display and edit seconds and milliseconds.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1641025184248348672"&gt;He's looking back at something he implemented almost 20 years ago with Java 5 and Swing&lt;/a&gt;, and it still works perfectly nowadays with Java 19 ... just a whole lot faster!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 30 Mar 2023 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-03-30T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 24-03-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Together with the &lt;a href="https://foojay.io/today/its-java-20-release-day-heres-whats-new/"&gt;release of OpenJDK 20&lt;/a&gt;, we also got the release of OpenJFX 20. Both right on schedule, as always!
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://foojay.social/@gluonhq@techhub.social/110061453814740449"&gt;Announcement by &lt;strong&gt;Gluon&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Downloads are also provided via &lt;a href="https://mastodon.social/@openjdk/110073623815076629"&gt;OpenJDK on jdk.java.net&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Important message &lt;a href="https://github.com/openjdk/jfx/blob/jfx20/doc-files/release-notes-20.md"&gt;in the release notes&lt;/a&gt;: &amp;quot;JavaFX 20 is compiled with --release 17 and thus requires JDK 17 or later in order to run. If you attempt to run with an older JDK, the Java launcher will exit with an error message indicating that the javafx.base module cannot be read.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos/status/1638168304664694787"&gt;Most important highlight for &lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt;: &amp;quot;apps created many years ago still run on the latest JavaFX with latest OS. That is far from trivial, require lots of work, and not very common in client frameworks.&amp;quot;&lt;/li&gt;
+&lt;li&gt;And another &lt;a href="https://mastodon.social/@johanvos/110061627191368710"&gt;quote from &lt;strong&gt;Johan&lt;/strong&gt;&lt;/a&gt;: &amp;quot;I remember people and companies telling me 5 years ago they love Java and JavaFX, but they were pretty sure JavaFX would not be around in 2 years from them. So they used other client technologies... which don't exist anymore today... while JavaFX... keeps moving forward. With less hype, and less marketing power than other client frameworks, but with dedication and focus on quality, stability and community.&amp;quot;
+And with tons of stuff todo, I 100% realize that.&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A &lt;a href="https://twitter.com/Raumzeitfalle/status/1638993956796239873"&gt;request by &lt;strong&gt;Raumzeitfalle&lt;/strong&gt;&lt;/a&gt;: &amp;quot;If you like Java and JavaFX, give Scene Builder Leadinge Edge a try. Its latest version runs with Java 20 using JavaFX 20 and it combines many of the pending PRs so that one can test the functionality. Feel free to share your feedback on Github.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; again shared a lot of JavaFX library and other info:
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;If any of you work on  &lt;a href="https://twitter.com/dlemmermann/status/1638910874261000192"&gt;planning and scheduling applications I can highly recommend #FlexGanttFX for visualizing plans / schedules&lt;/a&gt;. Yes, it is a commercial library.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;If your JavaFX application requires an &lt;a href="https://twitter.com/dlemmermann/status/1638903750726418432"&gt;on-screen keyboard, you might wanna check out KeyboardFX&lt;/a&gt;.&amp;quot;&lt;/li&gt;
+&lt;li&gt;A screenshot of the new market data portal he is creating, &lt;a href="https://twitter.com/dlemmermann/status/1638854795074338816"&gt;running in a browser&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The new &lt;a href="https://twitter.com/dlemmermann/status/1638103850107260930"&gt;calendar view in GemsFX now also supports &amp;quot;date range&amp;quot; selection&lt;/a&gt; (and single date, multiple dates selection).&lt;/li&gt;
+&lt;li&gt;Thanks to &lt;a href="https://twitter.com/dlemmermann/status/1638107356188798977"&gt;&lt;strong&gt;Florian Kirmaier&lt;/strong&gt;, GemsFX has been extended with a great utility class for synchronous scrolling of two VirtualFlow instances&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;And he's worried about his job as &lt;a href="https://twitter.com/dlemmermann/status/1638137320846106625"&gt;&amp;quot;ChatGPT &amp;quot;generates&amp;quot; a JavaFX app based on requirements&amp;quot;&lt;/a&gt;. That's probably thanks to the stability of the API over the last years!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1638528428440944640"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt; shared a video&lt;/a&gt; of rougelike game prototype.
+&lt;ul&gt;
+&lt;li&gt;And shared how he created a &lt;a href="https://twitter.com/WhiteWoodCity/status/1636904813228331010"&gt;pseudo 3D effect like Street of Rage, Dragon's Crown&lt;/a&gt; with two GameSubScene and two entities of each GameWorld, and binding their properties with very clean and neat code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1637915086571606016"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; is throwing grenades&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1636834800127586310"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; added some new block types and fixed some issues with block breaking/placing in his Minecraft-like world&lt;/a&gt;, and now has a small home made out of wood and coal blocks.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips/status/1638332315163082753"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt; - being a JavaFX 3D expert - finds his work awesome&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rnartist_app/status/1637923762438918150"&gt;&lt;strong&gt;RNArtist&lt;/strong&gt; shared again an impressive video&lt;/a&gt; showing RNA visualization with JavaFX.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rnartist_app/status/1637912428276072448"&gt;&amp;quot;In RNAStudio, you can animate the transcription process&lt;/a&gt; along one of the computed folding pathways. When a new helix pops, it is first highlighted then added to the 2D. You can stop/restart the animation, go backwards/forwards.&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/invokecoley/status/1637693418192228352"&gt;&lt;strong&gt;Matt Coley&lt;/strong&gt; has a long Twitter thread about new the Recaf UI JavaFX work&lt;/a&gt;, starting with a 'please wait while the decompiler runs' animation that pulls hex dumps from the class being decompiled, and many more each with a video.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 23 Mar 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-03-23T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 17-03-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@johanvos/110011897804267729"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt; is working on backports for JavaFX 17.0.7&lt;/a&gt; to guarantee quality and long-term support.
+&lt;ul&gt;
+&lt;li&gt;And he announced &lt;a href="https://mastodon.social/@johanvos/110033625841149774"&gt;JavaFX 20 will be released next week&lt;/a&gt;. As planned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_/status/1635543158153965569"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; shared the first version of a Tetris clone&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;This is &lt;a href="https://twitter.com/hansolo_/status/1634889764565585921"&gt;a screenshot&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You can play it online, &lt;a href="https://twitter.com/WebFXProject/status/1635959116127404032"&gt;thanks to &lt;strong&gt;WebFX&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Many usefull links shared by &lt;strong&gt;WhiteWoodCity&lt;/strong&gt; again:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1635661530867060736"&gt;Screenshots of NotificationFX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;His game got &lt;a href="https://twitter.com/WhiteWoodCity/status/1635963164096598016"&gt;bumped to Graal and Java 20&lt;/a&gt;. Yes, indeed, already before the official release of Java 20!&lt;/li&gt;
+&lt;li&gt;And shared how he created a &lt;a href="https://twitter.com/WhiteWoodCity/status/1635143145456553984"&gt;dynamic shadow effect of a jump action with a Shape and Binding&lt;/a&gt; in less than 40 lines of code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/JavaFX3D/status/1635821978430103552"&gt;&lt;strong&gt;JavaFX3D&lt;/strong&gt; shared an article about 3DViewer by &lt;strong&gt;ChrisNahr&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JavaFX at DevNexus in Atlanta (4-6 April):
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/devnexus/status/1636031079973830657"&gt;&lt;strong&gt;Gail Anderson&lt;/strong&gt; and &lt;strong&gt;Paul Anderson&lt;/strong&gt;&lt;/a&gt;: &amp;quot;Modern Java with JavaFX for Rich Client UIs&amp;quot;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips/status/1636040045206405121"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt;&lt;/a&gt;: &amp;quot;Harnessing the Hyper-dimensional Mind: Visualizing Brain-Computer Interfaces&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1635417926823198720"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; discovered another FXGL game&lt;/a&gt;: &amp;quot;The Last Cowboy Game - UTFPR&amp;quot;.
+&lt;ul&gt;
+&lt;li&gt;And he shared a &lt;a href="https://twitter.com/AlmasBaim/status/1634541388128821249"&gt;screenshot showing FXGL is available in IntelliJIDEA&lt;/a&gt; when creating a new JavaFX project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@juananpe/110022581081582129"&gt;&lt;strong&gt;Juanan Pereira&lt;/strong&gt; published a new video for his Software Engineering class&lt;/a&gt;: How to display custom items in JavaFX ListView&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1635263143155757057"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; added a YearMonthPicker control to GemsFX&lt;/a&gt;. It's included in version 1.67.0.
+&lt;ul&gt;
+&lt;li&gt;It was the result of a &lt;a href="https://twitter.com/dlemmermann/status/1634576422629961728"&gt;deep-dive into how to customize a ComboBox&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/aalmiray/status/1634931119828393986"&gt;&lt;strong&gt;Andres Almiray&lt;/strong&gt; updated the JavaFX plasma application to reflect changes brought by JReleaser 1.5.1&lt;/a&gt;, along with instructions for building.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/logorrr/status/1634213339470393345"&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt; wrote a blog post about LogoRRR's journey to the Apple App Store&lt;/a&gt; using JPackage.&lt;/li&gt;
+&lt;li&gt;The 3D engine of &lt;a href="https://twitter.com/orango_mango/status/1636401197039984640"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; got extended with more Minecraft-like functions&lt;/a&gt;: block breaking/placing, terrain generation, chunk system, and overall performance improvements.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 16 Mar 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-03-16T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 10-03-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@juananpe/109989844101182399"&gt;&lt;strong&gt;Juanan&lt;/strong&gt; shared an example to learn how to use a REST API in Java&lt;/a&gt; with a JavaFX Pokemon viewer. He added links to multiple videos demonstrating the code. Sources are available &lt;a href="https://github.com/juananpe/pokemon-viewer"&gt;on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/JavaFX3D/status/1632612728664911872"&gt;&lt;strong&gt;JavaFX 3D&lt;/strong&gt; is asking who wants to contribute an importer for FBX or USDZ or GLB / glTF&lt;/a&gt; to FXyz. It already has 3D model importers for OBJ and Maya.
+&lt;ul&gt;
+&lt;li&gt;He already found a &lt;a href="https://twitter.com/JavaFX3D/status/1632613330920800256"&gt;starting point in an existing java project&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/jjenkov/status/1632112292597751809"&gt;&lt;strong&gt;Jakob Jenkov&lt;/strong&gt; and &lt;strong&gt;Andres Almiray&lt;/strong&gt; are talking about packaging a JavaFX app with JReleaser&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Another Minecraft-like world, in the &lt;a href="https://twitter.com/orango_mango/status/1631715021200687104"&gt;self-made 3D engine of &lt;strong&gt;OrangoMango&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/MhamadHarmush/status/1633840863435714562"&gt;&lt;strong&gt;MhamadHarmush&lt;/strong&gt; shared Java and JavaFX tutorials in Arabic&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos/status/1633199315291185157"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt; shared a tweet with Kevin Rushforth&lt;/a&gt; who will be speaking about &amp;quot;JavaFX 20 and Beyond&amp;quot; at Java Developer Day on March 21.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 09 Mar 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-03-09T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 03-03-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rnartist_app/status/1629862954127568897"&gt;&lt;strong&gt;Fabrice Jossinet&lt;/strong&gt; shared an impressive preview video&lt;/a&gt; of a new tool to visualize the folding pathways of an RNA during its transcription. Pathways are computed with a Rust algorithm. Visualization and GUI are made with Kotlin, JavaFX and his rnartistcore library.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_/status/1629506318389198850"&gt;17.0.13 of JArkanoid by &lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt; adds the ability to shoot enemies.
+&lt;ul&gt;
+&lt;li&gt;He describes in a &lt;a href="https://foojay.io/today/porting-an-existing-javafx-app-to-ios/"&gt;Foojay post how to turn an existing application to an iPhone app&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;And he started with a new game, &lt;a href="https://twitter.com/hansolo_/status/1629224660259811332"&gt;as you can see in this first screenshot of loderunner&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/shannah78/status/1629515948637188096"&gt;jdeploy by &lt;strong&gt;Steve Hannah&lt;/strong&gt; now produces signed apps for Windows installers&lt;/a&gt;. This should make Windows Defender more pleasant to be around.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1631259318195462151"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; showed a custom tooltip implementation for charts&lt;/a&gt;. The tooltips show the values of all y-values for the same x-value whenever the mouse cursor hovers over one of the data points.
+&lt;ul&gt;
+&lt;li&gt;In a &lt;a href="https://twitter.com/dlemmermann/status/1631331619498860547"&gt;comment tweet, he shows code&lt;/a&gt; to illustrate that each data point in a JavaFX chart is also a node that allows us to integrate such a feature.&lt;/li&gt;
+&lt;li&gt;Read the comments to learn pro/contra of this approach and alternatives for large datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Fahim_FBA/status/1631352990719426561"&gt;&lt;strong&gt;Fahim Bin Amin&lt;/strong&gt; shows in a 1,5h video&lt;/a&gt; how to create your own full-fledged project from scratch using JavaFX and Maven.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/logorrr/status/1630942843853258753"&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt; shared exciting news&lt;/a&gt;. LogoRRR is now officially available on the Apple Store!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.online/@myfear/109947358052519976"&gt;&lt;strong&gt;Markus Eisele&lt;/strong&gt; shared a link to the GitHub project of pacman-javafx&lt;/a&gt;: a JavaFX UI (2D+3D) for Pac-Man / Ms. Pac-Man, a project by &lt;strong&gt;Armin Reichert&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1630151049486159874"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt; shared a video with the combination of 2D and 3D&lt;/a&gt; game sub scenes.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/tomosan119/status/1630562520229646337"&gt;&lt;strong&gt;工房奥谷&lt;/strong&gt; shared a video showing a 3D-CAD application&lt;/a&gt; to fit clothing patterns.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 02 Mar 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-03-02T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 24-02-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://techhub.social/@gluonhq/109902223934756469"&gt;&lt;strong&gt;Gluon&lt;/strong&gt; announced improved sound support&lt;/a&gt; for iOS in Gluon Attach.
+&lt;ul&gt;
+&lt;li&gt;They thank &lt;a href="https://twitter.com/salmon_bruno"&gt;&lt;strong&gt;Bruno Salmon&lt;/strong&gt;&lt;/a&gt; for a great contribution by adding the iOSAudioService.&lt;/li&gt;
+&lt;li&gt;See the &lt;a href="https://github.com/gluonhq/attach/pull/347"&gt;code changes in the pull request&lt;/a&gt;, optimised for games that may play sounds simultaneously frequently, without degrading performances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Raumzeitfalle/status/1627038605225955329"&gt;&lt;strong&gt;Raumzeitfalle&lt;/strong&gt; shared an update for Scene Builder Leading Edge&lt;/a&gt;: preview of unofficial and features-in-progress. February 2023 brings us support to create controllers in Scala and JRuby and a Chinese translation.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Alessio_Vinerbi/status/1628098767160213525"&gt;&lt;strong&gt;Alessio Vinerbi&lt;/strong&gt; shared a video&lt;/a&gt; showing the interaction between his visual modeler and FXML.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1628069536074280964"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; created a new project on GitHub called LayoutFX&lt;/a&gt; and would like to use it to collect interesting layout solutions for JavaFX. If you have any custom panes with fancy approaches to laying out scene graph nodes and would like to contribute, then please feel free to add it.
+&lt;ul&gt;
+&lt;li&gt;He also spotted &lt;a href="https://twitter.com/dlemmermann/status/1628342392964239360"&gt;JavaFX in the wild, the online presence of an office supplies company&lt;/a&gt;, running in the browser via Jpro.&lt;/li&gt;
+&lt;li&gt;And he's &lt;a href="https://twitter.com/dlemmermann/status/1628745308296425473"&gt;adding a custom control to GemsFX that allows to horizontally position and scroll multiple cells based on an items list&lt;/a&gt;. The control fades out to the left and right.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The research team of &lt;a href="https://twitter.com/AlmasBaim/status/1627783341805117447"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; completed basic initialization and setup steps&lt;/a&gt; for UI and robot interaction. The hype is real at the Robotics AI Lab.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://foojay.social/@lottie4j/109909075718845055"&gt;&lt;strong&gt;Lottie4J&lt;/strong&gt; is making small progress&lt;/a&gt; in bringing LottieFiles animations to JavaFX with a first correctly colored stroke width and color.&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://twitter.com/hansolo_/status/1627195942125305858"&gt;JArkanoid game created by &lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt; received a great deal of interest.
+&lt;ul&gt;
+&lt;li&gt;You can &lt;a href="https://twitter.com/hansolo_/status/1628055233094991873"&gt;also run it on Raspberry Pi&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;He &lt;a href="https://twitter.com/hansolo_/status/1627022312808513536"&gt;thanks &lt;strong&gt;Gluon&lt;/strong&gt; to make porting to mobile sooooooo easy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WebFXProject/status/1627654253253722113"&gt;&lt;strong&gt;WebFX&lt;/strong&gt; announced a web version&lt;/a&gt; that can be played &lt;a href="https://jarkanoid.webfx.dev/"&gt;online at jarkanoid.webfx.dev&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/maxandersen/status/1627453787412594688"&gt;&lt;strong&gt;Max Rydahl Andersen&lt;/strong&gt; created a JBang version&lt;/a&gt; that can be simply started with &amp;quot;jbang jarkanoid@maxandersen&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1627331295536680960"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; is experimenting with chess pieces&lt;/a&gt; with his 3D engine.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/YangKui7/status/1627317531966058499"&gt;&lt;strong&gt;GZYangKui&lt;/strong&gt; shared an other retro game&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1627302125960302594"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt; is using FXGL to simplify the code of UI applications&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;And &lt;a href="https://twitter.com/WhiteWoodCity/status/1628316669268606976"&gt;migrated his game fully to FXGL&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.reddit.com/r/JavaFX/comments/11a36yv/windirstat_in_javafx/"&gt;&lt;strong&gt;trinaryoperator&lt;/strong&gt; created a JavaFX version of WinDirStat to do a cleanup of some directories&lt;/a&gt;. In the future it will have actual tools to help hard drive clean-up.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/cpreisler/status/1628752475434909702"&gt;&lt;strong&gt;Chad Preisler&lt;/strong&gt; built a very basic Kafka topic viewer&lt;/a&gt; and shared a 7-minute video with a link to the source code in the video description.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips/status/1628819152122019841"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt; spotted a JavaFX user interface&lt;/a&gt; on a transparent Science- Fiction-like screen.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 23 Feb 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-02-23T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 17-02-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1625759767464484864"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; improved shadows and performance by adding cache (video)&lt;/a&gt;, in a self-made 3D engine from scratch.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_/status/1625344281849352192"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; implemented the last levels missing in JArkanoid.&lt;/a&gt;. It now has all 32 levels of the original except the very last level. &lt;a href="https://github.com/HanSolo/jarkanoid"&gt;You can download the sources and builds for various systems from GitHub&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;And he &lt;a href="https://twitter.com/hansolo_/status/1626220741065850882"&gt;thanks José Pereda from Gluon&lt;/a&gt; to help him to get sound working on iPhone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1624978159996407811"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt; shared again a video of a nice JavaFX UI&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1624788479686180864"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; shared a video of a fishing game made with FXGL&lt;/a&gt; shared on YouTube. Does anyone know the creator?
+&lt;ul&gt;
+&lt;li&gt;And he shared &lt;a href="https://twitter.com/AlmasBaim/status/1624475188942319617"&gt;a quick 20 LoC prototype with absolutely horrible UX&lt;/a&gt;. However, it shows with a bit of refinement here and there, you could totally build yet another Minecraft clone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New releases:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/david_m_gilbert/status/1625034499355561984"&gt;v2.1.4 of FXGraphics2D by &lt;strong&gt;David Gilbert&lt;/strong&gt;&lt;/a&gt;. This enables drawing on the JavaFX Canvas using the Java2D APIs.  The update includes great contributions from &lt;a href="https://twitter.com/laurent_bourges"&gt;&lt;strong&gt;Laurent Bourges&lt;/strong&gt;&lt;/a&gt; to fix clipping issues and boost performance!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@java_discussions/109849881898714868"&gt;The first alpha of X-Pipe, a new remote connection tool created with Java(FX)&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New content on jfx-central.com:
+&lt;ul&gt;
+&lt;li&gt;Company added: &lt;a href="https://www.jfx-central.com/companies"&gt;Intechcore&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 16 Feb 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-02-16T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 10-02-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/GluonHQ/status/1623680620315529216"&gt;&lt;strong&gt;Gluon&lt;/strong&gt; announced public access to its JavaFX 17 builds&lt;/a&gt;, including 17.0.6 and subsequent versions.
+&lt;ul&gt;
+&lt;li&gt;With an important note regarding version compatibility: &amp;quot;As the development of JavaFX 20 picks up momentum, it’s important to note a key change – JavaFX 20 will require Java 17 or later.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos/status/1623958106387410945"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt; of Gluon also shared&lt;/a&gt;: &amp;quot;Gluon leverages GraalVM in Gluon Substrate, allowing JavaFX apps to be converted into native client apps for desktop, mobile and embedded.&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/FrankDelporte/status/1622870327301746688"&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt; shared it is still a long way to go, but Lottie4J can now read both fixed and animated beziers&lt;/a&gt;. It includes a screenshot of the very first result of a loaded animation with colors, strokes, fills... being the next step.
+&lt;ul&gt;
+&lt;li&gt;And shared a &lt;a href="https://foojay.social/@lottie4j/109839719108396708"&gt;link to an article&lt;/a&gt; why it could become important to have a JavaFX implementation of LottieFiles: &amp;quot;4.7 Million Motion Graphics Designers and Developers Turn to Lottie for Efficient Animation Workflow.&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://foojay.social/@jabref/109836297203164251"&gt;&lt;strong&gt;JabRef&lt;/strong&gt; now has a dark theme created by &lt;strong&gt;Joel Maximilian Mai&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Polypragmatist/status/1623457419404914690"&gt;&lt;strong&gt;Dave Barrett&lt;/strong&gt; is a big fan of JavaFX + Kotlin&lt;/a&gt;: &amp;quot;it's a match made in heaven.  Kotlin gives you the tools to streamline your layout code in ways you never could in Java.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/cpreisler/status/1623174913891659777"&gt;&lt;strong&gt;Chad Preisler&lt;/strong&gt; shared a 5 minute about property binding&lt;/a&gt;: &amp;quot;JavaFX makes getting data from your form controls into your model very easy.&amp;quot;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/ParrotMan18/status/1621884694081204225"&gt;&lt;strong&gt;ParrotMan&lt;/strong&gt; shared a project created 2 years ago&lt;/a&gt;: &amp;quot;I made the soundtracks, pixel art sprites, and almost all of the underlying systems from scratch. It looks janky as heck but it was a worthwhile learning experience.&amp;quot;&lt;/li&gt;
+&lt;li&gt;Regular guest of the LinksOfTheWeek, &lt;a href="https://twitter.com/WhiteWoodCity/status/1622774096957431808"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt;, shows the use of VFX components to decorate a JavaFX application&lt;/a&gt; with a link to video and sources.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/YangKui7/status/1622748759309570050"&gt;&lt;strong&gt;GZYanKui&lt;/strong&gt; share a video with a game&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_/status/1621905556075077634"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; spent previous weekend with some JArkanoid coding&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_/status/1621905661012353025"&gt;JArkanoid levels 4 - 7&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_/status/1622151570119852033"&gt;And will build it with GitHub Actions&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_/status/1621651332011642881"&gt;Plus a warning about the JavaFX Canvas being really nice and fast, but&lt;/a&gt; &amp;quot;be beware of effects... Using one simple dropshadow in a GraphicsContext can really bring down performance... Just as a reminder.&amp;quot;&lt;/li&gt;
+&lt;li&gt;And his &lt;a href="https://twitter.com/hansolo_/status/1623028117219450881"&gt;JDKMon application got downloaded 10k times&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1621649400052211715"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; is practising his &amp;quot;summing skills&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1621578572895854595"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; made a rotating light that simulates the sun&lt;/a&gt;, only with matrices and vectors in a self-made 3D engine.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1621512306311200769"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; is facing another nice design challenge for his CRM for the energy market&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/frankgreco/status/1623701464362229760"&gt;&lt;strong&gt;Frank Greco&lt;/strong&gt; plans to create a JavaFX ChatGPT application this weekend&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Not directly JavaFX related, but nice to know... &lt;a href="https://mastodon.social/@HeinzKabutz/109799634014176668"&gt;&lt;strong&gt;Heinz Kabutz&lt;/strong&gt; shared graphs&lt;/a&gt; showing that a lot of the work in recent Java versions was to stabilize and improve the platform, rather than just adding hundreds of new classes. The number of lines of code might even decrease in the future.&lt;/li&gt;
+&lt;li&gt;Jobs
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://remotewant.com/job/javafx-developer-2/"&gt;JavaFX Developer (Remote)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://germantechjobs.de/jobs/Honeypot-GmbH-Java-Entwickler"&gt;Java Entwickler (Berlin), including JavaFX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://remotewant.com/job/lead-javafx-application-developer/"&gt;Lead JavaFX Application Developer (Remote)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 09 Feb 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-02-09T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 03-02-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kevin Rushforth&lt;/strong&gt; of Oracle announced on the mailinglist &amp;quot;As a reminder, JavaFX 20 is now in Rampdown Phase Two (RDP2). .. Now that we are in RDP2, the goal is to stabilize what is there&amp;quot;. So we will soon get a new version of JavaFX being released!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1621461727681589248"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt;&lt;/a&gt; found this &lt;a href="https://www.bilibili.com/video/BV1c24y1B7jg/"&gt;impressive video of VFX, a JavaFX UI framework&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href="https://github.com/wkgcass/vfx"&gt;sources are available on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;And a &lt;a href="https://twitter.com/WhiteWoodCity/status/1618947794638884866"&gt;video of a self-made new JavaFX UI by &lt;strong&gt;WhiteWoodCity&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/cpreisler/status/1620893592435978240"&gt;&lt;strong&gt;Chad Preisler&lt;/strong&gt; wants to thank all JavaFX maintainers&lt;/a&gt;: &amp;quot;The people that maintain and enhance #JavaFX are great. They fixed an issue with Mac back in December, and today when a dev got a M1 all we needed to do was update the JavaFX dependencies. Everything runs great now.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1620569177928142848"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; shared a fancy particle effect demo&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1620493609287172096"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; keeps experimenting with 3D&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;And what is really impressive... &lt;a href="https://twitter.com/orango_mango/status/1620827009646759937"&gt;it is running on a Raspberry Pi with 2GB of memory&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AdamBien/status/1619811640802955265"&gt;&lt;strong&gt;Adam Bien&lt;/strong&gt; talked in his podcast with &lt;strong&gt;Karol Harezlak&lt;/strong&gt;&lt;/a&gt; briefly about JavaFX.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/jhonnygoransson/status/1620563738347847682"&gt;&lt;strong&gt;Jhonny Göransson&lt;/strong&gt; managed to mix JavaFX nodes with raw OpenGL calls&lt;/a&gt; from native cpp via drift-fx.&lt;/li&gt;
+&lt;li&gt;We're looking forward to the blogpost &lt;a href="https://twitter.com/hansolo_/status/1620132608205266945"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; will write on how to run a JavaFX application on iOS using Gluon&lt;/a&gt; with his sample application will JArkanoid.&lt;/li&gt;
+&lt;li&gt;Last week a link was included to Matt Coley sharing his wish-list to extend RichText. There is a &lt;a href="https://github.com/FXMisc/RichTextFX/issues/1167"&gt;GitHub issue by &lt;strong&gt;Andy Goryachev&lt;/strong&gt; of Oracle asking for &amp;quot;Any missing APIs in JavaFX which are needed for RichTextFX&amp;quot;&lt;/a&gt; to gather feedback.&lt;/li&gt;
+&lt;li&gt;New releases:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/DaveJarvis/keenwrite"&gt;3.2.0 of KeenWrite by &lt;strong&gt;Dave Jarvis&lt;/strong&gt;&lt;/a&gt;, a free, open-source, cross-platform desktop Markdown editor that can produce beautifully typeset PDFs.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/DaveJarvis/KeenType"&gt;2.2.1 of KeenType used in KeenWrite&lt;/a&gt; with modernized DANTE e.V.'s Java-based NTS system for rendering TeX.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/binjr_app/status/1620873802522701824"&gt;3.11 of binjr&lt;/a&gt;,  a standalone time series browser that renders data produced by other applications as dynamically editable views and provides advanced features to navigate the data smoothly and efficiently.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/PDFsamOSS/status/1620779451146719232"&gt;5, 5.0.1 and 5.0.2 of PDFsam&lt;/a&gt; a powerful and professional PDF editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 02 Feb 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-02-02T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 27-01-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://foojay.social/@frankdelporte/109745863000952226"&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt; announced he started working on a new Java library to load and save #LottieFiles and #dotLottie, plus a #JavaFX player&lt;/a&gt;. The very early steps are taken with a website, Mastodon account, different Lottie JSON files can already be loaded and saved back to the same JSON, and a very first visual output shows there is some valid data being handled. Maybe you have ideas how to move on with visualizing and animating in JavaFX and want to contribute?
+&lt;ul&gt;
+&lt;li&gt;He also made his Udemy course &lt;a href="https://twitter.com/FrankDelporte/status/1616445015269556227"&gt;to learn how to use JavaFX on the Raspberry Pi available for FREE&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;During the JChampions Conference, &lt;a href="https://twitter.com/gail_asgteach"&gt;&lt;strong&gt;Gail Anderson&lt;/strong&gt;&lt;/a&gt; and &lt;a href="https://twitter.com/Paul_ASGTeach"&gt;&lt;strong&gt;Paul Anderson&lt;/strong&gt;&lt;/a&gt; presented &lt;a href="https://www.youtube.com/watch?v=I2p4ojzV5TE"&gt;&amp;quot;Say the Words: Modern Java with JavaFX for Rich Client UIs&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/MattColey6/status/1618550397198827520"&gt;&lt;strong&gt;Matt Coley&lt;/strong&gt; shared his wish-list to extend RichText&lt;/a&gt;. You want to join the discussion?&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips/status/1618021863481040897"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt; will provide a Keynote presentation at Devnexus 2023&lt;/a&gt;, the largest Java conference in the USA: &amp;quot;Harnessing the Hyper-dimensional Mind: Visualizing Brain Computer Interfaces.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1618642823074705410"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; posted a video of snake bot&lt;/a&gt; using a pathfinding algorithm.
+&lt;ul&gt;
+&lt;li&gt;The sources &lt;a href="https://github.com/OrangoMango/Snake"&gt;are available on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;And &lt;a href="https://twitter.com/orango_mango/status/1617918969025015809"&gt;another video&lt;/a&gt; showing a 3D animation only using matrices and vectors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1616901694582931456"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; shared a video&lt;/a&gt; illustrating how modifying an entity's TransformComponent will now correctly update the entity's 3D direction and vice versa in FXGL.&lt;/li&gt;
+&lt;li&gt;New releases:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://foojay.social/@hansolo_@mastodon.social/109743119204551594"&gt;17.0.45 of JDKMon by &lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt;: minor bugfix.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SerendigityInfo/status/1616487713074446355"&gt;1.6.4 of SmartFinder by &lt;strong&gt;Serendipity&lt;/strong&gt;&lt;/a&gt; with a new quick search view: filter the search results by categories (Documents, Ebooks, Images,...).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 26 Jan 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-01-26T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 20-01-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://techhub.social/@gluonhq/109710794664474768"&gt;&lt;strong&gt;Gluon&lt;/strong&gt; announced the first set of JavaFX releases in 2023&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;JavaFX 19.0.2: public release containing some updates and security patches to JavaFX 19.&lt;/li&gt;
+&lt;li&gt;JavaFX 11.0.18 and JavaFX 17.0.6: for LTS customers who keep supporting the development, and who make it possible to move JavaFX forward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/JavaFX3D/status/1615214627868246016"&gt;Shared by &lt;strong&gt;JavaFX3D&lt;/strong&gt;&lt;/a&gt;: &amp;quot;Go from Figma to a fully Responsive JavaFX Application with support for navigation, responsive sizes, images and more.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/HbotondS/status/1615328894382473219"&gt;&lt;strong&gt;Botond Hegyi&lt;/strong&gt; already had some experience with JavaFX game development&lt;/a&gt;, but he found out working with &lt;a href="https://twitter.com/AlmasBaim"&gt;FXGL by &lt;strong&gt;Almas Baim&lt;/strong&gt;&lt;/a&gt; is sooo much easier.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1615311572397883395"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt; shared a video&lt;/a&gt; of a self-made TableView.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1615385837432184832"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; replied this is actually an important tweet&lt;/a&gt;. as many JavaFX developers think they &amp;quot;have to&amp;quot; use the TableView, and then complain about its limitations. Using GridPane you can create your own custom table view, as most HTML devs do for tables.&lt;/li&gt;
+&lt;li&gt;And &lt;a href="https://twitter.com/WhiteWoodCity/status/1614644198187347970"&gt;another video showing a HDFS management system created with JavaFX&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/MattColey6/status/1614826723127836672"&gt;&lt;strong&gt;Matt Coley&lt;/strong&gt; discovered that JavaFX CSS allows you to effectively create borders&lt;/a&gt; just with the background color/insets property. This fixes the effect of changes in the component when you add a border, and padding changes are needed.
+&lt;ul&gt;
+&lt;li&gt;And he shared a &lt;a href="https://twitter.com/MattColey6/status/1616044636199440384"&gt;preview of the new attach window in Recaf (Java bytecode editor)&lt;/a&gt;, that shows remote process properties and JMX beans, and indicates which JVM you're attached to with highlighted components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips/status/1614054671684886528"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt; announced that the master branch of FXyz3D&lt;/a&gt; has been updated to build with Gradle 7.6 and JDK 17 thanks to &lt;a href="https://twitter.com/JPeredaDnr"&gt;&lt;strong&gt;José Pereda&lt;/strong&gt;&lt;/a&gt;, and is working on several fixes and updates coming soon for the release of version 5.5.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango/status/1616139988952825857"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt; shared a video of a rendering of an .obj file&lt;/a&gt; with only the use of the JavaFX canvas, including camera movement and rotation.&lt;/li&gt;
+&lt;li&gt;New releases:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rladstaetter/status/1615025146015645708"&gt;23.1.0 of LogoRRR by &lt;strong&gt;Robert Ladstätter&lt;/strong&gt;&lt;/a&gt;: builds for Linux, visual improvements, autoscroll support,...&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1614939333244452866"&gt;11.12.4 of CalendarFX by &lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt;: very important fixes related to memory leaks that can happen when constantly recreating calendar views.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 19 Jan 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-01-19T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 13-01-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/MichaelPaus"&gt;&lt;strong&gt;MichaelPaus&lt;/strong&gt;&lt;/a&gt; shared this valuable link: &amp;quot;A very informative, but little known, source of information is the JavaFX tag info on stackoverflow: &lt;a href="https://stackoverflow.com/tags/javafx/info"&gt;stackoverflow.com/tags/javafx/info&lt;/a&gt;. The FAQs cover all the things that are frequently asked on SO and actually should be consulted first before posting a question.&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/MichaelPaus/status/1612385027760734208"&gt;He also shared that he crossed the 10K reputation limit on Stackoverflow&lt;/a&gt; (which gives you access to the moderator tools), by answering mostly JavaFX related questions!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos/status/1611354561863614465"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt; is looking for help with the JavaFX plugin for Eclipse 2022-12&lt;/a&gt;: &amp;quot;Who has #Eclipse experience and wants to help the #JavaFX community?&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/MetacodesPro/status/1612477239249047552"&gt;&lt;strong&gt;Siegfried Steiner&lt;/strong&gt; wrote a very detailed, clear, step-by-step post&lt;/a&gt;: &amp;quot;Write once, run anywhere: An Android game using JavaFX and the GraalVM&amp;quot;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/jessals04/status/1611842000965505025"&gt;Another step-by-step by &lt;strong&gt;Jesse Watson&lt;/strong&gt;&lt;/a&gt; on how to start a JavaFX project using Eclipse IDE and SceneBuilder. &lt;a href="https://www.jessejwatson.com/posts/javafx-how-i-made-my-first-java-gui"&gt;Read it here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=UAGRgntpliI"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; published a video tutorial&lt;/a&gt; in which he uses snow particles to outline an arbitrary String.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=2Mjzw_fKqbM"&gt;&lt;strong&gt;Matthew Wheeler&lt;/strong&gt; (via YouTube) uses JavaFX 3D&lt;/a&gt; to randomly generate galaxies.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/JavaFX3D/status/1612944735752310784"&gt;&lt;strong&gt;JavaFX3D&lt;/strong&gt; found a nice Car Rental System&lt;/a&gt; with a JavaFX user interface. Code with screenshots and videos is &lt;a href="https://github.com/yuenci/Java-Car-Rental-System"&gt;available on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@hansolo_/109678192185507846"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; is modifying the SpaceFX mobile build&lt;/a&gt; so that it runs again on iPhone, including an update of the readme regarding the build.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1612469114127147010"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; shared a teaser&lt;/a&gt; of the new layout for jfx-central.com.&lt;/li&gt;
+&lt;li&gt;New releases:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/david_m_gilbert/status/1612140104734089219?t=_DrlFGujAC-b0GMEYa8lmQ&amp;amp;s=09"&gt;1.5.4 of JFreeChart by &lt;strong&gt;David Gilbert&lt;/strong&gt;&lt;/a&gt;, a project he started in 1999 and although he doesn't spend much time on it these days, he made a new release. And got very nice feedback on this message!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1613501135247101955"&gt;11.0.7 of GMapsFX by &lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; is on Maven Central. No new features or bug fixes, simply updated jaxb version from 2 to 4.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1613565091110158337"&gt;11.55.0 of GemsFX by &lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@hansolo_/109675689095015969"&gt;GlucoStatusFX by &lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt; with a minor bugfix.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 12 Jan 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-01-12T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 06-01-2023</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;p&gt;Best wishes for 2023!
+Hoping for a successful, healthy and peaceful year...&lt;/p&gt;
+&lt;p&gt;It has been two weeks since the previous LinksOfTheWeek, so a lot to share. I'm sure there was even much more, but these are the ones I noticed...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This was already mentioned the last time, but maybe you missed this ;-) &lt;a href="https://twitter.com/foojayio"&gt;&lt;strong&gt;Foojay.io&lt;/strong&gt;&lt;/a&gt;, the website for Friends Of OpenJDK, published the podcast &lt;a href="https://foojay.io/today/foojay-podcast-9/"&gt;&amp;quot;The State of JavaFX Framework, Libraries, and Projects&amp;quot;&lt;/a&gt;. Pedro Duque Vieira, Sean Phillips, Johan Vos, Gail Anderson, Dirk Lemmermann, and Frank Delporte spoke about the JavaFX framework itself, but also about the libraries and applications that are built with it.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/status/1610762162850463744"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt;&lt;/a&gt; started the new year with eco-friendly fireworks. Powered by the FXGL particle system.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/zsevarac/status/1610634951321346050"&gt;&lt;strong&gt;Zoran Sevarac&lt;/strong&gt;&lt;/a&gt; shared a screenshot of a Neural network visual Weights Analysis tool under development for the next DeepNetts release. It helps understanding what's going on inside layers, and debugging trained networks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mohammed Saied&lt;/strong&gt; demonstrates a &lt;a href="https://www.youtube.com/shorts/fA56jf05M84"&gt;JavaFX GUI to control a car (via YouTube Shorts)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@pilhuhn/109609291776854983"&gt;&lt;strong&gt;Heiko Rupp&lt;/strong&gt;&lt;/a&gt; is making progress with a Java/JavaFX Mastodon application.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/YangKui7/status/1609091899562004480?t=Y7LQ24JEmEgcNwKRbQ8YMQ&amp;amp;s=09"&gt;&lt;strong&gt;GZYangKui&lt;/strong&gt; shared a video of nes4j&lt;/a&gt; - The Nintendo Red and White Machine Simulator - and a link to the sources.
+&lt;ul&gt;
+&lt;li&gt;And another video &lt;a href="https://twitter.com/YangKui7/status/1610948697453662211"&gt;with Super Mario&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/LeeWyatt_7788/status/1608797264096657414?t=WaFvuHruHQVnMOgO5bOIiQ&amp;amp;s=09"&gt;&lt;strong&gt;LeeWyatt&lt;/strong&gt;&lt;/a&gt; tweeted a short video introduction on how to use beta 2 of FXTools.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/helmiarkan/status/1608669184560631808?t=7TLax6uVNIq99ZOPvLqQVQ&amp;amp;s=09"&gt;&lt;strong&gt;Hilmi&lt;/strong&gt;&lt;/a&gt; made a hospital queue app for his final homework on Data Structures Practicum. Video and link to the sources.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.reddit.com/r/JavaFX/comments/zy69bk/gilded_sols_brief_overview/"&gt;&lt;strong&gt;Peter Pietri&lt;/strong&gt;&lt;/a&gt; shared info and a video via Reddit of &amp;quot;Gilded Sols&amp;quot;, a game based on chess but with fantasy elements.&lt;/li&gt;
+&lt;li&gt;Setting up your JavaFX development environment can be challenging. &lt;a href="https://twitter.com/a_fester/status/1606385362728849415"&gt;&lt;strong&gt;Andreas Fester&lt;/strong&gt;&lt;/a&gt; shared the solution that helped him to fix &amp;quot;Module not found&amp;quot;, thanks to &lt;a href="https://twitter.com/JPeredaDnr"&gt;&lt;strong&gt;José Pereda&lt;/strong&gt;&lt;/a&gt; and &lt;a href="https://twitter.com/kleopatra_jx"&gt;&lt;strong&gt;Jeanette Winzenburg&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WhiteWoodCity/status/1607564075625779200"&gt;&lt;strong&gt;WhiteWoodCity&lt;/strong&gt;&lt;/a&gt; promotes FXGL to create games.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/desmond__neba/status/1607500047255576581"&gt;&lt;strong&gt;Neba Desmond&lt;/strong&gt;&lt;/a&gt; shared a video of a nice sidebar navigation.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/PatrikKarlstrom/status/1607359050555052032"&gt;&lt;strong&gt;Patrik Karlström&lt;/strong&gt;&lt;/a&gt; is making progress moving Yaya from Swing to JavaFX using WorkbenchFX as the base for the UI.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/nikosvg/status/1603462643670519823"&gt;&lt;strong&gt;Nikos Vaggalis&lt;/strong&gt;&lt;/a&gt; wrote an article about WebFX, a new way to develop modern web-based Java applications with rich desktop-like GUIs.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/autumo"&gt;&lt;strong&gt;Autumo&lt;/strong&gt;&lt;/a&gt; shared an article on Foojay: &lt;a href="https://foojay.io/today/building-javafx-with-gradle/"&gt;&amp;quot;Modular and non-modular Gradle
+build scripts for JavaFX-based projects&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/realThanhpv/status/1610996195182415874"&gt;&lt;strong&gt;Thanhpv&lt;/strong&gt;&lt;/a&gt; is impressed by the performance of JavaFX on a 10y old computer. The screen recorder couldn't catch up...&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Tksrajan/status/1610985730200989701"&gt;&lt;strong&gt;Sundar Krishnamachari&lt;/strong&gt;&lt;/a&gt; shared a small project that creates a UI client for communication over MQ Telemetry Transport or MQTT, a messaging protocol popular in IOT devices.&lt;/li&gt;
+&lt;li&gt;According to ChatGPT &lt;a href="https://twitter.com/lofidewanto/status/1610646563285524481"&gt;there are several advantages to using JavaFX over Swing or SWT&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You want more information about the OpenJFX project than you can find here on jfx-central.com? Visit &lt;a href="https://github.com/mkpaz/aboutfx"&gt;mkpaz/aboutfx on GitHub&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;According to the &amp;quot;2022 Q4&amp;quot; chart on &lt;a href="https://www.infoq.com/articles/java-jvm-trends-2022/"&gt;&amp;quot;Java InfoQ Trends Report - December 2022&amp;quot;&lt;/a&gt;, OpenJFX is now considered a software development topic for the Innovators! So a call-out to all innovative people reading this... JavaFX is the way to go! :-)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 05 Jan 2023 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2023-01-05T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 23-12-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;p&gt;&lt;strong&gt;This is the last JavaFX LinksOfTheWeek for 2022!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I wish you all a nice holiday and fantastic start of 2023!!!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/foojayio"&gt;&lt;strong&gt;Foojay.io&lt;/strong&gt;&lt;/a&gt;, the website for Friends Of OpenJDK, published the podcast &lt;a href="https://foojay.io/today/foojay-podcast-9/"&gt;&amp;quot;The State of JavaFX Framework, Libraries, and Projects&amp;quot;&lt;/a&gt;. These guests spoke about the JavaFX framework itself, but also about the libraries and applications that are built with it:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@johanvos"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/gail_asgteach"&gt;&lt;strong&gt;Gail Anderson&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Host: &lt;a href="https://foojay.social/@frankdelporte"&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Are you considering to write a JavaFX Mastodon client? Take a look at the &lt;a href="https://github.com/andregasser/bigbone"&gt;Bigbone project, that aims to implement the Mastodon API project&lt;/a&gt;, by &lt;a href="https://fosstodon.org/@andregasser"&gt;&lt;strong&gt;André Gasser&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;JavaFX applications shared on Twitter:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/fujohnwang/status/1605397549514633217"&gt;Keebox by @fujohnwang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/deskriders_twt/status/1605216776463302663"&gt;GPT-FX by @deskriders_twt&lt;/a&gt;: quick access to GPT-3 with ChatGPT like interface that remembers the context and stores the chat history. JavaFX + Kotlin.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/LeeWyatt_7788/status/1605225007239417856"&gt;FXTools by @LeeWyatt_7788&lt;/a&gt;: many tools, such as image tools, which support the generation of icons for various OS; multi-image cutting function supports iOS, Android, PC; image format conversion.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/LeeWyatt_7788/status/1580958504369602560"&gt;A friend of @LeeWyatt_7788&lt;/a&gt; was interested in FXGL and made a demo of the game Plants vs. Zombies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New releases:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.jabref.org/#december-18-2022-%E2%80%93-%F0%9F%8E%84-jabref-5-8-release-%F0%9F%8E%84"&gt;v5.8 of JabRef&lt;/a&gt;: open-source, cross-platform citation and reference management tool, more info in our &lt;a href="https://www.jfx-central.com/real_world/jabref"&gt;&amp;quot;Real World Apps&amp;quot; section&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/shannah78"&gt;v4 of jDeploy by &lt;strong&gt;Steve Hannah&lt;/strong&gt;&lt;/a&gt;: JavaFX app template that provides native installers that receive auto-updates to stay in-sync with the latest source changes. See the &lt;a href="https://github.com/shannah/jdeploy-javafx-starter"&gt;GitHub project&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JavaFX job:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; is looking to &lt;a href="https://twitter.com/dlemmermann/status/1603692027601879040"&gt;hire a JavaFX developer in Switzerland for his startup in the energy business&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Dec 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-12-22T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 16-12-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Strange things are happening in the online social world... Looking for a friendly environment for the Java, JavaFX, OpenJDK, JVM, Kotlin,... community? Join &lt;a href="https://foojay.io/today/foojay-on-mastodon-an-update/"&gt;foojay.social, more info in this post&lt;/a&gt;, including a video to get you started.&lt;/li&gt;
+&lt;li&gt;In an interview, &lt;a href="https://foojay.social/@frankdelporte"&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt;&lt;/a&gt; spoke with &lt;a href="https://twitter.com/SeanMiPhillips"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt;&lt;/a&gt;. Every single thing he touches in his programming life turns into awesomeness. Read more about his work with &lt;a href="https://foojay.io/today/visualizing-brain-computer-interface-data-using-javafx/"&gt;Trinity, a tool to visualize Brain Computer Interface data&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/antopelusi"&gt;&lt;strong&gt;Antonio Pelusi&lt;/strong&gt;&lt;/a&gt; shared a complete CSS stylesheet to set a &lt;a href="https://www.antoniopelusi.com/posts/javafx-dark-theme/"&gt;dark theme in your JavaFX UI&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/TheDonRaab"&gt;&lt;strong&gt;Donald Raab&lt;/strong&gt;&lt;/a&gt; is searching for a &lt;a href="https://twitter.com/TheDonRaab/status/1603465185481658394"&gt;JavaFX App Store...&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;And he shared an &lt;a href="https://medium.com/javarevisited/my-weird-and-wonderful-first-adventures-with-javafx-6efe3b1923c8"&gt;overview of his experiments with JavaFX&lt;/a&gt; that were also included here in the previous Links Of The Week.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Alessio_Vinerbi"&gt;&lt;strong&gt;Alessio Vinerbi&lt;/strong&gt;&lt;/a&gt; keeps teasing us with his visual modeler application...
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Alessio_Vinerbi/status/1601913626583093248"&gt;Intergration of Medusa Gauges&lt;/a&gt;, a library by &lt;a href="https://twitter.com/hansolo_"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Alessio_Vinerbi/status/1601870967399190535?t=DJLwumrOcKpBcTEpMPwvlw&amp;amp;s=09"&gt;Having fun with the canvas&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Last week &lt;a href="https://twitter.com/msgilligan"&gt;&lt;strong&gt;Sean Gilligan&lt;/strong&gt;&lt;/a&gt; had some ideas to integrate webcams in JavaFX, and it seems &lt;a href="https://foojay.social/@msgilligan/109491263323925811"&gt;he is making progress...&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/MattColey6"&gt;&lt;strong&gt;Matt Coley&lt;/strong&gt;&lt;/a&gt; shared an &lt;a href="https://twitter.com/MattColey6/status/1601273551444905986?t=ChOQm6FpJP4kBSbWs5_Rvg&amp;amp;s=09"&gt;impressive video of Code2HTML with a new UI with docking tabs&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;New release:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SerendigityInfo/status/1601150944762216449?t=obFEZKy149MabaV7o1tvXg&amp;amp;s=09"&gt;1.6.2 of &lt;strong&gt;Serendipity&lt;/strong&gt;&lt;/a&gt;: improved suggestions and new image types.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Dec 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-12-15T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 09-12-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;The next episodes of the JavaFX exploration blogs by &lt;a href="https://twitter.com/TheDonRaab"&gt;&lt;strong&gt;Donald Raab&lt;/strong&gt;&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Part 3: &lt;a href="https://medium.com/javarevisited/experimenting-with-java-enums-emojis-and-combobox-in-javafx-2c12492cf65"&gt;&amp;quot;Experimenting with Java enums, emojis, and ComboBox in JavaFX&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Part 4: &lt;a href="https://donraab.medium.com/using-the-jackson-library-to-persist-my-javafx-todo-list-to-json-8a4b31917c09"&gt;&amp;quot;Using the Jackson library to persist my JavaFX ToDo List to JSON&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;On Mastodon &lt;a href="https://mastodon.social/@johanvos/109444928640623866"&gt;this remarkable question by &lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt; appeared: &amp;quot;Maybe it's time to think about moving JavaFX development to a foundation, and have it developed in a vendor-neutral environment, where contributors are highly respected.
+That would require commitments from the industries that use JavaFX of course.&amp;quot;&lt;/li&gt;
+&lt;li&gt;New releases:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@hansolo_/109448566675747821"&gt;17.1.27 of JavaFX Charts&lt;/a&gt; by &lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; with a &lt;a href="https://github.com/HanSolo/charts/releases"&gt;new CubeChart and other changes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1598711714056380416?t=NgELT-PWpj05xVadgJI7zA&amp;amp;s=09"&gt;1.54.0 of GemsFX&lt;/a&gt; by &lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; with several important fixes regarding layout issues for the new notification controls.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.jpro.one/docs/current/3.1/2022.1.X"&gt;2022.1.8 of JPro&lt;/a&gt; adds support for Node.viewOrder and includes various bugfixes and minor improvements.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/HanSolo/JDKMon/releases/tag/17.0.41"&gt;17.0.41 of JDKMon&lt;/a&gt; by &lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; added the ability to manually download builds of GraalVM incl. #gluon, #mandrel and #liberican. JDKMon is a little tool written that tries to detect all JDK's installed on your machine and will inform you about new updates of each OpenJDK distribution found.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Timo Reusch&lt;/strong&gt; shared a &lt;a href="https://dev.to/timo_reusch/using-sass-in-your-javafx-project-hf0"&gt;post in which he describes how you can use Sass to generate CSS for JavaFX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/eduramiba"&gt;&lt;strong&gt;Eduardo Ramos&lt;/strong&gt;&lt;/a&gt; tweeted about &lt;a href="https://en.capillary.io/software/capillaryscope/"&gt;CapillaryScope, a free desktop application&lt;/a&gt; designed for doing nailfold capillaroscopy with your favourite USB microscope.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/msgilligan"&gt;&lt;strong&gt;Sean Gilligan&lt;/strong&gt;&lt;/a&gt; got triggered by a tweet by &lt;strong&gt;Johan Vos&lt;/strong&gt; about webcam support for OpenJDK/JavaFX. He has some ideas and prototype. &lt;a href="https://twitter.com/msgilligan/status/1600214413684150272"&gt;Read the thread here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;New content on &lt;a href="https://www.jfx-central.com"&gt;jfx-central.com&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.jfx-central.com/real_world/qfive"&gt;&amp;quot;QFive&amp;quot;&lt;/a&gt;: an e-learning platform for enterprise customers, running on desktop, browser and mobile.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.jfx-central.com/real_world/nerstar"&gt;&amp;quot;NERstar&amp;quot;&lt;/a&gt;: a cross-platform media application, used to create subtitles for live television, running on desktop and browser.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.jfx-central.com/real_world/modellusx"&gt;&amp;quot;ModellusX&amp;quot;&lt;/a&gt;: enables students and teachers to use mathematics to create or explore models interactively. The latest release dates from 2012, but you can still find a &lt;a href="https://www.youtube.com/results?search_query=modellus"&gt;lot of videos created with it on YouTube&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Over 40 &amp;quot;real world apps&amp;quot; is now listed on the website!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 08 Dec 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-12-08T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 02-12-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Last week &lt;a href="https://twitter.com/TheDonRaab"&gt;&lt;strong&gt;Donald Raab&lt;/strong&gt;&lt;/a&gt; shared a first blog about &lt;a href="https://donraab.medium.com/my-first-javafx-application-ee70a1d48cb3"&gt;building his very first JavaFX application with IntelliJ IDEA&lt;/a&gt;, and this week added a second one with &lt;a href="https://medium.com/javarevisited/experimenting-with-java-records-datepicker-and-tableview-in-javafx-446ff272dfd2"&gt;Java Records, DatePicker, and TableView components in JavaFX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;On Wednesday, 7th of December 2022, the annual JavaFX user meeting “JFX Adopters Meeting 2022” hosted by ZEISS as online event takes place. &lt;a href="https://www.zeiss.com/meditec/en/news-events/events/jfx-adopters-meeting.html"&gt;You can register here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; shared a few Tweets with ongoing work:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1596184094295064578"&gt;Started work on a new layout container&lt;/a&gt; called &amp;quot;MatrixPane&amp;quot; based on GridPane and a list of &amp;quot;Tiles&amp;quot;, each tile carrying col, row, spans, grow priorities, and a node.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann/status/1596131245234298885"&gt;Further improvements of the notification control&lt;/a&gt; to support pinned notifications. It will be in GemsFX very soon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/PDFsamOSS"&gt;&lt;strong&gt;PDFsam&lt;/strong&gt;&lt;/a&gt; released the first milestone of PDFsam Basic 5, &lt;a href="https://blog.pdfsam.org/java/pdfsam-basic-version-5-milestone-release/2366/#more-2366"&gt;more details are available here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/mapton_app"&gt;&lt;strong&gt;Mapton&lt;/strong&gt;&lt;/a&gt;, &amp;quot;some kind of map application&amp;quot;, announced a new release for Windows &amp;amp; Linux, built on NetBeans 16 Platform, bundled with Java &amp;amp; JavaFX from Azul. &lt;a href="https://github.com/trixon/mapton/releases/tag/v3.0.0"&gt;You can get it here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt; shared &lt;a href="https://mastodon.social/@johanvos/109426954082587493"&gt;on Mastodon&lt;/a&gt;: a major refactory/simplification on how JavaFX deals with windows and window managers on Linux is making progress. See this &lt;a href="https://github.com/openjdk/jfx/pull/915"&gt;pull request&lt;/a&gt;. All credits should go to &lt;a href="https://twitter.com/thiago_sayao"&gt;&lt;strong&gt;Thiago Sayão&lt;/strong&gt;&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;A few weeks ago we shared this &lt;a href="https://www.youtube.com/watch?t=1337&amp;amp;v=jCBBCBCUt9E&amp;amp;feature=youtu.be"&gt;video showing a Space Invaders game&lt;/a&gt; by &lt;a href="https://www.youtube.com/@chalodss"&gt;&lt;strong&gt;Charles T. (A Bit's Odyssey)&lt;/strong&gt;&lt;/a&gt;, but &lt;a href="https://twitter.com/hansolo_"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt; also created a JavaFX version of this classic game! The &lt;a href="https://www.youtube.com/watch?v=GajccpyHyFM"&gt;video is here&lt;/a&gt; and the &lt;a href="https://github.com/HanSolo/spaceinvadersfx"&gt;sources are shared on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;In the Bootiful Podcast &lt;a href="https://bootifulpodcast.fm/#/episodes/3259c661-0524-46dc-805d-2388011030b9"&gt;&amp;quot;Java Champion, legendary engineer, and author Trisha Gee&amp;quot;&lt;/a&gt;, &lt;a href="https://twitter.com/starbuxman"&gt;&lt;strong&gt;Josh Long&lt;/strong&gt;&lt;/a&gt; talks with &lt;a href="https://twitter.com/trisha_gee"&gt;&lt;strong&gt;Trisha Gee&lt;/strong&gt;&lt;/a&gt; about a lot of topics, including JavaFX.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 01 Dec 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-12-01T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 25-11-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Early-access builds of JavaFX 20 are available from
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gluonhq.com/products/javafx/"&gt;Gluon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jdk.java.net/javafx20/"&gt;Oracle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inside Java&lt;/strong&gt; &lt;a href="https://inside.java/2022/11/18/podcast-027/"&gt;published a podcast&lt;/a&gt; with Kevin Rushforth, OpenJFX Project Co-Lead, working at Oracle.&lt;/li&gt;
+&lt;li&gt;Several people are learning JavaFX and sharing their experiments...
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/desmond__neba"&gt;&lt;strong&gt;Neba Desmond&lt;/strong&gt;&lt;/a&gt; on Twitter: &lt;a href="https://twitter.com/desmond__neba/status/1595881606602194944"&gt;&amp;quot;Day 24 of #100Daysofcode. Today was about making menus in #JavaFX&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/TheDonRaab"&gt;&lt;strong&gt;Donald Raab&lt;/strong&gt;&lt;/a&gt; shared a blog about &lt;a href="https://donraab.medium.com/my-first-javafx-application-ee70a1d48cb3"&gt;building his very first JavaFX application with IntelliJ IDEA&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Found on reddit: GenCross-A mini crossword application written with JavaFX by &lt;strong&gt;u/CasualCompetive&lt;/strong&gt;, fully described on &lt;a href="https://shifitzel.itch.io/gencross"&gt;shifitzel.itch.io/gencross&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Teaser: this week a Foojay Podcast was recorded about JavaFX with &lt;a href="https://twitter.com/johanvos"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt;, &lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt;, &lt;a href="https://twitter.com/gail_asgteach"&gt;&lt;strong&gt;Gail Anderson&lt;/strong&gt;&lt;/a&gt;, &lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt;, and &lt;a href="https://twitter.com/SeanMiPhillips"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt;&lt;/a&gt;. Still some editing to be done and will be published around the 20th of December as a Christmas present ;-)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 24 Nov 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-11-24T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 18-11-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;A lot of the Links Of The Week are found on Twitter. But for a few weeks that medium lost a lot of its fun (in my opinion) since the take-over by Musk. So I'm slowly moving to Mastodon as my new &amp;quot;source of truth and inspiration&amp;quot;. It is a-kind-of-Twitter-alternative, free of advertisements and based on an opensource project.  And then it's fun to &lt;a href="https://bigshoulders.city/@wakingrufus/109344242897231710"&gt;discover an (old) Mastodon client application&lt;/a&gt; in Kotlin and TornadoFX by &lt;a href="https://bigshoulders.city/@wakingrufus"&gt;&lt;strong&gt;wakingrufus&lt;/strong&gt;&lt;/a&gt;. You can &lt;a href="https://github.com/wakingrufus/mastodon-jfx"&gt;find it on GitHub&lt;/a&gt;. It probably needs some updates, but it could be the start of something fun. Take a look!
+&lt;ul&gt;
+&lt;li&gt;If you want to create a Mastodon account or want to move to a server dedicated to the OpenJDK, Java, JavaFX, JVM,... community, you can join &lt;a href="https://foojay.social"&gt;&lt;strong&gt;foojay.social&lt;/strong&gt;&lt;/a&gt; that was created this week. For more info, check the &lt;a href="https://foojay.io/today/foojay-mastodon-service-here-it-is/"&gt;posts on Foojay.io, the website for the Friends Of OpenJDK&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rladstaetter"&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt;&lt;/a&gt;, creator of LogoRRR, is looking for help: &lt;a href="https://github.com/rladstaetter/LogoRRR/issues/12"&gt;&amp;quot;How can you extract time instant information from log files&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/realThanhpv"&gt;&lt;strong&gt;Thanhpv&lt;/strong&gt;&lt;/a&gt; shared some &lt;a href="https://twitter.com/realThanhpv/status/1590306623364665345"&gt;first screenshots of a new JavaFX application&lt;/a&gt; to quickly and accurately build visualized and transparent construction quantity reports for resource planning, cost estimation, risk management.,... To be continued...&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/JavaFX3D"&gt;&lt;strong&gt;JavaFX3D&lt;/strong&gt;&lt;/a&gt; again shared a lot of interesting projects. One we want to include here is a &lt;a href="https://www.youtube.com/watch?t=1337&amp;amp;v=jCBBCBCUt9E&amp;amp;feature=youtu.be"&gt;video showing a Space Invaders game&lt;/a&gt; by &lt;a href="https://www.youtube.com/@chalodss"&gt;&lt;strong&gt;Charles T. (A Bit's Odyssey)&lt;/strong&gt;&lt;/a&gt; (explanation in French).&lt;/li&gt;
+&lt;li&gt;Found on reddit:
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href="https://github.com/AmirAli-AZ/PeriodicTable"&gt;simple periodic table app for chemistry lovers on GitHub&lt;/a&gt; by &lt;strong&gt;AmirAli&lt;/strong&gt;, based on this &lt;a href="https://github.com/Bowserinator/Periodic-Table-JSON"&gt;periodic table JSON&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Polypragmatist"&gt;&lt;strong&gt;Dave Barret&lt;/strong&gt;&lt;/a&gt; has a lot of very nice tutorials on his site! For instance &lt;a href="https://www.pragmaticcoding.ca/javafx/Mvci-Introduction"&gt;&amp;quot;An Introduction to Model-View-Controller-Interactor&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/SDIDSA/jwin"&gt;jWin&lt;/a&gt; by &lt;strong&gt;Zinelabidine Teyar&lt;/strong&gt;: a Java tool that compiles and packs your app as a Windows installer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 17 Nov 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-11-17T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 11-11-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Geolocoder"&gt;&lt;strong&gt;Rachael Ellen&lt;/strong&gt;&lt;/a&gt; shared a &lt;a href="https://twitter.com/Geolocoder/status/1588208416547254272"&gt;screenshot of an app that sketches polygons&lt;/a&gt; to highlight abandoned structures of the long deserted settlement of Shiaba, (IsleOfMull, Scotland). The &lt;a href="https://github.com/Esri/arcgis-runtime-samples-java"&gt;full project is on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/PDFsamOSS"&gt;&lt;strong&gt;PDFsam&lt;/strong&gt;&lt;/a&gt;, a powerful and professional PDF editor, will have a dark theme in the next major version as &lt;a href="https://twitter.com/PDFsamOSS/status/1588564518644617216"&gt;you can see in this screen recording&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; expressed his admiration for &lt;a href="https://www.jfx-central.com/tools/cssfx"&gt;CSSFX&lt;/a&gt; that saves him a lot of time while developing by providing CSS reloading functionality in your running application.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hansolo_"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt; re-created a little JavaFX control to monitor CPU, memory and temperature of your computer, see &lt;a href="https://github.com/HanSolo/jcpu"&gt;the GitHub project&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/JavaFX3D"&gt;&lt;strong&gt;JavaFX3D&lt;/strong&gt;&lt;/a&gt; shared a link to a nice &lt;a href="https://twitter.com/JavaFX3D/status/1590145286118465536"&gt;Monopoly game implemented in JavaFX as a student project by Titof Abdellatif Anflous&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango"&gt;&lt;strong&gt;OrangoMango&lt;/strong&gt;&lt;/a&gt;, a Java game developer, &lt;a href="https://www.youtube.com/watch?v=NOPdE1UoqRw"&gt;published a video&lt;/a&gt; showing how to make a simple shooter game in Java with the JavaFX framework.&lt;/li&gt;
+&lt;li&gt;Regular guests of this weekly list:
+&lt;ul&gt;
+&lt;li&gt;Two months ago, &lt;a href="https://twitter.com/rladstaetter"&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt;&lt;/a&gt; announced the 1000th download of LogoRRR, another JavaFX GUI application! This week he &lt;a href="https://twitter.com/logorrr/status/1588802037923254272"&gt;passed the 2000 downloads&lt;/a&gt;! Congratz for a great app!!&lt;/li&gt;
+&lt;li&gt;The visual modeler by &lt;a href="https://twitter.com/Alessio_Vinerbi"&gt;&lt;strong&gt;Alessio Vinerbi&lt;/strong&gt;&lt;/a&gt; now also &lt;a href="https://twitter.com/Alessio_Vinerbi/status/1588849677645934594"&gt;integrates MQTT as you can see in this screen recording&lt;/a&gt;. BTW, this tool is not public yet, but we hope to be able to give it a try ourselves soon... ;-)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WebFXProject"&gt;&lt;strong&gt;WebFX&lt;/strong&gt;&lt;/a&gt; announced that &lt;a href="https://modality.one"&gt;&lt;strong&gt;Modality&lt;/strong&gt;&lt;/a&gt; chose WebFX as its UI toolkit, being the first real-world WebFX application in development, and is driving forward the WebFX enterprise features. See &lt;a href="https://twitter.com/WebFXProject/status/1589961407469977600"&gt;video in the tweet&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New content on jfx-central.com:
+&lt;ul&gt;
+&lt;li&gt;Real-world app: &lt;a href="https://www.jfx-central.com/real_world/hero"&gt;&amp;quot;HERO&amp;quot;&lt;/a&gt; by &lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt;, a CAD application for calculating the energy efficiency of dwellings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 10 Nov 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-11-10T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 04-11-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;JavaFX Chess by &lt;a href="https://twitter.com/john_sirach"&gt;&lt;strong&gt;John Sirach&lt;/strong&gt;&lt;/a&gt; is not a new project, but &lt;a href="https://twitter.com/jjenkov"&gt;&lt;strong&gt;Jakob Jenkov&lt;/strong&gt;&lt;/a&gt; shared &lt;a href="https://twitter.com/jjenkov/status/1586785876050427904"&gt;a tweet about it&lt;/a&gt;, and it's always nice &lt;a href="https://www.youtube.com/watch?v=6S6km5duBrM"&gt;to see a video of this amazing project&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We already shared here that Oracle will also be distributing JavaFX builds, and you can see &lt;a href="https://www.youtube.com/watch?v=4hUbmI0nplU&amp;amp;t=1600s"&gt;the announcement they did at JavaOne here&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/zinbe"&gt;&lt;strong&gt;Takaaki Sugiyama&lt;/strong&gt;&lt;/a&gt; shared &lt;a href="https://twitter.com/zinbe/status/1583208414707998720"&gt;a lot of screenshot pictures of the JavaOne presentation &amp;quot;JavaFX 19 and Beyond&amp;quot;&lt;/a&gt;, and the full presentation by &lt;a href="https://twitter.com/kevinrushforth"&gt;&lt;strong&gt;Kevin Rushforth&lt;/strong&gt;&lt;/a&gt; is available as a &lt;a href="https://cr.openjdk.java.net/~kcr/presentations/javaone-2022/JavaFX-19_Final.pdf"&gt;PDF here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/samieteq"&gt;&lt;strong&gt;Samie Azubike&lt;/strong&gt;&lt;/a&gt; shared a &lt;a href="https://twitter.com/samieteq/status/1583769072273354752"&gt;video in a tweet showing BobFI&lt;/a&gt;, a nice JavaFX UI to manage tasks, projects, messages, and help you communicate with your team.&lt;/li&gt;
+&lt;li&gt;Some new great demos of the visual modeler, written in JavaFX and integrating OpenCV, by &lt;a href="https://twitter.com/Alessio_Vinerbi"&gt;&lt;strong&gt;Alessio Vinerbi&lt;/strong&gt;&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Alessio_Vinerbi/status/1586044299996631042"&gt;Blending modes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Alessio_Vinerbi/status/1587406474313089026"&gt;Integration of processing nodes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A feature in development for SceneBuilder: drop one or more FXML files into the welcome page to open them, as you can see in &lt;a href="https://twitter.com/Raumzeitfalle/status/1587543306782887937?t=48IdRrEehs88chXQ0iAMKg&amp;amp;s=09"&gt;this video&lt;/a&gt; shared by &lt;a href="https://twitter.com/Raumzeitfalle"&gt;&lt;strong&gt;Raumzeitfalle&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/jpro_one"&gt;&lt;strong&gt;JPro&lt;/strong&gt;&lt;/a&gt; announced a &lt;a href="https://www.jpro.one/docs/current/3.1/2022.1.X?"&gt;new version 2022.1.6&lt;/a&gt; with a modernized FileUpload API, support for multi-file upload, and browser native scrolling.
+&lt;ul&gt;
+&lt;li&gt;This means &lt;a href="https://www.jfx-central.com/"&gt;jfx-central.com&lt;/a&gt; now also uses this new scrolling implementation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 03 Nov 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-11-03T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 28-10-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;On September 30, &lt;a href="https://twitter.com/gail_asgteach"&gt;&lt;strong&gt;Gail Anderson&lt;/strong&gt;&lt;/a&gt; was speaking on IntelliJ IDEA Conference about &amp;quot;JavaFX for Mobile Development&amp;quot;. We promised here to share the link to the video when available, and &lt;a href="https://www.youtube.com/watch?v=-8epeIFdKWo&amp;amp;t=14498s"&gt;here it is&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips"&gt;&lt;strong&gt;Sean Phillips&lt;/strong&gt;&lt;/a&gt; shared several videos with an impressive data visualization tool.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips/status/1584287746637828098"&gt;Arcing through decoded hyper-dimensional space using #Java and #JavaFX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=NXHQY5Fh1Do"&gt;Trinity JavaFX 3D Convex Hull Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SeanMiPhillips/status/1584204309956202496"&gt;Hull Point Cloud using #JavaFX 3D&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/jjenkov"&gt;&lt;strong&gt;Jakob Jenkov&lt;/strong&gt;&lt;/a&gt; asked &lt;a href="https://twitter.com/jjenkov/status/1584090714320695296"&gt;in this tweet with a lot of interesting replies&lt;/a&gt;: &amp;quot;Hi JavaFXers - do we have some JavaFX application design patterns somewhere? Advice about how to structure a #Java + #JavaFX application so the code base and application does not get messy as the app grows? I have some ideas -but I'd like to see what the rest of you have too :-)&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WebFXProject"&gt;&lt;strong&gt;WebFX&lt;/strong&gt;&lt;/a&gt; seems to have a fixed spot in this weekly list... &lt;a href="https://webfx.dev/#/demos"&gt;This new demo&lt;/a&gt; shows MediaView added to the JavaFX Media emulation, which means that WebFX can now display videos.&lt;/li&gt;
+&lt;li&gt;New content that is now available on jfx-central.com
+&lt;ul&gt;
+&lt;li&gt;People: the work of &lt;a href="https://twitter.com/jan_gassen"&gt;&lt;strong&gt;Jan Gassen&lt;/strong&gt;&lt;/a&gt; is listed on &lt;a href="https://www.jfx-central.com/people/j.gassen"&gt;this page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Library: &lt;a href="https://www.jfx-central.com/libraries/nsmenufx"&gt;NSMenuFX&lt;/a&gt;, by Jan Gassen, a simple library to customize the macOS menu bar to give your JavaFX app a more native look and feel.&lt;/li&gt;
+&lt;li&gt;Tips: &lt;a href="https://www.jfx-central.com/tips/application_flags"&gt;Flags for JavaFX applications&lt;/a&gt; to either add debug logs or switch configuration.&lt;/li&gt;
+&lt;li&gt;Blogs: &lt;a href="https://www.jfx-central.com/blogs/abhinay.xyz"&gt;abhinay.xyz&lt;/a&gt; by &lt;a href="https://twitter.com/iAbhinay"&gt;&lt;strong&gt;Abhinay Agarwal&lt;/strong&gt;&lt;/a&gt; about things good to know about JavaFX.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 27 Oct 2022 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-10-27T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 21-10-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;At JavaOne on October 20th, some JavaFX related announcements were made.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/JavaFXpert/status/1583174188587589632"&gt;A tweet&lt;/a&gt; by &lt;a href="https://twitter.com/JavaFXpert"&gt;&lt;strong&gt;James Weaver&lt;/strong&gt;&lt;/a&gt;: &amp;quot;Great #JavaFX announcements from @kevinrushforth after being introduced by @mono_quito89 at #JavaOne, while bandmate and @Java legend @BrianVerm mixes drinks. Friend and colleague @johanvos at @GluonHQ highlighted in the process.&amp;quot;&lt;/li&gt;
+&lt;li&gt;And a &lt;a href="https://www.linkedin.com/posts/btratra_java-javafx-openjdk-activity-6988940880757882880-s4RA?utm_source=share&amp;amp;utm_medium=member_desktop"&gt;LinkedIn message&lt;/a&gt; by &lt;a href="https://twitter.com/BTraTra"&gt;&lt;strong&gt;Bernard Traversat&lt;/strong&gt;&lt;/a&gt;: &amp;quot;We announced today we will be producing JavaFX build for JDK 20! Providing a modern UI toolkit for the Java platform will continue to make Java the most compelling platform for educators to teach programming and for UI innovators to explore new rich application UI designs.&amp;quot;&lt;/li&gt;
+&lt;li&gt;So the latest JavaFX will not only be available on the &lt;a href="https://gluonhq.com/products/javafx/"&gt;Gluon website&lt;/a&gt;, but also on &lt;a href="https://jdk.java.net/javafx20/"&gt;jdk.java.net/javafx20&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Curious what the impact of this announcement will be and what we can share here next week...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Last week at &lt;a href="https://twitter.com/Devoxx"&gt;&lt;strong&gt;Devoxx&lt;/strong&gt;&lt;/a&gt; in Antwerp (Belgium) the tweet wall was a crucial part of the information exchange between the visitors, showing the upcoming talks, highest ranked talks, etc. This tweet wall is a community effort driven by &lt;a href="https://twitter.com/jugbodensee"&gt;&lt;strong&gt;@jugbodensee&lt;/strong&gt;&lt;/a&gt; members, with the support of Gluon, and the &lt;a href="https://github.com/TweetWallFX/TweetwallFX"&gt;sources are on GitHub&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt; shared a &lt;a href="https://twitter.com/johanvos/status/1580097937270788096"&gt;picture in a tweet&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;By the way (1), TweetwallFX has its own &lt;a href="https://twitter.com/TweetwallFX"&gt;Twitter account @TweetwallFX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;By the way (2), the official “Devoxx” mobile app is also a JavaFX project, created by Gluon, that you can find &lt;a href="https://github.com/devoxx/MyDevoxxGluon"&gt;on GitHub&lt;/a&gt;. Check the GitHub workflows to learn &lt;a href="https://github.com/devoxx/MyDevoxxGluon/tree/main/.github/workflows"&gt;more about how it is building and publishing to the Google and Apple stores&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The book &lt;a href="https://www.jfx-central.com/books/fxgl17"&gt;&amp;quot;Learn JavaFX Game and App Development with FXGL 17&amp;quot;&lt;/a&gt; by &lt;a href="https://twitter.com/AlmasBaim/"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt;&lt;/a&gt; got reviewed by &lt;a href="https://twitter.com/FrankDelporte"&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt;&lt;/a&gt;, read it on &lt;a href="https://foojay.io/today/book-review-learn-javafx-game-and-app-development-with-fxgl-17/"&gt;foojay.io&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; shared &lt;a href="https://twitter.com/dlemmermann/status/1582021109423042562"&gt;a screenshot in a tweet&lt;/a&gt; of the &lt;a href="https://github.com/openjdk/jfx/pulls?q=is%3Apr+is%3Aopen+label%3Arfr"&gt;pull requests in the openjdk/jfx project&lt;/a&gt;: &amp;quot;Wow, 47 pull requests &amp;quot;ready for review&amp;quot; in #OpenJFX. Looks like we have a traffic jam. Some several years old. Some ending with last comment &amp;quot;can you review this?&amp;quot; :-) Hope Oracle really does increase their #javafx team member count.&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;And he also &lt;a href="https://www.youtube.com/watch?v=kwVXO0MdIdk"&gt;shared this video&lt;/a&gt; showing a custom JavaFX control that can be used to display groups of notifications either expanded or as a stack, inspired by the MacOS notification center. However, plenty of customisation options via API or CSS are available to make this control fit into any application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lanthale"&gt;&lt;strong&gt;Clemens Lanthaler&lt;/strong&gt;&lt;/a&gt; released &lt;a href="https://www.jfx-central.com/real_world/photoslide"&gt;PhotoSlide 1.3&lt;/a&gt; with many small updates and fixes including new version of librawfx and libheiffx and updates to JDK19/Javafx19 with better Multi-Threading again.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt; added again a new control to FXComponents library: ReordableListView, a ListView that can be reordered with the mouse by drag and dropping its cells and also supports drag and dropping from an outside source into a ListView cell position as you can see &lt;a href="https://twitter.com/P_Duke/status/1582732021448978433"&gt;in the video in this Tweet&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;A &lt;a href="https://github.com/rladstaetter/LogoRRR/releases/tag/22.3.0"&gt;new release 22.3.0&lt;/a&gt; of LogoRRR - log file viewer - &lt;a href="https://twitter.com/logorrr/status/1581654374719557632"&gt;has been announced&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WebFXProject"&gt;&lt;strong&gt;WebFX&lt;/strong&gt;&lt;/a&gt; - a JavaFX to JavaScript transpiler - can now access local files, as you can read on &lt;a href="https://github.com/webfx-project/webfx/discussions/14"&gt;this GitHub discussion&lt;/a&gt;, with a &lt;a href="https://files.webfx.dev/"&gt;demo on files.webfx.dev&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 20 Oct 2022 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-10-20T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 14-10-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/GluonHQ/"&gt;&lt;strong&gt;Gluon&lt;/strong&gt;&lt;/a&gt; announced the release of &lt;strong&gt;Gluon Scene Builder 19&lt;/strong&gt;. You can get it from &lt;a href="https://github.com/gluonhq/scenebuilder/releases/tag/19.0.0"&gt;github.com/gluonhq/scenebuilder/releases&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;It incorporates JavaFX 19 wich brings lots of improvements, so you benefit &lt;a href="https://openjfx.io/highlights/19/"&gt;from all these release highlights&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Raumzeitfalle/status/1578692849746718720?t=mNxAaRN22Frjkf6kTfGy-w&amp;amp;s=09"&gt;This tweet shows a video&lt;/a&gt; of a bugfix on macOS where copy&amp;amp;paste often resulted in entries doubled after paste. A new preference setting &amp;quot;alternative paste behavior for text input&amp;quot; is available on macOS and is enabled by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Want to test JavaFX 20 Early Access? It's already &lt;a href="https://gluonhq.com/products/javafx/#ea"&gt;available on the &lt;strong&gt;Gluon&lt;/strong&gt; website&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Up till now, each of the newer JavaFX versions could run with a lower JDK, e.g. JavaFX 17 works with JDK 11. But this will change as &lt;a href="https://mail.openjdk.org/pipermail/openjfx-dev/2022-October/036089.html"&gt;was mentioned on the mailinglist&lt;/a&gt;: &amp;quot;JavaFX 20 requires JDK 17 or later.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/iAbhinay"&gt;&lt;strong&gt;Abhinay Agarwal&lt;/strong&gt;&lt;/a&gt; shared a few very interesting JavaFX links:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://edencoding.com/category/javafx/"&gt;&lt;strong&gt;edencoding.com&lt;/strong&gt;&lt;/a&gt; has the &amp;quot;Most vibrant collection of JavaFX articles I have come across recently. Kudos to &lt;a href="https://twitter.com/NerdyEden"&gt;&lt;strong&gt;Ed Eden-Rump&lt;/strong&gt; AKA NerdyEden&lt;/a&gt;.&amp;quot;&lt;/li&gt;
+&lt;li&gt;A list created by &lt;strong&gt;Abhinay&lt;/strong&gt; himself with all the flags that might help you while debugging a JavaFX application on &lt;a href="https://abhinay.xyz/javafx/2022/10/03/OpenJFX-flags.html"&gt;&amp;quot;Flags for JavaFX application&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rladstaetter"&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt;&lt;/a&gt; shared a &lt;a href="https://github.com/rladstaetter/javafx-advancedinstaller-example"&gt;HelloWorld example project on GitHub&lt;/a&gt; to show how to install a JavaFX app with a Windows Installer using &lt;a href="https://twitter.com/advinst"&gt;&lt;strong&gt;Advanced Installer&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; added a new custom control to &lt;a href="https://github.com/dlsc-software-consulting-gmbh/GemsFX"&gt;&lt;strong&gt;GemsFX&lt;/strong&gt;&lt;/a&gt; for displaying screens and windows of a JavaFX application, inspired by MacOS. For a screenshot, check &lt;a href="https://twitter.com/dlemmermann/status/1578426485299449857?t=bCzbA3BPMatyoQVM362l-A&amp;amp;s=09"&gt;this tweet&lt;/a&gt; and a &lt;a href="https://www.youtube.com/watch?v=Kv7jo9fF9tc"&gt;demo is available on YouTube&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;He also announced release 11.12.2 of &lt;a href="https://www.jfx-central.com/libraries/calendarfx"&gt;CalendarFX&lt;/a&gt; with various bug fixes related to time zones and recurring entries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/FrankDelporte"&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt;&lt;/a&gt; spoke on Devoxx in Antwerp about &lt;a href="https://pi4j.com/"&gt;Pi4J&lt;/a&gt; and showed a JavaFX application running on a Raspberry Pi showing sensor data with the TilesFX library of &lt;a href="https://twitter.com/hansolo_"&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt;&lt;/a&gt;: &lt;a href="https://www.youtube.com/watch?v=lnV0Hn2tias"&gt;recording of the presentation on YouTube&lt;/a&gt; and &lt;a href="https://webtechie.be/post/2022-10-10-devoxx-belgium-links/"&gt;links used in the presentation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt; added a new control to FXComponents library: BlockingProgressBar. &lt;a href="https://twitter.com/P_Duke/status/1580570179376816129"&gt;Check the video example in this tweet&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/wiverson"&gt;&lt;strong&gt;Will Iverson&lt;/strong&gt;&lt;/a&gt; updated his &lt;a href="https://github.com/wiverson/maven-jpackage-template"&gt;Java, JavaFX and Swing template for generating nice native installers for macOS, Windows and Ubuntu&lt;/a&gt; with a new single GitHub Action matrix script to generate all the installers w/nice human-friendly, matching version numbers.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 13 Oct 2022 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-10-13T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 07-10-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;JavaFX 19 just got released a few weeks ago, but &lt;a href="https://twitter.com/johanvos"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt; is already &lt;a href="https://twitter.com/johanvos/status/1575159889994911744?t=PJn2au0k_icq2qseeLVOXA&amp;amp;s=09"&gt;looking forward&lt;/a&gt; to the next one: &lt;em&gt;a really-worth-mentioning improvement that will be in JavaFX 20 is the update to MarlinFX 0.9.4.6 by &lt;a href="https://twitter.com/laurent_bourges"&gt;&lt;strong&gt;Laurent Bourgès&lt;/strong&gt;&lt;/a&gt;. Thank you very much Laurent for your contributions. They are an important part to the success of JavaFX. See &lt;a href="https://bugs.openjdk.org/browse/JDK-8287604"&gt;JDK-8287604&lt;/a&gt;.&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/users/bourgesl/projects/1/views/1"&gt;Laurent is even sharing his TODO list on GitHub&lt;/a&gt; in case you are curious about what he is working on...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; announced &lt;a href="https://twitter.com/dlemmermann/status/1576974458761486338"&gt;in a tweet&lt;/a&gt; version 11.12.1 of CalendarFX with new views for displaying resource allocations, improved editing behaviour, plenty of fixes and enhancements. You can &lt;a href="https://github.com/dlsc-software-consulting-gmbh/CalendarFX"&gt;find it on GitHub&lt;/a&gt;, and new link for the &lt;a href="https://dlsc-software-consulting-gmbh.github.io/CalendarFX/"&gt;documentation is here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rladstaetter"&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt;&lt;/a&gt; wanted to use JavaFX on a Windows aarch64 (virtual) machine, and &lt;a href="http://ladstatt.blogspot.com/2022/10/a-javafx-fanboy-forgets-about-his.html"&gt;described the process to build it from the sources&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlmasBaim/"&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt;&lt;/a&gt; shared &lt;a href="https://twitter.com/AlmasBaim/status/1576154186315882496"&gt;a video in a tweet&lt;/a&gt; showing a bridge generated with FXGL (game engine) to illustrate a distance joint (which constrains two entities to preserve their distance to each other) that produces some interesting results. Entities with different densities are thrown at it and fly through the screen using physics.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/cpreisler"&gt;&lt;strong&gt;Chad Preisler&lt;/strong&gt;&lt;/a&gt; shared &lt;a href="https://www.youtube.com/watch?v=auao5UNrUcg"&gt;a video showing how to create a form using SceneBuilder and JavaFX&lt;/a&gt;, getting the form to resize the correct way.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/orango_mango"&gt;OrangoMango&lt;/a&gt; shared a &lt;a href="https://github.com/OrangoMango/RubikCube"&gt;project to visualize and solve a Rubik's Cube with JavaFX&lt;/a&gt;, that is also available as an Android APK. It's inspired by a &lt;a href="https://github.com/gluonhq/gluon-samples/tree/master/rubiks-cube"&gt;similar example created by Gluon&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Devoxx Belgium is next week (10-14 October) and the organization is &lt;a href="https://twitter.com/Devoxx/status/1577934708100456448"&gt;thanking Gluon in a tweet&lt;/a&gt; for their continued support for the #OSS Devoxx mobile app. Sources of the DevoxxBadges JavaFX app &lt;a href="https://github.com/gluonhq/DevoxxBadges"&gt;are available on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;New content on jfx-central.com:
+&lt;ul&gt;
+&lt;li&gt;Real World App: &lt;a href="https://www.jfx-central.com/real_world/jabref"&gt;JabRef&lt;/a&gt; is an open-source, cross-platform citation and reference management tool, see &lt;a href="https://www.jabref.org/"&gt;jabref.org&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Tool: &lt;a href="https://www.jfx-central.com/tools/conveyor"&gt;&amp;quot;Conveyor&amp;quot;&lt;/a&gt; by &lt;a href="https://twitter.com/HydraulicCorp"&gt;&lt;strong&gt;Hydraulic&lt;/strong&gt;&lt;/a&gt;, is an alternative/replacement for the jpackage tool but with support for (background) updates, signing, notarisation.&lt;/li&gt;
+&lt;li&gt;Another library by &lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt;: &lt;a href="https://www.jfx-central.com/libraries/fxparallax"&gt;FXParallax&lt;/a&gt;. This framework adds controls to add Parallax effects to JavaFX application, this effect can add a sense of depth (3D like) to where it’s used.&lt;/li&gt;
+&lt;li&gt;Coming soon... &lt;a href="https://twitter.com/FlorianKirmaier"&gt;&lt;strong&gt;Florian Kirmaier&lt;/strong&gt;&lt;/a&gt; is pimping the jfx-central website to make it much faster very soon. Due to the architecture of &lt;a href="https://www.jpro.one/"&gt;jpro.one&lt;/a&gt;, scrolling in a ScrollPane requires server calls (as the JavaFX app lives on the server). A custom skin, should bring a solution...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 06 Oct 2022 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-10-06T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 30-09-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Not from this week (15th of September) but still an interesting read as it lists some of the highlights of JavaFX 19: &lt;a href="https://www.infoworld.com/article/3673888/javafx-19-rich-client-java-platform-arrives.html"&gt;&amp;quot;JavaFX 19 rich client Java platform arrives&amp;quot;&lt;/a&gt; on InfoWorld by &lt;a href="https://twitter.com/pjkrill"&gt;&lt;strong&gt;Paul Krill&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;An &lt;a href="https://github.com/wiverson/maven-jpackage-template/issues/75"&gt;interesting discussion in the GitHub
+maven-jpackage-template project&lt;/a&gt; - a project by &lt;a href="https://twitter.com/wiverson"&gt;&lt;strong&gt;Will Iverson&lt;/strong&gt;&lt;/a&gt; to provide a template project for native desktop applications. Seems there is often a request for a Spring Boot UI template. Let's keep an eye on this &amp;quot;BootFX idea&amp;quot; that could be a using the JavaFX embedded web browser.&lt;/li&gt;
+&lt;li&gt;Today, &lt;a href="https://twitter.com/gail_asgteach"&gt;&lt;strong&gt;Gail Anderson&lt;/strong&gt;&lt;/a&gt; is speaking on &lt;a href="https://pages.jetbrains.com/intellij-idea-conf-2022"&gt;IntelliJ IDEA Conference&lt;/a&gt; about &amp;quot;JavaFX for Mobile Development&amp;quot;. A preview is available on &lt;a href="https://www.youtube.com/watch?v=w4gn_wgaGng"&gt;YouTube&lt;/a&gt;, hopefully we can share the recording here next time.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/SerendigityInfo"&gt;&lt;strong&gt;Serendipity&lt;/strong&gt;&lt;/a&gt; announced on Twitter &lt;a href="https://twitter.com/SerendigityInfo/status/1573611549335457793"&gt;SmartFinder 1.5.3&lt;/a&gt;, the first app published on Apple Store with Java 19 and JavaFX 19!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/WebFXProject"&gt;&lt;strong&gt;WebFX&lt;/strong&gt;&lt;/a&gt; - a JavaFX to JavaScript transpiler - announced a &lt;a href="https://demofx.webfx.dev/"&gt;new demo on their website&lt;/a&gt;, based on the excellent &lt;a href="https://github.com/chriswhocodes/DemoFX"&gt;DemoFX library&lt;/a&gt; by &lt;a href="https://twitter.com/chriswhocodes"&gt;&lt;strong&gt;Chris Newman&lt;/strong&gt;&lt;/a&gt;. The demo starts with an introductory animation, asking to click in order to play the actual demo, because in the browser sandbox, playing sound is not permitted before interacting with the user. The resulted demo is just one single java source file. Warning, looking at the demo for too long time can cause brain damage or hypnosis ;-)&lt;/li&gt;
+&lt;li&gt;The demos of the visual modeler, written in JavaFX and integrating OpenCV, by &lt;a href="https://twitter.com/Alessio_Vinerbi"&gt;&lt;strong&gt;Alessio Vinerbi&lt;/strong&gt;&lt;/a&gt; are really amazing. Look at &lt;a href="https://twitter.com/Alessio_Vinerbi/status/1573971580409061376"&gt;the video in this tweet&lt;/a&gt; where he modifies two videos on the fly with different visual effects.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt; tweeted that he is working on a new controls library, soon to be released. &lt;a href="https://twitter.com/P_Duke/status/1572593466286428161"&gt;It shows a video of the ListBuilder control with support for drag and dropping of cells&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 29 Sep 2022 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-09-29T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 23-09-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Last week we already shared the release of JavaFX 19.
+&lt;ul&gt;
+&lt;li&gt;The highlights of this release can be found on &lt;a href="https://openjfx.io/highlights/19/"&gt;openjfx.io/highlights/19&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;JavaDoc for JavaFX 19 is available at &lt;a href="https://openjfx.io/javadoc/19/"&gt;openjfx.io/javadoc/19&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/GluonHQ/status/1569648445157146626"&gt;&lt;strong&gt;Gluon&lt;/strong&gt; tweeted&lt;/a&gt; an update of the JavaFX roadmap on &lt;a href="https://gluonhq.com/products/javafx/"&gt;gluonhq.com/products/javafx&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/johanvos"&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt;&lt;/a&gt; added &lt;a href="https://twitter.com/johanvos/status/1569682888915836928"&gt;the message&lt;/a&gt;: &amp;quot;&lt;em&gt;We did our first JavaFX release in September 2018 (JavaFX 11). We planned a 6-months cadence, similar to the JDK releases. Four years later, we still keep the train moving forward. It takes blood, sweat and tears, but seeing what developers are doing with JavaFX makes it worth.&lt;/em&gt;&amp;quot;&lt;/li&gt;
+&lt;li&gt;With &lt;a href="https://twitter.com/errcraft/status/1569727660032692230"&gt;a very nice reply&lt;/a&gt; of &lt;a href="https://twitter.com/errcraft"&gt;&lt;strong&gt;James Gosling&lt;/strong&gt;&lt;/a&gt; (the &lt;a href="https://en.wikipedia.org/wiki/James_Gosling"&gt;father of Java!&lt;/a&gt;): &amp;quot;&lt;em&gt;Wonderful!  I’m a happy JavaFX user. Thanks for all the wonderful work you do.&lt;/em&gt;&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/P_Duke"&gt;&lt;strong&gt;Pedro Duque Vieira&lt;/strong&gt;&lt;/a&gt; released a new version of JMetro, a JavaFX theme composed by a set of controls, stylesheets and skins, inspired by the Fluent Design System and adapted to fit the JavaFX SDK. There are also changes that have been made according to Pedro's opinions on some of Fluent Design’s particularities.
+&lt;ul&gt;
+&lt;li&gt;See the &lt;a href="https://pixelduke.com/2022/09/08/jmetro-version-11-6-16-released/"&gt;Release Notes&lt;/a&gt; or &lt;a href="https://github.com/JFXtras/jfxtras-styles"&gt;sources&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;More info on &lt;a href="https://pixelduke.com/java-javafx-theme-jmetro/"&gt;pixelduke.com/java-javafx-theme-jmetro&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FXSkins and FXRibbon were also added to the Libraries here on jfx-central.com, see &lt;a href="https://www.jfx-central.com/people/p.vieira"&gt;Pedro's profile&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; announced &lt;a href="https://twitter.com/dlemmermann/status/1569721829572448256"&gt;in a tweet&lt;/a&gt; that CalendarFX will get a whole new suite of controls for displaying &amp;quot;resource&amp;quot; / &amp;quot;resource allocations&amp;quot;.&lt;/li&gt;
+&lt;li&gt;New Real World App on jfx-central.com:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/wrapperrfid"&gt;&lt;strong&gt;WrapperRFID&lt;/strong&gt;&lt;/a&gt;: a 3-layer software solution, using a JavaFX application as the user interface, used to control the loading and unloading of products by one of the largest retailers in Brazil, &lt;a href="https://www.jfx-central.com/real_world/wrapperrfid"&gt;more info on jfx-central.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JavaFX Jobs
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hendrikEbbers"&gt;&lt;strong&gt;Hendrik Ebbers&lt;/strong&gt;&lt;/a&gt; is &lt;a href="https://twitter.com/hendrikEbbers/status/1570026452355096576"&gt;looking for a developer&lt;/a&gt; to work on a crypto desktop application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-09-22T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 13-09-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;On the JavaFX mailing list this thrilling message appeared: &amp;quot;Create release notes for JavaFX 19.&amp;quot; And yes, they are &lt;a href="https://github.com/openjdk/jfx/blob/205b7211bde0e468e81a135fe37952b7f2b11d45/doc-files/release-notes-19.md"&gt;available now on GitHub&lt;/a&gt;!
+&lt;ul&gt;
+&lt;li&gt;If you want to keep following what’s happening inside the JavaFX community, you can subscribe to it via &lt;a href="https://mail.openjdk.org/mailman/listinfo/openjfx-dev"&gt;mail.openjdk.org/mailman/listinfo/openjfx-dev&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;As with previous releases, the JavaFX community once again succeeded in keeping the 6-months release cycle going on, with a long list of improvements and fixes!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pavlo Iatsiuk&lt;/strong&gt; announced the first release of DynamoIt — a JavaFX GUI client application for AWS DynamoDB - &lt;a href="https://www.reddit.com/r/JavaFX/comments/xbdi2u/the_first_release_of_dynamoit_gui_client_for_aws/"&gt;on Reddit&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;You can find the release &lt;a href="https://github.com/bykka/dynamoit/releases/tag/1.0.0"&gt;on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rladstaetter"&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt;&lt;/a&gt; announced the 1000th download of LogoRRR, another JavaFX GUI application!
+&lt;ul&gt;
+&lt;li&gt;This is the &lt;a href="https://twitter.com/logorrr/status/1569565540657647616?t=S5FvS5QpVKCi1KWrME09JA&amp;amp;s=09"&gt;Twitter announcement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The LogoRRR releases can be found &lt;a href="https://github.com/rladstaetter/LogoRRR/releases"&gt;on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dlemmermann"&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt;&lt;/a&gt; (of all people...!) got frustrated &lt;a href="https://twitter.com/dlemmermann/status/1568221800789835777"&gt;in this Tweet&lt;/a&gt; that he once again had to prove “No, JavaFX is not dead”.
+&lt;ul&gt;
+&lt;li&gt;Let's all help him in proving a lot of amazing stuff is happening with JavaFX by sharing your project with us!&lt;/li&gt;
+&lt;li&gt;We welcome your contribution via &lt;a href="https://twitter.com/jfxcentral"&gt;@jfxcentral on Twitter&lt;/a&gt; or a contribution to this site &lt;a href="https://github.com/dlemmermann/jfxcentral-data"&gt;on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Mon, 12 Sep 2022 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-09-12T22:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 28-02-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Russia has attacked &lt;strong&gt;Ukraine&lt;/strong&gt;. Please make a donation if you want to help the people in Ukraine. For example to the &lt;a href="https://www.icrc.org/en/donate/ukraine"&gt;international red cross&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Andres Almiray&lt;/strong&gt; has &lt;a href="https://andresalmiray.com/jreleaser-1-0-0-m3-has-been-released/"&gt;released version 1.0.0-M3 of JReleaser&lt;/a&gt;, a general purpose solution for assembling, packaging, distributing and announcing new software releases. With its top-notch support for jlink and jpackage it is ideal for doing exactly that for JavaFX applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; &lt;a href="https://github.com/dlemmermann/jfxcentral/releases/tag/early-access"&gt;announced the availability of desktop versions&lt;/a&gt; of JFXCentral for MacOSX, Windows, and Ubuntu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JPRO&lt;/strong&gt; has &lt;a href="https://www.jpro.one/docs/current/3.1/2022.1.X"&gt;released version 2022-1-0 of JPro&lt;/a&gt;, which is a solution for running JavaFX applications in browsers. The latest release supports dark mode detection, virtual images, real time updates for writable images, and theme colors. Theme colors cause the browser to pick up the color and use it for its toolbar (Safari, MacOS, Unified Toolbar setting).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JPRO&lt;/strong&gt; &lt;a href="https://www.jpro.one/docs/current/2.12/JPro_Loadbalancer_(Early_Access)"&gt;announced the availability&lt;/a&gt; of an early-access release of JPro with support for built-in load balancing, which will allow JavaFX applications to run in the browser and use multiple JVMs on the server side. One possible use-case would be the use of a dedicated JVM for each session / user. This makes migration of existing JavaFX applications trivial as multi-session support is no longer a requirement for the apps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; has updated the JFXCentral website to use &lt;a href="https://www.youtube.com/watch?v=oqAsIcoN9MY"&gt;dark mode detection (YouTube video)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Java Client Development Team&lt;/strong&gt; at Oracle has &lt;a href="https://inside.java/2022/03/03/ojp-javafx-developer/"&gt;published a job posting looking for a JavaFX engineer&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 27 Feb 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-02-27T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 31-01-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt; has published a &lt;a href="https://www.youtube.com/watch?v=v9rAR3waDJs&amp;amp;t=12s"&gt;new YouTube video&lt;/a&gt; showing how to setup a JavaFX project in IntelliJ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; has tweeted a link to a game called &lt;a href="https://store.steampowered.com/app/1621980/Territory__animals_genetic_strategy/"&gt;&amp;quot;Territory - animals genetic strategy&amp;quot;&lt;/a&gt; written in JavaFX and FXGL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jeanette Winzenburg&lt;/strong&gt; has updated her development notes covering her progress on &lt;a href="https://github.com/kleopatra/swingempire-fx/wiki/CellEditEvents"&gt;fixing various table view issues&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; has announced a new open source project called &lt;a href="https://github.com/dlsc-software-consulting-gmbh/ShowcaseFX"&gt;&amp;quot;ShowcaseFX&amp;quot;&lt;/a&gt;. It can be used for testing the design of CSS stylesheets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gluon&lt;/strong&gt; has published a new article called &lt;a href="https://gluonhq.com/create-native-javafx-applications-using-graalvm-22-builds-from-gluon/"&gt;&amp;quot;Create native JavaFX applications using GraalVM 22 builds from Gluon&amp;quot;&lt;/a&gt;. The latest release of their solution for mobile development includes upport for the iOS Simulator.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 30 Jan 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-01-30T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 10-01-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vladimir Ikryanov&lt;/strong&gt; has written a post covering the differences between the standard &lt;a href="https://dzone.com/articles/jxbrowser-and-javafx-webview"&gt;JavaFX WebView control and the commercial JxBrowser&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; published a post covering the migration efforts that went into &lt;a href="https://harmoniccode.blogspot.com/2022/01/glucostatusfx.html"&gt;porting his iOS app GlucoTracker to JavaFX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; has &lt;a href="https://github.com/dlsc-software-consulting-gmbh/GemsFX#search-field"&gt;added a SearchField control&lt;/a&gt; to his GemsFX open source control library. The field provides auto suggestions and also auto completes the first best result in the suggestion list. In addition, text matches are highlighted in the result list.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Almas Baimagambetov&lt;/strong&gt; published a tutorial video on YouTube showing &lt;a href="https://www.youtube.com/watch?v=KQoP9M7silY"&gt;how to implement undo functionality&lt;/a&gt; in JavaFX.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 09 Jan 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-01-09T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 03-01-2022</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dieter Holz&lt;/strong&gt; has published a &lt;a href="https://github.com/Pi4J/pi4j-template-javafx"&gt;template project for Raspberry Pis&lt;/a&gt; applications with a JavaFX frontend. The instructions in the project's readme file include the setup of the PI, the required network connection, the build system, various example apps, debugging instructions, and so on. This project is probably the fastest and most compact way to get started as a JavaFX developer on Raspberry Pi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; has published a new blog post covering his latest chart type addition called &lt;a href="https://harmoniccode.blogspot.com/2022/01/holiday-fun.html"&gt;&amp;quot;Radial Tidy Tree&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sean Gilligan&lt;/strong&gt; has released version 0.4.0 of his micronaut-based dependency injection framework for JavaFX called &lt;a href="https://github.com/SupernautApp/SupernautFX"&gt;SupernautFX&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 02 Jan 2022 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2022-01-02T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 20-12-2021</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; has implemented a &lt;a href="https://harmoniccode.blogspot.com/2021/12/dateranger.html"&gt;date picker control&lt;/a&gt; that allows the user to also select date ranges.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Almas Baimagambetov&lt;/strong&gt; has &lt;a href="https://www.youtube.com/watch?v=PKKF62VGVm8"&gt;posted a video&lt;/a&gt; showing the game &amp;quot;Tower Defense&amp;quot; implemented via the FXGL game engine. This is one of the &lt;a href="https://github.com/AlmasB/FXGLGames"&gt;many games&lt;/a&gt; that can be found in the FXGLGames GitHub repository.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 19 Dec 2021 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2021-12-19T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 13-12-2021</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Matt Coley&lt;/strong&gt; has taken over the &lt;a href="https://www.reddit.com/r/JavaFX/comments/rjwcye/state_of_the_sub_new_moderation/"&gt;JavaFX reddit community moderator role&lt;/a&gt; and asks for suggestions on how to breathe new life into the subreddit. Matt has also created a great looking &lt;a href="https://github.com/Col-E/FxThemes"&gt;custom &amp;quot;Hiberbee&amp;quot; theme&lt;/a&gt; and a nice &lt;a href="https://github.com/Col-E/FxSampler"&gt;sampler app showcasing all default controls&lt;/a&gt; of JavaFX. This sampler app is great when working on extensive CSS styling.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt; has written a blog post on HiveMQ called &lt;a href="https://www.hivemq.com/blog/mqtt-raspberrypi-part02-visualizing-sensor-data-on-a-tilesfx-dashboard/"&gt;&amp;quot;Using MQTT and Raspberry Pi to Visualize Sensor Data on a TilesFX Dashboard&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Donald Smith&lt;/strong&gt; has implemented a cool looking &lt;a href="https://github.com/DonaldAlan/jfx-examples"&gt;3D cloth simulation&lt;/a&gt;. This repository also contains a simulation of smoke / particles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Almas Baim&lt;/strong&gt; tweeted a link to a &lt;a href="https://www.youtube.com/watch?v=A061etp1Djw"&gt;video of a fun game called &amp;quot;Bomberman&amp;quot;&lt;/a&gt;. It was written in JavaFX using the &lt;a href="https://github.com/AlmasB/FXGL"&gt;FXGL game library&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 12 Dec 2021 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2021-12-12T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 06-12-2021</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Michael Schnell&lt;/strong&gt; has created a GitHub repository with a &lt;a href="https://github.com/fuinorg/javafx-cdi-example"&gt;template for creating a real-world JavaFX application&lt;/a&gt;. Topics covered are CDI (context and dependency injection, maven setup, GitHub actions, long running tasks, etc...).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abhinay Agarwal&lt;/strong&gt; announced the release of version 11.1.1 of &lt;strong&gt;ControlsFX&lt;/strong&gt; (&lt;a href="https://github.com/controlsfx/controlsfx/releases/tag/11.1.1"&gt;release notes&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; has published a &lt;a href="https://harmoniccode.blogspot.com/2021/12/a-versus-b.html"&gt;blog post covering his latest chart addition&lt;/a&gt;, a comparison chart.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 05 Dec 2021 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2021-12-05T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 29-11-2021</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; has released a &lt;a href="https://harmoniccode.blogspot.com/2021/12/all-things-countries.html"&gt;new library called &amp;quot;countries&amp;quot;&lt;/a&gt; which can be used to display a single country, a region, or a world map. Via overlays additional information can be added to it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shahzada Hatim&lt;/strong&gt; has written a blog post where he shows how to implement a &lt;a href="https://www.hatimonline.com/2021/11/a-javafx-based-ble-app-for-raspberry-pi.html"&gt;JavaFX application for reading BLE&lt;/a&gt; (Bluetooth Low Energy) devices via a Raspberry Pi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JPro&lt;/strong&gt; has &lt;a href="https://www.jpro.one/docs/current/3.1/2021.2.X?"&gt;released version 2021.2.2&lt;/a&gt; of their tool for running JavaFX applications in browsers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robert Ladstätter&lt;/strong&gt; has published a &lt;a href="https://github.com/rladstaetter/LogoRRR/releases/tag/21.3.2"&gt;new release&lt;/a&gt; of his log file viewer LogoRRR (written in JavaFX).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clemens Lanthaler&lt;/strong&gt; developed an &lt;a href="https://github.com/lanthale/fxiconcreator"&gt;application called FXIconCreator&lt;/a&gt; for creating app icons out of a single PNG file for all major operating systems.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 28 Nov 2021 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2021-11-28T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 22-11-2021</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Andreas Billmann&lt;/strong&gt; has created a &lt;a href="https://github.com/frosch95/YoutubeDL-UI"&gt;JavaFX UI for the YouTube downloader&lt;/a&gt;. Andreas is also the author of &lt;a href="http://frosch95.github.io/SmartCSV.fx/"&gt;SmartCSV.fx&lt;/a&gt;, an editor for comma separated values files that includes configurable validity checks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; has published installers for the &lt;a href="https://www.flexganttfx.com/pages/download-demos/"&gt;FlexGanttFX sampler application&lt;/a&gt;. He also &lt;a href="https://bugs.openjdk.java.net/browse/JDK-8277848"&gt;reported a bug / memory leak&lt;/a&gt; related to ListProperty bindings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frederic Thevenet&lt;/strong&gt; relased a &lt;a href="https://binjr.eu"&gt;new version&lt;/a&gt; of his time series data explorer called &lt;em&gt;&lt;strong&gt;binjr&lt;/strong&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; released &lt;a href="https://github.com/HanSolo/JDKMon/releases/tag/17.0.14"&gt;version 17.0.14&lt;/a&gt; of his tool JDKMon. A little tool written in JavaFX that monitors your installed JDK's and informs you about updates.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 21 Nov 2021 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2021-11-21T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 15-11-2021</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Johan Vos&lt;/strong&gt; has written a &lt;a href="https://medium.com/graalvm/graalvm-to-level-up-javafx-and-gluon-substrate-7ec77a76c386"&gt;guest post on the GraalVM blog&lt;/a&gt;. The title is &lt;em&gt;&amp;quot;GraalVM to Level Up JavaFX and Gluon Substrate&amp;quot;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geertjan Wielenga&lt;/strong&gt; has released &lt;a href="https://www.youtube.com/watch?v=cUSDknlhxcY"&gt;a YouTube video&lt;/a&gt; demoing the &lt;strong&gt;&lt;em&gt;OpenJFX Lite&lt;/em&gt;&lt;/strong&gt; project where developers can use the &lt;em&gt;javafx.base&lt;/em&gt; with its observability API (properties, collections) and render to HTML.&lt;/li&gt;
+&lt;li&gt;The JavaFX book &lt;em&gt;&amp;quot;The Definitive Guide to Modern Java Clients&amp;quot;&lt;/em&gt; has been &lt;a href="https://www.amazon.com/Definitive-Guide-Modern-Clients-JavaFX/dp/1484272676/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&amp;amp;keywords=definitive+guide+javafx&amp;amp;qid=1637673390&amp;amp;qsid=260-1708721-0287448&amp;amp;sr=8-1&amp;amp;sres=1484272676%2C1484249259%2C1484230418%2C1430265744%2C1430268727%2CB011DC3B0Y%2C3625180863%2CB07HY331VW%2CB07KMZ65T2%2C1786678748%2C1484230434%2CB08BG6WM3K%2CB08BS4PW1B%2CB084DT2W79%2CB07YTCVZ7N%2CB07RPXLKJ5&amp;amp;srpt=ABIS_BOOK"&gt;updated for JavaFX 17&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Version 2021.2.1 of &lt;em&gt;JPro&lt;/em&gt; has been &lt;a href="https://www.jpro.one/docs/current/3.1/2021.2.X?"&gt;published&lt;/a&gt;. &lt;em&gt;JPro&lt;/em&gt; now uses JavaFX 17, supports touch events.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; has published a new post called &lt;a href="https://harmoniccode.blogspot.com/2021/11/panel-barchart.html"&gt;&amp;quot;Panel Barchart&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 14 Nov 2021 23:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2021-11-14T23:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Links Of The Week - 25-10-2021</title>
+      <link>https://jfx-central.com</link>
+      <description>&lt;p&gt;This week saw updates to this site, a couple of new product releases, and several interesting online reads.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dirk Lemmermann&lt;/strong&gt; and &lt;strong&gt;Florian Kirmaier&lt;/strong&gt; finished the mobile version of JFX Central and published it at &lt;a href="https://jfx-central.com"&gt;jfx-central.com&lt;/a&gt;.
+This release required the addition of full support for gesture events which was added to the &lt;a href="https://www.jpro.one"&gt;JPRO solution&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gluon&lt;/strong&gt; released the &lt;a href="https://gluonhq.com/gluon-mobile-next-iteration/"&gt;next iteration of their Gluon Mobile product&lt;/a&gt;, which consists of the subcomponents &lt;em&gt;Charm Glisten&lt;/em&gt; (for the frontend), &lt;em&gt;Attach&lt;/em&gt; (for mobile services integration), and &lt;em&gt;Gluon Afterburner&lt;/em&gt; (for dependency injection).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gerrit Grunwald&lt;/strong&gt; has released a &lt;a href="https://github.com/HanSolo/JDKMon/releases"&gt;new version of his tool JDKMon&lt;/a&gt;. It now also supports the new Apple hardware (aarch64, M1). He also published a &lt;a href="https://github.com/HanSolo/SVGPathConverter"&gt;converter for SVG paths to JavaFX paths&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Agostino De Marco&lt;/strong&gt; has published a &lt;a href="https://www.smartup-engineering.com/jpad-modeller"&gt;video of his JPAD Modeller application&lt;/a&gt; for producing aircraft models.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;binjr&lt;/strong&gt;, a time series browser written in JavaFX, has been &lt;a href="https://binjr.eu"&gt;updated to version 3.4&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frank Delporte&lt;/strong&gt; published a post on &lt;em&gt;Foojay&lt;/em&gt; listing several &lt;a href="https://foojay.io/today/javafx-templates-for-desktop-applications/"&gt;JavaFX templates for desktop applications&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Sun, 24 Oct 2021 22:00:00 GMT</pubDate>
+      <guid>https://jfx-central.com</guid>
+      <dc:date>2021-10-24T22:00:00Z</dc:date>
+    </item>
+  </channel>
+</rss>

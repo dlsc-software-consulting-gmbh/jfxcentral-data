@@ -554,7 +554,7 @@ public class DataRepository {
         });
     }
 
-    private void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
+    public void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
         String text = loadString(new File(getRepositoryDirectory(), "links/" + links.getId() + "/readme.md"));
         if (ASYNC) {
             Platform.runLater(() -> textProperty.set(text));
