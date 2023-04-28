@@ -1,4 +1,4 @@
-* [**Almas Baim** shared a video](https://twitter.com/AlmasBaim/status/165135155357850009) showing a game with many subtle visual effects. Go fullscreen to see all details!
+* [**Almas Baim** shared a video](https://twitter.com/AlmasBaim/status/1651351553578500097) showing a game with many subtle visual effects. Go fullscreen to see all details!
   * And he is also trying [to hypnotize you...](https://twitter.com/AlmasBaim/status/1649882265986424832).
 * [**Bruno Borges** is looking into his crystal ball for 2024](https://twitter.com/brunoborges/status/1650998712339156992): "Oracle announces FxWeb, a framework for building WebAssembly UI with JavaFX, so you can code Java in both client and server side."
 * [**Christopher Schnick** is enhancing the gameplay experience of Paradox Grand Strategy games](https://twitter.com/crschnick/status/1650522935101145088) with JavaFX through the Pdx-Unlimiter and releases it with JReleaser.
