@@ -491,6 +491,15 @@
     ]
   },
   {
+    "id": "satergo",
+    "name": "Satergo",
+    "company": "Satergo",
+    "url": "https://satergo.com",
+    "domain": "Cryptocurrencies",
+    "tags": "wallet, cryptocurrency, ergo",
+    "summary": "The desktop wallet for the Ergo cryptocurrency, with embedded node functionality."
+  },
+  {
     "id": "xpipe",
     "name": "X-Pipe",
     "company": "Christopher Schnick",
