@@ -506,11 +506,13 @@ public class DataRepository {
         try {
             String libraryId = library.getId();
             File file = new File(getRepositoryDirectory(), "libraries/" + libraryId + "/info.json");
-            LibraryInfo result = gson.fromJson(new FileReader(file, StandardCharsets.UTF_8), LibraryInfo.class);
-            if (ASYNC) {
-                Platform.runLater(() -> infoProperty.set(result));
-            } else {
-                infoProperty.set(result);
+            try (FileReader reader = new FileReader(file, StandardCharsets.UTF_8)) {
+                LibraryInfo result = gson.fromJson(reader, LibraryInfo.class);
+                if (ASYNC) {
+                    Platform.runLater(() -> infoProperty.set(result));
+                } else {
+                    infoProperty.set(result);
+                }
             }
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -1098,17 +1100,23 @@ public class DataRepository {
 
     public List<Post> loadPosts(Blog blog) {
         LOG.fine("loading posts for blog " + blog.getName());
-        String url = blog.getFeed();
-        if (StringUtils.isNotBlank(url)) {
-            List<Post> posts = new ArrayList<>();
-            try (XmlReader reader = new XmlReader(new URL(url))) {
-                SyndFeed feed = new SyndFeedInput().build(reader);
-                List<SyndEntry> entries = feed.getEntries();
-                entries.forEach(entry -> posts.add(new Post(blog, feed, entry)));
-            } catch (Exception ex) {
-                ex.printStackTrace();
+        try {
+            String url = blog.getFeed();
+            if (StringUtils.isNotBlank(url)) {
+                List<Post> posts = new ArrayList<>();
+                URL urlObject = new URL(url);
+                URLConnection urlConnection = urlObject.openConnection();
+                try (XmlReader reader = new XmlReader(urlConnection.getInputStream())) {
+                    SyndFeed feed = new SyndFeedInput().build(reader);
+                    List<SyndEntry> entries = feed.getEntries();
+                    entries.forEach(entry -> posts.add(new Post(blog, feed, entry)));
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+                return posts;
             }
-            return posts;
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
 
         return Collections.emptyList();

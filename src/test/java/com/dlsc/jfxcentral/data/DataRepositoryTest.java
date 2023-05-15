@@ -308,6 +308,22 @@ public class DataRepositoryTest {
     }
 
     @Test
+    public void shouldLoadBlogs() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getBlogs().isEmpty());
+
+        // when
+        repository.getBlogs().forEach(blog -> {
+            System.out.println("--------------------- blog: " + blog.getName());
+            List<Post> posts = repository.loadPosts(blog);
+            posts.forEach(post -> System.out.println("post title: " + post.getSyndEntry().getTitle()));
+        });
+    }
+
+    @Test
     public void shouldLoadToolsDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
