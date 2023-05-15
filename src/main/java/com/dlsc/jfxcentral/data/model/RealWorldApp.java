@@ -7,6 +7,7 @@ public class RealWorldApp extends ModelObject {
     private String company;
     private String domain;
     private String url;
+    private String location;
 
     public RealWorldApp() {
     }
@@ -50,5 +51,13 @@ public class RealWorldApp extends ModelObject {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
     }
 }
