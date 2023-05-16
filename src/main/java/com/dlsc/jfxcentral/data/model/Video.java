@@ -11,6 +11,7 @@ public class Video extends ModelObject {
     private String event;
     private String platform;
     private LocalDate publishedOn;
+    private int minutes;
 
     public Video() {
     }
@@ -38,6 +39,14 @@ public class Video extends ModelObject {
         }
 
         return false;
+    }
+
+    public int getMinutes() {
+        return minutes;
+    }
+
+    public void setMinutes(int minutes) {
+        this.minutes = minutes;
     }
 
     public void setType(String type) {
