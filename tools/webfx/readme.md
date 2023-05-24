@@ -30,7 +30,6 @@ The following table lists a couple of WebFX demos. The complete list with additi
 
 | Live Demo                                             |          Category           | 
 |-------------------------------------------------------|:---------------------------:|
-| Website                                               |                             |
 | [Colorful Circles](https://colorfulcircles.webfx.dev) |            Basic            |
 | [Tally Counter](https://tallycounter.webfx.dev)       |       Custom controls       |
 | [Modern Gauge](https://moderngauge.webfx.dev)         |       Custom controls       |
