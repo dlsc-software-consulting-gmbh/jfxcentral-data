@@ -1,6 +1,16 @@
 package com.dlsc.jfxcentral.data;
 
-import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.model.Blog;
+import com.dlsc.jfxcentral.data.model.Book;
+import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Download;
+import com.dlsc.jfxcentral.data.model.Library;
+import com.dlsc.jfxcentral.data.model.News;
+import com.dlsc.jfxcentral.data.model.Person;
+import com.dlsc.jfxcentral.data.model.RealWorldApp;
+import com.dlsc.jfxcentral.data.model.Tool;
+import com.dlsc.jfxcentral.data.model.Tutorial;
+import com.dlsc.jfxcentral.data.model.Video;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.scene.image.Image;
@@ -123,13 +133,8 @@ public class ImageManager {
 
         ObjectProperty<Image> property = new SimpleObjectProperty<>();
 
-        if (DataRepository.ASYNC) {
-            // when unit tests are running we do not want to ever see a placeholder image, because we want to see if the image is missing
-            property.set(placeholderImage);
-        }
-
         File file = new File(directory, photoFileName);
-        try(FileInputStream in = new FileInputStream(file)) {
+        try (FileInputStream in = new FileInputStream(file)) {
             LOG.fine("loading image from local repository: " + file.toURI().toURL().toExternalForm());
             Image image = new Image(in);
             if (image.getException() != null) {
@@ -158,24 +163,15 @@ public class ImageManager {
         return remoteImageCache.computeIfAbsent(photoKey, key -> {
             ObjectProperty<Image> property = new SimpleObjectProperty<>();
 
-            if (DataRepository.ASYNC) {
-                // when unit tests are running we do not want to ever see a placeholder image
-                property.set(placeholderImage);
-            }
-
             try {
                 URL url = new URL(baseURL + photoFileName + "?" + ZonedDateTime.now().toInstant() + append);
                 URLConnection connection = url.openConnection();
 
                 LOG.fine("loading remote image from url: " + url.toExternalForm());
 
-                if (!DataRepository.ASYNC) {
-                    // start using the connection to make sure the file actually exists
-                    // but only when we are running our unit tests
-                    connection.connect();
-                }
+                connection.connect();
 
-                Image image = new Image(url.toExternalForm(), DataRepository.ASYNC);
+                Image image = new Image(url.toExternalForm(), false);
                 image.progressProperty().addListener(it -> {
                     // exception = 404 -> no image found for given URL
                     if (image.getProgress() == 1 && image.getException() == null) {
@@ -186,10 +182,7 @@ public class ImageManager {
                 image.exceptionProperty().addListener(it -> image.getException().printStackTrace());
 
                 // when running unit tests we set the loaded image immediately
-                if (!DataRepository.ASYNC) {
-                    property.set(image);
-                }
-
+                property.set(image);
             } catch (Exception e) {
                 e.printStackTrace();
             }

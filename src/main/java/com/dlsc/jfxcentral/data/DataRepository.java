@@ -1,6 +1,22 @@
 package com.dlsc.jfxcentral.data;
 
-import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.model.Blog;
+import com.dlsc.jfxcentral.data.model.Book;
+import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Coordinates;
+import com.dlsc.jfxcentral.data.model.Download;
+import com.dlsc.jfxcentral.data.model.Library;
+import com.dlsc.jfxcentral.data.model.LibraryInfo;
+import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
+import com.dlsc.jfxcentral.data.model.ModelObject;
+import com.dlsc.jfxcentral.data.model.News;
+import com.dlsc.jfxcentral.data.model.Person;
+import com.dlsc.jfxcentral.data.model.Post;
+import com.dlsc.jfxcentral.data.model.RealWorldApp;
+import com.dlsc.jfxcentral.data.model.Tip;
+import com.dlsc.jfxcentral.data.model.Tool;
+import com.dlsc.jfxcentral.data.model.Tutorial;
+import com.dlsc.jfxcentral.data.model.Video;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
 import com.dlsc.jfxcentral.data.util.QueryResult;
 import com.fatboyindustrial.gsonjavatime.Converters;
@@ -9,25 +25,39 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
-import com.rometools.rome.io.FeedException;
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
-import javafx.application.Application;
-import javafx.application.Platform;
-import javafx.beans.property.*;
+import javafx.beans.property.ListProperty;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleListProperty;
+import javafx.beans.property.SimpleObjectProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.stage.Stage;
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.*;
-import java.net.*;
-import java.nio.charset.Charset;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Logger;
@@ -36,8 +66,6 @@ import java.util.stream.Collectors;
 public class DataRepository {
 
     private static final Logger LOG = Logger.getLogger(DataRepository.class.getName());
-
-    public static boolean ASYNC = true;
 
     public static File REPO_DIRECTORY = new File(System.getProperty("jfxcentral.repo", new File(System.getProperty("user.home"), ".jfxcentralrepo").getAbsolutePath())).getAbsoluteFile();
 
@@ -75,6 +103,8 @@ public class DataRepository {
 
     private boolean loaded;
 
+    public static boolean testing = false;
+
     public static synchronized DataRepository getInstance() {
         if (instance == null) {
             instance = new DataRepository();
@@ -91,16 +121,7 @@ public class DataRepository {
     }
 
     public void loadData() {
-        if (ASYNC) {
-            Platform.runLater(() -> {
-                Thread thread = new Thread(() -> doLoadData("call to loadData() method"));
-                thread.setName("Data Repository Refresh Thread");
-                thread.setDaemon(true);
-                thread.start();
-            });
-        } else {
-            doLoadData("explicit call to refresh method");
-        }
+        doLoadData("explicit call to refresh method");
     }
 
     public void clearData() {
@@ -210,11 +231,7 @@ public class DataRepository {
             List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile, StandardCharsets.UTF_8), new TypeToken<List<LinksOfTheWeek>>() {
             }.getType());
 
-            if (ASYNC) {
-                Platform.runLater(() -> setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links));
-            } else {
-                setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links);
-            }
+            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links);
 
             LOG.fine("data loading finished");
         } catch (Exception e) {
@@ -232,28 +249,28 @@ public class DataRepository {
         setOpenJFXText(openJFXText);
         setHomeText(homeText);
 
-        setPeople(people);
-        setBooks(books);
-        setVideos(videos);
-        setLibraries(libraries);
-        setNews(news);
-        setBlogs(blogs);
-        setCompanies(companies);
-        setTools(tools);
-        setRealWorldApps(realWorldApps);
-        setDownloads(downloads);
-        setTutorials(tutorials);
-        setTips(tips);
-        setLinksOfTheWeek(links);
+        getPeople().setAll(people);
+        getBooks().setAll(books);
+        getVideos().setAll(videos);
+        getLibraries().setAll(libraries);
+        getNews().setAll(news);
+        getBlogs().setAll(blogs);
+        getCompanies().setAll(companies);
+        getTools().setAll(tools);
+        getRealWorldApps().setAll(realWorldApps);
+        getDownloads().setAll(downloads);
+        getTutorials().setAll(tutorials);
+        getTips().setAll(tips);
+        getLinksOfTheWeek().setAll(links);
 
         List<ModelObject> recentItems = findRecentItems();
-        setRecentItems(recentItems);
+        getRecentItems().setAll(recentItems);
     }
 
     private List<ModelObject> findRecentItems() {
         List<ModelObject> result = new ArrayList<>();
-      // News are not reachable through links!
-      //  result.addAll(findRecentItems(getNews()));
+        // News are not reachable through links!
+        //  result.addAll(findRecentItems(getNews()));
         result.addAll(findRecentItems(getPeople()));
         result.addAll(findRecentItems(getBooks()));
         result.addAll(findRecentItems(getLibraries()));
@@ -265,8 +282,8 @@ public class DataRepository {
         result.addAll(findRecentItems(getRealWorldApps()));
         result.addAll(findRecentItems(getDownloads()));
         result.addAll(findRecentItems(getTips()));
-      // LinksOfTheWeek are not reachable through links!
-      //  result.addAll(findRecentItems(getLinksOfTheWeek()));
+        // LinksOfTheWeek are not reachable through links!
+        //  result.addAll(findRecentItems(getLinksOfTheWeek()));
 
         // newest ones on top
         Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
@@ -294,18 +311,10 @@ public class DataRepository {
         return result;
     }
 
-    private final ListProperty<ModelObject> recentItems = new SimpleListProperty<>(this, "recentItems", FXCollections.observableArrayList());
+    private final ObservableList<ModelObject> recentItems = FXCollections.observableArrayList();
 
     public ObservableList<ModelObject> getRecentItems() {
-        return recentItems.get();
-    }
-
-    public ListProperty<ModelObject> recentItemsProperty() {
         return recentItems;
-    }
-
-    public void setRecentItems(List<ModelObject> recentItems) {
-        this.recentItems.setAll(recentItems);
     }
 
     public Optional<Person> getPersonById(String id) {
@@ -360,12 +369,12 @@ public class DataRepository {
         return linksOfTheWeek.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
-    public <T extends ModelObject> ListProperty<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
+    public <T extends ModelObject> ObservableList<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
-        ListProperty<T> listProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
-        listProperty.setAll(itemList.stream().filter(item -> idsList.contains(item.getId()) || getIdList(item, modelObject.getClass()).contains(modelObject.getId())).collect(Collectors.toList()));
-        return listProperty;
+        ObservableList<T> list = FXCollections.observableArrayList();
+        list.setAll(itemList.stream().filter(item -> idsList.contains(item.getId()) || getIdList(item, modelObject.getClass()).contains(modelObject.getId())).collect(Collectors.toList()));
+        return list;
     }
 
     private <T extends ModelObject> List<String> getIdList(ModelObject modelObject, Class<T> clazz) {
@@ -402,31 +411,31 @@ public class DataRepository {
 
     public <T extends ModelObject> List<T> getList(Class<T> clazz) {
         if (clazz.equals(Video.class)) {
-            return (List<T>) videos.get();
+            return (List<T>) videos;
         } else if (clazz.equals(Book.class)) {
-            return (List<T>) books.get();
+            return (List<T>) books;
         } else if (clazz.equals(Library.class)) {
-            return (List<T>) libraries.get();
+            return (List<T>) libraries;
         } else if (clazz.equals(Tutorial.class)) {
-            return (List<T>) tutorials.get();
+            return (List<T>) tutorials;
         } else if (clazz.equals(Download.class)) {
-            return (List<T>) downloads.get();
+            return (List<T>) downloads;
         } else if (clazz.equals(Person.class)) {
-            return (List<T>) people.get();
+            return (List<T>) people;
         } else if (clazz.equals(Tool.class)) {
-            return (List<T>) tools.get();
+            return (List<T>) tools;
         } else if (clazz.equals(RealWorldApp.class)) {
-            return (List<T>) realWorldApps.get();
+            return (List<T>) realWorldApps;
         } else if (clazz.equals(News.class)) {
-            return (List<T>) news.get();
+            return (List<T>) news;
         } else if (clazz.equals(Blog.class)) {
-            return (List<T>) blogs.get();
+            return (List<T>) blogs;
         } else if (clazz.equals(Company.class)) {
-            return (List<T>) companies.get();
+            return (List<T>) companies;
         } else if (clazz.equals(Tip.class)) {
-            return (List<T>) tips.get();
+            return (List<T>) tips;
         } else if (clazz.equals(LinksOfTheWeek.class)) {
-            return (List<T>) linksOfTheWeek.get();
+            return (List<T>) linksOfTheWeek;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -436,68 +445,62 @@ public class DataRepository {
         return getList(clz).stream().filter(item -> item.getId().equals(id)).findFirst().get();
     }
 
-    public ListProperty<Video> getVideosByModelObject(ModelObject modelObject) {
+    public ObservableList<Video> getVideosByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Video.class);
     }
 
-    public ListProperty<Download> getDownloadsByModelObject(ModelObject modelObject) {
+    public ObservableList<Download> getDownloadsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Download.class);
     }
 
-    public ListProperty<Book> getBooksByModelObject(ModelObject modelObject) {
+    public ObservableList<Book> getBooksByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Book.class);
     }
 
-    public ListProperty<Tutorial> getTutorialsByModelObject(ModelObject modelObject) {
+    public ObservableList<Tutorial> getTutorialsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Tutorial.class);
     }
 
-    public ListProperty<Blog> getBlogsByModelObject(ModelObject modelObject) {
+    public ObservableList<Blog> getBlogsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Blog.class);
     }
 
-    public ListProperty<Library> getLibrariesByModelObject(ModelObject modelObject) {
+    public ObservableList<Library> getLibrariesByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Library.class);
     }
 
-    public ListProperty<Tool> getToolsByModelObject(ModelObject modelObject) {
+    public ObservableList<Tool> getToolsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Tool.class);
     }
 
-    public ListProperty<News> getNewsByModelObject(ModelObject modelObject) {
+    public ObservableList<News> getNewsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, News.class);
     }
 
-    public ListProperty<Company> getCompaniesByModelObject(ModelObject modelObject) {
+    public ObservableList<Company> getCompaniesByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Company.class);
     }
 
-    public ListProperty<RealWorldApp> getRealWorldAppsByModelObject(ModelObject modelObject) {
+    public ObservableList<RealWorldApp> getRealWorldAppsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, RealWorldApp.class);
     }
 
-    public ListProperty<Person> getPeopleByModelObject(ModelObject modelObject) {
+    public ObservableList<Person> getPeopleByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Person.class);
     }
 
-    public ListProperty<Tip> getTipsByModelObject(ModelObject modelObject) {
+    public ObservableList<Tip> getTipsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Tip.class);
     }
 
-    public ListProperty<LinksOfTheWeek> getLinksOfTheWeekByModelObject(ModelObject modelObject) {
+    public ObservableList<LinksOfTheWeek> getLinksOfTheWeekByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, LinksOfTheWeek.class);
     }
 
     public ObjectProperty<LibraryInfo> libraryInfoProperty(Library library) {
         return libraryInfoMap.computeIfAbsent(library, key -> {
             ObjectProperty<LibraryInfo> infoProperty = new SimpleObjectProperty<>();
-
-            if (ASYNC) {
-                executor.submit(() -> loadLibraryInfoText(library, infoProperty));
-            } else {
-                loadLibraryInfoText(library, infoProperty);
-            }
-
+            loadLibraryInfoText(library, infoProperty);
             return infoProperty;
         });
     }
@@ -508,11 +511,7 @@ public class DataRepository {
             File file = new File(getRepositoryDirectory(), "libraries/" + libraryId + "/info.json");
             try (FileReader reader = new FileReader(file, StandardCharsets.UTF_8)) {
                 LibraryInfo result = gson.fromJson(reader, LibraryInfo.class);
-                if (ASYNC) {
-                    Platform.runLater(() -> infoProperty.set(result));
-                } else {
-                    infoProperty.set(result);
-                }
+                infoProperty.set(result);
             }
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -522,239 +521,142 @@ public class DataRepository {
     public StringProperty newsTextProperty(News news) {
         return newsTextMap.computeIfAbsent(news, key -> {
             StringProperty textProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadNewsText(news, textProperty));
-            } else {
-                loadNewsText(news, textProperty);
-            }
-
+            loadNewsText(news, textProperty);
             return textProperty;
         });
     }
 
     private void loadNewsText(News news, StringProperty textProperty) {
         String text = loadString(new File(getNewsDirectory(news), "/text.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> textProperty.set(text));
-        } else {
-            textProperty.set(text);
-        }
+        textProperty.set(text);
     }
 
     public StringProperty linksOfTheWeekTextProperty(LinksOfTheWeek links) {
         return linksOfTheWeekReadMeMap.computeIfAbsent(links, key -> {
             StringProperty textProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadLinksOfTheWeekText(links, textProperty));
-            } else {
-                loadLinksOfTheWeekText(links, textProperty);
-            }
-
+            loadLinksOfTheWeekText(links, textProperty);
             return textProperty;
         });
     }
 
     public void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
         String text = loadString(new File(getRepositoryDirectory(), "links/" + links.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> textProperty.set(text));
-        } else {
-            textProperty.set(text);
-        }
+        textProperty.set(text);
     }
 
     public StringProperty tutorialTextProperty(Tutorial tutorial) {
         return tutorialTextMap.computeIfAbsent(tutorial, key -> {
             StringProperty textProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadTutorialText(tutorial, textProperty));
-            } else {
-                loadTutorialText(tutorial, textProperty);
-            }
-
+            loadTutorialText(tutorial, textProperty);
             return textProperty;
         });
     }
 
     private void loadTutorialText(Tutorial tutorial, StringProperty textProperty) {
         String text = loadString(new File(getRepositoryDirectory(), "tutorials/" + tutorial.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> textProperty.set(text));
-        } else {
-            textProperty.set(text);
-        }
+        textProperty.set(text);
     }
 
     public StringProperty downloadTextProperty(Download download) {
         return downloadTextMap.computeIfAbsent(download, key -> {
             StringProperty textProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadDownloadText(download, textProperty));
-            } else {
-                loadDownloadText(download, textProperty);
-            }
-
+            loadDownloadText(download, textProperty);
             return textProperty;
         });
     }
 
     private void loadDownloadText(Download download, StringProperty textProperty) {
         String text = loadString(new File(getRepositoryDirectory(), "downloads/" + download.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> textProperty.set(text));
-        } else {
-            textProperty.set(text);
-        }
+        textProperty.set(text);
     }
 
     public StringProperty bookTextProperty(Book book) {
         return bookTextMap.computeIfAbsent(book, key -> {
             StringProperty textProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadBookText(book, textProperty));
-            } else {
-                loadBookText(book, textProperty);
-            }
-
+            loadBookText(book, textProperty);
             return textProperty;
         });
     }
 
     private void loadBookText(Book book, StringProperty textProperty) {
         String text = loadString(new File(getRepositoryDirectory(), "books/" + book.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> textProperty.set(text));
-        } else {
-            textProperty.set(text);
-        }
+        textProperty.set(text);
     }
 
     public StringProperty personDescriptionProperty(Person person) {
         return personDescriptionMap.computeIfAbsent(person, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadPersonDescription(person, readmeProperty));
-            } else {
-                loadPersonDescription(person, readmeProperty);
-            }
-
+            loadPersonDescription(person, readmeProperty);
             return readmeProperty;
         });
     }
 
     private void loadPersonDescription(Person person, StringProperty readmeProperty) {
         String readmeText = loadString(new File(getRepositoryDirectory(), "people/" + person.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> readmeProperty.set(readmeText));
-        } else {
-            readmeProperty.set(readmeText);
-        }
+        readmeProperty.set(readmeText);
     }
 
     public StringProperty toolDescriptionProperty(Tool tool) {
         return toolDescriptionMap.computeIfAbsent(tool, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadToolDescription(tool, readmeProperty));
-            } else {
-                loadToolDescription(tool, readmeProperty);
-            }
-
+            loadToolDescription(tool, readmeProperty);
             return readmeProperty;
         });
     }
 
     private void loadToolDescription(Tool tool, StringProperty readmeProperty) {
         String readmeText = loadString(new File(getRepositoryDirectory(), "tools/" + tool.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> readmeProperty.set(readmeText));
-        } else {
-            readmeProperty.set(readmeText);
-        }
+        readmeProperty.set(readmeText);
     }
 
     public StringProperty tipDescriptionProperty(Tip tip) {
         return tipDescriptionMap.computeIfAbsent(tip, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadTipDescription(tip, readmeProperty));
-            } else {
-                loadTipDescription(tip, readmeProperty);
-            }
-
+            loadTipDescription(tip, readmeProperty);
             return readmeProperty;
         });
     }
 
     private void loadTipDescription(Tip tip, StringProperty readmeProperty) {
         String readmeText = loadString(new File(getRepositoryDirectory(), "tips/" + tip.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> readmeProperty.set(readmeText));
-        } else {
-            readmeProperty.set(readmeText);
-        }
+        readmeProperty.set(readmeText);
     }
 
     public StringProperty realWorldAppDescriptionProperty(RealWorldApp app) {
         return realWorldAppDescriptionMap.computeIfAbsent(app, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadRealWorldDescription(app, readmeProperty));
-            } else {
-                loadRealWorldDescription(app, readmeProperty);
-            }
-
+            loadRealWorldDescription(app, readmeProperty);
             return readmeProperty;
         });
     }
 
     private void loadRealWorldDescription(RealWorldApp app, StringProperty readmeProperty) {
         String readmeText = loadString(new File(getRepositoryDirectory(), "realworld/" + app.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> readmeProperty.set(readmeText));
-        } else {
-            readmeProperty.set(readmeText);
-        }
+        readmeProperty.set(readmeText);
     }
 
     public StringProperty companyDescriptionProperty(Company company) {
         return companyDescriptionMap.computeIfAbsent(company, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadCompanyDescription(company, readmeProperty));
-            } else {
-                loadCompanyDescription(company, readmeProperty);
-            }
-
+            loadCompanyDescription(company, readmeProperty);
             return readmeProperty;
         });
     }
 
     private void loadCompanyDescription(Company company, StringProperty readmeProperty) {
         String readmeText = loadString(new File(getRepositoryDirectory(), "companies/" + company.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> readmeProperty.set(readmeText));
-        } else {
-            readmeProperty.set(readmeText);
-        }
+        readmeProperty.set(readmeText);
+    }
+
+    public static void setTesting(boolean testing) {
+        DataRepository.testing = testing;
     }
 
     public File getRepositoryDirectory() {
-        if (ASYNC) {
-            return REPO_DIRECTORY;
+        if (testing) {
+            return new File(System.getProperty("user.dir"));
         }
-
-        return new File(System.getProperty("user.dir"));
+        return REPO_DIRECTORY;
     }
 
     public String getRepositoryDirectoryURL() {
@@ -768,24 +670,14 @@ public class DataRepository {
     public StringProperty libraryReadMeProperty(Library library) {
         return libraryReadMeMap.computeIfAbsent(library, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
-
-            if (ASYNC) {
-                executor.submit(() -> loadLibraryDescription(library, readmeProperty));
-            } else {
-                loadLibraryDescription(library, readmeProperty);
-            }
-
+            loadLibraryDescription(library, readmeProperty);
             return readmeProperty;
         });
     }
 
     private void loadLibraryDescription(Library library, StringProperty readmeProperty) {
         String readmeText = loadString(new File(getRepositoryDirectory(), "libraries/" + library.getId() + "/readme.md"));
-        if (ASYNC) {
-            Platform.runLater(() -> readmeProperty.set(readmeText));
-        } else {
-            readmeProperty.set(readmeText);
-        }
+        readmeProperty.set(readmeText);
     }
 
     private final StringProperty homeText = new SimpleStringProperty(this, "homeText");
@@ -816,198 +708,83 @@ public class DataRepository {
         this.openJFXText.set(openJFXText);
     }
 
-    private final ListProperty<Library> libraries = new SimpleListProperty<>(this, "libraries", FXCollections.observableArrayList());
+    private final ObservableList<Library> libraries = FXCollections.observableArrayList();
 
     public ObservableList<Library> getLibraries() {
-        return libraries.get();
-    }
-
-    public ListProperty<Library> librariesProperty() {
         return libraries;
     }
 
-    public void setLibraries(List<Library> libraries) {
-        libraries.removeIf(l -> l.isHide());
-        this.libraries.setAll(libraries);
-    }
-
-    private final ListProperty<Blog> blogs = new SimpleListProperty<>(this, "blogs", FXCollections.observableArrayList());
+    private final ObservableList<Blog> blogs = FXCollections.observableArrayList();
 
     public ObservableList<Blog> getBlogs() {
-        return blogs.get();
-    }
-
-    public ListProperty<Blog> blogsProperty() {
         return blogs;
     }
 
-    public void setBlogs(List<Blog> blogs) {
-        blogs.removeIf(b -> b.isHide());
-        this.blogs.setAll(blogs);
-    }
-
-    private final ListProperty<News> news = new SimpleListProperty<>(this, "news", FXCollections.observableArrayList());
+    private final ObservableList<News> news = FXCollections.observableArrayList();
 
     public ObservableList<News> getNews() {
-        return news.get();
-    }
-
-    public ListProperty<News> newsProperty() {
         return news;
     }
 
-    public void setNews(List<News> news) {
-        news.removeIf(item -> item.isHide());
-        this.news.setAll(news);
-    }
-
-    private final ListProperty<Book> books = new SimpleListProperty<>(this, "books", FXCollections.observableArrayList());
+    private final ObservableList<Book> books = FXCollections.observableArrayList();
 
     public ObservableList<Book> getBooks() {
-        return books.get();
-    }
-
-    public ListProperty<Book> booksProperty() {
         return books;
     }
 
-    public void setBooks(List<Book> books) {
-        books.removeIf(item -> item.isHide());
-        this.books.setAll(books);
-    }
-
-    private final ListProperty<LinksOfTheWeek> linksOfTheWeek = new SimpleListProperty<>(this, "linksOfTheWeeks", FXCollections.observableArrayList());
+    private final ObservableList<LinksOfTheWeek> linksOfTheWeek = FXCollections.observableArrayList();
 
     public ObservableList<LinksOfTheWeek> getLinksOfTheWeek() {
-        return linksOfTheWeek.get();
-    }
-
-    public ListProperty<LinksOfTheWeek> linksOfTheWeekProperty() {
         return linksOfTheWeek;
     }
 
-    public void setLinksOfTheWeek(List<LinksOfTheWeek> linksOfTheWeek) {
-        this.linksOfTheWeek.setAll(linksOfTheWeek);
-    }
-
-    private final ListProperty<Tip> tips = new SimpleListProperty<>(this, "tips", FXCollections.observableArrayList());
+    private final ObservableList<Tip> tips = FXCollections.observableArrayList();
 
     public ObservableList<Tip> getTips() {
-        return tips.get();
-    }
-
-    public ListProperty<Tip> tipsProperty() {
         return tips;
     }
 
-    public void setTips(List<Tip> tips) {
-        this.tips.setAll(tips);
-    }
-
-    private final ListProperty<Tutorial> tutorials = new SimpleListProperty<>(this, "tutorials", FXCollections.observableArrayList());
+    private final ObservableList<Tutorial> tutorials = FXCollections.observableArrayList();
 
     public ObservableList<Tutorial> getTutorials() {
-        return tutorials.get();
-    }
-
-    public ListProperty<Tutorial> tutorialsProperty() {
         return tutorials;
     }
 
-    public void setTutorials(List<Tutorial> tutorials) {
-        tutorials.removeIf(item -> item.isHide());
-        this.tutorials.setAll(tutorials);
-    }
-
-    private final ListProperty<Video> videos = new SimpleListProperty<>(this, "videos", FXCollections.observableArrayList());
+    private final ObservableList<Video> videos = FXCollections.observableArrayList();
 
     public ObservableList<Video> getVideos() {
-        return videos.get();
-    }
-
-    public ListProperty<Video> videosProperty() {
         return videos;
     }
 
-    public void setVideos(List<Video> videos) {
-        videos.removeIf(item -> item.isHide());
-        this.videos.setAll(videos);
-    }
-
-    private final ListProperty<Download> downloads = new SimpleListProperty<>(this, "downloads", FXCollections.observableArrayList());
+    private final ObservableList<Download> downloads = FXCollections.observableArrayList();
 
 
     public ObservableList<Download> getDownloads() {
-        return downloads.get();
-    }
-
-    public ListProperty<Download> downloadsProperty() {
         return downloads;
     }
 
-    public void setDownloads(List<Download> downloads) {
-        downloads.removeIf(item -> item.isHide());
-        this.downloads.setAll(downloads);
-    }
-
-    private final ListProperty<RealWorldApp> realWorldApps = new SimpleListProperty<>(this, "realWorldApps", FXCollections.observableArrayList());
+    private final ObservableList<RealWorldApp> realWorldApps = FXCollections.observableArrayList();
 
     public ObservableList<RealWorldApp> getRealWorldApps() {
-        return realWorldApps.get();
-    }
-
-    public ListProperty<RealWorldApp> realWorldAppsProperty() {
         return realWorldApps;
     }
 
-    public void setRealWorldApps(List<RealWorldApp> realWorldApps) {
-        realWorldApps.removeIf(item -> item.isHide());
-        this.realWorldApps.setAll(realWorldApps);
-    }
-
-    private final ListProperty<Tool> tools = new SimpleListProperty<>(this, "tools", FXCollections.observableArrayList());
+    private final ObservableList<Tool> tools = FXCollections.observableArrayList();
 
     public ObservableList<Tool> getTools() {
-        return tools.get();
-    }
-
-    public ListProperty<Tool> toolsProperty() {
         return tools;
     }
 
-    public void setTools(List<Tool> tools) {
-        tools.removeIf(item -> item.isHide());
-        this.tools.setAll(tools);
-    }
-
-    private final ListProperty<Company> companies = new SimpleListProperty<>(this, "companies", FXCollections.observableArrayList());
+    private final ObservableList<Company> companies = FXCollections.observableArrayList();
 
     public ObservableList<Company> getCompanies() {
-        return companies.get();
-    }
-
-    public ListProperty<Company> companiesProperty() {
         return companies;
     }
 
-    public void setCompanies(List<Company> companies) {
-        companies.removeIf(item -> item.isHide());
-        this.companies.setAll(companies);
-    }
-
-    private final ListProperty<Person> people = new SimpleListProperty<>(this, "people", FXCollections.observableArrayList());
+    private final ObservableList<Person> people = FXCollections.observableArrayList();
 
     public ObservableList<Person> getPeople() {
-        return people.get();
-    }
-
-    public ListProperty<Person> peopleProperty() {
         return people;
-    }
-
-    public void setPeople(List<Person> people) {
-        people.removeIf(item -> item.isHide());
-        this.people.setAll(people);
     }
 
     private String loadString(File file) {
@@ -1038,11 +815,7 @@ public class DataRepository {
         StringProperty result = new SimpleStringProperty("");
 
         if (StringUtils.isNotBlank(groupId) && StringUtils.isNotBlank(artifactId)) {
-            if (ASYNC) {
-                executor.execute(() -> loadArtifactVersion(groupId, artifactId, result));
-            } else {
-                loadArtifactVersion(groupId, artifactId, result);
-            }
+            loadArtifactVersion(groupId, artifactId, result);
         }
 
         return result;
@@ -1069,21 +842,10 @@ public class DataRepository {
                     in.close();
 
                     QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
-
-                    if (ASYNC) {
-                        if (!queryResult.getResponse().getDocs().isEmpty()) {
-                            Platform.runLater(() -> result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion()));
-                        }
-                    } else {
-                        result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
-                    }
+                    result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
                 }
             } else {
-                if (ASYNC) {
-                    Platform.runLater(() -> result.set("unknown"));
-                } else {
-                    result.set("unknown");
-                }
+                result.set("unknown");
             }
         } catch (ProtocolException e) {
             e.printStackTrace();
