@@ -56,6 +56,10 @@ public class ImageManager {
         return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "realworld/" + app.getId() + "/"), "large.jpg", "real-large-" + app.getId(), MISSING_IMAGE);
     }
 
+    public ObjectProperty<Image> realWorldAppBannerImageProperty(RealWorldApp app) {
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "realworld/" + app.getId() + "/"), "banner.jpg", "real-banner-" + app.getId(), MISSING_IMAGE);
+    }
+
     public ObjectProperty<Image> blogPageLargeImageProperty(Blog blog) {
         return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "blogs/" + blog.getId() + "/"), "page.png", "blog-large-" + blog.getId(), MISSING_IMAGE);
     }
