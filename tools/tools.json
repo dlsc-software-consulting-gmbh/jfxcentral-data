@@ -182,5 +182,15 @@
     "homepage" : "https://www.hydraulic.software",
     "createdOn" : "2022-09-30",
     "companyIds": [ "hydraulic" ]
+  },
+  {
+    "id": "webfx",
+    "name": "WebFX",
+    "summary": "Develop web applications in JavaFX.",
+    "description": "WebFX is a JavaFX application transpiler powered by GWT. It can transpile a JavaFX application into a traditional self-contained pure JavaScript web app (with no plugin or server required for its execution in the browser).",
+    "tags": "web, javascript, GWT, transpile, browser, games",
+    "homepage" : "https://webfx.dev",
+    "repository": "https://github.com/webfx-project/webfx",
+    "createdOn" : "2023-05-24"
   }
 ]

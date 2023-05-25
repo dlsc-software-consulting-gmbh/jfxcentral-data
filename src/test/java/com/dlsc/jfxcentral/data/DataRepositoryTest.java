@@ -1,8 +1,19 @@
 package com.dlsc.jfxcentral.data;
 
-import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.model.Blog;
+import com.dlsc.jfxcentral.data.model.Book;
+import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Download;
+import com.dlsc.jfxcentral.data.model.Library;
+import com.dlsc.jfxcentral.data.model.LibraryInfo;
+import com.dlsc.jfxcentral.data.model.Person;
+import com.dlsc.jfxcentral.data.model.Post;
+import com.dlsc.jfxcentral.data.model.RealWorldApp;
+import com.dlsc.jfxcentral.data.model.Tip;
+import com.dlsc.jfxcentral.data.model.Tool;
+import com.dlsc.jfxcentral.data.model.Tutorial;
+import com.dlsc.jfxcentral.data.model.Video;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
-import javafx.beans.property.ListProperty;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
@@ -26,7 +37,7 @@ public class DataRepositoryTest {
 
     @BeforeAll
     public static void setup() {
-        DataRepository.ASYNC = false;
+        DataRepository.setTesting(true);
     }
 
     @Test
@@ -376,17 +387,17 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Video> list = repository.getVideosByModelObject(person);
+            List<Video> list = repository.getVideosByModelObject(person);
 
             // then
-            assertNotNull(list.get(), "missing video list for person " + person.getId());
+            assertNotNull(list, "missing video list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.get().isEmpty(), "no videos returned for person d.lemmermann");
+                assertTrue(!list.isEmpty(), "no videos returned for person d.lemmermann");
             }
 
             if (person.getId().equals("h.ebbers")) {
-                assertTrue(!list.get().isEmpty(), "no videos returned for person h.ebbers");
+                assertTrue(!list.isEmpty(), "no videos returned for person h.ebbers");
             }
         });
     }
@@ -401,13 +412,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Blog> list = repository.getBlogsByModelObject(person);
+            List<Blog> list = repository.getBlogsByModelObject(person);
 
             // then
-            assertNotNull(list.get(), "missing blog list for person " + person.getId());
+            assertNotNull(list, "missing blog list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.get().isEmpty(), "no blogs returned for person d.lemmermann");
+                assertTrue(!list.isEmpty(), "no blogs returned for person d.lemmermann");
             }
         });
     }
@@ -436,13 +447,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Library> list = repository.getLibrariesByModelObject(person);
+            List<Library> list = repository.getLibrariesByModelObject(person);
 
             // then
-            assertNotNull(list.get(), "missing library list for person " + person.getId());
+            assertNotNull(list, "missing library list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.get().isEmpty(), "no libraries returned for person d.lemmermann");
+                assertTrue(!list.isEmpty(), "no libraries returned for person d.lemmermann");
             }
         });
     }
@@ -457,14 +468,14 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Tip> list = repository.getTipsByModelObject(person);
+            List<Tip> list = repository.getTipsByModelObject(person);
 
             // then
-            assertNotNull(list.get(), "missing tip list for person " + person.getId());
+            assertNotNull(list, "missing tip list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.get().isEmpty(), "no libraries returned for person d.lemmermann");
-                assertTrue(list.get().size() > 1, "not enough tips returned for d.lemmermann");
+                assertTrue(!list.isEmpty(), "no libraries returned for person d.lemmermann");
+                assertTrue(list.size() > 1, "not enough tips returned for d.lemmermann");
             }
         });
     }
@@ -479,13 +490,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Book> list = repository.getBooksByModelObject(person);
+            List<Book> list = repository.getBooksByModelObject(person);
 
             // then
-            assertNotNull(list.get(), "missing books list for person " + person.getId());
+            assertNotNull(list, "missing books list for person " + person.getId());
 
             if (person.getId().equals("h.ebbers")) {
-                assertTrue(!list.get().isEmpty(), "no libraries returned for person h.ebbers");
+                assertTrue(!list.isEmpty(), "no libraries returned for person h.ebbers");
             }
         });
     }
@@ -500,13 +511,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Tutorial> list = repository.getTutorialsByModelObject(person);
+            List<Tutorial> list = repository.getTutorialsByModelObject(person);
 
             // then
-            assertNotNull(list.get(), "missing tutorials list for person " + person.getId());
+            assertNotNull(list, "missing tutorials list for person " + person.getId());
 
             if (person.getId().equals("j.jenkov")) {
-                assertTrue(!list.get().isEmpty(), "no tutorials returned for person j.jenkov");
+                assertTrue(!list.isEmpty(), "no tutorials returned for person j.jenkov");
             }
         });
     }
@@ -521,13 +532,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getPeople().forEach(person -> {
-            ListProperty<Download> list = repository.getDownloadsByModelObject(person);
+            List<Download> list = repository.getDownloadsByModelObject(person);
 
             // then
-            assertNotNull(list.get(), "missing downloads list for person " + person.getId());
+            assertNotNull(list, "missing downloads list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.get().isEmpty(), "no tutorials returned for person d.lemmermann");
+                assertTrue(!list.isEmpty(), "no tutorials returned for person d.lemmermann");
             }
         });
     }
@@ -725,13 +736,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getLibraries().forEach(library -> {
-            ListProperty<Tutorial> list = repository.getTutorialsByModelObject(library);
+            List<Tutorial> list = repository.getTutorialsByModelObject(library);
 
             // then
-            assertNotNull(list.get(), "missing tutorials list for library " + library.getId());
+            assertNotNull(list, "missing tutorials list for library " + library.getId());
 
             if (library.getId().equals("fxgl")) {
-                assertTrue(!list.get().isEmpty(), "no tutorials returned for library fxgl");
+                assertTrue(!list.isEmpty(), "no tutorials returned for library fxgl");
             }
         });
     }
@@ -746,13 +757,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getLibraries().forEach(library -> {
-            ListProperty<Video> list = repository.getVideosByModelObject(library);
+            List<Video> list = repository.getVideosByModelObject(library);
 
             // then
-            assertNotNull(list.get(), "missing video list for library " + library.getId());
+            assertNotNull(list, "missing video list for library " + library.getId());
 
             if (library.getId().equals("tilesfx")) {
-                assertTrue(!list.get().isEmpty(), "no videos returned for library tilesfx");
+                assertTrue(!list.isEmpty(), "no videos returned for library tilesfx");
             }
         });
     }
@@ -767,13 +778,13 @@ public class DataRepositoryTest {
 
         // when
         repository.getLibraries().forEach(library -> {
-            ListProperty<Download> list = repository.getDownloadsByModelObject(library);
+            List<Download> list = repository.getDownloadsByModelObject(library);
 
             // then
-            assertNotNull(list.get(), "missing downloads list for library " + library.getId());
+            assertNotNull(list, "missing downloads list for library " + library.getId());
 
             if (library.getId().equals("tilesfx")) {
-                assertTrue(!list.get().isEmpty(), "no downloads returned for library tilesfx");
+                assertTrue(!list.isEmpty(), "no downloads returned for library tilesfx");
             }
         });
     }

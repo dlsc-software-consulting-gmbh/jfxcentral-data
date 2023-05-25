@@ -14,8 +14,8 @@ public class RSSManagerTest {
 
     @BeforeAll
     public static void setup() {
-            DataRepository.ASYNC = false;
-        }
+        DataRepository.setTesting(true);
+    }
 
     @Test
     public void shouldCreateLinksOfTheWeekRss() {
