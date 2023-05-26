@@ -7,7 +7,7 @@ Last week we skipped the #LinksOfTheWeek (family weekend), so this edition is a 
 
 ## SceneBuilder
 
-* [** Raumzeitfalle** is wondering if you want to conveniently install Scene Builder 20 for JavaFX](https://twitter.com/Raumzeitfalle/status/1657471102673715202)? You can now do this thanks to the use of JDeploy.
+* [**Raumzeitfalle** is wondering if you want to conveniently install Scene Builder 20 for JavaFX](https://twitter.com/Raumzeitfalle/status/1657471102673715202)? You can now do this thanks to the use of JDeploy.
 * [Shared by **Johan Vos**](https://mastodon.social/@johanvos/110371523942727201): "Now that Scene Builder 20 is released, it is a good moment to work on functionality/bug fixes that can make it in 21. For most projects I work on, I prefer doing major changes shortly after a release, rather than shortly before a release."
 
 ## JavaFX Applications
