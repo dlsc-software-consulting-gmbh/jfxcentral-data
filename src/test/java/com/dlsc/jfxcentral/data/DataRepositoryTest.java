@@ -4,6 +4,7 @@ import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Download;
+import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.Person;
@@ -59,6 +60,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getTools().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
+        assertTrue(!repository.getIkonliPacks().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -85,6 +87,7 @@ public class DataRepositoryTest {
         assertTrue(repository.getTools().isEmpty());
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
+        assertTrue(repository.getIkonliPacks().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -114,6 +117,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getTools().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
+        assertTrue(!repository.getIkonliPacks().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -788,4 +792,18 @@ public class DataRepositoryTest {
             }
         });
     }
+
+    @Test
+    public void shouldGetIkonliPacks() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        // when
+        List<IkonliPack> ikonliPacks = repository.getIkonliPacks();
+
+        // then
+        assertFalse(ikonliPacks.isEmpty());
+    }
+
 }

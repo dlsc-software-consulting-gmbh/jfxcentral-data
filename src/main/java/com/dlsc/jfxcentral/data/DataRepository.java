@@ -5,6 +5,7 @@ import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Coordinates;
 import com.dlsc.jfxcentral.data.model.Download;
+import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
@@ -27,9 +28,7 @@ import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
-import javafx.beans.property.ListProperty;
 import javafx.beans.property.ObjectProperty;
-import javafx.beans.property.SimpleListProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -156,6 +155,7 @@ public class DataRepository {
         getTutorials().clear();
         getTips().clear();
         getLinksOfTheWeek().clear();
+        getIkonliPacks().clear();
     }
 
     private void doLoadData(String reason) {
@@ -231,7 +231,12 @@ public class DataRepository {
             List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile, StandardCharsets.UTF_8), new TypeToken<List<LinksOfTheWeek>>() {
             }.getType());
 
-            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links);
+            // load ikonlipacks
+            File ikonliPacksFile = new File(getRepositoryDirectory(), "ikonlipacks/ikonlipacks.json");
+            List<IkonliPack> ikonliPacks = gson.fromJson(new FileReader(ikonliPacksFile, StandardCharsets.UTF_8), new TypeToken<List<IkonliPack>>() {
+            }.getType());
+
+            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links, ikonliPacks);
 
             LOG.fine("data loading finished");
         } catch (Exception e) {
@@ -243,7 +248,7 @@ public class DataRepository {
 
     private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries,
                          List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads,
-                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links) {
+                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks) {
         clearData();
 
         setOpenJFXText(openJFXText);
@@ -262,6 +267,7 @@ public class DataRepository {
         getTutorials().setAll(tutorials);
         getTips().setAll(tips);
         getLinksOfTheWeek().setAll(links);
+        getIkonliPacks().setAll(ikonliPacks);
 
         List<ModelObject> recentItems = findRecentItems();
         getRecentItems().setAll(recentItems);
@@ -282,6 +288,7 @@ public class DataRepository {
         result.addAll(findRecentItems(getRealWorldApps()));
         result.addAll(findRecentItems(getDownloads()));
         result.addAll(findRecentItems(getTips()));
+        result.addAll(findRecentItems(getIkonliPacks()));
         // LinksOfTheWeek are not reachable through links!
         //  result.addAll(findRecentItems(getLinksOfTheWeek()));
 
@@ -369,6 +376,10 @@ public class DataRepository {
         return linksOfTheWeek.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<IkonliPack> getIkonliPackById(String id) {
+        return ikonliPacks.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> ObservableList<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
@@ -404,6 +415,8 @@ public class DataRepository {
             return modelObject.getTipIds();
         } else if (clazz.equals(LinksOfTheWeek.class)) {
             return modelObject.getLinksOfTheWeekIds();
+        } else if (clazz.equals(IkonliPack.class)) {
+            return modelObject.getIkonliPackIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -436,6 +449,8 @@ public class DataRepository {
             return (List<T>) tips;
         } else if (clazz.equals(LinksOfTheWeek.class)) {
             return (List<T>) linksOfTheWeek;
+        } else if (clazz.equals(IkonliPack.class)) {
+            return (List<T>) ikonliPacks;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -758,7 +773,6 @@ public class DataRepository {
 
     private final ObservableList<Download> downloads = FXCollections.observableArrayList();
 
-
     public ObservableList<Download> getDownloads() {
         return downloads;
     }
@@ -785,6 +799,12 @@ public class DataRepository {
 
     public ObservableList<Person> getPeople() {
         return people;
+    }
+
+    private final ObservableList<IkonliPack> ikonliPacks = FXCollections.observableArrayList();
+
+    public ObservableList<IkonliPack> getIkonliPacks() {
+        return ikonliPacks;
     }
 
     private String loadString(File file) {
@@ -956,6 +976,7 @@ public class DataRepository {
         search(getDownloads(), pattern, result);
         search(getTutorials(), pattern, result);
         search(getTips(), pattern, result);
+        search(getIkonliPacks(), pattern, result);
         return result;
     }
 
