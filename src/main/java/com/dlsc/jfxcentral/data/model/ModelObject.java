@@ -32,6 +32,7 @@ public abstract class ModelObject {
     private List<String> blogIds = new ArrayList<>();
     private List<String> tipIds = new ArrayList<>();
     private List<String> linksOfTheWeekIds = new ArrayList<>();
+    private List<String> ikonliPackIds = new ArrayList<>();
 
     protected ModelObject() {
     }
@@ -258,6 +259,14 @@ public abstract class ModelObject {
 
     public void setLinksOfTheWeekIds(List<String> linksOfTheWeekIds) {
         this.linksOfTheWeekIds = linksOfTheWeekIds;
+    }
+
+    public List<String> getIkonliPackIds() {
+        return ikonliPackIds;
+    }
+
+    public void setIkonliPackIds(List<String> ikonliPackIds) {
+        this.ikonliPackIds = ikonliPackIds;
     }
 
     public LocalDate getCreationOrUpdateDate() {
