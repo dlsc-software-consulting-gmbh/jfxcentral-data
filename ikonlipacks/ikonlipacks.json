@@ -4,7 +4,7 @@
     "title": "AntDesignIcons",
     "name": "AntDesignIconsFilled",
     "id": "antdesigniconsfilled",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Ant Design SVG Icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-antdesignicons-pack:12.3.1'",
@@ -16,8 +16,8 @@
         }
       }
     },
-    "source_url": "https://github.com/ant-design/ant-design-icons",
-    "font_version": "4.0.0",
+    "url": "https://github.com/ant-design/ant-design-icons",
+    "fontVersion": "4.0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -26,7 +26,7 @@
     "title": "AntDesignIcons",
     "name": "AntDesignIconsOutlined",
     "id": "antdesigniconsoutlined",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Ant Design SVG Icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-antdesignicons-pack:12.3.1'",
@@ -38,8 +38,8 @@
         }
       }
     },
-    "source_url": "https://github.com/ant-design/ant-design-icons",
-    "font_version": "4.0.0",
+    "url": "https://github.com/ant-design/ant-design-icons",
+    "fontVersion": "4.0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -48,7 +48,7 @@
     "title": "Bootstrapicons",
     "name": "BootstrapIcons",
     "id": "bootstrapicons",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Official open source SVG icon library for Bootstrap.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-bootstrapicons-pack:12.3.1'",
@@ -60,8 +60,8 @@
         }
       }
     },
-    "source_url": "https://github.com/twbs/icons",
-    "font_version": "1.4.1",
+    "url": "https://github.com/twbs/icons",
+    "fontVersion": "1.4.1",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -70,7 +70,7 @@
     "title": "Boxicons",
     "name": "BoxiconsLogos",
     "id": "boxiconslogos",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "High Quality web friendly icons.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.3.1'",
@@ -82,8 +82,8 @@
         }
       }
     },
-    "source_url": "https://github.com/atisawd/boxicons",
-    "font_version": "2.0.7",
+    "url": "https://github.com/atisawd/boxicons",
+    "fontVersion": "2.0.7",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -92,7 +92,7 @@
     "title": "Boxicons",
     "name": "BoxiconsRegular",
     "id": "boxiconsregular",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "High Quality web friendly icons.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.3.1'",
@@ -104,8 +104,8 @@
         }
       }
     },
-    "source_url": "https://github.com/atisawd/boxicons",
-    "font_version": "2.0.7",
+    "url": "https://github.com/atisawd/boxicons",
+    "fontVersion": "2.0.7",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -114,7 +114,7 @@
     "title": "Boxicons",
     "name": "BoxiconsSolid",
     "id": "boxiconssolid",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "High Quality web friendly icons.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.3.1'",
@@ -126,8 +126,8 @@
         }
       }
     },
-    "source_url": "https://github.com/atisawd/boxicons",
-    "font_version": "2.0.7",
+    "url": "https://github.com/atisawd/boxicons",
+    "fontVersion": "2.0.7",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -136,7 +136,7 @@
     "title": "Bpmn",
     "name": "Bpmn",
     "id": "bpmn",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "A BPMN 2.0 symbol font",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-bpmn-pack:12.3.1'",
@@ -148,8 +148,8 @@
         }
       }
     },
-    "source_url": "https://github.com/bpmn-io/bpmn-font",
-    "font_version": "0.10.0",
+    "url": "https://github.com/bpmn-io/bpmn-font",
+    "fontVersion": "0.10.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -158,7 +158,7 @@
     "title": "Captainicon",
     "name": "Captainicon",
     "id": "captainicon",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "+350 AWESOME FREE VECTOR ICONS TO EMPOWER YOUR MOBILE AND WEB DESIGNS",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-captainicon-pack:12.3.1'",
@@ -170,8 +170,8 @@
         }
       }
     },
-    "source_url": "https://mariodelvalle.github.io/CaptainIconWeb/",
-    "font_version": "20140501",
+    "url": "https://mariodelvalle.github.io/CaptainIconWeb/",
+    "fontVersion": "20140501",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -180,7 +180,7 @@
     "title": "Carbonicons",
     "name": "CarbonIcons",
     "id": "carbonicons",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Carbon is an open-source design system built by IBM. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-carbonicons-pack:12.3.1'",
@@ -192,8 +192,8 @@
         }
       }
     },
-    "source_url": "https://github.com/carbon-design-system/carbon/",
-    "font_version": "10.23.2",
+    "url": "https://github.com/carbon-design-system/carbon/",
+    "fontVersion": "10.23.2",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -202,7 +202,7 @@
     "title": "Codicons",
     "name": "Codicons",
     "id": "codicons",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "The icon font for Visual Studio Code",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-codicons-pack:12.3.1'",
@@ -214,8 +214,8 @@
         }
       }
     },
-    "source_url": "https://github.com/microsoft/vscode-codicons",
-    "font_version": "0.0.12",
+    "url": "https://github.com/microsoft/vscode-codicons",
+    "fontVersion": "0.0.12",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -224,7 +224,7 @@
     "title": "CoreUI",
     "name": "CoreUiBrands",
     "id": "coreuibrands",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont and raster formats",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-coreui-pack:12.3.1'",
@@ -236,8 +236,8 @@
         }
       }
     },
-    "source_url": "https://github.com/coreui/coreui-icons",
-    "font_version": "2.0.0-beta.5",
+    "url": "https://github.com/coreui/coreui-icons",
+    "fontVersion": "2.0.0-beta.5",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -246,7 +246,7 @@
     "title": "CoreUI",
     "name": "CoreUiFree",
     "id": "coreuifree",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont and raster formats",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-coreui-pack:12.3.1'",
@@ -258,8 +258,8 @@
         }
       }
     },
-    "source_url": "https://github.com/coreui/coreui-icons",
-    "font_version": "2.0.0-beta.5",
+    "url": "https://github.com/coreui/coreui-icons",
+    "fontVersion": "2.0.0-beta.5",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -268,7 +268,7 @@
     "title": "DashIcons",
     "name": "Dashicons",
     "id": "dashicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Dashicons, the WordPress admin icon font. For the official resource, please see the WordPress Developer Hub.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-dashicons-pack:12.3.1'",
@@ -280,8 +280,8 @@
         }
       }
     },
-    "source_url": "https://github.com/WordPress/dashicons",
-    "font_version": "20200504",
+    "url": "https://github.com/WordPress/dashicons",
+    "fontVersion": "20200504",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -290,7 +290,7 @@
     "title": "DevIcons",
     "name": "Devicons",
     "id": "devicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Devicons - An iconic font made for developers",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-devicons-pack:12.3.1'",
@@ -302,8 +302,8 @@
         }
       }
     },
-    "source_url": "http://vorillaz.github.io/devicons/",
-    "font_version": "1.8.0",
+    "url": "http://vorillaz.github.io/devicons/",
+    "fontVersion": "1.8.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -312,7 +312,7 @@
     "title": "Elusive",
     "name": "Elusive",
     "id": "elusive",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "transformed Elusive Icons font",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-elusive-pack:12.3.1'",
@@ -324,8 +324,8 @@
         }
       }
     },
-    "source_url": "https://github.com/fontello/elusive.font",
-    "font_version": "2.0",
+    "url": "https://github.com/fontello/elusive.font",
+    "fontVersion": "2.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -334,7 +334,7 @@
     "title": "Entypo",
     "name": "Entypo",
     "id": "entypo",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-entypo-pack:12.3.1'",
@@ -346,8 +346,8 @@
         }
       }
     },
-    "source_url": "http://www.entypo.com",
-    "font_version": "1.0",
+    "url": "http://www.entypo.com",
+    "fontVersion": "1.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -356,7 +356,7 @@
     "title": "EvaIcons",
     "name": "EvaIcons",
     "id": "evaicons",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.\nDownload our set on the desktop to use them in your digital products for Web, iOS and Android.\nCompatible with Eva Design System.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-evaicons-pack:12.3.1'",
@@ -368,8 +368,8 @@
         }
       }
     },
-    "source_url": "https://akveo.github.io/eva-icons/#/",
-    "font_version": "1.1.3",
+    "url": "https://akveo.github.io/eva-icons/#/",
+    "fontVersion": "1.1.3",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -378,7 +378,7 @@
     "title": "Feather",
     "name": "Feather",
     "id": "feather",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Simply beautiful open source icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-feather-pack:12.3.1'",
@@ -390,8 +390,8 @@
         }
       }
     },
-    "source_url": "https://feathericons.com/",
-    "font_version": "4.28",
+    "url": "https://feathericons.com/",
+    "fontVersion": "4.28",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -400,7 +400,7 @@
     "title": "FileIcons",
     "name": "FileIcons",
     "id": "fileicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Source files for the custom icon-font used by the File-Icons package.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fileicons-pack:12.3.1'",
@@ -412,8 +412,8 @@
         }
       }
     },
-    "source_url": "https://github.com/file-icons/icons",
-    "font_version": "2.1.44",
+    "url": "https://github.com/file-icons/icons",
+    "fontVersion": "2.1.44",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -422,7 +422,7 @@
     "title": "FluentUI",
     "name": "FluentUiFilledAL",
     "id": "fluentuifilledal",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
@@ -434,8 +434,8 @@
         }
       }
     },
-    "source_url": "https://github.com/microsoft/fluentui-system-icons/",
-    "font_version": "1.1.74",
+    "url": "https://github.com/microsoft/fluentui-system-icons/",
+    "fontVersion": "1.1.74",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -444,7 +444,7 @@
     "title": "FluentUI",
     "name": "FluentUiFilledMZ",
     "id": "fluentuifilledmz",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
@@ -456,8 +456,8 @@
         }
       }
     },
-    "source_url": "https://github.com/microsoft/fluentui-system-icons/",
-    "font_version": "1.1.74",
+    "url": "https://github.com/microsoft/fluentui-system-icons/",
+    "fontVersion": "1.1.74",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -466,7 +466,7 @@
     "title": "FluentUI",
     "name": "FluentUiRegularAL",
     "id": "fluentuiregularal",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
@@ -478,8 +478,8 @@
         }
       }
     },
-    "source_url": "https://github.com/microsoft/fluentui-system-icons/",
-    "font_version": "1.1.74",
+    "url": "https://github.com/microsoft/fluentui-system-icons/",
+    "fontVersion": "1.1.74",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -488,7 +488,7 @@
     "title": "FluentUI",
     "name": "FluentUiRegularMZ",
     "id": "fluentuiregularmz",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
@@ -500,8 +500,8 @@
         }
       }
     },
-    "source_url": "https://github.com/microsoft/fluentui-system-icons/",
-    "font_version": "1.1.74",
+    "url": "https://github.com/microsoft/fluentui-system-icons/",
+    "fontVersion": "1.1.74",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -510,7 +510,7 @@
     "title": "FontAwesome (Legacy)",
     "name": "FontAwesome",
     "id": "fontawesome",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "FontAwesome (Legacy)",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome-pack:12.3.1'",
@@ -522,8 +522,8 @@
         }
       }
     },
-    "source_url": "http://fortawesome.github.io/Font-Awesome/",
-    "font_version": "4.7.0",
+    "url": "http://fortawesome.github.io/Font-Awesome/",
+    "fontVersion": "4.7.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -532,7 +532,7 @@
     "title": "FontAwesome5 (Latest)",
     "name": "FontAwesomeBrands",
     "id": "fontawesomebrands",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'",
@@ -544,8 +544,8 @@
         }
       }
     },
-    "source_url": "https://fontawesome.com",
-    "font_version": "5.15.3",
+    "url": "https://fontawesome.com",
+    "fontVersion": "5.15.3",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -554,7 +554,7 @@
     "title": "FontAwesome5 (Latest)",
     "name": "FontAwesomeRegular",
     "id": "fontawesomeregular",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'",
@@ -566,8 +566,8 @@
         }
       }
     },
-    "source_url": "https://fontawesome.com",
-    "font_version": "5.15.3",
+    "url": "https://fontawesome.com",
+    "fontVersion": "5.15.3",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -576,7 +576,7 @@
     "title": "FontAwesome5 (Latest)",
     "name": "FontAwesomeSolid",
     "id": "fontawesomesolid",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'",
@@ -588,8 +588,8 @@
         }
       }
     },
-    "source_url": "https://fontawesome.com",
-    "font_version": "5.15.3",
+    "url": "https://fontawesome.com",
+    "fontVersion": "5.15.3",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -598,7 +598,7 @@
     "title": "Fontelico",
     "name": "Fontelico",
     "id": "fontelico",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Opensource iconic font from Fontello project.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontelico-pack:12.3.1'",
@@ -610,8 +610,8 @@
         }
       }
     },
-    "source_url": "https://github.com/fontello/fontelico.font",
-    "font_version": "0.0",
+    "url": "https://github.com/fontello/fontelico.font",
+    "fontVersion": "0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -620,7 +620,7 @@
     "title": "Foundation",
     "name": "Foundation",
     "id": "foundation",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Foundation Icon Fonts 3",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-foundation-pack:12.3.1'",
@@ -632,8 +632,8 @@
         }
       }
     },
-    "source_url": "http://zurb.com/playground/foundation-icon-fonts-3",
-    "font_version": "3.0",
+    "url": "http://zurb.com/playground/foundation-icon-fonts-3",
+    "fontVersion": "3.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -642,7 +642,7 @@
     "title": "Hawcons",
     "name": "HawconsFilled",
     "id": "hawconsfilled",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Over 500 free icons.\nIntroducing something never seen before.\nWelcome to a world of free high quality icons - handcrafted with passion.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-hawcons-pack:12.3.1'",
@@ -654,8 +654,8 @@
         }
       }
     },
-    "source_url": "http://hawcons.com/",
-    "font_version": "20140708",
+    "url": "http://hawcons.com/",
+    "fontVersion": "20140708",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -664,7 +664,7 @@
     "title": "Hawcons",
     "name": "HawconsStroke",
     "id": "hawconsstroke",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Over 500 free icons.\nIntroducing something never seen before.\nWelcome to a world of free high quality icons - handcrafted with passion.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-hawcons-pack:12.3.1'",
@@ -676,8 +676,8 @@
         }
       }
     },
-    "source_url": "http://hawcons.com/",
-    "font_version": "20140708",
+    "url": "http://hawcons.com/",
+    "fontVersion": "20140708",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -686,7 +686,7 @@
     "title": "Icomoon",
     "name": "Icomoon",
     "id": "icomoon",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Pixel Perfect Icon Solutions",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-icomoon-pack:12.3.1'",
@@ -698,8 +698,8 @@
         }
       }
     },
-    "source_url": "https://icomoon.io/#icons-icomoon",
-    "font_version": "0.0",
+    "url": "https://icomoon.io/#icons-icomoon",
+    "fontVersion": "0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -708,7 +708,7 @@
     "title": "Ionicons (Legacy)",
     "name": "Ionicons",
     "id": "ionicons",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "The premium icon font for Ionic Framework.\n100% free and open source. MIT Licensed.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons-pack:12.3.1'",
@@ -720,8 +720,8 @@
         }
       }
     },
-    "source_url": "https://ionicons.com/v2/",
-    "font_version": "2.0.1",
+    "url": "https://ionicons.com/v2/",
+    "fontVersion": "2.0.1",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -730,7 +730,7 @@
     "title": "Ionicons 4 (Latest)",
     "name": "Ionicons4IOS",
     "id": "ionicons4ios",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Open source icons.\nLovingly hand-crafted.\nPremium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by Ionic.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.3.1'",
@@ -742,8 +742,8 @@
         }
       }
     },
-    "source_url": "https://ionicons.com/",
-    "font_version": "4.1.2",
+    "url": "https://ionicons.com/",
+    "fontVersion": "4.1.2",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -752,7 +752,7 @@
     "title": "Ionicons 4 (Latest)",
     "name": "Ionicons4Logo",
     "id": "ionicons4logo",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Open source icons.\nLovingly hand-crafted.\nPremium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by Ionic.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.3.1'",
@@ -764,8 +764,8 @@
         }
       }
     },
-    "source_url": "https://ionicons.com/",
-    "font_version": "4.1.2",
+    "url": "https://ionicons.com/",
+    "fontVersion": "4.1.2",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -774,7 +774,7 @@
     "title": "Ionicons 4 (Latest)",
     "name": "Ionicons4Material",
     "id": "ionicons4material",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Open source icons.\nLovingly hand-crafted.\nPremium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by Ionic.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.3.1'",
@@ -786,8 +786,8 @@
         }
       }
     },
-    "source_url": "https://ionicons.com/",
-    "font_version": "4.1.2",
+    "url": "https://ionicons.com/",
+    "fontVersion": "4.1.2",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -796,7 +796,7 @@
     "title": "Jam",
     "name": "Jam",
     "id": "jam",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Jam icons is a set of SVG icons designed for web projects, illustrations, print projects, etc. Licensed under MIT",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-jamicons-pack:12.3.1'",
@@ -808,8 +808,8 @@
         }
       }
     },
-    "source_url": "https://github.com/michaelampr/jam",
-    "font_version": "3.0.0",
+    "url": "https://github.com/michaelampr/jam",
+    "fontVersion": "3.0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -818,7 +818,7 @@
     "title": "Ligature Symbols",
     "name": "LigatureSymbols",
     "id": "ligaturesymbols",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Ligature kudakurage Symbols\nby Kazuyuki Motoyama",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-ligaturesymbols-pack:12.3.1'",
@@ -830,8 +830,8 @@
         }
       }
     },
-    "source_url": "http://kudakurage.com/ligature_symbols/",
-    "font_version": "2.11",
+    "url": "http://kudakurage.com/ligature_symbols/",
+    "fontVersion": "2.11",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -840,7 +840,7 @@
     "title": "LineAwesome",
     "name": "LineAwesomeBrands",
     "id": "lineawesomebrands",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Replace Font Awesome with modern line icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.3.1'",
@@ -852,8 +852,8 @@
         }
       }
     },
-    "source_url": "https://icons8.com/line-awesome",
-    "font_version": "1.3.0",
+    "url": "https://icons8.com/line-awesome",
+    "fontVersion": "1.3.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -862,7 +862,7 @@
     "title": "LineAwesome",
     "name": "LineAwesomeRegular",
     "id": "lineawesomeregular",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Replace Font Awesome with modern line icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.3.1'",
@@ -874,8 +874,8 @@
         }
       }
     },
-    "source_url": "https://icons8.com/line-awesome",
-    "font_version": "1.3.0",
+    "url": "https://icons8.com/line-awesome",
+    "fontVersion": "1.3.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -884,7 +884,7 @@
     "title": "LineAwesome",
     "name": "LineAwesomeSolid",
     "id": "lineawesomesolid",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Replace Font Awesome with modern line icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.3.1'",
@@ -896,8 +896,8 @@
         }
       }
     },
-    "source_url": "https://icons8.com/line-awesome",
-    "font_version": "1.3.0",
+    "url": "https://icons8.com/line-awesome",
+    "fontVersion": "1.3.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -906,7 +906,7 @@
     "title": "Linecons",
     "name": "Linecons",
     "id": "linecons",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Linecons is a set of remarkable free vector icons. The set contains 48 fully scalable vector icons with outline styles.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-linecons-pack:12.3.1'",
@@ -918,8 +918,8 @@
         }
       }
     },
-    "source_url": "https://designmodo.com/linecons-free/linecons",
-    "font_version": "0.0",
+    "url": "https://designmodo.com/linecons-free/linecons",
+    "fontVersion": "0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -928,7 +928,7 @@
     "title": "Maki (Legacy)",
     "name": "Maki",
     "id": "maki",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "A pixel-aligned point of interest icon set made for cartographers.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-maki-pack:12.3.1'",
@@ -940,8 +940,8 @@
         }
       }
     },
-    "source_url": "https://github.com/mapbox/maki",
-    "font_version": "0.5.0",
+    "url": "https://github.com/mapbox/maki",
+    "fontVersion": "0.5.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -950,7 +950,7 @@
     "title": "Maki2 (Latest)",
     "name": "Maki2",
     "id": "maki2",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "A pixel-aligned point of interest icon set made for cartographers.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-maki2-pack:12.3.1'",
@@ -962,8 +962,8 @@
         }
       }
     },
-    "source_url": "https://github.com/mapbox/maki",
-    "font_version": "6.2.0",
+    "url": "https://github.com/mapbox/maki",
+    "fontVersion": "6.2.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -972,7 +972,7 @@
     "title": "Mapicons",
     "name": "Mapicons",
     "id": "mapicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Map Icons is an icon font for use with Google Maps API and Google Places API using SVG markers and icon labels",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-mapicons-pack:12.3.1'",
@@ -984,8 +984,8 @@
         }
       }
     },
-    "source_url": "https://github.com/scottdejonge/map-icons",
-    "font_version": "3.0.0",
+    "url": "https://github.com/scottdejonge/map-icons",
+    "fontVersion": "3.0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -994,7 +994,7 @@
     "title": "Material Icons (Legacy)",
     "name": "Material",
     "id": "material",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material-pack:12.3.1'",
@@ -1006,8 +1006,8 @@
         }
       }
     },
-    "source_url": "https://design.google.com/icons/",
-    "font_version": "50",
+    "url": "https://design.google.com/icons/",
+    "fontVersion": "50",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1016,7 +1016,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2AL",
     "id": "material2al",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1028,8 +1028,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1038,7 +1038,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2MZ",
     "id": "material2mz",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1050,8 +1050,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1060,7 +1060,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2OutlinedAL",
     "id": "material2outlinedal",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1072,8 +1072,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1082,7 +1082,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2OutlinedMZ",
     "id": "material2outlinedmz",
-    "icon_style": "OUTLINED",
+    "iconStyle": "OUTLINED",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1094,8 +1094,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1104,7 +1104,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2RoundAL",
     "id": "material2roundal",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1116,8 +1116,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1126,7 +1126,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2RoundMZ",
     "id": "material2roundmz",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1138,8 +1138,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1148,7 +1148,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2SharpAL",
     "id": "material2sharpal",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1160,8 +1160,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1170,7 +1170,7 @@
     "title": "Material2 Icons (Latest)",
     "name": "Material2SharpMZ",
     "id": "material2sharpmz",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
@@ -1182,8 +1182,8 @@
         }
       }
     },
-    "source_url": "https://github.com/material-icons/material-icons-font",
-    "font_version": "20200820",
+    "url": "https://github.com/material-icons/material-icons-font",
+    "fontVersion": "20200820",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1192,7 +1192,7 @@
     "title": "MaterialDesign (Legacy)",
     "name": "MaterialDesign",
     "id": "materialdesign",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign-pack:12.3.1'",
@@ -1204,8 +1204,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "1.7.22",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "1.7.22",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1214,7 +1214,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignA",
     "id": "materialdesigna",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1226,8 +1226,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1236,7 +1236,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignB",
     "id": "materialdesignb",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1248,8 +1248,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1258,7 +1258,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignC",
     "id": "materialdesignc",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1270,8 +1270,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1280,7 +1280,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignD",
     "id": "materialdesignd",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1292,8 +1292,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1302,7 +1302,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignE",
     "id": "materialdesigne",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1314,8 +1314,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1324,7 +1324,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignF",
     "id": "materialdesignf",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1336,8 +1336,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1346,7 +1346,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignG",
     "id": "materialdesigng",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1358,8 +1358,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1368,7 +1368,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignH",
     "id": "materialdesignh",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1380,8 +1380,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1390,7 +1390,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignI",
     "id": "materialdesigni",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1402,8 +1402,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1412,7 +1412,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignJ",
     "id": "materialdesignj",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1424,8 +1424,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1434,7 +1434,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignK",
     "id": "materialdesignk",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1446,8 +1446,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1456,7 +1456,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignL",
     "id": "materialdesignl",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1468,8 +1468,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1478,7 +1478,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignM",
     "id": "materialdesignm",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1490,8 +1490,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1500,7 +1500,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignN",
     "id": "materialdesignn",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1512,8 +1512,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1522,7 +1522,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignO",
     "id": "materialdesigno",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1534,8 +1534,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1544,7 +1544,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignP",
     "id": "materialdesignp",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1556,8 +1556,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1566,7 +1566,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignQ",
     "id": "materialdesignq",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1578,8 +1578,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1588,7 +1588,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignR",
     "id": "materialdesignr",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1600,8 +1600,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1610,7 +1610,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignS",
     "id": "materialdesigns",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1622,8 +1622,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1632,7 +1632,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignT",
     "id": "materialdesignt",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1644,8 +1644,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1654,7 +1654,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignU",
     "id": "materialdesignu",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1666,8 +1666,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1676,7 +1676,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignV",
     "id": "materialdesignv",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1688,8 +1688,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1698,7 +1698,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignW",
     "id": "materialdesignw",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1710,8 +1710,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1720,7 +1720,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignX",
     "id": "materialdesignx",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1732,8 +1732,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1742,7 +1742,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignY",
     "id": "materialdesigny",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1754,8 +1754,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1764,7 +1764,7 @@
     "title": "MaterialDesign2 (Latest)",
     "name": "MaterialDesignZ",
     "id": "materialdesignz",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
@@ -1776,8 +1776,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Templarian/MaterialDesign",
-    "font_version": "5.8.55",
+    "url": "https://github.com/Templarian/MaterialDesign",
+    "fontVersion": "5.8.55",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1786,7 +1786,7 @@
     "title": "Medicons",
     "name": "Medicons",
     "id": "medicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "WebFont Medical Icons - 72 ICONS (X2) specialized in the Clinical & Medical world FREE and easy to use!",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-medicons-pack:12.3.1'",
@@ -1798,8 +1798,8 @@
         }
       }
     },
-    "source_url": "https://github.com/samcome/webfont-medical-icons",
-    "font_version": "20170612",
+    "url": "https://github.com/samcome/webfont-medical-icons",
+    "fontVersion": "20170612",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1808,7 +1808,7 @@
     "title": "Metrizeicons",
     "name": "Metrizeicons",
     "id": "metrizeicons",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Free Collection of 300 Metro-Style Icons for Designers and Developers.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-metrizeicons-pack:12.3.1'",
@@ -1820,8 +1820,8 @@
         }
       }
     },
-    "source_url": "http://www.alessioatzeni.com/metrize-icons/",
-    "font_version": "0.0",
+    "url": "http://www.alessioatzeni.com/metrize-icons/",
+    "fontVersion": "0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1830,7 +1830,7 @@
     "title": "Microns",
     "name": "Microns",
     "id": "microns",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Microns are a no-nonsense set of icons designed specifically for user interfaces. Rather than provide a large library of unnecessary glyphs, microns provide a sensible baseline of well-drawn icons that will cover 99% of your use cases for less than 10kb.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-microns-pack:12.3.1'",
@@ -1842,8 +1842,8 @@
         }
       }
     },
-    "source_url": "https://github.com/stephenhutchings/microns",
-    "font_version": "1.0.8",
+    "url": "https://github.com/stephenhutchings/microns",
+    "fontVersion": "1.0.8",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1852,7 +1852,7 @@
     "title": "Ociicons",
     "name": "Ociicons",
     "id": "ociicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "This repository contains OCI artwork and logos in a variety of formats.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-ociicons-pack:12.3.1'",
@@ -1864,8 +1864,8 @@
         }
       }
     },
-    "source_url": "https://github.com/opencontainers/artwork#oci-icons",
-    "font_version": "1.0",
+    "url": "https://github.com/opencontainers/artwork#oci-icons",
+    "fontVersion": "1.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1874,7 +1874,7 @@
     "title": "Octicons",
     "name": "Octicons",
     "id": "octicons",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Octicons are a set of SVG icons built by GitHub for GitHub.\n\n",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-octicons-pack:12.3.1'",
@@ -1886,8 +1886,8 @@
         }
       }
     },
-    "source_url": "https://github.com/github/octicons",
-    "font_version": "14.2.2",
+    "url": "https://github.com/github/octicons",
+    "fontVersion": "14.2.2",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1896,7 +1896,7 @@
     "title": "OpenIconic",
     "name": "OpenIconic",
     "id": "openiconic",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-openiconic-pack:12.3.1'",
@@ -1908,8 +1908,8 @@
         }
       }
     },
-    "source_url": "https://useiconic.com/open/",
-    "font_version": "1.1.0",
+    "url": "https://useiconic.com/open/",
+    "fontVersion": "1.1.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1918,7 +1918,7 @@
     "title": "Payment Font",
     "name": "PaymentFont",
     "id": "paymentfont",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-paymentfont-pack:12.3.1'",
@@ -1930,8 +1930,8 @@
         }
       }
     },
-    "source_url": "https://paymentfont.com",
-    "font_version": "1.2.5",
+    "url": "https://paymentfont.com",
+    "fontVersion": "1.2.5",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1940,7 +1940,7 @@
     "title": "PrestaShop Icons",
     "name": "PrestaShopIcons",
     "id": "prestashopicons",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "An open source icon pack made with love by the PrestaShop design team. You can use it everywhere to make your designs and websites look awesome.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-prestashopicons-pack:12.3.1'",
@@ -1952,8 +1952,8 @@
         }
       }
     },
-    "source_url": "https://github.com/PrestaShop/prestashop-icon-font",
-    "font_version": "0.8.0",
+    "url": "https://github.com/PrestaShop/prestashop-icon-font",
+    "fontVersion": "0.8.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1962,7 +1962,7 @@
     "title": "Remixicon",
     "name": "RemixiconAL",
     "id": "remixiconal",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-remixicon-pack:12.3.1'",
@@ -1974,8 +1974,8 @@
         }
       }
     },
-    "source_url": "https://remixicon.com/",
-    "font_version": "2.5.0",
+    "url": "https://remixicon.com/",
+    "fontVersion": "2.5.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -1984,7 +1984,7 @@
     "title": "Remixicon",
     "name": "RemixiconMZ",
     "id": "remixiconmz",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-remixicon-pack:12.3.1'",
@@ -1996,8 +1996,8 @@
         }
       }
     },
-    "source_url": "https://remixicon.com/",
-    "font_version": "2.5.0",
+    "url": "https://remixicon.com/",
+    "fontVersion": "2.5.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2006,7 +2006,7 @@
     "title": "RunestroIcons",
     "name": "Runestroicons",
     "id": "runestroicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "The stylish pictographic web font",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-runestroicons-pack:12.3.1'",
@@ -2018,8 +2018,8 @@
         }
       }
     },
-    "source_url": "http://525icons.com/",
-    "font_version": "5.6",
+    "url": "http://525icons.com/",
+    "fontVersion": "5.6",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2028,7 +2028,7 @@
     "title": "SimpleIcons",
     "name": "SimpleIcons",
     "id": "simpleicons",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Simple Icons\n2466 Free SVG icons for popular brands",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-simpleicons-pack:12.3.1'",
@@ -2040,8 +2040,8 @@
         }
       }
     },
-    "source_url": "https://simpleicons.org/",
-    "font_version": "3.12.2",
+    "url": "https://simpleicons.org/",
+    "fontVersion": "3.12.2",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2050,7 +2050,7 @@
     "title": "SimpleLineIcons",
     "name": "SimpleLineIcons",
     "id": "simplelineicons",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Simple and Minimal Line Icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-simplelineicons-pack:12.3.1'",
@@ -2062,8 +2062,8 @@
         }
       }
     },
-    "source_url": "https://github.com/thesabbir/simple-line-icons",
-    "font_version": "2.5.4",
+    "url": "https://github.com/thesabbir/simple-line-icons",
+    "fontVersion": "2.5.4",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2072,7 +2072,7 @@
     "title": "Subway",
     "name": "Subway",
     "id": "subway",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "Subway is a set of 306 pixel perfect crafted icons optimized for iOS, Apple Watch, Windows and BlackBerry 10.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-subway-pack:12.3.1'",
@@ -2084,8 +2084,8 @@
         }
       }
     },
-    "source_url": "https://github.com/mariuszostrowski/subway",
-    "font_version": "20201108",
+    "url": "https://github.com/mariuszostrowski/subway",
+    "fontVersion": "20201108",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2094,7 +2094,7 @@
     "title": "Themify",
     "name": "Themify",
     "id": "themify",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7 - available to the public, 100% FREE! You may use or distribute it for any purpose, whether personal or commercial. This icon set is a must have tool for web designers and developers.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-themify-pack:12.3.1'",
@@ -2106,8 +2106,8 @@
         }
       }
     },
-    "source_url": "https://themify.me/themify-icons",
-    "font_version": "1.0.1",
+    "url": "https://themify.me/themify-icons",
+    "fontVersion": "1.0.1",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2116,7 +2116,7 @@
     "title": "Typicons",
     "name": "Typicons",
     "id": "typicons",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "336 pixel perfect, all-purpose vector icons in a web-font kit",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-typicons-pack:12.3.1'",
@@ -2128,8 +2128,8 @@
         }
       }
     },
-    "source_url": "https://github.com/stephenhutchings/typicons.font",
-    "font_version": "2.0.7",
+    "url": "https://github.com/stephenhutchings/typicons.font",
+    "fontVersion": "2.0.7",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2138,7 +2138,7 @@
     "title": "Unicons",
     "name": "UniconsLine",
     "id": "uniconsline",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "1000+ Pixel-perfect vector icons and Iconfont for your next project.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.3.1'",
@@ -2150,8 +2150,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Iconscout/unicons",
-    "font_version": "20201106",
+    "url": "https://github.com/Iconscout/unicons",
+    "fontVersion": "20201106",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2160,7 +2160,7 @@
     "title": "Unicons",
     "name": "UniconsMonochrome",
     "id": "uniconsmonochrome",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "1000+ Pixel-perfect vector icons and Iconfont for your next project.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.3.1'",
@@ -2172,8 +2172,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Iconscout/unicons",
-    "font_version": "20201106",
+    "url": "https://github.com/Iconscout/unicons",
+    "fontVersion": "20201106",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2182,7 +2182,7 @@
     "title": "Unicons",
     "name": "UniconsSolid",
     "id": "uniconssolid",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "1000+ Pixel-perfect vector icons and Iconfont for your next project.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.3.1'",
@@ -2194,8 +2194,8 @@
         }
       }
     },
-    "source_url": "https://github.com/Iconscout/unicons",
-    "font_version": "20201106",
+    "url": "https://github.com/Iconscout/unicons",
+    "fontVersion": "20201106",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2204,7 +2204,7 @@
     "title": "Weathericons",
     "name": "WeatherIcons",
     "id": "weathericons",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Weather Icons is the only icon font and CSS with 222 weather themed icons, ready to be dropped right into Bootstrap, or any project that needs high quality weather, maritime, and meteorological based icons!",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-weathericons-pack:12.3.1'",
@@ -2216,8 +2216,8 @@
         }
       }
     },
-    "source_url": "http://erikflowers.github.io/weather-icons/",
-    "font_version": "2.0.10",
+    "url": "http://erikflowers.github.io/weather-icons/",
+    "fontVersion": "2.0.10",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2226,7 +2226,7 @@
     "title": "Websymbols",
     "name": "WebSymbols",
     "id": "websymbols",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-websymbols-pack:12.3.1'",
@@ -2238,8 +2238,8 @@
         }
       }
     },
-    "source_url": "http://www.justbenice.ru",
-    "font_version": "0.0",
+    "url": "http://www.justbenice.ru",
+    "fontVersion": "0.0",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2248,7 +2248,7 @@
     "title": "Whhg",
     "name": "WhhgAL",
     "id": "whhgal",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Glyph Icon Font from WebHostingHub\nHigh quality icons that are easy to use with Bootstrap, other CSS frameworks and in any web projects. They also work in desktop software such as Adobe Photoshop or Microsoft Word. They are perfect for use in mobile developement on Android or iOS devices.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-whhg-pack:12.3.1'",
@@ -2260,8 +2260,8 @@
         }
       }
     },
-    "source_url": "https://www.webhostinghub.com/glyphs/",
-    "font_version": "20201105",
+    "url": "https://www.webhostinghub.com/glyphs/",
+    "fontVersion": "20201105",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2270,7 +2270,7 @@
     "title": "Whhg",
     "name": "WhhgMZ",
     "id": "whhgmz",
-    "icon_style": "FILLED",
+    "iconStyle": "FILLED",
     "description": "Glyph Icon Font from WebHostingHub\nHigh quality icons that are easy to use with Bootstrap, other CSS frameworks and in any web projects. They also work in desktop software such as Adobe Photoshop or Microsoft Word. They are perfect for use in mobile developement on Android or iOS devices.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-whhg-pack:12.3.1'",
@@ -2282,8 +2282,8 @@
         }
       }
     },
-    "source_url": "https://www.webhostinghub.com/glyphs/",
-    "font_version": "20201105",
+    "url": "https://www.webhostinghub.com/glyphs/",
+    "fontVersion": "20201105",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2292,7 +2292,7 @@
     "title": "Win10",
     "name": "Win10",
     "id": "win10",
-    "icon_style": "OUTLINE",
+    "iconStyle": "OUTLINE",
     "description": "Free Windows 10 Icons",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-win10-pack:12.3.1'",
@@ -2304,8 +2304,8 @@
         }
       }
     },
-    "source_url": "https://github.com/icons8/windows-10-icons",
-    "font_version": "1.0.1",
+    "url": "https://github.com/icons8/windows-10-icons",
+    "fontVersion": "1.0.1",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   },
@@ -2314,7 +2314,7 @@
     "title": "Zondicons",
     "name": "Zondicons",
     "id": "zondicons",
-    "icon_style": "MIXING",
+    "iconStyle": "MIXING",
     "description": "A set of free premium SVG icons for you to use on your digital products.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-zondicons-pack:12.3.1'",
@@ -2326,8 +2326,8 @@
         }
       }
     },
-    "source_url": "https://www.zondicons.com/",
-    "font_version": "20170712",
+    "url": "https://www.zondicons.com/",
+    "fontVersion": "20170712",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
   }

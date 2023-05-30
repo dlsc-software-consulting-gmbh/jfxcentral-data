@@ -1,21 +1,12 @@
 package com.dlsc.jfxcentral.data.model;
 
-import com.google.gson.annotations.SerializedName;
-
 public class IkonliPack extends ModelObject {
+
     private String module;
-
     private String title;
-
-    @SerializedName("icon_style")
     private IconStyle iconStyle;
-
     private Installing installing;
-
-    @SerializedName("source_url")
     private String url;
-
-    @SerializedName("font_version")
     private String fontVersion;
 
     public IkonliPack() {
