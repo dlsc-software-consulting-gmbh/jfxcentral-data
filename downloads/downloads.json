@@ -422,47 +422,47 @@
       "g.grunwald"
     ],
     "createdOn": "2021-07-06",
-    "modifiedOn": "2023-05-16",
+    "modifiedOn": "2023-05-31",
     "files": [
       {
         "name": "MSI Installer (Windows Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.59/JDKMon-17.0.59.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.63/JDKMon-17.0.63.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.59/JDKMon-17.0.59.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.63/JDKMon-17.0.63.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.59/JDKMon-17.0.59-aarch64.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.63/JDKMon-17.0.63-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.59/jdkmon_17.0.59-1_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.63/jdkmon_17.0.63-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.59/jdkmon-17.0.59-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.63/jdkmon-17.0.63-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.59/jdkmon_17.0.59-1_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.63/jdkmon_17.0.63-1_arm64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.59/jdkmon-17.0.59-1.aarch64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/17.0.63/jdkmon-17.0.63-1.aarch64.rpm",
         "fileName": "",
         "package": "RPM"
       }
