@@ -8,6 +8,7 @@ import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.News;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
+import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
 import com.dlsc.jfxcentral.data.model.Video;
@@ -48,6 +49,10 @@ public class ImageManager {
 
     public ObjectProperty<Image> downloadBannerImageProperty(Download download) {
         return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "downloads/" + download.getId() + "/"), "banner.jpg", "download-banner-" + download.getId(), MISSING_IMAGE);
+    }
+
+    public ObjectProperty<Image> tipBannerImageProperty(Tip tip) {
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "tips/" + tip.getId() + "/"), "banner.jpg", "tip-banner-" + tip.getId(), MISSING_IMAGE);
     }
 
     public ObjectProperty<Image> blogPageImageProperty(Blog blog) {

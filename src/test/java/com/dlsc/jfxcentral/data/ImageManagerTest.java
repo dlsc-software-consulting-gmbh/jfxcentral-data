@@ -67,6 +67,16 @@ public class ImageManagerTest {
     }
 
     @Test
+    public void shouldGetTipBanner() {
+        // when .. then
+        DataRepository.getInstance().getTips().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().tipBannerImageProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+        });
+    }
+
+    @Test
     public void shouldGetBlogPageImage() {
         // when .. then
         DataRepository.getInstance().getBlogs().forEach(item -> {
