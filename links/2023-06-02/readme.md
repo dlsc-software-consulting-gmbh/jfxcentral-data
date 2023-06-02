@@ -31,6 +31,6 @@
 
 * More previews of version 2 of jfx-central.com:
   * [**Dirk Lemmermann** is drooling with the layout](https://twitter.com/dlemmermann/status/1663916396814761987).
-  * And [more drooling]https://twitter.com/dlemmermann/status/1663916816794517504)...
+  * And [more drooling](https://twitter.com/dlemmermann/status/1663916816794517504)...
   * [Social login capabilities were added](https://twitter.com/dlemmermann/status/1662388854366560256).
   * And he is having almost too much fun :-) [Added banners to the tips and tricks pages](https://twitter.com/dlemmermann/status/1664334599319592969).
