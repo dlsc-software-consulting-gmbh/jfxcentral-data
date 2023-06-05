@@ -47,18 +47,6 @@
     "companyId": "gluon"
   },
   {
-    "id": "fxexperience",
-    "name": "FX Experience",
-    "summary": "FX Experience by Jonathan Giles (and Jasper Potts in earlier days) has been the premiere site for JavaFX code, posts, and insights since mid-2009.",
-    "url": "http://fxexperience.com/",
-    "feed": "http://fxexperience.com/feed/",
-    "createdOn": "2021-05-24",
-    "tags:": "links, tips, tricks, scenic view, controls",
-    "personIds": [
-      "j.giles"
-    ]
-  },
-  {
     "id": "harmoniccode",
     "name": "Harmonic Code",
     "summary": "Gerrit Grunwald's blog contains tons of cool JavaFX widgets. Especially noteworthy is his 'Friday Fun Component' series",
@@ -95,18 +83,6 @@
     ]
   },
   {
-    "id": "vocabhunter",
-    "name": "VocabHunter Blog",
-    "summary": "Information about VocabHunter, Santulator and the tech behind them.",
-    "url": "https://vocabhunter.github.io/blog/",
-    "createdOn": "2021-07-22",
-    "feed": "https://vocabhunter.github.io/feed.xml",
-    "tags:": "java,javafx,applications,open source",
-    "personIds": [
-      "a.carroll"
-    ]
-  },
-    {
     "id": "abhinay.xyz",
     "name": "Abhinay Agarwal",
     "summary": "Things good to know about JavaFX",
