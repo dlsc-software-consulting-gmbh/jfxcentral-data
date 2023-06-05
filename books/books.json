@@ -1,7 +1,8 @@
 [
   {
     "id": "projfx9",
-    "summary": "Use the JavaFX platform to create rich-client Java applications and discover how you can use this powerful Java-based UI platform, which is capable of handling large-scale data-driven business applications for PC as well as mobile and embedded devices.",
+    "summary": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients",
+    "description": "Use the JavaFX platform to create rich-client Java applications and discover how you can use this powerful Java-based UI platform, which is capable of handling large-scale data-driven business applications for PC as well as mobile and embedded devices.",
     "publisher": "Apress",
     "authors": "Johan Vos, Stephen Chin, Weiqi Gao, James Weaver, Dean Iverson",
     "personIds": [
@@ -20,7 +21,8 @@
   },
   {
     "id": "jfx9byexample",
-    "summary": "Create media-rich client applications using JavaFX 9 and the Java 9 platform. Learn to create GUI-based applications for mobile devices, desktop PCs, and even the web. Incorporate media such as audio and video into your applications.",
+    "summary": "Rich Client Applications for any Platform",
+    "description": "Create media-rich client applications using JavaFX 9 and the Java 9 platform. Learn to create GUI-based applications for mobile devices, desktop PCs, and even the web. Incorporate media such as audio and video into your applications.",
     "publisher": "Apress",
     "authors": "Carl Dea, Mark Heckler, Gerrit Grunwald, José Pereda, Sean Phillips",
     "personIds": [
@@ -39,7 +41,8 @@
   },
   {
     "id": "projava9games",
-    "summary": "Use Java 9 and JavaFX 9 to write 3D games for the latest consumer electronics devices. Written by open source gaming expert Wallace Jackson, this book uses Java 9 and NetBeans 9 to add leading-edge features, such as 3D, textures, animation, digital audio, and digital image compositing to your games.",
+    "summary": "Leveraging the JavaFX APIs",
+    "description": "Use Java 9 and JavaFX 9 to write 3D games for the latest consumer electronics devices. Written by open source gaming expert Wallace Jackson, this book uses Java 9 and NetBeans 9 to add leading-edge features, such as 3D, textures, animation, digital audio, and digital image compositing to your games.",
     "publisher": "Apress",
     "authors": "Wallace Jackson",
     "name": "Pro Java 9 Games Development",
@@ -51,7 +54,8 @@
   },
   {
     "id": "gettingstartedpi",
-    "summary": "Get started with the latest versions of Java, JavaFX, Pi4J, Spring and so much more. Learn the power (and fun!) of experimenting with electronics. All explained in many small and easy to understand examples.",
+    "summary": "Learn the power and fun of experimenting with electronics",
+    "description": "Get started with the latest versions of Java, JavaFX, Pi4J, Spring and so much more. Learn the power (and fun!) of experimenting with electronics. All explained in many small and easy to understand examples.",
     "publisher": "Frank Delporte",
     "authors": "Frank Delporte",
     "personIds": [
@@ -69,7 +73,8 @@
   },
   {
     "id": "masteringjavafx10",
-    "summary": "Leverage advanced GUI programming techniques using the latest JavaFX 10 framework. Create dynamic content using the animation API and work with different application layers. Create and customize plugins and use them efficiently in different applications.",
+    "summary": "Build advanced and visually stunning Java applications",
+    "description": "Leverage advanced GUI programming techniques using the latest JavaFX 10 framework. Create dynamic content using the animation API and work with different application layers. Create and customize plugins and use them efficiently in different applications.",
     "publisher": "Packt Publishing",
     "authors": "Sergey Grinev",
     "name": "Mastering JavaFX 10",
@@ -84,7 +89,8 @@
   },
   {
     "id": "jfxessentials",
-    "summary": "JavaFX Essentials will help you to design and build high performance JavaFX 8-based applications that run on a variety of devices.",
+    "summary": "Create amazing Java GUI applications with this hands-on, fast-paced guide",
+    "description": "JavaFX Essentials will help you to design and build high performance JavaFX 8-based applications that run on a variety of devices.",
     "publisher": "Packt Publishing",
     "authors": "Mohamed Taman",
     "name": "JavaFX Essentials",
@@ -99,7 +105,8 @@
   },
   {
     "id": "learnjfx8",
-    "summary": "Learn JavaFX 8 shows you how to start developing rich-client desktop applications using your Java skills and provides comprehensive coverage of JavaFX 8's features. Each chapter starts with an introduction to the topic at hand, followed by a step-by-step discussion of the topic with small snippets of code.",
+    "summary": "Building User Experience and Interfaces with Java 8",
+    "description": "Learn JavaFX 8 shows you how to start developing rich-client desktop applications using your Java skills and provides comprehensive coverage of JavaFX 8's features. Each chapter starts with an introduction to the topic at hand, followed by a step-by-step discussion of the topic with small snippets of code.",
     "publisher": "Apress",
     "authors": "Kishori Sharan",
     "name": "Learn JavaFX 8",
@@ -111,7 +118,8 @@
   },
   {
     "id": "introducingjfx8programming",
-    "summary": "Introducing JavaFX 8 Programming provides a fast-paced, practical introduction to JavaFX, Java's next-generation GUI programming framework. In this easy-to-read guide, best-selling author Herb Schildt presents the key topics and concepts you'll need to start developing modern, dynamic JavaFX GUI applications.",
+    "summary": "A Fast-Paced Guide to JavaFX GUI Programming Fundamentals",
+    "description": "Introducing JavaFX 8 Programming provides a fast-paced, practical introduction to JavaFX, Java's next-generation GUI programming framework. In this easy-to-read guide, best-selling author Herb Schildt presents the key topics and concepts you'll need to start developing modern, dynamic JavaFX GUI applications.",
     "publisher": "McGraw-Hill",
     "authors": "Herbert Schildt",
     "name": "Introducing JavaFX 8 Programming",
@@ -123,7 +131,8 @@
   },
   {
     "id": "masteringjfx8controls",
-    "summary": "Deliver state-of-the-art applications with visually stunning UIs. Mastering JavaFX 8 Controls provides clear instructions, detailed examples, and ready-to-use code samples.",
+    "summary": "Create Custom JavaFX 8 Controls for Cross-Platform Applications",
+    "description": "Deliver state-of-the-art applications with visually stunning UIs. Mastering JavaFX 8 Controls provides clear instructions, detailed examples, and ready-to-use code samples.",
     "publisher": "McGraw-Hill",
     "authors": "Hendrik Ebbers",
     "personIds": [
@@ -138,7 +147,8 @@
   },
   {
     "id": "dummies",
-    "summary": "This accessible book highlights the most important features of the powerful JavaFX graphics platform, giving you the tools to understand it quickly and easily.",
+    "summary": "Unleash the power of JavaFX for a wide range of devices",
+    "description": "This accessible book highlights the most important features of the powerful JavaFX graphics platform, giving you the tools to understand it quickly and easily.",
     "publisher": "For Dummies",
     "authors": "Doug Lowe",
     "name": "JavaFX For Dummies",
@@ -150,7 +160,8 @@
   },
   {
     "id": "definitiveguide2modernjavaclients",
-    "summary": "This book is a reference for building Java applications for desktop, mobile and embedded.",
+    "summary": "Cross-Platform Mobile and Cloud Development",
+    "description": "This book is a reference for building Java applications for desktop, mobile and embedded.",
     "publisher": "Apress",
     "authors": "Stefen Chin, Johan Vos and James Weaver",
     "personIds": [
@@ -167,7 +178,8 @@
   },
   {
     "id": "learnjfx17",
-    "summary": "This book is a reference for building Java applications for desktop, mobile and embedded.",
+    "summary": "Building User Experience and Interfaces with Java",
+    "description": "This book is a reference for building Java applications for desktop, mobile and embedded.",
     "publisher": "Apress",
     "authors": "Kishori Sharan, Peter Späth",
     "name": "Learn JavaFX 17",
@@ -179,7 +191,8 @@
   },
   {
     "id": "fxgl17",
-    "summary": "Understand real-world game development concepts using JavaFX game engine called FXGL.",
+    "summary": "Real-world game development concepts using JavaFX and FXGL.",
+    "description": "Understand real-world game development concepts using JavaFX game engine called FXGL.",
     "publisher": "Apress",
     "authors": " Almas Baimagambetov",
     "name": "Learn JavaFX Game and App Development",
