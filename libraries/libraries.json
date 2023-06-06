@@ -247,7 +247,7 @@
     "groupId": "com.github.almasb",
     "artifactId": "fxgl",
     "ensemble": "false",
-    "logoAvailable": "true",
+    "logoAvailable": "false",
     "tutorialIds": [
       "almastutorials"
     ],
