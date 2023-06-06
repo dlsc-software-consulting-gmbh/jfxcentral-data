@@ -37,42 +37,38 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
-import java.net.ProtocolException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
-import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class DataRepository2 {
 
-    private static final Logger LOG = Logger.getLogger(DataRepository2.class.getName());
+    private static File REPO_DIRECTORY = new File(System.getProperty("jfxcentral.repo", new File(System.getProperty("user.home"), ".jfxcentralrepo").getAbsolutePath())).getAbsoluteFile();
 
-    public static File REPO_DIRECTORY = new File(System.getProperty("jfxcentral.repo", new File(System.getProperty("user.home"), ".jfxcentralrepo").getAbsolutePath())).getAbsoluteFile();
+    private static final Logger LOG = Logger.getLogger(DataRepository2.class.getName());
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-    private ExecutorService executor = Executors.newCachedThreadPool();
-
     private static DataRepository2 instance;
+
+    public static boolean testing;
 
     private final Gson gson = Converters.registerLocalDate(new GsonBuilder()).setPrettyPrinting().create();
 
-    private boolean loaded;
-
-    public static boolean testing = false;
+    private String homeText;
+    private String openJFXText;
 
     public static synchronized DataRepository2 getInstance() {
         if (instance == null) {
@@ -82,22 +78,16 @@ public class DataRepository2 {
         return instance;
     }
 
-    public boolean isLoaded() {
-        return loaded;
-    }
-
     private DataRepository2() {
+        doLoadData("initial loading of data upon creation of data repository instance");
     }
 
-    public void loadData() {
+    public void reload() {
         doLoadData("explicit call to refresh method");
     }
 
     public void clearData() {
-        loaded = false;
-
-        setHomeText("");
-        setOpenJFXText("");
+        LOG.fine("clearing data");
 
         getPeople().clear();
         getLibraries().clear();
@@ -116,169 +106,47 @@ public class DataRepository2 {
     }
 
     private void doLoadData(String reason) {
+        clearData();
+
         LOG.fine("loading data, reason = " + reason);
 
         try {
-            String homeText = loadString(new File(getRepositoryDirectory(), "intro.md"));
+            // plain texts
+            homeText = loadString(new File(getRepositoryDirectory(), "intro.md"));
+            openJFXText = loadString(new File(getRepositoryDirectory(), "openjfx/intro.md"));
 
-            String openJFXText = loadString(new File(getRepositoryDirectory(), "openjfx/intro.md"));
-
-            // load people
-            File peopleFile = new File(getRepositoryDirectory(), "people/people.json");
-            List<Person> people = gson.fromJson(new FileReader(peopleFile, StandardCharsets.UTF_8), new TypeToken<List<Person>>() {
-            }.getType());
-
-            // load books
-            File booksFile = new File(getRepositoryDirectory(), "books/books.json");
-            List<Book> books = gson.fromJson(new FileReader(booksFile, StandardCharsets.UTF_8), new TypeToken<List<Book>>() {
-            }.getType());
-
-            // load videos
-            File videosFile = new File(getRepositoryDirectory(), "videos/videos.json");
-            List<Video> videos = gson.fromJson(new FileReader(videosFile, StandardCharsets.UTF_8), new TypeToken<List<Video>>() {
-            }.getType());
-
-            // load libraries
-            File librariesFile = new File(getRepositoryDirectory(), "libraries/libraries.json");
-            List<Library> libraries = gson.fromJson(new FileReader(librariesFile, StandardCharsets.UTF_8), new TypeToken<List<Library>>() {
-            }.getType());
-
-            // load libraries
-            File newsFile = new File(getRepositoryDirectory(), "news/news.json");
-            List<News> news = gson.fromJson(new FileReader(newsFile, StandardCharsets.UTF_8), new TypeToken<List<News>>() {
-            }.getType());
-
-            // load libraries
-            File blogsFile = new File(getRepositoryDirectory(), "blogs/blogs.json");
-            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile, StandardCharsets.UTF_8), new TypeToken<List<Blog>>() {
-            }.getType());
-
-            // load libraries
-            File companiesFile = new File(getRepositoryDirectory(), "companies/companies.json");
-            List<Company> companies = gson.fromJson(new FileReader(companiesFile, StandardCharsets.UTF_8), new TypeToken<List<Company>>() {
-            }.getType());
-
-            // load tools
-            File toolsFile = new File(getRepositoryDirectory(), "tools/tools.json");
-            List<Tool> tools = gson.fromJson(new FileReader(toolsFile, StandardCharsets.UTF_8), new TypeToken<List<Tool>>() {
-            }.getType());
-
-            // load real world apps
-            File realWorldFile = new File(getRepositoryDirectory(), "realworld/realworld.json");
-            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile, StandardCharsets.UTF_8), new TypeToken<List<RealWorldApp>>() {
-            }.getType());
-
-            // load downloads
-            File downloadsFile = new File(getRepositoryDirectory(), "downloads/downloads.json");
-            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile, StandardCharsets.UTF_8), new TypeToken<List<Download>>() {
-            }.getType());
-
-            // load downloads
-            File tutorialsFile = new File(getRepositoryDirectory(), "tutorials/tutorials.json");
-            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile, StandardCharsets.UTF_8), new TypeToken<List<Tutorial>>() {
-            }.getType());
-
-            // load downloads
-            File tipsFile = new File(getRepositoryDirectory(), "tips/tips.json");
-            List<Tip> tips = gson.fromJson(new FileReader(tipsFile, StandardCharsets.UTF_8), new TypeToken<List<Tip>>() {
-            }.getType());
-
-            // load downloads
-            File linksOfTheWeekFile = new File(getRepositoryDirectory(), "links/links.json");
-            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile, StandardCharsets.UTF_8), new TypeToken<List<LinksOfTheWeek>>() {
-            }.getType());
-
-            // load ikonlipacks
-            File ikonliPacksFile = new File(getRepositoryDirectory(), "ikonlipacks/ikonlipacks.json");
-            List<IkonliPack> ikonliPacks = gson.fromJson(new FileReader(ikonliPacksFile, StandardCharsets.UTF_8), new TypeToken<List<IkonliPack>>() {
-            }.getType());
-
-            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links, ikonliPacks);
-
-            LOG.fine("data loading finished");
+            // collections
+            people.addAll(load(getFile("people/people.json"), new TypeToken<List<Person>>() {}.getType()));
+            books.addAll(load(getFile("books/books.json"), new TypeToken<List<Book>>() {}.getType()));
+            videos.addAll(load(getFile("videos/videos.json"), new TypeToken<List<Video>>() {}.getType()));
+            libraries.addAll(load(getFile("libraries/libraries.json"), new TypeToken<List<Library>>() {}.getType()));
+            news.addAll(load(getFile("news/news.json"), new TypeToken<List<News>>() {}.getType()));
+            tutorials.addAll(load(getFile("tutorials/tutorials.json"), new TypeToken<List<Tutorial>>() {}.getType()));
+            blogs.addAll(load(getFile("blogs/blogs.json"), new TypeToken<List<Blog>>() {}.getType()));
+            companies.addAll(load(getFile("companies/companies.json"), new TypeToken<List<Company>>() {}.getType()));
+            tools.addAll(load(getFile("tools/tools.json"), new TypeToken<List<Tool>>() {}.getType()));
+            realWorldApps.addAll(load(getFile("realworld/realworld.json"), new TypeToken<List<RealWorldApp>>() {}.getType()));
+            downloads.addAll(load(getFile("downloads/downloads.json"), new TypeToken<List<Download>>() {}.getType()));
+            tips.addAll(load(getFile("tips/tips.json"), new TypeToken<List<Tip>>() {}.getType()));
+            linksOfTheWeek.addAll(load(getFile("links/links.json"), new TypeToken<List<LinksOfTheWeek>>() {}.getType()));
+            ikonliPacks.addAll(load(getFile("ikonlipacks/ikonlipacks.json"), new TypeToken<List<IkonliPack>>() {}.getType()));
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            loaded = true;
+        }
+
+        LOG.fine("data loading finished");
+    }
+
+    private <T> Collection<T> load(File file, Type type) {
+        try (FileReader fr = new FileReader(file, StandardCharsets.UTF_8)) {
+            return gson.fromJson(fr, type);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 
-    private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries,
-                         List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads,
-                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks) {
-        clearData();
-
-        setOpenJFXText(openJFXText);
-        setHomeText(homeText);
-
-        getPeople().addAll(people);
-        getBooks().addAll(books);
-        getVideos().addAll(videos);
-        getLibraries().addAll(libraries);
-        getNews().addAll(news);
-        getBlogs().addAll(blogs);
-        getCompanies().addAll(companies);
-        getTools().addAll(tools);
-        getRealWorldApps().addAll(realWorldApps);
-        getDownloads().addAll(downloads);
-        getTutorials().addAll(tutorials);
-        getTips().addAll(tips);
-        getLinksOfTheWeek().addAll(links);
-        getIkonliPacks().addAll(ikonliPacks);
-
-        List<ModelObject> recentItems = findRecentItems();
-        getRecentItems().addAll(recentItems);
-    }
-
-    private List<ModelObject> findRecentItems() {
-        List<ModelObject> result = new ArrayList<>();
-        // News are not reachable through links!
-        //  result.addAll(findRecentItems(getNews()));
-        result.addAll(findRecentItems(getPeople()));
-        result.addAll(findRecentItems(getBooks()));
-        result.addAll(findRecentItems(getLibraries()));
-        result.addAll(findRecentItems(getVideos()));
-        result.addAll(findRecentItems(getBlogs()));
-        result.addAll(findRecentItems(getCompanies()));
-        result.addAll(findRecentItems(getTools()));
-        result.addAll(findRecentItems(getTutorials()));
-        result.addAll(findRecentItems(getRealWorldApps()));
-        result.addAll(findRecentItems(getDownloads()));
-        result.addAll(findRecentItems(getTips()));
-        result.addAll(findRecentItems(getIkonliPacks()));
-        // LinksOfTheWeek are not reachable through links!
-        //  result.addAll(findRecentItems(getLinksOfTheWeek()));
-
-        // newest ones on top
-        Collections.sort(result, Comparator.comparing(ModelObject::getCreationOrUpdateDate).reversed());
-
-        return result;
-    }
-
-    private List<ModelObject> findRecentItems(List<? extends ModelObject> items) {
-        List<ModelObject> result = new ArrayList<>();
-
-        final LocalDate today = LocalDate.now();
-
-        items.forEach(item -> {
-            LocalDate date = item.getModifiedOn();
-            if (date == null) {
-                date = item.getCreatedOn();
-            }
-            if (date != null) {
-                if (date.isAfter(today.minusWeeks(8))) {
-                    result.add(item);
-                }
-            }
-        });
-
-        return result;
-    }
-
-    private final List<ModelObject> recentItems = new ArrayList<>();
-
-    public List<ModelObject> getRecentItems() {
-        return recentItems;
+    private File getFile(String path) {
+        return new File(getRepositoryDirectory(), path);
     }
 
     public Optional<Person> getPersonById(String id) {
@@ -532,7 +400,7 @@ public class DataRepository2 {
         DataRepository2.testing = testing;
     }
 
-    public File getRepositoryDirectory() {
+    public static File getRepositoryDirectory() {
         if (testing) {
             return new File(System.getProperty("user.dir"));
         }
@@ -541,34 +409,6 @@ public class DataRepository2 {
 
     public String getRepositoryDirectoryURL() {
         return getRepositoryDirectory().toURI().toString();
-    }
-
-    private final StringProperty homeText = new SimpleStringProperty(this, "homeText");
-
-    public String getHomeText() {
-        return homeText.get();
-    }
-
-    public StringProperty homeTextProperty() {
-        return homeText;
-    }
-
-    public void setHomeText(String homeText) {
-        this.homeText.set(homeText);
-    }
-
-    private final StringProperty openJFXText = new SimpleStringProperty(this, "openJFXText");
-
-    public String getOpenJFXText() {
-        return openJFXText.get();
-    }
-
-    public StringProperty openJFXTextProperty() {
-        return openJFXText;
-    }
-
-    public void setOpenJFXText(String openJFXText) {
-        this.openJFXText.set(openJFXText);
     }
 
     private final List<Library> libraries = new ArrayList<>();
@@ -655,6 +495,14 @@ public class DataRepository2 {
         return ikonliPacks;
     }
 
+    public String getHomeText() {
+        return homeText;
+    }
+
+    public String getOpenJFXText() {
+        return openJFXText;
+    }
+
     private String loadString(File file) {
         LOG.fine("loading string from: " + file);
 
@@ -703,7 +551,7 @@ public class DataRepository2 {
             if (status == 200) {
                 try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
                     String inputLine;
-                    StringBuffer content = new StringBuffer();
+                    StringBuilder content = new StringBuilder();
                     while ((inputLine = in.readLine()) != null) {
                         content.append(inputLine);
                     }
@@ -715,10 +563,6 @@ public class DataRepository2 {
             } else {
                 result.set("unknown");
             }
-        } catch (ProtocolException e) {
-            e.printStackTrace();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -752,18 +596,17 @@ public class DataRepository2 {
         return Collections.emptyList();
     }
 
-    private long cachedPullrequestsTime;
-
-    private long timeToReloadSeconds = 600;
+    private long cachedPullRequestsTime;
 
     private List<PullRequest> cachedPullRequests;
 
     public List<PullRequest> loadPullRequests() {
         long time = System.currentTimeMillis() / 1000;
-        if (cachedPullrequestsTime + timeToReloadSeconds > time) {
+        long timeToReloadSeconds = 600;
+        if (cachedPullRequestsTime + timeToReloadSeconds > time) {
             return cachedPullRequests;
         }
-        cachedPullrequestsTime = time;
+        cachedPullRequestsTime = time;
         cachedPullRequests = loadPullRequestsImpl();
         return cachedPullRequests;
 
@@ -786,7 +629,7 @@ public class DataRepository2 {
                 if (status == 200) {
                     try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
                         String inputLine;
-                        StringBuffer content = new StringBuffer();
+                        StringBuilder content = new StringBuilder();
                         while ((inputLine = in.readLine()) != null) {
                             content.append(inputLine);
                         }
@@ -794,10 +637,6 @@ public class DataRepository2 {
                         }.getType());
                     }
                 }
-            } catch (ProtocolException e) {
-                e.printStackTrace();
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
@@ -808,31 +647,5 @@ public class DataRepository2 {
         }
 
         return Collections.emptyList();
-    }
-
-    public List<ModelObject> search(String pattern) {
-        List<ModelObject> result = new ArrayList<>();
-        search(getBooks(), pattern, result);
-        search(getBlogs(), pattern, result);
-        search(getCompanies(), pattern, result);
-        search(getPeople(), pattern, result);
-        search(getLibraries(), pattern, result);
-        search(getRealWorldApps(), pattern, result);
-        search(getTools(), pattern, result);
-        search(getVideos(), pattern, result);
-        search(getNews(), pattern, result);
-        search(getDownloads(), pattern, result);
-        search(getTutorials(), pattern, result);
-        search(getTips(), pattern, result);
-        search(getIkonliPacks(), pattern, result);
-        return result;
-    }
-
-    private void search(List<? extends ModelObject> modelObjects, String pattern, List<ModelObject> result) {
-        modelObjects.forEach(mo -> {
-            if (mo.matches(pattern)) {
-                result.add(mo);
-            }
-        });
     }
 }
