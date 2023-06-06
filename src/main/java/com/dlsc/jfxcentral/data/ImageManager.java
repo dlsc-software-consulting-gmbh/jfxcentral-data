@@ -148,7 +148,6 @@ public class ImageManager {
             property.set(image);
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException(e);
         }
 
         return property;

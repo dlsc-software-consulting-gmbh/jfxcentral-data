@@ -1,14 +1,5 @@
 [
   {
-    "id": "reddit",
-    "name": "reddit",
-    "summary": "JavaFX subreddit",
-    "url": "feed:https://www.reddit.com/r/JavaFX/",
-    "createdOn": "2021-05-30",
-    "feed": "https://www.reddit.com/r/JavaFX/.rss",
-    "tags:": "questions, support forum"
-  },
-  {
     "id": "webtechie",
     "name": "webtechie.be",
     "summary": "RaspberryPi and JavaFX at its best. You can find it on Frank Delporte's blog.",

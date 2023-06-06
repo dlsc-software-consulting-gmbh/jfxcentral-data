@@ -89,6 +89,8 @@ public class DataRepository2 {
     public void clearData() {
         LOG.fine("clearing data");
 
+        homeText = "";
+        openJFXText = "";
         getPeople().clear();
         getLibraries().clear();
         getBooks().clear();

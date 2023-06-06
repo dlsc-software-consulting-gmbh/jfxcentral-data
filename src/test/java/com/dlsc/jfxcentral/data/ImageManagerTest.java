@@ -23,19 +23,6 @@ public class ImageManagerTest {
         DataRepository.setTesting(true);
     }
 
-//    @Test
-//    public void shouldThrowError() {
-//        // when image doesn't exist
-//        // then we should get an error
-//        boolean exceptionThrown = false;
-//        try {
-//            ImageManager.getInstance().localImageProperty(new File(System.getProperty("user.home"), "/something/"), "banner.jpg", "not-existing");
-//        } catch (Exception e) {
-//            exceptionThrown = true;
-//        }
-//        assertTrue(exceptionThrown, "No exception was thrown!");
-//    }
-
     @Test
     public void shouldGetPersonImage() {
         // when .. then
