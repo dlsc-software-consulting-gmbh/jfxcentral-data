@@ -693,7 +693,7 @@
     "groupId": "eu.hansolo",
     "artifactId": "medusa",
     "ensemble": "false",
-    "logoAvailable": "false",
+    "logoAvailable": "true",
     "videoIds": [
       "l2ZYO4HXjLg"
     ],
