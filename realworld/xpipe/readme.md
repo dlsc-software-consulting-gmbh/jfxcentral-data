@@ -11,7 +11,7 @@ User settings are entirely handled with [PreferencesFX](https://github.com/dlsc-
 In-app markdown displays for documentation, changelogs, and other dialogs are rendered through the JavaFX [WebView](https://openjfx.io/javadoc/17/javafx.web/javafx/scene/web/WebView.html),
 [Flexmark](https://github.com/vsch/flexmark-java), and [GitHub Markdown CSS](https://github.com/sindresorhus/github-markdown-css).
 
-![Connections Overview](connections.png)
-![File Explorer](light.png)
-![Settings](settings.webp)
-![Dark File Explorer](dark.png)
+![Connections Overview](connections.jpg)
+![File Explorer](light.jpg)
+![Settings](settings.jpg)
+![Dark File Explorer](dark.jpg)
