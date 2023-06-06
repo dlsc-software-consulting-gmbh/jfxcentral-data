@@ -48,18 +48,18 @@ public class DataRepository2Test {
         repository.loadData();
 
         // then
-        assertTrue(!repository.getBlogs().isEmpty());
-        assertTrue(!repository.getBooks().isEmpty());
-        assertTrue(!repository.getCompanies().isEmpty());
-        assertTrue(!repository.getDownloads().isEmpty());
-        assertTrue(!repository.getLibraries().isEmpty());
-        assertTrue(!repository.getNews().isEmpty());
-        assertTrue(!repository.getPeople().isEmpty());
-        assertTrue(!repository.getRealWorldApps().isEmpty());
-        assertTrue(!repository.getTools().isEmpty());
-        assertTrue(!repository.getVideos().isEmpty());
-        assertTrue(!repository.getTutorials().isEmpty());
-        assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertFalse(repository.getBlogs().isEmpty());
+        assertFalse(repository.getBooks().isEmpty());
+        assertFalse(repository.getCompanies().isEmpty());
+        assertFalse(repository.getDownloads().isEmpty());
+        assertFalse(repository.getLibraries().isEmpty());
+        assertFalse(repository.getNews().isEmpty());
+        assertFalse(repository.getPeople().isEmpty());
+        assertFalse(repository.getRealWorldApps().isEmpty());
+        assertFalse(repository.getTools().isEmpty());
+        assertFalse(repository.getVideos().isEmpty());
+        assertFalse(repository.getTutorials().isEmpty());
+        assertFalse(repository.getIkonliPacks().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -105,18 +105,18 @@ public class DataRepository2Test {
         repository.loadData();
 
         // then
-        assertTrue(!repository.getBlogs().isEmpty());
-        assertTrue(!repository.getBooks().isEmpty());
-        assertTrue(!repository.getCompanies().isEmpty());
-        assertTrue(!repository.getDownloads().isEmpty());
-        assertTrue(!repository.getLibraries().isEmpty());
-        assertTrue(!repository.getNews().isEmpty());
-        assertTrue(!repository.getPeople().isEmpty());
-        assertTrue(!repository.getRealWorldApps().isEmpty());
-        assertTrue(!repository.getTools().isEmpty());
-        assertTrue(!repository.getVideos().isEmpty());
-        assertTrue(!repository.getTutorials().isEmpty());
-        assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertFalse(repository.getBlogs().isEmpty());
+        assertFalse(repository.getBooks().isEmpty());
+        assertFalse(repository.getCompanies().isEmpty());
+        assertFalse(repository.getDownloads().isEmpty());
+        assertFalse(repository.getLibraries().isEmpty());
+        assertFalse(repository.getNews().isEmpty());
+        assertFalse(repository.getPeople().isEmpty());
+        assertFalse(repository.getRealWorldApps().isEmpty());
+        assertFalse(repository.getTools().isEmpty());
+        assertFalse(repository.getVideos().isEmpty());
+        assertFalse(repository.getTutorials().isEmpty());
+        assertFalse(repository.getIkonliPacks().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -395,11 +395,11 @@ public class DataRepository2Test {
             assertNotNull(list, "missing video list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.isEmpty(), "no videos returned for person d.lemmermann");
+                assertFalse(list.isEmpty(), "no videos returned for person d.lemmermann");
             }
 
             if (person.getId().equals("h.ebbers")) {
-                assertTrue(!list.isEmpty(), "no videos returned for person h.ebbers");
+                assertFalse(list.isEmpty(), "no videos returned for person h.ebbers");
             }
         });
     }
@@ -420,7 +420,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing blog list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.isEmpty(), "no blogs returned for person d.lemmermann");
+                assertFalse(list.isEmpty(), "no blogs returned for person d.lemmermann");
             }
         });
     }
@@ -455,7 +455,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing library list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.isEmpty(), "no libraries returned for person d.lemmermann");
+                assertFalse(list.isEmpty(), "no libraries returned for person d.lemmermann");
             }
         });
     }
@@ -476,7 +476,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing tip list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.isEmpty(), "no libraries returned for person d.lemmermann");
+                assertFalse(list.isEmpty(), "no libraries returned for person d.lemmermann");
                 assertTrue(list.size() > 1, "not enough tips returned for d.lemmermann");
             }
         });
@@ -498,7 +498,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing books list for person " + person.getId());
 
             if (person.getId().equals("h.ebbers")) {
-                assertTrue(!list.isEmpty(), "no libraries returned for person h.ebbers");
+                assertFalse(list.isEmpty(), "no libraries returned for person h.ebbers");
             }
         });
     }
@@ -519,7 +519,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing tutorials list for person " + person.getId());
 
             if (person.getId().equals("j.jenkov")) {
-                assertTrue(!list.isEmpty(), "no tutorials returned for person j.jenkov");
+                assertFalse(list.isEmpty(), "no tutorials returned for person j.jenkov");
             }
         });
     }
@@ -540,7 +540,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing downloads list for person " + person.getId());
 
             if (person.getId().equals("d.lemmermann")) {
-                assertTrue(!list.isEmpty(), "no tutorials returned for person d.lemmermann");
+                assertFalse(list.isEmpty(), "no tutorials returned for person d.lemmermann");
             }
         });
     }
@@ -558,7 +558,7 @@ public class DataRepository2Test {
             Optional<Person> result = repository.getPersonById(person.getId());
 
             // then
-            assertNotNull(result.get(), "no person returned for ID " + person.getId());
+            assertTrue(result.isPresent(), "no person returned for ID " + person.getId());
         });
     }
 
@@ -575,7 +575,7 @@ public class DataRepository2Test {
             Optional<Company> result = repository.getCompanyById(company.getId());
 
             // then
-            assertNotNull(result.get(), "no company returned for ID " + company.getId());
+            assertTrue(result.isPresent(), "no company returned for ID " + company.getId());
         });
     }
 
@@ -592,7 +592,7 @@ public class DataRepository2Test {
             Optional<Library> result = repository.getLibraryById(library.getId());
 
             // then
-            assertNotNull(result.get(), "no library returned for ID " + library.getId());
+            assertTrue(result.isPresent(), "no library returned for ID " + library.getId());
         });
     }
 
@@ -609,7 +609,7 @@ public class DataRepository2Test {
             Optional<Blog> result = repository.getBlogById(blog.getId());
 
             // then
-            assertNotNull(result.get(), "no blog returned for ID " + blog.getId());
+            assertTrue(result.isPresent(), "no blog returned for ID " + blog.getId());
         });
     }
 
@@ -626,7 +626,7 @@ public class DataRepository2Test {
             Optional<Book> result = repository.getBookById(book.getId());
 
             // then
-            assertNotNull(result.get(), "no book returned for ID " + book.getId());
+            assertTrue(result.isPresent(), "no book returned for ID " + book.getId());
         });
     }
 
@@ -643,7 +643,7 @@ public class DataRepository2Test {
             Optional<RealWorldApp> result = repository.getRealWorldAppById(real.getId());
 
             // then
-            assertNotNull(result.get(), "no real world app returned for ID " + real.getId());
+            assertTrue(result.isPresent(), "no real world app returned for ID " + real.getId());
         });
     }
 
@@ -660,7 +660,7 @@ public class DataRepository2Test {
             Optional<Tool> result = repository.getToolById(tool.getId());
 
             // then
-            assertNotNull(result.get(), "no tool returned for ID " + tool.getId());
+            assertTrue(result.isPresent(), "no tool returned for ID " + tool.getId());
         });
     }
 
@@ -677,7 +677,7 @@ public class DataRepository2Test {
             Optional<Download> result = repository.getDownloadById(download.getId());
 
             // then
-            assertNotNull(result.get(), "no download returned for ID " + download.getId());
+            assertTrue(result.isPresent(), "no download returned for ID " + download.getId());
         });
     }
 
@@ -690,29 +690,27 @@ public class DataRepository2Test {
         assertFalse(repository.getDownloads().isEmpty());
 
         // when
-        repository.getDownloads().forEach(download -> {
-            download.getFiles().forEach(file -> {
-                String externalizedUrl = file.getUrl();
-                if (StringUtils.isNotBlank(externalizedUrl)) {
-                    System.out.println("checking url: " + externalizedUrl);
-                    try {
-                        URL url = new URL(externalizedUrl);
-                        HttpURLConnection huc = (HttpURLConnection) url.openConnection();
-                        huc.setRequestMethod("HEAD");
+        repository.getDownloads().forEach(download -> download.getFiles().forEach(file -> {
+            String externalizedUrl = file.getUrl();
+            if (StringUtils.isNotBlank(externalizedUrl)) {
+                System.out.println("checking url: " + externalizedUrl);
+                try {
+                    URL url = new URL(externalizedUrl);
+                    HttpURLConnection huc = (HttpURLConnection) url.openConnection();
+                    huc.setRequestMethod("HEAD");
 
-                        // then
-                        int responseCode = huc.getResponseCode();
-                        System.out.println("response: " + responseCode);
+                    // then
+                    int responseCode = huc.getResponseCode();
+                    System.out.println("response: " + responseCode);
 
-                        assertEquals(HttpURLConnection.HTTP_OK, responseCode, "checked url: " + url.toExternalForm());
-                    } catch (MalformedURLException ex) {
-                        fail("url was invalid, url = " + externalizedUrl);
-                    } catch (IOException e) {
-                        fail(e);
-                    }
+                    assertEquals(HttpURLConnection.HTTP_OK, responseCode, "checked url: " + url.toExternalForm());
+                } catch (MalformedURLException ex) {
+                    fail("url was invalid, url = " + externalizedUrl);
+                } catch (IOException e) {
+                    fail(e);
                 }
-            });
-        });
+            }
+        }));
     }
 
     @Test
@@ -744,7 +742,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing tutorials list for library " + library.getId());
 
             if (library.getId().equals("fxgl")) {
-                assertTrue(!list.isEmpty(), "no tutorials returned for library fxgl");
+                assertFalse(list.isEmpty(), "no tutorials returned for library fxgl");
             }
         });
     }
@@ -765,7 +763,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing video list for library " + library.getId());
 
             if (library.getId().equals("tilesfx")) {
-                assertTrue(!list.isEmpty(), "no videos returned for library tilesfx");
+                assertFalse(list.isEmpty(), "no videos returned for library tilesfx");
             }
         });
     }
@@ -786,7 +784,7 @@ public class DataRepository2Test {
             assertNotNull(list, "missing downloads list for library " + library.getId());
 
             if (library.getId().equals("tilesfx")) {
-                assertTrue(!list.isEmpty(), "no downloads returned for library tilesfx");
+                assertFalse(list.isEmpty(), "no downloads returned for library tilesfx");
             }
         });
     }
