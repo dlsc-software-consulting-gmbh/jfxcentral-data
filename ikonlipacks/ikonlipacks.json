@@ -353,8 +353,8 @@
   },
   {
     "module": "org.kordamp.ikonli.evaicons",
-    "title": "EvaIcons",
-    "name": "EvaIcons",
+    "title": "Evaicons",
+    "name": "Evaicons",
     "id": "evaicons",
     "iconStyle": "MIXING",
     "description": "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.\nDownload our set on the desktop to use them in your digital products for Web, iOS and Android.\nCompatible with Eva Design System.",
@@ -1805,8 +1805,8 @@
   },
   {
     "module": "org.kordamp.ikonli.metrizeicons",
-    "title": "Metrizeicons",
-    "name": "Metrizeicons",
+    "title": "MetrizeIcons",
+    "name": "MetrizeIcons",
     "id": "metrizeicons",
     "iconStyle": "OUTLINE",
     "description": "Free Collection of 300 Metro-Style Icons for Designers and Developers.",
@@ -1893,8 +1893,8 @@
   },
   {
     "module": "org.kordamp.ikonli.openiconic",
-    "title": "OpenIconic",
-    "name": "OpenIconic",
+    "title": "Openiconic",
+    "name": "Openiconic",
     "id": "openiconic",
     "iconStyle": "MIXING",
     "description": "",
@@ -2223,7 +2223,7 @@
   },
   {
     "module": "org.kordamp.ikonli.websymbols",
-    "title": "Websymbols",
+    "title": "WebSymbols",
     "name": "WebSymbols",
     "id": "websymbols",
     "iconStyle": "FILLED",
