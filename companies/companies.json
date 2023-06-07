@@ -2,6 +2,7 @@
   {
     "id": "smartup.engineering",
     "name": "SmartUp Engineering srl",
+    "summary": "Software for industrial and scientific applications.",
     "description": "SmartUp Engineering is an Italian startup and a spin-off company of the University of Naples Federico II. The company develops software for industrial and scientific applications related to the aerospace field.",
     "homepage": "https://www.smartup-engineering.com",
     "createdOn": "2021-11-02",
@@ -12,6 +13,7 @@
   {
     "id": "dlsc",
     "name": "DLSC Software & Consulting GmbH",
+    "summary": "Product development and consulting services.",
     "description": "DLSC is a software company located in Zurich, Switzerland. They are specialised in developing JavaFX and Swing frameworks and providing consulting services.",
     "homepage": "https://dlsc.com",
     "createdOn": "2021-05-26",
@@ -33,6 +35,7 @@
   {
     "id": "jpro",
     "name": "jpro.one",
+    "summary": "Bringing Java back into the browser.",
     "description": "JPRO is a new technology which brings Java back into the browser - without a Plugin.",
     "homepage": "https://jpro.one",
     "createdOn": "2021-05-27",
@@ -43,6 +46,7 @@
   {
     "id": "gluon",
     "name": "Gluon",
+    "summary": "Focused on bringing Java to mobile devices.",
     "description": "Gluon is a Java technology company focused on developing libraries, services, and tooling around the goal of having Java on mobile devices.",
     "homepage": "https://gluonhq.com",
     "tags": "mobile, embedded, ios, android, maven plugin",
@@ -53,6 +57,7 @@
   {
     "id": "foojay",
     "name": "foojay",
+    "summary": "Central resource for friends of OpenJDK",
     "description": "Foojay is a central resource for the Java community's daily information needs, a place for friends of OpenJDK, and a community platform for the Java ecosystem.",
     "homepage" : "https://foojay.io",
     "tags": "blog, news",
@@ -63,6 +68,7 @@
   {
     "id": "bestsolution",
     "name": "BestSolution",
+    "summary": "Developing and consulting for Java-based software.",
     "description": "BestSolution's main expertize is the development of and consulting for Java based software, with a special emphasis on Eclipse, React.js and JavaFX based software. They are the creators of the core JavaFX toolkit \"e(f)xclipse\" used within Eclipse.",
     "homepage" : "https://www.bestsolution.at",
     "tags": "consulting",
@@ -73,6 +79,7 @@
   {
     "id": "karakun",
     "name": "Karakun",
+    "summary": "Custom-tailored software solutions.",
     "description": "Karakun's core business is the development of custom-tailored software solutions in B2B environments based on Java and web technologies using agile methodologies.",
     "homepage" : "https://karakun.com",
     "tags": "consulting",
@@ -83,6 +90,7 @@
   {
     "id": "azul",
     "name": "Azul Systems",
+    "summary": "Providing commercial support for OpenJDK.",
     "description": "Azul is a company that is 100% focused on Java, delivering a Java platform to cloud enterprises. They provide commercial support for OpenJDK to their customers.",
     "homepage" : "https://www.azul.com",
     "tags": "consulting",
@@ -93,6 +101,7 @@
   {
     "id": "pixelduke.company",
     "name": "Pixel Duke",
+    "summary": "Developing applications to boost customer productivity.",
     "description": "Pixel Duke is a company specialized in the development of beautiful, graphical applications that users feel happy to use and that significantly boost their productivity.",
     "homepage" : "https://www.pixelduke.com",
     "tags": "consulting",
@@ -103,6 +112,7 @@
   {
     "id": "serendipity",
     "name": "Serendipity S.r.l.",
+    "summary": "Developing solutions based on Java enterprise technology.",
     "description": "Serendipity S.r.l. is an innovative start-up focused on development of software solutions and products based mainly on Java Enterprise technologies.",
     "homepage" : "https://serendigity.it/",
     "tags": "enterprise search, machine learning, training, java, devops, agile",
@@ -113,6 +123,7 @@
   {
     "id": "soberlemur",
     "name": "Sober Lemur S.a.s.",
+    "summary": "Products for PDF editing.",
     "description": "Sober Lemur S.a.s. is a software company that develops products for editing PDF files.",
     "homepage" : "https://soberlemur.com",
     "tags": "pdf",
@@ -123,6 +134,7 @@
   {
     "id": "qfs",
     "name": "Quality First Software GmbH",
+    "summary": "Software test automation.",
     "description": "QFS is an owner-managed company with over 20 years of experience in software test automation. QFS emphasizes social and environmental responsibility in their internal, local and international activities.",
     "homepage" : "https://www.qfs.de/en",
     "tags": "test automation",
@@ -133,6 +145,7 @@
   {
     "id": "teamdev",
     "name": "TeamDev Ltd.",
+    "summary": "International software company.",
     "description": "TeamDev is an international software company that prides itself on a strong portfolio of some 3,000 clients, including those at the top of the Fortune International 500 list.",
     "homepage": "https://www.teamdev.com",
     "tags": "web, chromium, embedded browser, crawling, jxbrowser, consulting",
@@ -146,6 +159,7 @@
   {
     "id": "hydraulic",
     "name": "Hydraulic Software AG",
+    "summary": "Exploring and promoting post-web technologies.",
     "description": "Hydraulic is a company founded to explore and promote post-web technologies. We believe HTML is reaching end of life and it's time to start researching and enabling alternative approaches.",
     "homepage": "https://www.hydraulic.software",
     "tags": "distribution, packaging, jvm",
@@ -155,6 +169,7 @@
   {
     "id": "intechcore",
     "name": "Intechcore GmbH",
+    "summary": "Java software development for the German judiciary.",
     "description": "Since 2008, Intechcore GmbH has been a service provider for the judiciary in Germany. Our services now include Java software development and IT consulting.",
     "homepage": "https://www.intechcore.com",
     "tags": "software development, consulting, customized office application",
