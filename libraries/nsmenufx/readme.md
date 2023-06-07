@@ -1,15 +1,11 @@
-# NSMenuFX
-
 A simple library to customize the macOS menu bar to give your JavaFX app
-a more [native look and feel](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/MenuBarMenus.html).  
+a more [native look and feel](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/MenuBarMenus.html). NSMenuFX provides a mapping layer between the JavaFX `Menu` and AppKits `NSMenu` objects. It uses [JNA](https://github.com/java-native-access/jna) to directly set the menus for your application using macOS native API.
 
-NSMenuFX provides a mapping layer between the JavaFX `Menu` and AppKits `NSMenu` objects. It uses [JNA](https://github.com/java-native-access/jna) to directly set the menus for your application using macOS native API.
-
-## Features
+### Features
 
 Here are a few examples of what you can do with NSMenuFX.
 
-### Application menu
+#### Application menu
 
 ![Custom App Menu Screenshot](./app_menu.png)
 
@@ -23,9 +19,9 @@ Menu defaultApplicationMenu = tk.createDefaultApplicationMenu("test");
 MenuToolkit.toolkit().setApplicationMenu(defaultApplicationMenu);
 ```
 
-### Window menu
+#### Window menu
 
-![Custom App Menu Screenshot](./window_menu.png)
+![Custom App Menu Screenshot](window_menu.png)
 
 Create common macOS menus like the Window menu.
 
@@ -39,9 +35,9 @@ Menu windowMenu = new Menu("Window");
 MenuToolkit.toolkit().autoAddWindowMenuItems(windowMenu);
 ```
 
-### Dock menu
+#### Dock menu
 
-![Custom App Menu Screenshot](./dock_menu.png)
+![Custom App Menu Screenshot](dock_menu.png)
 
 Create a dock icon menu. Note that images for menu items in dock menus are not supported by macOS.
 
@@ -55,9 +51,9 @@ Menu menu = new Menu("Window");
 MenuToolkit.toolkit().setDocIconMenu(menu);
 ```
 
-### Tray menu
+#### Tray menu
 
-![Custom App Menu Screenshot](./tray_menu.png)
+![Custom App Menu Screenshot](tray_menu.png)
 
 Add a tray menu. Pass `null` to remove the tray menu again.
 
@@ -71,10 +67,10 @@ Menu menu = new Menu("Window");
 MenuToolkit.toolkit().setTrayMenu(menu);
 ```
 
-### Context menu
+#### Context menu
 
-![Custom App Menu Screenshot](./context_light.png)
-![Custom App Menu Screenshot](./context_dark.png)
+![Custom App Menu Screenshot](context_light.png)
+![Custom App Menu Screenshot](context_dark.png)
 
 Use the native context menu instead of a JavaFX based context menu.
 
@@ -85,8 +81,7 @@ Menu menu = new Menu();
 // Add your own menu items
 
 // Show the context menu when right-clicking the stage
-scene.setOnMouseClicked(event ->
-{
+scene.setOnMouseClicked(event -> {
   if (event.getButton() == MouseButton.SECONDARY) {
     MenuToolkit.toolkit().showContextMenu(context, event);
   }
@@ -100,30 +95,12 @@ To adapt the context menu appearence, you can switch between `LIGHT` and `DARK` 
 MenuToolkit.toolkit().setAppearanceMode(AppearanceMode.AUTO);
 ```
 
-### And more
+#### And more
 
 * Quickly create an "About" menu
 * Automatically use the same menu bar for all stages
 
 To find more examples, check out the sample applications [here](https://github.com/0x4a616e/NSMenuFX/tree/master/samples/src/main/java/de/jangassen/nsmenufx/samples).
-
-## Maven
-
-Add the following lines to the dependencies in your `pom.xml`
-```xml
-<dependency>
-    <groupId>de.jangassen</groupId>
-    <artifactId>nsmenufx</artifactId>
-    <version>3.1.0</version>
-</dependency>
-```
-## Gradle
-
-Add the following line to the dependencies in your `build.gradle`
-
-	compile "de.jangassen:nsmenufx:3.1.0"
-
-## Known issues
 
 There is a known issue with OpenJFX that may cause the menu bar to be unresponsive after launch. You can find more
 details about this issue in the respective OpenJFX [bug ticket](https://bugs.openjdk.java.net/browse/JDK-8233678). A 
