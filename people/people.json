@@ -71,6 +71,9 @@
     "tutorialIds": [
       "fxdocs"
     ],
+    "companyIds": [
+      "gluon"
+    ],
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14"
   },
@@ -98,6 +101,9 @@
       "formsfx",
       "workbenchfx",
       "controlsfx"
+    ],
+    "companyIds": [
+      "dlsc"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -280,7 +286,7 @@
   {
     "name": "Johan Vos",
     "email": "",
-    "companyId": "",
+    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -290,6 +296,9 @@
     "id": "j.vos",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "companyIds": [
+      "gluon"
+    ],
     "toolIds": [
       "clientplugin",
       "scenebuilder",
@@ -322,7 +331,7 @@
   {
     "name": "José Pereda",
     "email": "",
-    "companyId": "",
+    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -332,6 +341,9 @@
     "id": "j.pereda",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "companyIds": [
+      "gluon"
+    ],
     "toolIds": [
       "clientplugin",
       "scenebuilder",
@@ -511,6 +523,9 @@
     "toolIds": [
       "jpro",
       "cssfx"
+    ],
+    "companyIds": [
+      "jpro"
     ]
   },
   {
@@ -629,5 +644,4 @@
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
   }
-
 ]
