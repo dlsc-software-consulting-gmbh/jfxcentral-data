@@ -1146,5 +1146,18 @@
     "createdOn": "2023-01-19",
     "modifiedOn": "2023-01-19",
     "publishedOn": "2023-01-19"
+  },
+  {
+    "name": "StreamPi Guide: An Awesome Tool For OBS Users",
+    "tags": "streaming, pi",
+    "type": "Real World Application",
+    "domain": "Streaming",
+    "description": "Are you a streamer but don't have a fancy Elgato Stream Deck or Stream Deck Mini? Maybe you have a Raspberry Pi or an old Android gathering dust. Turn them into your own DIY stream deck with a sweet piece of open source software called Stream Pi.",
+    "platform": "Desktop",
+    "id": "jj5zoLIEn3s",
+    "minutes" : "11",
+    "createdOn": "2023-06-08",
+    "modifiedOn": "2023-06-08",
+    "publishedOn": "2020-05-13"
   }
 ]
