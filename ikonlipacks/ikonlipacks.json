@@ -2224,7 +2224,7 @@
   {
     "module": "org.kordamp.ikonli.websymbols",
     "title": "Websymbols",
-    "name": "WebSymbols",
+    "name": "Websymbols",
     "id": "websymbols",
     "iconStyle": "FILLED",
     "description": "",
