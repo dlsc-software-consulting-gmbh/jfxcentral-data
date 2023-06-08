@@ -199,9 +199,9 @@
   },
   {
     "id": "covid",
-    "name": "Covid Data Explorer (FlexGanttFX)",
-    "tags": "covid, data exploration, health, medical",
-    "summary": "Covid data analysis tool written in JavaFX",
+    "name": "Covid Data Explorer",
+    "tags": "covid, data exploration, health, medical, flexgantt",
+    "summary": "Covid data analysis tool written in JavaFX and FlexGanttFX",
     "description": "A data exploration tool based on Covid data from the \"Our World in Data\" website. The application uses the charting capabilities of FlexGanttFX and allows the user to compare countries with each other.",
     "homepage": "https://www.flexganttfx.com",
     "downloadType": "APPLICATION",
