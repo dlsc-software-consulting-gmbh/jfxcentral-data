@@ -1,1 +1,1 @@
-No additional information provided .... yet.
+A library for scientific charts in JavaFX.

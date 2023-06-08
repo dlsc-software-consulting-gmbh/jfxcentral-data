@@ -1,5 +1,3 @@
-# FXTrayIcon
-
 Library for use in JavaFX applications that makes adding a System Tray icon easier.
 The FXTrayIcon class handles all the messy AWT and Swing parts of constructing an icon, 
 displaying notifications, creating a context menu, etc. This means that users of FXTrayIcon can

@@ -1,3 +1,5 @@
+A framework for easily creating forms in JavaFX.
+
 ## Main Features
 
 - Simple and understandable Fluent API
