@@ -2223,8 +2223,8 @@
   },
   {
     "module": "org.kordamp.ikonli.websymbols",
-    "title": "WebSymbols",
-    "name": "WebSymbols",
+    "title": "Websymbols",
+    "name": "Websymbols",
     "id": "websymbols",
     "iconStyle": "FILLED",
     "description": "",
