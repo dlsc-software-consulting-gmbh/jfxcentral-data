@@ -4,15 +4,15 @@
 * [Deep Netts has a neural network visual weights analysis tool ready for the next release](https://twitter.com/johanvos/status/1666416554110513158). It helps understanding what's going on inside layers, and debugging trained networks. 
 * [**Maleesha Herath** introduces "tecmis", an Information Management System](https://twitter.com/MaleeshaH/status/1666865457599770625) that revolutionizes how educational institutions handle data.
 * [**Tobias Briones** finished the implementation for Code Snipped Slides](https://twitter.com/tobiasbriones_/status/1666863274938204172) with the exact color scheme of IntelliJ, except for specific language tokens. It's all composed with JavaFX Nodes, like Shapes.
-* 
+
 ## JavaFX Games
 
 * [**OrangoMango** extended his chess game](https://twitter.com/orango_mango/status/1666727933258485760) with drag and drop, and improved the image resolution.
 
 ## Tutorials
 
-* [**Sten Nordström** got asked if there are any good JavaFX courses available?](https://twitter.com/JavaFX3D/status/1666211612032905216): "Asker has experience with other platforms and some Java knowledge. Online, or possibly in person in Scandinavia/Northern Europe." Who has more ideas? What should we add to [jfx-central.com/tutorials](https://www.jfx-central.com/tutorials)?
-* Hi, this is a nice one :-) ! [**MITHIN DEV** shared "Building Your First JavaFX App!"](https://twitter.com/MithinDev/status/1665709087135506432)
+* [**Sten Nordström** got asked if there are any good JavaFX courses available?](https://twitter.com/safetyvalve/status/1664349425228038144): "Asker has experience with other platforms and some Java knowledge. Online, or possibly in person in Scandinavia/Northern Europe." Who has more ideas? What should we add to [jfx-central.com/tutorials](https://www.jfx-central.com/tutorials)?
+* Hi, this is actually a nice one :-) ! [**MITHIN DEV** shared "Building Your First JavaFX App!"](https://twitter.com/MithinDev/status/1665709087135506432)
 
 ## Miscellaneous
 
