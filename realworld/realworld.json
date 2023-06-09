@@ -1,4 +1,3 @@
-
 [
   {
     "id": "jpadmodeller",
@@ -8,6 +7,10 @@
     "domain": "Aircraft design",
     "tags": "aircraft, design, 3D modelling, knowledge-based aircraft shape modelling",
     "summary": "Knowledge-based aircraft 3D shape initialization and modelling.",
+    "description": "PAD Modeller is a knowledge-based shape modelling tool developed to support aircraft design workflows. The software is a desktop application that provides an efficient 3D geometry pre-processor for several third-party computational environments, which are typically used for aircraft conceptual and preliminary design studies. JPAD Modeller features a UI made with JavaFX and leverages the computational library named JPAD (Java API for Aircraft Design). The internal CAD engine of JPAD is based on Open CASCADE Technology (OCCT).",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Naples, Italy",
     "videoIds": [
       "-xbaVCw7fAY",
       "La-xGA2bw1o"
@@ -24,6 +27,10 @@
     "domain": "Research",
     "tags": "rna, design, editor, medical, research",
     "summary": "An editor for creating 2D RNA structures.",
+    "description": "An editor for creating 2D RNA structures. RNArtist allows you to design your RNA 2D structures interactively. To help you to be an RNArtist, this tool provides numerous graphical options to find your theme and to modify the 2D layout.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Strasbourg, France",
     "videoIds": []
   },
   {
@@ -34,7 +41,13 @@
     "domain": "Sports",
     "tags": "sports, coaching, video",
     "summary": "An editor for composing coaching videos.",
-    "videoIds": [],
+    "description": "SidelineSports is a premium provider of coaching software for professional and amateur sports clubs. One of their tools is called Presentation Builder. It can be used by coaches to compose videos highlighting mistakes made in a team's previous match or to demonstrate training exercises.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Iceland",
+    "videoIds": [
+      "OflZ745MYT0"
+    ],
     "personIds": [
       "d.lemmermann"
     ]
@@ -43,10 +56,14 @@
     "id": "aida",
     "name": "AIDA",
     "company": "Deutsche AIDS Stiftung",
-    "url": "",
+    "url": "https://aids-stiftung.de",
     "domain": "Office Integration",
     "tags": "medial, office, forms, process, health",
-    "summary": "Office integration software to support AIDS patients."
+    "summary": "Office integration software to support AIDS patients.",
+    "description": "Office integration software to support AIDS patients.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   },
   {
     "id": "bisq",
@@ -55,7 +72,11 @@
     "url": "https://bisq.network",
     "domain": "Cryptocurrencies",
     "tags": "financial, trading, crypto currencies, bitcoin",
-    "summary": "Buy and sell bitcoin privately and securely."
+    "summary": "Buy and sell bitcoin privately and securely.",
+    "description": "Buy and sell bitcoin privately and securely. Bisq is a decentralized bitcoin exchange network.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Unknown"
   },
   {
     "id": "binjr",
@@ -65,6 +86,10 @@
     "domain": "IT / Science / Software development",
     "tags": "time series, visualization, monitoring, charts, logs",
     "summary": "A Time Series Browser.",
+    "description": "A time series browser; it renders time series data produced by other applications as dynamically editable charts and provides advanced features to navigate the data smoothly and efficiently (drag & drop, zoom, history, detachable tabs, advanced time-range picker).",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Unknown",
     "downloadIds": [
       "binjr"
     ]
@@ -73,15 +98,22 @@
     "id": "ebu",
     "name": "NEOS",
     "company": "European Broadcasting Union",
-    "url": "",
+    "url": "https://www.ebu.ch/home",
     "domain": "Planning & Scheduling",
     "tags": "planning, scheduling, flexgantt, flexganttfx, tv, radio",
     "summary": "Radio & TV transmission planning solution.",
+    "description": "An application used by EBU to ensure TV and radio transmissions travel from one location to another. \"Ensuring\" means that all required resources for the transmission will actually be available at the time of the transmission. Resources include satellites, satellite dishes, fiber optic networks, multiplexers, and so on.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Switzerland",
     "videos": [
       "RN_Pcu8ssQc"
     ],
     "personIds": [
       "d.lemmermann"
+    ],
+    "videoIds": [
+      "RN_Pcu8ssQc"
     ]
   },
   {
@@ -92,6 +124,10 @@
     "domain": "Medical",
     "tags": "medical, health, operating room, surgery, video, displays",
     "summary": "Experience the future of operating room technology",
+    "description": "CuratorOR Caliop, developed by EIZO GmbH in Germany, is an application that will be installed in hospital operating rooms. It is being installed in wall-mounted consoles equipped with a Windows PC running Java.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "videoIds": [
       "O6OUmwLAPYM"
     ],
@@ -103,31 +139,47 @@
     "id": "emirates",
     "name": "Emirates NCO",
     "company": "Emirates Airlines",
-    "url": "",
+    "url": "https://www.emirates.com",
     "domain": "Logistics",
     "tags": "logistics, planning, scheduling, flexgantt, flexganttfx, gantt chart, airline, aircraft",
     "summary": "A resource network optimization solution.",
+    "description": "Emirates Airline is one of the biggest airlines in the world and they selected JavaFX as the client technology for their new application \"Network Capacity Optimization\". This software allows the Network Planning Department to integrate various requests into the existing flight schedule.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Dubai",
     "personIds": [
       "d.lemmermann"
+    ],
+    "videoIds": [
+      "Qju5_JYR8nY",
+      "v4GkjST64Hk"
     ]
   },
   {
     "id": "equinox",
     "name": "Airbus Equinox",
     "company": "Airbus",
-    "url": "",
+    "url": "https://www.airbus.com",
     "domain": "Engineering",
     "tags": "aircraft, engineering, simulation, analysis, design",
-    "summary": "Simulation and analysis software."
+    "summary": "Simulation and analysis software.",
+    "description": "Data analysis for aircraft development operations.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   },
   {
     "id": "hrc",
     "name": "HRC-Matic",
     "company": "AISO",
-    "url": "",
+    "url": "https://aiso.com/en/index.html",
     "domain": "Business Registry",
     "tags": "business, office, government, database, forms",
     "summary": "Business registry software.",
+    "description": "HRC-Matic is being used by registries in Switzerland to register new businesses and to administrate the master data of existing businesses.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Switzerland",
     "personIds": [
       "d.lemmermann"
     ]
@@ -140,6 +192,10 @@
     "domain": "Justice",
     "tags": "legal, forms",
     "summary": "Management software for justice processes.",
+    "description": "An application for German courts to manage their cases.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "personIds": [
       "t.schindl"
     ]
@@ -148,10 +204,14 @@
     "id": "lynden",
     "name": "Lynden",
     "company": "Lynden",
-    "url": "",
+    "url": "https://www.lynden.com/logistics/",
     "domain": "Logistics",
     "tags": "logistics, planning, scheduling, map, google map, gmapsfx",
-    "summary": "Resource scheduling application."
+    "summary": "Resource scheduling application.",
+    "description": "Lynden, Inc. is a freight and logistics company based in the Seattle and Anchorage areas. \"Lynden Navigator\", the application developed by us, has two sets of target users within the company.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "USA"
   },
   {
     "id": "meyersound",
@@ -160,7 +220,11 @@
     "url": "https://meyersound.com/product/mapp-xt/",
     "domain": "Music",
     "tags": "audio, music, engineering, planning, editor",
-    "summary": "Audio coverage analysis tool."
+    "summary": "Audio coverage analysis tool.",
+    "description": "An audio coverage planning software: sculpt your coverage pattern and sharpen design ideas with your team online or offline before setting foot in a venue, so you save time, cost, and stress. Skip the guesswork with a level of prediction accuracy that is only possible when combining sophisticated algorithms with high-resolution loudspeaker data and box-to-box consistency.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "USA"
   },
   {
     "id": "mint",
@@ -170,6 +234,10 @@
     "domain": "Aviation",
     "tags": "aviation, aircraft, airlines, planning, scheduling, gantt chart, flexgantt, flexganttfx",
     "summary": "Training and resource management for airlines.",
+    "description": "MINT TRMS is used by Airlines to schedule and administrate the training for its personnel. Training requirements are captured and allocated to the available resources. This is a very important topic in the aviation domain, as only qualified personnel is allowed to maintain or fly aircrafts.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "videoIds": [
       "d-oxGpUkFe4"
     ],
@@ -185,6 +253,10 @@
     "domain": "Tourism",
     "tags": "tourism, guide, mobile, iOS, android, iPhone",
     "summary": "Tourist guide for mobile devices.",
+    "description": "A mobile app for guiding tourists around the monastery in Disentis. Runs on iPhone and Android.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Switzerland",
     "videoIds": [
       "67RonidGgEA"
     ]
@@ -193,19 +265,27 @@
     "id": "mosaic",
     "name": "Mosaic",
     "company": "Airbus",
-    "url": "",
+    "url": "https://www.airbus.com",
     "domain": "Resource Scheduling",
     "tags": "planning, scheduling, space, research, satellite, tracking",
-    "summary": "Satellite ground tracking software."
+    "summary": "Satellite ground tracking software.",
+    "description": "A planning, scheduling, tracking application for satellites developed by Airbus.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "France"
   },
   {
     "id": "mpmedia",
     "name": "mpCoPilot",
     "company": "mpMedia",
-    "url": "",
+    "url": "https://twitter.com/MichaelPaus",
     "domain": "Aviation",
     "tags": "aviation, flying, pilot, map",
-    "summary": "Flight planning software."
+    "summary": "Flight planning software.",
+    "description": "Flight planning software. Prototype of a fully JavaFX-based General-Aviation flight planning software. Testbed for new concepts in flight management, data management and flight planning. Special version used by \"Deutscher Aeroclub\" DAeC to validate airspace data. Mobile version for flight operation. Web version for community interaction.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   },
   {
     "id": "deepspace",
@@ -215,6 +295,10 @@
     "domain": "Research",
     "tags": "nasa, space, research",
     "summary": "Explore possible orbits in space.",
+    "description": "The DSTE is software developed internally by a.i. solutions and leveraged as a design tool at the Johnson Space Center for trajectory design for the upcoming manned habitat missions to be located in orbit within the Earth-Moon system.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "USA",
     "videoIds": [
       "MotQ1PC1xT8"
     ],
@@ -230,6 +314,10 @@
     "domain": "Architecture",
     "tags": "architecture, office, simulation, flexgantt, flexganttfx, planning, scheduling, gantt",
     "summary": "Office software for architects.",
+    "description": "ProjektPro is a software solution for architecture offices to manage their projects. A Java / JavaFX simulation module is part of this solution to support \"what if?\" scenario analysis.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "personIds": [
       "d.lemmermann"
     ]
@@ -241,7 +329,11 @@
     "url": "https://www.psi.pl/en/products-services/production/",
     "domain": "Manufacturing Execution Systems",
     "tags": "mes, production, job floor, flexgantt, flexganttfx, planning, scheduling, gantt",
-    "summary": "Production process tracking."
+    "summary": "Production process tracking.",
+    "description": "An application used in manufacturing to schedule and monitor processes. It allows its user to quickly gather an inside look into the current activities of a manufacturing site.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Poland"
   },
   {
     "id": "eteoboard",
@@ -250,16 +342,24 @@
     "url": "https://marketplace.atlassian.com/apps/1220715/eteoboard-the-more-agile-agile-board?hosting=server&tab=overview",
     "domain": "Agile Project Management",
     "tags": "agile, software development, project, team",
-    "summary": "Agile board for teams."
+    "summary": "Agile board for teams.",
+    "description": "A digital Scrum Board that synchronizes the connected clients in real time.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   },
   {
     "id": "senapt",
     "name": "Senapt EaaS",
-    "company": "Senapt Inc.",
+    "company": "Senapt Limited",
     "url": "https://www.senapt.co.uk",
     "domain": "CRM",
     "tags": "crm, energy, dcc, uk, back office",
     "summary": "CRM system for energy suppliers.",
+    "description": "A CRM system for energy suppliers. Senapt EaaS is a desktop software (that can also run in a browser) to manage the day to day operations of an energy supplier. The application allows the user to add new customers, to edit customer contact and contract information, to create products (tariffs), to send out invoices, to collect payments, etc...",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "UK",
     "personIds": [
       "d.lemmermann"
     ]
@@ -272,6 +372,10 @@
     "domain": "Scheduling",
     "tags": "calendar, scheduling, planning",
     "summary": "Smart calendar to get things done.",
+    "description": "A smart calendar app that combines the best elements of creativity and structure to optimize your time and productivity. Eliminate manually planning your tasks and let SkedPal customize your schedule based on your work habits, commitments, priorities, urgencies, and energy shifts throughout the day.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Dubai",
     "personIds": [
       "d.lemmermann"
     ]
@@ -283,7 +387,11 @@
     "url": "https://www.360t.com/products/360tgtx-suite/",
     "domain": "Trading",
     "tags": "trading, stocks, market, FX",
-    "summary": "Trading solution for FX market participants."
+    "summary": "Trading solution for FX market participants.",
+    "description": "Trading solution for FX market participants. The 360T Active Markets offering includes 360TGTX for anonymous Spot trading, 360TGTX MidMatch for Swaps trading, and Streaming NDFs. Each of these products enables market participants to conduct their FX transactions in a manner that is more efficient, more secure and more cost-effective.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   },
   {
     "id": "vesseleditor",
@@ -293,6 +401,10 @@
     "domain": "Logistics",
     "tags": "ship, logistics, planning, container, editor",
     "summary": "Optimize utilization of vessel cargo space.",
+    "description": "Optimize utilization of vessel cargo space. Processing huge amounts of data is always a problem. This was also true for Karakun's customer Contship Italia Group. The group of companies is the Italian leader in container terminal logistics and intermodal solutions. Their network of maritime container terminals in La Spezia, Ravenna, Salerno, and Tangier support the global supply chain to connect the world with Europe and all the Mediterranean countries.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Italy",
     "companyIds": [
       "karakun"
     ]
@@ -301,28 +413,40 @@
     "id": "witt",
     "name": "Call Center App",
     "company": "Witt Weiden (OTTO)",
-    "url": "",
+    "url": "https://www.witt-weiden.de",
     "domain": "CRM",
     "tags": "call center, crm, customers, back office, agent",
-    "summary": "Modern call center application."
+    "summary": "Modern call center application.",
+    "description": "A call-center application for Witt Weiden (OTTO group).",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   },
   {
     "id": "woanna",
     "name": "Woanna",
     "company": "Woanna",
-    "url": "",
+    "url": "https://rocketbatch.com",
     "domain": "Team Management",
     "tags": "team, planning, agile, todo, email, collaboration",
-    "summary": "Team collaboration and scheduling software."
+    "summary": "Team collaboration and scheduling software.",
+    "description": "All in one application for crm, projectmanagement, todos. Trello, wunderlist, asana, dropbox, mail ... all in one place.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Switzerland"
   },
   {
     "id": "yardeditor",
     "name": "Yard Editor",
     "company": "Contship Italia Group",
     "url": "https://karakun.com/en/how-do-you-visualize-data/",
-    "domain": "",
+    "domain": "Logistics",
     "tags": "ship, yard, logistics, planning, container, editor",
     "summary": "Optimize utilization of container yards.",
+    "description": "Optimize utilization of container yards. Processing huge amounts of data is always a problem. This was also true for Karakun's customer Contship Italia Group. The group of companies is the Italian leader in container terminal logistics and intermodal solutions. Their network of maritime container terminals in La Spezia, Ravenna, Salerno, and Tangier support the global supply chain to connect the world with Europe and all the Mediterranean countries.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Italy",
     "companyIds": [
       "karakun"
     ]
@@ -335,6 +459,10 @@
     "domain": "Medical",
     "tags": "eye, examination, medical, health, patient",
     "summary": "Scalable software for ophthalmology",
+    "description": "Scalable software for ophthalmology.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "personIds": [
       "f.kirmaier"
     ]
@@ -342,11 +470,19 @@
   {
     "id": "streampi",
     "name": "StreamPi",
-    "company": "",
-    "url": "stream-pi.com",
+    "company": "Stream-Pi",
+    "url": "https://www.stream-pi.com",
     "domain": "MacroPads",
     "tags": "streaming, twitch, social, marco pad",
-    "summary": "An open source, cross-platform, programmable, modular Macropad software."
+    "summary": "An open source, cross-platform, programmable, modular Macropad software.",
+    "description": "Stream-Pi is a FOSS Cross Platform Macro Pad software. Entirely built using JavaFX. It runs on Android, Windows, Linux (x64, arch64 and arm32), MacOS, iOS and iPad OS. It uses Gluon DRM library to leverage hardware acceleration on Raspberry Pi/Linux Arm32 devices. Thanks to Gluon Substrate and GraalVM, it also successfully runs very smoothly on Android, iOS and iPad OS.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "India / US",
+    "videoIds": [
+      "jj5zoLIEn3s",
+      "aXvqnh8ZKRs"
+    ]
   },
   {
     "id": "pdfsam",
@@ -356,6 +492,10 @@
     "domain": "PDF editing",
     "tags": "pdf, office",
     "summary": "A free and open source application to split, merge, extract pages, rotate and mix PDF files.",
+    "description": "PDFsam Basic is a free and open source application that allows you to split, merge, rotate, alternately mix and extract pages from PDF files.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Italy",
     "companyIds": [
       "soberlemur"
     ]
@@ -367,7 +507,11 @@
     "url": "https://www.rinkai.cz",
     "domain": "Transport Optimization",
     "tags": "transport, planning, optimization, vehicle routing problem",
-    "summary": "Optimize last mile delivery."
+    "summary": "Optimize last mile delivery.",
+    "description": "Rinkai Routing is a vehicle routing problem optimizer. It is used by many manufacturing and service companies to maximize the customer service levels and minimize the transportation costs.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Czech Republic"
   },
   {
     "id": "photoslide",
@@ -376,7 +520,11 @@
     "url": "https://github.com/lanthale/PhotoSlide",
     "domain": "Image management",
     "tags": "photo, video, editing, photography",
-    "summary": "View and edit photos / videos."
+    "summary": "View and edit photos / videos.",
+    "description": "This application uses concepts from Lightzone and Lightroom and represents a simple Photo management application with a modern and reactive user interface written in JavaFX. It is a picture / video viewer with a few editing capabilities and metadata support.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   },
   {
     "id": "xpshealth",
@@ -386,6 +534,10 @@
     "domain": "Sports",
     "tags": "sports, medical, injuries, illness, doctor",
     "summary": "A module of the XPS software solution that allows its users to keep track of their team members' health.",
+    "description": "The XPS Health module is an extension for the XPS coaching solution. It allows its users to keep track of their team's overall health situation.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Iceland",
     "videoIds": [],
     "personIds": [
       "d.lemmermann"
@@ -399,6 +551,10 @@
     "domain": "Conferences",
     "tags": "mobile, conference, information, maps",
     "summary": "Show information about talks, speakers and locations",
+    "description": "This application is used by the Devoxx conference (originally created for JavaOne 2016 in San Francisco) to show its attendees information about their talks, speakers and locations. The application is based on Gluon Mobile. It is available for Android and iOS devices.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Belgium, Spain",
     "videoIds": [],
     "personIds": [
       "j.vos"
@@ -411,6 +567,10 @@
     "url": "https://serendigity.it/products/smartfinder/",
     "domain": "Desktop Search Tool",
     "summary": "SmartFinder allows you to use an innovative way to search for your Desktop's files with an experience similar to Google's search",
+    "description": "SmartFinder is a desktop search tool that allows you to use an innovative way to search for your desktop files with an experience similar to web searches.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Italy",
     "tags": "desktop search, windows search, finder, web application",
     "personIds": [
       "s.russo"
@@ -422,7 +582,11 @@
     "company": "JabRef e.V.",
     "url": "https://www.jabref.org/",
     "domain": "Citation management",
-    "summary": "JabRef is an open-source, cross-platform citation and reference management tool.",
+    "summary": "A cross-platform citation and reference management tool.",
+    "description": "JabRef is an open-source, cross-platform citation and reference management tool. Stay on top of your literature: JabRef helps you to collect and organize sources, find the paper you need and discover the latest research.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "tags": "BibTeX, LaTeX, citation, references, bibliography"
   },
   {
@@ -432,6 +596,10 @@
     "url": "https://www.wrapper.com.br/",
     "domain": "Logistics",
     "summary": "Control the loading and unloading of products in one of the largest retailers in Brazil. ",
+    "description": "WrapperRFID is a 3-layer software solution, using a JavaFX application as the user interface. It's being used to control the loading and unloading of products by one of the largest retailers in Brazil, by using RFID-technology to track products in a 162,000 m² warehouse",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Brazil",
     "tags": "logistics, planning, scheduling"
   },
   {
@@ -442,6 +610,10 @@
     "domain": "Civil Engineering",
     "tags": "civil engineering, energy efficiency, cad",
     "summary": "A CAD software for doing energy efficiency assessment",
+    "description": "HERO (Home Energy Rating and Optimisation) is a CAD application for calculating the energy efficiency of dwellings (or multiple dwellings). It can be seen as an application similar to Autocad (which is used in civil engineering, architecture, etc) but with the specific purpose to do energy efficiency assessments.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Spain",
     "videoIds": [
       "8jkKF5LgonQ"
     ],
@@ -456,7 +628,11 @@
     "url": "https://www.facebook.com/profile.php?id=100057471997396",
     "domain": "Education",
     "tags": "education, modelling, physics, mathematics",
-    "summary": "Modellus is a freely available application that enables students and teachers (high school and university) to use mathematics to create or explore models interactively.",
+    "summary": "Math learning application.",
+    "description": "Modellus is a freely available application that enables students and teachers (high school and university) to use mathematics to create or explore models interactively.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Spain",
     "videoIds": [
       "SVek-DzR5B8"
     ],
@@ -468,12 +644,14 @@
     "id": "qfive",
     "name": "QFive",
     "company": "Prime Competence",
-    "createdOn": "2022-12-06",
-    "updatedOn": "2021-12-06",
     "url": "https://q-five.com/",
     "domain": "E-Learning",
     "tags": "e-learning",
     "summary": "E-Learning platform for enterprise customers",
+    "description": "QFive is a true cross platform e-learning application. With QFive companies can carry through eLearning campaigns for their employees, combined with entertaining elements of gamification.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "personIds": [
       "f.kirmaier"
     ]
@@ -482,10 +660,13 @@
     "id": "nerstar",
     "name": "NERstar",
     "company": "SWISS TXT",
-    "createdOn": "2022-12-06",
-    "updatedOn": "2021-12-06",
+    "url": "https://jpro.one",
     "domain": "Television subtitling",
     "summary": "NERstar is a product for subtitle management for Live Television.",
+    "description": "NERstar is a cross platform media application, running on desktops and in all common desktop web browsers (with JPro), with one and the same source code. It is used for the handling of subtitles for Live Television. The application was developed by the SANDEC team in cooperation with SWISS TXT, a Swiss State Television company.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany",
     "personIds": [
       "f.kirmaier"
     ]
@@ -497,7 +678,11 @@
     "url": "https://satergo.com",
     "domain": "Cryptocurrencies",
     "tags": "wallet, cryptocurrency, ergo",
-    "summary": "The desktop wallet for the Ergo cryptocurrency, with embedded node functionality."
+    "summary": "The desktop wallet for the Ergo cryptocurrency, with embedded node functionality.",
+    "description": "Satergo is the desktop wallet for the cryptocurrency Ergo. It allows users to access, manage and spend their funds on the Ergo blockchain without having to rely on external software. To help strengthen the Ergo network, it lets users set up a full blockchain node with a few clicks and then assists them in maintaining it.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Unknown"
   },
   {
     "id": "xpipe",
@@ -506,6 +691,10 @@
     "url": "https://github.com/xpipe-io/xpipe",
     "domain": "System Administration",
     "tags": "connections, servers, file management, system administration, development",
-    "summary": "A flexible connection manager and remote file explorer"
+    "summary": "A flexible connection manager and remote file explorer",
+    "description": "X-Pipe is a new type of connection manager and remote file explorer that works by only interacting with command-line tools on local and remote shell connections. This approach makes it much more flexible as it doesn't have to deal with file system APIs or remote file handling protocols at all, allowing it to essentially connect to any remote system.",
+    "createdOn": "2023-06-07",
+    "modifiedOn": "2023-06-07",
+    "location": "Germany"
   }
 ]

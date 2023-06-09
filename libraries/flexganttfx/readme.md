@@ -1,5 +1,3 @@
-## Benefits
-
 **Professional Gantt charts for JavaFX 8 and 11+** - FlexGanttFX is a state-of-the art custom control for JavaFX 8 and utilizes the latest and greatest API that this platform has to offer.
 
 **Enterprise Resource Planning** - FlexGanttFX can be used to implement an add-on for your ERP system. Use it to visualize the allocation of company resources.

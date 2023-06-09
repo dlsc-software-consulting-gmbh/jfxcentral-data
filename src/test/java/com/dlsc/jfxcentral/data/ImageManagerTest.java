@@ -23,19 +23,6 @@ public class ImageManagerTest {
         DataRepository.setTesting(true);
     }
 
-//    @Test
-//    public void shouldThrowError() {
-//        // when image doesn't exist
-//        // then we should get an error
-//        boolean exceptionThrown = false;
-//        try {
-//            ImageManager.getInstance().localImageProperty(new File(System.getProperty("user.home"), "/something/"), "banner.jpg", "not-existing");
-//        } catch (Exception e) {
-//            exceptionThrown = true;
-//        }
-//        assertTrue(exceptionThrown, "No exception was thrown!");
-//    }
-
     @Test
     public void shouldGetPersonImage() {
         // when .. then
@@ -61,6 +48,16 @@ public class ImageManagerTest {
         // when .. then
         DataRepository.getInstance().getDownloads().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().downloadBannerImageProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetTipBanner() {
+        // when .. then
+        DataRepository.getInstance().getTips().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().tipBannerImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
         });
@@ -121,8 +118,8 @@ public class ImageManagerTest {
         // when .. then
         DataRepository.getInstance().getRealWorldApps().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().realWorldAppImageProperty(item);
-            assertNotNull(property, "image property is null for item ID " + item.getId());
-            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+            assertNotNull(property, "small image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "small image is missing for item ID " + item.getId());
         });
     }
 
@@ -131,8 +128,18 @@ public class ImageManagerTest {
         // when .. then
         DataRepository.getInstance().getRealWorldApps().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().realWorldAppLargeImageProperty(item);
-            assertNotNull(property, "image property is null for item ID " + item.getId());
-            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+            assertNotNull(property, "large image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "large image is missing for item ID " + item.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetRealWorldBanner() {
+        // when .. then
+        DataRepository.getInstance().getRealWorldApps().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().realWorldAppBannerImageProperty(item);
+            assertNotNull(property, "banner image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "banner image is missing for item ID " + item.getId());
         });
     }
 

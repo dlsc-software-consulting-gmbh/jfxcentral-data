@@ -1,6 +1,16 @@
 {
   "images": [
     {
+      "path": "calendar-picker.png",
+      "title": "Calendar Picker",
+      "description": "A picker / dropdown picking dates and date ranges."
+    },
+    {
+      "path": "calendar-view.png",
+      "title": "Calendar View",
+      "description": "A month view for picking dates and date ranges."
+    },
+    {
       "path": "dialog-pane.png",
       "title": "Dialog Pane",
       "description": "A custom control that wraps a text area and adds a resize handle to the lower right corner of it. The area can be configured to be\nresizable in vertical, horizontal, or both directions. "
@@ -31,6 +41,11 @@
       "description": "A control for filtering the content of an observable list. Works in combination with TableView, ListView, or any control that is based on observable lists.\n"
     },
     {
+      "path": "info-center-pane.png",
+      "title": "Info Center Pane",
+      "description": "A pane for displaying MacOS-like notifications."
+    },
+    {
       "path": "payment-options-dark.png",
       "title": "Payment Options (Dark)",
       "description": "A specialized subclass of ImageView that can be used to display different graphics for different payment options. Graphics provided by Gregoire Segretain (https://www.sketchappsources.com/contributor/gregoiresgt)\n"
@@ -56,6 +71,31 @@
       "description": "A read-only text area that is capable of displaying nicely formatted text. The control comes with a rich model and a fluent API that will allow you to quickly compose rich text.\n"
     },
     {
+      "path": "screens-view.png",
+      "title": "Screens View",
+      "description": "A view for showing the current screen configuration as seen by JavaFX."
+    },
+    {
+      "path": "search-field.png",
+      "title": "Search Field",
+      "description": "A smart search field control with auto-completion and auto-suggestion features similar to spotlight search on Mac."
+    },
+    {
+      "path": "search-text-field.png",
+      "title": "Search Text Field",
+      "description": "A text field with additional decoration elements to make it suitable for searches."
+    },
+    {
+      "path": "strip-view.png",
+      "title": "Strip View",
+      "description": "A view for displaying and scrolling multiple nodes. The elements on the sides fade out."
+    },
+    {
+      "path": "tags-field.png",
+      "title": "Tags Field",
+      "description": "A specialization of the search field with tag support."
+    },
+    {
       "path": "time-picker.png",
       "title": "Time Picker",
       "description": "A small control used for entering a time. The control can be configured with a \"step rate\" for the minutes field (e.g. \"15 minutes\") that will be used when\nincrementing or decrementing the minutes field via the keyboard (arrow keys). The control can also be configured to only allow a time within the time range\ndefined by an earliest and a latest time. A popup can be used to work with the mouse only. It is also possible to specify whether the fields should \"roll over\"\nor not when they reach their minimum or maximum value. For example: the minute field shows 59 minutes and the user wants to increase it via the arrow key. Then\nthe new value will be \"0\" when rollover is enabled. If not the value will remain at 59. Rollover combined with \"linking fields\" will cause the hours field to \nget increased when the minute field rolls over from 59 to 0 or decreased when the minute field rolls over from 0 to 59.\n"
@@ -64,6 +104,11 @@
       "path": "time-picker-popup.png",
       "title": "Time Picker",
       "description": "A small control used for entering a time. The control can be configured with a \"step rate\" for the minutes field (e.g. \"15 minutes\") that will be used when\nincrementing or decrementing the minutes field via the keyboard (arrow keys). The control can also be configured to only allow a time within the time range\ndefined by an earliest and a latest time. A popup can be used to work with the mouse only. It is also possible to specify whether the fields should \"roll over\"\nor not when they reach their minimum or maximum value. For example: the minute field shows 59 minutes and the user wants to increase it via the arrow key. Then\nthe new value will be \"0\" when rollover is enabled. If not the value will remain at 59. Rollover combined with \"linking fields\" will cause the hours field to \nget increased when the minute field rolls over from 59 to 0 or decreased when the minute field rolls over from 0 to 59.\n"
+    },
+    {
+      "path": "year-month-picker.png",
+      "title": "Year Month Picker",
+      "description": "A picker for choosing the month of a year."
     }
   ],
   "videos": [
