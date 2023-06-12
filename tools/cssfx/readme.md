@@ -49,7 +49,7 @@ CSSFX.addConverter(myConverter).start();
 
 ### Embedded with homemade configuration
 
-If you need more control on how CSSFX will monitor your application & CSS changes, then you can use some extended functionalities of the `CSSFX` builder class.
+If you need more control on how CSSFX will monitor your application and CSS changes, then you can use some extended functionalities of the `CSSFX` builder class.
 
 There you will be able to:
 
