@@ -335,7 +335,7 @@
     "name": "Entypo",
     "id": "entypo",
     "iconStyle": "FILLED",
-    "description": "",
+    "description": "411 carefully crafted premium pictograms by Daniel Bruce — CC BY-SA 4.0.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-entypo-pack:12.3.1'",
       "maven": {
@@ -995,7 +995,7 @@
     "name": "Material",
     "id": "material",
     "iconStyle": "MIXING",
-    "description": "",
+    "description": "The icons are based on the core Material Design principles and metrics.",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-material-pack:12.3.1'",
       "maven": {
@@ -1006,7 +1006,7 @@
         }
       }
     },
-    "url": "https://design.google.com/icons/",
+    "url": "https://fonts.google.com/icons?icon.set=Material+Icons",
     "fontVersion": "50",
     "createdOn": "2023-05-30",
     "modifiedOn": "2023-05-30"
