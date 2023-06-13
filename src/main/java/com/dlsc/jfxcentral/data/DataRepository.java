@@ -47,6 +47,7 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Paths;
 import java.text.MessageFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -555,8 +556,16 @@ public class DataRepository {
     }
 
     public void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
-        String text = loadString(new File(getRepositoryDirectory(), "links/" + links.getId() + "/readme.md"));
+        String text = loadString(new File(getLinksOfTheWeekDirectory(links) + "/readme.md"));
         textProperty.set(text);
+    }
+
+    public String getLinksOfTheWeekDirectory(LinksOfTheWeek links) {
+        return Paths.get(getRepositoryDirectory().getPath(),
+                "links",
+                links.getId().substring(0, 4),
+                links.getId().substring(0, 7),
+                links.getId()).toString();
     }
 
     public StringProperty tutorialTextProperty(Tutorial tutorial) {
