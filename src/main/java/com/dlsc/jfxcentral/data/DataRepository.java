@@ -556,16 +556,8 @@ public class DataRepository {
     }
 
     public void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
-        String text = loadString(new File(getLinksOfTheWeekDirectory(links) + "/readme.md"));
+        String text = loadString(new File(getRepositoryDirectory(), "links/" + links.getId() + "/readme.md"));
         textProperty.set(text);
-    }
-
-    public String getLinksOfTheWeekDirectory(LinksOfTheWeek links) {
-        return Paths.get(getRepositoryDirectory().getPath(),
-                "links",
-                links.getId().substring(0, 4),
-                links.getId().substring(0, 7),
-                links.getId()).toString();
     }
 
     public StringProperty tutorialTextProperty(Tutorial tutorial) {
