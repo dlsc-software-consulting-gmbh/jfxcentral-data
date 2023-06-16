@@ -14,7 +14,6 @@
 ## Games
 
 * Another [JavaFX game has been ported to the Web with **WebFX** Food Dice!](https://twitter.com/WebFXProject/status/1668227539154747396). It's a plain JavaFX game written for the GMTK Game jam 2022 and was coded in 48h from scratch with no 3rd party lib. Congrats to the 16 years old author **OrangoMango**. Play online on [fooddice.webfx.dev](https://fooddice.webfx.dev).
-!
 
 ## Components, Libraries, Tools
 
