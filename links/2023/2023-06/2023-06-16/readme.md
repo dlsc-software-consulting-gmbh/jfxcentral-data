@@ -26,7 +26,7 @@
 
 ## Tutorials
 
-* Not new, but a nice reminder by [**Jakob Jenkov**: "I have a tuorial covering a lot of the basics of JavaFX"](https://twitter.com/jjenkov/status/1666472122535886849).
+* Not new, but a nice reminder by [**Jakob Jenkov**: "I have a tutorial covering a lot of the basics of JavaFX"](https://twitter.com/jjenkov/status/1666472122535886849).
 
 ## Miscellaneous
 
