@@ -1897,7 +1897,7 @@
     "name": "Openiconic",
     "id": "openiconic",
     "iconStyle": "MIXING",
-    "description": "",
+    "description": "An open source icon set with 223 marks in SVG, webfont and raster formats",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-openiconic-pack:12.3.1'",
       "maven": {
@@ -1908,7 +1908,7 @@
         }
       }
     },
-    "url": "https://useiconic.com/open/",
+    "url": "https://github.com/iconic/open-iconic/",
     "fontVersion": "1.1.0",
     "createdOn": "2023-01-01",
     "modifiedOn": "2023-02-01"
@@ -1919,7 +1919,7 @@
     "name": "PaymentFont",
     "id": "paymentfont",
     "iconStyle": "FILLED",
-    "description": "",
+    "description": "A sleek webfont featuring your favourite payment methods",
     "installing": {
       "gradle": "implementation 'org.kordamp.ikonli:ikonli-paymentfont-pack:12.3.1'",
       "maven": {
@@ -1930,7 +1930,7 @@
         }
       }
     },
-    "url": "https://paymentfont.com",
+    "url": "https://github.com/AlexanderPoellmann/PaymentFont",
     "fontVersion": "1.2.5",
     "createdOn": "2023-01-01",
     "modifiedOn": "2023-02-01"
