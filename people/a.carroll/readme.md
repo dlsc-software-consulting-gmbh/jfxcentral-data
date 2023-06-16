@@ -1,1 +1,0 @@
-Java developer, occasional blogger and Open Source contributor

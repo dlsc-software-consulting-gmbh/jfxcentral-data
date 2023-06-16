@@ -1,5 +1,3 @@
-![Preview](preview.png)
-
 ## Features
 
 * Modern flat interface inspired by the variety of Web component frameworks.

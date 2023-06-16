@@ -1,272 +1,284 @@
 [
   {
-    "id": "2021-10-25",
+    "id": "2021/2021-10/2021-10-25",
     "tags": "jpro, jfxcentral, links, week",
     "createdOn": "2021-10-25",
     "modifiedOn": "2021-10-25"
   },
   {
-    "id": "2021-11-15",
+    "id": "2021/2021-11/2021-11-15",
     "tags": "openjfx, lite",
     "createdOn": "2021-11-15",
     "modifiedOn": "2021-11-15"
   },
   {
-    "id": "2021-11-22",
+    "id": "2021/2021-11/2021-11-22",
     "tags": "openjdk, binjr, flexganttfx, flexgantt, youtube, downloader, smartcsv",
     "createdOn": "2021-11-22",
     "modifiedOn": "2021-11-22"
   },
   {
-    "id": "2021-11-29",
+    "id": "2021/2021-11/2021-11-29",
     "tags": "countries, bluetooth, ble, icons",
     "createdOn": "2021-11-29",
     "modifiedOn": "2021-11-29"
   },
   {
-    "id": "2021-12-06",
+    "id": "2021/2021-12/2021-12-06",
     "tags": "comparison chart, controlsfx, template",
     "createdOn": "2021-12-06",
     "modifiedOn": "2021-12-06"
   },
   {
-    "id": "2021-12-13",
+    "id": "2021/2021-12/2021-12-13",
     "tags": "raspberry, pi, TilesFX, sensor, mqtt",
     "createdOn": "2021-12-13",
     "modifiedOn": "2021-12-13"
   },
   {
-    "id": "2021-12-20",
+    "id": "2021/2021-12/2021-12-20",
     "tags": "date picker, range, tower defense, fxgl",
     "createdOn": "2021-12-20",
     "modifiedOn": "2021-12-20"
   },
   {
-    "id": "2022-01-03",
+    "id": "2022/2022-01/2022-01-03",
     "tags": "chart, tidy tree, tree",
     "createdOn": "2022-01-03",
     "modifiedOn": "2022-01-03"
   },
   {
-    "id": "2022-01-10",
+    "id": "2022/2022-01/2022-01-10",
     "tags": "jfxbrowser, diabetes, glucotracker, gemsfx, search field, undo, redo",
     "createdOn": "2022-01-10",
     "modifiedOn": "2022-01-10"
   },
   {
-    "id": "2022-01-31",
+    "id": "2022/2022-01/2022-01-31",
     "tags": "table view, fxgl, intellij, showcase, gluon, ios, simulator",
     "createdOn": "2022-01-31",
     "modifiedOn": "2022-01-31"
   },
   {
-    "id": "2022-02-28",
+    "id": "2022/2022-02/2022-02-28",
     "tags": "jpro, dark mode, theme, jreleaser",
     "createdOn": "2022-02-28",
     "modifiedOn": "2022-02-28"
   },
   {
-    "id": "2022-09-13",
+    "id": "2022/2022-09/2022-09-13",
     "tags": "openjfx, mailinglist, dynamoit, logorrr, jfxcentral, links, week",
     "createdOn": "2022-09-13",
     "modifiedOn": "2022-09-13"
   },
   {
-    "id": "2022-09-23",
+    "id": "2022/2022-09/2022-09-23",
     "tags": "openjfx, links, week, JMetro, FXSkins, FXRibbon, CalendarFX, WrapperRFID, jobs",
     "createdOn": "2022-09-23",
     "modifiedOn": "2022-09-23"
   },
   {
-    "id": "2022-09-30",
+    "id": "2022/2022-09/2022-09-30",
     "tags": "openjfx, links, week, JPackage, IntelliJ, Serendipity, SmartFinder, WebFX, OpenCV",
     "createdOn": "2022-09-30",
     "modifiedOn": "2022-09-30"
   },
   {
-    "id": "2022-10-07",
+    "id": "2022/2022-10/2022-10-07",
     "tags": "openjfx, links, week, MarlinFX, CalendarFX, FXGL, SceneBuilder, OrangoMango, Devoxx, Gluon, JabRef, Conveyor, FXParallax, jpro",
     "createdOn": "2022-10-07",
     "modifiedOn": "2022-10-07"
   },
   {
-    "id": "2022-10-14",
+    "id": "2022/2022-10/2022-10-14",
     "tags": "openjfx, links, week, SceneBuilder, Installer, GemsFX, CalendarFX, Pi4J, Devoxx, FXComponents",
     "createdOn": "2022-10-14",
     "modifiedOn": "2022-10-14"
   },
   {
-    "id": "2022-10-21",
+    "id": "2022/2022-10/2022-10-21",
     "tags": "openjfx, links, week, Oracle, Gluon, Devoxx, TweetwallFX, FXGL, PhotoSlide, FXComponents, LogoRRR, WebFX",
     "createdOn": "2022-10-21",
     "modifiedOn": "2022-10-21"
   },
   {
-    "id": "2022-10-28",
+    "id": "2022/2022-10/2022-10-28",
     "tags": "openjfx, links, week, Mobile, DataVisualization, DesignPatterns, WebFX, NSMenuFX, Flags",
     "createdOn": "2022-10-28",
     "modifiedOn": "2022-10-28"
   },
   {
-    "id": "2022-11-04",
+    "id": "2022/2022-11/2022-11-04",
     "tags": "openjfx, links, week, Chess, BobFI, VisualModeler, SceneBuilder, JPro",
     "createdOn": "2022-11-04",
     "modifiedOn": "2022-11-04"
   },
   {
-    "id": "2022-11-11",
+    "id": "2022/2022-11/2022-11-11",
     "tags": "openjfx, links, week, Geolocoder, PDFsam, CSSFX, JCPU, Monopoly, Game, LogoRRR, WebFX, Hero",
     "createdOn": "2022-11-11",
     "modifiedOn": "2022-11-11"
   },
   {
-    "id": "2022-11-18",
+    "id": "2022/2022-11/2022-11-18",
     "tags": "openjfx, links, week, Mastodon, LogoRRR, Space Invaders, Periodic Table, Tutorials, jWin",
     "createdOn": "2022-11-18",
     "modifiedOn": "2022-11-18"
   },
   {
-    "id": "2022-11-25",
+    "id": "2022/2022-11/2022-11-25",
     "tags": "openjfx, links, week, Learning, Podcast, EarlyAcces",
     "createdOn": "2022-11-25",
     "modifiedOn": "2022-11-25"
   },
   {
-    "id": "2022-12-02",
+    "id": "2022/2022-12/2022-12-02",
     "tags": "openjfx, links, week, Learning, Podcast, UserMeeting, PDFsam, GemsFX, Mapton, SpaceInvaders",
     "createdOn": "2022-12-02",
     "modifiedOn": "2022-12-02"
   },
   {
-    "id": "2022-12-09",
+    "id": "2022/2022-12/2022-12-09",
     "tags": "openjfx, links, week, Learning, Foundation, Charts, GemsFX, JPro, JDKMon, CSS, CapillaryScope, Webcam, QFive, NERstar, ModellusX",
     "createdOn": "2022-12-09",
     "modifiedOn": "2022-12-09"
   },
   {
-    "id": "2022-12-16",
+    "id": "2022/2022-12/2022-12-16",
     "tags": "openjfx, links, week, Learning, Mastodon, Foojay, Trinity, DarkTheme, VisualModeler, Webcam, Serendipity",
     "createdOn": "2022-12-16",
     "modifiedOn": "2022-12-16"
   },
   {
-    "id": "2022-12-23",
+    "id": "2022/2022-12/2022-12-23",
     "tags": "openjfx, links, week, Podcast, Foojay, Mastodon, Releases, Jobs",
     "createdOn": "2022-12-23",
     "modifiedOn": "2022-12-23"
   },
   {
-    "id": "2023-01-06",
+    "id": "2023/2023-01/2023-01-06",
     "tags": "openjfx, links, week",
     "createdOn": "2023-01-06",
     "modifiedOn": "2023-01-06"
   },
   {
-    "id": "2023-01-13",
+    "id": "2023/2023-01/2023-01-13",
     "tags": "openjfx, links, week",
     "createdOn": "2023-01-13",
     "modifiedOn": "2023-01-13"
   },
   {
-    "id": "2023-01-20",
+    "id": "2023/2023-01/2023-01-20",
     "tags": "openjfx, links, week",
     "createdOn": "2023-01-20",
     "modifiedOn": "2023-01-20"
   },
   {
-    "id": "2023-01-27",
+    "id": "2023/2023-01/2023-01-27",
     "tags": "openjfx, links, week",
     "createdOn": "2023-01-27",
     "modifiedOn": "2023-01-27"
   },
   {
-    "id": "2023-02-03",
+    "id": "2023/2023-02/2023-02-03",
     "tags": "openjfx, links, week",
     "createdOn": "2023-02-03",
     "modifiedOn": "2023-02-03"
   },
   {
-    "id": "2023-02-10",
+    "id": "2023/2023-02/2023-02-10",
     "tags": "openjfx, links, week",
     "createdOn": "2023-02-10",
     "modifiedOn": "2023-02-10"
   },
   {
-    "id": "2023-02-17",
+    "id": "2023/2023-02/2023-02-17",
     "tags": "openjfx, links, week",
     "createdOn": "2023-02-17",
     "modifiedOn": "2023-02-17"
   },
   {
-    "id": "2023-02-24",
+    "id": "2023/2023-02/2023-02-24",
     "tags": "openjfx, links, week",
     "createdOn": "2023-02-24",
     "modifiedOn": "2023-02-24"
   },
   {
-    "id": "2023-03-03",
+    "id": "2023/2023-03/2023-03-03",
     "tags": "openjfx, links, week",
     "createdOn": "2023-03-03",
     "modifiedOn": "2023-03-03"
   },
   {
-    "id": "2023-03-10",
+    "id": "2023/2023-03/2023-03-10",
     "tags": "openjfx, links, week",
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
   },
   {
-    "id": "2023-03-17",
+    "id": "2023/2023-03/2023-03-17",
     "tags": "openjfx, links, week",
     "createdOn": "2023-03-17",
     "modifiedOn": "2023-03-17"
   },
   {
-    "id": "2023-03-24",
+    "id": "2023/2023-03/2023-03-24",
     "tags": "openjfx, links, week",
     "createdOn": "2023-03-24",
     "modifiedOn": "2023-03-24"
   },
   {
-    "id": "2023-03-31",
+    "id": "2023/2023-03/2023-03-31",
     "tags": "openjfx, links, week",
     "createdOn": "2023-03-31",
     "modifiedOn": "2023-03-31"
   },
   {
-    "id": "2023-04-07",
+    "id": "2023/2023-04/2023-04-07",
     "tags": "openjfx, links, week",
     "createdOn": "2023-04-07",
     "modifiedOn": "2023-04-07"
   },
   {
-    "id": "2023-04-21",
+    "id": "2023/2023-04/2023-04-21",
     "tags": "openjfx, links, week",
     "createdOn": "2023-04-21",
     "modifiedOn": "2023-04-21"
   },
   {
-    "id": "2023-04-28",
+    "id": "2023/2023-04/2023-04-28",
     "tags": "openjfx, links, week",
     "createdOn": "2023-04-28",
     "modifiedOn": "2023-04-28"
   },
   {
-    "id": "2023-05-05",
+    "id": "2023/2023-05/2023-05-05",
     "tags": "openjfx, links, week",
     "createdOn": "2023-05-05",
     "modifiedOn": "2023-05-05"
   },
   {
-    "id": "2023-05-12",
+    "id": "2023/2023-05/2023-05-12",
     "tags": "openjfx, links, week",
     "createdOn": "2023-05-12",
     "modifiedOn": "2023-05-12"
   },
   {
-    "id": "2023-05-26",
+    "id": "2023/2023-05/2023-05-26",
     "tags": "openjfx, links, week",
     "createdOn": "2023-05-26",
     "modifiedOn": "2023-05-26"
+  },
+  {
+    "id": "2023/2023-06/2023-06-02",
+    "tags": "openjfx, links, week",
+    "createdOn": "2023-06-02",
+    "modifiedOn": "2023-06-02"
+  },
+  {
+    "id": "2023/2023-06/2023-06-09",
+    "tags": "openjfx, links, week",
+    "createdOn": "2023-06-09",
+    "modifiedOn": "2023-06-09"
   }
 ]

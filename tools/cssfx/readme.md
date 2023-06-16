@@ -4,11 +4,11 @@ Starting monitoring CSS changes in development is as simple as adding one line i
 CSSFX.start()
 ```
 
-Doing so CSSFX will start to track every CSS resource that will be declared on any Scene or Parent in your application. This monitoring will be active for all the Stage that your application will use.
+Doing so CSSFX will start to track every CSS resource that will be declared on any scene or parent in your application. This monitoring will be active for all stages that your application will use.
 
 ### Mapping URIs to files on disk
 
-CSSFX uses a functional interface URIToPathConverter (a function<String, Path> in fact) in order to be able to map CSS uris to file on the disk.
+CSSFX uses a functional interface `URIToPathConverter` (a function<String, Path> in fact) in order to be able to map CSS URIs to files on the disk.
 
 By providing several default implementations CSSFX is expected to run for you out of the box, without changes.
 
@@ -18,11 +18,11 @@ CSSFX comes with converters for:
 - Gradle
 - execution from jar file
 
-By registering new converters, you can influence the way CSSFX resolves the files to monitor, see next paragraph for an example
+By registering new converters, you can influence the way CSSFX resolves the files to monitor, see next paragraph for an example.
 
 If you think that CSSFX is missing some default converters, please post a [new issue](https://github.com/McFoggy/cssfx/issues/new) or create a [pull request](https://github.com/McFoggy/cssfx/compare/).
 
-#### Converter example
+### Converter example
 
 Let's consider the following situation (sorry for the windows like path, you'll transform by yourself for other envs):
 
@@ -49,7 +49,7 @@ CSSFX.addConverter(myConverter).start();
 
 ### Embedded with homemade configuration
 
-If you need more control on how CSSFX will monitor your application & CSS changes, then you can use some extended functionalities of the `CSSFX` builder class.
+If you need more control on how CSSFX will monitor your application and CSS changes, then you can use some extended functionalities of the `CSSFX` builder class.
 
 There you will be able to:
 

@@ -515,12 +515,12 @@ public class DataRepository {
     public ObjectProperty<LibraryInfo> libraryInfoProperty(Library library) {
         return libraryInfoMap.computeIfAbsent(library, key -> {
             ObjectProperty<LibraryInfo> infoProperty = new SimpleObjectProperty<>();
-            loadLibraryInfoText(library, infoProperty);
+            loadLibraryInfo(library, infoProperty);
             return infoProperty;
         });
     }
 
-    private void loadLibraryInfoText(Library library, ObjectProperty<LibraryInfo> infoProperty) {
+    private void loadLibraryInfo(Library library, ObjectProperty<LibraryInfo> infoProperty) {
         try {
             String libraryId = library.getId();
             File file = new File(getRepositoryDirectory(), "libraries/" + libraryId + "/info.json");

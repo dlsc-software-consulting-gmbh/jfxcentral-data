@@ -1,5 +1,12 @@
+A library for creating on-screen keyboards. Design and behaviour is based on the keyboard found on iPads.
+
+![Screen 1](keyboard.png)
+
+### Example
+
 The following code creates an application with an on-screen keyboard for a small number
 of text fields.
+
 
 ```java
 package com.dlsc.keyboardfx.demo;

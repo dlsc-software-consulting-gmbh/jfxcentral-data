@@ -4,6 +4,8 @@
     "name": "Extreme GUI Makeover",
     "tags": "makeover, demo, presentation, javaone, oracle codeone",
     "homepage": "https://github.com/hendrikebbers/ExtremeGuiMakeover",
+    "summary": "A demo highlighting JavaFX capabilities.",
+    "description": "This is an interactive presentation software presented by Dirk Lemmermann and Hendrik Ebbers at various conferences (JFXDays, JavaOne, etc...). The application takes the user step by step through the process of beautifying a given application.",
     "downloadType": "APPLICATION",
     "personIds": [
       "d.lemmermann",
@@ -34,6 +36,8 @@
     "id": "emirates",
     "name": "FlexGanttFX POC for Emirates Airlines",
     "tags": "demo, poc, airline, emirates, scheduling, planning, gantt",
+    "summary": "Use JavaFX and FlexGanttFX for resource scheduling.",
+    "description": "A proof-of-concept application developed for Emirates Airlines. The demo shows how FlexGanttFX is capable of displaying thousands and thousands of activities (in this case \"flights\").",
     "downloadType": "APPLICATION",
     "homepage": "https://www.flexganttfx.com",
     "personIds": [
@@ -41,6 +45,9 @@
     ],
     "companyIds": [
       "dlsc"
+    ],
+    "libraryIds": [
+      "flexganttfx"
     ],
     "createdOn": "2021-06-02",
     "modifiedOn": "2021-06-02",
@@ -63,6 +70,8 @@
     "id": "ikonlibrowser",
     "name": "Ikonli Browser",
     "tags": "icons, library, demo, application",
+    "summary": "Browse the ultimate icon framework for JavaFX",
+    "description": "Ikonli provides icon packs that can be used in Java applications. This browser application allows you to browse all icon fonts that are currently supported by Ikonli.",
     "downloadType": "APPLICATION",
     "personIds": [
       "a.almiray"
@@ -94,37 +103,11 @@
     ]
   },
   {
-    "id": "realworld",
-    "name": "Real World Apps Presentation",
-    "tags": "real world app, keynote, powerpoint, conference, event, talk, presentation",
-    "downloadType": "PRESENTATION",
-    "personIds": [
-      "d.lemmermann"
-    ],
-    "companyIds": [
-      "dlsc"
-    ],
-    "createdOn": "2021-06-05",
-    "modifiedOn": "2021-06-05",
-    "files": [
-      {
-        "name": "Keynote (Mac)",
-        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/RealWorldFXAppsKeynote.zip",
-        "fileName": "",
-        "package": "ZIP"
-      },
-      {
-        "name": "PowerPoint (Windows)",
-        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/RealWorldFXAppsPowerpoint.zip",
-        "fileName": "",
-        "package": "ZIP"
-      }
-    ]
-  },
-  {
     "id": "spacefx",
     "name": "SpaceFX",
     "tags": "real world app, game, space, shooter, mobile, desktop, web",
+    "summary": "A space shooter written in JavaFX.",
+    "description": "A space shooter written in JavaFX. It can run on Mac, Windows, Linux, on mobile devices, and even in the browser. A true \"write once run anywhere\" application that illustrates the true power and the promise made by Java and JavaFX. This game was written by Gerrit Grunwald.",
     "downloadType": "APPLICATION",
     "homepage": "https://github.com/HanSolo/SpaceFX",
     "personIds": [
@@ -163,9 +146,14 @@
     "id": "tilesfx",
     "name": "TilesFX Demo",
     "tags": "tilesfx, charts, tile, dashboard",
+    "summary": "Develop dashboards with tiles.",
+    "description": "A demo that shows how to use gauges from the JavaFX Medusa library and from the JavaFX Ikonli library in combination with TilesFX.",
     "downloadType": "APPLICATION",
     "personIds": [
       "g.grunwald"
+    ],
+    "libraryIds": [
+      "tilesfx"
     ],
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14",
@@ -188,6 +176,8 @@
     "id": "speedtest",
     "name": "Speed Test",
     "tags": "bandwidth, speed, internet, connection, isp",
+    "summary": "Internet connection speed test application.",
+    "description": "With the cnlab UX Test, internet users can check the quality of their internet connections. cnlab analyzes the results of several thousand measurements daily for its licensees and for the public.",
     "homepage": "https://www.cnlab.ch/en/speedtest",
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-15",
@@ -209,14 +199,19 @@
   },
   {
     "id": "covid",
-    "name": "Covid Data Explorer (FlexGanttFX)",
-    "tags": "covid, data exploration, health, medical",
+    "name": "Covid Data Explorer",
+    "tags": "covid, data exploration, health, medical, flexgantt",
+    "summary": "Covid data analysis tool written in JavaFX and FlexGanttFX",
+    "description": "A data exploration tool based on Covid data from the \"Our World in Data\" website. The application uses the charting capabilities of FlexGanttFX and allows the user to compare countries with each other.",
     "homepage": "https://www.flexganttfx.com",
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-15",
     "modifiedOn": "2021-06-15",
     "personIds": [
       "d.lemmermann"
+    ],
+    "libraryIds": [
+      "flexganttfx"
     ],
     "companyIds": [
       "dlsc"
@@ -240,6 +235,8 @@
     "id": "scenicview",
     "name": "Scenic View",
     "tags": "debug, inspect, scene graph",
+    "summary": "Inspect the state of your JavaFX application.",
+    "description": "Scenic View is a JavaFX application designed to make it simple to understand the current state of your application scene graph, and to also easily manipulate properties of the scene graph without having to keep editing your code.",
     "homepage": "https://github.com/JonathanGiles/scenic-view",
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
@@ -266,53 +263,58 @@
         "fileName": "",
         "package": "ZIP"
       }
+    ],
+    "videoIds": [
+      "fuDQg7W0v4g"
     ]
   },
   {
     "id": "scenebuilder",
-    "name": "Scene Builder 19.0.0 (October 7th, 2022)",
+    "name": "Scene Builder 20",
     "tags": "debug, inspect, scene graph",
+    "summary": "A rapid application development (RAD) tool for JavaFX",
+    "description": "Scene builder is an editor for rapid application development via drag and drop. Separation of design and logic files allows for team members to quickly and easily focus on their specific layer of application development.",
     "homepage": "https://gluonhq.com/products/scene-builder/",
     "downloadType": "APPLICATION",
     "createdOn": "2021-09-29",
-    "modifiedOn": "2021-10-10",
+    "modifiedOn": "2021-06-08",
     "companyIds": [
       "gluon"
     ],
     "files": [
       {
         "name": "Windows",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/win/SceneBuilder-19.0.0.msi",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/20.0.0/install/win/SceneBuilder-20.0.0.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "Mac (Intel)",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/mac/SceneBuilder-19.0.0-amd64.dmg",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/20.0.0/install/mac/SceneBuilder-20.0.0-amd64.dmg",
         "fileName": "",
         "package": "DMG"
       },
       {
         "name": "Mac (Apple Silicon)",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/mac/SceneBuilder-19.0.0-aarch64.dmg",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/20.0.0/install/mac/SceneBuilder-20.0.0-aarch64.dmg",
         "fileName": "",
         "package": "DMG"
       },
       {
         "name": "Linux RPM",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/linux/SceneBuilder-19.0.0.rpm",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/20.0.0/install/linux/SceneBuilder-20.0.0.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "Linux DEB",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/install/linux/SceneBuilder-19.0.0.deb",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/20.0.0/install/linux/SceneBuilder-20.0.0.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "JAR File",
-        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/19.0.0/scenebuilder-kit-19.0.0.jar",
+        "url": "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/20.0.0/scenebuilder-kit-20.0.0.jar",
         "fileName": "",
         "package": "JAR"
       }
@@ -322,6 +324,8 @@
     "id": "scenebuilder8",
     "name": "Scene Builder 8.5.0 (June 5th, 2018)",
     "tags": "debug, inspect, scene graph",
+    "summary": "A rapid application development (RAD) tool for JavaFX",
+    "description": "Scene builder is an editor for rapid application development via drag and drop. Separation of design and logic files allows for team members to quickly and easily focus on their specific layer of application development.",
     "homepage": "https://gluonhq.com/products/scene-builder/",
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
@@ -384,6 +388,8 @@
     "id": "fx2048",
     "name": "fx2048",
     "tags": "game",
+    "summary": "The game 2048 built using JavaFX.",
+    "description": "The game 2048 built using JavaFX.",
     "homepage": "https://github.com/brunoborges/fx2048",
     "downloadType": "APPLICATION",
     "createdOn": "2021-06-16",
@@ -417,6 +423,8 @@
     "id": "jdkmon",
     "name": "JDKMon",
     "tags": "jdkmon, tools, jdk, openjdk",
+    "summary": "Detect all installed JDKs on your computer.",
+    "description": "JDKMon is a little tool written in JavaFX that tries to detect all JDKs installed on your machine. Depending on the operating system it will try to find the JDKs in the various folders.",
     "downloadType": "APPLICATION",
     "personIds": [
       "g.grunwald"
@@ -472,6 +480,8 @@
     "id": "glucostatusfx",
     "name": "GlucoStatusFX",
     "tags": "glucostatusfx, tools, diabetes, nightscout",
+    "summary": "A glucose status monitor for Nightscout implemented in JavaFX.",
+    "description": "A glucose status monitor for Nightscout implemented in JavaFX. GlucoStatusFX is optimized for Macos but will also run on Windows and Linux.",
     "downloadType": "APPLICATION",
     "personIds": [
       "g.grunwald"
@@ -521,6 +531,8 @@
     "id": "binjr",
     "name": "binjr",
     "tags": "time series, visualization, monitoring, charts, logs",
+    "summary": "A tool for visualizing time series data.",
+    "description": "A tool for rendering time series data produced by other applications as dynamically editable views.",
     "homepage": "https://binjr.eu",
     "repository": "https://github.com/binjr/binjr",
     "downloadType": "APPLICATION",
@@ -563,6 +575,8 @@
     "id": "logorrr",
     "name": "LogoRRR",
     "tags": "log, log files, visualization, log file analysis, logs",
+    "summary": "Log file visualization.",
+    "description": "_LogoRRR_ is a tool written in JavaFX to analyze log files. It helps to find certain patterns in log files.",
     "homepage": "https://www.logorrr.app/",
     "repository": "https://github.com/rladstaetter/logorrr",
     "downloadType": "APPLICATION",
@@ -593,11 +607,16 @@
     "id": "fxgldialogueeditor",
     "name": "FXGL Dialogue Editor",
     "tags": "game development, dialogue graph, visualization, dialogue editor",
+    "summary": "A dialogue editor for games.",
+    "description": "An editor used for creating dialogue sequences for games based on the FXGL gaming framework",
     "homepage": "https://fxgl.itch.io/fxgl-dialogue-editor",
     "repository": "https://github.com/AlmasB/FXGL",
     "downloadType": "APPLICATION",
     "personIds": [
       "a.baimagambetov"
+    ],
+    "libraryIds": [
+      "fxgl"
     ],
     "createdOn": "2021-12-17",
     "modifiedOn": "2021-12-17",

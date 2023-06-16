@@ -71,6 +71,9 @@
     "tutorialIds": [
       "fxdocs"
     ],
+    "companyIds": [
+      "gluon"
+    ],
     "createdOn": "2021-06-14",
     "modifiedOn": "2021-06-14"
   },
@@ -98,6 +101,9 @@
       "formsfx",
       "workbenchfx",
       "controlsfx"
+    ],
+    "companyIds": [
+      "dlsc"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
@@ -139,6 +145,9 @@
     "id": "f.delporte",
     "bookIds": [
       "getting-started-on-pi"
+    ],
+    "companyIds": [
+      "azul"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2023-04-07"
@@ -280,7 +289,7 @@
   {
     "name": "Johan Vos",
     "email": "",
-    "companyId": "",
+    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -290,6 +299,9 @@
     "id": "j.vos",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "companyIds": [
+      "gluon"
+    ],
     "toolIds": [
       "clientplugin",
       "scenebuilder",
@@ -322,7 +334,7 @@
   {
     "name": "José Pereda",
     "email": "",
-    "companyId": "",
+    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -332,6 +344,9 @@
     "id": "j.pereda",
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28",
+    "companyIds": [
+      "gluon"
+    ],
     "toolIds": [
       "clientplugin",
       "scenebuilder",
@@ -511,21 +526,10 @@
     "toolIds": [
       "jpro",
       "cssfx"
+    ],
+    "companyIds": [
+      "jpro"
     ]
-  },
-  {
-    "name": "Adam Carroll",
-    "email": "",
-    "companyId": "",
-    "website": "https://vocabhunter.github.io/",
-    "blogId": "vocabhunter",
-    "linkedIn": "",
-    "twitter": "vocabhunterapp",
-    "champion": false,
-    "rockstar": false,
-    "id": "a.carroll",
-    "createdOn": "2021-07-22",
-    "modifiedOn": "2021-07-22"
   },
   {
     "name": "Andrea Vacondio",
@@ -643,5 +647,4 @@
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
   }
-
 ]
