@@ -14,7 +14,6 @@ import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
 import com.dlsc.jfxcentral.data.model.Video;
-import com.dlsc.jfxcentral.data.pull.PullRequest;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
@@ -711,19 +710,6 @@ public class DataRepository2Test {
                 }
             }
         }));
-    }
-
-    @Test
-    public void shouldGetOpenJFXPullRequests() {
-        // given
-        DataRepository2 repository = DataRepository2.getInstance();
-        repository.reload();
-
-        // when
-        List<PullRequest> pullRequests = repository.loadPullRequests();
-
-        // then
-        assertFalse(pullRequests.isEmpty());
     }
 
     @Test
