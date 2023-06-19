@@ -11,7 +11,7 @@
 
     <groupId>com.dlsc.jfxcentral</groupId>
     <artifactId>model</artifactId>
-    <version>1.13.0</version>
+    <version>1.14.0</version>
     <packaging>jar</packaging>
     <name>JFXCentralData</name>
 
