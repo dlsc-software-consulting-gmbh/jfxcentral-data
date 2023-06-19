@@ -1,0 +1,1 @@
+AtlantaFX is a library that pursues a goal to create modern and maintainable stylesheets for standard JavaFX controls. This download is the sampler application. A self-updating executable built via Conveyor.

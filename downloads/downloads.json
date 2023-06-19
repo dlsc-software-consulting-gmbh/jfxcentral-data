@@ -608,7 +608,7 @@
     "name": "FXGL Dialogue Editor",
     "tags": "game development, dialogue graph, visualization, dialogue editor",
     "summary": "A dialogue editor for games.",
-    "description": "An editor used for creating dialogue sequences for games based on the FXGL gaming framework",
+    "description": "An editor used for creating dialogue sequences for games based on the FXGL gaming framework.",
     "homepage": "https://fxgl.itch.io/fxgl-dialogue-editor",
     "repository": "https://github.com/AlmasB/FXGL",
     "downloadType": "APPLICATION",
@@ -624,6 +624,29 @@
       {
         "name": "Windows ZIP",
         "url": "https://fxgl.itch.io/fxgl-dialogue-editor",
+        "fileName": "",
+        "package": "ZIP"
+      }
+    ]
+  },
+  {
+    "id": "atlantafx",
+    "name": "AtlantaFX",
+    "tags": "theme, css, custom controls, material design",
+    "summary": "Modern JavaFX CSS theme collection with additional controls.",
+    "description": "AtlantaFX is a library that pursues a goal to create modern and maintainable stylesheets for standard JavaFX controls.",
+    "homepage": "",
+    "repository": "https://github.com/mkpaz/atlantafx",
+    "downloadType": "APPLICATION",
+    "libraryIds": [
+      "atlantafx"
+    ],
+    "createdOn": "2023-06-19",
+    "modifiedOn": "2023-06-19",
+    "files": [
+      {
+        "name": "Conveyor Installation",
+        "url": "https://downloads.hydraulic.dev/atlantafx/sampler/download.html",
         "fileName": "",
         "package": "ZIP"
       }
