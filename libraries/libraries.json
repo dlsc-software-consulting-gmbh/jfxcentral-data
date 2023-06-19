@@ -800,7 +800,7 @@
   },
   {
     "name": "AtlantaFX",
-    "summary": "Modern JavaFX CSS theme collection with additional controls.",
+    "summary": "Modern theme collection with additional controls.",
     "tags": "theme, css, custom controls",
     "description": "AtlantaFX is a library that pursues a goal to create modern and maintainable stylesheets for standard JavaFX controls.",
     "license": "MIT",
