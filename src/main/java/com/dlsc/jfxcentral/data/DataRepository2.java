@@ -285,6 +285,10 @@ public class DataRepository2 {
         return getList(clz).stream().filter(item -> item.getId().equals(id)).findFirst().get();
     }
 
+    public boolean isValidId(Class<? extends ModelObject> clz, String id) {
+        return getList(clz).stream().anyMatch(item -> item.getId().equals(id));
+    }
+
     public List<Video> getVideosByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Video.class);
     }
