@@ -18,9 +18,9 @@ A modern flat design inspired by a variety of web component frameworks.
 
 ## Getting Started
 
-**Requirements:** JavaFX 17+ (because of `data-url` support).
+AtlantaFX requires JavaFX 17+ (because of `data-url` support).
 
-Set CSS theme:
+To set the CSS theme:
 
 ```java
 Application.setUserAgentStylesheet(new PrimerLight().getUserAgentStylesheet());
