@@ -5,20 +5,6 @@ a more [native look and feel](https://developer.apple.com/library/mac/documentat
 
 Here are a few examples of what you can do with NSMenuFX.
 
-#### Application menu
-
-![Custom App Menu Screenshot](./app_menu.png)
-
-Customize the auto-generated application menu of your JavaFX app.
-
-```java
-// Create the default Application menu
-Menu defaultApplicationMenu = tk.createDefaultApplicationMenu("test");
-
-// Update the existing Application menu
-MenuToolkit.toolkit().setApplicationMenu(defaultApplicationMenu);
-```
-
 #### Window menu
 
 ![Custom App Menu Screenshot](window_menu.png)
