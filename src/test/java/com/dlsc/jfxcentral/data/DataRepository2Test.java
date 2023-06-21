@@ -30,7 +30,11 @@ import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
 
 @ExtendWith(ApplicationExtension.class)
 public class DataRepository2Test {
@@ -60,6 +64,7 @@ public class DataRepository2Test {
         assertFalse(repository.getVideos().isEmpty());
         assertFalse(repository.getTutorials().isEmpty());
         assertFalse(repository.getIkonliPacks().isEmpty());
+        assertFalse(repository.getMembers().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -87,6 +92,7 @@ public class DataRepository2Test {
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
         assertTrue(repository.getIkonliPacks().isEmpty());
+        assertTrue(repository.getMembers().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -117,6 +123,7 @@ public class DataRepository2Test {
         assertFalse(repository.getVideos().isEmpty());
         assertFalse(repository.getTutorials().isEmpty());
         assertFalse(repository.getIkonliPacks().isEmpty());
+        assertFalse(repository.getMembers().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -155,7 +162,6 @@ public class DataRepository2Test {
             assertNotNull(info, "info missing for library ID " + lib.getId());
         });
     }
-
 
     @Test
     public void shouldLoadLibraryInfoFiles() {
@@ -198,6 +204,23 @@ public class DataRepository2Test {
 
             // then
             assertTrue(StringUtils.isNotBlank(text), "text missing for person ID " + person.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadMemberDescription() {
+        // given
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
+
+        assertFalse(repository.getMembers().isEmpty());
+
+        // when
+        repository.getMembers().forEach(member -> {
+            String text = repository.getMemberReadMe(member);
+            System.out.println("text = " + text);
+            // then
+            assertTrue(StringUtils.isNotBlank(text), "text missing for person ID " + member.getId());
         });
     }
 
@@ -430,7 +453,6 @@ public class DataRepository2Test {
         // given
         DataRepository2 repository = DataRepository2.getInstance();
         repository.reload();
-
 
         // when
         Optional<Blog> guigarage = repository.getBlogById("guigarage");
@@ -801,5 +823,4 @@ public class DataRepository2Test {
         // then
         assertFalse(ikonliPacks.isEmpty());
     }
-
 }

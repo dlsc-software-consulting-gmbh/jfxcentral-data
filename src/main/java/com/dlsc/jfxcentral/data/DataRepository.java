@@ -9,6 +9,7 @@ import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
+import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.ModelObject;
 import com.dlsc.jfxcentral.data.model.News;
 import com.dlsc.jfxcentral.data.model.Person;
@@ -100,6 +101,8 @@ public class DataRepository {
 
     private Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
 
+    private Map<Member, StringProperty> memberDescriptionMap = new HashMap<>();
+
     private boolean loaded;
 
     public static boolean testing = false;
@@ -141,6 +144,7 @@ public class DataRepository {
         bookTextMap.clear();
         tutorialTextMap.clear();
         linksOfTheWeekReadMeMap.clear();
+        memberDescriptionMap.clear();
 
         getPeople().clear();
         getLibraries().clear();
@@ -156,6 +160,7 @@ public class DataRepository {
         getTips().clear();
         getLinksOfTheWeek().clear();
         getIkonliPacks().clear();
+        getMembers().clear();
     }
 
     private void doLoadData(String reason) {
@@ -236,7 +241,12 @@ public class DataRepository {
             List<IkonliPack> ikonliPacks = gson.fromJson(new FileReader(ikonliPacksFile, StandardCharsets.UTF_8), new TypeToken<List<IkonliPack>>() {
             }.getType());
 
-            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links, ikonliPacks);
+            // load members
+            File membersFile = new File(getRepositoryDirectory(), "members/members.json");
+            List<Member> members = gson.fromJson(new FileReader(membersFile, StandardCharsets.UTF_8), new TypeToken<List<Member>>() {
+            }.getType());
+
+            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members);
 
             LOG.fine("data loading finished");
         } catch (Exception e) {
@@ -248,7 +258,7 @@ public class DataRepository {
 
     private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries,
                          List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<RealWorldApp> realWorldApps, List<Download> downloads,
-                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks) {
+                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks, List<Member> members) {
         clearData();
 
         setOpenJFXText(openJFXText);
@@ -268,6 +278,7 @@ public class DataRepository {
         getTips().setAll(tips);
         getLinksOfTheWeek().setAll(links);
         getIkonliPacks().setAll(ikonliPacks);
+        getMembers().setAll(members);
 
         List<ModelObject> recentItems = findRecentItems();
         getRecentItems().setAll(recentItems);
@@ -289,6 +300,7 @@ public class DataRepository {
         result.addAll(findRecentItems(getDownloads()));
         result.addAll(findRecentItems(getTips()));
         result.addAll(findRecentItems(getIkonliPacks()));
+        result.addAll(findRecentItems(getMembers()));
         // LinksOfTheWeek are not reachable through links!
         //  result.addAll(findRecentItems(getLinksOfTheWeek()));
 
@@ -380,6 +392,10 @@ public class DataRepository {
         return ikonliPacks.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<Member> getMemberById(String id) {
+        return members.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> ObservableList<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
@@ -417,6 +433,8 @@ public class DataRepository {
             return modelObject.getLinksOfTheWeekIds();
         } else if (clazz.equals(IkonliPack.class)) {
             return modelObject.getIkonliPackIds();
+        } else if (clazz.equals(Member.class)) {
+            return modelObject.getMemberIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -451,6 +469,8 @@ public class DataRepository {
             return (List<T>) linksOfTheWeek;
         } else if (clazz.equals(IkonliPack.class)) {
             return (List<T>) ikonliPacks;
+        } else if (clazz.equals(Member.class)) {
+            return (List<T>) members;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -608,6 +628,20 @@ public class DataRepository {
 
     private void loadPersonDescription(Person person, StringProperty readmeProperty) {
         String readmeText = loadString(new File(getRepositoryDirectory(), "people/" + person.getId() + "/readme.md"));
+        readmeProperty.set(readmeText);
+    }
+
+
+    public StringProperty memberDescriptionProperty(Member member) {
+        return memberDescriptionMap.computeIfAbsent(member, key -> {
+            StringProperty readmeProperty = new SimpleStringProperty();
+            loadMemberDescription(member, readmeProperty);
+            return readmeProperty;
+        });
+    }
+
+    private void loadMemberDescription(Member member, StringProperty readmeProperty) {
+        String readmeText = loadString(new File(getRepositoryDirectory(), "members/" + member.getId() + "/readme.md"));
         readmeProperty.set(readmeText);
     }
 
@@ -807,6 +841,12 @@ public class DataRepository {
         return ikonliPacks;
     }
 
+    private final ObservableList<Member> members = FXCollections.observableArrayList();
+
+    public ObservableList<Member> getMembers() {
+        return members;
+    }
+
     private String loadString(File file) {
         LOG.fine("loading string from: " + file);
 
@@ -977,6 +1017,7 @@ public class DataRepository {
         search(getTutorials(), pattern, result);
         search(getTips(), pattern, result);
         search(getIkonliPacks(), pattern, result);
+        search(getMembers(), pattern, result);
         return result;
     }
 
