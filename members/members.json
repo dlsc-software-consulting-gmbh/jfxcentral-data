@@ -1,7 +1,7 @@
 [
   {
     "name": "Dirk Lemmermann",
-    "jobTitle": "Job Title",
+    "jobTitle": "Project Lead",
     "email": "dlemmermann@gmail.com",
     "website": "https://www.dlsc.com",
     "linkedIn": "dlemmermann",
@@ -15,7 +15,7 @@
   },
   {
     "name": "Florian Kirmaier",
-    "jobTitle": "Job Title",
+    "jobTitle": "Developer",
     "email": "fk@sandec.de",
     "website": "",
     "linkedIn": "floriankirmaier",
@@ -24,6 +24,20 @@
     "champion": false,
     "rockstar": false,
     "id": "f.kirmaier",
+    "createdOn": "2023-06-22",
+    "modifiedOn": "2021-06-22"
+  },
+  {
+    "name": "Francesca Pizzi",
+    "jobTitle": "UI / UX Designer",
+    "email": "francesca.pizzi.90@gmail.com",
+    "website": "",
+    "linkedIn": "https://www.linkedin.com/in/francescapizzidesigner/",
+    "twitter": "",
+    "gitHub": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "f.pizzi",
     "createdOn": "2023-06-22",
     "modifiedOn": "2021-06-22"
   }

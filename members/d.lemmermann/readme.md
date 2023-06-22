@@ -1,1 +1,7 @@
-JavaFX Fan Boy. Java Champion. Java One Rockstar. Open Source Contributor. Freelancer. Consultant. Speaker. Entrepreneur.
+Dirk is the driving force behind **JFXCentral**. He wanted to create a single place for everything JavaFX. Dirk has been working with JavaFX on many projects since 2013. He is a major contributor to and / or maintainer of open source projects such as [GemsFX](https://github.com/dlsc-software-consulting-gmbh/GemsFX), [WorkbenchFX](https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX), [FormsFX](https://github.com/dlsc-software-consulting-gmbh/FormsFX), [PreferencesFX](https://github.com/dlsc-software-consulting-gmbh/PreferencesFX), [KeyboardFX](https://github.com/dlsc-software-consulting-gmbh/KeyboardFX), [PickerFX](https://github.com/dlsc-software-consulting-gmbh/PickerFX), [PDFViewFX](https://github.com/dlsc-software-consulting-gmbh/PDFViewFX) and so on. 
+
+Since 1996 Dirk has been the CEO of [DLSC Software & Consulting GmbH](https://www.dlsc.com) where he is focused on planning and scheduling user interfaces. The main product of DLSC is called [FlexGanttFX](https://www.flexganttfx.com), a library for visualizing scheduling information.
+
+Since 2023 Dirk is also the CEO of Senapt GmbH, a subsidiary company of [Senapt Limited](https://senapt.co.uk). Senapt develops a cloud-based solution for Energy suppliers (_"Energy as a Service"_).
+
+DLSC and Senapt GmbH are both located in Zurich, Switzerland.
