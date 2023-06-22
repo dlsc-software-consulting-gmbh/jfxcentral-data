@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Dirk Lemmermann",
+    "jobTitle": "Job Title",
+    "email": "dlemmermann@gmail.com",
+    "website": "https://www.dlsc.com",
+    "linkedIn": "dlemmermann",
+    "twitter": "dlemmermann",
+    "gitHub": "dlemmermann",
+    "champion": true,
+    "rockstar": true,
+    "id": "d.lemmermann",
+    "createdOn": "2023-06-22",
+    "modifiedOn": "2023-06-22"
+  },
+  {
+    "name": "Florian Kirmaier",
+    "jobTitle": "Job Title",
+    "email": "fk@sandec.de",
+    "website": "",
+    "linkedIn": "floriankirmaier",
+    "twitter": "FlorianKirmaier",
+    "gitHub": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "f.kirmaier",
+    "createdOn": "2023-06-22",
+    "modifiedOn": "2021-06-22"
+  }
+]

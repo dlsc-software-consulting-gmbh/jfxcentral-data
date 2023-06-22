@@ -7,6 +7,7 @@ import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
+import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
@@ -60,6 +61,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertTrue(!repository.getMembers().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -87,6 +89,7 @@ public class DataRepositoryTest {
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
         assertTrue(repository.getIkonliPacks().isEmpty());
+        assertTrue(repository.getMembers().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -117,6 +120,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertTrue(!repository.getMembers().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -199,6 +203,23 @@ public class DataRepositoryTest {
 
             // then
             assertTrue(StringUtils.isNotBlank(text.get()), "text missing for person ID " + person.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadMemberDescription() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getMembers().isEmpty());
+
+        // when
+        repository.getMembers().forEach(member -> {
+            StringProperty text = repository.memberDescriptionProperty(member);
+
+            // then
+            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for member ID " + member.getId());
         });
     }
 
@@ -792,4 +813,20 @@ public class DataRepositoryTest {
         assertFalse(ikonliPacks.isEmpty());
     }
 
+    @Test
+    public void shouldGetMemberById() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getMembers().isEmpty());
+
+        // when
+        repository.getMembers().forEach(member -> {
+            Optional<Member> result = repository.getMemberById(member.getId());
+
+            // then
+            assertNotNull(result.get(), "no member returned for ID " + member.getId());
+        });
+    }
 }

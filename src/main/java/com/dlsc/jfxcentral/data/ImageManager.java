@@ -5,6 +5,7 @@ import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.Library;
+import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.News;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
@@ -81,6 +82,10 @@ public class ImageManager {
 
     public ObjectProperty<Image> personImageProperty(Person person) {
         return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "people/" + person.getId() + "/"), "photo.jpeg", "person-" + person.getId());
+    }
+
+    public ObjectProperty<Image> memberImageProperty(Member member) {
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "members/" + member.getId() + "/"), "photo.jpeg", "member-" + member.getId());
     }
 
     public ObjectProperty<Image> toolImageProperty(Tool tool) {
