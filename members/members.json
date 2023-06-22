@@ -25,7 +25,21 @@
     "rockstar": false,
     "id": "f.kirmaier",
     "createdOn": "2023-06-22",
-    "modifiedOn": "2021-06-22"
+    "modifiedOn": "2023-06-22"
+  },
+  {
+    "name": "Li Wang Yang",
+    "jobTitle": "Developer",
+    "email": "leewyatt7788@gmail.com",
+    "website": "",
+    "linkedIn": "wyatt-lee-a19066271",
+    "twitter": "LeeWyatt_7788",
+    "gitHub": "https://github.com/leewyatt",
+    "champion": false,
+    "rockstar": false,
+    "id": "l.liwangyang",
+    "createdOn": "2023-06-22",
+    "modifiedOn": "2023-06-22"
   },
   {
     "name": "Francesca Pizzi",
@@ -39,6 +53,6 @@
     "rockstar": false,
     "id": "f.pizzi",
     "createdOn": "2023-06-22",
-    "modifiedOn": "2021-06-22"
+    "modifiedOn": "2023-06-22"
   }
 ]
