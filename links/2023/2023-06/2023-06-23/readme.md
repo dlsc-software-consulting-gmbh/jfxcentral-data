@@ -4,7 +4,7 @@ We have been very busy working on the new JFX-Central version... Maybe you want 
 
 ## Core
 
-* [**Gluon** asks all JavaFX developers to JavaFX 21-ea+21 a try](https://twitter.com/GluonHQ/status/1671461934049243136).
+* [**Gluon** asks all JavaFX developers to give JavaFX 21-ea+21 a try](https://twitter.com/GluonHQ/status/1671461934049243136).
 
 ## Applications
 
