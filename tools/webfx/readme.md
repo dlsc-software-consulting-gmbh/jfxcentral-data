@@ -1,8 +1,7 @@
 A new way to develop modern web applications ... in Java and JavaFX. WebFX is a JavaFX to Javascript transpiler powered by GWT. You write your web application in JavaFX, and GWT will transpile it to pure Javascript (no plugin, no server). WebFX patches the higher layer of OpenJFX to make it GWT compatible, and replaces the lower layer with a "JavaFX scene graph to browser" DOM mapper. You don't need to transpile each code change, you can use the OpenJFX runtime to develop, test and debug your application as usual in your Java IDE, and transpile it only from time to time to check your web version is working as expected. WebFX is new and doesn't yet cover all JavaFX features, but it has a lot of potential and may quickly receive support from the JavaFX & GWT communities. WebFX is now ready for testing. We hope you will love it.
 
 ![WebFX Website](website.png)
-
-WebFX Website
+_WebFX Website_
 
 ## Full Stack
 
