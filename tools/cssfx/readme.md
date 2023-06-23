@@ -1,10 +1,18 @@
+# CSSFX
+
+CSSFX enhances developer productivity by providing CSS reloading functionality in your running application.
+
+While developing you can run your JavaFX application, modify some CSS sources in your preferred editor, hit save button (or CTLR+S or CMD-S) and your JavaFX application is modified in real time.
+
+## How to use
+
 Starting monitoring CSS changes in development is as simple as adding one line in your application code.
 
 ```
 CSSFX.start()
 ```
 
-Doing so CSSFX will start to track every CSS resource that will be declared on any scene or parent in your application. This monitoring will be active for all stages that your application will use.
+Doing so, CSSFX will start to track every CSS resource that will be declared on any scene or parent in your application. This monitoring will be active for all stages that your application will use.
 
 ### Mapping URIs to files on disk
 

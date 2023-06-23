@@ -16,11 +16,11 @@
     "id": "clientplugin",
     "name": "GluonFX Plugin",
     "summary": "Create native apps for desktop or mobile devices.",
-    "description": "GluonFX plugin for maven leverages GraalVM, OpenJDK and JavaFX 11+, by compiling your application to native code.",
+    "description": "GluonFX plugin for Maven leverages GraalVM, OpenJDK and JavaFX, by compiling your application to native code.",
     "tags": "maven, plugin, gluon, mobile, embedded, iOS, android, iPhone, iPad, graalvm, native",
     "groupId": "com.gluonhq",
     "artifactId": "gluonfx-maven-plugin",
-    "homepage": "",
+    "homepage": "https://docs.gluonhq.com/#_gluonfx_plugin_for_maven",
     "repository": "https://github.com/gluonhq/client-maven-plugin",
     "createdOn": "2021-06-01",
     "modifiedOn": "2021-06-01",
@@ -179,12 +179,14 @@
   {
     "id": "conveyor",
     "name": "Conveyor",
-    "summary": "Simple application packaging with support for software updates.",
+    "summary": "Build self-updating desktop app packages in minutes. Package for every OS from any OS. ",
     "description": "Conveyor makes distributing JavaFX apps as easy as for a web app. It builds self-updating packages/installers, fully signed or self signed and for every desktop OS.",
     "tags": "packaging, distribution, updates",
     "homepage" : "https://www.hydraulic.software",
     "createdOn" : "2022-09-30",
-    "companyIds": [ "hydraulic" ]
+    "companyIds": [
+      "hydraulic"
+    ]
   },
   {
     "id": "webfx",

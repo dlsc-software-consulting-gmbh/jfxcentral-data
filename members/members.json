@@ -54,5 +54,19 @@
     "id": "f.pizzi",
     "createdOn": "2023-06-22",
     "modifiedOn": "2023-06-22"
+  },
+  {
+    "name": "Frank Delporte",
+    "jobTitle": "Links Of The Week",
+    "email": "frank@webtechie.be",
+    "website": "https://www.webtechie.be",
+    "linkedIn": "frankdelporte",
+    "twitter": "frankdelporte",
+    "gitHub": "fdelporte",
+    "champion": true,
+    "rockstar": false,
+    "id": "f.delporte",
+    "createdOn": "2023-06-23",
+    "modifiedOn": "2023-06-23"
   }
 ]
