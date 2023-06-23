@@ -8,6 +8,7 @@ public class Member extends ModelObject {
     private String linkedIn;
     private String twitter;
     private String gitHub;
+    private String mastodon;
     private boolean champion;
     private boolean rockstar;
 
@@ -60,6 +61,14 @@ public class Member extends ModelObject {
 
     public void setGitHub(String gitHub) {
         this.gitHub = gitHub;
+    }
+
+    public String getMastodon() {
+        return mastodon;
+    }
+
+    public void setMastodon(String mastodon) {
+        this.mastodon = mastodon;
     }
 
     public boolean isChampion() {
