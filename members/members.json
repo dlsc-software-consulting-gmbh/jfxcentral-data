@@ -69,5 +69,19 @@
     "id": "f.delporte",
     "createdOn": "2023-06-23",
     "modifiedOn": "2023-06-23"
+  },
+  {
+    "name": "Oriel Shmuel",
+    "jobTitle": "Developer",
+    "email": "orielshmuel@gmail.com",
+    "website": "",
+    "linkedIn": "https://www.linkedin.com/in/oriel-shmuel-395126124/",
+    "twitter": "https://twitter.com/OrielSh",
+    "gitHub": "https://github.com/orielsh",
+    "champion": false,
+    "rockstar": false,
+    "id": "o.shmuel",
+    "createdOn": "2023-06-25",
+    "modifiedOn": "2023-06-25"
   }
 ]
