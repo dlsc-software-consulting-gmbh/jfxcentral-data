@@ -1,12 +1,17 @@
-ValidatorFX is a validation library for JavaFX. It is inspired by [ControlsFX](https://github.com/controlsfx/controlsfx) but tries to overcome its shortcomings:
+# ValidatorFX
+
+ValidatorFX is a validation library for JavaFX. It is inspired by [ControlsFX](https://github.com/controlsfx/controlsfx)
+but tries to overcome its shortcomings:
+
 * Validations based on arbitrary observable values (not just the value of a control)
 * Validations can decorate an arbitrary number of nodes (not just the one control)
 * Validations can decorate any node (not just `Control` subtypes)
 * Validations can be done immediately or on-demand (e.g. when clicking a button)
 
-The central class of ValidatorFX is `Validator` which contains a number of `Check`s. As a rule a form will have one `Validator` object and multiple `Check`s.
+The central class of ValidatorFX is `Validator` which contains a number of `Check`s. As a rule a form will have
+one `Validator` object and multiple `Check`s.
 
-## Example
+## Usage
 
 Here is a minimal complete example of how ValidatorFX is used:
 
@@ -23,7 +28,7 @@ import net.synedra.validatorfx.Validator;
 
 public class MinimalExample extends Application {
 
-    private Validator validator = new Validator();
+    private final Validator validator = new Validator();
 
     @Override
     public void start(Stage primaryStage) {
@@ -70,33 +75,36 @@ validator.createCheck()
 A new check is created within the validator in this line.
 
 ```java    
-.dependsOn("username", userTextField.textProperty())
+.dependsOn("username",userTextField.textProperty())
 ```
 
 A dependency named `username` is declared here. You can call dependsOn multiple times if you have more dependencies.
 
 ```java
-.withMethod(c -> {
-    String userName = c.get("username");
-    if (!userName.toLowerCase().equals(userName)) {
+.withMethod(c->{
+        String userName=c.get("username");
+        if(!userName.toLowerCase().equals(userName)){
         c.error("Please use only lowercase letters.");
-    }
-})
+        }
+        })
 ```
 
-This defines the check to be executed. Note how the dependency declared above can easily be accessed here (of course we could also have used `userTextField.getText()` instead of `c.get("username")` here.
+This defines the check to be executed. Note how the dependency declared above can easily be accessed here (of course we
+could also have used `userTextField.getText()` instead of `c.get("username")` here.
 
 ```java
 .decorates(userTextField)
 ```
 
-This line tells ValidatorFX to decorate the text field itself. You can call decorates multiple times if you want multiple nodes to be decorated.
+This line tells ValidatorFX to decorate the text field itself. You can call decorates multiple times if you want
+multiple nodes to be decorated.
 
 ```java
 .immediate();
 ```
 
-The check is declared immediate by this line which means it will be evaluated constantly and `userTextField` will be decorated as soon as the check condition changes. Without this line you can validate on submit.
+The check is declared immediate by this line which means it will be evaluated constantly and `userTextField` will be
+decorated as soon as the check condition changes. Without this line you can validate on submit.
 
 Here's a screenshot of the example in action:
 

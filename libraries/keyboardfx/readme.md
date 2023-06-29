@@ -4,11 +4,10 @@ A library for creating on-screen keyboards. Design and behaviour is based on the
 
 ![Screen 1](keyboard.png)
 
-### Example
+## Usage
 
 The following code creates an application with an on-screen keyboard for a small number
 of text fields.
-
 
 ```java
 package com.dlsc.keyboardfx.demo;
@@ -28,7 +27,7 @@ public class KeyboardPaneDemoApp extends Application {
     public void start(Stage stage) {
         KeyboardPane keyboardPane = createKeyboardPane();
         keyboardPane.setPrefSize(1000, 900);
-        
+
         stage.setScene(new Scene(keyboardPane));
         stage.setTitle("JavaFX Keyboard Pane");
         stage.sizeToScene();
