@@ -14,5 +14,17 @@ public class Maven {
     public void setDependency(Dependency dependency) {
         this.dependency = dependency;
     }
+
+    @Override
+    public String toString() {
+        if (dependency == null) {
+            return "Null dependency";
+        }
+        return "<dependency>\n" +
+                "    <groupId>" + dependency.getGroupId() + "</groupId>\n" +
+                "    <artifactId>" + dependency.getArtifactId() + "</artifactId>\n" +
+                "    <version>" + dependency.getVersion() + "</version>\n" +
+                "</dependency>";
+    }
 }
 
