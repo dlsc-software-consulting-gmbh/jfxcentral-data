@@ -292,8 +292,8 @@ public class DataRepository2 {
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
     }
 
-    public ModelObject getByID(Class<? extends ModelObject> clz, String id) {
-        return getList(clz).stream().filter(item -> item.getId().equals(id)).findFirst().get();
+    public <T extends ModelObject> T getByID(Class<T> clz, String id) {
+        return getList(clz).stream().filter(item -> item.getId().equals(id)).findFirst().orElse(null);
     }
 
     public boolean isValidId(Class<? extends ModelObject> clz, String id) {
