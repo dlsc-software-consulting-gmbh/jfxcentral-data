@@ -41,7 +41,7 @@
       "description": "A control for filtering the content of an observable list. Works in combination with TableView, ListView, or any control that is based on observable lists.\n"
     },
     {
-      "path": "info-center-pane.png",
+      "path": "info-center-pane.jpg",
       "title": "Info Center Pane",
       "description": "A pane for displaying MacOS-like notifications."
     },
@@ -86,7 +86,7 @@
       "description": "A text field with additional decoration elements to make it suitable for searches."
     },
     {
-      "path": "strip-view.png",
+      "path": "strip-view.jpg",
       "title": "Strip View",
       "description": "A view for displaying and scrolling multiple nodes. The elements on the sides fade out."
     },
