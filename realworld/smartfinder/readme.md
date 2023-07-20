@@ -24,7 +24,7 @@ SmartFinder is available for **Windows** and **Mac** operating systems.
 ## SmartFinder in action
 [SmartFinder Youtube playlist](https://www.youtube.com/playlist?list=PLG6jFnBRDFm8aOs9EZrsJ_490X1nWvsH2)
 
-[![SmartFinder youtube](smartfinder-youtube.png)](https://www.youtube.com/playlist?list=PLG6jFnBRDFm8aOs9EZrsJ_490X1nWvsH2)
+[![SmartFinder youtube](smartfinder-youtube.jpg)](https://www.youtube.com/playlist?list=PLG6jFnBRDFm8aOs9EZrsJ_490X1nWvsH2)
 
 ## Feature
 
@@ -44,16 +44,16 @@ SmartFinder is available for **Windows** and **Mac** operating systems.
 
 ## Some screenshots
 
-![Screen 1](screen-shot-1.png)
-![Screen 2](screen-shot-2.png)
-![Screen 3](screen-shot-3.png)
-![Screen 4](screen-shot-4.png)
-![Screen 5](screen-shot-5.png)
-![Screen 6](screen-shot-6.png)
-![Screen 7](screen-shot-7.png)
-![Screen 8](screen-shot-8.png)
-![Screen 9](screen-shot-9.png)
-![Screen 10](screen-shot-10.png)
+![Screen 1](screen-shot-1.jpg)
+![Screen 2](screen-shot-2.jpg)
+![Screen 3](screen-shot-3.jpg)
+![Screen 4](screen-shot-4.jpg)
+![Screen 5](screen-shot-5.jpg)
+![Screen 6](screen-shot-6.jpg)
+![Screen 7](screen-shot-7.jpg)
+![Screen 8](screen-shot-8.jpg)
+![Screen 9](screen-shot-9.jpg)
+![Screen 10](screen-shot-10.jpg)
 
 
 ## License
