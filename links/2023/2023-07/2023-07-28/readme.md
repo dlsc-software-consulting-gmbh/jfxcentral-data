@@ -16,8 +16,8 @@ Expect the next #LinksOfTheWeek at the end of August, so it will be actually a #
 * [**Tobias Briones** is working on an example application and blog](https://twitter.com/tobiasbriones_/status/1680117927662501888): "Building Slides from Screenshots App in JavaFX".
 * [**Sean Phillips** whipped up a Trinity easter egg for our DALLE demos](https://twitter.com/SeanMiPhillips/status/1679498134974595072). Each time services request a DALLE image, it is copied to network share. Walle Dalle scans that shared directory. Each time a new image file is copied it is animated into a spot in the 3D ring.
   * And on Mastodon he shared more [Trinity screenshots](https://foojay.social/@Birdasaur@jvm.social).
-* [**Mark J Koch** is writing an application for EagleCAD schematics](https://mastodon.social/@maehem/110743557437273863): "Still lots of work to do (like view and print PC board files) but this is a wonderful milestone in my development of this app. Hope to open source it in about a month or two." #EagleCAD #JavaFX #opensource]"
-  * His first experiments he shared, [looked more like "generative art"](https://mastodon.social/@maehem/110708951041214410).
+* [**Mark J Koch** is writing an application for EagleCAD schematics](https://mastodon.social/@maehem/110743557437273863): "Still lots of work to do (like view and print PC board files) but this is a wonderful milestone in my development of this app. Hope to open source it in about a month or two."
+  * His first experiments [looked more like "generative art"](https://mastodon.social/@maehem/110708951041214410).
 
 ## Games
 
