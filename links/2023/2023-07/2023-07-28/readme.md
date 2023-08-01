@@ -32,7 +32,7 @@ Expect the next #LinksOfTheWeek at the end of August, so it will be actually a #
 
 ## Podcast, Video, Books
 
-* [**Frank Delporte** discovered that an image he created for his book "Getting Started with Java on the Raspberry Pi" with a JavaFX application](https://foojay.social/@frankdelporte/110790391834861143) is used in the 2nd edition of "The Definitive Guide to Modern Java Clients with JavaFX 17" by **Stephen Chin**, **Johan Vos**, **Jeames Weaver**, and many others.
+* [**Frank Delporte** discovered that an image he created for his book "Getting Started with Java on the Raspberry Pi" with a JavaFX application](https://foojay.social/@frankdelporte/110790391834861143) is used in the 2nd edition of ["The Definitive Guide to Modern Java Clients with JavaFX 17"](https://www.jfx-central.com/books/definitiveguide2modernjavaclients) by [**Stephen Chin**](https://www.jfx-central.com/people/s.chin), [**Johan Vos**](https://www.jfx-central.com/people/j.vos), [**Jeames Weaver**](https://www.jfx-central.com/people/j.weaver), and many others.
 
 ## Miscellaneous
 
