@@ -487,47 +487,47 @@
       "g.grunwald"
     ],
     "createdOn": "2022-02-18",
-    "modifiedOn": "2023-08-05",
+    "modifiedOn": "2023-08-09",
     "files": [
       {
         "name": "MSI Installer (Windows Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.55/GlucoStatusFX-17.0.55.msi",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.57/GlucoStatusFX-17.0.57.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.55/GlucoStatusFX-17.0.55.pkg",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.57/GlucoStatusFX-17.0.57.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac ARM64)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.55/GlucoStatusFX-17.0.55-aarch64.pkg",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.57/GlucoStatusFX-17.0.57-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.55/glucostatusfx_17.0.55-1_amd64.deb",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.57/glucostatusfx_17.0.57-1_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.55/glucostatusfx-17.0.55-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.57/glucostatusfx-17.0.57-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.55/glucostatusfx_17.0.55-1_arm64.deb",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.57/glucostatusfx_17.0.57-1_arm64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.55/glucostatusfx-17.0.55-1.aarch64.rpm",
+        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/17.0.57/glucostatusfx-17.0.57-1.aarch64.rpm",
         "fileName": "",
         "package": "RPM"
       }
