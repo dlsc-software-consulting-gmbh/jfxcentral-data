@@ -587,25 +587,31 @@
     "repository": "https://github.com/rladstaetter/logorrr",
     "downloadType": "APPLICATION",
     "createdOn": "2021-12-17",
-    "modifiedOn": "2021-12-17",
+    "modifiedOn": "2023-08-19",
     "files": [
       {
-        "name": "Windows (EXE)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/21.3.2/LogoRRR-installer.exe",
+        "name": "Windows Installer (EXE)",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/23.2.1/LogoRRR-23.2.1-installer.exe",
         "fileName": "",
         "package": "EXE"
       },
       {
-        "name": "macOS x86 (PKG)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/21.3.2/LogoRRR-21.3.2-x86_64.pkg",
+        "name": "MacOsX (Appstore)",
+        "url": "https://apps.apple.com/at/app/logorrr/id1583786769?l=en&mt=12",
         "fileName": "",
         "package": "PKG"
       },
       {
-        "name": "macOS aarch64 (PKG)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/21.3.2/LogoRRR-21.3.2-aarch64.pkg",
+        "name": "Linux ARM64 (DEB)",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/23.1.1/logorrr_23.1.1_arm64.deb",
         "fileName": "",
-        "package": "PKG"
+        "package": "DEB"
+      },
+      {
+        "name": "Linux x64 (DEB)",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/23.1.0/LogoRRR-23.1.0-x86_64.pkg",
+        "fileName": "",
+        "package": "DEB"
       }
     ]
   },
