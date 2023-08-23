@@ -4,11 +4,13 @@ import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Coordinates;
+import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
+import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.ModelObject;
 import com.dlsc.jfxcentral.data.model.News;
 import com.dlsc.jfxcentral.data.model.Person;
@@ -105,6 +107,8 @@ public class DataRepository2 {
         getTips().clear();
         getLinksOfTheWeek().clear();
         getIkonliPacks().clear();
+        getMembers().clear();
+        getDocumentation().clear();
     }
 
     private void doLoadData(String reason) {
@@ -132,6 +136,8 @@ public class DataRepository2 {
             tips.addAll(load(getFile("tips/tips.json"), new TypeToken<List<Tip>>() {}.getType()));
             linksOfTheWeek.addAll(load(getFile("links/links.json"), new TypeToken<List<LinksOfTheWeek>>() {}.getType()));
             ikonliPacks.addAll(load(getFile("ikonlipacks/ikonlipacks.json"), new TypeToken<List<IkonliPack>>() {}.getType()));
+            members.addAll(load(getFile("members/members.json"), new TypeToken<List<Member>>() {}.getType()));
+            documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {}.getType()));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -207,6 +213,14 @@ public class DataRepository2 {
         return ikonliPacks.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<Member> getMemberById(String id) {
+        return members.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<Documentation> getDocumentationById(String id) {
+        return documentation.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> List<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
@@ -242,6 +256,10 @@ public class DataRepository2 {
             return modelObject.getLinksOfTheWeekIds();
         } else if (clazz.equals(IkonliPack.class)) {
             return modelObject.getIkonliPackIds();
+        }else if (clazz.equals(Member.class)) {
+            return modelObject.getMemberIds();
+        } else if (clazz.equals(Documentation.class)) {
+            return modelObject.getDocumentationIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -276,13 +294,21 @@ public class DataRepository2 {
             return (List<T>) linksOfTheWeek;
         } else if (clazz.equals(IkonliPack.class)) {
             return (List<T>) ikonliPacks;
+        } else if (clazz.equals(Member.class)) {
+            return (List<T>) members;
+        } else if (clazz.equals(Documentation.class)) {
+            return (List<T>) documentation;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
     }
 
-    public ModelObject getByID(Class<? extends ModelObject> clz, String id) {
-        return getList(clz).stream().filter(item -> item.getId().equals(id)).findFirst().get();
+    public <T extends ModelObject> T getByID(Class<T> clz, String id) {
+        return getList(clz).stream().filter(item -> item.getId().equals(id)).findFirst().orElse(null);
+    }
+
+    public boolean isValidId(Class<? extends ModelObject> clz, String id) {
+        return getList(clz).stream().anyMatch(item -> item.getId().equals(id));
     }
 
     public List<Video> getVideosByModelObject(ModelObject modelObject) {
@@ -376,6 +402,10 @@ public class DataRepository2 {
 
     public String getPersonReadMe(Person person) {
         return loadString(new File(getRepositoryDirectory(), "people/" + person.getId() + "/readme.md"));
+    }
+
+    public String getMemberReadMe(Member member) {
+        return loadString(new File(getRepositoryDirectory(), "members/" + member.getId() + "/readme.md"));
     }
 
     public String getToolReadMe(Tool tool) {
@@ -495,6 +525,18 @@ public class DataRepository2 {
 
     public List<IkonliPack> getIkonliPacks() {
         return ikonliPacks;
+    }
+
+    private final List<Member> members = new ArrayList<>();
+
+    public List<Member> getMembers() {
+        return members;
+    }
+
+    private final List<Documentation> documentation = new ArrayList<>();
+
+    public List<Documentation> getDocumentation() {
+        return documentation;
     }
 
     public String getHomeText() {

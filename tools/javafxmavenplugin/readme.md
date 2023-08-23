@@ -1,8 +1,17 @@
+# JavaFX Maven Plugin
+
+Maven plugin to run JavaFX 11+ applications.
+
 ## Usage
 
-Create a new Maven project, use an existing one like [HelloFX](https://github.com/openjfx/samples/tree/master/CommandLine/Modular/Maven/hellofx), or use an [archetype](https://github.com/openjfx/javafx-maven-archetypes).
+Create a new Maven project, use an existing one
+like [HelloFX](https://github.com/openjfx/samples/tree/master/CommandLine/Modular/Maven/hellofx), or use
+an [archetype](https://github.com/openjfx/javafx-maven-archetypes).
 
 The project can be modular or non-modular.
+
+Check the [project on GitHub](https://github.com/openjfx/javafx-maven-plugin) for the latest version to be used in the
+following examples.
 
 JavaFX dependencies are added as usual:
 
@@ -10,7 +19,7 @@ JavaFX dependencies are added as usual:
 <dependency>
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-controls</artifactId>
-    <version>12.0.2</version>
+    <version>${javafx.controls.version}</version>
 </dependency>
 ```
 
@@ -20,7 +29,7 @@ Add the plugin:
 <plugin>
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-maven-plugin</artifactId>
-    <version>0.0.6</version>
+    <version>${javafx.maven.plugin.version}</version>
     <configuration>
         <mainClass>hellofx/org.openjfx.App</mainClass>
     </configuration>
@@ -33,7 +42,8 @@ Compile the project:
 mvn compile
 ```
 
-This step is optional and can be configured using the [maven-compiler-plugin](https://maven.apache.org/plugins/maven-compiler-plugin/).
+This step is optional and can be configured using
+the [maven-compiler-plugin](https://maven.apache.org/plugins/maven-compiler-plugin/).
 
 Run the project:
 
@@ -64,12 +74,16 @@ Optionally, the configuration can be modified with:
 - `includePathExceptionsInClasspath`: When resolving the module-path, setting this value to true will include the
   dependencies that generate path exceptions in the classpath. By default, the value is false, and these dependencies
   won't be included.
-- `runtimePathOption`: By default, the plugin will place *each* dependency either on modulepath or on classpath (based on certain factors).
-  When `runtimePathOption` configuration is set, the plugin will place *all* the dependencies on either modulepath or classpath.
+- `runtimePathOption`: By default, the plugin will place *each* dependency either on modulepath or on classpath (based
+  on certain factors).
+  When `runtimePathOption` configuration is set, the plugin will place *all* the dependencies on either modulepath or
+  classpath.
 
-  If set as `MODULEPATH`, a module descriptor is required. All dependencies need to be either modularized or contain an Automatic-Module-Name.
+  If set as `MODULEPATH`, a module descriptor is required. All dependencies need to be either modularized or contain an
+  Automatic-Module-Name.
 
-  If set as `CLASSPATH`, a Launcher class ([like this one](https://github.com/openjfx/samples/blob/master/CommandLine/Non-modular/CLI/hellofx/src/hellofx/Launcher.java))
+  If set as `CLASSPATH`, a Launcher
+  class ([like this one](https://github.com/openjfx/samples/blob/master/CommandLine/Non-modular/CLI/hellofx/src/hellofx/Launcher.java))
   is required to run a JavaFX application. Also, if a module-info descriptor is present, it will be ignored.
 
   Values: MODULEPATH or CLASSPATH.
@@ -96,10 +110,9 @@ The following configuration adds some VM options, and a command line argument:
 </plugin>
 ```
 
-> It is possible to use a local SDK instead of Maven Central.
-> This is helpful for developers trying to test a local build of OpenJFX.
-> Since transitive dependencies are not resolved,
-> all the required jars needs to be added as a separate dependency, like:
+* It is possible to use a local SDK instead of Maven Central.
+* This is helpful for developers trying to test a local build of OpenJFX.
+* Since transitive dependencies are not resolved, all the required jars need to be added as a separate dependency, like:
 
 ```
 <properties>

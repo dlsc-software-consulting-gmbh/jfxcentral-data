@@ -1,3 +1,9 @@
+# PDFViewFX
+
+A custom control that allows an application to display PDF files. The control utilizes Apache's PDFBox project.
+
+## Usage
+
 The following shows the demo app of this project, in which the user can bring up a file
 chooser and then simply call `pdfView.load(file)`. That is all that is needed to display a
 PDF file.

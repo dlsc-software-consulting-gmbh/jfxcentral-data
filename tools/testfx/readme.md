@@ -1,19 +1,24 @@
+# TestFX
+
 Simple and clean testing for JavaFX.
+
+* A fluent and clean API.
+* Flexible setup and cleanup of JavaFX test fixtures.
+* Simple robots to simulate user interactions.
+* Rich collection of matchers and assertions to verify expected states of JavaFX scene-graph nodes.
+
+Support for:
+
+* Java 8/11/17+
+* Multiple testing frameworks (JUnit 4, JUnit 5, and Spock).
+* Hamcrest matchers or AssertJ assertions (or both!).
+* Screenshots of failed tests.
+* Headless testing using Monocle.
 
 ## Documentation
 
 See the [Javadocs](https://testfx.github.io/TestFX/docs/javadoc/) for latest master.
 See the [changelog](https://github.com/TestFX/TestFX/blob/master/CHANGES.md) for latest released version.
-
-## Features
-
-Support for:
-
-- Java 8/9/10/11+
-- Multiple testing frameworks ([JUnit 4](https://junit.org/junit4/), [JUnit 5](https://junit.org/junit5/), and [Spock](http://spockframework.org/)).
-- [Hamcrest](http://hamcrest.org/) matchers or [AssertJ](https://assertj.github.io/doc/) assertions (or both!).
-- Screenshots of failed tests.
-- Headless testing using [Monocle](https://github.com/TestFX/Monocle).
 
 ## Gradle
 
@@ -26,9 +31,12 @@ dependencies {
 ```
 
 ### Java 11+
-Beginning with Java 11, JavaFX is no longer part of the JDK. It has been extracted to its own project: [OpenJFX](https://openjfx.io). This means, extra dependencies must be added to your project.
 
-The easiest way to add the JavaFX libraries to your Gradle project is to use the [JavaFX Gradle Plugin](https://github.com/openjfx/javafx-gradle-plugin).
+Beginning with Java 11, JavaFX is no longer part of the JDK. It has been extracted to its own
+project: [OpenJFX](https://openjfx.io). This means, extra dependencies must be added to your project.
+
+The easiest way to add the JavaFX libraries to your Gradle project is to use
+the [JavaFX Gradle Plugin](https://github.com/openjfx/javafx-gradle-plugin).
 
 After following the README for the JavaFX Gradle Plugin you will end up with something like:
 
@@ -44,7 +52,9 @@ javafx {
 ```
 
 ### Test Framework
-Next add a dependency corresponding to the testing framework you are using in your project. TestFX currently supports JUnit 4, JUnit 5, and Spock.
+
+Next, add a dependency corresponding to the testing framework you are using in your project. TestFX currently supports
+JUnit 4, JUnit 5, and Spock.
 
 #### JUnit 4
 
@@ -72,15 +82,20 @@ dependencies {
     testCompile "org.testfx:testfx-spock:4.0.16-alpha"
 }
 ```
+
 ### Matcher/Assertions Library
-Finally you must add a dependency corresponding to the matcher/assertions libraries that you want to use with TestFX. TestFX currently supports Hamcrest matchers or AssertJ assertions.
+
+Finally, you must add a dependency corresponding to the matcher/assertions libraries that you want to use with TestFX.
+TestFX currently supports Hamcrest matchers or AssertJ assertions.
 
 #### Hamcrest
+
 ```gradle
 testCompile group: 'org.hamcrest', name: 'hamcrest', version: '2.1'
 ```
 
 #### AssertJ
+
 ```gradle
 testCompile group: 'org.assertj', name: 'assertj-core', version: '3.13.2'
 ```
@@ -90,6 +105,7 @@ testCompile group: 'org.assertj', name: 'assertj-core', version: '3.13.2'
 To add a dependency on TestFX using Maven, use the following:
 
 ```xml
+
 <dependency>
     <groupId>org.testfx</groupId>
     <artifactId>testfx-core</artifactId>
@@ -99,13 +115,17 @@ To add a dependency on TestFX using Maven, use the following:
 ```
 
 ### Java 11+
-Beginning with Java 11, JavaFX is no longer part of the JDK. It has been extracted to its own project: [OpenJFX](https://openjfx.io). This means, extra dependencies must be added to your project.
 
-The easiest way to add the JavaFX libraries to your Maven project is to use the [JavaFX Maven Plugin](https://github.com/openjfx/javafx-maven-plugin).
+Beginning with Java 11, JavaFX is no longer part of the JDK. It has been extracted to its own
+project: [OpenJFX](https://openjfx.io). This means, extra dependencies must be added to your project.
+
+The easiest way to add the JavaFX libraries to your Maven project is to use
+the [JavaFX Maven Plugin](https://github.com/openjfx/javafx-maven-plugin).
 
 After following the README for the JavaFX Maven Plugin you will end up with something like:
 
 ```xml
+
 <dependencies>
     <dependency>
         <groupId>org.openjfx</groupId>
@@ -115,25 +135,29 @@ After following the README for the JavaFX Maven Plugin you will end up with some
 </dependencies>
 
 <plugins>
-    <plugin>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-maven-plugin</artifactId>
-        <version>0.0.3</version>
-        <configuration>
-            <mainClass>hellofx/org.openjfx.App</mainClass>
-        </configuration>
-    </plugin>
+<plugin>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-maven-plugin</artifactId>
+    <version>0.0.3</version>
+    <configuration>
+        <mainClass>hellofx/org.openjfx.App</mainClass>
+    </configuration>
+</plugin>
 </plugins>
 ```
 
-Have a look at [Maven Central's org.openjfx](https://mvnrepository.com/artifact/org.openjfx) entry for an overview of available modules.
+Have a look at [Maven Central's org.openjfx](https://mvnrepository.com/artifact/org.openjfx) entry for an overview of
+available modules.
 
 ### Test Framework
-Next add a dependency corresponding to the testing framework you are using in your project. TestFX currently supports JUnit 4, JUnit 5, and Spock.
+
+Next, add a dependency corresponding to the testing framework you are using in your project. TestFX currently supports
+JUnit 4, JUnit 5, and Spock.
 
 #### JUnit 4
 
 ```xml
+
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
@@ -141,16 +165,17 @@ Next add a dependency corresponding to the testing framework you are using in yo
     <scope>test</scope>
 </dependency>
 <dependency>
-    <groupId>org.testfx</groupId>
-    <artifactId>testfx-junit</artifactId>
-    <version>4.0.16-alpha</version>
-    <scope>test</scope>
+<groupId>org.testfx</groupId>
+<artifactId>testfx-junit</artifactId>
+<version>4.0.16-alpha</version>
+<scope>test</scope>
 </dependency>
 ```
 
 #### JUnit 5
 
 ```xml
+
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-api</artifactId>
@@ -158,16 +183,17 @@ Next add a dependency corresponding to the testing framework you are using in yo
     <scope>test</scope>
 </dependency>
 <dependency>
-    <groupId>org.testfx</groupId>
-    <artifactId>testfx-junit5</artifactId>
-    <version>4.0.16-alpha</version>
-    <scope>test</scope>
+<groupId>org.testfx</groupId>
+<artifactId>testfx-junit5</artifactId>
+<version>4.0.16-alpha</version>
+<scope>test</scope>
 </dependency>
 ```
 
 #### Spock
 
 ```xml
+
 <dependency>
     <groupId>org.spockframework</groupId>
     <artifactId>spock-core</artifactId>
@@ -175,18 +201,22 @@ Next add a dependency corresponding to the testing framework you are using in yo
     <scope>test</scope>
 </dependency>
 <dependency>
-    <groupId>org.testfx</groupId>
-    <artifactId>testfx-spock</artifactId>
-    <version>4.0.16-alpha</version>
-    <scope>test</scope>
+<groupId>org.testfx</groupId>
+<artifactId>testfx-spock</artifactId>
+<version>4.0.16-alpha</version>
+<scope>test</scope>
 </dependency>
 ```
 
 ### Matcher/Assertions Library
-Finally you must add a dependency corresponding to the matcher/assertions libraries that you want to use with TestFX. TestFX currently supports Hamcrest matchers or AssertJ assertions.
+
+Finally, you must add a dependency corresponding to the matcher/assertions libraries that you want to use with TestFX.
+TestFX currently supports Hamcrest matchers or AssertJ assertions.
 
 #### Hamcrest
+
 ```xml
+
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>hamcrest</artifactId>
@@ -196,7 +226,9 @@ Finally you must add a dependency corresponding to the matcher/assertions librar
 ```
 
 #### AssertJ
+
 ```xml
+
 <dependency>
     <groupId>org.assertj</groupId>
     <artifactId>assertj-core</artifactId>
@@ -208,9 +240,11 @@ Finally you must add a dependency corresponding to the matcher/assertions librar
 ## Examples
 
 ### Hamcrest Matchers
+
 TestFX brings along a couple of custom Hamcrest matchers in package `org.testfx.matcher.*`.
 
 ### AssertJ based Assertions
+
 TestFX uses its own AssertJ based assertion implementation class: `org.testfx.assertions.api.Assertions`.
 
 #### JUnit 4 with Hamcrest Matchers
@@ -301,9 +335,15 @@ public class ClickableButtonTest_JUnit4AssertJ extends ApplicationTest {
 ```
 
 ### JUnit 5
-TestFX uses [JUnit5's new extension mechanism](https://junit.org/junit5/docs/current/user-guide/#extensions) via `org.junit.jupiter.api.extension.ExtendWith`. By using this, implementors are not forced anymore to inherit from `ApplicationTest` and are free to choose their own super classes.
 
-It does also make use of [JUnit5's new dependency injection mechanism](https://junit.org/junit5/docs/current/user-guide/#writing-tests-dependency-injection). By using this, test methods have access to the `FxRobot` instance that must be used in order to execute actions within the UI.
+TestFX uses [JUnit5's new extension mechanism](https://junit.org/junit5/docs/current/user-guide/#extensions)
+via `org.junit.jupiter.api.extension.ExtendWith`. By using this, implementors are not forced anymore to inherit
+from `ApplicationTest` and are free to choose their own super classes.
+
+It does also make use
+of [JUnit5's new dependency injection mechanism](https://junit.org/junit5/docs/current/user-guide/#writing-tests-dependency-injection).
+By using this, test methods have access to the `FxRobot` instance that must be used in order to execute actions within
+the UI.
 
 ##### JUnit 5 with Hamcrest Matchers
 
@@ -446,13 +486,17 @@ import org.testfx.framework.spock.ApplicationSpec;
 class ClickableButtonSpec extends ApplicationSpec {
     @Override
     void init() throws Exception {
-        FxToolkit.registerStage { new Stage() }
+        FxToolkit.registerStage {
+            new Stage()
+        }
     }
 
     @Override
     void start(Stage stage) {
         Button button = new Button('click me!')
-        button.setOnAction { button.setText('clicked!') }
+        button.setOnAction {
+            button.setText('clicked!')
+        }
         stage.setScene(new Scene(new StackPane(button), 100, 100))
         stage.show()
     }
@@ -462,16 +506,17 @@ class ClickableButtonSpec extends ApplicationSpec {
         FxToolkit.hideStage()
     }
 
-    def "should contain button"() {
-        expect:
+    def "should contain button"()
+
+    {
         verifyThat('.button', hasText('click me!'))
     }
 
-    def "should click on button"() {
-        when:
+    def "should click on button"()
+
+    {
         clickOn(".button")
 
-        then:
         verifyThat('.button', hasText('clicked!'))
     }
 }

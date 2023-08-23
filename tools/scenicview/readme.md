@@ -1,23 +1,29 @@
-Scenic View is a JavaFX application designed to make it simple to understand the current state of your application scenegraph, and to also easily manipulate properties of the scenegraph without having to keep editing your code.
+# Scenic View
+
+Scenic View is a JavaFX application designed to make it simple to understand the current state of your application
+scenegraph, and to also easily manipulate properties of the scenegraph without having to keep editing your code.
 This lets you find bugs, and get things pixel perfect without having to do the compile-check-compile dance.
 
 ![Scenic View Screenshot](screenshot.png)
 
 ## Downloads
 
-Builds for JDK 11 for Windows, Linux, and MacOS are built by Azure Pipelines. The status of these builds is shown below:
+Builds for JDK 11 for Windows, Linux, and MacOS are built by Azure Pipelines, and downloads are available from the
+following links:
 
-| Platform | Download for JDK 11 |
-|----------| ---------------------|
-| Windows  | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-win.zip) |
-| MacOS    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-mac.zip) |
+| Platform | Download for JDK 11                                                                       |
+|----------|-------------------------------------------------------------------------------------------|
+| Windows  | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-win.zip)   |
+| MacOS    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-mac.zip)   |
 | Linux    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-linux.zip) |
 
-You can also download platform-independent releases [JDK 8](https://download.jonathangiles.net/downloads/scenic-view/scenic-view-8.7.0.zip) and [JDK 9](https://download.jonathangiles.net/downloads/scenic-view/scenic-view-9.0.0.zip).
+You can also download platform-independent releases
+for [JDK 8](https://download.jonathangiles.net/downloads/scenic-view/scenic-view-8.7.0.zip)
+and [JDK 9](https://download.jonathangiles.net/downloads/scenic-view/scenic-view-9.0.0.zip).
 
-### Using Scenic View
+## Using Scenic View
 
-#### Stand-alone application
+### Stand-alone application
 
 Download the Scenic View custom image for your platform from the above links. Unzip and then run:
 
@@ -41,14 +47,15 @@ cd build/scenicview/bin
 
 Then run a JavaFX application, and it will be detected by Scenic View.
 
-Alternatively, you can also run the `scenicview.jar` in any platform, providing that JDK 11 and JavaFX SDK 11 are installed:
+Alternatively, you can also run the `scenicview.jar` in any platform, providing that JDK 11 and JavaFX SDK 11 are
+installed:
 
 ```
 cd build/libs/
 java --module-path /path-to/javafx-11-sdk/lib --add-modules javafx.web,javafx.fxml,javafx.swing -jar scenicview.jar
 ```
 
-##### Notes
+#### Notes
 
 - Scenic View will detect JavaFX applications running on Java 9, 10 or 11.
 
@@ -56,12 +63,13 @@ java --module-path /path-to/javafx-11-sdk/lib --add-modules javafx.web,javafx.fx
   have access to some required tools that are available when it runs from a regular JDK, and Scenic View won't be
   able to find it.
 
-#### As a dependency
+### As a dependency
 
 You can add `scenicview.jar` as a dependency to your JavaFX application. Since this jar doesn't include
 the JavaFX dependencies, you should add them to your project, in case these weren't included yet.
 
-For instance, if you are running a gradle project, add the jar to a `libs` folder, then add it to the `build.gradle` file, like:
+For instance, if you are running a Gradle project, add the jar to a `libs` folder, then add it to the `build.gradle`
+file, like:
 
 ```
 plugins {

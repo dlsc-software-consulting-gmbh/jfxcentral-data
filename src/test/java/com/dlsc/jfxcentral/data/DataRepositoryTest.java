@@ -3,10 +3,12 @@ package com.dlsc.jfxcentral.data;
 import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
+import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
@@ -14,9 +16,9 @@ import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
 import com.dlsc.jfxcentral.data.model.Video;
-import com.dlsc.jfxcentral.data.pull.PullRequest;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.StringProperty;
+import javafx.collections.ObservableList;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -31,7 +33,11 @@ import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
 
 @ExtendWith(ApplicationExtension.class)
 public class DataRepositoryTest {
@@ -61,6 +67,8 @@ public class DataRepositoryTest {
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertTrue(!repository.getMembers().isEmpty());
+        assertTrue(!repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -88,6 +96,8 @@ public class DataRepositoryTest {
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
         assertTrue(repository.getIkonliPacks().isEmpty());
+        assertTrue(repository.getMembers().isEmpty());
+        assertTrue(repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -118,6 +128,8 @@ public class DataRepositoryTest {
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertTrue(!repository.getMembers().isEmpty());
+        assertTrue(!repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -200,6 +212,23 @@ public class DataRepositoryTest {
 
             // then
             assertTrue(StringUtils.isNotBlank(text.get()), "text missing for person ID " + person.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadMemberDescription() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getMembers().isEmpty());
+
+        // when
+        repository.getMembers().forEach(member -> {
+            StringProperty text = repository.memberDescriptionProperty(member);
+
+            // then
+            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for member ID " + member.getId());
         });
     }
 
@@ -718,19 +747,6 @@ public class DataRepositoryTest {
     }
 
     @Test
-    public void shouldGetOpenJFXPullRequests() {
-        // given
-        DataRepository repository = DataRepository.getInstance();
-        repository.loadData();
-
-        // when
-        List<PullRequest> pullRequests = repository.loadPullRequests();
-
-        // then
-        assertFalse(pullRequests.isEmpty());
-    }
-
-    @Test
     public void shouldGetTutorialsByLibrary() {
         // given
         DataRepository repository = DataRepository.getInstance();
@@ -806,4 +822,38 @@ public class DataRepositoryTest {
         assertFalse(ikonliPacks.isEmpty());
     }
 
+    @Test
+    public void shouldGetMemberById() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getMembers().isEmpty());
+
+        // when
+        repository.getMembers().forEach(member -> {
+            Optional<Member> result = repository.getMemberById(member.getId());
+
+            // then
+            assertNotNull(result.get(), "no member returned for ID " + member.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetDocumentationById() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        ObservableList<Documentation> documentation = repository.getDocumentation();
+        assertFalse(documentation.isEmpty());
+
+        // when
+        documentation.forEach(doc -> {
+            Optional<Documentation> result = repository.getDocumentationById(doc.getId());
+
+            // then
+            assertNotNull(result.get(), "no documentation returned for ID " + doc.getId());
+        });
+    }
 }

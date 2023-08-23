@@ -1,6 +1,17 @@
-The Gluon Client plugin for maven projects leverages GraalVM, OpenJDK and JavaFX 11+,
+# GluonFX plugin for Maven
+
+The Gluon Client plugin for Maven projects leverages GraalVM, OpenJDK and JavaFX,
 by compiling into native code the Java Client application and all its required dependencies,
 so it can directly be executed as a native application on the target platform.
+
+The following platforms are currently supported:
+
+* Linux
+* Mac OS X
+* Windows
+* iOS
+* Android
+* Embedded
 
 ## Requirements
 
@@ -8,11 +19,11 @@ Check the requirements for the [target platform](https://docs.gluonhq.com/#_plat
 
 ## Getting started
 
-Follow this [guide](https://docs.gluonhq.com/#_the_gluon_client_plugin_for_maven) on how to apply the plugin and use the different goals.
+Follow this ["GluonFX plugin for Maven" guide](https://docs.gluonhq.com/#_gluonfx_plugin_for_maven) on how to apply the plugin and use the different goals.
 
 ## Documentation and samples
 
-Check the [documentation](https://docs.gluonhq.com/) for more details about the plugin and running the [samples](https://github.com/gluonhq/gluon-samples/).
+Check the [full documentation](https://docs.gluonhq.com/) for more details about the plugin and running the [samples](https://github.com/gluonhq/gluon-samples/).
 
 ## Issues and Contributions ##
 

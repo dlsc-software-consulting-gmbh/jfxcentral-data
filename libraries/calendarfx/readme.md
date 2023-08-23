@@ -1,5 +1,12 @@
-The following section shows you how to quickly create a JavaFX application that will show a 
-complete calendar user interface. It includes a day view, a week view, a month view, a year 
+# CalendarFX
+
+A Java framework for creating sophisticated calendar views based on JavaFX. A detailed developer manual can be found
+here: [CalendarFX Developer Manual](https://dlsc-software-consulting-gmbh.github.io/CalendarFX/).
+
+## Usage
+
+The following section shows you how to quickly create a JavaFX application that will show a
+complete calendar user interface. It includes a day view, a week view, a month view, a year
 view, an agenda view, a calendar selection view, and a search UI.
 
 ```

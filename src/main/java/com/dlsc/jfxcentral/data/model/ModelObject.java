@@ -33,6 +33,8 @@ public abstract class ModelObject {
     private List<String> tipIds = new ArrayList<>();
     private List<String> linksOfTheWeekIds = new ArrayList<>();
     private List<String> ikonliPackIds = new ArrayList<>();
+    private List<String> memberIds = new ArrayList<>();
+    private List<String> documentationIds = new ArrayList<>();
 
     protected ModelObject() {
     }
@@ -155,6 +157,14 @@ public abstract class ModelObject {
         return new HashCodeBuilder(17, 37).append(id).toHashCode();
     }
 
+    public List<String> getMemberIds() {
+        return memberIds;
+    }
+
+    public void setMemberIds(List<String> memberIds) {
+        this.memberIds = memberIds;
+    }
+
     public List<String> getPersonIds() {
         return personIds;
     }
@@ -267,6 +277,14 @@ public abstract class ModelObject {
 
     public void setIkonliPackIds(List<String> ikonliPackIds) {
         this.ikonliPackIds = ikonliPackIds;
+    }
+
+    public List<String> getDocumentationIds() {
+        return documentationIds;
+    }
+
+    public void setDocumentationIds(List<String> documentationIds) {
+        this.documentationIds = documentationIds;
     }
 
     public LocalDate getCreationOrUpdateDate() {

@@ -15,3 +15,5 @@
 The OpenJFX Gradle plugin is fully supported, and configuration can be read out of your build system.
 
 Packaging and releasing an app can be as simple as running a single command and uploading the resulting directory to GitHub Releases.
+
+The [documentation website](https://conveyor.hydraulic.dev) provides an example based on AtlantaFX, an open source theme for JavaFX that implements a modern design language using the GitHub Primer color system. The [sampler app](https://conveyor.hydraulic.dev/9.2/sample-apps/#jvm-atlantafx-sampler) provides a gallery of the available controls and stylings.
