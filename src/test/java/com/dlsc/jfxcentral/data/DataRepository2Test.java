@@ -3,6 +3,7 @@ package com.dlsc.jfxcentral.data;
 import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
@@ -60,6 +61,7 @@ public class DataRepository2Test {
         assertFalse(repository.getVideos().isEmpty());
         assertFalse(repository.getTutorials().isEmpty());
         assertFalse(repository.getIkonliPacks().isEmpty());
+        assertFalse(repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -87,6 +89,7 @@ public class DataRepository2Test {
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
         assertTrue(repository.getIkonliPacks().isEmpty());
+        assertTrue(repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -117,6 +120,7 @@ public class DataRepository2Test {
         assertFalse(repository.getVideos().isEmpty());
         assertFalse(repository.getTutorials().isEmpty());
         assertFalse(repository.getIkonliPacks().isEmpty());
+        assertFalse(repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -155,7 +159,6 @@ public class DataRepository2Test {
             assertNotNull(info, "info missing for library ID " + lib.getId());
         });
     }
-
 
     @Test
     public void shouldLoadLibraryInfoFiles() {
@@ -430,7 +433,6 @@ public class DataRepository2Test {
         // given
         DataRepository2 repository = DataRepository2.getInstance();
         repository.reload();
-
 
         // when
         Optional<Blog> guigarage = repository.getBlogById("guigarage");
@@ -802,4 +804,16 @@ public class DataRepository2Test {
         assertFalse(ikonliPacks.isEmpty());
     }
 
+    @Test
+    public void shouldGetDocumentation() {
+        // given
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
+
+        // when
+        List<Documentation> documentation = repository.getDocumentation();
+
+        // then
+        assertFalse(documentation.isEmpty());
+    }
 }

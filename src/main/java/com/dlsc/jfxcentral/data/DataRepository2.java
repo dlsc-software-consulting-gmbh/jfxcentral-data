@@ -4,6 +4,7 @@ import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Coordinates;
+import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
@@ -105,6 +106,7 @@ public class DataRepository2 {
         getTips().clear();
         getLinksOfTheWeek().clear();
         getIkonliPacks().clear();
+        getDocumentation().clear();
     }
 
     private void doLoadData(String reason) {
@@ -132,6 +134,7 @@ public class DataRepository2 {
             tips.addAll(load(getFile("tips/tips.json"), new TypeToken<List<Tip>>() {}.getType()));
             linksOfTheWeek.addAll(load(getFile("links/links.json"), new TypeToken<List<LinksOfTheWeek>>() {}.getType()));
             ikonliPacks.addAll(load(getFile("ikonlipacks/ikonlipacks.json"), new TypeToken<List<IkonliPack>>() {}.getType()));
+            documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {}.getType()));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -207,6 +210,10 @@ public class DataRepository2 {
         return ikonliPacks.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<Documentation> getDocumentationById(String id) {
+        return documentation.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> List<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
@@ -242,6 +249,8 @@ public class DataRepository2 {
             return modelObject.getLinksOfTheWeekIds();
         } else if (clazz.equals(IkonliPack.class)) {
             return modelObject.getIkonliPackIds();
+        } else if (clazz.equals(Documentation.class)) {
+            return modelObject.getDocumentationIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -276,6 +285,8 @@ public class DataRepository2 {
             return (List<T>) linksOfTheWeek;
         } else if (clazz.equals(IkonliPack.class)) {
             return (List<T>) ikonliPacks;
+        } else if (clazz.equals(Documentation.class)) {
+            return (List<T>) documentation;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -495,6 +506,12 @@ public class DataRepository2 {
 
     public List<IkonliPack> getIkonliPacks() {
         return ikonliPacks;
+    }
+
+    private final List<Documentation> documentation = new ArrayList<>();
+
+    public List<Documentation> getDocumentation() {
+        return documentation;
     }
 
     public String getHomeText() {

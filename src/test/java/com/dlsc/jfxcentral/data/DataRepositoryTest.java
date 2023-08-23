@@ -3,6 +3,7 @@ package com.dlsc.jfxcentral.data;
 import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
@@ -61,6 +62,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertTrue(!repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -88,6 +90,7 @@ public class DataRepositoryTest {
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
         assertTrue(repository.getIkonliPacks().isEmpty());
+        assertTrue(repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -118,6 +121,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
+        assertTrue(!repository.getDocumentation().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -804,6 +808,19 @@ public class DataRepositoryTest {
 
         // then
         assertFalse(ikonliPacks.isEmpty());
+    }
+
+    @Test
+    public void shouldGetDocumentation() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        // when
+        List<Documentation> documentation = repository.getDocumentation();
+
+        // then
+        assertFalse(documentation.isEmpty());
     }
 
 }

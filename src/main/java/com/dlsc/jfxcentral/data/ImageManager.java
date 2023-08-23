@@ -3,6 +3,7 @@ package com.dlsc.jfxcentral.data;
 import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.News;
@@ -85,6 +86,10 @@ public class ImageManager {
 
     public ObjectProperty<Image> toolImageProperty(Tool tool) {
         return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "tools/" + tool.getId() + "/"), "logo.png", "tool-" + tool.getId());
+    }
+
+    public ObjectProperty<Image> documentationImageProperty(Documentation documentation) {
+        return localImageProperty(new File(DataRepository.getInstance().getRepositoryDirectory(), "documentation/" + documentation.getId() + "/"), "logo.png", "documentation-" + documentation.getId());
     }
 
     public ObjectProperty<Image> companyImageProperty(Company company) {

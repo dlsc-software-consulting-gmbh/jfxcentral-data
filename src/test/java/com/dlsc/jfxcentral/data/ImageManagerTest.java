@@ -154,6 +154,17 @@ public class ImageManagerTest {
     }
 
     @Test
+    public void shouldGetDocumentationImage() {
+        // when .. then
+        DataRepository.getInstance().getDocumentation().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().documentationImageProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
+
+        });
+    }
+
+    @Test
     public void shouldGetCompanyImage() {
         // when .. then
         DataRepository.getInstance().getCompanies().forEach(item -> {

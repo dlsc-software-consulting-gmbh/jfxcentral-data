@@ -1,0 +1,74 @@
+[
+  {
+    "id": "openjfxstartedref",
+    "name": "Getting Started with JavaFX",
+    "description": "A quick-start guide detailing JavaFX setup across different IDEs and build tools such as Maven and Gradle. Ideal for newcomers or those seeking smooth integration.",
+    "url": "https://openjfx.io/openjfx-docs//",
+    "tags": "Getting Started",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "fxdocsref",
+    "name": "JavaFX Documentation Project",
+    "description": "Consolidates key information for developers. It's open source and encourages community contributions for enhanced quality and usefulness.",
+    "url": "https://fxdocs.github.io/docs/html5/",
+    "tags": "Getting Started",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "apiref",
+    "name": "JavaFX API Documentation",
+    "description": "A comprehensive reference guide covering all classes, methods, and interfaces of JavaFX. Essential for developers seeking in-depth knowledge of its functionalities.",
+    "url": "https://openjfx.io/javadoc/20/",
+    "tags": "API",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "fxmlref",
+    "name": "JavaFX FXML Reference",
+    "description": "An introductory guide to FXML, the XML-based markup language designed for building JavaFX user interfaces. ",
+    "url": "https://openjfx.io/javadoc/20/javafx.fxml/javafx/fxml/doc-files/introduction_to_fxml.html",
+    "tags": "XML",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "cssref",
+    "name": "JavaFX CSS Reference",
+    "description": "An in-depth guide to JavaFX CSS styling, detailing properties, pseudo-classes, control skins, and their structural breakdown.",
+    "url": "https://openjfx.io/javadoc/20/javafx.graphics/javafx/scene/doc-files/cssref.html",
+    "tags": "CSS",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "modenacssref",
+    "name": "JavaFX Default CSS (Modena)",
+    "description": "Modena is the default theme for JavaFX 8+. This guide provides the built-in CSS styles, helping developers customize and enhance the UI.",
+    "url": "https://github.com/openjdk/jfx/blob/master/modules/javafx.controls/src/main/resources/com/sun/javafx/scene/control/skin/modena/modena.css",
+    "tags": "CSS",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "caspiancssref",
+    "name": "JavaFX Css (Caspian)",
+    "description": "Caspian is the default theme for JavaFX 2.x. This guide offers the built-in CSS styles, helping developers customize and enhance the UI.",
+    "url": "https://github.com/openjdk/jfx/blob/master/modules/javafx.controls/src/main/resources/com/sun/javafx/scene/control/skin/caspian/caspian.css",
+    "tags": "CSS",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "oraclestartedref",
+    "name": "Getting Started with JavaFX8",
+    "description": "An essential guide to JavaFX 8 fundamentals, offering insights into core concepts and practices. Valuable for developers aiming to grasp the foundational aspects of JavaFX.",
+    "url": "https://docs.oracle.com/javase/8/javafx/get-started-tutorial/index.html",
+    "tags": "Getting Started",
+    "createdOn": "2023-08-23",
+    "modifiedOn": "2023-08-23"
+  }
+]
