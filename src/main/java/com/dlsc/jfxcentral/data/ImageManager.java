@@ -3,6 +3,7 @@ package com.dlsc.jfxcentral.data;
 import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
 import com.dlsc.jfxcentral.data.model.Company;
+import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.Member;
@@ -19,9 +20,6 @@ import javafx.scene.image.Image;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.time.ZonedDateTime;
@@ -137,13 +135,9 @@ public class ImageManager {
         return localImageFile(new File(DataRepository.getInstance().getRepositoryDirectory(), "libraries/" + library.getId() + "/"), "logo.png");
     }
 
-
-
-
-
-
-
-
+    public File documentationFile(Documentation doc) {
+        return localImageFile(new File(DataRepository.getInstance().getRepositoryDirectory(), "documentation/" + doc.getId() + "/"), "logo.png");
+    }
 
     private File localImageFile(File directory, String photoFileName) {
         if (StringUtils.isBlank(photoFileName)) {
@@ -269,10 +263,10 @@ public class ImageManager {
         return fileToImageProperty(file, MISSING_IMAGE);
     }
 
-
-
-
-
+    public ObjectProperty<Image> documentationImageProperty(Documentation doc) {
+        File file = documentationFile(doc);
+        return fileToImageProperty(file, null);
+    }
 
     public ObjectProperty<Image> fileToImageProperty(File file, Image placeholderImage) {
         ObjectProperty<Image> property = new SimpleObjectProperty<>();

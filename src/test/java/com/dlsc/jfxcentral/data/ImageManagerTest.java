@@ -200,4 +200,14 @@ public class ImageManagerTest {
         assertNotNull(property, "image property is null for avatar");
         assertNotNull(property.get(), "image is missing for avatar");
     }
+
+    @Test
+    public void shouldGetDocumentationImage() {
+        // when .. then
+        DataRepository.getInstance().getDocumentation().forEach(doc -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().documentationImageProperty(doc);
+            assertNotNull(property, "image property is null for item ID " + doc.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + doc.getId());
+        });
+    }
 }
