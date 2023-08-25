@@ -4,7 +4,7 @@ I've taken a holiday this month, so probably missed a lot of the amazing JavaFX 
 
 ## Applications
 
-* [**Mark Baird** is working on a weather station](https://github.com/mbcoder/weather-station/tree/mark/IoT-proving) with Pi4j, Medusa gauges, and JavaFX to show humidity and temperature on a Raspberry Pi.
+* [**Mark Baird** is working on a weather station](https://github.com/mbcoder/weather-station) with Pi4j, Medusa gauges, and JavaFX to show humidity and temperature on a Raspberry Pi.
 * [**Robert Ladstätter** announced v23.2.1 of LogoRRR](https://github.com/rladstaetter/LogoRRR/releases/tag/23.2.1), a tool to explore log files. One of the important changes is the addition of calls to JNI / Swift to activate security scoped bookmarks for [access to files from the macOS App Sandbox](https://developer.apple.com/documentation/security/app_sandbox/accessing_files_from_the_macos_app_sandbox).
 * Check out the [many Trinity update Tweets by Sean Phillips](https://twitter.com/search?q=%40seanmiphillips%20trinity&src=typed_query&f=live). It looks like he didn't take a holiday this summer and went full in to bring more 3D magic and data analysis into his amazing app.
 * [**Pedro Duque Vieira** shared a webinar about Hero](https://twitter.com/P_Duke/status/1692525012446572670?s=20): "It's great to see an application I've created along with my client continue to thrive. It's a Java & JavaFX app. Would web tech be a viable option here? I doubt it"
@@ -25,5 +25,5 @@ I've taken a holiday this month, so probably missed a lot of the amazing JavaFX 
 ## JFX-Central
 
 * Yes, indeed, V2 is published! Go [check it out on jfx-central.com](https://www.jfx-central.com/).
-* Here is the [announcement Tweet](https://twitter.com/jfxcentral/status/1692509973933105392): "Many of you have already noticed it, but here is the official announcement: the new version of @JFXCentral - totally written in JavaFX - is now online at [jfx-central.com](http://jfx-central.com). You can also download the desktop version here: [downloads.hydraulic.dev/jfxcentral2/download.html](https://downloads.hydraulic.dev/jfxcentral2/download.html). #java #javafx #ui #ux [@jpro_one](https://twitter.com/jpro_one) [@GluonHQ](https://twitter.com/GluonHQ) [@HydraulicDev](https://twitter.com/HydraulicDev)"
+* Here is the [announcement Tweet](https://twitter.com/jfxcentral/status/1692509973933105392): "Many of you have already noticed it, but here is the official announcement: the new version of [@JFXCentral](https://twitter.com/jfxcentral) - totally written in JavaFX - is now online at [jfx-central.com](http://jfx-central.com). You can also download the desktop version here: [downloads.hydraulic.dev/jfxcentral2/download.html](https://downloads.hydraulic.dev/jfxcentral2/download.html). #java #javafx #ui #ux [@jpro_one](https://twitter.com/jpro_one) [@GluonHQ](https://twitter.com/GluonHQ) [@HydraulicDev](https://twitter.com/HydraulicDev)"
 * The desktop app has an auto-update system [thanks to the Conveyor tool by Hydraulic](https://twitter.com/dlemmermann/status/1693738821739790659).
