@@ -14,6 +14,7 @@ import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
 import com.dlsc.jfxcentral.data.model.Video;
+import com.jpro.webapi.WebAPI;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.scene.image.Image;
@@ -301,23 +302,28 @@ public class ImageManager {
 
     public ObjectProperty<Image> youTubeImageProperty(Video video) {
         // 480 x 360
-        return remoteImageProperty(youTubeImageURL(video), video.getId(), MISSING_VIDEO_IMAGE);
+        return remoteImageProperty(youTubeImageURL(video), video.getId(), MISSING_VIDEO_IMAGE, 480, 360);
     }
 
 
     public ObjectProperty<Image> githubAvatarImageProperty(String loginName) {
-        return remoteImageProperty("https://github.com/" + loginName + ".png","&size=100", "github-" + loginName, MISSING_USER_IMAGE);
+        return remoteImageProperty("https://github.com/" + loginName + ".png","&size=100", "github-" + loginName, MISSING_USER_IMAGE, 100, 100);
     }
 
 
 
     private Map<String, ObjectProperty<Image>> remoteImageCache = new HashMap<>();
 
-    private ObjectProperty<Image> remoteImageProperty(String baseURL, String photoKey, Image placeholderImage) {
-        return remoteImageProperty(baseURL, "", photoKey, placeholderImage);
+    private ObjectProperty<Image> remoteImageProperty(String baseURL, String photoKey, Image placeholderImage, int width, int height) {
+        return remoteImageProperty(baseURL, "", photoKey, placeholderImage, width, height);
     }
 
-    private ObjectProperty<Image> remoteImageProperty(String imageUrl, String append, String photoKey, Image placeholderImage) {
+    private ObjectProperty<Image> remoteImageProperty(String imageUrl, String append, String photoKey, Image placeholderImage, int width, int height) {
+
+        if (WebAPI.isBrowser()) {
+            return new SimpleObjectProperty<>(WebAPI.createVirtualImage(imageUrl, width, height));
+        }
+
         if (StringUtils.isBlank(imageUrl) || StringUtils.isBlank(photoKey)) {
             return new SimpleObjectProperty<>(placeholderImage);
         }
@@ -333,7 +339,7 @@ public class ImageManager {
 
                 connection.connect();
 
-                Image image = new Image(url.toExternalForm(), false);
+                Image image = new Image(url.toExternalForm(), !DataRepository.testing);
                 image.progressProperty().addListener(it -> {
                     // exception = 404 -> no image found for given URL
                     if (image.getProgress() == 1 && image.getException() == null) {
@@ -344,7 +350,9 @@ public class ImageManager {
                 image.exceptionProperty().addListener(it -> image.getException().printStackTrace());
 
                 // when running unit tests we set the loaded image immediately
-                property.set(image);
+                if(DataRepository.testing) {
+                    property.set(image);
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             }

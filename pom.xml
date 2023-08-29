@@ -24,10 +24,30 @@
         <!-- We stay on 11 in this project so that the TestFX stuff and Monocle work correctly. -->
         <javafx.version>11.0.2</javafx.version>
         <enforcer.skip>true</enforcer.skip>
+        <jpro.version>2023.2.2</jpro.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>sandec</id>
+            <url>https://sandec.jfrog.io/artifactory/repo</url>
+        </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>com.sandec.jpro</groupId>
+                <artifactId>jpro-webapi</artifactId>
+                <version>${jpro.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.openjfx</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
 
             <dependency>
                 <groupId>org.openjfx</groupId>
@@ -111,6 +131,11 @@
     </dependencyManagement>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.sandec.jpro</groupId>
+            <artifactId>jpro-webapi</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.openjfx</groupId>
