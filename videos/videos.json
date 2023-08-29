@@ -627,24 +627,6 @@
     "publishedOn": "2013-01-30"
   },
   {
-    "name": "In Control with ControlsFX | Eugene Ryzhikov & Jonathan Giles",
-    "tags": "custom controls",
-    "type": "Presentation",
-    "domain": "",
-    "description": "ControlsFX is an open source project for JavaFX that aims to provide high-quality UI controls and other tools to complement the core JavaFX distribution. It was developed for JavaFX 8.0 and beyond and has a guiding principle of accepting new controls/features only when all existing code is at an acceptably high level, including thankless jobs such as having high-quality JavaDoc documentation. This session takes you on a practical code-driven walk-through of how to use ControlsFX in your applications, using an example-driven approach; examines many features, both old and new; and provides insight into future plans for this project.",
-    "id": "pjKgPeiWc0o",
-    "minutes" : "60",
-    "event": "JavaOne",
-    "personIds": [
-      "j.giles",
-      "e.ryzhikov"
-    ],
-    "platform": "Desktop",
-    "createdOn": "2021-06-14",
-    "modifiedOn": "2021-06-14",
-    "publishedOn": "2013-06-14"
-  },
-  {
     "name": "Medusa Demo",
     "tags": "gauges, charts, graphs, instruments",
     "type": "Demo",
@@ -905,24 +887,6 @@
     "publishedOn": "2013-06-16",
     "personIds": [
       "d.lemmermann"
-    ]
-  },
-  {
-    "name": "How to Build the Game 2048 with JavaFX and Java: Lessons Learned",
-    "tags": "game, mobile, gluon, ios, android",
-    "type": "Real World Application",
-    "domain": "Gaming",
-    "description": "The game called 2048 has several implementations, for mobile smartphones and tablets as well as online JavaScript versions. JavaFX comes with amazing features that enables the developers to implement it very quickly and with Java it can be run in any environment that supports Java SE, including a Raspberry Pi. In this session, the developers share with you everything they learned while developing this little game and introduce you to basic UI concepts for gaming development in JavaFX, animations, and CSS styling and show you how and when to apply lambda expressions and make good use of the Stream API.",
-    "id": "20MDfZZ3-18",
-    "minutes" : "59",
-    "event": "JavaOne 2014",
-    "platform": "",
-    "createdOn": "2021-06-18",
-    "modifiedOn": "2021-06-18",
-    "publishedOn": "2013-06-18",
-    "personIds": [
-      "b.borges",
-      "j.pereda"
     ]
   },
   {
