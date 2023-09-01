@@ -1,8 +1,8 @@
 ## Applications
 
-* [**Onkel Stipe** shared a screenshot of "SoundLab"](https://twitter.com/OnkelStipe/status/1696236782885474494): "I developed it to investigate in generating realtime virtual analog sounds. The Oscilloscope feels quite analog. It also has a realtime spectrum and a view called "klangteppich", which nicely imitates the spectral view of audacity."
-* [**WhiteWoodCity** is upgrading "dillon-boot-fx", a Permission Management System UI](https://twitter.com/WhiteWoodCity/status/1694998831480614954), to JDK 17+ and also providing jigsaw support.
-* [Fx Calculator by **Maciek Gorywoda** is now available at Google Play Store](https://twitter.com/solid2017/status/1695800702356930565)! "Written in Scala 3, JavaFX, and built with GraalVM Native Image"
+* [**Onkel Stipe** shared a screenshot of SoundLab](https://twitter.com/OnkelStipe/status/1696236782885474494): "I developed it to investigate in generating realtime virtual analog sounds. The Oscilloscope feels quite analog. It also has a realtime spectrum and a view called "klangteppich", which nicely imitates the spectral view of audacity."
+* [**WhiteWoodCity** is upgrading dillon-boot-fx, a Permission Management System UI](https://twitter.com/WhiteWoodCity/status/1694998831480614954), to JDK 17+ and also providing jigsaw support.
+* [Fx Calculator by **Maciek Gorywoda** is now available at Google Play Store](https://twitter.com/makingthematrix/status/1695108624400482636)! "Written in Scala 3, JavaFX, and built with GraalVM Native Image"
 
 ## Games
 
@@ -10,7 +10,7 @@
 
 ## Components, Libraries, Tools
 
-* [**Pedro Duque Vieira** released a new library, a JavaFX theme called "Transit Theme"](https://twitter.com/P_Duke/status/1696149890370285877): "Modern look and feel, Zero tight coupling, Looks integrated on Windows, Also works well on other OSes, Light and Dark versions,..."
+* [**Pedro Duque Vieira** released a new library, a JavaFX theme called Transit Theme](https://twitter.com/P_Duke/status/1696149890370285877): "Modern look and feel, Zero tight coupling, Looks integrated on Windows, Also works well on other OSes, Light and Dark versions,..."
 * [**Dirk Lemmermann** released version 3.0.0 of PDFViewFX](https://twitter.com/dlemmermann/status/1697192575969493372): "This release is based on Apache PDFBox 3, which contains an impressive list of fixes and enhancements"
 * [**JavaSuns** came upon this great small pure Java library, SimplePNG](https://twitter.com/javasunsFX/status/1696959645384839544), for storing JavaFX images to PNG files. Great compression ratios and file sizes achieved with the use of PNGJavaFXUtils class.
 
