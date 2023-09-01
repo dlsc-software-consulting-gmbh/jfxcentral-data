@@ -26,6 +26,6 @@
 
 *
 
-## JFX-Central
+## JFX Central
 
 * 
