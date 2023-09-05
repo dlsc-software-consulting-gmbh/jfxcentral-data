@@ -683,6 +683,7 @@
     "documentation": "https://github.com/HanSolo/Medusa/wiki",
     "license": "APACHE2",
     "homepage": "https://harmoniccode.blogspot.com/search/label/medusa",
+    "repository": "https://github.com/HanSolo/medusa",
     "javadocs": "",
     "githubAccount": "HanSolo",
     "githubProject": "Medusa",
