@@ -42,7 +42,7 @@ SmartFinder is available for **Windows** and **Mac** operating systems.
 * **SmartFinder wherever you want**! You can also use SmartFinder from your browser and **share** the use remotely even with all the devices on your network: read your Desktop files from your mobile phone!;
 * Search also on **virtual** **folders**: you can search on all the folders you share on your disk such as **Dropbox**, **OneDrive** or **ICloud**!
 
-## Some screenshots
+## Screenshots
 
 ![Screen 1](screen-shot-1.jpg)
 ![Screen 2](screen-shot-2.jpg)
