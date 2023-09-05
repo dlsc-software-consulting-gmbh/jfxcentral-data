@@ -471,7 +471,7 @@
     "license": "GPLV3",
     "homepage": "https://github.com/jfree/orsonchartsfx",
     "javadocs": "https://javadoc.io/doc/org.jfree/org.jfree.chart3d.fx/latest/org.jfree.chart3d.fx/module-summary.html",
-    "repository": "https://github.com/jfree/orsonchartsfx",
+    "repository": "https://github.com/jfree/orson-charts-fx",
     "githubAccount": "jfree",
     "githubProject": "orsonchartsfx",
     "issueTracker": "https://github.com/jfree/orsonchartsfx/issues",
