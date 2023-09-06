@@ -508,6 +508,33 @@
     ]
   },
   {
+    "name": "PickerFX",
+    "summary": "PickerFX: A framework for touch-based picker controls.",
+    "tags": "custom controls, picker, touch, framework",
+    "description": "PickerFX is a lightweight framework for creating picker (touch) controls.",
+    "documentation": "https://github.com/dlsc-software-consulting-gmbh/PickerFX#readme",
+    "license": "APACHE2",
+    "homepage": "",
+    "javadocs": "",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/PickerFX",
+    "githubAccount": "dlsc-software-consulting-gmbh",
+    "githubProject": "PickerFX",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PickerFX/issues",
+    "id": "pickerfx",
+    "createdOn": "2023-09-06",
+    "modifiedOn": "2023-09-06",
+    "groupId": "com.dlsc.pickerfx",
+    "artifactId": "pickerfx",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "videoIds": [
+      "gbnVk6-tU4g"
+    ],
+    "peopleIds": [
+      "d.lemmermann"
+    ]
+  },
+  {
     "name": "PreferencesFX",
     "summary": "A framework for creating application preferences UIs",
     "tags": "preferences, custom controls, framework",
@@ -527,6 +554,34 @@
     "artifactId": "preferencesfx-core",
     "logoAvailable": "true",
     "ensemble": "false"
+  },
+  {
+    "name": "RichTextArea",
+    "summary": "RichTextArea is a text input control which provides rich text features along with emoji, and non-text objects like images, tables and hyperlinks.",
+    "tags": "custom controls, rich text editor",
+    "description": "The RichTextArea control, presented by Gluon, is built with standard Java and JavaFX APIs. It supports rich text, emojis, images, tables, and hyperlinks. ",
+    "documentation": "https://github.com/gluonhq/rich-text-area#readme",
+    "license": "GPLV3",
+    "homepage": "",
+    "javadocs": "https://javadoc.io/doc/com.gluonhq/rich-text-area/latest/com.gluonhq.richtextarea/module-summary.html",
+    "repository": "https://github.com/gluonhq/rich-text-area",
+    "githubAccount": "gluonhq",
+    "githubProject": "rich-text-area",
+    "issueTracker": "https://github.com/gluonhq/rich-text-area/issues",
+    "id": "richtextarea",
+    "companyId": "gluon",
+    "createdOn": "2023-09-06",
+    "modifiedOn": "2023-09-06",
+    "groupId": "com.gluonhq",
+    "artifactId": "rich-text-area",
+    "logoAvailable": "false",
+    "ensemble": "true",
+    "peopleIds": [
+      "j.pereda",
+      "e.ryzhikov",
+      "a.agarwal",
+      "d.lemmermann"
+    ]
   },
   {
     "name": "RichTextFX",
