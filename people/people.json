@@ -103,8 +103,7 @@
       "formsfx",
       "workbenchfx",
       "controlsfx",
-      "pickerfx",
-      "richtextarea"
+      "pickerfx"
     ],
     "companyIds": [
       "dlsc"
@@ -515,8 +514,7 @@
     "createdOn": "2021-06-16",
     "modifiedOn": "2023-09-06",
     "toolIds": [
-      "cssfx",
-      "showcasefx"
+      "cssfx"
     ]
   },
   {
