@@ -1,0 +1,15 @@
+{
+  "images": [
+    {
+      "path": "pickerfx-demo.png",
+      "title": "Picker (touch) controls for JavaFX",
+      "description": "A small framework for JavaFX that provides picker (touch) controls."
+    }
+  ],
+  "videos": [
+    {
+      "description": "video description",
+      "url": "https://www.youtube.com/watch?v=gbnVk6-tU4g"
+    }
+  ]
+}

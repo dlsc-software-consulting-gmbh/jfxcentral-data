@@ -104,6 +104,21 @@
     ]
   },
   {
+    "id": "showcasefx",
+    "name": "ShowcaseFX",
+    "summary": "A view for developing JavaFX stylesheets.",
+    "description": "A tool designed for previewing and developing JavaFX stylesheets, allowing users to overlay multiple stylesheets on the modena theme. It can run standalone or integrate into apps.",
+    "tags": "css, stylesheet",
+    "homepage": "https://github.com/dlsc-software-consulting-gmbh/ShowcaseFX",
+    "groupId": "com.dlsc.showcasefx",
+    "artifactId": "showcasefx",
+    "createdOn": "2023-09-06",
+    "modifiedOn": "2023-09-06",
+    "companyIds": [
+      "dlsc"
+    ]
+  },
+  {
     "id": "testfx",
     "name": "TestFX",
     "summary": "A unit testing framework for JavaFX.",

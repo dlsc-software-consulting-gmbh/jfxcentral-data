@@ -17,6 +17,7 @@
     "description": "DLSC is a software company located in Zurich, Switzerland. They are specialised in developing JavaFX and Swing frameworks and providing consulting services.",
     "homepage": "https://dlsc.com",
     "createdOn": "2021-05-26",
+    "modifiedOn": "2023-09-06",
     "consulting": "true",
     "freelancing": "true",
     "tags": "freelancing, consulting, custom controls",
@@ -29,7 +30,11 @@
       "flexganttfx",
       "pdffx",
       "keyboardfx",
-      "gmapsfx"
+      "gmapsfx",
+      "pickerfx"
+    ],
+    "toolIds": [
+      "showcasefx"
     ]
   },
   {
@@ -51,8 +56,12 @@
     "homepage": "https://gluonhq.com",
     "tags": "mobile, embedded, ios, android, maven plugin",
     "createdOn": "2021-05-27",
+    "modifiedOn": "2023-09-06",
     "consulting": "true",
-    "freelancing": "true"
+    "freelancing": "true",
+    "libraryIds": [
+      "richtextarea"
+    ]
   },
   {
     "id": "foojay",
