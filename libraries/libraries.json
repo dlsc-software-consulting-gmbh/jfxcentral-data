@@ -575,7 +575,7 @@
     "groupId": "com.gluonhq",
     "artifactId": "rich-text-area",
     "logoAvailable": "false",
-    "ensemble": "true",
+    "ensemble": "false",
     "peopleIds": [
       "j.pereda",
       "e.ryzhikov",
