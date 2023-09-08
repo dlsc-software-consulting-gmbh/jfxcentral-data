@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "path": "pickerfx-demo.png",
+      "path": "pickerfx-demo.jpg",
       "title": "Picker (touch) controls for JavaFX",
       "description": "A small framework for JavaFX that provides picker (touch) controls."
     }

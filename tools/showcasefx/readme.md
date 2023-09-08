@@ -1,7 +1,5 @@
 # ShowcaseFX
 
-*At least **JDK 11** is required.*
-
 [![Maven Central](https://img.shields.io/maven-central/v/com.dlsc.showcasefx/showcasefx)](https://search.maven.org/search?q=g:com.dlsc.showcasefx%20AND%20a:showcasefx)
 
 This project contains a single control called `CssShowcaseView` that can be used to preview the results produced by adding one or more stylesheets on top of the built-in modena stylesheet. This view can be run as part of a standalone CSS testing application or integrated into a customer application as a developer option.
