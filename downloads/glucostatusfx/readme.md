@@ -1,5 +1,3 @@
-GlucoStatusFX
-
 *A glucose status monitor for Nightscout implemented in JavaFX.*
 
 *GlucoStatusFX* is optimized for Macos but will also run on Windows and Linux. On Macos it will look like a native app, react on dark/light mode changes and also supports the
