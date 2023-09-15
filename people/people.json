@@ -197,6 +197,9 @@
     "modifiedOn": "2021-06-03",
     "bookIds": [
       "masteringjavafx10"
+    ],
+    "companyIds": [
+      "azul"
     ]
   },
   {
@@ -263,6 +266,9 @@
     ],
     "tutorialIds": [
       "fxdocs"
+    ],
+    "companyIds": [
+      "azul"
     ]
   },
   {
