@@ -36,7 +36,7 @@
   {
     "name": "Modellus + FXRibbon + JMetro (interview with Pedro Duque Vieira on Almas channel)",
     "tags": "modelling, mathematics, university, teaching, academic, Library",
-    "type": "Real World Application",
+    "type": "Interview",
     "domain": "Education",
     "minutes" : "48",
     "platform": "Desktop",
@@ -53,7 +53,7 @@
   {
     "name": "Java Desktop 2020 - Keynote at JFX Days 2020 | Hendrik Ebbers",
     "tags": "",
-    "type": "Keynote",
+    "type": "Presentation",
     "description": "Follow Java Champion Hendrik Ebbers on his story of \"Little Duke's Journey to the Moon\". During this keynote presentation held at JFX Days 2020 on Nov 24, 2020, Hendrik investigates what is wrong with Java in regards of the development of desktop applications. Is this a problem of Java - although it is still one of the most used programming languages? Or is it a problem of Java Desktop respectively JavaFX? Or maybe the problem is the community or - even worse - Oracle itself. \n\nIn this entertaining talk, Hendrik points out that there is no problem with all of the above. Developers need to accept that Java Desktop is a niche. But all together, the community can make this niche shine.",
     "id": "mIR2TucAwSQ",
     "minutes" : "27",
@@ -69,7 +69,7 @@
   {
     "name": "JavaFX Roadmap @ JFX Days 2020 | Wolfgang Weigend",
     "tags": "",
-    "type": "Roadmap",
+    "type": "Presentation",
     "description": "Wolfgang Weigend works as Master Principal Solution Engineer at Oracle Global Services Germany GmbH in the worldwide Java team. He is involved in Java technology, GraalVM and architecture to develop enterprise Java applications. During his talk at the JFX Days 2020 on Nov 24, he presented the JavaFX roadmap and covers topics like OpenJFX, GraalVM and NVIDIA's GPU.\n\nSoftware solution engineer at Oracle about Java technology, GraalVM & architecture to develop enterprise Java applications",
     "id": "PEl7Ojla9bc",
     "minutes" : "22",
@@ -85,7 +85,7 @@
   {
     "name": "Moving JavaFX forward - Keynote Day 2 @ JFX Days 2020 | Johan Vos",
     "tags": "",
-    "type": "Keynote, Roadmap",
+    "type": "Presentation",
     "description": "Gluon has been the defacto JavaFX steward since the JavaFX 11 release. Gluon builds and maintains the JavaFX artifacts and makes them available as SDK's as well as on Maven Central. Moving JavaFX forward is often a balance between adding new features and staying at the front of the UI development, while also making sure that the core principles of Java, especially backward compatibility, are respected.\n\u200B\nIn the past year, focus was mainly on the transition to making JavaFX a set of modules that work well with evolving JDK releases as well as integrate with standard build, deploy and devops tools that are popular in the development community. One of the main focusses of JavaFX is to make sure it works on as much platforms as possible: desktop, but also mobile and embedded. In this session, Johan Vos, CEO of Gluon, presented some of the future ideas.",
     "minutes" : "50",
     "id": "Q9ueZa_YkJg",
@@ -217,7 +217,7 @@
   {
     "name": "JavaFX Performance | Anton Epple @ JFX Days 2020",
     "tags": "tips, tricks",
-    "type": "Tips & Tricks",
+    "type": "Presentation",
     "description": "JavaFX is a great framework for creating graphically rich and highly interactive applications. The Scene Graph API makes it really easy to visualize your data with  rich controls, complex animations and CSS styling. When done right, JavaFX applications can be blazingly fast. But while the high level API protects you from having to write lots of graphics code, it also makes finding performance problems hard. In this session recorded at JFX Days 2020, Anton Epple presented tools and strategies for identifying and solving JavaFX performance issues.",
     "id": "m6WIQhH4dZg",
     "minutes" : "54",
@@ -234,7 +234,7 @@
     "name": "Chart-FX - Why and How to Plot 1001k scientific data points @ 25 Hz | A. Krimm & R. Steinhagen",
     "tags": "charts, graphs, research, science",
     "type": "Library",
-    "domain": "Charting",
+    "domain": "Charts",
     "description": "Chart-FX is a scientific charting library focused on performance optimized real-time data visualization at 25 Hz update rates for data sets with a few 10 thousand up to 5 million data points. From its origin, design choices, functional highlights to its real-world high-performance use-cases, and its future, this contribution presents some of the challenges, encountered opportunities as well as benefits since open-sourcing this library.",
     "id": "NK4pgRF9XWk",
     "minutes" : "18",
@@ -300,7 +300,7 @@
   {
     "name": "From Forms to OpenGL | Tom Schindl @ JFX Days 2020",
     "tags": "",
-    "type": "Keynote",
+    "type": "Presentation",
     "description": "Most developers associate integrating OpenGL into JavaFX as a high profile task. For them it might come as a surprise that implementing \"boring\" business UIs that look slick, that are accessible, and that are well architectured, is just as much of a high profile task.\n \nIn this talk we will show real world use cases and highlight how we implemented high quality form-based UIs leveraging JavaFX and code generators. We will talk about \"accessibility\" (a11y) and the roadblocks we hit.\n\u200B\nLast but not least we will talk a bit about DriftFX providing an update on the current status and what comes next.",
     "id": "NusKg2ZWnrg",
     "minutes" : "52",
@@ -442,7 +442,7 @@
   {
     "name": "JFX Days Zurich 2018 Keynote | Dirk Lemmermann et al.",
     "tags": "",
-    "type": "Keynote",
+    "type": "Presentation",
     "domain": "",
     "description": "This is a recording of the keynote of the JFX Days conference in Zurich (December 4th, 2018). The keynote consists of four parts. Introduction DLSC. DLSC Open Source Projects (PreferencesFX (7:20), WorkbenchFX (13:27)), Graviton Presentation (21:53), Show & Tell. The last part shows a total of ten applications that are using JavaFX: Sideline Sports Presentation Builder (31:56), NaviElektro Situational Awareness Applications (33:21), Carl Zeiss (37:40), Sophia AI Genetics (40:00), Rinkai Routing Optimization (42:49), Safran Batch Production (46:23), Woanna Team Collaboration (51:50), Michael Paus Aviation (56:00), Synedra (59:24), Rohm Semiconductors (1:03:02).",
     "id": "Lg6Hvj7_P14",
@@ -578,7 +578,7 @@
   },
   {
     "name": "JFX Days 2019: Desktop 2019 | Hendrik Ebbers",
-    "type": "Keynote",
+    "type": "Presentation",
     "tags": "",
     "domain": "",
     "description": "Some years ago development of Java Desktop applications was easy: We just downloaded Java 8 from Oracle and got a set of useful tools and framework to develop Java desktop applications:\n\nAWT & Swing\nWebStart\nJavaFX\nJFX Packager\n\nIf you now download a Java version from Oracle (or any other vendor) several of the mentioned tools and frameworks are gone. Some JDKs only contain AWT & Swing for desktop development and miss all the newer tools. But even if they include such tools or frameworks you have sometimes no idea about their state.\n\nIn this session I will give an overview about the differences between JDKs that you can use today and how frameworks like JavaFX are really supported by the vendors. Next to this we will have a look at all the tools that are important for building and installing desktop development.",
@@ -629,7 +629,7 @@
   {
     "name": "Medusa Demo",
     "tags": "gauges, charts, graphs, instruments",
-    "type": "Demo",
+    "type": "Library",
     "domain": "",
     "description": "A short video highlighting the various gauges found inside the Medusa project.",
     "id": "l2ZYO4HXjLg",
@@ -807,7 +807,7 @@
   {
     "name": "DesktopPaneFX Demonstration",
     "tags": "desktop, mdi, internal windows, jdesktoppane",
-    "type": "Real World Application",
+    "type": "Library",
     "domain": "",
     "description": "A demonstration of DesktopPaneFX, an MDI component for JavaFX.",
     "id": "gUPLJh05b3w",
