@@ -51,6 +51,9 @@
       "controlsfx",
       "richtextarea"
     ],
+    "companyIds": [
+      "gluon"
+    ],,
     "createdOn": "2021-06-14",
     "modifiedOn": "2023-09-06"
   },
