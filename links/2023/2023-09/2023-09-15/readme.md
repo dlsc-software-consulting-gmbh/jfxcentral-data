@@ -1,7 +1,7 @@
 ## Applications
 
-* The [Logic simulator by **OrangoMango** got updated to v1.1 update](https://twitter.com/orango_mango/status/1698269059513462867): "a new web version made with WebFX, bug fix, RGB lights and some UI changes."
-* [**surajit** completed M-AID (Retail Pharmacy Management)](https://twitter.com/surajit8017/status/1700781040779022628): "with a mobile app that is always connected to the desktop app via Wi-Fi, no internet is needed for operations."
+* The [Logic simulator by **OrangoMango** got updated to v1.1 update](https://twitter.com/orango_mango/status/1698269059513462867): "A new web version made with WebFX, bug fix, RGB lights and some UI changes."
+* [**surajit** completed M-AID (Retail Pharmacy Management)](https://twitter.com/surajit8017/status/1700781040779022628): "With a mobile app that is always connected to the desktop app via Wi-Fi, no internet is needed for operations."
 * [RNArtist by **Fabrice Jossinet** offers now an undo/redo feature](https://twitter.com/rnartist_app): "It can even iterate automatically over its history. Take a look at my attempt to produce a better layout for an archaea LSU rRNA (green blinking = redo, orange = undo)."
 
 ## Components, Libraries, Tools
@@ -19,7 +19,7 @@
   * [Introduction to Gluon Maps](https://www.youtube.com/watch?v=aST8C2N5k4g)
   * [Introducing Gluon Rich Text Area](https://www.youtube.com/watch?v=E2lREX9RFa0)
   * [Basic usage of Gluon Rich Text Area](https://www.youtube.com/watch?v=___Fp_vk4CY)
-* [Part 4 of the video tutorials in French by **Jason Champagne**](https://twitter.com/jachampagne8/status/1700547961921352094): "On aborde les premiers contrôles utilisateur sur JavaFX."
+* [Part 4 of the video tutorials in French by **Jason Champagne**](https://twitter.com/jachampagne8/status/1700547961921352094): "On aborde les premiers contrôles utilisateur sur JavaFX" (First user controls in JavaFX).
 * [**Ken Kousen** ("Tales from the jar side") shared a video](https://mastodon.social/@kenkousen/111035349071040667): "Generate images using Java. See how to write Java to drive the Dall-E image tool. Combined text blocks, JSON parsing, records, and even a JavaFX image carousel."
 * **Edward Nyirenda Jr** is continuing his series of tutorials: [Internationalization in JavaFX: Building Multilingual Apps](https://twitter.com/EdwardAlgorist/status/1701348814156685713): "Internationalization is the process of designing your application so that it can be easily adapted to different languages and regions without code changes."
 * In Portuguese by **Edivaldo Brito**: ["Como instalar o Gluon Scene Builder no Linux via Flatpak"](https://twitter.com/edivaldobrito/status/1702468670130425979) (How to install Gluon Scene Builder on Linux via Flatpak).
