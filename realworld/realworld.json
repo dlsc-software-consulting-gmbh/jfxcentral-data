@@ -696,5 +696,22 @@
     "createdOn": "2023-06-07",
     "modifiedOn": "2023-06-07",
     "location": "Germany"
+  },
+
+  {
+    "id": "maid",
+    "name": "M-AID",
+    "company": "",
+    "url": "",
+    "domain": "Business Management",
+    "tags": "business management, pharmacy management",
+    "summary": "A solution for Retail pharmacy business",
+    "description": "M-AID is a comprehensive and innovative solution designed specifically for retail pharmacy businesses. With its cutting-edge features and user-friendly interface, M-AID streamlines and enhances every aspect of your pharmacy operations. From inventory management and prescription processing to customer engagement and sales analytics, M-AID empowers you to run your pharmacy efficiently and profitably.M-AID goes a step further in simplifying retail pharmacy operations with its mobile app, which operates seamlessly over Wi-Fi without the need for a internet connection ",
+    "createdOn": "2023-19-09",
+    "modifiedOn": "2023-19-09",
+    "location": "India",
+    "personIds": [
+      "s.mondal"
+    ]
   }
 ]
