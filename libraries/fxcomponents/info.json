@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "List-Builder.jpg",
+      "title": "List Builder",
+      "description": "A control with 2 lists. A source list and a target list. Supports drag and dropping items between lists."
+    },
+    {
+      "path": "Reordable-List-View.jpg",
+      "title": "Reordable List View",
+      "description": "Reordable ListView. Allows the user to reorder the items in this ListView through drag and drop."
+    },
+    {
+      "path": "Blocking-Infinite-ProgressBar.jpg",
+      "title": "Blocking Infinite ProgressBar",
+      "description": "Blocking Infinite ProgressBar. Blocks user input while a long standing operation is in progress."
+    }
+  ]
+}

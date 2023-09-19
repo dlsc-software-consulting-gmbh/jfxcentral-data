@@ -104,10 +104,17 @@
     "summary": "Developing applications to boost customer productivity.",
     "description": "Pixel Duke is a company specialized in the development of beautiful, graphical applications that users feel happy to use and that significantly boost their productivity.",
     "homepage" : "https://www.pixelduke.com",
-    "tags": "consulting",
+    "tags": "consulting, freelancing, custom controls",
     "createdOn": "2021-07-25",
     "consulting": "true",
-    "freelancing": "true"
+    "freelancing": "true",
+    "libraryIds": [
+      "jmetro",
+      "fxskins",
+      "fxribbon",
+      "fxparallax",
+      "fxcomponents"
+    ]
   },
   {
     "id": "serendipity",
