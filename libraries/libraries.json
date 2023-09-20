@@ -935,5 +935,25 @@
     "logoAvailable": "false",
     "groupId": "com.github.birdasaur.litfx",
     "artifactId": "LitFX"
+  },
+  {
+    "id": "fxcomponents",
+    "name": "FXComponents",
+    "summary": "New controls for JavaFX.",
+    "description": "A collection of new Controls for JavaFX applications.",
+    "tags": "control, javafx",
+    "license": "GPL2CLASSPATH",
+    "homepage": "https://pixelduke.com/fxcomponents/",
+    "documentation": "https://pixelduke.com/fxcomponents/",
+    "repository": "https://github.com/dukke/FXComponents",
+    "githubAccount": "dukke",
+    "githubProject": "FXComponents",
+    "issueTracker": "https://github.com/dukke/FXComponents/issues",
+    "createdOn": "2023-09-19",
+    "modifiedOn": "2023-09-19",
+    "ensemble": "false",
+    "logoAvailable": "false",
+    "groupId": "com.pixelduke",
+    "artifactId": "fxcomponents"
   }
 ]
