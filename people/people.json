@@ -647,5 +647,22 @@
     "gitHub": "",
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
-  }
+  },
+  {
+    "name": "Fuqiang Wang",
+    "email": "fujohnwang@gmail.com",
+    "companyId": "keevol",
+    "website": "https://keevol.cn",
+    "gitHub": "fujohnwang",
+    "blogId": "https://afoo.me",
+    "linkedIn": "fujohnwang",
+    "twitter": "fujohnwang",
+    "champion": false,
+    "rockstar": false,
+    "id": "afoo",
+    "libraryIds": [
+    ],
+    "createdOn": "2023-09-20",
+    "modifiedOn": "2023-09-20"
+  },
 ]
