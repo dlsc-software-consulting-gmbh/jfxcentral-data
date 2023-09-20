@@ -647,5 +647,23 @@
     "gitHub": "",
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
+  },
+  {
+    "name": "Surajit Mondal",
+    "email": "surajit.mondal@live.com",
+    "companyId": "",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "surajit-mondal-67a61664",
+    "twitter": "surajit8017",
+    "champion": false,
+    "rockstar": false,
+    "id": "s.mondal",
+    "gitHub": "",
+    "createdOn": "2023-09-19",
+    "modifiedOn": "2023-09-19",
+    "appIds": [
+      "maid"
+    ]
   }
 ]
