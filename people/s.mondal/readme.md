@@ -1,1 +1,1 @@
-Software Developer java , javaFx , Spring boot, android , sql 
+Software Developer Java, JavaFX, Spring Boot, Android, SQL 
