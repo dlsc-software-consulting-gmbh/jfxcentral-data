@@ -697,7 +697,6 @@
     "modifiedOn": "2023-06-07",
     "location": "Germany"
   },
-
   {
     "id": "maid",
     "name": "M-AID",
@@ -707,11 +706,24 @@
     "tags": "business management, pharmacy management",
     "summary": "A solution for Retail pharmacy business",
     "description": "M-AID is a comprehensive and innovative solution designed specifically for retail pharmacy businesses. With its cutting-edge features and user-friendly interface, M-AID streamlines and enhances every aspect of your pharmacy operations. From inventory management and prescription processing to customer engagement and sales analytics, M-AID empowers you to run your pharmacy efficiently and profitably.M-AID goes a step further in simplifying retail pharmacy operations with its mobile app, which operates seamlessly over Wi-Fi without the need for a internet connection ",
-    "createdOn": "2023-01-04",
-    "modifiedOn": "2023-01-04",
+    "createdOn": "2023-09-14",
+    "modifiedOn": "2023-09-14",
     "location": "India",
     "personIds": [
       "s.mondal"
     ]
+  },
+  {
+    "id": "easycashier",
+    "name": "EasyCashier",
+    "company": "EasyCashier",
+    "url": "https://easycashier.se",
+    "domain": "Sales System",
+    "tags": "point of sales system, pos, cashier, sale",
+    "summary": "A point of sales system",
+    "description": "EasyCashier is a point of sale (POS) system targeting a variety of businesses in Sweden. These businesses are ranging from retail stores or beauty parlors to gas stations.",
+    "createdOn": "2023-09-26",
+    "modifiedOn": "2023-09-26",
+    "location": "Sweden"
   }
 ]
