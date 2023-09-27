@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SVG Path Extractor",
+    "id": "pathextractor",
+    "status": "BETA",
+    "description": "Extract path data effortlessly from your SVG files for node customization. Using the extracted path, you can define intricate shapes."
+  },
+  {
+    "name": "Shadow Designer",
+    "id": "shadowdesigner",
+    "status": "PLANNING",
+    "description": "Streamlines the shadow creation process, allowing users to add depth and emphasis to their designs with ease."
+  },
+  {
+    "name": "Pixel-to-EM Converter",
+    "id": "pxtoemconverter",
+    "status": "PLANNING",
+    "description": "Effortlessly transition from fixed pixel values to flexible \"em\" units in your CSS."
+  },
+  {
+    "name": "Gradient Designer",
+    "id": "gradientdesigner",
+    "status": "PLANNING",
+    "description": "Craft stunning gradients with ease using the Gradient Designer.Offers a visual interface to design, preview."
+  },
+  {
+    "name": "ShowcaseFX",
+    "id": "showcasefx",
+    "status": "DEVELOPING",
+    "description": "Craft stunning gradients with ease using the Gradient Designer.Offers a visual interface to design, preview."
+  }
+]
