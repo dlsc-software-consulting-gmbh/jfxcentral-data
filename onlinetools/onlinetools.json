@@ -27,15 +27,15 @@
     "name": "Gradient Designer",
     "id": "gradientdesigner",
     "status": "PLANNING",
-    "description": "Craft stunning gradients with ease using the Gradient Designer.Offers a visual interface to design, preview.",
+    "description": "This is a simple copy / paste from the gradient designer.",
     "createdOn": "2023-09-28",
     "modifiedOn": "2023-09-28"
   },
   {
-    "name": "ShowcaseFX",
-    "id": "showcasefx",
+    "name": "CSS Playground",
+    "id": "cssplayground",
     "status": "DEVELOPING",
-    "description": "Craft stunning gradients with ease using the Gradient Designer.Offers a visual interface to design, preview.",
+    "description": "A tool designed for previewing and developing JavaFX stylesheets, allowing users to overlay multiple stylesheets on the modena theme.",
     "createdOn": "2023-09-28",
     "modifiedOn": "2023-09-28"
   }

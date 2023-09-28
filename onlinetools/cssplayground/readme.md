@@ -1,4 +1,4 @@
-## Tips for ShowcaseFX:
+## CSS Playground Tips
 
 ### 1. Real-Time Preview with CssShowcaseView
 

@@ -1,4 +1,4 @@
-## Tips for Gradient Designer:
+## Gradient Designer Tips
 
 ### 1. Choose Your Gradient Type
    Whether you're looking for a sleek linear effect or a captivating radial pattern, toggle between options to find the perfect gradient for your design.
