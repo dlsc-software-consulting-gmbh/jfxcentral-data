@@ -13,6 +13,7 @@ import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
 import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.ModelObject;
 import com.dlsc.jfxcentral.data.model.News;
+import com.dlsc.jfxcentral.data.model.OnlineTool;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
@@ -101,6 +102,7 @@ public class DataRepository2 {
         getBlogs().clear();
         getCompanies().clear();
         getTools().clear();
+        getOnlineTools().clear();
         getRealWorldApps().clear();
         getDownloads().clear();
         getTutorials().clear();
@@ -131,6 +133,7 @@ public class DataRepository2 {
             blogs.addAll(load(getFile("blogs/blogs.json"), new TypeToken<List<Blog>>() {}.getType()));
             companies.addAll(load(getFile("companies/companies.json"), new TypeToken<List<Company>>() {}.getType()));
             tools.addAll(load(getFile("tools/tools.json"), new TypeToken<List<Tool>>() {}.getType()));
+            onlineTools.addAll(load(getFile("onlinetools/onlinetools.json"), new TypeToken<List<OnlineTool>>() {}.getType()));
             realWorldApps.addAll(load(getFile("realworld/realworld.json"), new TypeToken<List<RealWorldApp>>() {}.getType()));
             downloads.addAll(load(getFile("downloads/downloads.json"), new TypeToken<List<Download>>() {}.getType()));
             tips.addAll(load(getFile("tips/tips.json"), new TypeToken<List<Tip>>() {}.getType()));
@@ -183,6 +186,10 @@ public class DataRepository2 {
 
     public Optional<Tool> getToolById(String id) {
         return tools.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<OnlineTool> getOnlineToolById(String id) {
+        return onlineTools.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
     public Optional<Download> getDownloadById(String id) {
@@ -242,6 +249,8 @@ public class DataRepository2 {
             return modelObject.getPersonIds();
         } else if (clazz.equals(Tool.class)) {
             return modelObject.getToolIds();
+        } else if (clazz.equals(OnlineTool.class)){
+            return modelObject.getOnlineToolIds();
         } else if (clazz.equals(RealWorldApp.class)) {
             return modelObject.getAppIds();
         } else if (clazz.equals(News.class)) {
@@ -256,7 +265,7 @@ public class DataRepository2 {
             return modelObject.getLinksOfTheWeekIds();
         } else if (clazz.equals(IkonliPack.class)) {
             return modelObject.getIkonliPackIds();
-        }else if (clazz.equals(Member.class)) {
+        } else if (clazz.equals(Member.class)) {
             return modelObject.getMemberIds();
         } else if (clazz.equals(Documentation.class)) {
             return modelObject.getDocumentationIds();
@@ -280,6 +289,8 @@ public class DataRepository2 {
             return (List<T>) people;
         } else if (clazz.equals(Tool.class)) {
             return (List<T>) tools;
+        } else if (clazz.equals(OnlineTool.class)) {
+            return (List<T>) onlineTools;
         } else if (clazz.equals(RealWorldApp.class)) {
             return (List<T>) realWorldApps;
         } else if (clazz.equals(News.class)) {
@@ -339,6 +350,10 @@ public class DataRepository2 {
         return getLinkedObjects(modelObject, Tool.class);
     }
 
+    public List<OnlineTool> getOnlineToolsByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, OnlineTool.class);
+    }
+
     public List<News> getNewsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, News.class);
     }
@@ -389,7 +404,7 @@ public class DataRepository2 {
     }
 
     public String getTutorialReadMe(Tutorial tutorial) {
-       return loadString(new File(getRepositoryDirectory(), "tutorials/" + tutorial.getId() + "/readme.md"));
+        return loadString(new File(getRepositoryDirectory(), "tutorials/" + tutorial.getId() + "/readme.md"));
     }
 
     public String getDownloadReadMe(Download download) {
@@ -410,6 +425,10 @@ public class DataRepository2 {
 
     public String getToolReadMe(Tool tool) {
         return loadString(new File(getRepositoryDirectory(), "tools/" + tool.getId() + "/readme.md"));
+    }
+
+    public String getOnlineToolReadMe(OnlineTool tool) {
+        return loadString(new File(getRepositoryDirectory(), "onlinetools/" + tool.getId() + "/readme.md"));
     }
 
     public String getTipReadMe(Tip tip) {
@@ -507,6 +526,12 @@ public class DataRepository2 {
 
     public List<Tool> getTools() {
         return tools;
+    }
+
+    private final List<OnlineTool> onlineTools = new ArrayList<>();
+
+    public List<OnlineTool> getOnlineTools() {
+        return onlineTools;
     }
 
     private final List<Company> companies = new ArrayList<>();

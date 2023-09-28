@@ -8,6 +8,7 @@ import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.News;
+import com.dlsc.jfxcentral.data.model.OnlineTool;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
 import com.dlsc.jfxcentral.data.model.Tip;
@@ -102,6 +103,10 @@ public class ImageManager {
         return localImageFile(new File(DataRepository.getInstance().getRepositoryDirectory(), "tools/" + tool.getId() + "/"), "logo.png");
     }
 
+    public File onlineToolFile(OnlineTool onlineTool) {
+        return localImageFile(new File(DataRepository.getInstance().getRepositoryDirectory(), "onlinetools/" + onlineTool.getId() + "/"), "logo.png");
+    }
+
     public File companyFile(Company company) {
         return localImageFile(new File(DataRepository.getInstance().getRepositoryDirectory(), "companies/" + company.getId() + "/"), "logo.png");
     }
@@ -194,6 +199,11 @@ public class ImageManager {
 
     public ObjectProperty<Image> toolImageProperty(Tool tool) {
         File file = toolFile(tool);
+        return fileToImageProperty(file, null);
+    }
+
+    public ObjectProperty<Image> onlineToolImageProperty(OnlineTool onlineTool) {
+        File file = onlineToolFile(onlineTool);
         return fileToImageProperty(file, null);
     }
 
