@@ -3,6 +3,7 @@
     "name": "SVG Path Extractor",
     "id": "pathextractor",
     "status": "BETA",
+    "summary": "Extract SVG paths from SVG files.",
     "description": "Extract path data effortlessly from your SVG files for node customization. Using the extracted path, you can define intricate shapes.",
     "createdOn": "2023-09-28",
     "modifiedOn": "2023-09-28"
@@ -11,6 +12,7 @@
     "name": "Shadow Designer",
     "id": "shadowdesigner",
     "status": "PLANNING",
+    "summary": "Configure a shadow, use settings in CSS.",
     "description": "Streamlines the shadow creation process, allowing users to add depth and emphasis to their designs with ease.",
     "createdOn": "2023-09-28",
     "modifiedOn": "2023-09-28"
@@ -19,6 +21,7 @@
     "name": "Pixel-to-EM Converter",
     "id": "pxtoemconverter",
     "status": "PLANNING",
+    "summary": "Convert pixel values in CSS files to em values.",
     "description": "Effortlessly transition from fixed pixel values to flexible \"em\" units in your CSS.",
     "createdOn": "2023-09-28",
     "modifiedOn": "2023-09-28"
@@ -27,6 +30,7 @@
     "name": "Gradient Designer",
     "id": "gradientdesigner",
     "status": "PLANNING",
+    "summary": "Configure gradients for regions.",
     "description": "This is a simple copy / paste from the gradient designer.",
     "createdOn": "2023-09-28",
     "modifiedOn": "2023-09-28"
@@ -35,6 +39,7 @@
     "name": "CSS Playground",
     "id": "cssplayground",
     "status": "DEVELOPING",
+    "summary": "Try out your CSS files on all default JavaFX controls.",
     "description": "A tool designed for previewing and developing JavaFX stylesheets, allowing users to overlay multiple stylesheets on the modena theme.",
     "createdOn": "2023-09-28",
     "modifiedOn": "2023-09-28"
