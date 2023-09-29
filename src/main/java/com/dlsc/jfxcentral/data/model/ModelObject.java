@@ -23,7 +23,7 @@ public abstract class ModelObject {
     private List<String> personIds = new ArrayList<>();
     private List<String> tutorialIds = new ArrayList<>();
     private List<String> toolIds = new ArrayList<>();
-    private List<String> onlineToolIds = new ArrayList<>();
+    private List<String> utilityIds = new ArrayList<>();
     private List<String> libraryIds = new ArrayList<>();
     private List<String> bookIds = new ArrayList<>();
     private List<String> companyIds = new ArrayList<>();
@@ -190,12 +190,12 @@ public abstract class ModelObject {
         this.toolIds = toolIds;
     }
 
-    public List<String> getOnlineToolIds() {
-        return onlineToolIds;
+    public List<String> getUtilityIds() {
+        return utilityIds;
     }
 
-    public void setOnlineToolIds(List<String> onlineToolIds) {
-        this.onlineToolIds = onlineToolIds;
+    public void setUtilityIds(List<String> utilityIds) {
+        this.utilityIds = utilityIds;
     }
 
     public List<String> getLibraryIds() {

@@ -9,7 +9,7 @@ import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.Member;
-import com.dlsc.jfxcentral.data.model.OnlineTool;
+import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
@@ -65,7 +65,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getPeople().isEmpty());
         assertTrue(!repository.getRealWorldApps().isEmpty());
         assertTrue(!repository.getTools().isEmpty());
-        assertTrue(!repository.getOnlineTools().isEmpty());
+        assertTrue(!repository.getUtilities().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
@@ -95,7 +95,7 @@ public class DataRepositoryTest {
         assertTrue(repository.getPeople().isEmpty());
         assertTrue(repository.getRealWorldApps().isEmpty());
         assertTrue(repository.getTools().isEmpty());
-        assertTrue(repository.getOnlineTools().isEmpty());
+        assertTrue(repository.getUtilities().isEmpty());
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
         assertTrue(repository.getIkonliPacks().isEmpty());
@@ -128,7 +128,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getPeople().isEmpty());
         assertTrue(!repository.getRealWorldApps().isEmpty());
         assertTrue(!repository.getTools().isEmpty());
-        assertTrue(!repository.getOnlineTools().isEmpty());
+        assertTrue(!repository.getUtilities().isEmpty());
         assertTrue(!repository.getVideos().isEmpty());
         assertTrue(!repository.getTutorials().isEmpty());
         assertTrue(!repository.getIkonliPacks().isEmpty());
@@ -389,19 +389,19 @@ public class DataRepositoryTest {
     }
 
     @Test
-    public void shouldLoadOnlineToolsDescription() {
+    public void shouldLoadUtilityDescription() {
         // given
-        DataRepository repository = DataRepository.getInstance();
-        repository.loadData();
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
 
-        assertFalse(repository.getOnlineTools().isEmpty());
+        assertFalse(repository.getUtilities().isEmpty());
 
         // when
-        repository.getOnlineTools().forEach(onlineTool -> {
-            StringProperty text = repository.onlineToolDescriptionProperty(onlineTool);
+        repository.getUtilities().forEach(utility -> {
+            String text = repository.getUtilityReadMe(utility);
 
             // then
-            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for onlineTool ID " + onlineTool.getId());
+            assertTrue(StringUtils.isNotBlank(text), "text missing for utility ID " + utility.getId());
         });
     }
 
@@ -717,19 +717,19 @@ public class DataRepositoryTest {
     }
 
     @Test
-    public void shouldGetOnlineToolById() {
+    public void shouldGetUtilityById() {
         // given
-        DataRepository repository = DataRepository.getInstance();
-        repository.loadData();
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
 
-        assertFalse(repository.getOnlineTools().isEmpty());
+        assertFalse(repository.getUtilities().isEmpty());
 
         // when
-        repository.getOnlineTools().forEach(onlineTool -> {
-            Optional<OnlineTool> result = repository.getOnlineToolById(onlineTool.getId());
+        repository.getUtilities().forEach(utility -> {
+            Optional<Utility> result = repository.getUtilityById(utility.getId());
 
             // then
-            assertNotNull(result.get(), "no onlineTool returned for ID " + onlineTool.getId());
+            assertTrue(result.isPresent(), "no utility returned for ID " + utility.getId());
         });
     }
 

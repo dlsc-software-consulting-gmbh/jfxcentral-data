@@ -1,10 +1,10 @@
 package com.dlsc.jfxcentral.data.model;
 
-public class OnlineTool extends ModelObject {
+public class Utility extends ModelObject {
 
     private DevelopmentStatus status;
 
-    public OnlineTool() {
+    public Utility() {
     }
 
     public DevelopmentStatus getStatus() {

@@ -13,7 +13,7 @@ import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
 import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.ModelObject;
 import com.dlsc.jfxcentral.data.model.News;
-import com.dlsc.jfxcentral.data.model.OnlineTool;
+import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
@@ -60,8 +60,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -73,39 +71,37 @@ public class DataRepository {
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-    private ExecutorService executor = Executors.newCachedThreadPool();
-
     private static DataRepository instance;
 
     private final Gson gson = Converters.registerLocalDate(new GsonBuilder()).setPrettyPrinting().create();
 
-    private Map<Library, ObjectProperty<LibraryInfo>> libraryInfoMap = new HashMap<>();
+    private final Map<Library, ObjectProperty<LibraryInfo>> libraryInfoMap = new HashMap<>();
 
-    private Map<News, StringProperty> newsTextMap = new HashMap<>();
+    private final Map<News, StringProperty> newsTextMap = new HashMap<>();
 
-    private Map<Tutorial, StringProperty> tutorialTextMap = new HashMap<>();
+    private final Map<Tutorial, StringProperty> tutorialTextMap = new HashMap<>();
 
-    private Map<Download, StringProperty> downloadTextMap = new HashMap<>();
+    private final Map<Download, StringProperty> downloadTextMap = new HashMap<>();
 
-    private Map<Book, StringProperty> bookTextMap = new HashMap<>();
+    private final Map<Book, StringProperty> bookTextMap = new HashMap<>();
 
-    private Map<Person, StringProperty> personDescriptionMap = new HashMap<>();
+    private final Map<Person, StringProperty> personDescriptionMap = new HashMap<>();
 
-    private Map<Tool, StringProperty> toolDescriptionMap = new HashMap<>();
+    private final Map<Tool, StringProperty> toolDescriptionMap = new HashMap<>();
 
-    private Map<OnlineTool, StringProperty> onlineToolDescriptionMap = new HashMap<>();
+    private final Map<Utility, StringProperty> utilityDescriptionMap = new HashMap<>();
 
-    private Map<Tip, StringProperty> tipDescriptionMap = new HashMap<>();
+    private final Map<Tip, StringProperty> tipDescriptionMap = new HashMap<>();
 
-    private Map<RealWorldApp, StringProperty> realWorldAppDescriptionMap = new HashMap<>();
+    private final Map<RealWorldApp, StringProperty> realWorldAppDescriptionMap = new HashMap<>();
 
-    private Map<Company, StringProperty> companyDescriptionMap = new HashMap<>();
+    private final Map<Company, StringProperty> companyDescriptionMap = new HashMap<>();
 
-    private Map<Library, StringProperty> libraryReadMeMap = new HashMap<>();
+    private final Map<Library, StringProperty> libraryReadMeMap = new HashMap<>();
 
-    private Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
+    private final Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
 
-    private Map<Member, StringProperty> memberDescriptionMap = new HashMap<>();
+    private final Map<Member, StringProperty> memberDescriptionMap = new HashMap<>();
 
     private boolean loaded;
 
@@ -142,7 +138,7 @@ public class DataRepository {
         personDescriptionMap.clear();
         companyDescriptionMap.clear();
         toolDescriptionMap.clear();
-        onlineToolDescriptionMap.clear();
+        utilityDescriptionMap.clear();
         tipDescriptionMap.clear();
         realWorldAppDescriptionMap.clear();
         downloadTextMap.clear();
@@ -159,7 +155,7 @@ public class DataRepository {
         getBlogs().clear();
         getCompanies().clear();
         getTools().clear();
-        getOnlineTools().clear();
+        getUtilities().clear();
         getRealWorldApps().clear();
         getDownloads().clear();
         getTutorials().clear();
@@ -219,8 +215,8 @@ public class DataRepository {
             }.getType());
 
             // load tools
-            File onlineToolsFile = new File(getRepositoryDirectory(), "onlinetools/onlinetools.json");
-            List<OnlineTool> onlineTools = gson.fromJson(new FileReader(onlineToolsFile, StandardCharsets.UTF_8), new TypeToken<List<OnlineTool>>() {
+            File utilitiesFile = new File(getRepositoryDirectory(), "utilities/utilities.json");
+            List<Utility> utilities = gson.fromJson(new FileReader(utilitiesFile, StandardCharsets.UTF_8), new TypeToken<List<Utility>>() {
             }.getType());
 
             // load real world apps
@@ -263,7 +259,7 @@ public class DataRepository {
             List<Documentation> documentation = gson.fromJson(new FileReader(documentationFile, StandardCharsets.UTF_8), new TypeToken<List<Documentation>>() {
             }.getType());
 
-            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, onlineTools, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members, documentation);
+            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, utilities, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members, documentation);
 
             LOG.fine("data loading finished");
         } catch (Exception e) {
@@ -274,7 +270,7 @@ public class DataRepository {
     }
 
     private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries,
-                         List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<OnlineTool> onlineTools, List<RealWorldApp> realWorldApps, List<Download> downloads,
+                         List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<Utility> utilities, List<RealWorldApp> realWorldApps, List<Download> downloads,
                          List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks, List<Member> members, List<Documentation> documentation) {
         clearData();
 
@@ -289,7 +285,7 @@ public class DataRepository {
         getBlogs().setAll(blogs);
         getCompanies().setAll(companies);
         getTools().setAll(tools);
-        getOnlineTools().setAll(onlineTools);
+        getUtilities().setAll(utilities);
         getRealWorldApps().setAll(realWorldApps);
         getDownloads().setAll(downloads);
         getTutorials().setAll(tutorials);
@@ -314,7 +310,7 @@ public class DataRepository {
         result.addAll(findRecentItems(getBlogs()));
         result.addAll(findRecentItems(getCompanies()));
         result.addAll(findRecentItems(getTools()));
-        result.addAll(findRecentItems(getOnlineTools()));
+        result.addAll(findRecentItems(getUtilities()));
         result.addAll(findRecentItems(getTutorials()));
         result.addAll(findRecentItems(getRealWorldApps()));
         result.addAll(findRecentItems(getDownloads()));
@@ -385,8 +381,8 @@ public class DataRepository {
         return tools.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
-    public Optional<OnlineTool> getOnlineToolById(String id) {
-        return onlineTools.stream().filter(item -> item.getId().equals(id)).findFirst();
+    public Optional<Utility> getUtilityById(String id) {
+        return utilities.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
     public Optional<Download> getDownloadById(String id) {
@@ -448,8 +444,8 @@ public class DataRepository {
             return modelObject.getPersonIds();
         } else if (clazz.equals(Tool.class)) {
             return modelObject.getToolIds();
-        } else if (clazz.equals(OnlineTool.class)) {
-            return modelObject.getOnlineToolIds();
+        } else if (clazz.equals(Utility.class)) {
+            return modelObject.getUtilityIds();
         } else if (clazz.equals(RealWorldApp.class)) {
             return modelObject.getAppIds();
         } else if (clazz.equals(News.class)) {
@@ -488,8 +484,8 @@ public class DataRepository {
             return (List<T>) people;
         } else if (clazz.equals(Tool.class)) {
             return (List<T>) tools;
-        } else if (clazz.equals(OnlineTool.class)) {
-            return (List<T>) onlineTools;
+        } else if (clazz.equals(Utility.class)) {
+            return (List<T>) utilities;
         } else if (clazz.equals(RealWorldApp.class)) {
             return (List<T>) realWorldApps;
         } else if (clazz.equals(News.class)) {
@@ -694,16 +690,16 @@ public class DataRepository {
         readmeProperty.set(readmeText);
     }
 
-    public StringProperty onlineToolDescriptionProperty(OnlineTool onlineTool) {
-        return onlineToolDescriptionMap.computeIfAbsent(onlineTool, key -> {
+    public StringProperty utilityDescriptionProperty(Utility utility) {
+        return utilityDescriptionMap.computeIfAbsent(utility, key -> {
             StringProperty readmeProperty = new SimpleStringProperty();
-            loadOnlineToolDescription(onlineTool, readmeProperty);
+            loadUtilityDescription(utility, readmeProperty);
             return readmeProperty;
         });
     }
 
-    private void loadOnlineToolDescription(OnlineTool onlineTool, StringProperty readmeProperty) {
-        String readmeText = loadString(new File(getRepositoryDirectory(), "onlinetools/" + onlineTool.getId() + "/readme.md"));
+    private void loadUtilityDescription(Utility utility, StringProperty readmeProperty) {
+        String readmeText = loadString(new File(getRepositoryDirectory(), "utilities/" + utility.getId() + "/readme.md"));
         readmeProperty.set(readmeText);
     }
 
@@ -872,10 +868,10 @@ public class DataRepository {
         return tools;
     }
 
-    private final ObservableList<OnlineTool> onlineTools = FXCollections.observableArrayList();
+    private final ObservableList<Utility> utilities = FXCollections.observableArrayList();
 
-    public ObservableList<OnlineTool> getOnlineTools() {
-        return onlineTools;
+    public ObservableList<Utility> getUtilities() {
+        return utilities;
     }
 
     private final ObservableList<Company> companies = FXCollections.observableArrayList();
@@ -1007,7 +1003,7 @@ public class DataRepository {
 
     private long cachedPullrequestsTime;
 
-    private long timeToReloadSeconds = 600;
+    private final long timeToReloadSeconds = 600;
 
     private List<PullRequest> cachedPullRequests;
 

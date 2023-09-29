@@ -13,5 +13,5 @@ Load stylesheets conveniently through the File menu or with the intuitive drag-a
 
 For embedded usage techniques and other tips, either refer to
 the [ShowcaseFX GitHub repository](https://github.com/dlsc-software-consulting-gmbh/ShowcaseFX) or visit our
-website's [ShowcaseFX details page](https://www.jfx-central.com/onlinetools/showcasefx) for more information.
+website's [ShowcaseFX details page](https://www.jfx-central.com/utilities/showcasefx) for more information.
 

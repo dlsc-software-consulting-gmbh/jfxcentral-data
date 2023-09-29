@@ -28,6 +28,7 @@ This repository contains the data for the following model objects:
 - `RealWorldApp`
 - `Tool`
 - `Tutorial`
+- `Utility`
 - `Video`
 - `Tip`
 
@@ -45,6 +46,7 @@ match the types of the model objects:
 - Real World Applications inside `realworld/realworld.json`
 - Tools inside `tools/tools.json`
 - Tutorials inside `tutorials/tutorials.json`
+- Utilities inside `utilities/utilities.json`
 - Videos inside `videos/videos.json`
 - Tips inside `tips/tips.json`
 
@@ -82,6 +84,7 @@ private List<String> companyIds = new ArrayList<>();
 private List<String> downloadIds = new ArrayList<>();
 private List<String> videoIds = new ArrayList<>();
 private List<String> appIds = new ArrayList<>();
+private List<String> utilityIds = new ArrayList<>();
 private List<String> blogIds = new ArrayList<>();`
 private List<String> tipIds = new ArrayList<>();`
 ```

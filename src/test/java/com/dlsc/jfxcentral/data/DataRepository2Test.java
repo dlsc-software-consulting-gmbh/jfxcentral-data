@@ -8,7 +8,7 @@ import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
-import com.dlsc.jfxcentral.data.model.OnlineTool;
+import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
@@ -62,7 +62,7 @@ public class DataRepository2Test {
         assertFalse(repository.getPeople().isEmpty());
         assertFalse(repository.getRealWorldApps().isEmpty());
         assertFalse(repository.getTools().isEmpty());
-        assertFalse(repository.getOnlineTools().isEmpty());
+        assertFalse(repository.getUtilities().isEmpty());
         assertFalse(repository.getVideos().isEmpty());
         assertFalse(repository.getTutorials().isEmpty());
         assertFalse(repository.getIkonliPacks().isEmpty());
@@ -92,7 +92,7 @@ public class DataRepository2Test {
         assertTrue(repository.getPeople().isEmpty());
         assertTrue(repository.getRealWorldApps().isEmpty());
         assertTrue(repository.getTools().isEmpty());
-        assertTrue(repository.getOnlineTools().isEmpty());
+        assertTrue(repository.getUtilities().isEmpty());
         assertTrue(repository.getVideos().isEmpty());
         assertTrue(repository.getTutorials().isEmpty());
         assertTrue(repository.getIkonliPacks().isEmpty());
@@ -125,7 +125,7 @@ public class DataRepository2Test {
         assertFalse(repository.getPeople().isEmpty());
         assertFalse(repository.getRealWorldApps().isEmpty());
         assertFalse(repository.getTools().isEmpty());
-        assertFalse(repository.getOnlineTools().isEmpty());
+        assertFalse(repository.getUtilities().isEmpty());
         assertFalse(repository.getVideos().isEmpty());
         assertFalse(repository.getTutorials().isEmpty());
         assertFalse(repository.getIkonliPacks().isEmpty());
@@ -401,19 +401,19 @@ public class DataRepository2Test {
     }
 
     @Test
-    public void shouldLoadOnlineToolsDescription() {
+    public void shouldLoadUtilityDescription() {
         // given
         DataRepository2 repository = DataRepository2.getInstance();
         repository.reload();
 
-        assertFalse(repository.getOnlineTools().isEmpty());
+        assertFalse(repository.getUtilities().isEmpty());
 
         // when
-        repository.getOnlineTools().forEach(onlineTool -> {
-            String text = repository.getOnlineToolReadMe(onlineTool);
+        repository.getUtilities().forEach(utility -> {
+            String text = repository.getUtilityReadMe(utility);
 
             // then
-            assertTrue(StringUtils.isNotBlank(text), "text missing for onlineTool ID " + onlineTool.getId());
+            assertTrue(StringUtils.isNotBlank(text), "text missing for utility ID " + utility.getId());
         });
     }
 
@@ -728,19 +728,19 @@ public class DataRepository2Test {
     }
 
     @Test
-    public void shouldGetOnlineToolById() {
+    public void shouldGetUtilityById() {
         // given
         DataRepository2 repository = DataRepository2.getInstance();
         repository.reload();
 
-        assertFalse(repository.getOnlineTools().isEmpty());
+        assertFalse(repository.getUtilities().isEmpty());
 
         // when
-        repository.getOnlineTools().forEach(onlineTool -> {
-            Optional<OnlineTool> result = repository.getOnlineToolById(onlineTool.getId());
+        repository.getUtilities().forEach(utility -> {
+            Optional<Utility> result = repository.getUtilityById(utility.getId());
 
             // then
-            assertTrue(result.isPresent(), "no onlineTool returned for ID " + onlineTool.getId());
+            assertTrue(result.isPresent(), "no utility returned for ID " + utility.getId());
         });
     }
 

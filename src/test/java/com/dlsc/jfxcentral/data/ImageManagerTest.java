@@ -154,10 +154,10 @@ public class ImageManagerTest {
     }
 
     @Test
-    public void shouldGetOnlineToolImage() {
+    public void shouldGetUtilityImage() {
         // when .. then
-        DataRepository.getInstance().getOnlineTools().forEach(item -> {
-            ObjectProperty<Image> property = ImageManager.getInstance().onlineToolImageProperty(item);
+        DataRepository.getInstance().getUtilities().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().utilityImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
         });
