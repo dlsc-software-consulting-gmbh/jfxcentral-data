@@ -38,7 +38,7 @@
   {
     "name": "CSS Playground",
     "id": "cssplayground",
-    "status": "DEVELOPING",
+    "status": "BETA",
     "summary": "Try out your CSS files on all default JavaFX controls.",
     "description": "A tool designed for previewing and developing JavaFX stylesheets, allowing users to overlay multiple stylesheets on the modena theme.",
     "createdOn": "2023-09-28",
