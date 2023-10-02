@@ -13,7 +13,7 @@
 
 ## Components, Libraries, Tools
 
-* [FXComponents by **Pedro Duque Vieira** has a new API to change the backdrop of a native Window](https://twitter.com/p_duke/status/1706290519117029798): "You can make the Window background blurred and transparent in 3 ways with 3 different materials: Acrylic, Mica and Mica Alt."
+* [A new library by **Pedro Duque Vieira**, FXThemes](https://twitter.com/P_Duke/status/1708861206864245142): "It is a Java library that contains classes to help in advanced JavaFX theme development. Right now, it contains helper classes to change the appearance of a native window frame as well as the backdrop of JavaFX native Windows." The announcement page also contains more info about the reason of providing this functionality in a new library.
 * [GemsFX 1.82.0 by **Dirk Lemmermann**](https://twitter.com/dlemmermann/status/1707043072956113368) with:
   * Early access version of a TreeNodeView with many configuration options (added by [**LeeWyatt**](https://twitter.com/LeeWyatt_7788))
   * Gives you controls / pickers for: choosing a date, choosing a date range, choosing a month, choosing a year, choosing a time, choosing a duration.
