@@ -1030,5 +1030,25 @@
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "transit"
+  },
+  {
+    "id": "fxthemes",
+    "name": "FXThemes",
+    "summary": "Utility classes for advanced Theme development for JavaFX (Java).",
+    "description": "Utility classes for advanced Theme development for JavaFX (Java).",
+    "tags": "theme, javafx",
+    "license": "GPL2CLASSPATH",
+    "homepage": "https://pixelduke.com/fxthemes/",
+    "documentation": "https://pixelduke.com/fxthemes/",
+    "repository": "https://github.com/dukke/FXThemes",
+    "githubAccount": "dukke",
+    "githubProject": "FXThemes",
+    "issueTracker": "https://github.com/dukke/FXThemes/issues",
+    "createdOn": "2023-10-02",
+    "modifiedOn": "2023-10-02",
+    "ensemble": "false",
+    "logoAvailable": "false",
+    "groupId": "com.pixelduke",
+    "artifactId": "fxthemes"
   }
 ]
