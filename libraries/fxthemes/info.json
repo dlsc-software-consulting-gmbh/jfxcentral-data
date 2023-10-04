@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "Acrylic.jpg",
+      "title": "Blurred backdrop of native Window",
+      "description": "This library allows changing the backdrop of a native JavaFX Window"
+    },
+    {
+      "path": "Dark mode.jpg",
+      "title": "True dark mode",
+      "description": "This library allows changing the frame decorations of a native Window so they show in dark mode"
+    },
+    {
+      "path": "Window Frame colors.jpg",
+      "title": "Window Frame colors",
+      "description": "This library allows changing the frame colors, text and border color of a native JavaFX Window"
+    }
+  ]
+}
