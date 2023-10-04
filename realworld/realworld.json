@@ -725,5 +725,21 @@
     "createdOn": "2023-09-26",
     "modifiedOn": "2023-09-26",
     "location": "Sweden"
+  },
+  {
+    "id": "trinity",
+    "name": "Trinity",
+    "company": "",
+    "url": "",
+    "domain": "Research",
+    "tags": "AI, Visualization, Machine Learning, Data Analysis",
+    "summary": "Explainable AI analysis tool and 3D visualization",
+    "description": "Trinity provides performance analysis and XAI tools ideal for Deep Learning systems or other models performing complex classification or decoding. Trinity does this through a combination of different interactive 3D projections that are hyper-dimensional aware. (Vectors of Vectors)",
+    "createdOn": "2023-10-04",
+    "modifiedOn": "2023-10-04",
+    "location": "USA",
+    "personIds": [
+      "s.phillips"
+    ]
   }
 ]
