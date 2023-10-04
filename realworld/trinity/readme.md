@@ -1,9 +1,3 @@
-# Trinity
-
-## Explainable AI (XAI) Analysis and Visualization tool ##
-
-![Trinity City](media/TrinityCity.jpg)
-
 Trinity provides performance analysis and XAI tools ideal for Deep Learning systems or other models performing complex
 classification or decoding. Trinity does this through a combination of different interactive 3D projections that are hyper-dimensional aware. (Vectors of Vectors)
 
@@ -13,15 +7,13 @@ classification or decoding. Trinity does this through a combination of different
 
 Trinity's Hyperspace view provides a 3D scatter plot with automatic 2D projections of feature/factor data.
 The dimensional combinations can be instantly switched to rapidly search through hyper-dimensional space.
-The user can pan, rotate and zoom either the 3D camera or the points themselves.
-The scatter points are interactive allowing the user to select individual points to bring up the associated data/imagery with that feature.
+The user can pan, rotate and zoom either the 3D camera or the points themselves. The scatter points are interactive allowing the user to select individual points to bring up the associated data/imagery with that feature.
 
 ### Hypersurface ###
 
 ![TrinityBCI-Hypersurface](media/TrinityBCI-Hypersurface.jpg)
 
-Trinity can visualize higher dimensional inputs (before decoding) as a 3D surface.
-Hypersurface view provides analyst insight into what inputs correlate strongest with a decoding/classification result.
+Trinity can visualize higher dimensional inputs (before decoding) as a 3D surface. Hypersurface view provides analyst insight into what inputs correlate strongest with a decoding/classification result.
 This view is synchronized with the same FeatureVectors and Timeline as the Hyperspace viewpoint.
 
 ### Projections and Manifolds ###
