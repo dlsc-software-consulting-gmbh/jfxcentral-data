@@ -2,7 +2,7 @@
 
 * Right after last weeks' LOTW, [**Johan Vos** already had an update](https://mastodon.social/@johanvos/111147510047965780): "JavaFX 22-ea+11 has just been released to maven central (and on [gluonhq.com/products/javafx](https://gluonhq.com/products/javafx)). This contains the much anticipated memory improvements :)"
   * "This contains a major change in some CSS processing, see [this commit by **John Hendrikx**](https://github.com/openjdk/jfx/commit/5e145cc06ef68c50a4ffc95574fdafd44e054100), that leads to improved performance (less GC). Please test and evaluate."
-* **Kevin Rushfort** and [**Johan Vos**](https://mastodon.social/@johanvos) had a BOF at Devoxx in Antwerp. 
+* **Kevin Rushforth** and [**Johan Vos**](https://mastodon.social/@johanvos) had a BOF at Devoxx in Antwerp. 
   * During this BOF, some of the new features that could be included in JavaFX 22 were presented:
     * Platform APIs
     * (unlikely) CSS theming
