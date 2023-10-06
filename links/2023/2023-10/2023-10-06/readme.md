@@ -35,11 +35,11 @@
 
 ## Components, Libraries, Tools
 
-* [A new library by **Pedro Duque Vieira**, FXThemes](https://twitter.com/P_Duke/status/1708861206864245142): "It is a Java library that contains classes to help in advanced JavaFX theme development. Right now, it contains helper classes to change the appearance of a native window frame as well as the backdrop of JavaFX native Windows." The announcement page also contains more info about the reason of providing this functionality in a new library.
+* [A new library announcement by **Pedro Duque Vieira**, FXThemes](https://pixelduke.com/2023/10/02/fxthemes-java-javafx-library-released/): "It is a Java library that contains classes to help in advanced JavaFX theme development. Right now, it contains helper classes to change the appearance of a native window frame as well as the backdrop of JavaFX native Windows." The announcement page also contains more info about the reason of providing this functionality in a new library.
 * [GemsFX 1.82.0 by **Dirk Lemmermann**](https://twitter.com/dlemmermann/status/1707043072956113368) with:
   * Early access version of a TreeNodeView with many configuration options (added by [**LeeWyatt**](https://twitter.com/LeeWyatt_7788))
   * Gives you controls / pickers for: choosing a date, choosing a date range, choosing a month, choosing a year, choosing a time, choosing a duration.
-  * See the [DateRangePicker control in action here](https://twitter.com/dlemmermann/status/1706996918767817078).
+  * See the [DateRangePicker control in action here](https://www.youtube.com/watch?v=n7HesjJZ7K4).
   
 ## Podcast, Video, Books
 
@@ -47,7 +47,7 @@
   * **Kevin Rushforth**: 
     * [Building and Deploying Java Client Desktop Applications With JDK 21 and Beyond](https://www.youtube.com/watch?v=Afehjldx4yM) 
     * [JavaFX Notebook](https://www.youtube.com/watch?v=R9yhbaN5Xxs)
-  * [**Johan Vos**]():
+  * **Johan Vos**:
     * [Quantum Computing in Java: an exceptionential opportunity](https://www.youtube.com/watch?v=eylmTHUGcks)
   * [**Sean Phillips**](https://jvm.social/@Birdasaur): 
     * [Explainable AI Analysis Visualization: Applications from Brain Computer Interfaces to ChatGPT](https://www.youtube.com/watch?v=LYtZRWo4t4E).
