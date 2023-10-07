@@ -122,7 +122,9 @@
       "fxskins",
       "fxribbon",
       "fxparallax",
-      "fxcomponents"
+      "fxcomponents",
+      "transit",
+      "fxthemes"
     ]
   },
   {
