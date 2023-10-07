@@ -29,7 +29,7 @@
   {
     "name": "Gradient Designer",
     "id": "gradientdesigner",
-    "status": "PLANNING",
+    "status": "BETA",
     "summary": "Configure gradients for regions.",
     "description": "This is a simple copy / paste from the gradient designer.",
     "createdOn": "2023-09-28",
