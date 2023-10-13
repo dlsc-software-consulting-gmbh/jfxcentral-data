@@ -31,5 +31,4 @@
 ## JFX Central
 
 * New showcase application:
-  * Trinity (Explainable AI analysis tool and 3D visualization) by @SeanMiPhillips
-    https://jfx-central.com/showcases/trinity #javafx #java #ux #ui
+  * [Trinity](https://jfx-central.com/showcases/trinity): Explainable AI analysis tool and 3D visualization) by **Sean Phillips**.
