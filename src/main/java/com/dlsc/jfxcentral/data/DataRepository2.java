@@ -1,26 +1,6 @@
 package com.dlsc.jfxcentral.data;
 
-import com.dlsc.jfxcentral.data.model.Blog;
-import com.dlsc.jfxcentral.data.model.Book;
-import com.dlsc.jfxcentral.data.model.Company;
-import com.dlsc.jfxcentral.data.model.Coordinates;
-import com.dlsc.jfxcentral.data.model.Documentation;
-import com.dlsc.jfxcentral.data.model.Download;
-import com.dlsc.jfxcentral.data.model.IkonliPack;
-import com.dlsc.jfxcentral.data.model.Library;
-import com.dlsc.jfxcentral.data.model.LibraryInfo;
-import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
-import com.dlsc.jfxcentral.data.model.Member;
-import com.dlsc.jfxcentral.data.model.ModelObject;
-import com.dlsc.jfxcentral.data.model.News;
-import com.dlsc.jfxcentral.data.model.Utility;
-import com.dlsc.jfxcentral.data.model.Person;
-import com.dlsc.jfxcentral.data.model.Post;
-import com.dlsc.jfxcentral.data.model.RealWorldApp;
-import com.dlsc.jfxcentral.data.model.Tip;
-import com.dlsc.jfxcentral.data.model.Tool;
-import com.dlsc.jfxcentral.data.model.Tutorial;
-import com.dlsc.jfxcentral.data.model.Video;
+import com.dlsc.jfxcentral.data.model.*;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
 import com.dlsc.jfxcentral.data.util.QueryResult;
 import com.fatboyindustrial.gsonjavatime.Converters;
@@ -35,11 +15,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -48,11 +24,7 @@ import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -63,15 +35,37 @@ public class DataRepository2 {
     private static final Logger LOG = Logger.getLogger(DataRepository2.class.getName());
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-
-    private static DataRepository2 instance;
-
     public static boolean testing;
-
+    private static DataRepository2 instance;
     private final Gson gson = Converters.registerLocalDate(new GsonBuilder()).setPrettyPrinting().create();
-
+    private final List<Library> libraries = new ArrayList<>();
+    private final List<Blog> blogs = new ArrayList<>();
+    private final List<News> news = new ArrayList<>();
+    private final List<Book> books = new ArrayList<>();
+    private final List<LinksOfTheWeek> linksOfTheWeek = new ArrayList<>();
+    private final List<Tip> tips = new ArrayList<>();
+    private final List<Tutorial> tutorials = new ArrayList<>();
+    private final List<Video> videos = new ArrayList<>();
+    private final List<Download> downloads = new ArrayList<>();
+    private final List<RealWorldApp> realWorldApps = new ArrayList<>();
+    private final List<Tool> tools = new ArrayList<>();
+    private final List<Utility> utilities = new ArrayList<>();
+    private final List<Company> companies = new ArrayList<>();
+    private final List<Person> people = new ArrayList<>();
+    private final List<IkonliPack> ikonliPacks = new ArrayList<>();
+    private final List<Member> members = new ArrayList<>();
+    private final List<Documentation> documentation = new ArrayList<>();
+    private final List<Learn> learnJavaFx = new ArrayList<>();
+    private final List<Learn> learnMobile = new ArrayList<>();
+    private final List<Learn> learnRPi = new ArrayList<>();
     private String homeText;
     private String openJFXText;
+    private long cachedPullRequestsTime;
+    private List<PullRequest> cachedPullRequests;
+
+    private DataRepository2() {
+        doLoadData("initial loading of data upon creation of data repository instance");
+    }
 
     public static synchronized DataRepository2 getInstance() {
         if (instance == null) {
@@ -81,8 +75,15 @@ public class DataRepository2 {
         return instance;
     }
 
-    private DataRepository2() {
-        doLoadData("initial loading of data upon creation of data repository instance");
+    public static void setTesting(boolean testing) {
+        DataRepository2.testing = testing;
+    }
+
+    public static File getRepositoryDirectory() {
+        if (testing) {
+            return new File(System.getProperty("user.dir"));
+        }
+        return REPO_DIRECTORY;
     }
 
     public void reload() {
@@ -111,6 +112,9 @@ public class DataRepository2 {
         getIkonliPacks().clear();
         getMembers().clear();
         getDocumentation().clear();
+        getLearnJavaFx().clear();
+        getLearnMobile().clear();
+        getLearnRPi().clear();
     }
 
     private void doLoadData(String reason) {
@@ -124,23 +128,46 @@ public class DataRepository2 {
             openJFXText = loadString(new File(getRepositoryDirectory(), "openjfx/intro.md"));
 
             // collections
-            people.addAll(load(getFile("people/people.json"), new TypeToken<List<Person>>() {}.getType()));
-            books.addAll(load(getFile("books/books.json"), new TypeToken<List<Book>>() {}.getType()));
-            videos.addAll(load(getFile("videos/videos.json"), new TypeToken<List<Video>>() {}.getType()));
-            libraries.addAll(load(getFile("libraries/libraries.json"), new TypeToken<List<Library>>() {}.getType()));
-            news.addAll(load(getFile("news/news.json"), new TypeToken<List<News>>() {}.getType()));
-            tutorials.addAll(load(getFile("tutorials/tutorials.json"), new TypeToken<List<Tutorial>>() {}.getType()));
-            blogs.addAll(load(getFile("blogs/blogs.json"), new TypeToken<List<Blog>>() {}.getType()));
-            companies.addAll(load(getFile("companies/companies.json"), new TypeToken<List<Company>>() {}.getType()));
-            tools.addAll(load(getFile("tools/tools.json"), new TypeToken<List<Tool>>() {}.getType()));
-            utilities.addAll(load(getFile("utilities/utilities.json"), new TypeToken<List<Utility>>() {}.getType()));
-            realWorldApps.addAll(load(getFile("realworld/realworld.json"), new TypeToken<List<RealWorldApp>>() {}.getType()));
-            downloads.addAll(load(getFile("downloads/downloads.json"), new TypeToken<List<Download>>() {}.getType()));
-            tips.addAll(load(getFile("tips/tips.json"), new TypeToken<List<Tip>>() {}.getType()));
-            linksOfTheWeek.addAll(load(getFile("links/links.json"), new TypeToken<List<LinksOfTheWeek>>() {}.getType()));
-            ikonliPacks.addAll(load(getFile("ikonlipacks/ikonlipacks.json"), new TypeToken<List<IkonliPack>>() {}.getType()));
-            members.addAll(load(getFile("members/members.json"), new TypeToken<List<Member>>() {}.getType()));
-            documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {}.getType()));
+            people.addAll(load(getFile("people/people.json"), new TypeToken<List<Person>>() {
+            }.getType()));
+            books.addAll(load(getFile("books/books.json"), new TypeToken<List<Book>>() {
+            }.getType()));
+            videos.addAll(load(getFile("videos/videos.json"), new TypeToken<List<Video>>() {
+            }.getType()));
+            libraries.addAll(load(getFile("libraries/libraries.json"), new TypeToken<List<Library>>() {
+            }.getType()));
+            news.addAll(load(getFile("news/news.json"), new TypeToken<List<News>>() {
+            }.getType()));
+            tutorials.addAll(load(getFile("tutorials/tutorials.json"), new TypeToken<List<Tutorial>>() {
+            }.getType()));
+            blogs.addAll(load(getFile("blogs/blogs.json"), new TypeToken<List<Blog>>() {
+            }.getType()));
+            companies.addAll(load(getFile("companies/companies.json"), new TypeToken<List<Company>>() {
+            }.getType()));
+            tools.addAll(load(getFile("tools/tools.json"), new TypeToken<List<Tool>>() {
+            }.getType()));
+            utilities.addAll(load(getFile("utilities/utilities.json"), new TypeToken<List<Utility>>() {
+            }.getType()));
+            realWorldApps.addAll(load(getFile("realworld/realworld.json"), new TypeToken<List<RealWorldApp>>() {
+            }.getType()));
+            downloads.addAll(load(getFile("downloads/downloads.json"), new TypeToken<List<Download>>() {
+            }.getType()));
+            tips.addAll(load(getFile("tips/tips.json"), new TypeToken<List<Tip>>() {
+            }.getType()));
+            linksOfTheWeek.addAll(load(getFile("links/links.json"), new TypeToken<List<LinksOfTheWeek>>() {
+            }.getType()));
+            ikonliPacks.addAll(load(getFile("ikonlipacks/ikonlipacks.json"), new TypeToken<List<IkonliPack>>() {
+            }.getType()));
+            members.addAll(load(getFile("members/members.json"), new TypeToken<List<Member>>() {
+            }.getType()));
+            documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {
+            }.getType()));
+            learnJavaFx.addAll(load(getFile("learn/javafx/learn-javafx.json"), new TypeToken<List<Learn>>() {
+            }.getType()));
+            learnJavaFx.addAll(load(getFile("learn/mobile/learn-mobile.json"), new TypeToken<List<Learn>>() {
+            }.getType()));
+            learnRPi.addAll(load(getFile("learn/raspberrypi/learn-rpi.json"), new TypeToken<List<Learn>>() {
+            }.getType()));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -249,7 +276,7 @@ public class DataRepository2 {
             return modelObject.getPersonIds();
         } else if (clazz.equals(Tool.class)) {
             return modelObject.getToolIds();
-        } else if (clazz.equals(Utility.class)){
+        } else if (clazz.equals(Utility.class)) {
             return modelObject.getUtilityIds();
         } else if (clazz.equals(RealWorldApp.class)) {
             return modelObject.getAppIds();
@@ -447,121 +474,88 @@ public class DataRepository2 {
         return loadString(new File(getRepositoryDirectory(), "libraries/" + library.getId() + "/readme.md"));
     }
 
-    public static void setTesting(boolean testing) {
-        DataRepository2.testing = testing;
-    }
-
-    public static File getRepositoryDirectory() {
-        if (testing) {
-            return new File(System.getProperty("user.dir"));
-        }
-        return REPO_DIRECTORY;
-    }
-
     public String getRepositoryDirectoryURL() {
         return getRepositoryDirectory().toURI().toString();
     }
-
-    private final List<Library> libraries = new ArrayList<>();
 
     public List<Library> getLibraries() {
         return libraries;
     }
 
-    private final List<Blog> blogs = new ArrayList<>();
-
     public List<Blog> getBlogs() {
         return blogs;
     }
-
-    private final List<News> news = new ArrayList<>();
 
     public List<News> getNews() {
         return news;
     }
 
-    private final List<Book> books = new ArrayList<>();
-
     public List<Book> getBooks() {
         return books;
     }
-
-    private final List<LinksOfTheWeek> linksOfTheWeek = new ArrayList<>();
 
     public List<LinksOfTheWeek> getLinksOfTheWeek() {
         return linksOfTheWeek;
     }
 
-    private final List<Tip> tips = new ArrayList<>();
-
     public List<Tip> getTips() {
         return tips;
     }
-
-    private final List<Tutorial> tutorials = new ArrayList<>();
 
     public List<Tutorial> getTutorials() {
         return tutorials;
     }
 
-    private final List<Video> videos = new ArrayList<>();
-
     public List<Video> getVideos() {
         return videos;
     }
-
-    private final List<Download> downloads = new ArrayList<>();
 
     public List<Download> getDownloads() {
         return downloads;
     }
 
-    private final List<RealWorldApp> realWorldApps = new ArrayList<>();
-
     public List<RealWorldApp> getRealWorldApps() {
         return realWorldApps;
     }
-
-    private final List<Tool> tools = new ArrayList<>();
 
     public List<Tool> getTools() {
         return tools;
     }
 
-    private final List<Utility> utilities = new ArrayList<>();
-
     public List<Utility> getUtilities() {
         return utilities;
     }
-
-    private final List<Company> companies = new ArrayList<>();
 
     public List<Company> getCompanies() {
         return companies;
     }
 
-    private final List<Person> people = new ArrayList<>();
-
     public List<Person> getPeople() {
         return people;
     }
-
-    private final List<IkonliPack> ikonliPacks = new ArrayList<>();
 
     public List<IkonliPack> getIkonliPacks() {
         return ikonliPacks;
     }
 
-    private final List<Member> members = new ArrayList<>();
-
     public List<Member> getMembers() {
         return members;
     }
 
-    private final List<Documentation> documentation = new ArrayList<>();
-
     public List<Documentation> getDocumentation() {
         return documentation;
+    }
+
+    public List<Learn> getLearnJavaFx() {
+        return learnJavaFx;
+    }
+
+    public List<Learn> getLearnMobile() {
+        return learnMobile;
+    }
+
+    public List<Learn> getLearnRPi() {
+        return learnRPi;
     }
 
     public String getHomeText() {
@@ -664,10 +658,6 @@ public class DataRepository2 {
 
         return Collections.emptyList();
     }
-
-    private long cachedPullRequestsTime;
-
-    private List<PullRequest> cachedPullRequests;
 
     public List<PullRequest> loadPullRequests() {
         long time = System.currentTimeMillis() / 1000;

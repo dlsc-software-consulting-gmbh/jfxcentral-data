@@ -686,5 +686,41 @@
     "appIds": [
       "maid"
     ]
+  },
+  {
+    "name": "Edward Nyirenda Jr",
+    "email": "edwardnyirendajr@gmail.com",
+    "companyId": "",
+    "website": "https://coderscratchpad.com",
+    "blogId": "",
+    "linkedIn": "edward-nyirenda-jr-4b3880289",
+    "twitter": "EdwardAlgorist",
+    "champion": false,
+    "rockstar": false,
+    "id": "e.nyirenda",
+    "gitHub": "",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "appIds": [
+      ""
+    ]
+  },
+  {
+    "name": "Gail Anderson",
+    "email": "gail.anderson@asgteach.com",
+    "companyId": "",
+    "website": "http://www.gailanderson.org/",
+    "blogId": "",
+    "linkedIn": "gail-asgteach",
+    "twitter": "gail_asgteach",
+    "champion": true,
+    "rockstar": false,
+    "id": "g.anderson",
+    "gitHub": "",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "appIds": [
+      ""
+    ]
   }
 ]

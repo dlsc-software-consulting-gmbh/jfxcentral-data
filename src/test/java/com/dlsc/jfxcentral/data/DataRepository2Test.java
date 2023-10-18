@@ -1,21 +1,6 @@
 package com.dlsc.jfxcentral.data;
 
-import com.dlsc.jfxcentral.data.model.Blog;
-import com.dlsc.jfxcentral.data.model.Book;
-import com.dlsc.jfxcentral.data.model.Company;
-import com.dlsc.jfxcentral.data.model.Documentation;
-import com.dlsc.jfxcentral.data.model.Download;
-import com.dlsc.jfxcentral.data.model.IkonliPack;
-import com.dlsc.jfxcentral.data.model.Library;
-import com.dlsc.jfxcentral.data.model.LibraryInfo;
-import com.dlsc.jfxcentral.data.model.Utility;
-import com.dlsc.jfxcentral.data.model.Person;
-import com.dlsc.jfxcentral.data.model.Post;
-import com.dlsc.jfxcentral.data.model.RealWorldApp;
-import com.dlsc.jfxcentral.data.model.Tip;
-import com.dlsc.jfxcentral.data.model.Tool;
-import com.dlsc.jfxcentral.data.model.Tutorial;
-import com.dlsc.jfxcentral.data.model.Video;
+import com.dlsc.jfxcentral.data.model.*;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
@@ -31,11 +16,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(ApplicationExtension.class)
 public class DataRepository2Test {
@@ -68,6 +49,9 @@ public class DataRepository2Test {
         assertFalse(repository.getIkonliPacks().isEmpty());
         assertFalse(repository.getMembers().isEmpty());
         assertFalse(repository.getDocumentation().isEmpty());
+        assertFalse(repository.getLearnJavaFx().isEmpty());
+        assertFalse(repository.getLearnMobile().isEmpty());
+        assertFalse(repository.getLearnRPi().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));

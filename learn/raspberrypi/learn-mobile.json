@@ -1,0 +1,13 @@
+[
+  {
+    "id": "led-strip",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "title": "LED strip with a JavaFX UI",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonical": "https://pi4j.com/examples/jbang/pixelblaze_output_expander_javafx/",
+    "sourceCode": "https://github.com/Pi4J/pi4j-jbang/PixelblazeOutputExpanderJavaFX.java"
+  }
+]
