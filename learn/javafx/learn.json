@@ -1,5 +1,27 @@
 [
   {
+    "id": "intro",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "About the JavaFX Tutorial on JFX Central",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "https://coderscratchpad.com/introduction-to-javafx-creating-a-basic-gui-application/",
+    "sourceCodeUrl": ""
+  },
+  {
+    "id": "ide-setup",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "Start a new JavaFX project in your IDE",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "",
+    "sourceCodeUrl": ""
+  },
+  {
     "id": "hello-world",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
@@ -21,17 +43,6 @@
       "e.nyirenda"
     ],
     "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-canvas/",
-    "sourceCodeUrl": ""
-  },
-  {
-    "id": "intellij",
-    "createdOn": "2023-10-18",
-    "modifiedOn": "2023-10-18",
-    "name": "Start a new JavaFX project in IntelliJ IDEA",
-    "personIds": [
-      "f.delporte"
-    ],
-    "canonicalUrl": "",
     "sourceCodeUrl": ""
   }
 ]

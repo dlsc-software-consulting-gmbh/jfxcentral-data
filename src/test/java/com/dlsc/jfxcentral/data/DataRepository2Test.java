@@ -704,11 +704,11 @@ public class DataRepository2Test {
         assertFalse(repository.getLibraries().isEmpty());
 
         // when
-        repository.getLearn(LearnType.JAVA_FX).forEach(lib -> {
-            String text = repository.getLearnReadMe(LearnType.JAVA_FX, lib);
+        repository.getLearn(LearnType.JAVA_FX).forEach(learn -> {
+            String text = repository.getLearnReadMe(LearnType.JAVA_FX, learn);
 
             // then
-            assertNotNull(text, "text missing for learn ID " + lib.getId());
+            assertNotNull(text, "text missing for learn ID " + learn.getId());
         });
     }
 

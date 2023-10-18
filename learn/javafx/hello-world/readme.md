@@ -1,4 +1,26 @@
-How do I make a simple JavaFX Desktop application? Modern software apps require graphic user interfaces (GUIs), and JavaFX is a well-liked framework for creating them. With JavaFX, programmers can easily build GUIs that are both highly interactive and aesthetically pleasing. The code snippet that follows shows how to use the Stage and Scene classes to build a fundamental JavaFX window.
+Let's take a look at the basic components used by JavaFX to 
+
+## Understanding the Stage and Scene
+
+In JavaFX, the terms "stage" and "scene" are key concepts related to creating and managing the Graphical User Interface (GUI) of your Java application. 
+
+They serve different purposes:
+
+### Stage
+
+* A Stage in JavaFX represents a top-level window or container for your application's GUI. It can be thought of as a primary window that contains one or more scenes.
+* Typically, an application has one or more stages, such as the main application window, pop-up dialog boxes, or secondary windows.
+* A Stage is an instance of the `javafx.stage.Stage` class, and you can create and configure it to suit your needs.
+
+### Scene
+
+* A Scene in JavaFX represents the content of a stage, or in other words, it is the container for the visual elements (nodes) that make up your application's user interface.
+* A Scene is an instance of the `javafx.scene.Scene` class, and it can be associated with a Stage to define what's displayed within that stage.
+A scene can contain various UI elements like buttons, labels, text fields, and other controls. It can also have its own layout and styling.
+
+## Minimal Code Example
+
+The following code snippet shows how to use the Stage and Scene classes to build a fundamental JavaFX window.
 
 ```java
 import javafx.application.Application;
@@ -13,22 +35,21 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) {
-
+        // BorderPane is a JavaFX UI element, similar to text, button,...
         BorderPane layoutManager = new BorderPane();
+        
+        // We initialize the scene, containing the BorderPane
         Scene scene = new Scene(layoutManager, WIDTH, HEIGHT);
 
+        // The stage is provided as a parameter and can be further defined here
         stage.setTitle("Introduction to JavaFX: Creating a Basic GUI Application");
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.show();
-
     }
-
 }
 ```
 
-When the above code is executed, it creates a window or stage as shown in the image down below:
+When the above code is executed, it creates a window (= stage) as shown in the image down below:
 
-Introduction to JavaFX: Creating a Basic GUI Application
-
-I hope that’s been informative to you. If you wish to learn more about JavaFX, please subscribe to our newsletter today and continue your JavaFX learning journey with us!
+![](first-javafx-ui.png)
