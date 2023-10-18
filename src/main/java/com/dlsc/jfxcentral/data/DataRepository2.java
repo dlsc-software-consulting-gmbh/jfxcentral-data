@@ -38,9 +38,9 @@ import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
@@ -346,39 +346,39 @@ public class DataRepository2 {
 
     public <T extends ModelObject> List<T> getList(Class<T> clazz) {
         if (clazz.equals(Video.class)) {
-            return videos;
+            return (List<T>) videos;
         } else if (clazz.equals(Book.class)) {
-            return books;
+            return (List<T>) books;
         } else if (clazz.equals(Library.class)) {
-            return libraries;
+            return (List<T>) libraries;
         } else if (clazz.equals(Tutorial.class)) {
-            return tutorials;
+            return (List<T>) tutorials;
         } else if (clazz.equals(Download.class)) {
-            return downloads;
+            return (List<T>) downloads;
         } else if (clazz.equals(Person.class)) {
-            return people;
+            return (List<T>) people;
         } else if (clazz.equals(Tool.class)) {
-            return tools;
+            return (List<T>) tools;
         } else if (clazz.equals(Utility.class)) {
-            return utilities;
+            return (List<T>) utilities;
         } else if (clazz.equals(RealWorldApp.class)) {
-            return realWorldApps;
+            return (List<T>) realWorldApps;
         } else if (clazz.equals(News.class)) {
-            return news;
+            return (List<T>) news;
         } else if (clazz.equals(Blog.class)) {
-            return blogs;
+            return (List<T>) blogs;
         } else if (clazz.equals(Company.class)) {
-            return companies;
+            return (List<T>) companies;
         } else if (clazz.equals(Tip.class)) {
-            return tips;
+            return (List<T>) tips;
         } else if (clazz.equals(LinksOfTheWeek.class)) {
-            return linksOfTheWeek;
+            return (List<T>) linksOfTheWeek;
         } else if (clazz.equals(IkonliPack.class)) {
-            return ikonliPacks;
+            return (List<T>) ikonliPacks;
         } else if (clazz.equals(Member.class)) {
-            return members;
+            return (List<T>) members;
         } else if (clazz.equals(Documentation.class)) {
-            return documentation;
+            return (List<T>) documentation;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
