@@ -18,6 +18,7 @@ public abstract class ModelObject {
     private LocalDate createdOn;
     private LocalDate modifiedOn;
     private String tags;
+    private String canonical;
     private boolean hide;
 
     private List<String> personIds = new ArrayList<>();
@@ -36,6 +37,7 @@ public abstract class ModelObject {
     private List<String> ikonliPackIds = new ArrayList<>();
     private List<String> memberIds = new ArrayList<>();
     private List<String> documentationIds = new ArrayList<>();
+    private List<String> newsIds = new ArrayList<>();
 
     protected ModelObject() {
     }
@@ -57,11 +59,7 @@ public abstract class ModelObject {
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(getDescription(), searchPattern)) {
-            return true;
-        }
-
-        return false;
+        return StringUtils.containsAnyIgnoreCase(getDescription(), searchPattern);
     }
 
     public String getName() {
@@ -116,6 +114,14 @@ public abstract class ModelObject {
 
     public void setTags(String tags) {
         this.tags = tags;
+    }
+
+    public String getCanonical() {
+        return canonical;
+    }
+
+    public void setCanonical(String canonical) {
+        this.canonical = canonical;
     }
 
     public String getId() {
@@ -253,8 +259,6 @@ public abstract class ModelObject {
     public void setNewsIds(List<String> newsIds) {
         this.newsIds = newsIds;
     }
-
-    private List<String> newsIds = new ArrayList<>();
 
     public List<String> getBlogIds() {
         return blogIds;
