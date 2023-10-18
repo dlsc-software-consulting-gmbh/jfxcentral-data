@@ -1,21 +1,7 @@
 package com.dlsc.jfxcentral.data;
 
-import com.dlsc.jfxcentral.data.model.Blog;
-import com.dlsc.jfxcentral.data.model.Book;
-import com.dlsc.jfxcentral.data.model.Company;
-import com.dlsc.jfxcentral.data.model.Documentation;
-import com.dlsc.jfxcentral.data.model.Download;
-import com.dlsc.jfxcentral.data.model.IkonliPack;
-import com.dlsc.jfxcentral.data.model.Library;
-import com.dlsc.jfxcentral.data.model.LibraryInfo;
-import com.dlsc.jfxcentral.data.model.Utility;
-import com.dlsc.jfxcentral.data.model.Person;
-import com.dlsc.jfxcentral.data.model.Post;
-import com.dlsc.jfxcentral.data.model.RealWorldApp;
-import com.dlsc.jfxcentral.data.model.Tip;
-import com.dlsc.jfxcentral.data.model.Tool;
-import com.dlsc.jfxcentral.data.model.Tutorial;
-import com.dlsc.jfxcentral.data.model.Video;
+import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.model.Learn.LearnType;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
@@ -31,11 +17,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(ApplicationExtension.class)
 public class DataRepository2Test {
@@ -53,21 +35,24 @@ public class DataRepository2Test {
         repository.reload();
 
         // then
-        assertFalse(repository.getBlogs().isEmpty());
-        assertFalse(repository.getBooks().isEmpty());
-        assertFalse(repository.getCompanies().isEmpty());
-        assertFalse(repository.getDownloads().isEmpty());
-        assertFalse(repository.getLibraries().isEmpty());
-        assertFalse(repository.getNews().isEmpty());
-        assertFalse(repository.getPeople().isEmpty());
-        assertFalse(repository.getRealWorldApps().isEmpty());
-        assertFalse(repository.getTools().isEmpty());
-        assertFalse(repository.getUtilities().isEmpty());
-        assertFalse(repository.getVideos().isEmpty());
-        assertFalse(repository.getTutorials().isEmpty());
-        assertFalse(repository.getIkonliPacks().isEmpty());
-        assertFalse(repository.getMembers().isEmpty());
-        assertFalse(repository.getDocumentation().isEmpty());
+        assertFalse(repository.getBlogs().isEmpty(), "Blogs");
+        assertFalse(repository.getBooks().isEmpty(), "Books");
+        assertFalse(repository.getCompanies().isEmpty(), "Companies");
+        assertFalse(repository.getDownloads().isEmpty(), "Downloads");
+        assertFalse(repository.getLibraries().isEmpty(), "Libraries");
+        assertFalse(repository.getNews().isEmpty(), "News");
+        assertFalse(repository.getPeople().isEmpty(), "People");
+        assertFalse(repository.getRealWorldApps().isEmpty(), "Real world apps");
+        assertFalse(repository.getTools().isEmpty(), "Tools");
+        assertFalse(repository.getUtilities().isEmpty(), "Utilities");
+        assertFalse(repository.getVideos().isEmpty(), "Videos");
+        assertFalse(repository.getTutorials().isEmpty(), "Tutorials");
+        assertFalse(repository.getIkonliPacks().isEmpty(), "Ikonli packs");
+        assertFalse(repository.getMembers().isEmpty(), "Members");
+        assertFalse(repository.getDocumentation().isEmpty(), "Documentation");
+        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty(), "Learn JavaFX");
+        assertFalse(repository.getLearn(LearnType.MOBILE).isEmpty(), "Learn JavaFX on Mobile");
+        assertFalse(repository.getLearn(LearnType.RASPBERRY_PI).isEmpty(), "Learn JavaFX on Raspberry Pi");
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -690,6 +675,40 @@ public class DataRepository2Test {
 
             // then
             assertTrue(result.isPresent(), "no book returned for ID " + book.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetLearnById() {
+        // given
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
+
+        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty());
+
+        // when
+        repository.getLearn(LearnType.JAVA_FX).forEach(learn -> {
+            Optional<Learn> result = repository.getLearnById(LearnType.JAVA_FX, learn.getId());
+
+            // then
+            assertTrue(result.isPresent(), "no learn returned for ID " + learn.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadLearnDescription() {
+        // given
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
+
+        assertFalse(repository.getLibraries().isEmpty());
+
+        // when
+        repository.getLearn(LearnType.JAVA_FX).forEach(lib -> {
+            String text = repository.getLearnReadMe(LearnType.JAVA_FX, lib);
+
+            // then
+            assertNotNull(text, "text missing for learn ID " + lib.getId());
         });
     }
 
