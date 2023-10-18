@@ -6,7 +6,6 @@ public class Learn extends ModelObject {
 
     private String title;
     private String sourceCode;
-
     public Learn() {
     }
 
@@ -37,5 +36,21 @@ public class Learn extends ModelObject {
 
     public void setSourceCode(String sourceCode) {
         this.sourceCode = sourceCode;
+    }
+
+    public enum LearnType {
+        JAVA_FX("javafx"),
+        MOBILE("mobile"),
+        RASPBERRY_PI("raspberrypi");
+
+        private final String directory;
+
+        LearnType(String directory) {
+            this.directory = directory;
+        }
+
+        public String getDirectory() {
+            return directory;
+        }
     }
 }

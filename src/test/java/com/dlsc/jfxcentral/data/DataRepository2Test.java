@@ -1,6 +1,7 @@
 package com.dlsc.jfxcentral.data;
 
 import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.model.Learn.LearnType;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
@@ -49,9 +50,9 @@ public class DataRepository2Test {
         assertFalse(repository.getIkonliPacks().isEmpty());
         assertFalse(repository.getMembers().isEmpty());
         assertFalse(repository.getDocumentation().isEmpty());
-        assertFalse(repository.getLearnJavaFx().isEmpty());
-        assertFalse(repository.getLearnMobile().isEmpty());
-        assertFalse(repository.getLearnRPi().isEmpty());
+        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty());
+        assertFalse(repository.getLearn(LearnType.MOBILE).isEmpty());
+        assertFalse(repository.getLearn(LearnType.RASPBERRY_PI).isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -674,6 +675,40 @@ public class DataRepository2Test {
 
             // then
             assertTrue(result.isPresent(), "no book returned for ID " + book.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetLearnById() {
+        // given
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
+
+        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty());
+
+        // when
+        repository.getLearn(LearnType.JAVA_FX).forEach(learn -> {
+            Optional<Learn> result = repository.getLearnById(LearnType.JAVA_FX, learn.getId());
+
+            // then
+            assertTrue(result.isPresent(), "no learn returned for ID " + learn.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadLearnDescription() {
+        // given
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
+
+        assertFalse(repository.getLibraries().isEmpty());
+
+        // when
+        repository.getLearn(LearnType.JAVA_FX).forEach(lib -> {
+            String text = repository.getLearnReadMe(LearnType.JAVA_FX, lib);
+
+            // then
+            assertNotNull(text, "text missing for library ID " + lib.getId());
         });
     }
 

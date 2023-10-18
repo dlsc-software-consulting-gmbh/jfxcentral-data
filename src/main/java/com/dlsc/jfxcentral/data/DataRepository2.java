@@ -1,6 +1,7 @@
 package com.dlsc.jfxcentral.data;
 
 import com.dlsc.jfxcentral.data.model.*;
+import com.dlsc.jfxcentral.data.model.Learn.LearnType;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
 import com.dlsc.jfxcentral.data.util.QueryResult;
 import com.fatboyindustrial.gsonjavatime.Converters;
@@ -112,9 +113,9 @@ public class DataRepository2 {
         getIkonliPacks().clear();
         getMembers().clear();
         getDocumentation().clear();
-        getLearnJavaFx().clear();
-        getLearnMobile().clear();
-        getLearnRPi().clear();
+        getLearn(LearnType.JAVA_FX).clear();
+        getLearn(LearnType.MOBILE).clear();
+        getLearn(LearnType.RASPBERRY_PI).clear();
     }
 
     private void doLoadData(String reason) {
@@ -162,11 +163,11 @@ public class DataRepository2 {
             }.getType()));
             documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {
             }.getType()));
-            learnJavaFx.addAll(load(getFile("learn/javafx/learn-javafx.json"), new TypeToken<List<Learn>>() {
+            learnJavaFx.addAll(load(getFile("learn/javafx/learn.json"), new TypeToken<List<Learn>>() {
             }.getType()));
-            learnJavaFx.addAll(load(getFile("learn/mobile/learn-mobile.json"), new TypeToken<List<Learn>>() {
+            learnJavaFx.addAll(load(getFile("learn/mobile/learn.json"), new TypeToken<List<Learn>>() {
             }.getType()));
-            learnRPi.addAll(load(getFile("learn/raspberrypi/learn-rpi.json"), new TypeToken<List<Learn>>() {
+            learnRPi.addAll(load(getFile("learn/raspberrypi/learn.json"), new TypeToken<List<Learn>>() {
             }.getType()));
         } catch (Exception e) {
             e.printStackTrace();
@@ -201,6 +202,19 @@ public class DataRepository2 {
 
     public Optional<Book> getBookById(String id) {
         return books.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<Learn> getLearnById(LearnType type, String id) {
+        switch (type) {
+            case JAVA_FX:
+                return learnJavaFx.stream().filter(item -> item.getId().equals(id)).findFirst();
+            case MOBILE:
+                return learnMobile.stream().filter(item -> item.getId().equals(id)).findFirst();
+            case RASPBERRY_PI:
+                return learnRPi.stream().filter(item -> item.getId().equals(id)).findFirst();
+            default:
+                return Optional.empty();
+        }
     }
 
     public Optional<Blog> getBlogById(String id) {
@@ -474,6 +488,10 @@ public class DataRepository2 {
         return loadString(new File(getRepositoryDirectory(), "libraries/" + library.getId() + "/readme.md"));
     }
 
+    public String getLearnReadMe(LearnType type, Learn learn) {
+        return loadString(new File(getRepositoryDirectory(), "learn/ " + type.getDirectory() + "/" + learn.getId() + "/readme.md"));
+    }
+
     public String getRepositoryDirectoryURL() {
         return getRepositoryDirectory().toURI().toString();
     }
@@ -546,8 +564,17 @@ public class DataRepository2 {
         return documentation;
     }
 
-    public List<Learn> getLearnJavaFx() {
-        return learnJavaFx;
+    public List<Learn> getLearn(LearnType type) {
+        switch (type) {
+            case JAVA_FX:
+                return learnJavaFx;
+            case MOBILE:
+                return learnMobile;
+            case RASPBERRY_PI:
+                return learnRPi;
+            default:
+                return new ArrayList<>();
+        }
     }
 
     public List<Learn> getLearnMobile() {

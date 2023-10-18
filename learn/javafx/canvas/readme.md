@@ -14,6 +14,7 @@ Creating a Simple Canvas
 
 Let’s start by creating a basic JavaFX application with a Canvas component. Below is a simple JavaFX application that creates a window with a Canvas for drawing:
 
+```java
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
@@ -71,6 +72,7 @@ public class Main extends Application {
     }
 
 }
+```
 
 Getting Started with JavaFX Canvas
 
@@ -79,6 +81,7 @@ Drawing Basic Shapes
 
 To draw on the canvas, you’ll need to use the GraphicsContext class, which provides methods for drawing shapes, lines, text, and images. Let’s draw a simple rectangle and a circle on our canvas.
 
+```java
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
@@ -151,8 +154,8 @@ public class Main extends Application {
         stage.show();
 
     }
-
 }
+```
 
 Getting Started with JavaFX Canvas
 
@@ -161,6 +164,7 @@ Creating an Interactive Canvas
 
 Now, let’s create an interactive Canvas where you can draw lines by clicking and dragging the mouse. We’ll use event listeners to achieve this.
 
+```java
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
@@ -246,8 +250,8 @@ public class Main extends Application {
         stage.show();
 
     }
-
 }
+```
 
 In this example, we added event handlers to the Canvas to track mouse clicks and drags. When the left mouse button is pressed, we record the starting position (lastX and lastY). When the mouse is dragged, we draw lines between the last position and the current position.
 Getting Started with JavaFX Canvas
