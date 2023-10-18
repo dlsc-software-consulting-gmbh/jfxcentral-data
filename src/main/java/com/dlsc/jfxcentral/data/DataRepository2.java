@@ -37,7 +37,11 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -46,7 +50,11 @@ import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -338,39 +346,39 @@ public class DataRepository2 {
 
     public <T extends ModelObject> List<T> getList(Class<T> clazz) {
         if (clazz.equals(Video.class)) {
-            return (List<T>) videos;
+            return videos;
         } else if (clazz.equals(Book.class)) {
-            return (List<T>) books;
+            return books;
         } else if (clazz.equals(Library.class)) {
-            return (List<T>) libraries;
+            return libraries;
         } else if (clazz.equals(Tutorial.class)) {
-            return (List<T>) tutorials;
+            return tutorials;
         } else if (clazz.equals(Download.class)) {
-            return (List<T>) downloads;
+            return downloads;
         } else if (clazz.equals(Person.class)) {
-            return (List<T>) people;
+            return people;
         } else if (clazz.equals(Tool.class)) {
-            return (List<T>) tools;
+            return tools;
         } else if (clazz.equals(Utility.class)) {
-            return (List<T>) utilities;
+            return utilities;
         } else if (clazz.equals(RealWorldApp.class)) {
-            return (List<T>) realWorldApps;
+            return realWorldApps;
         } else if (clazz.equals(News.class)) {
-            return (List<T>) news;
+            return news;
         } else if (clazz.equals(Blog.class)) {
-            return (List<T>) blogs;
+            return blogs;
         } else if (clazz.equals(Company.class)) {
-            return (List<T>) companies;
+            return companies;
         } else if (clazz.equals(Tip.class)) {
-            return (List<T>) tips;
+            return tips;
         } else if (clazz.equals(LinksOfTheWeek.class)) {
-            return (List<T>) linksOfTheWeek;
+            return linksOfTheWeek;
         } else if (clazz.equals(IkonliPack.class)) {
-            return (List<T>) ikonliPacks;
+            return ikonliPacks;
         } else if (clazz.equals(Member.class)) {
-            return (List<T>) members;
+            return members;
         } else if (clazz.equals(Documentation.class)) {
-            return (List<T>) documentation;
+            return documentation;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
