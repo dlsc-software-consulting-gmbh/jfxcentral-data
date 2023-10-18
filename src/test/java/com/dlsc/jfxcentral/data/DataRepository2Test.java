@@ -35,24 +35,24 @@ public class DataRepository2Test {
         repository.reload();
 
         // then
-        assertFalse(repository.getBlogs().isEmpty());
-        assertFalse(repository.getBooks().isEmpty());
-        assertFalse(repository.getCompanies().isEmpty());
-        assertFalse(repository.getDownloads().isEmpty());
-        assertFalse(repository.getLibraries().isEmpty());
-        assertFalse(repository.getNews().isEmpty());
-        assertFalse(repository.getPeople().isEmpty());
-        assertFalse(repository.getRealWorldApps().isEmpty());
-        assertFalse(repository.getTools().isEmpty());
-        assertFalse(repository.getUtilities().isEmpty());
-        assertFalse(repository.getVideos().isEmpty());
-        assertFalse(repository.getTutorials().isEmpty());
-        assertFalse(repository.getIkonliPacks().isEmpty());
-        assertFalse(repository.getMembers().isEmpty());
-        assertFalse(repository.getDocumentation().isEmpty());
-        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty());
-        assertFalse(repository.getLearn(LearnType.MOBILE).isEmpty());
-        assertFalse(repository.getLearn(LearnType.RASPBERRY_PI).isEmpty());
+        assertFalse(repository.getBlogs().isEmpty(), "Blogs");
+        assertFalse(repository.getBooks().isEmpty(), "Books");
+        assertFalse(repository.getCompanies().isEmpty(), "Companies");
+        assertFalse(repository.getDownloads().isEmpty(), "Downloads");
+        assertFalse(repository.getLibraries().isEmpty(), "Libraries");
+        assertFalse(repository.getNews().isEmpty(), "News");
+        assertFalse(repository.getPeople().isEmpty(), "People");
+        assertFalse(repository.getRealWorldApps().isEmpty(), "Real world apps");
+        assertFalse(repository.getTools().isEmpty(), "Tools");
+        assertFalse(repository.getUtilities().isEmpty(), "Utilities");
+        assertFalse(repository.getVideos().isEmpty(), "Videos");
+        assertFalse(repository.getTutorials().isEmpty(), "Tutorials");
+        assertFalse(repository.getIkonliPacks().isEmpty(), "Ikonli packs");
+        assertFalse(repository.getMembers().isEmpty(), "Members");
+        assertFalse(repository.getDocumentation().isEmpty(), "Documentation");
+        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty(), "Learn JavaFX");
+        assertFalse(repository.getLearn(LearnType.MOBILE).isEmpty(), "Learn JavaFX on Mobile");
+        assertFalse(repository.getLearn(LearnType.RASPBERRY_PI).isEmpty(), "Learn JavaFX on Raspberry Pi");
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));

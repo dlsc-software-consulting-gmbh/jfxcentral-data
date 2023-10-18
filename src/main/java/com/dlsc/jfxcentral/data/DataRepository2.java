@@ -163,11 +163,11 @@ public class DataRepository2 {
             }.getType()));
             documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {
             }.getType()));
-            learnJavaFx.addAll(load(getFile("learn/javafx/learn.json"), new TypeToken<List<Learn>>() {
+            learnJavaFx.addAll(load(getFile("learn/" + LearnType.JAVA_FX.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
             }.getType()));
-            learnJavaFx.addAll(load(getFile("learn/mobile/learn.json"), new TypeToken<List<Learn>>() {
+            learnMobile.addAll(load(getFile("learn/" + LearnType.MOBILE.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
             }.getType()));
-            learnRPi.addAll(load(getFile("learn/raspberrypi/learn.json"), new TypeToken<List<Learn>>() {
+            learnRPi.addAll(load(getFile("learn/" + LearnType.RASPBERRY_PI.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
             }.getType()));
         } catch (Exception e) {
             e.printStackTrace();
@@ -575,14 +575,6 @@ public class DataRepository2 {
             default:
                 return new ArrayList<>();
         }
-    }
-
-    public List<Learn> getLearnMobile() {
-        return learnMobile;
-    }
-
-    public List<Learn> getLearnRPi() {
-        return learnRPi;
     }
 
     public String getHomeText() {
