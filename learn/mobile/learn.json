@@ -3,11 +3,11 @@
     "id": "mobile-part-1",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "title": "How to Create Mobile Apps with JavaFX (Part 1)",
+    "name": "How to Create Mobile Apps with JavaFX (Part 1)",
     "personIds": [
       "g.anderson"
     ],
-    "canonical": "https://foojay.io/today/creating-mobile-apps-with-javafx-part-1/",
-    "sourceCode": ""
+    "canonicalUrl": "https://foojay.io/today/creating-mobile-apps-with-javafx-part-1/",
+    "sourceCodeUrl": ""
   }
 ]

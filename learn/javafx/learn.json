@@ -3,35 +3,35 @@
     "id": "hello-world",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "title": "Your first JavaFX application",
+    "name": "Your first JavaFX application",
     "personIds": [
       "f.delporte",
       "e.nyirenda"
     ],
-    "canonical": "https://coderscratchpad.com/introduction-to-javafx-creating-a-basic-gui-application/",
-    "sourceCode": ""
+    "canonicalUrl": "https://coderscratchpad.com/introduction-to-javafx-creating-a-basic-gui-application/",
+    "sourceCodeUrl": ""
   },
   {
     "id": "canvas",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "title": "Getting Started with JavaFX Canvas",
+    "name": "Getting Started with JavaFX Canvas",
     "personIds": [
       "f.delporte",
       "e.nyirenda"
     ],
-    "canonical": "https://coderscratchpad.com/getting-started-with-javafx-canvas/",
-    "sourceCode": ""
+    "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-canvas/",
+    "sourceCodeUrl": ""
   },
   {
     "id": "intellij",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "title": "Start a new JavaFX project in IntelliJ IDEA",
+    "name": "Start a new JavaFX project in IntelliJ IDEA",
     "personIds": [
       "f.delporte"
     ],
-    "canonical": "",
-    "sourceCode": ""
+    "canonicalUrl": "",
+    "sourceCodeUrl": ""
   }
 ]

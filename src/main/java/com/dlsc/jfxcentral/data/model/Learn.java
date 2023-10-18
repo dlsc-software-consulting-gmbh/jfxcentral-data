@@ -4,8 +4,8 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Learn extends ModelObject {
 
-    private String title;
-    private String sourceCode;
+    private String sourceCodeUrl;
+
     public Learn() {
     }
 
@@ -15,27 +15,15 @@ public class Learn extends ModelObject {
             return true;
         }
 
-        if (StringUtils.containsAnyIgnoreCase(title, searchPattern)) {
-            return true;
-        }
-
-        return StringUtils.containsAnyIgnoreCase(sourceCode, searchPattern);
+        return StringUtils.containsAnyIgnoreCase(sourceCodeUrl, searchPattern);
     }
 
-    public String getTitle() {
-        return title;
+    public String getSourceCodeUrl() {
+        return sourceCodeUrl;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getSourceCode() {
-        return sourceCode;
-    }
-
-    public void setSourceCode(String sourceCode) {
-        this.sourceCode = sourceCode;
+    public void setSourceCodeUrl(String sourceCodeUrl) {
+        this.sourceCodeUrl = sourceCodeUrl;
     }
 
     public enum LearnType {

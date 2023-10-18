@@ -708,7 +708,7 @@ public class DataRepository2Test {
             String text = repository.getLearnReadMe(LearnType.JAVA_FX, lib);
 
             // then
-            assertNotNull(text, "text missing for library ID " + lib.getId());
+            assertNotNull(text, "text missing for learn ID " + lib.getId());
         });
     }
 

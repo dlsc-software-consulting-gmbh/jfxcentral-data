@@ -18,7 +18,7 @@ public abstract class ModelObject {
     private LocalDate createdOn;
     private LocalDate modifiedOn;
     private String tags;
-    private String canonical;
+    private String canonicalUrl;
     private boolean hide;
 
     private List<String> personIds = new ArrayList<>();
@@ -116,12 +116,12 @@ public abstract class ModelObject {
         this.tags = tags;
     }
 
-    public String getCanonical() {
-        return canonical;
+    public String getCanonicalUrl() {
+        return canonicalUrl;
     }
 
-    public void setCanonical(String canonical) {
-        this.canonical = canonical;
+    public void setCanonicalUrl(String canonicalUrl) {
+        this.canonicalUrl = canonicalUrl;
     }
 
     public String getId() {
