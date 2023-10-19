@@ -15,3 +15,6 @@
 ### 5. Experiment and Innovate
    Gradients can transform mundane designs into visually appealing interfaces. Don't hesitate to play around, mix colors, and find combinations that breathe life into your projects.
 
+### 6. Gratitude
+A special thank you to [SceneBuilder](https://github.com/gluonhq/scenebuilder) and its Kit component. The source code of the Kit component library has been instrumental in our development process, allowing us to make necessary modifications and customizations to better serve javafx developers.
+
