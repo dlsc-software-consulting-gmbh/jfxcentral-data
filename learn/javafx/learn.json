@@ -31,7 +31,7 @@
       "e.nyirenda"
     ],
     "canonicalUrl": "https://coderscratchpad.com/introduction-to-javafx-creating-a-basic-gui-application/",
-    "sourceCodeUrl": ""
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/blob/main/src/main/java/com/coderscratchpad/javafxtutorial/BasicGui.java"
   },
   {
     "id": "canvas",
@@ -43,6 +43,6 @@
       "e.nyirenda"
     ],
     "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-canvas/",
-    "sourceCodeUrl": ""
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/blob/main/src/main/java/com/coderscratchpad/javafxtutorial/CanvasBasicShapes.java"
   }
 ]
