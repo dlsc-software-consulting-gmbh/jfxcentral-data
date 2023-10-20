@@ -1,3 +1,5 @@
+This book was updated in 2021, and based on JavaFX 17.
+
 Build enhanced visual experiences and design and deploy modern, easy-to-maintain, client applications across a variety of platforms. This book will show you how these applications can take advantage of the latest user interface components, 3D technology, and cloud services to create immersive visualizations and allow high-value data manipulation. 
 
 The Definitive Guide to Modern Java Clients with JavaFX is a professional reference for building Java applications for desktop, mobile, and embedded in the Cloud age. It offers end-to-end coverage of the latest features in JavaFX and Java 13. After reading this book, you will be equipped to upgrade legacy client applications, develop cross-platform applications in Java, and build enhanced desktop and mobile native clients.

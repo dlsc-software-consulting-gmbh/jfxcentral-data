@@ -166,14 +166,22 @@
     "personIds": [
       "s.chin",
       "j.vos",
-      "j.weaver"
+      "j.weaver",
+      "p.anderson",
+      "g.anderson",
+      "b.borges",
+      "a.epple",
+      "w.gao",
+      "j.giles",
+      "j.pereda",
+      "e.ryzhikov"
     ],
-    "name": "The Definitive Guide to Modern Java Clients with JavaFX",
+    "name": "The Definitive Guide to Modern Java Clients with JavaFX 17",
     "subtitle": "Cross-Platform Mobile and Cloud Development",
     "url": "https://www.apress.com/gp/book/9781484249253",
-    "amazonASIN": "1484249259",
-    "isbn": "1484249259",
-    "publishedDate": "2019-11-13"
+    "amazonASIN": "1484272676",
+    "isbn": "1484272671",
+    "publishedDate": "2021-11-11"
   },
   {
     "id": "learnjfx17",
