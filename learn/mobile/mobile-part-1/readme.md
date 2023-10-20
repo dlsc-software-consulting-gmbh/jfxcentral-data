@@ -6,36 +6,37 @@ You use the same JavaFX code targeting Google Play and Apple App stores. Perform
 
 Our game is TiltMaze Labyrinth. Figure 1 shows TiltMaze running on an Android Nexus 5X. Figure 2 shows TiltMaze running on an iPhone 8 Plus.
 
-Figure 1. TiltMaze on Android
-
-TiltMaze on iPhone Figure 2. TiltMaze on iPhone
+![TiltMaze on Android](TiltMaze-android-small.png.webp)
+![TiltMaze on iPhone](TiltMaze-iPhone-small.png.webp)
 
 We’ll discuss TiltMaze in three parts. First, we explore the JavaFX code: the basic structure of an animation-type app and the Gluon Attach API that lets you access hardware-specific features in a device-agnostic way.
 
 In Part 2, we’ll discuss the technologies we use with JavaFX to build the three target applications: “regular” JVM, native iOS image, and native Android image. We’ll include the tools and development requirements needed for each target.
 
 Lastly in Part 3, we’ll discuss how to upload this application to the respective mobile app stores.
-TiltMaze Labyrinth
+
+## TiltMaze Labyrinth
 
 Let’s start with the end result first. TiltMaze Labyrinth is a mobile game you can install from both the Apple App Store and Google Play. Download TiltMaze here on your mobile device or tablet to play.
-Apple Store download TiltMaze
-Google Play download TiltMaze
+
+![Apple Store download TiltMaze](app-store-logo-sm.png.webp)
+![Google Play download TiltMaze](google-play-logo-sm-1.png.webp)
 
 The game is simple enough: you navigate a rolling ball through a maze within the given time allotment while avoiding strategically placed holes. As you tilt the phone or tablet, the application reads the device’s accelerometer sensor and moves the ball based on the reading.
 
 The Novice-Expert slider controls how fast the ball rolls and the time allotment for completing the maze. As your skill improves, you can challenge your dexterity by making the ball movements more sensitive while simultaneously decreasing the time allotment.
-JavaFX
+
+## JavaFX
 
 I am a big proponent of using FXML (FX markup language) to describe your JavaFX views.  To those not familiar with JavaFX, FXML is an XML-based markup language that lets you describe a UI scene.
 
 A free tool, Scene Builder, enables drag-and-drop UI design that produces FXML. FXML helps keep your UI separate from your business logic and application control. You can download Scene Builder from Gluon here. We used FXML to build the TiltMaze UI.
 
-Part of the appeal of this mobile application is its simplicity. TiltMaze is a single-view game. It does not require any cloud data, user sign-ins, complicated menus, or multiple views. The UI is the application and standard JavaFX creates the animations that power the game. You can access the JavaFX source code for TiltMaze on GitHub here:
-
-github.com/gailasgteach/TiltMaze
+Part of the appeal of this mobile application is its simplicity. TiltMaze is a single-view game. It does not require any cloud data, user sign-ins, complicated menus, or multiple views. The UI is the application and standard JavaFX creates the animations that power the game. You can access the [JavaFX source code for TiltMaze on GitHub](https://github.com/gailasgteach/TiltMaze).
 
 Note that we removed sensitive licensing and credential information from the project!
-The Accelerometer
+
+## Accelerometer
 
 The accelerometer is a sensor that measures velocity changes in three dimensions: horizontally, vertically, and up-down movements (that include the effects of gravity).
 
@@ -90,24 +91,27 @@ path.getElements().add(
 new LineTo(ball.getTranslateX(), ball.getTranslateY()));
 ```
 
-Figure 3 shows a game in progress. The ball’s path is marked in blue and the countdown timer has 6.5 seconds remaining.  Of course, the game must perform collision detection with the maze barriers, holes, and outside boundaries. We leave this code for you to digest at your leisure!
+The following figure shows a game in progress. The ball’s path is marked in blue and the countdown timer has 6.5 seconds remaining.  Of course, the game must perform collision detection with the maze barriers, holes, and outside boundaries. We leave this code for you to digest at your leisure!
 
-Figure 3. TiltMaze during play
+![TiltMaze during play](TiltMaze-InPlay-small.png.webp)
 
 The Novice/Expert slider is disabled during play, but can be adjusted between games. The Novice setting has the longest game time and the slowest ball roll. The Expert setting corresponds to the shortest game time and the fastest ball roll. And you can experiment with values in between that fit your level.
-Scaling to Device Size
+
+## Scaling to Device Size
 
 Although mobile devices are generally similar in that they’re portrait-mode rectangles, their sizes can vary quite a bit. We scale the maze so that the aspect ratio is constant and fits within the device’s form factor.
 
 We compute a scale factor, using the resulting scale factor to build the maze’s predefined barriers, boundaries, and holes.
 
 We limit orientation for the game for portrait mode only. If you reorient your device, the application stays in portrait mode.
-Mouse Events
+
+## Mouse Events
 
 The edit-compile-install-run cycle is relatively long for native targets. Therefore, we simulate the maze program on a desktop to test the JavaFX UI as much as possible before installing it on a mobile device. We use mouse events instead of the accelerometer to guide the ball through the maze.
 
 Although this is really a poor imitation of an accelerometer, it provides a convenient environment for testing the UI: the progress indicator, the Novice/Expert slider, and the Start/Stop game button.
-Performance
+
+## Performance
 
 We installed the TiltMaze application on an iPhone 8 Plus and an Android Nexus 5X.
 
