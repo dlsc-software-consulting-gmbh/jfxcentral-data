@@ -18,7 +18,15 @@
 
 ## Components, Libraries, Tools
 
-*
+* Pedro Duque Vieira
+  @P_Duke
+  True Dark Mode on Windows10
+
+Will be available soon in a new release of FXThemes
+
+Win10 is the most used Windows version (Windows being the most used OS)
+
+This was a pain to implement. Native code is different from win11. On win10 this API is undocumented
 
 ## Podcast, Video, Books
 

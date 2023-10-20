@@ -108,5 +108,16 @@
     "commercial": "false",
     "createdOn": "2021-06-15",
     "updatedOn": "2021-06-15"
+  },
+  {
+    "id": "coderscratchpad",
+    "format": "web",
+    "name": "Several JavaFX Tutorials by Edward",
+    "summary": "Edward Nyirenda Jr writes tutorials about various uses-cases.",
+    "description": "Edward is interested in many programming languages, and while he is learning and experimenting, he creates a tutorial dedicated to a specific JavaFX component or use-case.",
+    "url": "https://coderscratchpad.com/category/computer-programming/javafx/",
+    "commercial": "false",
+    "createdOn": "2023-10-20",
+    "updatedOn": "2023-10-20"
   }
 ]

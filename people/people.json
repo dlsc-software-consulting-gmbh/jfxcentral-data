@@ -701,8 +701,8 @@
     "gitHub": "",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "appIds": [
-      ""
+    "tutorialIds": [
+      "coderscratchpad"
     ]
   },
   {
@@ -718,9 +718,6 @@
     "id": "g.anderson",
     "gitHub": "",
     "createdOn": "2023-10-18",
-    "modifiedOn": "2023-10-18",
-    "appIds": [
-      ""
-    ]
+    "modifiedOn": "2023-10-18"
   }
 ]
