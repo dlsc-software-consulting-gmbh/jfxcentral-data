@@ -157,7 +157,8 @@
       "getting-started-on-pi"
     ],
     "companyIds": [
-      "azul"
+      "azul",
+      "foojay"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2023-04-07"
@@ -701,14 +702,14 @@
     "gitHub": "edwardalgorist",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "appIds": [
-      ""
+    "tutorialIds": [
+      "coderscratchpad"
     ]
   },
   {
     "name": "Gail Anderson",
     "email": "gail.anderson@asgteach.com",
-    "companyId": "",
+    "companyId": "asgteach",
     "website": "http://www.gailanderson.org/",
     "blogId": "",
     "linkedIn": "gail-asgteach",
@@ -719,8 +720,26 @@
     "gitHub": "",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "appIds": [
-      ""
+    "companyIds": [
+      "asgteach"
+    ]
+  },
+  {
+    "name": "Paul Anderson",
+    "email": "paul.anderson@asgteach.com",
+    "companyId": "asgteach",
+    "website": "http://www.gailanderson.org/",
+    "blogId": "",
+    "linkedIn": "paul-asgteach",
+    "twitter": "Paul_ASGTeach",
+    "champion": true,
+    "rockstar": false,
+    "id": "p.anderson",
+    "gitHub": "",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "companyIds": [
+      "asgteach"
     ]
   }
 ]

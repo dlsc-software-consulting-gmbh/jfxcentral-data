@@ -1,1 +1,3 @@
-Java Champion, Java/JavaFX Developer, Author, Guitar Player.
+Gail is a Java Champion and a member of the Oracle ACE Program. She is Director of Research and founding member of the Anderson Software Group, a leading provider of training courses in Java, JavaFX, Python, Go, Modern C++, and other programming languages.
+
+Gail enjoys researching and writing about leading-edge Java technologies. Her current passion includes JavaFX with GraalVM for cross-platform mobile applications. She is the co-author of nine textbooks on software programming. Most recently, she is a contributing author to The Definitive Guide to Modern Java Clients with JavaFX 17. Gail has presented at various Java conferences and JUGS including Devoxx, DevNexus, JCrete, and Oracle Code/JavaOne worldwide.

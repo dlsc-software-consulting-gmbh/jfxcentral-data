@@ -1,0 +1,1 @@
+Anderson Software Group, Inc. is a California corporation founded by Paul Anderson and Gail Anderson, who both have extensive experience as software professionals and instructors. They have coauthored eight books that have been used extensively throughout industry and in the classroom. Both Gail and Paul are Java Champions and members of the NetBeans Dream Team.
