@@ -20,7 +20,7 @@
   {
     "name": "Pixel-to-EM Converter",
     "id": "pxtoemconverter",
-    "status": "PLANNING",
+    "status": "BETA",
     "summary": "Convert pixel values in CSS files to em values.",
     "description": "Effortlessly transition from fixed pixel values to flexible \"em\" units in your CSS.",
     "createdOn": "2023-09-28",
