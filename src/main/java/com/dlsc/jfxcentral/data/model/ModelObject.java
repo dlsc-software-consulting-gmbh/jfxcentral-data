@@ -37,6 +37,7 @@ public abstract class ModelObject {
     private List<String> ikonliPackIds = new ArrayList<>();
     private List<String> memberIds = new ArrayList<>();
     private List<String> documentationIds = new ArrayList<>();
+    private List<String> learnIds = new ArrayList<>();
     private List<String> newsIds = new ArrayList<>();
 
     protected ModelObject() {
@@ -298,6 +299,14 @@ public abstract class ModelObject {
 
     public void setDocumentationIds(List<String> documentationIds) {
         this.documentationIds = documentationIds;
+    }
+
+    public List<String> getLearnIds() {
+        return learnIds;
+    }
+
+    public void setLearnIds(List<String> learnIds) {
+        this.learnIds = learnIds;
     }
 
     public LocalDate getCreationOrUpdateDate() {

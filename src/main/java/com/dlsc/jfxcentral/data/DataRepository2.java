@@ -2,26 +2,26 @@ package com.dlsc.jfxcentral.data;
 
 import com.dlsc.jfxcentral.data.model.Blog;
 import com.dlsc.jfxcentral.data.model.Book;
-import com.dlsc.jfxcentral.data.model.Learn.LearnType;
 import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Coordinates;
 import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
 import com.dlsc.jfxcentral.data.model.Learn;
+import com.dlsc.jfxcentral.data.model.LearnType;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
 import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.ModelObject;
 import com.dlsc.jfxcentral.data.model.News;
-import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
 import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
+import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Video;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
 import com.dlsc.jfxcentral.data.util.QueryResult;
@@ -40,8 +40,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -51,6 +51,7 @@ import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -85,9 +86,7 @@ public class DataRepository2 {
     private final List<IkonliPack> ikonliPacks = new ArrayList<>();
     private final List<Member> members = new ArrayList<>();
     private final List<Documentation> documentation = new ArrayList<>();
-    private final List<Learn> learnJavaFx = new ArrayList<>();
-    private final List<Learn> learnMobile = new ArrayList<>();
-    private final List<Learn> learnRPi = new ArrayList<>();
+    private final List<Learn> learn = new ArrayList<>();
     private String homeText;
     private String openJFXText;
     private long cachedPullRequestsTime;
@@ -142,9 +141,7 @@ public class DataRepository2 {
         getIkonliPacks().clear();
         getMembers().clear();
         getDocumentation().clear();
-        getLearn(LearnType.JAVA_FX).clear();
-        getLearn(LearnType.MOBILE).clear();
-        getLearn(LearnType.RASPBERRY_PI).clear();
+        getLearn().clear();
     }
 
     private void doLoadData(String reason) {
@@ -192,17 +189,22 @@ public class DataRepository2 {
             }.getType()));
             documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {
             }.getType()));
-            learnJavaFx.addAll(load(getFile("learn/" + LearnType.JAVA_FX.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
-            }.getType()));
-            learnMobile.addAll(load(getFile("learn/" + LearnType.MOBILE.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
-            }.getType()));
-            learnRPi.addAll(load(getFile("learn/" + LearnType.RASPBERRY_PI.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
-            }.getType()));
+
+            // load learn
+            Arrays.stream(LearnType.values()).forEach(type -> learn.addAll(loadFXLearn(type)));
+
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.severe("error loading data: " + e.getMessage());
         }
 
         LOG.fine("data loading finished");
+    }
+
+    private Collection<Learn> loadFXLearn(LearnType type) {
+        Collection<Learn> loadLearn = load(getFile("learn/" + type.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
+        }.getType());
+        loadLearn.forEach(item -> item.setType(type));
+        return loadLearn;
     }
 
     private <T> Collection<T> load(File file, Type type) {
@@ -233,17 +235,8 @@ public class DataRepository2 {
         return books.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
-    public Optional<Learn> getLearnById(LearnType type, String id) {
-        switch (type) {
-            case JAVA_FX:
-                return learnJavaFx.stream().filter(item -> item.getId().equals(id)).findFirst();
-            case MOBILE:
-                return learnMobile.stream().filter(item -> item.getId().equals(id)).findFirst();
-            case RASPBERRY_PI:
-                return learnRPi.stream().filter(item -> item.getId().equals(id)).findFirst();
-            default:
-                return Optional.empty();
-        }
+    public Optional<Learn> getLearnById(String id) {
+        return learn.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
     public Optional<Blog> getBlogById(String id) {
@@ -339,6 +332,8 @@ public class DataRepository2 {
             return modelObject.getMemberIds();
         } else if (clazz.equals(Documentation.class)) {
             return modelObject.getDocumentationIds();
+        } else if (clazz.equals(Learn.class)) {
+            return modelObject.getLearnIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -379,6 +374,8 @@ public class DataRepository2 {
             return (List<T>) members;
         } else if (clazz.equals(Documentation.class)) {
             return (List<T>) documentation;
+        } else if (clazz.equals(Learn.class)) {
+            return (List<T>) learn;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -442,6 +439,10 @@ public class DataRepository2 {
 
     public List<Tip> getTipsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Tip.class);
+    }
+
+    public List<Learn> getLearnByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Learn.class);
     }
 
     public List<LinksOfTheWeek> getLinksOfTheWeekByModelObject(ModelObject modelObject) {
@@ -517,8 +518,8 @@ public class DataRepository2 {
         return loadString(new File(getRepositoryDirectory(), "libraries/" + library.getId() + "/readme.md"));
     }
 
-    public String getLearnReadMe(LearnType type, Learn learn) {
-        return loadString(new File(getRepositoryDirectory(), "learn/ " + type.getDirectory() + "/" + learn.getId() + "/readme.md"));
+    public String getLearnReadMe(Learn learn) {
+        return loadString(new File(getRepositoryDirectory(), "learn/" + learn.getType().getDirectory() + "/" + learn.getId() + "/readme.md"));
     }
 
     public String getRepositoryDirectoryURL() {
@@ -593,17 +594,12 @@ public class DataRepository2 {
         return documentation;
     }
 
-    public List<Learn> getLearn(LearnType type) {
-        switch (type) {
-            case JAVA_FX:
-                return learnJavaFx;
-            case MOBILE:
-                return learnMobile;
-            case RASPBERRY_PI:
-                return learnRPi;
-            default:
-                return new ArrayList<>();
-        }
+    public List<Learn> getLearn() {
+        return learn;
+    }
+
+    public List<Learn> getLearnByType(LearnType type) {
+        return learn.stream().filter(item -> item.getType().equals(type)).collect(Collectors.toList());
     }
 
     public String getHomeText() {

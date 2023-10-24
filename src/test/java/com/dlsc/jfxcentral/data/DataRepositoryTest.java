@@ -6,16 +6,17 @@ import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
+import com.dlsc.jfxcentral.data.model.Learn;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.Member;
-import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
 import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
+import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Video;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.StringProperty;
@@ -71,6 +72,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getIkonliPacks().isEmpty());
         assertTrue(!repository.getMembers().isEmpty());
         assertTrue(!repository.getDocumentation().isEmpty());
+        assertTrue(!repository.getLearn().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -101,6 +103,7 @@ public class DataRepositoryTest {
         assertTrue(repository.getIkonliPacks().isEmpty());
         assertTrue(repository.getMembers().isEmpty());
         assertTrue(repository.getDocumentation().isEmpty());
+        assertTrue(repository.getLearn().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -134,6 +137,7 @@ public class DataRepositoryTest {
         assertTrue(!repository.getIkonliPacks().isEmpty());
         assertTrue(!repository.getMembers().isEmpty());
         assertTrue(!repository.getDocumentation().isEmpty());
+        assertTrue(!repository.getLearn().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -894,4 +898,47 @@ public class DataRepositoryTest {
             assertNotNull(result.get(), "no documentation returned for ID " + doc.getId());
         });
     }
+
+    @Test
+    public void shouldGetLearnById() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        ObservableList<Learn> learn = repository.getLearn();
+        assertFalse(learn.isEmpty());
+
+        // when
+        learn.forEach(item -> {
+            Optional<Learn> result = repository.getLearnById(item.getId());
+
+            // then
+            assertNotNull(result.get(), "no learn returned for ID " + item.getId());
+        });
+
+        learn.forEach(item -> {
+            Learn result = (Learn) repository.getByID(Learn.class, item.getId());
+
+            // then
+            assertNotNull(result, "no learn returned for ID " + item.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadLearnDescription() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getLearn().isEmpty());
+
+        // when
+        repository.getLearn().forEach(learn -> {
+            StringProperty text = repository.learnReadMeProperty(learn);
+
+            // then
+            assertNotNull(text.get(), "text missing for library ID " + learn.getId());
+        });
+    }
+
 }

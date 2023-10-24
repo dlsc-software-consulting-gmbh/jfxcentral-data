@@ -5,6 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 public class Learn extends ModelObject {
 
     private String sourceCodeUrl;
+    private LearnType type;
 
     public Learn() {
     }
@@ -26,19 +27,11 @@ public class Learn extends ModelObject {
         this.sourceCodeUrl = sourceCodeUrl;
     }
 
-    public enum LearnType {
-        JAVA_FX("javafx"),
-        MOBILE("mobile"),
-        RASPBERRY_PI("raspberrypi");
+    public LearnType getType() {
+        return type;
+    }
 
-        private final String directory;
-
-        LearnType(String directory) {
-            this.directory = directory;
-        }
-
-        public String getDirectory() {
-            return directory;
-        }
+    public void setType(LearnType type) {
+        this.type = type;
     }
 }

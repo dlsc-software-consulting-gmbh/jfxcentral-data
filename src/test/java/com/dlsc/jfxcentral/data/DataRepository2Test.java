@@ -1,7 +1,6 @@
 package com.dlsc.jfxcentral.data;
 
 import com.dlsc.jfxcentral.data.model.*;
-import com.dlsc.jfxcentral.data.model.Learn.LearnType;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
@@ -14,6 +13,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -50,9 +50,7 @@ public class DataRepository2Test {
         assertFalse(repository.getIkonliPacks().isEmpty(), "Ikonli packs");
         assertFalse(repository.getMembers().isEmpty(), "Members");
         assertFalse(repository.getDocumentation().isEmpty(), "Documentation");
-        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty(), "Learn JavaFX");
-        assertFalse(repository.getLearn(LearnType.MOBILE).isEmpty(), "Learn JavaFX on Mobile");
-        assertFalse(repository.getLearn(LearnType.RASPBERRY_PI).isEmpty(), "Learn JavaFX on Raspberry Pi");
+        assertFalse(repository.getLearn().isEmpty(), "Learn");
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -83,6 +81,7 @@ public class DataRepository2Test {
         assertTrue(repository.getIkonliPacks().isEmpty());
         assertTrue(repository.getMembers().isEmpty());
         assertTrue(repository.getDocumentation().isEmpty());
+        assertTrue(repository.getLearn().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -116,6 +115,7 @@ public class DataRepository2Test {
         assertFalse(repository.getIkonliPacks().isEmpty());
         assertFalse(repository.getMembers().isEmpty());
         assertFalse(repository.getDocumentation().isEmpty());
+        assertFalse(repository.getLearn().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -684,15 +684,35 @@ public class DataRepository2Test {
         DataRepository2 repository = DataRepository2.getInstance();
         repository.reload();
 
-        assertFalse(repository.getLearn(LearnType.JAVA_FX).isEmpty());
+        assertFalse(repository.getLearn().isEmpty());
 
         // when
-        repository.getLearn(LearnType.JAVA_FX).forEach(learn -> {
-            Optional<Learn> result = repository.getLearnById(LearnType.JAVA_FX, learn.getId());
+        repository.getLearn().forEach(learn -> {
+            Optional<Learn> result = repository.getLearnById(learn.getId());
 
             // then
             assertTrue(result.isPresent(), "no learn returned for ID " + learn.getId());
         });
+    }
+
+    @Test
+    public void shouldGetLearnByType() {
+        // given
+        DataRepository2 repository = DataRepository2.getInstance();
+        repository.reload();
+
+        Arrays.stream(LearnType.values()).forEach(type -> assertFalse(repository.getLearnByType(type).isEmpty()));
+
+        Arrays.stream(LearnType.values()).forEach(type -> {
+            // when
+            repository.getLearnByType(type).forEach(learn -> {
+                Optional<Learn> result = repository.getLearnById(learn.getId());
+
+                // then
+                assertTrue(result.isPresent(), "no learn returned for ID " + learn.getId());
+            });
+        });
+
     }
 
     @Test
@@ -701,11 +721,11 @@ public class DataRepository2Test {
         DataRepository2 repository = DataRepository2.getInstance();
         repository.reload();
 
-        assertFalse(repository.getLibraries().isEmpty());
+        assertFalse(repository.getLearn().isEmpty());
 
         // when
-        repository.getLearn(LearnType.JAVA_FX).forEach(learn -> {
-            String text = repository.getLearnReadMe(LearnType.JAVA_FX, learn);
+        repository.getLearn().forEach(learn -> {
+            String text = repository.getLearnReadMe(learn);
 
             // then
             assertNotNull(text, "text missing for learn ID " + learn.getId());

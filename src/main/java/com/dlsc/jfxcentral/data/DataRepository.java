@@ -7,19 +7,21 @@ import com.dlsc.jfxcentral.data.model.Coordinates;
 import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
+import com.dlsc.jfxcentral.data.model.Learn;
+import com.dlsc.jfxcentral.data.model.LearnType;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
 import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.ModelObject;
 import com.dlsc.jfxcentral.data.model.News;
-import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
 import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
+import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Video;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
 import com.dlsc.jfxcentral.data.util.QueryResult;
@@ -54,6 +56,7 @@ import java.text.MessageFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -102,6 +105,7 @@ public class DataRepository {
     private final Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
 
     private final Map<Member, StringProperty> memberDescriptionMap = new HashMap<>();
+    private final Map<Learn, StringProperty> learnDescriptionMap = new HashMap<>();
 
     private boolean loaded;
 
@@ -146,6 +150,7 @@ public class DataRepository {
         tutorialTextMap.clear();
         linksOfTheWeekReadMeMap.clear();
         memberDescriptionMap.clear();
+        learnDescriptionMap.clear();
 
         getPeople().clear();
         getLibraries().clear();
@@ -164,6 +169,7 @@ public class DataRepository {
         getIkonliPacks().clear();
         getMembers().clear();
         getDocumentation().clear();
+        getLearn().clear();
     }
 
     private void doLoadData(String reason) {
@@ -259,19 +265,37 @@ public class DataRepository {
             List<Documentation> documentation = gson.fromJson(new FileReader(documentationFile, StandardCharsets.UTF_8), new TypeToken<List<Documentation>>() {
             }.getType());
 
-            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, utilities, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members, documentation);
+            // load learn
+            List<Learn> learnList = new ArrayList<>();
+            Arrays.stream(LearnType.values()).forEach(type -> learnList.addAll(getLearnList(type)));
+
+            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, utilities, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members, documentation, learnList);
 
             LOG.fine("data loading finished");
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.severe("data loading failed: " + e.getMessage());
         } finally {
             loaded = true;
         }
     }
 
+    private List<Learn> getLearnList(LearnType type) {
+        File learnJavaFX = new File(getRepositoryDirectory(), "learn/" + type.getDirectory() + "/learn.json");
+        List<Learn> list;
+        try {
+            list = gson.fromJson(new FileReader(learnJavaFX, StandardCharsets.UTF_8), new TypeToken<List<Learn>>() {
+            }.getType());
+        } catch (IOException e) {
+            LOG.severe("learn data loading failed: " + e.getMessage());
+            throw new RuntimeException(e);
+        }
+        list.forEach(learn -> learn.setType(type));
+        return list;
+    }
+
     private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries,
                          List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<Utility> utilities, List<RealWorldApp> realWorldApps, List<Download> downloads,
-                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks, List<Member> members, List<Documentation> documentation) {
+                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks, List<Member> members, List<Documentation> documentation, List<Learn> learnList) {
         clearData();
 
         setOpenJFXText(openJFXText);
@@ -294,6 +318,7 @@ public class DataRepository {
         getIkonliPacks().setAll(ikonliPacks);
         getMembers().setAll(members);
         getDocumentation().setAll(documentation);
+        getLearn().setAll(learnList);
 
         List<ModelObject> recentItems = findRecentItems();
         getRecentItems().setAll(recentItems);
@@ -318,6 +343,7 @@ public class DataRepository {
         result.addAll(findRecentItems(getIkonliPacks()));
         result.addAll(findRecentItems(getMembers()));
         result.addAll(findRecentItems(getDocumentation()));
+        result.addAll(findRecentItems(getLearn()));
         // LinksOfTheWeek are not reachable through links!
         //  result.addAll(findRecentItems(getLinksOfTheWeek()));
 
@@ -421,6 +447,10 @@ public class DataRepository {
         return documentation.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<Learn> getLearnById(String id) {
+        return learn.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> ObservableList<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
@@ -464,6 +494,8 @@ public class DataRepository {
             return modelObject.getMemberIds();
         } else if (clazz.equals(Documentation.class)) {
             return modelObject.getDocumentationIds();
+        } else if (clazz.equals(Learn.class)) {
+            return modelObject.getLearnIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -504,6 +536,8 @@ public class DataRepository {
             return (List<T>) members;
         } else if (clazz.equals(Documentation.class)) {
             return (List<T>) documentation;
+        } else if (clazz.equals(Learn.class)) {
+            return (List<T>) learn;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -519,6 +553,10 @@ public class DataRepository {
 
     public ObservableList<Download> getDownloadsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Download.class);
+    }
+
+    public ObservableList<Learn> getLearnByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, Learn.class);
     }
 
     public ObservableList<Book> getBooksByModelObject(ModelObject modelObject) {
@@ -742,6 +780,19 @@ public class DataRepository {
         readmeProperty.set(readmeText);
     }
 
+    private void loadLearnReadMe(Learn learn, StringProperty readmeProperty) {
+        String readmeText = loadString(new File(getRepositoryDirectory(), "learn/" + learn.getType().getDirectory() + "/" + learn.getId() + "/readme.md"));
+        readmeProperty.set(readmeText);
+    }
+
+    public StringProperty learnReadMeProperty(Learn learn) {
+        return learnDescriptionMap.computeIfAbsent(learn, key -> {
+            StringProperty readmeProperty = new SimpleStringProperty();
+            loadLearnReadMe(learn, readmeProperty);
+            return readmeProperty;
+        });
+    }
+
     public static void setTesting(boolean testing) {
         DataRepository.testing = testing;
     }
@@ -902,6 +953,12 @@ public class DataRepository {
 
     public ObservableList<Documentation> getDocumentation() {
         return documentation;
+    }
+
+    private final ObservableList<Learn> learn = FXCollections.observableArrayList();
+
+    public ObservableList<Learn> getLearn() {
+        return learn;
     }
 
     private String loadString(File file) {
@@ -1076,6 +1133,7 @@ public class DataRepository {
         search(getIkonliPacks(), pattern, result);
         search(getMembers(), pattern, result);
         search(getDocumentation(), pattern, result);
+        search(getLearn(), pattern, result);
         return result;
     }
 
