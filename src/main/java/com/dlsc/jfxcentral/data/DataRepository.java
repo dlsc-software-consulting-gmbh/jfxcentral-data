@@ -187,102 +187,46 @@ public class DataRepository {
 
             String openJFXText = loadString(new File(getRepositoryDirectory(), "openjfx/intro.md"));
 
-            // load people
-            File peopleFile = new File(getRepositoryDirectory(), "people/people.json");
-            List<Person> people = gson.fromJson(new FileReader(peopleFile, StandardCharsets.UTF_8), new TypeToken<List<Person>>() {
-            }.getType());
-
-            // load books
-            File booksFile = new File(getRepositoryDirectory(), "books/books.json");
-            List<Book> books = gson.fromJson(new FileReader(booksFile, StandardCharsets.UTF_8), new TypeToken<List<Book>>() {
-            }.getType());
-
-            // load videos
-            File videosFile = new File(getRepositoryDirectory(), "videos/videos.json");
-            List<Video> videos = gson.fromJson(new FileReader(videosFile, StandardCharsets.UTF_8), new TypeToken<List<Video>>() {
-            }.getType());
-
-            // load libraries
-            File librariesFile = new File(getRepositoryDirectory(), "libraries/libraries.json");
-            List<Library> libraries = gson.fromJson(new FileReader(librariesFile, StandardCharsets.UTF_8), new TypeToken<List<Library>>() {
-            }.getType());
-
-            // load libraries
-            File newsFile = new File(getRepositoryDirectory(), "news/news.json");
-            List<News> news = gson.fromJson(new FileReader(newsFile, StandardCharsets.UTF_8), new TypeToken<List<News>>() {
-            }.getType());
-
-            // load libraries
-            File blogsFile = new File(getRepositoryDirectory(), "blogs/blogs.json");
-            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile, StandardCharsets.UTF_8), new TypeToken<List<Blog>>() {
-            }.getType());
-
-            // load libraries
-            File companiesFile = new File(getRepositoryDirectory(), "companies/companies.json");
-            List<Company> companies = gson.fromJson(new FileReader(companiesFile, StandardCharsets.UTF_8), new TypeToken<List<Company>>() {
-            }.getType());
-
-            // load tools
-            File toolsFile = new File(getRepositoryDirectory(), "tools/tools.json");
-            List<Tool> tools = gson.fromJson(new FileReader(toolsFile, StandardCharsets.UTF_8), new TypeToken<List<Tool>>() {
-            }.getType());
-
-            // load tools
-            File utilitiesFile = new File(getRepositoryDirectory(), "utilities/utilities.json");
-            List<Utility> utilities = gson.fromJson(new FileReader(utilitiesFile, StandardCharsets.UTF_8), new TypeToken<List<Utility>>() {
-            }.getType());
-
-            // load real world apps
-            File realWorldFile = new File(getRepositoryDirectory(), "realworld/realworld.json");
-            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile, StandardCharsets.UTF_8), new TypeToken<List<RealWorldApp>>() {
-            }.getType());
-
-            // load downloads
-            File downloadsFile = new File(getRepositoryDirectory(), "downloads/downloads.json");
-            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile, StandardCharsets.UTF_8), new TypeToken<List<Download>>() {
-            }.getType());
-
-            // load downloads
-            File tutorialsFile = new File(getRepositoryDirectory(), "tutorials/tutorials.json");
-            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile, StandardCharsets.UTF_8), new TypeToken<List<Tutorial>>() {
-            }.getType());
-
-            // load downloads
-            File tipsFile = new File(getRepositoryDirectory(), "tips/tips.json");
-            List<Tip> tips = gson.fromJson(new FileReader(tipsFile, StandardCharsets.UTF_8), new TypeToken<List<Tip>>() {
-            }.getType());
-
-            // load downloads
-            File linksOfTheWeekFile = new File(getRepositoryDirectory(), "links/links.json");
-            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile, StandardCharsets.UTF_8), new TypeToken<List<LinksOfTheWeek>>() {
-            }.getType());
-
-            // load ikonlipacks
-            File ikonliPacksFile = new File(getRepositoryDirectory(), "ikonlipacks/ikonlipacks.json");
-            List<IkonliPack> ikonliPacks = gson.fromJson(new FileReader(ikonliPacksFile, StandardCharsets.UTF_8), new TypeToken<List<IkonliPack>>() {
-            }.getType());
-
-            // load members
-            File membersFile = new File(getRepositoryDirectory(), "members/members.json");
-            List<Member> members = gson.fromJson(new FileReader(membersFile, StandardCharsets.UTF_8), new TypeToken<List<Member>>() {
-            }.getType());
-
-            // load documentation
-            File documentationFile = new File(getRepositoryDirectory(), "documentation/documentation.json");
-            List<Documentation> documentation = gson.fromJson(new FileReader(documentationFile, StandardCharsets.UTF_8), new TypeToken<List<Documentation>>() {
-            }.getType());
-
-            File learnJavaFXFile = new File(getRepositoryDirectory(), "learn/javafx/learn.json");
-            List<LearnJavaFX> learnJavaFX = gson.fromJson(new FileReader(learnJavaFXFile, StandardCharsets.UTF_8), new TypeToken<List<LearnJavaFX>>() {
-            }.getType());
-
-            File learnMobileFile = new File(getRepositoryDirectory(), "learn/mobile/learn.json");
-            List<LearnMobile> learnMobile = gson.fromJson(new FileReader(learnMobileFile, StandardCharsets.UTF_8), new TypeToken<List<LearnMobile>>() {
-            }.getType());
-
-            File learnRaspberryPiFile = new File(getRepositoryDirectory(), "learn/raspberrypi/learn.json");
-            List<LearnRaspberryPi> learnRaspberryPi = gson.fromJson(new FileReader(learnRaspberryPiFile, StandardCharsets.UTF_8), new TypeToken<List<LearnRaspberryPi>>() {
-            }.getType());
+            List<Person> people = loadModel("people/people.json", new TypeToken<>() {
+            });
+            List<Book> books = loadModel("books/books.json", new TypeToken<>() {
+            });
+            List<Video> videos = loadModel("videos/videos.json", new TypeToken<>() {
+            });
+            List<Library> libraries = loadModel("libraries/libraries.json", new TypeToken<>() {
+            });
+            List<News> news = loadModel("news/news.json", new TypeToken<>() {
+            });
+            List<Blog> blogs = loadModel("blogs/blogs.json", new TypeToken<>() {
+            });
+            List<Company> companies = loadModel("companies/companies.json", new TypeToken<>() {
+            });
+            List<Tool> tools = loadModel("tools/tools.json", new TypeToken<>() {
+            });
+            List<Utility> utilities = loadModel("utilities/utilities.json", new TypeToken<>() {
+            });
+            List<RealWorldApp> realWorldApps = loadModel("realworld/realworld.json", new TypeToken<>() {
+            });
+            List<Download> downloads = loadModel("downloads/downloads.json", new TypeToken<>() {
+            });
+            List<Tutorial> tutorials = loadModel("tutorials/tutorials.json", new TypeToken<>() {
+            });
+            List<Tip> tips = loadModel("tips/tips.json", new TypeToken<>() {
+            });
+            List<LinksOfTheWeek> links = loadModel("links/links.json", new TypeToken<>() {
+            });
+            List<IkonliPack> ikonliPacks = loadModel("ikonlipacks/ikonlipacks.json", new TypeToken<>() {
+            });
+            List<Member> members = loadModel("members/members.json", new TypeToken<>() {
+            });
+            List<Documentation> documentation = loadModel("documentation/documentation.json", new TypeToken<>() {
+            });
+            List<LearnJavaFX> learnJavaFX = loadModel("learn/javafx/learn.json", new TypeToken<>() {
+            });
+            List<LearnMobile> learnMobile = loadModel("learn/mobile/learn.json", new TypeToken<>() {
+            });
+            List<LearnRaspberryPi> learnRaspberryPi = loadModel("learn/raspberrypi/learn.json", new TypeToken<>() {
+            });
 
             setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, utilities, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members, documentation, learnJavaFX, learnMobile, learnRaspberryPi);
 
@@ -291,6 +235,16 @@ public class DataRepository {
             LOG.severe("data loading failed: " + e.getMessage());
         } finally {
             loaded = true;
+        }
+    }
+
+    private <T> List<T> loadModel(String path, TypeToken<List<T>> typeToken) {
+        File file = new File(getRepositoryDirectory(), path);
+        try (FileReader fileReader = new FileReader(file, StandardCharsets.UTF_8)) {
+            return gson.fromJson(fileReader, typeToken.getType());
+        } catch (IOException e) {
+            LOG.severe("failed to load model from file " + path + ": " + e.getMessage());
+            return Collections.emptyList();
         }
     }
 

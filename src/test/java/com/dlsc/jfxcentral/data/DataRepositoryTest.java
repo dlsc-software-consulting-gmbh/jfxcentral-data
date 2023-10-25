@@ -403,17 +403,17 @@ public class DataRepositoryTest {
     @Test
     public void shouldLoadUtilityDescription() {
         // given
-        DataRepository2 repository = DataRepository2.getInstance();
-        repository.reload();
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         assertFalse(repository.getUtilities().isEmpty());
 
         // when
         repository.getUtilities().forEach(utility -> {
-            String text = repository.getUtilityReadMe(utility);
+            StringProperty text = repository.utilityDescriptionProperty(utility);
 
             // then
-            assertTrue(StringUtils.isNotBlank(text), "text missing for utility ID " + utility.getId());
+            assertTrue(StringUtils.isNotBlank(text.get()), "text missing for utility ID " + utility.getId());
         });
     }
 
@@ -731,8 +731,8 @@ public class DataRepositoryTest {
     @Test
     public void shouldGetUtilityById() {
         // given
-        DataRepository2 repository = DataRepository2.getInstance();
-        repository.reload();
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
 
         assertFalse(repository.getUtilities().isEmpty());
 
