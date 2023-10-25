@@ -37,7 +37,9 @@ public abstract class ModelObject {
     private List<String> ikonliPackIds = new ArrayList<>();
     private List<String> memberIds = new ArrayList<>();
     private List<String> documentationIds = new ArrayList<>();
-    private List<String> learnIds = new ArrayList<>();
+    private List<String> learnJavaFXIds = new ArrayList<>();
+    private List<String> learnMobileIds = new ArrayList<>();
+    private List<String> learnRaspberryPiIds = new ArrayList<>();
     private List<String> newsIds = new ArrayList<>();
 
     protected ModelObject() {
@@ -301,12 +303,28 @@ public abstract class ModelObject {
         this.documentationIds = documentationIds;
     }
 
-    public List<String> getLearnIds() {
-        return learnIds;
+    public List<String> getLearnJavaFXIds() {
+        return learnJavaFXIds;
     }
 
-    public void setLearnIds(List<String> learnIds) {
-        this.learnIds = learnIds;
+    public void setLearnJavaFXIds(List<String> learnJavaFXIds) {
+        this.learnJavaFXIds = learnJavaFXIds;
+    }
+
+    public List<String> getLearnMobileIds() {
+        return learnMobileIds;
+    }
+
+    public void setLearnMobileIds(List<String> learnMobileIds) {
+        this.learnMobileIds = learnMobileIds;
+    }
+
+    public List<String> getLearnRaspberryPiIds() {
+        return learnRaspberryPiIds;
+    }
+
+    public void setLearnRaspberryPiIds(List<String> learnRaspberryPiIds) {
+        this.learnRaspberryPiIds = learnRaspberryPiIds;
     }
 
     public LocalDate getCreationOrUpdateDate() {

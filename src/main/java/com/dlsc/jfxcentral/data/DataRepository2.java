@@ -7,8 +7,9 @@ import com.dlsc.jfxcentral.data.model.Coordinates;
 import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
-import com.dlsc.jfxcentral.data.model.Learn;
-import com.dlsc.jfxcentral.data.model.LearnType;
+import com.dlsc.jfxcentral.data.model.LearnJavaFX;
+import com.dlsc.jfxcentral.data.model.LearnMobile;
+import com.dlsc.jfxcentral.data.model.LearnRaspberryPi;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
@@ -51,7 +52,6 @@ import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -86,7 +86,9 @@ public class DataRepository2 {
     private final List<IkonliPack> ikonliPacks = new ArrayList<>();
     private final List<Member> members = new ArrayList<>();
     private final List<Documentation> documentation = new ArrayList<>();
-    private final List<Learn> learn = new ArrayList<>();
+    private final List<LearnJavaFX> learnJavaFX = new ArrayList<>();
+    private final List<LearnMobile> learnMobile = new ArrayList<>();
+    private final List<LearnRaspberryPi> learnRaspberryPi = new ArrayList<>();
     private String homeText;
     private String openJFXText;
     private long cachedPullRequestsTime;
@@ -141,7 +143,9 @@ public class DataRepository2 {
         getIkonliPacks().clear();
         getMembers().clear();
         getDocumentation().clear();
-        getLearn().clear();
+        getLearnJavaFX().clear();
+        getLearnMobile().clear();
+        getLearnRaspberryPi().clear();
     }
 
     private void doLoadData(String reason) {
@@ -189,22 +193,18 @@ public class DataRepository2 {
             }.getType()));
             documentation.addAll(load(getFile("documentation/documentation.json"), new TypeToken<List<Documentation>>() {
             }.getType()));
-
-            // load learn
-            Arrays.stream(LearnType.values()).forEach(type -> learn.addAll(loadFXLearn(type)));
+            learnJavaFX.addAll(load(getFile("learn/javafx/learn.json"), new TypeToken<List<LearnJavaFX>>() {
+            }.getType()));
+            learnMobile.addAll(load(getFile("learn/mobile/learn.json"), new TypeToken<List<LearnMobile>>() {
+            }.getType()));
+            learnRaspberryPi.addAll(load(getFile("learn/raspberrypi/learn.json"), new TypeToken<List<LearnRaspberryPi>>() {
+            }.getType()));
 
         } catch (Exception e) {
             LOG.severe("error loading data: " + e.getMessage());
         }
 
         LOG.fine("data loading finished");
-    }
-
-    private Collection<Learn> loadFXLearn(LearnType type) {
-        Collection<Learn> loadLearn = load(getFile("learn/" + type.getDirectory() + "/learn.json"), new TypeToken<List<Learn>>() {
-        }.getType());
-        loadLearn.forEach(item -> item.setType(type));
-        return loadLearn;
     }
 
     private <T> Collection<T> load(File file, Type type) {
@@ -235,8 +235,16 @@ public class DataRepository2 {
         return books.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
-    public Optional<Learn> getLearnById(String id) {
-        return learn.stream().filter(item -> item.getId().equals(id)).findFirst();
+    public Optional<LearnJavaFX> getLearnJavaFXById(String id) {
+        return learnJavaFX.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<LearnMobile> getLearnMobileById(String id) {
+        return learnMobile.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<LearnRaspberryPi> getLearnRaspberryPiById(String id) {
+        return learnRaspberryPi.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
     public Optional<Blog> getBlogById(String id) {
@@ -332,8 +340,12 @@ public class DataRepository2 {
             return modelObject.getMemberIds();
         } else if (clazz.equals(Documentation.class)) {
             return modelObject.getDocumentationIds();
-        } else if (clazz.equals(Learn.class)) {
-            return modelObject.getLearnIds();
+        } else if (clazz.equals(LearnJavaFX.class)) {
+            return modelObject.getLearnJavaFXIds();
+        } else if (clazz.equals(LearnMobile.class)) {
+            return modelObject.getLearnMobileIds();
+        } else if (clazz.equals(LearnRaspberryPi.class)) {
+            return modelObject.getLearnRaspberryPiIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -374,8 +386,12 @@ public class DataRepository2 {
             return (List<T>) members;
         } else if (clazz.equals(Documentation.class)) {
             return (List<T>) documentation;
-        } else if (clazz.equals(Learn.class)) {
-            return (List<T>) learn;
+        } else if (clazz.equals(LearnJavaFX.class)) {
+            return (List<T>) learnJavaFX;
+        } else if (clazz.equals(LearnMobile.class)) {
+            return (List<T>) learnMobile;
+        } else if (clazz.equals(LearnRaspberryPi.class)) {
+            return (List<T>) learnRaspberryPi;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -441,8 +457,16 @@ public class DataRepository2 {
         return getLinkedObjects(modelObject, Tip.class);
     }
 
-    public List<Learn> getLearnByModelObject(ModelObject modelObject) {
-        return getLinkedObjects(modelObject, Learn.class);
+    public List<LearnJavaFX> getLearnJavaFXByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, LearnJavaFX.class);
+    }
+
+    public List<LearnMobile> getLearnMobileByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, LearnMobile.class);
+    }
+
+    public List<LearnRaspberryPi> getLearnRaspberryPiByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, LearnRaspberryPi.class);
     }
 
     public List<LinksOfTheWeek> getLinksOfTheWeekByModelObject(ModelObject modelObject) {
@@ -518,8 +542,16 @@ public class DataRepository2 {
         return loadString(new File(getRepositoryDirectory(), "libraries/" + library.getId() + "/readme.md"));
     }
 
-    public String getLearnReadMe(Learn learn) {
-        return loadString(new File(getRepositoryDirectory(), "learn/" + learn.getType().getDirectory() + "/" + learn.getId() + "/readme.md"));
+    public String getLearnJavaFXReadMe(LearnJavaFX learnJavaFX) {
+        return loadString(new File(getRepositoryDirectory(), "learn/javafx/" + learnJavaFX.getId() + "/readme.md"));
+    }
+
+    public String getLearnMobileReadMe(LearnMobile learnMobile) {
+        return loadString(new File(getRepositoryDirectory(), "learn/mobile/" + learnMobile.getId() + "/readme.md"));
+    }
+
+    public String getLearnRaspberryPiReadMe(LearnRaspberryPi learnRaspberryPi) {
+        return loadString(new File(getRepositoryDirectory(), "learn/raspberrypi/" + learnRaspberryPi.getId() + "/readme.md"));
     }
 
     public String getRepositoryDirectoryURL() {
@@ -594,12 +626,16 @@ public class DataRepository2 {
         return documentation;
     }
 
-    public List<Learn> getLearn() {
-        return learn;
+    public List<LearnJavaFX> getLearnJavaFX() {
+        return learnJavaFX;
     }
 
-    public List<Learn> getLearnByType(LearnType type) {
-        return learn.stream().filter(item -> item.getType().equals(type)).collect(Collectors.toList());
+    public List<LearnMobile> getLearnMobile() {
+        return learnMobile;
+    }
+
+    public List<LearnRaspberryPi> getLearnRaspberryPi() {
+        return learnRaspberryPi;
     }
 
     public String getHomeText() {

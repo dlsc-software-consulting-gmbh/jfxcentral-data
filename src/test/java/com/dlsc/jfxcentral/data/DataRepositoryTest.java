@@ -6,7 +6,9 @@ import com.dlsc.jfxcentral.data.model.Company;
 import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
-import com.dlsc.jfxcentral.data.model.Learn;
+import com.dlsc.jfxcentral.data.model.LearnJavaFX;
+import com.dlsc.jfxcentral.data.model.LearnMobile;
+import com.dlsc.jfxcentral.data.model.LearnRaspberryPi;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.Member;
@@ -72,7 +74,9 @@ public class DataRepositoryTest {
         assertTrue(!repository.getIkonliPacks().isEmpty());
         assertTrue(!repository.getMembers().isEmpty());
         assertTrue(!repository.getDocumentation().isEmpty());
-        assertTrue(!repository.getLearn().isEmpty());
+        assertTrue(!repository.getLearnJavaFX().isEmpty());
+        assertTrue(!repository.getLearnMobile().isEmpty());
+        assertTrue(!repository.getLearnRaspberryPi().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -103,7 +107,9 @@ public class DataRepositoryTest {
         assertTrue(repository.getIkonliPacks().isEmpty());
         assertTrue(repository.getMembers().isEmpty());
         assertTrue(repository.getDocumentation().isEmpty());
-        assertTrue(repository.getLearn().isEmpty());
+        assertTrue(repository.getLearnJavaFX().isEmpty());
+        assertTrue(repository.getLearnMobile().isEmpty());
+        assertTrue(repository.getLearnRaspberryPi().isEmpty());
 
         assertTrue(StringUtils.isBlank(repository.getHomeText()));
         assertTrue(StringUtils.isBlank(repository.getOpenJFXText()));
@@ -137,7 +143,9 @@ public class DataRepositoryTest {
         assertTrue(!repository.getIkonliPacks().isEmpty());
         assertTrue(!repository.getMembers().isEmpty());
         assertTrue(!repository.getDocumentation().isEmpty());
-        assertTrue(!repository.getLearn().isEmpty());
+        assertTrue(!repository.getLearnJavaFX().isEmpty());
+        assertTrue(!repository.getLearnMobile().isEmpty());
+        assertTrue(!repository.getLearnRaspberryPi().isEmpty());
 
         assertTrue(StringUtils.isNotBlank(repository.getHomeText()));
         assertTrue(StringUtils.isNotBlank(repository.getOpenJFXText()));
@@ -900,44 +908,128 @@ public class DataRepositoryTest {
     }
 
     @Test
-    public void shouldGetLearnById() {
+    public void shouldGetLearnJavaFXById() {
         // given
         DataRepository repository = DataRepository.getInstance();
         repository.loadData();
 
-        ObservableList<Learn> learn = repository.getLearn();
-        assertFalse(learn.isEmpty());
+        ObservableList<LearnJavaFX> learnJavaFX = repository.getLearnJavaFX();
+        assertFalse(learnJavaFX.isEmpty());
 
         // when
-        learn.forEach(item -> {
-            Optional<Learn> result = repository.getLearnById(item.getId());
+        learnJavaFX.forEach(item -> {
+            Optional<LearnJavaFX> result = repository.getLearnJavaFXById(item.getId());
 
             // then
-            assertNotNull(result.get(), "no learn returned for ID " + item.getId());
+            assertNotNull(result.get(), "no learnJavaFX returned for ID " + item.getId());
         });
 
-        learn.forEach(item -> {
-            Learn result = (Learn) repository.getByID(Learn.class, item.getId());
+        learnJavaFX.forEach(item -> {
+            LearnJavaFX result = (LearnJavaFX) repository.getByID(LearnJavaFX.class, item.getId());
 
             // then
-            assertNotNull(result, "no learn returned for ID " + item.getId());
+            assertNotNull(result, "no learnJavaFX returned for ID " + item.getId());
         });
     }
 
     @Test
-    public void shouldLoadLearnDescription() {
+    public void shouldLoadLearnJavaFXDescription() {
         // given
         DataRepository repository = DataRepository.getInstance();
         repository.loadData();
 
-        assertFalse(repository.getLearn().isEmpty());
+        assertFalse(repository.getLearnJavaFX().isEmpty());
 
         // when
-        repository.getLearn().forEach(learn -> {
-            StringProperty text = repository.learnReadMeProperty(learn);
+        repository.getLearnJavaFX().forEach(learnJavaFX -> {
+            StringProperty text = repository.learnJavaFXReadMeProperty(learnJavaFX);
 
             // then
-            assertNotNull(text.get(), "text missing for library ID " + learn.getId());
+            assertNotNull(text.get(), "text missing for library ID " + learnJavaFX.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetLearnMobileById(){
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        ObservableList<LearnMobile> learnMobile = repository.getLearnMobile();
+        assertFalse(learnMobile.isEmpty());
+
+        // when
+        learnMobile.forEach(item -> {
+            Optional<LearnMobile> result = repository.getLearnMobileById(item.getId());
+
+            // then
+            assertNotNull(result.get(), "no learnMobile returned for ID " + item.getId());
+        });
+
+        learnMobile.forEach(item -> {
+            LearnMobile result = (LearnMobile) repository.getByID(LearnMobile.class, item.getId());
+
+            // then
+            assertNotNull(result, "no learnMobile returned for ID " + item.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadLearnMobileDescription() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getLearnMobile().isEmpty());
+
+        // when
+        repository.getLearnMobile().forEach(learnMobile -> {
+            StringProperty text = repository.learnMobileReadMeProperty(learnMobile);
+
+            // then
+            assertNotNull(text.get(), "text missing for library ID " + learnMobile.getId());
+        });
+    }
+
+    @Test
+    public void shouldGetLearnRaspberryPiById() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        ObservableList<LearnRaspberryPi> learnRaspberryPi = repository.getLearnRaspberryPi();
+        assertFalse(learnRaspberryPi.isEmpty());
+
+        // when
+        learnRaspberryPi.forEach(item -> {
+            Optional<LearnRaspberryPi> result = repository.getLearnRaspberryPiById(item.getId());
+
+            // then
+            assertNotNull(result.get(), "no learnRaspberryPi returned for ID " + item.getId());
+        });
+
+        learnRaspberryPi.forEach(item -> {
+            LearnRaspberryPi result = (LearnRaspberryPi) repository.getByID(LearnRaspberryPi.class, item.getId());
+
+            // then
+            assertNotNull(result, "no learnRaspberryPi returned for ID " + item.getId());
+        });
+    }
+
+    @Test
+    public void shouldLoadLearnRaspberryPiDescription() {
+        // given
+        DataRepository repository = DataRepository.getInstance();
+        repository.loadData();
+
+        assertFalse(repository.getLearnRaspberryPi().isEmpty());
+
+        // when
+        repository.getLearnRaspberryPi().forEach(learnRaspberryPi -> {
+            StringProperty text = repository.learnRaspberryPiReadMeProperty(learnRaspberryPi);
+
+            // then
+            assertNotNull(text.get(), "text missing for library ID " + learnRaspberryPi.getId());
         });
     }
 

@@ -5,7 +5,6 @@ import org.apache.commons.lang3.StringUtils;
 public class Learn extends ModelObject {
 
     private String sourceCodeUrl;
-    private LearnType type;
 
     public Learn() {
     }
@@ -27,11 +26,4 @@ public class Learn extends ModelObject {
         this.sourceCodeUrl = sourceCodeUrl;
     }
 
-    public LearnType getType() {
-        return type;
-    }
-
-    public void setType(LearnType type) {
-        this.type = type;
-    }
 }
