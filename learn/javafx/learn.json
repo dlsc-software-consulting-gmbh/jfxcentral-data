@@ -34,6 +34,28 @@
     "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/blob/main/src/main/java/com/coderscratchpad/javafxtutorial/BasicGui.java"
   },
   {
+    "id": "button",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "Using the Button Component",
+    "personIds": [
+      "e.nyirenda"
+    ],
+    "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-buttons/",
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/button"
+  },
+  {
+    "id": "button-styling",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "Styling JavaFX Buttons with CSS",
+    "personIds": [
+      "e.nyirenda"
+    ],
+    "canonicalUrl": "https://coderscratchpad.com/styling-javafx-buttons-with-css/",
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/button"
+  },
+  {
     "id": "canvas",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
