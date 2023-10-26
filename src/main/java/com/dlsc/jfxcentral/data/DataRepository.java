@@ -7,19 +7,22 @@ import com.dlsc.jfxcentral.data.model.Coordinates;
 import com.dlsc.jfxcentral.data.model.Documentation;
 import com.dlsc.jfxcentral.data.model.Download;
 import com.dlsc.jfxcentral.data.model.IkonliPack;
+import com.dlsc.jfxcentral.data.model.LearnJavaFX;
+import com.dlsc.jfxcentral.data.model.LearnMobile;
+import com.dlsc.jfxcentral.data.model.LearnRaspberryPi;
 import com.dlsc.jfxcentral.data.model.Library;
 import com.dlsc.jfxcentral.data.model.LibraryInfo;
 import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
 import com.dlsc.jfxcentral.data.model.Member;
 import com.dlsc.jfxcentral.data.model.ModelObject;
 import com.dlsc.jfxcentral.data.model.News;
-import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Person;
 import com.dlsc.jfxcentral.data.model.Post;
 import com.dlsc.jfxcentral.data.model.RealWorldApp;
 import com.dlsc.jfxcentral.data.model.Tip;
 import com.dlsc.jfxcentral.data.model.Tool;
 import com.dlsc.jfxcentral.data.model.Tutorial;
+import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Video;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
 import com.dlsc.jfxcentral.data.util.QueryResult;
@@ -102,6 +105,10 @@ public class DataRepository {
     private final Map<LinksOfTheWeek, StringProperty> linksOfTheWeekReadMeMap = new HashMap<>();
 
     private final Map<Member, StringProperty> memberDescriptionMap = new HashMap<>();
+    //private final Map<Learn, StringProperty> learnDescriptionMap = new HashMap<>();
+    private final Map<LearnJavaFX,StringProperty> learnJavaFXDescriptionMap = new HashMap<>();
+    private final Map<LearnMobile,StringProperty> learnMobileDescriptionMap = new HashMap<>();
+    private final Map<LearnRaspberryPi,StringProperty> learnRaspberryPiDescriptionMap = new HashMap<>();
 
     private boolean loaded;
 
@@ -146,6 +153,9 @@ public class DataRepository {
         tutorialTextMap.clear();
         linksOfTheWeekReadMeMap.clear();
         memberDescriptionMap.clear();
+        learnJavaFXDescriptionMap.clear();
+        learnMobileDescriptionMap.clear();
+        learnRaspberryPiDescriptionMap.clear();
 
         getPeople().clear();
         getLibraries().clear();
@@ -164,6 +174,9 @@ public class DataRepository {
         getIkonliPacks().clear();
         getMembers().clear();
         getDocumentation().clear();
+        getLearnJavaFX().clear();
+        getLearnMobile().clear();
+        getLearnRaspberryPi().clear();
     }
 
     private void doLoadData(String reason) {
@@ -174,104 +187,70 @@ public class DataRepository {
 
             String openJFXText = loadString(new File(getRepositoryDirectory(), "openjfx/intro.md"));
 
-            // load people
-            File peopleFile = new File(getRepositoryDirectory(), "people/people.json");
-            List<Person> people = gson.fromJson(new FileReader(peopleFile, StandardCharsets.UTF_8), new TypeToken<List<Person>>() {
-            }.getType());
+            List<Person> people = loadModel("people/people.json", new TypeToken<>() {
+            });
+            List<Book> books = loadModel("books/books.json", new TypeToken<>() {
+            });
+            List<Video> videos = loadModel("videos/videos.json", new TypeToken<>() {
+            });
+            List<Library> libraries = loadModel("libraries/libraries.json", new TypeToken<>() {
+            });
+            List<News> news = loadModel("news/news.json", new TypeToken<>() {
+            });
+            List<Blog> blogs = loadModel("blogs/blogs.json", new TypeToken<>() {
+            });
+            List<Company> companies = loadModel("companies/companies.json", new TypeToken<>() {
+            });
+            List<Tool> tools = loadModel("tools/tools.json", new TypeToken<>() {
+            });
+            List<Utility> utilities = loadModel("utilities/utilities.json", new TypeToken<>() {
+            });
+            List<RealWorldApp> realWorldApps = loadModel("realworld/realworld.json", new TypeToken<>() {
+            });
+            List<Download> downloads = loadModel("downloads/downloads.json", new TypeToken<>() {
+            });
+            List<Tutorial> tutorials = loadModel("tutorials/tutorials.json", new TypeToken<>() {
+            });
+            List<Tip> tips = loadModel("tips/tips.json", new TypeToken<>() {
+            });
+            List<LinksOfTheWeek> links = loadModel("links/links.json", new TypeToken<>() {
+            });
+            List<IkonliPack> ikonliPacks = loadModel("ikonlipacks/ikonlipacks.json", new TypeToken<>() {
+            });
+            List<Member> members = loadModel("members/members.json", new TypeToken<>() {
+            });
+            List<Documentation> documentation = loadModel("documentation/documentation.json", new TypeToken<>() {
+            });
+            List<LearnJavaFX> learnJavaFX = loadModel("learn/javafx/learn.json", new TypeToken<>() {
+            });
+            List<LearnMobile> learnMobile = loadModel("learn/mobile/learn.json", new TypeToken<>() {
+            });
+            List<LearnRaspberryPi> learnRaspberryPi = loadModel("learn/raspberrypi/learn.json", new TypeToken<>() {
+            });
 
-            // load books
-            File booksFile = new File(getRepositoryDirectory(), "books/books.json");
-            List<Book> books = gson.fromJson(new FileReader(booksFile, StandardCharsets.UTF_8), new TypeToken<List<Book>>() {
-            }.getType());
-
-            // load videos
-            File videosFile = new File(getRepositoryDirectory(), "videos/videos.json");
-            List<Video> videos = gson.fromJson(new FileReader(videosFile, StandardCharsets.UTF_8), new TypeToken<List<Video>>() {
-            }.getType());
-
-            // load libraries
-            File librariesFile = new File(getRepositoryDirectory(), "libraries/libraries.json");
-            List<Library> libraries = gson.fromJson(new FileReader(librariesFile, StandardCharsets.UTF_8), new TypeToken<List<Library>>() {
-            }.getType());
-
-            // load libraries
-            File newsFile = new File(getRepositoryDirectory(), "news/news.json");
-            List<News> news = gson.fromJson(new FileReader(newsFile, StandardCharsets.UTF_8), new TypeToken<List<News>>() {
-            }.getType());
-
-            // load libraries
-            File blogsFile = new File(getRepositoryDirectory(), "blogs/blogs.json");
-            List<Blog> blogs = gson.fromJson(new FileReader(blogsFile, StandardCharsets.UTF_8), new TypeToken<List<Blog>>() {
-            }.getType());
-
-            // load libraries
-            File companiesFile = new File(getRepositoryDirectory(), "companies/companies.json");
-            List<Company> companies = gson.fromJson(new FileReader(companiesFile, StandardCharsets.UTF_8), new TypeToken<List<Company>>() {
-            }.getType());
-
-            // load tools
-            File toolsFile = new File(getRepositoryDirectory(), "tools/tools.json");
-            List<Tool> tools = gson.fromJson(new FileReader(toolsFile, StandardCharsets.UTF_8), new TypeToken<List<Tool>>() {
-            }.getType());
-
-            // load tools
-            File utilitiesFile = new File(getRepositoryDirectory(), "utilities/utilities.json");
-            List<Utility> utilities = gson.fromJson(new FileReader(utilitiesFile, StandardCharsets.UTF_8), new TypeToken<List<Utility>>() {
-            }.getType());
-
-            // load real world apps
-            File realWorldFile = new File(getRepositoryDirectory(), "realworld/realworld.json");
-            List<RealWorldApp> realWorldApps = gson.fromJson(new FileReader(realWorldFile, StandardCharsets.UTF_8), new TypeToken<List<RealWorldApp>>() {
-            }.getType());
-
-            // load downloads
-            File downloadsFile = new File(getRepositoryDirectory(), "downloads/downloads.json");
-            List<Download> downloads = gson.fromJson(new FileReader(downloadsFile, StandardCharsets.UTF_8), new TypeToken<List<Download>>() {
-            }.getType());
-
-            // load downloads
-            File tutorialsFile = new File(getRepositoryDirectory(), "tutorials/tutorials.json");
-            List<Tutorial> tutorials = gson.fromJson(new FileReader(tutorialsFile, StandardCharsets.UTF_8), new TypeToken<List<Tutorial>>() {
-            }.getType());
-
-            // load downloads
-            File tipsFile = new File(getRepositoryDirectory(), "tips/tips.json");
-            List<Tip> tips = gson.fromJson(new FileReader(tipsFile, StandardCharsets.UTF_8), new TypeToken<List<Tip>>() {
-            }.getType());
-
-            // load downloads
-            File linksOfTheWeekFile = new File(getRepositoryDirectory(), "links/links.json");
-            List<LinksOfTheWeek> links = gson.fromJson(new FileReader(linksOfTheWeekFile, StandardCharsets.UTF_8), new TypeToken<List<LinksOfTheWeek>>() {
-            }.getType());
-
-            // load ikonlipacks
-            File ikonliPacksFile = new File(getRepositoryDirectory(), "ikonlipacks/ikonlipacks.json");
-            List<IkonliPack> ikonliPacks = gson.fromJson(new FileReader(ikonliPacksFile, StandardCharsets.UTF_8), new TypeToken<List<IkonliPack>>() {
-            }.getType());
-
-            // load members
-            File membersFile = new File(getRepositoryDirectory(), "members/members.json");
-            List<Member> members = gson.fromJson(new FileReader(membersFile, StandardCharsets.UTF_8), new TypeToken<List<Member>>() {
-            }.getType());
-
-            // load documentation
-            File documentationFile = new File(getRepositoryDirectory(), "documentation/documentation.json");
-            List<Documentation> documentation = gson.fromJson(new FileReader(documentationFile, StandardCharsets.UTF_8), new TypeToken<List<Documentation>>() {
-            }.getType());
-
-            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, utilities, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members, documentation);
+            setData(homeText, openJFXText, people, books, videos, libraries, news, blogs, companies, tools, utilities, realWorldApps, downloads, tutorials, tips, links, ikonliPacks, members, documentation, learnJavaFX, learnMobile, learnRaspberryPi);
 
             LOG.fine("data loading finished");
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.severe("data loading failed: " + e.getMessage());
         } finally {
             loaded = true;
         }
     }
 
+    private <T> List<T> loadModel(String path, TypeToken<List<T>> typeToken) {
+        File file = new File(getRepositoryDirectory(), path);
+        try (FileReader fileReader = new FileReader(file, StandardCharsets.UTF_8)) {
+            return gson.fromJson(fileReader, typeToken.getType());
+        } catch (IOException e) {
+            LOG.severe("failed to load model from file " + path + ": " + e.getMessage());
+            return Collections.emptyList();
+        }
+    }
+
     private void setData(String homeText, String openJFXText, List<Person> people, List<Book> books, List<Video> videos, List<Library> libraries,
                          List<News> news, List<Blog> blogs, List<Company> companies, List<Tool> tools, List<Utility> utilities, List<RealWorldApp> realWorldApps, List<Download> downloads,
-                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks, List<Member> members, List<Documentation> documentation) {
+                         List<Tutorial> tutorials, List<Tip> tips, List<LinksOfTheWeek> links, List<IkonliPack> ikonliPacks, List<Member> members, List<Documentation> documentation, List<LearnJavaFX> learnJavaFX, List<LearnMobile> learnMobile, List<LearnRaspberryPi> learnRaspberryPi) {
         clearData();
 
         setOpenJFXText(openJFXText);
@@ -294,6 +273,9 @@ public class DataRepository {
         getIkonliPacks().setAll(ikonliPacks);
         getMembers().setAll(members);
         getDocumentation().setAll(documentation);
+        getLearnJavaFX().setAll(learnJavaFX);
+        getLearnMobile().setAll(learnMobile);
+        getLearnRaspberryPi().setAll(learnRaspberryPi);
 
         List<ModelObject> recentItems = findRecentItems();
         getRecentItems().setAll(recentItems);
@@ -318,6 +300,9 @@ public class DataRepository {
         result.addAll(findRecentItems(getIkonliPacks()));
         result.addAll(findRecentItems(getMembers()));
         result.addAll(findRecentItems(getDocumentation()));
+        result.addAll(findRecentItems(getLearnJavaFX()));
+        result.addAll(findRecentItems(getLearnMobile()));
+        result.addAll(findRecentItems(getLearnRaspberryPi()));
         // LinksOfTheWeek are not reachable through links!
         //  result.addAll(findRecentItems(getLinksOfTheWeek()));
 
@@ -421,6 +406,18 @@ public class DataRepository {
         return documentation.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
 
+    public Optional<LearnJavaFX> getLearnJavaFXById(String id) {
+        return learnJavaFX.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<LearnMobile> getLearnMobileById(String id) {
+        return learnMobile.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
+    public Optional<LearnRaspberryPi> getLearnRaspberryPiById(String id) {
+        return learnRaspberryPi.stream().filter(item -> item.getId().equals(id)).findFirst();
+    }
+
     public <T extends ModelObject> ObservableList<T> getLinkedObjects(ModelObject modelObject, Class<T> clazz) {
         List<T> itemList = getList(clazz);
         List<String> idsList = getIdList(modelObject, clazz);
@@ -464,6 +461,12 @@ public class DataRepository {
             return modelObject.getMemberIds();
         } else if (clazz.equals(Documentation.class)) {
             return modelObject.getDocumentationIds();
+        } else if (clazz.equals(LearnJavaFX.class)) {
+            return modelObject.getLearnJavaFXIds();
+        } else if (clazz.equals(LearnMobile.class)) {
+            return modelObject.getLearnMobileIds();
+        } else if (clazz.equals(LearnRaspberryPi.class)) {
+            return modelObject.getLearnRaspberryPiIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -504,6 +507,12 @@ public class DataRepository {
             return (List<T>) members;
         } else if (clazz.equals(Documentation.class)) {
             return (List<T>) documentation;
+        } else if (clazz.equals(LearnJavaFX.class)) {
+            return (List<T>) learnJavaFX;
+        } else if (clazz.equals(LearnMobile.class)) {
+            return (List<T>) learnMobile;
+        } else if (clazz.equals(LearnRaspberryPi.class)) {
+            return (List<T>) learnRaspberryPi;
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
@@ -519,6 +528,18 @@ public class DataRepository {
 
     public ObservableList<Download> getDownloadsByModelObject(ModelObject modelObject) {
         return getLinkedObjects(modelObject, Download.class);
+    }
+
+    public ObservableList<LearnJavaFX> getLearnJavaFXByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, LearnJavaFX.class);
+    }
+
+    public ObservableList<LearnMobile> getLearnMobileByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, LearnMobile.class);
+    }
+
+    public ObservableList<LearnRaspberryPi> getLearnRaspberryPiByModelObject(ModelObject modelObject) {
+        return getLinkedObjects(modelObject, LearnRaspberryPi.class);
     }
 
     public ObservableList<Book> getBooksByModelObject(ModelObject modelObject) {
@@ -742,6 +763,45 @@ public class DataRepository {
         readmeProperty.set(readmeText);
     }
 
+    private void loadLearnJavaFXReadMe(LearnJavaFX learnJavaFX, StringProperty readmeProperty) {
+        String readmeText = loadString(new File(getRepositoryDirectory(), "learn/javafx/" + learnJavaFX.getId() + "/readme.md"));
+        readmeProperty.set(readmeText);
+    }
+
+    public StringProperty learnJavaFXReadMeProperty(LearnJavaFX learnJavaFX) {
+        return learnJavaFXDescriptionMap.computeIfAbsent(learnJavaFX, key -> {
+            StringProperty readmeProperty = new SimpleStringProperty();
+            loadLearnJavaFXReadMe(learnJavaFX, readmeProperty);
+            return readmeProperty;
+        });
+    }
+
+    private void loadLearnMobileReadMe(LearnMobile learnMobile, StringProperty readmeProperty) {
+        String readmeText = loadString(new File(getRepositoryDirectory(), "learn/mobile/" + learnMobile.getId() + "/readme.md"));
+        readmeProperty.set(readmeText);
+    }
+
+    public StringProperty learnMobileReadMeProperty(LearnMobile learnMobile) {
+        return learnMobileDescriptionMap.computeIfAbsent(learnMobile, key -> {
+            StringProperty readmeProperty = new SimpleStringProperty();
+            loadLearnMobileReadMe(learnMobile, readmeProperty);
+            return readmeProperty;
+        });
+    }
+
+    private void loadLearnRaspberryPiReadMe(LearnRaspberryPi learnRaspberryPi, StringProperty readmeProperty) {
+        String readmeText = loadString(new File(getRepositoryDirectory(), "learn/raspberrypi/" + learnRaspberryPi.getId() + "/readme.md"));
+        readmeProperty.set(readmeText);
+    }
+
+    public StringProperty learnRaspberryPiReadMeProperty(LearnRaspberryPi learnRaspberryPi) {
+        return learnRaspberryPiDescriptionMap.computeIfAbsent(learnRaspberryPi, key -> {
+            StringProperty readmeProperty = new SimpleStringProperty();
+            loadLearnRaspberryPiReadMe(learnRaspberryPi, readmeProperty);
+            return readmeProperty;
+        });
+    }
+
     public static void setTesting(boolean testing) {
         DataRepository.testing = testing;
     }
@@ -902,6 +962,24 @@ public class DataRepository {
 
     public ObservableList<Documentation> getDocumentation() {
         return documentation;
+    }
+
+    private final ObservableList<LearnJavaFX> learnJavaFX = FXCollections.observableArrayList();
+
+    public ObservableList<LearnJavaFX> getLearnJavaFX() {
+        return learnJavaFX;
+    }
+
+    private final ObservableList<LearnMobile> learnMobile = FXCollections.observableArrayList();
+
+    public ObservableList<LearnMobile> getLearnMobile() {
+        return learnMobile;
+    }
+
+    private final ObservableList<LearnRaspberryPi> learnRaspberryPi = FXCollections.observableArrayList();
+
+    public ObservableList<LearnRaspberryPi> getLearnRaspberryPi() {
+        return learnRaspberryPi;
     }
 
     private String loadString(File file) {
@@ -1076,6 +1154,9 @@ public class DataRepository {
         search(getIkonliPacks(), pattern, result);
         search(getMembers(), pattern, result);
         search(getDocumentation(), pattern, result);
+        search(getLearnJavaFX(), pattern, result);
+        search(getLearnMobile(), pattern, result);
+        search(getLearnRaspberryPi(), pattern, result);
         return result;
     }
 
