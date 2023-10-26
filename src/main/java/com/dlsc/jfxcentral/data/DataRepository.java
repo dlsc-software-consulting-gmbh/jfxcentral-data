@@ -463,6 +463,10 @@ public class DataRepository {
             return modelObject.getDocumentationIds();
         } else if (clazz.equals(LearnJavaFX.class)) {
             return modelObject.getLearnJavaFXIds();
+        } else if (clazz.equals(LearnMobile.class)) {
+            return modelObject.getLearnMobileIds();
+        } else if (clazz.equals(LearnRaspberryPi.class)) {
+            return modelObject.getLearnRaspberryPiIds();
         }
 
         throw new IllegalArgumentException("unsupported class type: " + clazz.getSimpleName());
