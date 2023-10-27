@@ -15,7 +15,7 @@
 
 ## Components, Libraries, Tools
 
-* **JPro** announced [version 2023.3.1](https://jpro.one/docs/current/3.1/2023.3.X) with a critical bugfix to handle bot traffic bettern, and a new feature regarding MimeTypes.
+* **JPro** announced [version 2023.3.1](https://jpro.one/docs/current/3.1/2023.3.X) with a critical bugfix to handle bot traffic better, and a new feature regarding MimeTypes.
 
 ## Podcast, Video, Books
 
