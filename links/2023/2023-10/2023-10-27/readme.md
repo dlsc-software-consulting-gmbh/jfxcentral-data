@@ -1,6 +1,6 @@
-## Core
+## Scene Builder
 
-* 
+* Scene Builder 21.0.1 RC1 is [available for testing](https://github.com/gluonhq/scenebuilder/releases).
 
 ## Applications
 
@@ -21,13 +21,10 @@
 
 * **Nicolai Parlog** published the [second half of his video report of Devoxx Belgium](https://www.youtube.com/watch?v=WoQJnnMIlFY), including an interview with **Kevin Rushforth** about GUI development with Java.
 
-## Tutorials
-
-*
-
 ## Miscellaneous
 
 * **Homebookner** shared a link to an interesting project by **Sheikah45**: [FX2J - FXML to Java Builder](https://github.com/Sheikah45/fx2j): a post-processor that converts fxml files into Java builder source files.
+* **Christopher Schnick** [reported some issues on new gnome-based desktops](https://mail.openjdk.org/pipermail/openjfx-dev/2023-October/043118.html), e.g. on Ubuntu 23: "For the JavaFX devs who use the system tray, note that there are various GTK issues. If you are using FXTrayIcon, your app will freeze."
 
 ## JFX Central
 
