@@ -4,6 +4,7 @@ public class Utility extends ModelObject {
 
     private DevelopmentStatus status;
     private boolean nativeSupported;
+    private boolean onlineSupported;
 
     public Utility() {
     }
@@ -22,5 +23,13 @@ public class Utility extends ModelObject {
 
     public void setNativeSupported(boolean nativeSupported) {
         this.nativeSupported = nativeSupported;
+    }
+
+    public boolean isOnlineSupported() {
+        return onlineSupported;
+    }
+
+    public void setOnlineSupported(boolean onlineSupported) {
+        this.onlineSupported = onlineSupported;
     }
 }
