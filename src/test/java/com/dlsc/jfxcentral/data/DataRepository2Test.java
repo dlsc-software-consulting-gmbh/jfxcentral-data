@@ -870,6 +870,7 @@ public class DataRepository2Test {
         // when
         repository.getUtilities().forEach(utility -> {
             Optional<Utility> result = repository.getUtilityById(utility.getId());
+            System.out.println(utility.getName() +" isOnlineSupported => "+ utility.isOnlineSupported());
 
             // then
             assertTrue(result.isPresent(), "no utility returned for ID " + utility.getId());
