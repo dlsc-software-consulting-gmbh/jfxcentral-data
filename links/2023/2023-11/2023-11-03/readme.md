@@ -2,7 +2,7 @@
 
 * [**Pedro Duque Vieira** shared screenshots](https://twitter.com/P_Duke/status/1720073696541602138) of the initial prototype of HERO (a JavaFX app in production) and screenshots of the app after its redesign and implementation. He also shared some quick remarks about the redesign.
 * [**OrangoMango** shared an impressive video of 3D rendering](https://twitter.com/orango_mango/status/1719446338503671953): "Now the camera is always pointing to the airplane and it can also freely move. It's on the Raspberry Pi and with this resolution it lags a bit with the screen recorder."
-* [**Serendipity** is proud](https://twitter.com/SerendigityInfo/status/1718268583208219073)! "Yes, we did it! A JavaFX APP is first in the Apple Store ranking for MacOS! SmartFinder number one! Another small step for all Java lovers. JavaFx write once run anywhere."
+* [**Serendipity** is proud](https://twitter.com/SerendigityInfo/status/1718268583208219073)! "Yes, we did it! A JavaFX APP is first in the Apple Store ranking for macOS! SmartFinder number one! Another small step for all Java lovers. JavaFX write once run anywhere."
 * **Robert Ladstätter** announced v23.3.0 of LogoRRR, the tool to analyze log files and filter out critical events or other points of interest: "[Successfully resolved a significant performance issue in LogoRRR. This enhancement is the highlight of version 23.3.0](https://twitter.com/logorrr/status/1720139416478351834)".
 
 ## Games
@@ -15,7 +15,7 @@
 
 ## Miscellaneous
 
-* [Screenshot by **Rumble Tumble Kid** of the minimal code to run ScalaFX](https://twitter.com/crodav/status/1719467351098167438).
+* [Screenshot by **Rumble Tumble Kid** of the minimal code to run ScalaFX](https://twitter.com/rumbletumblekid/status/1719376674939101576).
 
 ## JFX Central
 
