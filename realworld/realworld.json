@@ -686,15 +686,15 @@
   },
   {
     "id": "xpipe",
-    "name": "X-Pipe",
+    "name": "XPipe",
     "company": "Christopher Schnick",
-    "url": "https://github.com/xpipe-io/xpipe",
+    "url": "https://xpipe.io",
     "domain": "System Administration",
     "tags": "connections, servers, file management, system administration, development",
     "summary": "A connection manager and remote file explorer.",
-    "description": "X-Pipe is a new type of connection manager and remote file explorer that works by only interacting with command-line tools on local and remote shell connections. This approach makes it much more flexible as it doesn't have to deal with file system APIs or remote file handling protocols at all, allowing it to essentially connect to any remote system.",
+    "description": "XPipe is a new type of shell connection hub and remote file manager that allows you to access your entire server infrastructure from your local machine. It works on top of your installed command-line programs and does not require any setup on your remote systems.",
     "createdOn": "2023-06-07",
-    "modifiedOn": "2023-06-07",
+    "modifiedOn": "2023-11-04",
     "location": "Germany"
   },
   {
