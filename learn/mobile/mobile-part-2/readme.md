@@ -144,7 +144,7 @@ Here are several resources to generate the icons for the various devices.
 
 Here is the TiltMaze icon. Be sure to leave generous margins around the icon, since Apple will round the corners, possibly cutting into your design.
 
-![TiltMaze icon](tiltmaze-logo-small.png.webp)
+![TiltMaze icon](tiltmaze-logo-small.jpg)
 
 ## Android
 

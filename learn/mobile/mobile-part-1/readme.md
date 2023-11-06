@@ -6,8 +6,8 @@ You use the same JavaFX code targeting Google Play and Apple App stores. Perform
 
 Our game is TiltMaze Labyrinth. Figure 1 shows TiltMaze running on an Android Nexus 5X. Figure 2 shows TiltMaze running on an iPhone 8 Plus.
 
-![TiltMaze on Android](TiltMaze-android-small.png.webp)
-![TiltMaze on iPhone](TiltMaze-iPhone-small.png.webp)
+![TiltMaze on Android](TiltMaze-android-small.jpg)
+![TiltMaze on iPhone](TiltMaze-iPhone-small.jpg)
 
 We’ll discuss TiltMaze in three parts. First, we explore the JavaFX code: the basic structure of an animation-type app and the Gluon Attach API that lets you access hardware-specific features in a device-agnostic way.
 
@@ -19,8 +19,8 @@ Lastly in Part 3, we’ll discuss how to upload this application to the respecti
 
 Let’s start with the end result first. TiltMaze Labyrinth is a mobile game you can install from both the Apple App Store and Google Play. Download TiltMaze here on your mobile device or tablet to play.
 
-![Apple Store download TiltMaze](app-store-logo-sm.png.webp)
-![Google Play download TiltMaze](google-play-logo-sm-1.png.webp)
+![Apple Store download TiltMaze](app-store-logo-sm.jpg)
+![Google Play download TiltMaze](google-play-logo-sm-1.jpg)
 
 The game is simple enough: you navigate a rolling ball through a maze within the given time allotment while avoiding strategically placed holes. As you tilt the phone or tablet, the application reads the device’s accelerometer sensor and moves the ball based on the reading.
 
@@ -93,7 +93,7 @@ new LineTo(ball.getTranslateX(), ball.getTranslateY()));
 
 The following figure shows a game in progress. The ball’s path is marked in blue and the countdown timer has 6.5 seconds remaining.  Of course, the game must perform collision detection with the maze barriers, holes, and outside boundaries. We leave this code for you to digest at your leisure!
 
-![TiltMaze during play](TiltMaze-InPlay-small.png.webp)
+![TiltMaze during play](TiltMaze-InPlay-small.jpg)
 
 The Novice/Expert slider is disabled during play, but can be adjusted between games. The Novice setting has the longest game time and the slowest ball roll. The Expert setting corresponds to the shortest game time and the fastest ball roll. And you can experiment with values in between that fit your level.
 
