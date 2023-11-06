@@ -19,8 +19,8 @@ Lastly in Part 3, we’ll discuss how to upload this application to the respecti
 
 Let’s start with the end result first. TiltMaze Labyrinth is a mobile game you can install from both the Apple App Store and Google Play. Download TiltMaze here on your mobile device or tablet to play.
 
-![Apple Store download TiltMaze](app-store-logo-sm.jpg)
-![Google Play download TiltMaze](google-play-logo-sm-1.jpg)
+[![Apple Store download TiltMaze](app-store-logo-sm.jpg)](https://apps.apple.com/us/app/tiltmaze-labyrinth/id1566464439)
+[![Google Play download TiltMaze](google-play-logo-sm-1.jpg)](https://play.google.com/store/apps/details?id=com.asgteach.accelerometer.TiltMaze)
 
 The game is simple enough: you navigate a rolling ball through a maze within the given time allotment while avoiding strategically placed holes. As you tilt the phone or tablet, the application reads the device’s accelerometer sensor and moves the ball based on the reading.
 
