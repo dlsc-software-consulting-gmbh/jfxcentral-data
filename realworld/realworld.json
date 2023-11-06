@@ -741,5 +741,21 @@
     "personIds": [
       "s.phillips"
     ]
+  },
+  {
+    "id": "xeres",
+    "name": "Xeres",
+    "company": "",
+    "url": "https://xeres.io",
+    "domain": "Peer to Peer",
+    "tags": "Peer to Peer, P2P, Distributed, Cryptography, Free Software",
+    "summary": "Decentralized application for communication and sharing.",
+    "description": "A Peer-to-Peer (Friend-to-Friend), decentralized, encrypted and secure application designed for communication and sharing.",
+    "createdOn": "2023-11-06",
+    "modifiedOn": "2023-11-06",
+    "location": "Switzerland",
+    "personIds": [
+      "d.gerber"
+    ]
   }
 ]
