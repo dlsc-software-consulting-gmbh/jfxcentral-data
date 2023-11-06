@@ -741,5 +741,23 @@
     "companyIds": [
       "asgteach"
     ]
+  },
+  {
+    "name": "David Gerber",
+    "email": "dg@zapek.com",
+    "companyId": "",
+    "website": "https://zapek.com",
+    "blogId": "",
+    "linkedIn": "zapek",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "d.gerber",
+    "gitHub": "zapek",
+    "createdOn": "2023-11-06",
+    "modifiedOn": "2023-11-06",
+    "appIds": [
+      "xeres"
+    ]
   }
 ]
