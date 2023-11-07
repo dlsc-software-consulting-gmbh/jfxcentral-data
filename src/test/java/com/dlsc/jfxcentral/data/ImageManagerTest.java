@@ -220,4 +220,15 @@ public class ImageManagerTest {
             assertNotNull(property.get(), "image is missing for item ID " + doc.getId());
         });
     }
+
+    @Test
+    public void shouldGetLibraryFeaturedImage() {
+        // when .. then
+        DataRepository.getInstance().getLibraries().forEach(item -> {
+            ObjectProperty<Image> featuredImageProperty = ImageManager.getInstance().libraryFeaturedImageProperty(item);
+            assertNotNull(featuredImageProperty, "image featuredImageProperty is null for item ID " + item.getId());
+            // featuredImageProperty.get() Can be null.
+        });
+
+    }
 }
