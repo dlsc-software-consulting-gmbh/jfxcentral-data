@@ -1,0 +1,1 @@
+Software Developer, Java, JavaFX, Spring Boot, Backends, Peer to Peer and Distributed Systems.
