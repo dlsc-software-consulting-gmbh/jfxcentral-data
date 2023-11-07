@@ -577,7 +577,7 @@
     "artifactId": "preferencesfx-core",
     "logoAvailable": "true",
     "ensemble": "false",
-    "featuredImageName": "logo-original.png"
+    "featuredImageName": "logo.png"
   },
   {
     "name": "RichTextArea",
