@@ -1,6 +1,6 @@
 The easiest way to work on a Java project, is using an Integrated Development Environment (IDE). And you have many options, with most being free!
 
-Let's take a look at how you can creata a JavaFX project some of these IDEs.
+Let's take a look at how you can create a JavaFX project with some of these IDEs.
 
 ## Visual Studio Code
 

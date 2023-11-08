@@ -1,4 +1,4 @@
-Let's take a look at the basic components used by JavaFX to 
+Let's take a look at the minimal code needed to create a JavaFX application.
 
 ## Understanding the Stage and Scene
 
