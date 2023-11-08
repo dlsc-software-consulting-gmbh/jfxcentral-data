@@ -20,13 +20,13 @@ public class ImageManagerTest {
 
     @BeforeAll
     public static void setup() {
-        DataRepository.setTesting(true);
+        DataRepository2.setTesting(true);
     }
 
     @Test
     public void shouldGetPersonImage() {
         // when .. then
-        DataRepository.getInstance().getPeople().forEach(item -> {
+        DataRepository2.getInstance().getPeople().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().personImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -36,7 +36,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetNewsBanner() {
         // when .. then
-        DataRepository.getInstance().getNews().forEach(item -> {
+        DataRepository2.getInstance().getNews().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().newsBannerImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -46,7 +46,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetDownloadBanner() {
         // when .. then
-        DataRepository.getInstance().getDownloads().forEach(item -> {
+        DataRepository2.getInstance().getDownloads().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().downloadBannerImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -56,7 +56,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetTipBanner() {
         // when .. then
-        DataRepository.getInstance().getTips().forEach(item -> {
+        DataRepository2.getInstance().getTips().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().tipBannerImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -66,7 +66,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetBlogPageImage() {
         // when .. then
-        DataRepository.getInstance().getBlogs().forEach(item -> {
+        DataRepository2.getInstance().getBlogs().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().blogPageImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -76,7 +76,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetBlogIconImage() {
         // when .. then
-        DataRepository.getInstance().getBlogs().forEach(item -> {
+        DataRepository2.getInstance().getBlogs().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().blogIconImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -86,7 +86,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetBlogPageLargeImage() {
         // when .. then
-        DataRepository.getInstance().getBlogs().forEach(item -> {
+        DataRepository2.getInstance().getBlogs().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().blogPageLargeImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -96,7 +96,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetTutorialPageImage() {
         // when .. then
-        DataRepository.getInstance().getTutorials().forEach(item -> {
+        DataRepository2.getInstance().getTutorials().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().tutorialImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -106,7 +106,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetTutorialPageLargeImage() {
         // when .. then
-        DataRepository.getInstance().getTutorials().forEach(item -> {
+        DataRepository2.getInstance().getTutorials().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().tutorialImageLargeProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -116,7 +116,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetRealWorldImage() {
         // when .. then
-        DataRepository.getInstance().getRealWorldApps().forEach(item -> {
+        DataRepository2.getInstance().getRealWorldApps().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().realWorldAppImageProperty(item);
             assertNotNull(property, "small image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "small image is missing for item ID " + item.getId());
@@ -126,7 +126,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetRealWorldImageLarge() {
         // when .. then
-        DataRepository.getInstance().getRealWorldApps().forEach(item -> {
+        DataRepository2.getInstance().getRealWorldApps().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().realWorldAppLargeImageProperty(item);
             assertNotNull(property, "large image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "large image is missing for item ID " + item.getId());
@@ -136,7 +136,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetRealWorldBanner() {
         // when .. then
-        DataRepository.getInstance().getRealWorldApps().forEach(item -> {
+        DataRepository2.getInstance().getRealWorldApps().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().realWorldAppBannerImageProperty(item);
             assertNotNull(property, "banner image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "banner image is missing for item ID " + item.getId());
@@ -146,7 +146,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetToolImage() {
         // when .. then
-        DataRepository.getInstance().getTools().forEach(item -> {
+        DataRepository2.getInstance().getTools().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().toolImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -156,7 +156,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetUtilityImage() {
         // when .. then
-        DataRepository.getInstance().getUtilities().forEach(item -> {
+        DataRepository2.getInstance().getUtilities().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().utilityImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -166,7 +166,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetCompanyImage() {
         // when .. then
-        DataRepository.getInstance().getCompanies().forEach(item -> {
+        DataRepository2.getInstance().getCompanies().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().companyImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -176,7 +176,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetBookCoverImage() {
         // when .. then
-        DataRepository.getInstance().getBooks().forEach(item -> {
+        DataRepository2.getInstance().getBooks().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().bookCoverImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -186,7 +186,7 @@ public class ImageManagerTest {
     @Test
     public void shouldGetYouTubImage() {
         // when .. then
-        DataRepository.getInstance().getVideos().forEach(item -> {
+        DataRepository2.getInstance().getVideos().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().youTubeImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
@@ -214,17 +214,17 @@ public class ImageManagerTest {
     @Test
     public void shouldGetDocumentationImage() {
         // when .. then
-        DataRepository.getInstance().getDocumentation().forEach(doc -> {
-            ObjectProperty<Image> property = ImageManager.getInstance().documentationImageProperty(doc);
-            assertNotNull(property, "image property is null for item ID " + doc.getId());
-            assertNotNull(property.get(), "image is missing for item ID " + doc.getId());
+        DataRepository2.getInstance().getDocumentation().forEach(item -> {
+            ObjectProperty<Image> property = ImageManager.getInstance().documentationImageProperty(item);
+            assertNotNull(property, "image property is null for item ID " + item.getId());
+            assertNotNull(property.get(), "image is missing for item ID " + item.getId());
         });
     }
 
     @Test
     public void shouldGetLibraryFeaturedImage() {
         // when .. then
-        DataRepository.getInstance().getLibraries().forEach(item -> {
+        DataRepository2.getInstance().getLibraries().forEach(item -> {
             ObjectProperty<Image> featuredImageProperty = ImageManager.getInstance().libraryFeaturedImageProperty(item);
             assertNotNull(featuredImageProperty, "image featuredImageProperty is null for item ID " + item.getId());
             // featuredImageProperty.get() Can be null.
