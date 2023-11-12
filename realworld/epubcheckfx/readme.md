@@ -1,5 +1,5 @@
 
-A graphical interface for the official *W3C EPUBCheck* conformance checker. It can validate EPUB files and folders and display metadata in an easy-to-use and modern interface. Validation results are displayed as a table or list and a summary provides a quick overview of the number of errors and warnings that occurred.
+A graphical interface for the official *W3C EPUBCheck* conformance checker. It can validate EPUB files and folders and display metadata in an easy-to-use and modern interface. Validation results are displayed as a table or list, and a summary provides a quick overview of the number of errors and warnings that occurred.
 
 ![EPUBCheckFX Screenshot Light Mode](EPUBCheckFX-Screenshot-Light.png)
 
@@ -32,4 +32,4 @@ A graphical interface for the official *W3C EPUBCheck* conformance checker. It c
 ### Metadata Display
 
 - View Dublin Core metadata e.g. title, creator, date, contributor, publisher, description and subject
-- View additional data e.g. the contained files, their compressed size, declared mimetype and SHA-256 checksum
+- View additional data e.g. the contained files, their compressed size, declared mime type and SHA-256 checksum
