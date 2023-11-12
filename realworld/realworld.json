@@ -155,6 +155,19 @@
       "v4GkjST64Hk"
     ]
   },
+    {
+    "id": "epubcheckfx",
+    "name": "EPUBCheckFX",
+    "company": "Pascal Wagler",
+    "url": "https://github.com/Wandmalfarbe/EPUBCheckFX",
+    "domain": "Electronic publishing",
+    "tags": "epub, ebook, validation, publishing",
+    "summary": "Validate EPUB files or folders",
+    "description": "A graphical interface for the official W3C EPUBCheck conformance checker. It can validate EPUB files and folders and display metadata in an easy-to-use and modern interface.",
+    "createdOn": "2023-08-06",
+    "modifiedOn": "2023-11-12",
+    "location": "Germany"
+  },
   {
     "id": "equinox",
     "name": "Airbus Equinox",
