@@ -3,16 +3,12 @@
 * **Carl Dea** shared: "JavaFX 22 will be supporting platform specific settings! E.g. dark and light mode etc.". See [JDK-8319138: Platform preferences API](https://bugs.openjdk.org/browse/JDK-8319138). 
   * Also worth following: [JDK-8305116](https://bugs.openjdk.org/browse/JDK-8305116): "Frosty / Milky / diffuse transparency areas showing desktop background"
 * **Dirk Lemmermann** is [looking forward to the next release of JavaFX](https://twitter.com/dlemmermann/status/1724707717468582014): "We can hope to see CSS transitions, themes, and Platform API (dark mode, accent colors)."
-* JavaFX Wish Lists by 
+* JavaFX Wish Lists by: 
   * [**Dirk Lemmermann**](https://twitter.com/dlemmermann/status/1724709050670014678): removal of AWT, a tray API (tray icon),...
   * [**LeeWyatt**](https://twitter.com/LeeWyatt_7788/status/1724811343767978350): support for SVG Icons and Animations, Responsive Layout Pane/Adaptive Layout Pane
   * [**Thanhpv**](https://twitter.com/realThanhpv/status/1724995261305630972): clipping improvement
   * And others in the same thread...
 * **Pedro Duque Vieira** shared ["Ongoing work to add CSS transitions to JavaFX"](https://twitter.com/P_Duke/status/1724761488714240432).
-
-## Applications
-
-* 
 
 ## Games
 
@@ -29,17 +25,8 @@
 
 ## Podcast, Video, Books
 
-* On airhacks.fm, the podcast by **Adam Bien**: ["How **Gerrit Grunwald** wrote SteelSeries"](https://adambien.blog/roller/abien/entry/how_han_solo_wrote_steelseries). "A podcast episode about pixel perfect Java user interfaces, JavaFX, and Java's portability".
-
-## Tutorials
-
-*
+* On airhacks.fm, the podcast by **Adam Bien**: [How **Gerrit Grunwald** wrote SteelSeries](https://adambien.blog/roller/abien/entry/how_han_solo_wrote_steelseries). "A podcast episode about pixel perfect Java user interfaces, JavaFX, and Java's portability".
 
 ## Miscellaneous
 
 * **Carl Dea** is wondering if anyone is [interested in Java 21.0.1 & JavaFX 21.0.1 Scenic View](https://www.linkedin.com/posts/carldea_upgraded-to-gradle-84-jdk-2101-openjfx-activity-7131115551858282496-9sM-/).
-
-
-## JFX Central
-
-* 
