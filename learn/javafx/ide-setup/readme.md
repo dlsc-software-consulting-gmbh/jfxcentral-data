@@ -12,4 +12,4 @@ This [IDE by JetBrains](https://www.jetbrains.com/idea/) is available as a free 
 
 Creating a new JavaFX project has never been easier with the project wizard in Jetbrains IntelliJ IDEA. Creating a new project is just a matter of clicking a few buttons, and you have your new user interface application up and running in a matter of minutes...!
 
-![alt](youtube:v9rAR3waDJ)
+![alt](youtube:v9rAR3waDJs)
