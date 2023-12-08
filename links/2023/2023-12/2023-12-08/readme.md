@@ -1,6 +1,6 @@
 ## Core
 
-* [**Dirk Lemmermann** is happy](https://twitter.com/dlemmermann/status/1731945181056803237) with a [pull request in OpenJFX](https://github.com/openjdk/jfx/pull/1293) "that finally adds styling support to the fitWidth / fitHeight / preserveRatio / smooth properties of the ImageView class. I always wondered why they were missing. Turns out they were simply forgotten (but a TODO was in the source code :-))." https://github.com/openjdk/jfx
+* [**Dirk Lemmermann** is happy](https://twitter.com/dlemmermann/status/1731945181056803237) with a [pull request in OpenJFX](https://github.com/openjdk/jfx/pull/1293) "that finally adds styling support to the fitWidth / fitHeight / preserveRatio / smooth properties of the ImageView class. I always wondered why they were missing. Turns out they were simply forgotten (but a TODO was in the source code :-))."
 
 ## Applications
 
