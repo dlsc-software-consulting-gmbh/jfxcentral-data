@@ -10,7 +10,7 @@
 
 ## Games
  
-* [**Dexter** shared a brief video](https://twitter.com/SulaimonMuhamm9/status/1731418084617933140) of the "Who Wants to Be a Millionaire" game developed using JavaFX and Hibernate: "Exciting things happening with Java!"
+* [**Sulaimon Muhammad** shared a brief video](https://twitter.com/SulaimonMuhamm9/status/1731418084617933140) of the "Who Wants to Be a Millionaire" game developed using JavaFX and Hibernate: "Exciting things happening with Java!"
 
 ## Components, Libraries, Tools
 
