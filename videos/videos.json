@@ -1150,5 +1150,35 @@
     "createdOn": "2023-09-06",
     "modifiedOn": "2023-09-06",
     "publishedOn": "2019-09-23"
+  },
+  {
+    "name": "Webswing Promo",
+    "tags": "webswing, swing, javafx, applet, netbeans, web, browser, migration",
+    "type": "Tool",
+    "platform": "Web",
+    "description": "It's time to bring your Java application to the web. Find out more about Webswing in this short cartoon.",
+    "id": "IpYlyCRZcxc",
+    "minutes" : "2",
+    "createdOn": "2023-11-24",
+    "modifiedOn": "2023-11-24",
+    "publishedOn": "2018-03-21",
+    "personIds": [
+      "v.meszaros"
+    ]
+  },
+  {
+    "name": "Webswing Migration Promo",
+    "tags": "webswing, swing, javafx, applet, netbeans, web, browser, migration",
+    "type": "Tool",
+    "platform": "Web",
+    "description": "Have you ever thought about what you are going to do with your legacy Java application? Old desktop applications will inevitably hit the definitive end of their lifecycle soon.",
+    "id": "rBHBlICJMcU",
+    "minutes" : "2",
+    "createdOn": "2023-11-24",
+    "modifiedOn": "2023-11-24",
+    "publishedOn": "2020-08-11",
+    "personIds": [
+      "v.meszaros"
+    ]
   }
 ]

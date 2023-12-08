@@ -740,5 +740,24 @@
     "appIds": [
       "xeres"
     ]
+  },
+  {
+    "name": "Viktor Meszaros",
+    "email": "support@webswing.org",
+    "companyId": "webswing",
+    "website": "https://webswing.org",
+    "blogId": "",
+    "linkedIn": "https://www.linkedin.com/in/viktor-meszaros-53aa598/",
+    "champion": false,
+    "rockstar": false,
+    "id": "v.meszaros",
+    "createdOn": "2023-11-23",
+    "modifiedOn": "2023-11-23",
+    "toolIds": [
+      "webswing"
+    ],
+    "companyIds": [
+      "webswing"
+    ]
   }
 ]

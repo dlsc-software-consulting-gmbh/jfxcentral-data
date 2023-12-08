@@ -194,5 +194,16 @@
     "createdOn": "2023-02-13",
     "consulting": "true",
     "freelancing": "false"
+  },
+  {
+    "id": "webswing",
+    "name": "Webswing",
+    "summary": "Brings Swing, JavaFX, NetBeans, Applet to browser.",
+    "description": "Webswing is the company behind development of Webswing.org, a web server which runs any Swing, JavaFX or NetBeans Java application in a web browser without changing a single line of source code.",
+    "homepage": "https://www.webswing.org",
+    "createdOn": "2023-11-24",
+    "tags": "webswing, swing, javafx, applet, netbeans, web, browser, migration",
+    "consulting": "true",
+    "freelancing": "false"
   }
 ]
