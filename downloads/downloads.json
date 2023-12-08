@@ -543,35 +543,35 @@
     "repository": "https://github.com/binjr/binjr",
     "downloadType": "APPLICATION",
     "createdOn": "2021-08-18",
-    "modifiedOn": "2023-10-30",
+    "modifiedOn": "2023-12-06",
     "files": [
       {
         "name": "Windows (MSI)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.14.0/binjr-3.14.0_windows-amd64.msi",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.15.0/binjr-3.15.0_windows-amd64.msi",
         "fileName": "",
         "package": "MSI"
       }, 
       {
         "name": "Windows (ZIP)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.14.0/binjr-3.14.0_windows-amd64.zip",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.15.0/binjr-3.15.0_windows-amd64.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "macOS (PKG)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.14.0/binjr-3.14.0_mac-x86_64.pkg",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.15.0/binjr-3.15.0_mac-x86_64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "macOS (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.14.0/binjr-3.14.0_mac-x86_64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.15.0/binjr-3.15.0_mac-x86_64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       },
       {
         "name": "Linux (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.14.0/binjr-3.14.0_linux-amd64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.15.0/binjr-3.15.0_linux-amd64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       }

@@ -212,5 +212,22 @@
     "homepage" : "https://webfx.dev",
     "repository": "https://github.com/webfx-project/webfx",
     "createdOn" : "2023-05-24"
+  },
+  {
+    "id": "webswing",
+    "name": "Webswing",
+    "summary": "What started as a hobby project back in 2012, turned out to be game-changing middleware that became industry standard.",
+    "description": "Webswing is a web server that allows you to run any Java Desktop application inside your web browser, using only pure HTML5.",
+    "tags": "webswing, swing, javafx, applet, netbeans, web, browser, migration",
+    "homepage": "https://webswing.org",
+    "createdOn": "2023-11-24",
+    "modifiedOn": "2023-11-24",
+    "companyIds": [
+      "webswing"
+    ],
+    "videoIds": [
+      "IpYlyCRZcxc",
+      "rBHBlICJMcU"
+    ]
   }
 ]
