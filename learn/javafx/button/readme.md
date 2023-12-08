@@ -63,10 +63,6 @@ public class Main extends Application {
 }
 ```
 
-YouTube Video
-
-![alt](youtube:evhUPT-24WA)
-
 When executed, the above program creates a simple UI with a button and a label, as depicted in the images below. When the button is clicked, the label’s text is updated:
 
 ![](button_basic_before.png)
