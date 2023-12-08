@@ -15,6 +15,10 @@ In Part 2, we’ll discuss the technologies we use with JavaFX to build the thre
 
 Lastly in Part 3, we’ll discuss how to upload this application to the respective mobile app stores.
 
+This demo application is also explained in this presentation at the Devoxx conference in Belgium (October 2023):
+
+![alt](youtube:3nT8vurpmqc)
+
 ## TiltMaze Labyrinth
 
 Let’s start with the end result first. TiltMaze Labyrinth is a mobile game you can install from both the Apple App Store and Google Play. Download TiltMaze here on your mobile device or tablet to play.
