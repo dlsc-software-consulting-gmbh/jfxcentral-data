@@ -241,6 +241,13 @@ public class ImageManager {
         return fileToImageProperty(file, MISSING_IMAGE);
     }
 
+    public ObjectProperty<Image> libraryFeaturedImageProperty(Library library) {
+        if (StringUtils.isBlank(library.getFeaturedImageName())) {
+            return new SimpleObjectProperty<>();
+        }
+        return libraryImageProperty(library, library.getFeaturedImageName());
+    }
+
     public ObjectProperty<Image> documentationImageProperty(Documentation doc) {
         File file = documentationFile(doc);
         return fileToImageProperty(file, null);

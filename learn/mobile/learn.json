@@ -8,6 +8,28 @@
       "g.anderson"
     ],
     "canonicalUrl": "https://foojay.io/today/creating-mobile-apps-with-javafx-part-1/",
-    "sourceCodeUrl": ""
+    "sourceCodeUrl": "https://github.com/gailasgteach/TiltMaze"
+  },
+  {
+    "id": "mobile-part-2",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "How to Create Mobile Apps with JavaFX (Part 2)",
+    "personIds": [
+      "g.anderson"
+    ],
+    "canonicalUrl": "https://foojay.io/today/creating-mobile-apps-with-javafx-part-2/",
+    "sourceCodeUrl": "https://github.com/gailasgteach/TiltMaze"
+  },
+  {
+    "id": "mobile-part-3",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "How to Create Mobile Apps with JavaFX (Part 3)",
+    "personIds": [
+      "g.anderson"
+    ],
+    "canonicalUrl": "https://foojay.io/today/creating-mobile-apps-with-javafx-part-3/",
+    "sourceCodeUrl": "https://github.com/gailasgteach/TiltMaze"
   }
 ]

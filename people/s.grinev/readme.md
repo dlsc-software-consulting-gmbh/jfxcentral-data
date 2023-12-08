@@ -1,1 +1,1 @@
-Engineering Manager in Test at Azul Systems.
+Senior Engineering Manager and Managing Director of Estonia R&D Center.

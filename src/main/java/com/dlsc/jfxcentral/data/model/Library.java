@@ -17,6 +17,7 @@ public class Library extends ModelObject implements Coordinates {
 
     private boolean ensemble;
     private boolean logoAvailable;
+    private String featuredImageName;
 
     private License license;
 
@@ -142,5 +143,13 @@ public class Library extends ModelObject implements Coordinates {
 
     public void setRepository(String repository) {
         this.repository = repository;
+    }
+
+    public String getFeaturedImageName() {
+        return featuredImageName;
+    }
+
+    public void setFeaturedImageName(String featuredImageName) {
+        this.featuredImageName = featuredImageName;
     }
 }

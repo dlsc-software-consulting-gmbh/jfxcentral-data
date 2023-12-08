@@ -4,4 +4,4 @@ Since 1996 Dirk has been the CEO of [DLSC Software & Consulting GmbH](https://ww
 
 Since 2023 Dirk is also the CEO of Senapt GmbH, a subsidiary company of [Senapt Limited](https://senapt.co.uk). Senapt develops a cloud-based solution for Energy suppliers (_"Energy as a Service"_).
 
-DLSC and Senapt GmbH are both located in Zurich, Switzerland.
+DLSC and Senapt are both located in Zurich, Switzerland.

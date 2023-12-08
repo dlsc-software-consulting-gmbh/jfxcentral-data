@@ -15,11 +15,12 @@
     "readme": "README.md",
     "issueTracker": "https://github.com/effad/ValidatorFX/issues",
     "createdOn": "2021-11-11",
-    "modifiedOn": "2021-11-11",
+    "modifiedOn": "2023-11-07",
     "groupId": "net.synedra",
     "artifactId": "validatorfx",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "validatordemo.png",
     "videoIds": [
       "dSYsuPuYaZ8"
     ]
@@ -40,11 +41,12 @@
     "readme": "README.md",
     "issueTracker": "https://github.com/palexdev/MaterialFX/issues",
     "createdOn": "2021-11-10",
-    "modifiedOn": "2021-11-10",
+    "modifiedOn": "2023-11-07",
     "groupId": "io.github.palexdev",
     "artifactId": "materialfx",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "togglebuttons.jpg",
     "videoIds": [
       "Pf--fVK6hs8"
     ]
@@ -65,11 +67,12 @@
     "readme": "README.md",
     "issueTracker": "https://github.com/Typhon0/AnimateFX/issues",
     "createdOn": "2021-11-10",
-    "modifiedOn": "2021-11-10",
+    "modifiedOn": "2023-11-07",
     "groupId": "io.github.typhon0",
     "artifactId": "AnimateFX",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "featuredImage.jpg"
   },
   {
     "id": "gluonmaps",
@@ -87,11 +90,12 @@
     "readme": "README.md",
     "issueTracker": "https://github.com/gluonhq/maps/issues",
     "createdOn": "2021-11-10",
-    "modifiedOn": "2021-11-10",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.gluonhq",
     "artifactId": "maps",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "maps.jpg"
   },
   {
     "id": "bootstrapfx",
@@ -109,11 +113,12 @@
     "readme": "README.adoc",
     "issueTracker": "https://github.com/kordamp/bootstrapfx/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.kordamp.bootstrapfx",
     "artifactId": "bootstrapfx-core",
     "logoAvailable": "false",
-    "ensemble": "true"
+    "ensemble": "true",
+    "featuredImageName": "panels.png"
   },
   {
     "id": "calendarfx",
@@ -130,11 +135,12 @@
     "githubProject": "CalendarFX",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CalendarFX/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.calendarfx",
     "artifactId": "calendar",
     "logoAvailable": "true",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "dayview.png"
   },
   {
     "id": "desktoppanefx",
@@ -151,11 +157,12 @@
     "githubProject": "desktoppanefx",
     "issueTracker": "https://github.com/kordamp/desktoppanefx/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.kordamp.desktoppanefx",
     "artifactId": "desktoppanefx-core",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "desktoppanefx.png",
     "videoIds": [
       "gUPLJh05b3w"
     ]
@@ -175,9 +182,10 @@
     "issueTracker": "",
     "id": "flexganttfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "logoAvailable": "true",
     "ensemble": "true",
+    "featuredImageName": "projektpro.png",
     "videoIds": [
       "v4GkjST64Hk",
       "Qju5_JYR8nY",
@@ -201,11 +209,12 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/FormsFX/issues",
     "id": "formsfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.formsfx",
     "artifactId": "formsfx-core",
     "logoAvailable": "true",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "featuredImage.jpg"
   },
   {
     "name": "FXGraphics2D",
@@ -222,11 +231,12 @@
     "issueTracker": "https://github.com/jfree/fxgraphics2d/issues",
     "id": "fxgraphics2d",
     "createdOn": "2021-08-28",
-    "modifiedOn": "2021-08-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.jfree",
     "artifactId": "org.jfree.fxgraphics2d",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "demo1.png"
   },
   {
     "name": "FXGL",
@@ -243,10 +253,11 @@
     "issueTracker": "https://github.com/AlmasB/FXGL/issues",
     "id": "fxgl",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.github.almasb",
     "artifactId": "fxgl",
     "ensemble": "false",
+    "featuredImageName": "featuredImage.jpg",
     "logoAvailable": "false",
     "tutorialIds": [
       "almastutorials"
@@ -270,11 +281,12 @@
     "githubProject": "GemsFX",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GemsFX/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.gemsfx",
     "artifactId": "gemsfx",
     "logoAvailable": "true",
-    "ensemble": "true"
+    "ensemble": "true",
+    "featuredImageName": "logo.png"
   },
   {
     "name": "GMapsFX",
@@ -291,11 +303,12 @@
     "githubProject": "GMapsFX",
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/GMapsFX/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc",
     "artifactId": "GMapsFX",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "map.png"
   },
   {
     "name": "HarmonicFX",
@@ -313,11 +326,12 @@
     "issueTracker": "https://github.com/kordamp/harmonicfx/issues",
     "id": "harmonicfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.kordamp.harmonicfx",
     "artifactId": "harmonicfx-core",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "SankeyPlot.png"
   },
   {
     "name": "Ikonli",
@@ -334,11 +348,12 @@
     "githubProject": "ikonli",
     "issueTracker": "https://github.com/kordamp/ikonli/issues",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.kordamp.ikonli",
     "artifactId": "ikonli-javafx",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "sheet.png",
     "downloadIds": [
       "ikonlibrowser"
     ],
@@ -364,11 +379,12 @@
     "githubProject": "jfxtras-styles",
     "issueTracker": "https://github.com/JFXtras/jfxtras-styles/issues",
     "createdOn": "2021-07-25",
-    "modifiedOn": "2021-07-25",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.jfxtras",
     "artifactId": "jmetro",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "JMetro_showcase-model-view-1536x832.png",
     "videoIds": [
       "p5YSB8mza94",
       "Ihrtn0N7yMs",
@@ -390,11 +406,12 @@
     "issueTracker": "https://github.com/kordamp/jsilhouette/issues",
     "id": "jsilhouette",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.kordamp.jsilhouette",
     "artifactId": "jsilhouette-javafx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "rays.png"
   },
   {
     "name": "KeyboardFX",
@@ -411,11 +428,12 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/KeyboardFX/issues",
     "id": "keyboardfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.keyboardfx",
     "artifactId": "keyboardfx",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "keyboard.png",
     "videoIds": [
       "nZ01ffBOW7U"
     ]
@@ -435,11 +453,12 @@
     "issueTracker": "https://github.com/lanthale/LibRawFX/issues",
     "id": "librawfx",
     "createdOn": "2021-11-11",
-    "modifiedOn": "2021-11-11",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.librawfx",
     "artifactId": "LibRawFX",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "example.png"
   },
   {
     "name": "LibHeifFX",
@@ -456,11 +475,12 @@
     "issueTracker": "https://github.com/lanthale/LibHeifFX/issues",
     "id": "libheiffx",
     "createdOn": "2022-01-22",
-    "modifiedOn": "2022-01-22",
+    "modifiedOn": "2023-11-07",
     "groupId": "",
     "artifactId": "",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "example.png"
   },
   {
     "name": "Orson Charts FX",
@@ -477,11 +497,12 @@
     "issueTracker": "https://github.com/jfree/orsonchartsfx/issues",
     "id": "orsonchartsfx",
     "createdOn": "2022-01-22",
-    "modifiedOn": "2022-01-22",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.jfree",
     "artifactId": "org.jfree.chart3d.fx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "orsoncharts_fx.png"
   },
   {
     "name": "PDFViewFX",
@@ -498,11 +519,12 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PDFViewFX/issues",
     "id": "pdffx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.pdfviewfx",
     "artifactId": "pdfviewfx",
     "logoAvailable": "false",
     "ensemble": "true",
+    "featuredImageName": "pdf-view.png",
     "videoIds": [
       "oyV9q720F9s"
     ]
@@ -522,11 +544,12 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PickerFX/issues",
     "id": "pickerfx",
     "createdOn": "2023-09-06",
-    "modifiedOn": "2023-09-06",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.pickerfx",
     "artifactId": "pickerfx",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "pickerfx-demo.jpg",
     "videoIds": [
       "gbnVk6-tU4g"
     ],
@@ -549,11 +572,12 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/PreferencesFX/issues",
     "id": "preferencesfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.preferencesfx",
     "artifactId": "preferencesfx-core",
     "logoAvailable": "true",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "logo.png"
   },
   {
     "name": "RichTextArea",
@@ -571,11 +595,12 @@
     "id": "richtextarea",
     "companyId": "gluon",
     "createdOn": "2023-09-06",
-    "modifiedOn": "2023-09-06",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.gluonhq",
     "artifactId": "rich-text-area",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "rta-editor.jpg",
     "peopleIds": [
       "j.pereda",
       "e.ryzhikov",
@@ -597,11 +622,12 @@
     "issueTracker": "https://github.com/FXMisc/RichTextFX/issues",
     "id": "richtextfx",
     "createdOn": "2021-10-26",
-    "modifiedOn": "2021-10-26",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.fxmisc.richtext",
     "artifactId": "richtextfx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "RichTextDemo.jpg"
   },
   {
     "name": "UnitFX",
@@ -618,11 +644,12 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/UnitFX/issues",
     "id": "unitfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.unitfx",
     "artifactId": "unitfx",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "demo.png"
   },
   {
     "name": "WorkbenchFX",
@@ -640,11 +667,12 @@
     "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX/issues",
     "id": "workbenchfx",
     "createdOn": "2021-05-18",
-    "modifiedOn": "2021-05-28",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dlsc.workbenchfx",
     "artifactId": "workbenchfx-core",
     "logoAvailable": "true",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "navigationDrawer.png"
   },
   {
     "name": "Charts",
@@ -661,10 +689,11 @@
     "issueTracker": "https://github.com/HanSolo/charts/issues",
     "id": "charts",
     "createdOn": "2021-06-11",
-    "modifiedOn": "2022-03-08",
+    "modifiedOn": "2023-11-07",
     "groupId": "eu.hansolo.fx",
     "artifactId": "charts",
     "ensemble": "false",
+    "featuredImageName": "radarchart.png",
     "logoAvailable": "false",
     "videoIds": [
       "Csl0yIdqWB8",
@@ -694,10 +723,11 @@
     "issueTracker": "https://github.com/HanSolo/countries/issues",
     "id": "countries",
     "createdOn": "2021-12-03",
-    "modifiedOn": "2022-03-08",
+    "modifiedOn": "2023-11-07",
     "groupId": "eu.hansolo.fx",
     "artifactId": "countries",
     "ensemble": "false",
+    "featuredImageName": "DemoWorldPane.png",
     "logoAvailable": "false",
     "videoIds": [],
     "downloadIds": []
@@ -717,11 +747,12 @@
     "issueTracker": "https://github.com/HanSolo/tilesfx/issues",
     "id": "tilesfx",
     "createdOn": "2021-06-11",
-    "modifiedOn": "2022-03-08",
+    "modifiedOn": "2023-11-07",
     "groupId": "eu.hansolo",
     "artifactId": "tilesfx",
     "ensemble": "false",
     "logoAvailable": "false",
+    "featuredImageName": "TilesFX.png",
     "videoIds": [
       "OuF2BMnCjt4"
     ],
@@ -744,10 +775,11 @@
     "issueTracker": "https://github.com/HanSolo/Medusa/issues",
     "id": "medusa",
     "createdOn": "2021-06-11",
-    "modifiedOn": "2022-03-08",
+    "modifiedOn": "2023-11-07",
     "groupId": "eu.hansolo",
     "artifactId": "medusa",
     "ensemble": "false",
+    "featuredImageName": "overview.png",
     "logoAvailable": "true",
     "videoIds": [
       "l2ZYO4HXjLg"
@@ -770,10 +802,11 @@
     "issueTracker": "https://github.com/controlsfx/controlsfx/issues",
     "id": "controlsfx",
     "createdOn": "2021-06-14",
-    "modifiedOn": "2021-06-14",
+    "modifiedOn": "2023-11-07",
     "groupId": "org.controlsfx",
     "artifactId": "controlsfx",
     "ensemble": "true",
+    "featuredImageName": "logo.png",
     "logoAvailable": "false",
     "videoIds": [
       "pjKgPeiWc0o"
@@ -792,8 +825,9 @@
     "issueTracker": "https://github.com/JPro-one/markdown-javafx-renderer/issues",
     "id": "mdfx",
     "createdOn": "2021-07-16",
-    "modifiedOn": "2021-07-16",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "featuredImage.jpg",
     "logoAvailable": "false"
   },
   {
@@ -807,10 +841,12 @@
     "homepage": "https://www.teamdev.com/jxbrowser",
     "javadocs": "https://jxbrowser-support.teamdev.com/javadoc/7.21.1",
     "createdOn": "2021-12-29",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.teamdev.jxbrowser",
     "artifactId": "jxbrowser-cross-platform",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "logo.png",
     "videoIds": [
       "KGVchexhvvQ"
     ]
@@ -826,10 +862,12 @@
     "homepage": "https://github.com/dustinkredmond/FXTrayIcon",
     "javadocs": "",
     "createdOn": "2020-08-21",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.dustinredmond.fxtrayicon",
     "artifactId": "FXTrayIcon",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "featuredImage.jpg",
     "peopleIds": [
       "d.redmond"
     ]
@@ -845,10 +883,12 @@
     "homepage": "https://github.com/panemu/tiwulfx-dock",
     "javadocs": "",
     "createdOn": "2020-10-31",
+    "modifiedOn": "2023-11-07",
     "groupId": "com.panemu",
     "artifactId": "tiwulfx-dock",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "tiwulfx-dock-demo.png",
     "videoIds": [
       "YzVmCDTQv4M"
     ]
@@ -867,10 +907,12 @@
     "issueTracker": "https://github.com/mkpaz/atlantafx/issues",
     "id": "atlantafx",
     "createdOn": "2022-09-07",
+    "modifiedOn": "2023-11-07",
     "groupId": "io.github.mkpaz",
     "artifactId": "atlantafx-base",
     "logoAvailable": "false",
-    "ensemble": "false"
+    "ensemble": "false",
+    "featuredImageName": "preview.png"
   },
   {
     "id": "fxskins",
@@ -886,8 +928,9 @@
     "githubProject": "FXSkins",
     "issueTracker": "https://github.com/dukke/FXSkins/issues",
     "createdOn": "2022-09-14",
-    "modifiedOn": "2022-09-14",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "Slider-Skin.jpg",
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "FXSkins"
@@ -906,8 +949,9 @@
     "githubProject": "FXRibbon",
     "issueTracker": "https://github.com/dukke/FXRibbon/issues",
     "createdOn": "2022-09-15",
-    "modifiedOn": "2021-09-15",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "Ribbon.png",
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "fxribbon"
@@ -923,10 +967,12 @@
     "homepage": "https://github.com/0x4a616e/NSMenuFX",
     "javadocs": "",
     "createdOn": "2022-10-22",
+    "modifiedOn": "2023-11-07",
     "groupId": "de.jangassen",
     "artifactId": "nsmenufx",
     "logoAvailable": "false",
     "ensemble": "false",
+    "featuredImageName": "window_menu.png",
     "peopleIds": [
       "j.gassen"
     ]
@@ -945,8 +991,9 @@
     "githubProject": "FXParallax",
     "issueTracker": "https://github.com/dukke/FXParallax/issues",
     "createdOn": "2022-10-05",
-    "modifiedOn": "2022-10-05",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "ParallaxPane2.jpg",
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "FXParallax"
@@ -965,8 +1012,9 @@
     "githubProject": "FXyz",
     "issueTracker": "https://github.com/FXyz/FXyz/issues",
     "createdOn": "2022-12-18",
-    "modifiedOn": "2022-12-18",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "fxsampler.jpg",
     "logoAvailable": "false",
     "groupId": "org.fxyz3d",
     "artifactId": "fxyz3d"
@@ -985,8 +1033,9 @@
     "githubProject": "LitFX",
     "issueTracker": "https://github.com/Birdasaur/LitFX/issues",
     "createdOn": "2022-12-18",
-    "modifiedOn": "2022-12-18",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "covalentpanes.jpg",
     "logoAvailable": "false",
     "groupId": "com.github.birdasaur.litfx",
     "artifactId": "LitFX"
@@ -1005,8 +1054,9 @@
     "githubProject": "FXComponents",
     "issueTracker": "https://github.com/dukke/FXComponents/issues",
     "createdOn": "2023-09-19",
-    "modifiedOn": "2023-09-19",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "List-Builder.jpg",
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "fxcomponents"
@@ -1025,8 +1075,9 @@
     "githubProject": "Transit",
     "issueTracker": "https://github.com/dukke/Transit/issues",
     "createdOn": "2023-10-03",
-    "modifiedOn": "2023-10-03",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "DansoftOwner_FXTaskbarProgressBar.png",
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "transit"
@@ -1045,8 +1096,9 @@
     "githubProject": "FXThemes",
     "issueTracker": "https://github.com/dukke/FXThemes/issues",
     "createdOn": "2023-10-03",
-    "modifiedOn": "2023-10-03",
+    "modifiedOn": "2023-11-07",
     "ensemble": "false",
+    "featuredImageName": "Acrylic.jpg",
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "fxthemes"

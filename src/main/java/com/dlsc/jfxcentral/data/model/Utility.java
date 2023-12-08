@@ -3,6 +3,8 @@ package com.dlsc.jfxcentral.data.model;
 public class Utility extends ModelObject {
 
     private DevelopmentStatus status;
+    private boolean nativeSupported;
+    private boolean onlineSupported;
 
     public Utility() {
     }
@@ -13,5 +15,21 @@ public class Utility extends ModelObject {
 
     public void setStatus(DevelopmentStatus status) {
         this.status = status;
+    }
+
+    public boolean isNativeSupported() {
+        return nativeSupported;
+    }
+
+    public void setNativeSupported(boolean nativeSupported) {
+        this.nativeSupported = nativeSupported;
+    }
+
+    public boolean isOnlineSupported() {
+        return onlineSupported;
+    }
+
+    public void setOnlineSupported(boolean onlineSupported) {
+        this.onlineSupported = onlineSupported;
     }
 }

@@ -223,7 +223,6 @@ public class Main extends Application {
 
 In this example, we added event handlers to the Canvas to track mouse clicks and drags. When the left mouse button is pressed, we record the starting position (lastX and lastY). When the mouse is dragged, we draw lines between the last position and the current position.
 
-
 ## Conclusion
 
 JavaFX Canvas is a powerful tool for creating custom graphics and interactive visual elements in your Java applications. In this article, we’ve covered the basics of creating a Canvas, drawing shapes, and responding to user input. With these foundational concepts, you can explore more advanced graphics and animations to create compelling JavaFX applications. Remember to check the JavaFX Canvas Documentation for more.

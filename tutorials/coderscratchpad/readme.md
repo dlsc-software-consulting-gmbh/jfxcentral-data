@@ -1,0 +1,1 @@
+A lot of tutorials are available on coderscratchpad.com (C-languages, PHP, Python,...), but the biggest focus is on Java and JavaFX.

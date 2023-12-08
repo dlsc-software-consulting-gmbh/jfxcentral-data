@@ -2,7 +2,7 @@ This tutorial explains how to control a LED strip connect to the serial connecti
 
 A recording of a live video session with Robert von Burg (aka Eitch) and Frank Delporte, is available in this video. The demo of this JavaFX user interface starts around 45'50:
 
-{{< youtube eToIXACqSuY >}}
+![alt](youtube:eToIXACqSuY)
 
 ## Intro
 

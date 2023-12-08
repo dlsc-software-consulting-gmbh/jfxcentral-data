@@ -70,5 +70,14 @@
     "tags": "Getting Started",
     "createdOn": "2023-08-23",
     "modifiedOn": "2023-08-23"
+  },
+  {
+    "id": "gluonpluginref",
+    "name": "GluonFX plugin Documentation",
+    "description": "Gluon streamlines Java app development with tools for building fast, compact, cross-platform applications for desktop, mobile, and embedded systems.",
+    "url": "https://docs.gluonhq.com/",
+    "tags": "Documentation",
+    "createdOn": "2023-11-07",
+    "modifiedOn": "2023-11-07"
   }
 ]
