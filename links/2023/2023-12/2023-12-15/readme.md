@@ -5,6 +5,8 @@
 ## Applications
 
 * https://www.linkedin.com/feed/update/urn:li:activity:7139904558327099392/
+* https://github.com/heshanthenura/DynamicBackground
+* https://heshanthenura.github.io/store
 
 ## Games
 
