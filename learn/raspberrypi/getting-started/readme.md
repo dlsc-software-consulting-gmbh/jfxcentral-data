@@ -134,3 +134,7 @@ When you have saved this file, it can be started with JBang with the following c
 ```shell
 $ jbang JavaFXDemo.java 
 ```
+
+The result will look like this after you've clicked the button:
+
+![](screenshot-demo-on-rpi.png)
