@@ -2,7 +2,7 @@ Here are the new links, and make sure to read till the end as we have some fasci
 
 ## Applications
 
-* A new teaser [video by **Alessio Vinerbi** of MoonsonFX](https://twitter.com/Alessio_Vinerbi/status/1733534005792805267), a JavaFX animation tool :)
+* A new teaser [video by **Alessio Vinerbi** of MoonsonFX](https://twitter.com/Alessio_Vinerbi/status/1733534005792805267), a JavaFX animation tool.
 * **Heshan Kariyawasam** shared some nice projects again!
   * A [JavaFX-based statistical calculator](https://www.linkedin.com/feed/update/urn:li:activity:7139904558327099392/): "Quickly compute mean, median, mode, and variance with an intuitive user interface."
   * A [Dynamic Background Demo](https://github.com/heshanthenura/DynamicBackground) that dynamically adjusts the background image to fit the screen dimensions. It utilizes JavaFX's Stage and ImageView components to create a responsive background. The app also includes functionality to open a new window, demonstrating basic window management in JavaFX. The video shows a cool use of multiple windows in one application.
@@ -10,11 +10,11 @@ Here are the new links, and make sure to read till the end as we have some fasci
 
 ## Games
 
-* [**Almas Baim** shared a new proof-of-concept of the node inspector panel](https://twitter.com/AlmasBaim/status/1734865416697114945) (on the left) in FXGL, which allows editing various node properties: "This way each dialogue node in the main UI just captures the text associated with it and reduces visual clutter".
+* [**Almas Baim** shared a new proof-of-concept of the node inspector panel](https://twitter.com/AlmasBaim/status/1734865416697114945) in FXGL, which allows editing various node properties: "This way each dialogue node in the main UI just captures the text associated with it and reduces visual clutter".
 
 ## Podcast, Video, Books
 
-* In the [third part of the Foojay J-Fall Report Podcast](https://foojay.io/today/foojay-podcast-36/), **Gerrit Grunwald** and **Anthony Goubard** talk about desktop application development with Java.
+* In the [third part of the Foojay J-Fall Report Podcast](https://foojay.io/today/foojay-podcast-36/), [**Gerrit Grunwald**](https://www.jfx-central.com/people/g.grunwald) and [**Anthony Goubard**](https://twitter.com/Anthony_Goubard) talk about desktop application development with Java.
 
 ## Tutorials
 
@@ -30,7 +30,7 @@ Here are the new links, and make sure to read till the end as we have some fasci
 
 * The main menu of JFX Central got reworked as we ran out of space, because... we added a complete new section: "Learn"!
   * You can already find a few new pages with content provided by [**Edward Nyirenda Jr.**](https://www.jfx-central.com/people/e.nyirenda), [**Gail Anderson**](https://www.jfx-central.com/people/g.anderson), and [**Frank Delporte**](https://www.jfx-central.com/people/f.delporte).
-  * In the coming weeks, months... we will be adding more of this, including new videos.
+  * In the coming weeks, months,... we will be adding more of this, including new videos.
   * [Learn JavaFX](https://www.jfx-central.com/learn-javafx): from getting started with JavaFX to all the components that are available. This will become the largest section.
   * [Learn JavaFX for Mobile](https://www.jfx-central.com/learn-mobile): how to create applications for Android and iPhone.
   * [Learn JavaFX on Raspberry Pi](https://www.jfx-central.com/learn-raspberrypi): build user interfaces on the Raspberry Pi to interact with electronic components.
