@@ -56,6 +56,17 @@
     "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/button"
   },
   {
+    "id": "checkbox",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "Using the checkbox Component",
+    "personIds": [
+      "e.nyirenda"
+    ],
+    "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-checkboxes/",
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/checkbox"
+  },
+  {
     "id": "canvas",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
