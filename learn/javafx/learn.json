@@ -57,8 +57,8 @@
   },
   {
     "id": "checkbox",
-    "createdOn": "2023-10-18",
-    "modifiedOn": "2023-10-18",
+    "createdOn": "2023-12-18",
+    "modifiedOn": "2023-12-18",
     "name": "Using the Checkbox Component",
     "personIds": [
       "e.nyirenda"
@@ -67,9 +67,20 @@
     "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/checkbox"
   },
   {
+    "id": "gridpane",
+    "createdOn": "2023-12-18",
+    "modifiedOn": "2023-12-18",
+    "name": "Using the GridPane Component",
+    "personIds": [
+      "e.nyirenda"
+    ],
+    "canonicalUrl": "https://coderscratchpad.com/javafx-gridpane-grid-based-ui-designs/",
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/gridpane"
+  },
+  {
     "id": "chart",
-    "createdOn": "2023-10-18",
-    "modifiedOn": "2023-10-18",
+    "createdOn": "2023-12-18",
+    "modifiedOn": "2023-12-18",
     "name": "Using Chart Components",
     "personIds": [
       "e.nyirenda"
