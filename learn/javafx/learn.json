@@ -11,10 +11,10 @@
     "sourceCodeUrl": ""
   },
   {
-    "id": "ide-setup",
+    "id": "getting-started-ide",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "name": "Start a new JavaFX project in your IDE",
+    "name": "Getting Started with a new JavaFX project in your IDE",
     "personIds": [
       "f.delporte"
     ],
