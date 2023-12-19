@@ -59,12 +59,23 @@
     "id": "checkbox",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
-    "name": "Using the checkbox Component",
+    "name": "Using the Checkbox Component",
     "personIds": [
       "e.nyirenda"
     ],
     "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-checkboxes/",
     "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/checkbox"
+  },
+  {
+    "id": "chart",
+    "createdOn": "2023-10-18",
+    "modifiedOn": "2023-10-18",
+    "name": "Using Chart Components",
+    "personIds": [
+      "e.nyirenda"
+    ],
+    "canonicalUrl": "https://coderscratchpad.com/javafx-charts/",
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/charts"
   },
   {
     "id": "canvas",
@@ -76,6 +87,6 @@
       "e.nyirenda"
     ],
     "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-canvas/",
-    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/blob/main/src/main/java/com/coderscratchpad/javafxtutorial/CanvasBasicShapes.java"
+    "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/canvas"
   }
 ]
