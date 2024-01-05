@@ -38,5 +38,5 @@ Our best wishes for 2024, wishing you all a healthy and fun new year!
 
 ## JFX Central
 
-* JFX Central is on the cover page of Javamagazin 2.2024, and the article by **Frank Delporte** is eight (8!) pages. A complete walkthrough of the website and interviews with **Dirk Lemmermann**, wyatt lee, **Florian Kirmaier**, and **Mike Hearn**. The [full article is also available here](https://entwickler.de/java/jfx-central-javafx) (with login).
+* JFX Central is on the cover page of Javamagazin 2.2024, and the article by **Frank Delporte** is eight (8!) pages. A complete walkthrough of the website and interviews with **Dirk Lemmermann**, **Li Wang Yang**, **Florian Kirmaier**, and **Mike Hearn**. The [full article is also available here](https://entwickler.de/java/jfx-central-javafx) (with login).
 * The summary of our [Links Of December are shared on Foojay](https://foojay.io/today/javafx-links-of-december-2023/).
