@@ -208,5 +208,18 @@
     "amazonASIN": "1484286243",
     "isbn": "1484286243",
     "publishedDate": "2022-09-08"
+  },
+  {
+    "id": "javafx-kotlin",
+    "summary": "Build elegant, responsive, and stable Java Virtual Machine-based client applications (Fat Clients) with modern user interfaces.",
+    "description": "This book introduces JavaFX as a frontend technology and utilizes Kotlin instead of Java for coding program artifacts to boost code expressiveness and maintainability.",
+    "publisher": "Apress",
+    "authors": "Peter Späth",
+    "name": "Frontend Development with JavaFX and Kotlin",
+    "subtitle": "Build State-of-the-Art Kotlin GUI Applications",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-9717-9",
+    "amazonASIN": "1484297164",
+    "isbn": "978-1484297162",
+    "publishedDate": "2023-12-09"
   }
 ]
