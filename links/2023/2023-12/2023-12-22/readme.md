@@ -15,7 +15,7 @@ This is the final LinksOfTheWeek for 2023. It was an amazing year with many evol
 
 ## Tutorials
 
-* A new tutorial by [**Dave Barrett**](https://twitter.com/Polypragmatist): "An [introduction to ListView](https://www.pragmaticcoding.ca/javafx/elements/listview-basics) and understanding how to use it to display something more than just lists of Strings. "
+* A new tutorial by [**Dave Barrett**](https://twitter.com/Polypragmatist): "An [introduction to ListView](https://www.pragmaticcoding.ca/javafx/elements/listview-basics) and understanding how to use it to display something more than just lists of Strings."
 
 ## Miscellaneous
 
