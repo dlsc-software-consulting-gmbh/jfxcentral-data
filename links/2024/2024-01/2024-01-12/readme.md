@@ -5,10 +5,10 @@
 
 ## Podcast, Video, Books
 
-* Nice video by **Akif (Sorest) KARACA** to help you [understand different sorting algorithms](https://www.youtube.com/watch?v=HmoRQkmyPnk) (selection, insertion, quick, bubble, heap, shell) by visualizing them with JavaFX (in Turkish).
+* Nice video by **Akif (Sorest) Karaca** to help you [understand different sorting algorithms](https://www.youtube.com/watch?v=HmoRQkmyPnk) (selection, insertion, quick, bubble, heap, shell) by visualizing them with JavaFX (in Turkish).
 
 ## Miscellaneous
 
-* The JFX Adopters Meeting 2024 takes place on the 6th of March at ZEISS in Munich Germany. This is the user meeting about JavaFX technology and the [registration is open](https://zeiss.com/meditec/en/news-events/events/jfx-adopters-meeting.html#register). You can still apply to be a speaker at this event!
+* The **JFX Adopters Meeting 2024** takes place on the 6th of March at ZEISS in Munich Germany. It's a user meeting about JavaFX technology and the [registration is open](https://zeiss.com/meditec/en/news-events/events/jfx-adopters-meeting.html#register). You can still apply to be a speaker at this event!
 * **Heshan Kariyawasam** [fell in love with JavaFX canvas](https://www.linkedin.com/posts/heshanthenura_javafx-java-night-activity-7149071331672616960-gXKa/): "So I'm going to simulate night sky. I'll try to add Constellations and Meteors so it will be more realistic."
   * And he shared this [list of coding challenges](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH) that he would like to solve with JavaFX. Keep scrolling, the list is very long ;-)
