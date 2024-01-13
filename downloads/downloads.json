@@ -582,16 +582,16 @@
     "name": "LogoRRR",
     "tags": "log, log files, visualization, log file analysis, logs",
     "summary": "Log file visualization.",
-    "description": "_LogoRRR_ is a tool written in JavaFX to analyze log files. It helps to find certain patterns in log files.",
+    "description": "_LogoRRR_ is a tool written in JavaFX to analyze log files. Streamline troubleshooting - Cross-platform log analysis with easy drag-and-drop, interactive filtering, and real-time monitoring.",
     "homepage": "https://www.logorrr.app/",
     "repository": "https://github.com/rladstaetter/logorrr",
     "downloadType": "APPLICATION",
     "createdOn": "2021-12-17",
-    "modifiedOn": "2023-08-19",
+    "modifiedOn": "2024-01-11",
     "files": [
       {
         "name": "Windows Installer (EXE)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/23.2.1/LogoRRR-23.2.1-installer.exe",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/24.2.0/LogoRRR-24.2.0-installer.exe",
         "fileName": "",
         "package": "EXE"
       },
@@ -603,13 +603,13 @@
       },
       {
         "name": "Linux ARM64 (DEB)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/23.1.1/logorrr_23.1.1_arm64.deb",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/24.2.0/logorrr_24.2.0_arm64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "Linux x64 (DEB)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/23.1.0/LogoRRR-23.1.0-x86_64.pkg",
+        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/24.2.0/logorrr_24.2.0_amd64.deb",
         "fileName": "",
         "package": "DEB"
       }
