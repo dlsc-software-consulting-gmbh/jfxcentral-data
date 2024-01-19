@@ -1,6 +1,6 @@
 # JFX-Central Data Repository
 
-To add data to this repository please follow these steps:
+To add data to this repository, please follow these steps:
 
 1. Fork the repository
 2. Add your data
