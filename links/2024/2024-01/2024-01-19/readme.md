@@ -1,6 +1,6 @@
 ## Core
 
-* [JavaFX 21.0.2 (January 2024) is available on the Gluon website](https://gluonhq.com/products/javafx/)
+* [JavaFX 21.0.2 (January 2024) is available on the Gluon website](https://gluonhq.com/products/javafx/).
 
 ## Applications
 
@@ -9,7 +9,7 @@
 
 ## Components, Libraries, Tools
 
-* **Laurent Bourgès** reached the milestone of +125,000 downloads of his [Marlin Renderer](https://github.com/bourgesl/marlin-renderer): "An open source (GPL2 + CP) Java2D RenderingEngine optimized for performance (improved memory usage (~ no GC) and footprint, better multi-threading) and better visual quality based on OpenJDK's Pisces implementation." And he adds: "[Enjoy FOSS & see you at FOSDEM24](https://mastodon.social/@laurent_bourges/111776582923358418)".
+* [**Laurent Bourgès**](https://twitter.com/bourgesl) reached the milestone of +125,000 downloads of his [Marlin Renderer](https://github.com/bourgesl/marlin-renderer): "An open source (GPL2 + CP) Java2D RenderingEngine optimized for performance (improved memory usage (~ no GC) and footprint, better multi-threading) and better visual quality based on OpenJDK's Pisces implementation." And he adds: "[Enjoy FOSS & see you at FOSDEM24](https://mastodon.social/@laurent_bourges/111776582923358418)".
 * [**Carl Dea** shared a video](https://twitter.com/carldea/status/1746712384725483585): "JavaFX with the native background blurring effect on the MacOS is now working! Thanks to [**Steve Hannah**](https://twitter.com/shannah78) for the tremendous help in understanding the native side (MacOS). [Demo here](https://github.com/carldea/windowblur). Eventually will end up in [**Pedro Duque Vieira**](https://twitter.com/P_Duke)'s FXThemes project. I also want to give a shout-out to the amazing software engineer [**Martin Fox**](https://github.com/beldenfox) (a JavaFX contributor)."
 
 ## Podcast, Video, Books
@@ -22,4 +22,4 @@
 
 ## Miscellaneous
 
-* **Heshan Kariyawasam** continues his 3D experiments... [Texture And Light on GitHub](https://github.com/heshanthenura/TextureAndLight) is only one of those. Follow him on [Twitter](https://twitter.com/Heshantk) or [LinkedIn](https://www.linkedin.com/in/heshanthenura/recent-activity/all/) for videos and links to sources...
+* **Heshan Kariyawasam** continues his 3D experiments... [Texture And Light on GitHub](https://github.com/heshanthenura/TextureAndLight) is only one of those. Follow him on [Twitter/X](https://twitter.com/Heshantk) or [LinkedIn](https://www.linkedin.com/in/heshanthenura/recent-activity/all/) for videos and links to sources...
