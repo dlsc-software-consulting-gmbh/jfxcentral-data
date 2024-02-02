@@ -1,6 +1,9 @@
 ## Core
 
 * [**Christopher Schnick** shared a video](https://twitter.com/crschnick/status/1752252092029251610): "The JavaFX 22 platform preferences API in action. You can now query and observe the system color schemes..
+* In the openjfx-dev mailinglist, **Johan Vos** shared the following message: "I created a [branch in the jfx-sandbox repository](https://github.com/openjdk/jfx-sandbox/tree/johanvos-headless) for experimenting with a headless glass platform. This addresses [JDK-8324941](https://bugs.openjdk.org/browse/JDK-8324941) where I suggest a POC for a Headless platform. There are a number of use cases for this, including: 
+  * Applications that require JavaFX rendering without presenting this to a window (and instead send it to a printer for example).
+  * Running tests without requiring a window manager."
 
 ## Applications
 
