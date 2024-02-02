@@ -25,11 +25,11 @@
 ## Miscellaneous
 
 * WebFX now [supports WebGL](https://github.com/webfx-project/webfx/discussions/27 ): "This means that you can program a JavaFX canvas with a WebGL context in the browser." A [web demo is available here](https://cube.webfx.dev/).
-* [Message from **Johan Vos**](https://mastodon.social/@johanvos/111838246384894266): "[**Laurent Bourges**](https://mastodon.social/@laurent_bourges) is an exceptional *independent* OpenJDK and OpenJFX contributor. I guess most of the developers using his code don't even realise the amazing work he does. Please [let him know how much you appreciate his work on the Marlin renderer](https://mastodon.social/@laurent_bourg)."
+* [Message from **Johan Vos**](https://mastodon.social/@johanvos/111838246384894266): "[**Laurent Bourges**](https://mastodon.social/@laurent_bourges) is an exceptional *independent* OpenJDK and OpenJFX contributor. I guess most of the developers using his code don't even realise the amazing work he does. Please [let him know how much you appreciate his work on the Marlin renderer](https://mastodon.social/@laurent_bourges/111776388216851460)."
 * [**Dirk Lemmermann** is a big fan of AtlantaFX](https://twitter.com/dlemmermann/status/1752347204474249564): "We liked the sampler app of [AtlantaFX](https://www.jfx-central.com/libraries/atlantafx) so much that we are now using it in-house for our own theming / styles app."
 
 ## JFX Central
 
-* In November, [Webswing got listed in the tools section](https://www.jfx-central.com/tools/webswing). It's a web server that allows you to run your (old) Swing, JavaFX, NetBeans or Applet application inside your web browser in a blink of an eye. They posted a nice [shoutout to JFX Central on Twitter/X](https://twitter.com/Webswing_org/status/1753054902941556928).
+* [Webswing got listed in the tools section](https://www.jfx-central.com/tools/webswing). It's a web server that allows you to run your (old) Swing, JavaFX, NetBeans or Applet application inside your web browser in a blink of an eye. They posted a nice [shoutout to JFX Central on Twitter/X](https://twitter.com/Webswing_org/status/1753054902941556928).
 * All the JFX Central Links Of The Week of January got [posted on Foojay.io](https://foojay.io/today/javafx-links-of-january-2024), the website for Friends Of OpenJDK.
 
