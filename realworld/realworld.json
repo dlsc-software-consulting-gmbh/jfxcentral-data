@@ -741,5 +741,21 @@
     "personIds": [
       "s.phillips"
     ]
+  },
+  {
+    "id": "bktext",
+    "name": "bk.text",
+    "company": "Intechcore",
+    "url": "https://bktext.de",
+    "domain": "Justice",
+    "tags": "legal, forms",
+    "summary": "Ergonomic and accessible text system for the German justice system",
+    "description": "bk.text is a Java and JavaFX-based text system for the judicial authorities in 11 federal states in Germany, which offers common features for editing and designing texts.",
+    "createdOn": "2024-02-22",
+    "modifiedOn": "2024-02-22",
+    "location": "Germany",
+    "personIds": [
+      "v.smeltsovl"
+    ]
   }
 ]
