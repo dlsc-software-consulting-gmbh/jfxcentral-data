@@ -1,34 +1,6 @@
-**Teaser**
-
-![Screen 1](image1.jpg)
-
 bk.text is an ergonomic and accessible text system for the German justice system, which supports the digital processing of court proceedings.
 
-
-
-
-
-
-
-
-
-
-**----**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-bk.text is a Java and JavaFX-based text system for the judicial authorities in 11 federal states in Germany, which offers common features for editing and designing texts. Additional features support the digital processing of judicial proceedings and business transactions in courts and public prosecutor’s offices. For this purpose, bk.text is embedded in a system landscape consisting of databases with procedural data, electronic file systems and communication systems.
+bk.text is a Java and JavaFX-based text system for the judicial authorities in 11 federal states in Germany, which offers common features for editing and designing texts. Additional features support the digital processing of judicial proceedings and business transactions in courts and public prosecutorï¿½s offices. For this purpose, bk.text is embedded in a system landscape consisting of databases with procedural data, electronic file systems and communication systems.
 
 ![Screen 2](image2.png)
 
