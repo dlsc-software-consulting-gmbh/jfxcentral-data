@@ -1,5 +1,3 @@
-bk.text is an ergonomic and accessible text system for the German justice system, which supports the digital processing of court proceedings.
-
 bk.text is a Java and JavaFX-based text system for the judicial authorities in 11 federal states in Germany, which offers common features for editing and designing texts. Additional features support the digital processing of judicial proceedings and business transactions in courts and public prosecutors' offices. For this purpose, bk.text is embedded in a system landscape consisting of databases with procedural data, electronic file systems and communication systems.
 
 ![Screen 2](image2.png)
@@ -27,5 +25,5 @@ In addition to the usual editing and design options of a word editing program, t
 
 **Ergonomics and accessibility**
 
-Software systems used in the judicial environment must meet certain standards and norms regarding ergonomics and accessibility. Use cases include speech output, magnification, color themes (especially high contrast and glare-free), Braille output and keyboard operation. However, the requirements could not be completely implemented with JavaFX because JavaFX does not fully support the accessibility interface of Windows - so-called UIA (UI Automation). For this reason, a replacement for JavaFX's Glass Windowing Toolkit was developed and made available as an open-source solution (link). This makes it possible to use JavaFX to address all UIA interfaces and thus develop tailor-made solutions for ergonomics and accessibility.
+Software systems used in the judicial environment must meet certain standards and norms regarding ergonomics and accessibility. Use cases include speech output, magnification, color themes (especially high contrast and glare-free), Braille output and keyboard operation. However, the requirements could not be completely implemented with JavaFX because JavaFX does not fully support the accessibility interface of Windows - so-called UIA (UI Automation). For this reason, a replacement for JavaFX's Glass Windowing Toolkit was developed and made available as an open-source solution. This makes it possible to use JavaFX to address all UIA interfaces and thus develop tailor-made solutions for ergonomics and accessibility.
 
