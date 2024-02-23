@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.dlsc.jfxcentral</groupId>
-    <artifactId>model</artifactId>
+    <artifactId>JFX Central - Data</artifactId>
     <version>1.36.0</version>
     <packaging>jar</packaging>
     <name>JFXCentralData</name>
