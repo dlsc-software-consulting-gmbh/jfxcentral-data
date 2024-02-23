@@ -1,16 +1,21 @@
 bk.text is an ergonomic and accessible text system for the German justice system, which supports the digital processing of court proceedings.
 
-bk.text is a Java and JavaFX-based text system for the judicial authorities in 11 federal states in Germany, which offers common features for editing and designing texts. Additional features support the digital processing of judicial proceedings and business transactions in courts and public prosecutor�s offices. For this purpose, bk.text is embedded in a system landscape consisting of databases with procedural data, electronic file systems and communication systems.
+bk.text is a Java and JavaFX-based text system for the judicial authorities in 11 federal states in Germany, which offers common features for editing and designing texts. Additional features support the digital processing of judicial proceedings and business transactions in courts and public prosecutors' offices. For this purpose, bk.text is embedded in a system landscape consisting of databases with procedural data, electronic file systems and communication systems.
 
 ![Screen 2](image2.png)
 
+
 ![Screen 3](image3.png)
+
 
 ![Screen 4](image4.png)
 
+
 ![Screen 5](image5.png)
 
+
 The users of bk.text can define templates and text modules with underlying processing flows for their individual requirements and workflows (e.g. display data from third-party systems and process them in other products). This is made possible with the object-oriented programming language TSL (Text System Language), which was developed specifically for this purpose. It is essentially based on Java and provides additional elements with which the text system can be controlled, the structure defined and documents structured. The source code is developed in the associated JavaFX programming editor (IDE), which supports the template developer with common IDE features such as syntax highlighting, debugging tools, autocomplete and static code analysis. The source code is converted into executable Java code at runtime by an interpreter.
+
 
 ![Screen 6](image6.jpg)
 
