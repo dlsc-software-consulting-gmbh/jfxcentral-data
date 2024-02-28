@@ -16,7 +16,7 @@
 
 ## Podcast, Video, Books
 
-*
+* A [new version of the ebook by **FrankDelporte**](https://foojay.social/deck/@frankdelporte/112007776688012320), "Getting Started with Java on the Raspberry Pi", is [now available here](https://webtechie.be/books/). It contains 20 extra pages describing a joystick-controlled game with [Pi4J](https://pi4j.com/) and the JavaFX [FXGL game-library](https://www.jfx-central.com/libraries/fxgl) of [**Almas Baim**](https://twitter.com/AlmasBaim).
 
 ## Tutorials
 
