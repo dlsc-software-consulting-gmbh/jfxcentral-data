@@ -1,4 +1,6 @@
-This tutorial explains how to control a LED strip connect to the serial connection of a Raspberry Pi or PC, with JBang and the Pixelblaze Output Expander. This example is a followup of other examples explaining how to setup the hardware and how to use JBang on the Raspberry Pi, fully explained on the [Pi4J website](https://pi4j.com/examples/jbang/pixelblaze_output_expander/).
+This tutorial explains how to control a LED strip connect to the serial connection of a Raspberry Pi or PC, with JBang and the Pixelblaze Output Expander. Thanks to the use of JBang, it's not needed to create a full Maven or Gradle project to use dependencies. 
+
+This example is a followup of other examples explaining how to setup the hardware and how to use JBang on the Raspberry Pi, fully explained on the [Pi4J website](https://pi4j.com/examples/jbang/pixelblaze_output_expander/).
 
 A recording of a live video session with Robert von Burg (aka Eitch) and Frank Delporte, is available in this video. The demo of this JavaFX user interface starts around 45'50:
 

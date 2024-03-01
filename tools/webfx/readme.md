@@ -10,6 +10,7 @@ and may quickly receive support from the JavaFX & GWT communities. WebFX is now 
 it.
 
 ![WebFX Website](website.png)
+
 _WebFX Website_
 
 ## Full Stack

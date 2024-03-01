@@ -1,5 +1,15 @@
 [
   {
+    "id": "getting-started",
+    "createdOn": "2023-12-12",
+    "modifiedOn": "2023-12-12",
+    "name": "Getting started with JavaFX on Raspberry Pi",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "https://pi4j.com/getting-started/user-interface-with-javafx/"
+  },
+  {
     "id": "led-strip",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
@@ -8,6 +18,6 @@
       "f.delporte"
     ],
     "canonicalUrl": "https://pi4j.com/examples/jbang/pixelblaze_output_expander_javafx/",
-    "sourceCodeUrl": "https://github.com/Pi4J/pi4j-jbang/PixelblazeOutputExpanderJavaFX.java"
+    "sourceCodeUrl": "https://github.com/Pi4J/pi4j-jbang/blob/main/PixelblazeOutputExpanderJavaFX.java"
   }
 ]
