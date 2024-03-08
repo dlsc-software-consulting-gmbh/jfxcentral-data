@@ -1,7 +1,7 @@
 ## Applications
 
 * [**Patrik Karlström** announced the release of Mapollage 3.0.0](https://twitter.com/PatrikKarlstrom/status/1762215364845244834): "3 yrs later, on the very day! The KML generator of geotagged images for GoogleEarth. This is a major rewrite of the UI, combining NetBeans Platform and JavaFX." [Sources and downloads are available on GitHub](https://github.com/trixon/mapollage/releases/tag/v3.0.0).
-* [**Matt Coley** shared a video](https://twitter.com/DystopianSnow/status/1765818296803160313): "Re-creating Intellij's "Search Everywhere" panel in Recaf 4X".
+* [**Matt Coley** shared a video](https://twitter.com/invokecoley/status/1764991484808380927): "Re-creating Intellij's "Search Everywhere" panel in Recaf 4X".
 
 ## Conferences
 
