@@ -6,7 +6,7 @@
 ## Conferences
 
 * [**Wolfgang Weigend** shared some pictures of the JFX Adopters Meeting](https://twitter.com/wolflook/status/1765356417760760283): "Thanks a lot for attending my session about JavaFX technology at Zeiss Meditec in Munich."
-* If you attend [DEVNEXUS (Apr 9-11, 2024, Atlanta, GA)](https://twitter.com/devnexus), make sure to attend this talk: [Java, JavaFX, and Life on Jupiter’s Europa](https://devnexus.com/presentations/java-javafx-and-life-on-jupiter-s-europa/): "To achieve this, we created an infrastructure in Java that allows us to responsively render and interact with maps and space views by combining JavaFX and AWT in a multi-threaded approach. This approach has been extremely successful, and now supports missions outside of Europa Clipper, analyzing spacecraft and data around Saturn, Venus, the Moon, and all the way back to Earth."
+* If you attend [DEVNEXUS (Apr 9-11, 2024, Atlanta, GA)](https://twitter.com/devnexus), make sure to attend this talk: [Java, JavaFX, and Life on Jupiter’s Europa](https://devnexus.com/presentations/java-javafx-and-life-on-jupiter-s-europa/) by **Jordi Turner** and **Scott Turner**: "To achieve this, we created an infrastructure in Java that allows us to responsively render and interact with maps and space views by combining JavaFX and AWT in a multi-threaded approach. This approach has been extremely successful, and now supports missions outside of Europa Clipper, analyzing spacecraft and data around Saturn, Venus, the Moon, and all the way back to Earth."
 
 ## Tutorials
 
@@ -16,5 +16,5 @@
 
 * [**Steve Hannah**](https://twitter.com/shannah78/status/1764028712943751539) published a post: ["jDeploy vs jpackage - When does it make sense to distribute your Java desktop app with jDeploy vs jpackage"](https://jdeploy.substack.com/p/jdeploy-vs-jpackage)
 
-* **Bazlur Rahman** [created a Mandelbrot fractal using JavaFX](https://www.linkedin.com/pulse/fractal-journeys-javafx-exploration-a-n-m-bazlur-rahman-rfkjc/) with the help of Gemini LLM. The [code is available here](https://github.com/rokon12/Mandelbrot).
+* [**Bazlur Rahman**](https://twitter.com/bazlur_rahman) created a [Mandelbrot fractal using JavaFX](https://www.linkedin.com/pulse/fractal-journeys-javafx-exploration-a-n-m-bazlur-rahman-rfkjc/) with the help of Gemini LLM. The [code is available here](https://github.com/rokon12/Mandelbrot).
 * A [shout-out from **Sean Phillips**](https://twitter.com/SeanMiPhillips/status/1764341506725286256) to [**Geertjan Wielenga**](https://twitter.com/GeertjanW): "...for investing so much of his personal time providing many helpful articles over the years." in a reaction to a [Tweet by **CJ**](https://twitter.com/jaimin_chovatia/status/1763977378030661739): "...due to my curiosity in desktop app development, I learned JavaFX to some extent and utilized NetBeans to create applications back in 2018-19".
