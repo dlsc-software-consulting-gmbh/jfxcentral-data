@@ -5,9 +5,9 @@
   * 8 enhancements
   * 80 fixed bugs
   * 3 security fixes
-* You can download JavaFX 22 from
-  * as a separate SDK from the [Gluon website](https://gluonhq.com/products/javafx/).
-  * or included with a Java JDK from, e.g., from the [Azul website](https://www.azul.com/downloads/?version=java-22-sts&package=jdk-fx#zulu).
+* You can download JavaFX 22 here:
+  * As a separate SDK from the [Gluon website](https://gluonhq.com/products/javafx/).
+  * Or included with a Java JDK from, e.g., the [Azul website](https://www.azul.com/downloads/?version=java-22-sts&package=jdk-fx#zulu).
 * Release highlights of JavaFX 22 can [be found here](https://openjfx.io/highlights/22/).
   * [**Abhinay Agarwal** highlights this one](https://twitter.com/iAbhinay/status/1770347967536419186): "This release includes 'Platform preferences API' which allows developers to style their apps in accordance with the appearance of the OS."
 * **Kevin Rushforth** published a [description of JavaFX Incubator Modules](https://github.com/kevinrushforth/jfx/blob/javafx.incubator/INCUBATOR-MODULES.md).
@@ -35,7 +35,7 @@
 
 ## Tutorials
 
-* **Frank Delporte** wrote a blog post, including two "Code Walk-Trough" videos: "[Search in Documentation with a JavaFX Chat LangChain4j Application](https://webtechie.be/post/2024-03-18-search-documentation-javafx-chat-langchain4j/)".
+* **Frank Delporte** wrote a blog post, including two "Code Walk-Trough" videos: "[Search in Documentation with a JavaFX ChatGPT-like LangChain4j Application](https://webtechie.be/post/2024-03-18-search-documentation-javafx-chat-langchain4j/)".
 
 ## Miscellaneous
 
