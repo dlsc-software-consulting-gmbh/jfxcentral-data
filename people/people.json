@@ -760,5 +760,24 @@
     "companyIds": [
       "webswing"
     ]
+  },
+  {
+    "name": "Gregor Schmid",
+    "email": "gregor.schmid@qfs.de",
+    "companyId": "qfs",
+    "website": "https://www.qfs.de",
+    "blogId": "",
+    "linkedIn": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "g.schmid",
+    "createdOn": "2024-04-03",
+    "modifiedOn": "2024-04-03",
+    "toolIds": [
+      "qftest"
+    ],
+    "companyIds": [
+      "qfs"
+    ]
   }
 ]
