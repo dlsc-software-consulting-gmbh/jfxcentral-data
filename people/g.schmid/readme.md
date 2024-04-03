@@ -1,0 +1,1 @@
+Managing director at Quality First Software GmbH.
