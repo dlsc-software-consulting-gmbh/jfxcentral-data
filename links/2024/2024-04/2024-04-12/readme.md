@@ -9,7 +9,6 @@
 
 ## Conferences
 
-* [**Gregor Schmid** wrote a blog about the JFX Adopters Meeting in Munich](https://www.qfs.de/en/blog/article/javafx-more-alive-than-ever.html): "JavaFX – More alive than ever. It was an impressive demonstration of the diverse activities of the FX world: organized with a lot of passion by **Christian Heilmann**."
 * [**Matt Raible** shared](https://twitter.com/mraible/status/1778156667764408768): "This was an awesomely energetic talk by **Sean Phillips**! I enjoyed it immensely. Check out his Trinity project which can detect AI-generated audio in minutes. Built with JavaFX."
 
 ## Tutorials
