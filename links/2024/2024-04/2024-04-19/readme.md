@@ -34,6 +34,7 @@
 ## Miscellaneous
 
 * For macOS 14 users: [**Gerrit Grunwald** published a new version of JDKUpdater](https://twitter.com/hansolo_/status/1778774663939707037) with the ability to download builds of OpenJDK from different distributions, with or without JavaFX included. [Sources and releases are available on GitHub](https://github.com/HanSolo/JDK-Updater/releases).
+* Do you want to use JavaFX on the Raspberry Pi? Thanks to contributions by **Robert von Burg**, the [Pi4J JavaFX example project](https://github.com/Pi4J/pi4j-example-javafx) downloads JavaFX 22 from the Gluon website automatically when you build the application with Maven.
 
 ## JFX Central
 
