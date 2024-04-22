@@ -1102,5 +1102,27 @@
     "logoAvailable": "false",
     "groupId": "com.pixelduke",
     "artifactId": "fxthemes"
+  },
+  {
+    "id": "fxform2",
+    "name": "FXForm2",
+    "summary": "Automatic JavaFX forms.",
+    "description": "FXForm2 is a library providing automatic JavaFX form generation and binding.",
+    "tags": "form, forms, validation, custom controls, framework",
+    "license": "LGPL",
+    "homepage": "http://dooapp.github.io/FXForm2/",
+    "documentation": "https://github.com/dooApp/FXForm2/wiki/Get-started",
+    "repository": "https://github.com/dooApp/FXForm2",
+    "githubAccount": "dooApp",
+    "githubProject": "FXForm2",
+    "issueTracker": "https://github.com/dooApp/FXForm2/issues",
+    "createdOn": "2024-04-22",
+    "modifiedOn": "2024-04-22",
+    "ensemble": "false",
+    "featuredImageName": "demo.jpg",
+    "logoAvailable": "false",
+    "groupId": "com.dooapp.fxform2",
+    "artifactId": "core",
+    "companyId": "dooapp"
   }
 ]
