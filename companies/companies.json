@@ -231,6 +231,9 @@
     "tags": "software development, building, airtightness",
     "createdOn": "2024-04-22",
     "consulting": "false",
-    "freelancing": "false"
+    "freelancing": "false",
+    "libraryIds": [
+      "fxform2"
+    ]
   }
 ]
