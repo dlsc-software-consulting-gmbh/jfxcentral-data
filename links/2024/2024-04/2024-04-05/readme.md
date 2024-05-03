@@ -23,4 +23,4 @@
 
 ## JFX Central
 
-* On Foojay.io, you can find an [overview of all the JavaFX Links of April](https://foojay.io/today/javafx-links-of-march-2024/).
+* On Foojay.io, you can find an [overview of all the JavaFX Links of March](https://foojay.io/today/javafx-links-of-march-2024/).
