@@ -23,7 +23,7 @@ public class RSSManager {
     private static final Logger LOG = Logger.getLogger(RSSManager.class.getName());
 
     public static String createRSS() {
-        DataRepository repository = DataRepository.getInstance();
+        DataRepository2 repository = DataRepository2.getInstance();
         List<LinksOfTheWeek> links = repository.getLinksOfTheWeek();
 
         // Based on the example provided on
@@ -47,7 +47,7 @@ public class RSSManager {
 
             SyndEntry entry = new SyndEntryImpl();
             entry.setTitle("Links Of The Week - " + linksOfTheWeek.getCreatedOn().format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
-            entry.setLink("https://jfx-central.com"); // TODO link to correct page with these LOTW on jfxcentral2
+            entry.setLink("https://jfx-central.com/links");
             entry.setPublishedDate(DateUtils.asDate(linksOfTheWeek.getCreatedOn()));
             entry.setDescription(description);
             entries.add(entry);
@@ -56,13 +56,13 @@ public class RSSManager {
         try {
             return new SyndFeedOutput().outputString(feed);
         } catch (FeedException e) {
-            e.printStackTrace();
+            LOG.severe("Feed could not be generated: " + e.getMessage());
         }
 
         return "";
     }
 
-    private static String getLinksOfTheWeekAsHtml(DataRepository repository, LinksOfTheWeek linksOfTheWeek) {
+    private static String getLinksOfTheWeekAsHtml(DataRepository2 repository, LinksOfTheWeek linksOfTheWeek) {
         StringProperty markdownContent = new SimpleStringProperty();
         repository.loadLinksOfTheWeekText(linksOfTheWeek, markdownContent);
 
@@ -75,7 +75,7 @@ public class RSSManager {
         try {
             return renderer.render(parser.parse(markdownContent.get()));
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.severe("Error while rendering markdown content: " + e.getMessage());
         }
         return "";
     }
