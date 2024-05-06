@@ -498,6 +498,10 @@ public class DataRepository2 {
         return loadString(new File(getRepositoryDirectory(), "links/" + links.getId() + "/readme.md"));
     }
 
+    public void loadLinksOfTheWeekText(LinksOfTheWeek links, StringProperty textProperty) {
+        textProperty.set(getLinksOfTheWeekReadMe(links));
+    }
+
     public String getTutorialReadMe(Tutorial tutorial) {
         return loadString(new File(getRepositoryDirectory(), "tutorials/" + tutorial.getId() + "/readme.md"));
     }
