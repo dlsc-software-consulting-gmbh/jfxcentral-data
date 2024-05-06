@@ -221,5 +221,19 @@
     "createdOn": "2023-02-13",
     "consulting": "true",
     "freelancing": "false"
+  },
+  {
+    "id": "dooapp",
+    "name": "dooApp",
+    "summary": "Innovation is in the air.",
+    "description": "dooApp provides innovative software solutions for building verification.",
+    "homepage": "https://www.dooapp.com/",
+    "tags": "software development, building, airtightness",
+    "createdOn": "2024-04-22",
+    "consulting": "false",
+    "freelancing": "false",
+    "libraryIds": [
+      "fxform2"
+    ]
   }
 ]
