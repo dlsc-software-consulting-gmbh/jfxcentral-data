@@ -247,19 +247,19 @@
     "files": [
       {
         "name": "Windows",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-win.zip",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-win.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "Mac",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-mac.zip",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-mac.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "Linux",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-linux.zip",
+        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-linux.zip",
         "fileName": "",
         "package": "ZIP"
       }

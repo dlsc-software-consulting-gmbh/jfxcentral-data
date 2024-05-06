@@ -14,11 +14,9 @@
 
 * [**Pedro Duque Vieira** announced FXThemes Version 1.5](https://twitter.com/P_Duke/status/1786017713283817828) which introduces macOS support. Thanks to contributions by [**Carl Dea**](https://twitter.com/carldea). Read more in this [blog post](https://pixelduke.com/2024/05/02/fxthemes-version-1-5-released/).
 
-- Introduces Mac support
-
 ## Podcast, Video, Books
 
-*
+* **Frank Delporte** [wrote a review of the book "Frontend Development with JavaFX and Kotlin"](https://webtechie.be/post/2024-05-06-book-review-javafx-kotlin/), written by Peter Späth.
 
 ## Tutorials
 
