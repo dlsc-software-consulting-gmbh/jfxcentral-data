@@ -9,7 +9,6 @@
   * "[Extended the lunar LOS tool by several orders of magnitude to check for performance](https://twitter.com/SeanMiPhillips/status/1790084437029327307). 10k LOS checks, 30k 3D artifacts added to the scene: 244 ms (including the rendering)... on a decent laptop. But Java is slow and JavaFX sucks and all those other foolish things you hear..."
 * [Screenshot of an application by **BJ Dela Cruz**](https://www.linkedin.com/posts/bj-delacruz_javafx-fiji-buildinpublic-activity-7197088263570944000-gQfh?utm_source=share&utm_medium=member_desktop): "With my JavaFX app Flight Display, you can dream about landing in the beautiful island nation of Fiji. My dream of creating my own flight display board has come true!"
 
-
 ## Games
 
 * [**Auron** started work on a new Pixelart Game project](https://x.com/WigglyGull/status/1791292994064396793): "There's lots of placeholder stuff right now but the main logic this there."
