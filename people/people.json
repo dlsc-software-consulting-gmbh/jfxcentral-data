@@ -779,5 +779,28 @@
     "companyIds": [
       "qfs"
     ]
+  },
+  {
+    "name": "Ralph J. Steinhagen",
+    "email": "r.steinhagen@gsi.de",
+    "companyId": "GSI/FAIR",
+    "website": "https://github.com/fair-acc",
+    "blogId": "",
+    "linkedIn": "ralphsteinhagen",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "r.steinhagen",
+    "gitHub": "RalphSteinhagen",
+    "libraryIds": [
+      "chartfx"
+    ],
+    "companyIds": [
+      "gsi"
+    ],
+    "toolIds": [
+    ],
+    "createdOn": "2024-05-19",
+    "modifiedOn": "2024-05-19"
   }
 ]
