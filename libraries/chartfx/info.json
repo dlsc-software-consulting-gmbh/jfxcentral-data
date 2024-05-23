@@ -1,0 +1,229 @@
+{
+  "images": [
+    {
+      "path": "chartfx-example1.png",
+      "title": "ChartFX Example",
+      "description": ""
+    },
+    {
+      "path": "logo.png",
+      "title": "ChartFX Logo",
+      "description": "The official logo for the ChartFX library."
+    },
+    {
+      "path": "docs/pics/CategoryAxisSample.png",
+      "title": "Category Axis Sample",
+      "description": "An example showcasing category axis usage in ChartFX."
+    },
+    {
+      "path": "docs/pics/ChartAnatomySample.png",
+      "title": "Chart Anatomy Sample",
+      "description": "A detailed breakdown of the components of a ChartFX chart."
+    },
+    {
+      "path": "docs/pics/ChartIndicatorSample.png",
+      "title": "Chart Indicator Sample",
+      "description": "Illustrates the use of indicators in ChartFX for enhanced data analysis."
+    },
+    {
+      "path": "docs/pics/ContourChartSample1.png",
+      "title": "Contour Chart Sample 1",
+      "description": "A contour chart example displaying test data in ChartFX."
+    },
+    {
+      "path": "docs/pics/ContourChartSample2.png",
+      "title": "Contour Chart Sample 2",
+      "description": "Another contour chart example with different data visualisation in ChartFX."
+    },
+    {
+      "path": "docs/pics/DataSetAverageSample.png",
+      "title": "Data Set Average Sample",
+      "description": "Example of calculating and displaying data set averages in ChartFX."
+    },
+    {
+      "path": "docs/pics/DataSetFilterSample.png",
+      "title": "Data Set Filter Sample",
+      "description": "Shows how to apply filters to data sets in ChartFX."
+    },
+    {
+      "path": "docs/pics/DataSetIntegrateDifferentiateSample.png",
+      "title": "Data Set Integrate/Differentiate Sample",
+      "description": "Demonstrates integration and differentiation of data sets in ChartFX."
+    },
+    {
+      "path": "docs/pics/DataSetSpectrumSample.png",
+      "title": "Data Set Spectrum Sample",
+      "description": "Illustrates spectrum analysis of data sets in ChartFX."
+    },
+    {
+      "path": "docs/pics/EditDataSample.png",
+      "title": "Edit Data Sample",
+      "description": "Shows how to edit data within ChartFX."
+    },
+    {
+      "path": "docs/pics/ErrorDataSetRendererStylingSample1.png",
+      "title": "Error Data Set Renderer Styling Sample 1",
+      "description": "Example of styling error data set renderers in ChartFX."
+    },
+    {
+      "path": "docs/pics/ErrorDataSetRendererStylingSample2.png",
+      "title": "Error Data Set Renderer Styling Sample 2",
+      "description": "Another example of styling error data set renderers in ChartFX."
+    },
+    {
+      "path": "docs/pics/FinancialAdvancedCandlestickSample.png",
+      "title": "Financial Advanced Candlestick Sample",
+      "description": "Advanced candlestick chart example for financial data in ChartFX."
+    },
+    {
+      "path": "docs/pics/FinancialCandlestickSample.png",
+      "title": "Financial Candlestick Sample",
+      "description": "Basic candlestick chart example for financial data in ChartFX."
+    },
+    {
+      "path": "docs/pics/FinancialHiLowSample.png",
+      "title": "Financial Hi-Low Sample",
+      "description": "High-low chart example for financial data in ChartFX."
+    },
+    {
+      "path": "docs/pics/FinancialRealtimeCandlestickSample.png",
+      "title": "Financial Realtime Candlestick Sample",
+      "description": "Realtime candlestick chart example for financial data in ChartFX."
+    },
+    {
+      "path": "docs/pics/FinancialRealtimeFootprintSample.png",
+      "title": "Financial Realtime Footprint Sample",
+      "description": "Realtime footprint chart example for financial data in ChartFX."
+    },
+    {
+      "path": "docs/pics/FourierSample.png",
+      "title": "Fourier Sample",
+      "description": "Example of Fourier transformation applied to data in ChartFX."
+    },
+    {
+      "path": "docs/pics/FrequencyFilterSample.png",
+      "title": "Frequency Filter Sample",
+      "description": "Demonstrates the application of frequency filters in ChartFX."
+    },
+    {
+      "path": "docs/pics/GaussianFitSample.png",
+      "title": "Gaussian Fit Sample",
+      "description": "Example of applying Gaussian fit to data in ChartFX."
+    },
+    {
+      "path": "docs/pics/GridRendererSample.png",
+      "title": "Grid Renderer Sample",
+      "description": "Illustrates grid rendering options in ChartFX."
+    },
+    {
+      "path": "docs/pics/Histogram2DimSample.png",
+      "title": "2D Histogram Sample",
+      "description": "A 2D histogram chart example in ChartFX."
+    },
+    {
+      "path": "docs/pics/HistogramRendererTests.png",
+      "title": "Histogram Renderer Tests",
+      "description": "Tests of histogram rendering capabilities in ChartFX."
+    },
+    {
+      "path": "docs/pics/HistogramSample.png",
+      "title": "Histogram Sample",
+      "description": "A histogram chart example in ChartFX."
+    },
+    {
+      "path": "docs/pics/HistoryDataSetRendererSample.png",
+      "title": "History Data Set Renderer Sample",
+      "description": "Example of rendering historical data sets in ChartFX."
+    },
+    {
+      "path": "docs/pics/IIRFilterSample.png",
+      "title": "IIR Filter Sample",
+      "description": "Example of applying IIR filters to data in ChartFX."
+    },
+    {
+      "path": "docs/pics/LabelledMarkerSample.png",
+      "title": "Labelled Marker Sample",
+      "description": "Illustrates the use of labelled markers in ChartFX."
+    },
+    {
+      "path": "docs/pics/LogAxisSample.png",
+      "title": "Log Axis Sample",
+      "description": "Example of logarithmic axis in ChartFX."
+    },
+    {
+      "path": "docs/pics/MetaDataRendererSample2.png",
+      "title": "Meta Data Renderer Sample",
+      "description": "Shows rendering of metadata in ChartFX."
+    },
+    {
+      "path": "docs/pics/MountainRangeRendererSample.png",
+      "title": "Mountain Range Renderer Sample",
+      "description": "Illustrates mountain range rendering in ChartFX."
+    },
+    {
+      "path": "docs/pics/MultipleAxesSample.png",
+      "title": "Multiple Axes Sample",
+      "description": "Example of using multiple axes in ChartFX."
+    },
+    {
+      "path": "docs/pics/PolarPlotSample.png",
+      "title": "Polar Plot Sample",
+      "description": "Example of a polar plot chart in ChartFX."
+    },
+    {
+      "path": "docs/pics/RollingBufferSortedTreeSample.png",
+      "title": "Rolling Buffer Sorted Tree Sample",
+      "description": "Shows the use of rolling buffer sorted trees in ChartFX."
+    },
+    {
+      "path": "docs/pics/ScatterAndBubbleRendererSample1.png",
+      "title": "Scatter and Bubble Renderer Sample 1",
+      "description": "Example of scatter and bubble rendering in ChartFX."
+    },
+    {
+      "path": "docs/pics/ScatterAndBubbleRendererSample2.png",
+      "title": "Scatter and Bubble Renderer Sample 2",
+      "description": "Another example of scatter and bubble rendering in ChartFX."
+    },
+    {
+      "path": "docs/pics/SimpleChartSample.png",
+      "title": "Simple Chart Sample",
+      "description": "A basic chart example in ChartFX."
+    },
+    {
+      "path": "docs/pics/THPRB028_fig2.png",
+      "title": "Figure 2 from THPRB028",
+      "description": "A specific figure from the THPRB028 document related to ChartFX."
+    },
+    {
+      "path": "docs/pics/TimeAxisSample.png",
+      "title": "Time Axis Sample",
+      "description": "Example of a time axis in ChartFX."
+    },
+    {
+      "path": "docs/pics/WaveletScalogram.png",
+      "title": "Wavelet Scalogram",
+      "description": "Example of a wavelet scalogram in ChartFX."
+    },
+    {
+      "path": "docs/pics/chartfx-performance-test-case.png",
+      "title": "Performance Test Case",
+      "description": "Performance test scenario with two independent graphs, independent auto-ranging y-axes, and common scrolling time-series axis. Test system: Linux, 4.12.14, Intel(R) Core(TM) i7 CPU 860 @2.80GHz and GeForce GTX 670 GPU (NVIDIA driver)."
+    },
+    {
+      "path": "docs/pics/chartfx-performance1.png",
+      "title": "Performance Chart 1",
+      "description": "Chart performance comparison for popular JavaFX, Java-Swing, C++/Qt and WebAssembly-based implementations: ExtJFX, ChartFx, HanSolo Charts, JFreeChart, JDataViewer, QCustomPlot, Qt-Charts, WebAssembly. The last `Qt Charts` entries show results for 100k data points being updated at 25 Hz."
+    },
+    {
+      "path": "docs/pics/chartfx-performance1a.png",
+      "title": "Performance for fast updates",
+      "description": "Performance comparison @ 25 Hz update rate."
+    },
+    {
+      "path": "docs/pics/chartfx-performance1b.png",
+      "title": "Performance for large DataSets",
+      "description": "Performance comparison @ 2 Hz update rate."
+    }
+  ]
+}
