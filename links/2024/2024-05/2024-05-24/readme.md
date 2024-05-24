@@ -1,6 +1,6 @@
 ## Core
 
-* When [**Johan Vos** shares his note](https://mastodon.social/@johanvos/112477892809739391), you may want to keep on eye on them...: "While working on Java on Mobile, I [keep my notes here](https://download2.gluonhq.com/mobile/) (best viewed with lynx). This is not user/developer documentation, but people interested/familiar with OpenJDK building might keep an eye to see how far we are."
+* When [**Johan Vos** shares his notes](https://mastodon.social/@johanvos/112477892809739391), you may want to keep on eye on them...: "While working on Java on Mobile, I [keep my notes here](https://download2.gluonhq.com/mobile/) (best viewed with lynx). This is not user/developer documentation, but people interested/familiar with OpenJDK building might keep an eye to see how far we are."
 
 ## Applications
 
