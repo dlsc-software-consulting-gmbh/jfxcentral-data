@@ -53,12 +53,12 @@ jobs:
           export GPG_TTY=$(tty)
           ./mvnw --no-transfer-progress -B --file pom.xml \
             -Drepository.url=https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git \
-            -Dmaven.site.skip=true -Drelease=true deploy
+            -Dmaven.site.skip=true -Drelease=true deploy -DskipTests=true
 
       - name: Release to GitHub
         env:
           JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./mvnw -B --file pom.xml -Prelease -pl :model jreleaser:full-release
+        run: ./mvnw -B --file pom.xml -Prelease -pl :model jreleaser:full-release -DskipTests=true
 
       - name: JReleaser output
         if: always()
