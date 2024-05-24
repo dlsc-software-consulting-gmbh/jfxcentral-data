@@ -21,4 +21,4 @@
 
 ## JFX Central
 
-* A new library has been added: ["ChartFX" for creating scientific charts](https://jfx-central.com/libraries/chartfx), thanks to **Ralph J. Steinhagen**.
+* A new library has been added: ["ChartFX" for creating scientific charts](https://jfx-central.com/libraries/chartfx), thanks to [**Ralph J. Steinhagen**](https://www.jfx-central.com/people/r.steinhagen).
