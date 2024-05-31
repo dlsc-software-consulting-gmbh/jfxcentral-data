@@ -10,7 +10,7 @@
 
 ## Components, Libraries, Tools
 
-* **Carl Dea** published a lightweight JavaFX MVVM library](https://x.com/carldea/status/1796344316618817798) on GitHub and Maven Central, with [a lot of info and examples here](https://github.com/carldea/cognitive/wiki).
+* [**Carl Dea** published a lightweight JavaFX MVVM library "Cognitive"](https://x.com/carldea/status/1796344316618817798) on GitHub and Maven Central, with [a lot of info and examples here](https://github.com/carldea/cognitive/wiki).
 
 ## Miscellaneous
 
