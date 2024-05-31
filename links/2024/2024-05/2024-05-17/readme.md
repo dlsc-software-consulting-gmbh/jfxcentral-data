@@ -16,7 +16,7 @@
 ## Components, Libraries, Tools
 
 * [**Pedro Duque Vieira** announced FXThemes Version 1.5](https://twitter.com/P_Duke/status/1786017713283817828) which introduces macOS support. Thanks to contributions by [**Carl Dea**](https://twitter.com/carldea). Read more in this [blog post](https://pixelduke.com/2024/05/02/fxthemes-version-1-5-released/).
-* [**Dirk Lemmermann** annaounced support for search "history" in the SearchTextField control of GemsFX](https://twitter.com/dlemmermann/status/1788958790416556511). Available with release 2.17.0, thanks to [**Li Wang Yang**](https://twitter.com/LeeWyatt_7788).
+* [**Dirk Lemmermann** announced support for search "history" in the SearchTextField control of GemsFX](https://twitter.com/dlemmermann/status/1788958790416556511). Available with release 2.17.0, thanks to [**Li Wang Yang**](https://twitter.com/LeeWyatt_7788).
 * [**Carl Dea** shared a video](https://twitter.com/carldea/status/1747046776765284445), showing "A JavaFX background blur effect library for the MacOS is now able to support Light and Dark Mode!". You can find it on [GitHub](https://github.com/carldea/windowblur).
 
 ## Podcast, Video, Books
