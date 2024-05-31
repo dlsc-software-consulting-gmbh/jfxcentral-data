@@ -15,8 +15,8 @@
 ## Miscellaneous
 
 * Continuing the JavaFX love...
-  * [**Gerrit Grunwald**](https://x.com/hansolo_/status/1794086894008930686): "After more coding I think now it’s time for the weekend... and again I realized that #JavaFX is so productive... amazing."
-  * **Tanmay**](https://x.com/maytanthegeek/status/1794393624995885123): "Not gonna lie. I still love JavaFX. Android layout learned a lot from it. JavaFX is so fun and simple. I would really like to see it take a leading spot some day for GUI programming."
+  * [**Gerrit Grunwald**](https://x.com/hansolo_/status/1794086894008930686): "After more coding I think now it’s time for the weekend... and again I realized that JavaFX is so productive... amazing."
+  * [**Tanmay**](https://x.com/maytanthegeek/status/1794393624995885123): "Not gonna lie. I still love JavaFX. Android layout learned a lot from it. JavaFX is so fun and simple. I would really like to see it take a leading spot some day for GUI programming."
     
 ## JFX Central
 
