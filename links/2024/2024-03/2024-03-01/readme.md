@@ -3,7 +3,7 @@
 * **Pedro Duque Vieira** integrated this [pull request in FXThemes](https://github.com/dukke/FXThemes/pull/2): "[True Dark Mode is now also available on Mac](https://twitter.com/P_Duke/status/1762488686313120185). All thanks to [**Carl Dea**](https://twitter.com/carldea).
 * Not new, but [**siedlerchr** pointed](https://twitter.com/siedlerchr/status/1762439783236636842) us on [EasyBind](https://github.com/tobiasdiez/EasyBind): "Leverages lambdas to reduce boilerplate when creating custom bindings, providing a type-safe alternative to Bindings.select* methods and provides enhanced bindings support for Optional." It's a fork by [**Tobias Diez**](https://twitter.com/tobias_diez) of an older project by [**Tomas Mikula**](https://twitter.com/tomas_mikula).
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * A [new version of the ebook by **FrankDelporte**](https://foojay.social/deck/@frankdelporte/112007776688012320), "Getting Started with Java on the Raspberry Pi", is [now available here](https://webtechie.be/books/). It contains 20 extra pages describing a joystick-controlled game with [Pi4J](https://pi4j.com/) and the JavaFX [FXGL game-library](https://www.jfx-central.com/libraries/fxgl) of [**Almas Baim**](https://twitter.com/AlmasBaim).
 

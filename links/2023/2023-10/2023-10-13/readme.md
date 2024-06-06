@@ -12,7 +12,7 @@
 
 * **JPro** announced [version 2023.3.0](https://www.jpro.one/docs/current/3.1/2023.3.X): JavaFX 21 is used by default, and many more improvements!
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * In the list of JavaFX Devoxx talks last week, we missed this one by **Thanos Stratikopoulos**: [TornadoVM: Write once, run everywhere everywhere!](https://www.youtube.com/watch?v=POanHvoC4qA). He demonstrates an impressive performance boost with a JavaFX ray tracer using the GPU. Sources of the demo are available on [github.com/Vinhixus/TornadoVM-Ray-Tracer](https://github.com/Vinhixus/TornadoVM-Ray-Tracer).
 * Already shared last week: Devoxx talk by **Kevin Rushforth** about [JavaFX Notebook](https://www.youtube.com/watch?v=R9yhbaN5Xxs).

@@ -41,7 +41,7 @@
   * Gives you controls / pickers for: choosing a date, choosing a date range, choosing a month, choosing a year, choosing a time, choosing a duration.
   * See the [DateRangePicker control in action here](https://www.youtube.com/watch?v=n7HesjJZ7K4).
   
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * Presentations at Devoxx this week in Antwerpen, Belgium:
   * **Kevin Rushforth**: 

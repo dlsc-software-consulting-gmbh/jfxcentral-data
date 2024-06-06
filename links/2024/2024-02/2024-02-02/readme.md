@@ -18,7 +18,7 @@
 * [**Frank Delporte** published a small update about the Lottie4J project](https://lottie4j.com/index.html) as he is diving deeper into the Lottie-format (vector animations for the web).
 * [**Max Rydahl Andersen** is expecting 2024 to be the year of Java on desktop](https://twitter.com/maxandersen/status/1751725403553546275): "We got early [JavaFX support for Quarkus contribution in Quarkuverse Hub](https://github.com/quarkiverse/quarkus-fx)".
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * For the online JChampions Conference, **Paul and Gail Anderson** presented "Are You Game? Mobile Development with Modern Java, JavaFX, and GraalVM". The video recording [is available here](https://www.youtube.com/watch?v=9h-BoB6UjiE).
 

@@ -15,7 +15,7 @@
 
 * [**Pedro Duque Vieira** is asking for help testing out FXThemes](https://twitter.com/P_Duke/status/1750632079430189283): "If you have a machine running Windows 10 can you run the fxthemes-samples subproject and tell me if the window that shows up has a background blur? The project is using Java17 for now..."
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * [Airhacks #278: "Java at Azul: The Interesting Features"](https://airhacks.fm/#episode_278): [Adam Bien](https://twitter.com/AdamBien) talks with [Gerrit Grunwald](https://twitter.com/hansolo_) about Java desktop applications with Swing and JavaFX + many other topics.
 

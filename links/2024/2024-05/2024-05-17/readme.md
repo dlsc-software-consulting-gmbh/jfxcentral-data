@@ -19,7 +19,7 @@
 * [**Dirk Lemmermann** announced support for search "history" in the SearchTextField control of GemsFX](https://twitter.com/dlemmermann/status/1788958790416556511). Available with release 2.17.0, thanks to [**Li Wang Yang**](https://twitter.com/LeeWyatt_7788).
 * [**Carl Dea** shared a video](https://twitter.com/carldea/status/1747046776765284445), showing "A JavaFX background blur effect library for the MacOS is now able to support Light and Dark Mode!". You can find it on [GitHub](https://github.com/carldea/windowblur).
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * **Frank Delporte** [wrote a review of the book "Frontend Development with JavaFX and Kotlin"](https://webtechie.be/post/2024-05-06-book-review-javafx-kotlin/), written by **Peter Späth**.
 

@@ -12,7 +12,7 @@ Here are the new links, and make sure to read till the end as we have some fasci
 
 * [**Almas Baim** shared a new proof-of-concept of the node inspector panel](https://twitter.com/AlmasBaim/status/1734865416697114945) in FXGL, which allows editing various node properties: "This way each dialogue node in the main UI just captures the text associated with it and reduces visual clutter".
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * In the [third part of the Foojay J-Fall Report Podcast](https://foojay.io/today/foojay-podcast-36/), [**Gerrit Grunwald**](https://www.jfx-central.com/people/g.grunwald) and [**Anthony Goubard**](https://twitter.com/Anthony_Goubard) talk about desktop application development with Java.
 

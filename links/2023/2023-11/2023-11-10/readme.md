@@ -13,7 +13,7 @@
 * [**Dirk Lemmermann** announced v1.90.0 of GemsFX](https://twitter.com/dlemmermann/status/1720475150032810405), which includes an SVGImageView control to display SVG files. The control uses the [jsvg project](https://github.com/weisJ/jsvg) to render to an AWT image, convert it, and then display it inside an ImageView.
 * **Mushtak Abdulqadir** describes several libraries in a LinkedIn post (BootstrapFX, ControlsFX, FormsFX, FXGL, Ikonli, TilesFX, ValidatorFX) and [is asking for feedback](https://www.linkedin.com/posts/altmemy_javafx-uiux-desktopdevelopment-activity-7127725400717209600-ozbs/): "Which of these libraries have you used, and what has been your experience with them?" 
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * At J-Fall in the Netherlands, **Frank Delporte** had a lot of live interviews with speakers and guests, including **Gerrit Grunwald**. In [this short interview they also talk about JavaFX](https://www.youtube.com/watch?v=FV1ITrl42mk).
 

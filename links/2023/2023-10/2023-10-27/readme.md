@@ -17,7 +17,7 @@
 
 * **JPro** announced [version 2023.3.1](https://jpro.one/docs/current/3.1/2023.3.X) with a critical bugfix to handle bot traffic better, and a new feature regarding MimeTypes.
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * **Nicolai Parlog** published the [second half of his video report of Devoxx Belgium](https://www.youtube.com/watch?v=WoQJnnMIlFY), including an interview with **Kevin Rushforth** about GUI development with Java.
 
