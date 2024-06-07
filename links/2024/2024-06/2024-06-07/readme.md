@@ -1,11 +1,11 @@
 ## Applications
 
-* [**Christopher Schnick** shared screenshots](https://x.com/crschnick/status/1797531650576048147): "XPipe 9.4 comes with a #JavaFX markdown view for notes that works through the WebView. It supports using external editors and updates in real time." Check the sources on [GitHub](https://github.com/xpipe-io/xpipe).
+* [**Christopher Schnick** shared screenshots](https://x.com/crschnick/status/1797530886289940828): "XPipe 9.4 comes with a JavaFX markdown view for notes that works through the WebView. It supports using external editors and updates in real time." Check the sources on [GitHub](https://github.com/xpipe-io/xpipe).
 * [Smartfinder now runs on Java 22](https://x.com/SerendigityInfo/status/1797164327763357725). It's a Desktop Search alternative to Windows Search/Mac OS Finder.
 
 ## Games
 
-* [**WebFX** published a new version of SpaceFX](https://x.com/WebFXProject/status/1797963817659600978), playable online at [spacefx.webfx.dev](https://spacefx.webfx.dev) with a few updates to make the game even more challenging for true gamers. More WebFX demos on [github.com/webfx-demos](https://github.com/webfx-demos). Game originally created by [**Gerrit Grunwald**](https://x.com/hansolo_).
+* [**WebFX** published a new version of SpaceFX](https://x.com/WebFXProject/status/1797963817659600978) a game originally created by [**Gerrit Grunwald**](https://x.com/hansolo_). It's playable online at [spacefx.webfx.dev](https://spacefx.webfx.dev) with a few updates to make the game even more challenging for true gamers. More WebFX demos on [github.com/webfx-demos](https://github.com/webfx-demos).
 
 ## Components, Libraries, Tools
 
@@ -13,7 +13,7 @@
 
 ## Podcasts, Videos, Books
 
-* [**Frank Delporte** interviewed **Pedro Duque Vieira** in a new series of videos "JFX In Action"](https://webtechie.be/post/2024-06-05-jfxinaction-pedro-duque-vieira-duke/).
+* [**Frank Delporte** interviewed **Pedro Duque Vieira** for "JFX In Action"](https://webtechie.be/post/2024-06-05-jfxinaction-pedro-duque-vieira-duke/), the first video in a new series...
 
 ## Tutorials
 
