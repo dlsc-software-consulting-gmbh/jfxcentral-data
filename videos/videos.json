@@ -1182,7 +1182,7 @@
     ]
   },
   {
-    "name": "JFX In Action with Pedro Duque Vieira, aka Duke ",
+    "name": "JFX In Action with Pedro Duque Vieira, aka Duke about Hero, PDFSam, FXThemes, FXComponents,...",
     "tags": "JFXInAction, javafx, application, library",
     "type": "JFX In Action",
     "platform": "Desktop",
@@ -1209,6 +1209,22 @@
     "realworldIds": [
       "hero",
       "pdfsam"
+    ]
+  },
+  {
+    "name": "JFX In Action with Daniel Zimmermann about JavaFX and Kotlin",
+    "tags": "JFXInAction, javafx, application, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Infrastructure",
+    "description": "Interview with Daniel Zimmermann, who combines JavaFX with Kotlin to build network testing applications.",
+    "id": "OKbeVaHV3HA",
+    "minutes" : "20",
+    "createdOn": "2024-06-12",
+    "modifiedOn": "2024-06-12",
+    "publishedOn": "2024-06-12",
+    "personIds": [
+      "f.delporte"
     ]
   }
 ]
