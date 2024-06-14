@@ -5,7 +5,7 @@
 ## Applications
 
 * [LogoRRR reached a major milestone this week](https://twitter.com/logorrr/status/1800544389216997657): "10.000 downloads for LogoRRR on all platforms!! I'm very proud of this achievement, thank you guys!🙂"
-* [**Xiong Chun** keeps teasing us with videos](https://x.com/xiongchun007/status/1799863501135245739) showing progress with his Datacollie application to interact with databases: "I made some small achievements this weekend. So, make a video show to commemorate it."
+* [**Xiong Chun** keeps teasing us with videos](https://x.com/xiongchun007/status/1799863501135245739) showing progress with his Datacollie application to interact with databases...
 
 ## Games
 
@@ -14,14 +14,14 @@
 ## Components, Libraries, Tools
 
 * [**Dirk Lemmermann** added an AvatarView control to GemsFX](https://twitter.com/dlemmermann/status/1801010129237598714), which can be used to either display the image/avatar of a user or his/her initials. Clipping will give you a round or a square view.
-* [**vlaaad** released version 1.9.0 of cljfx](https://twitter.com/v1aaad/status/1800614531191996618), a reactive UI wrapper of JavaFX for Clojure: "The new features bring cljfx a bit further away from re-frame and a bit closer to react. Check out the [changelog on GitHub](https://github.com/cljfx/cljfx/blob/master/CHANGELOG.md).
+* [**vlaaad** released version 1.9.0 of cljfx](https://twitter.com/v1aaad/status/1800614531191996618), a reactive UI wrapper of JavaFX for Clojure: "The new features bring cljfx a bit further away from re-frame and a bit closer to react." Check out the [changelog on GitHub](https://github.com/cljfx/cljfx/blob/master/CHANGELOG.md).
 * Updates shared by [**Pedro Duke**](https://x.com/P_Duke):
   * [Video of an experiment with a new Login Dialog](https://x.com/P_Duke/status/1800522435734995086): "Using FXThemes for the background blur on the Dialog and FXSkins for the differently looking Progress Bar and Button animations."
   * [Video showing that the next version of FXThemes](https://x.com/P_Duke/status/1801238597707735479) will allow you to add platform decorations to an Undecorated or Transparent Stage.
 
 ## Podcasts, Videos, Books
 
-* [**Frank Delporte**](https://x.com/FrankDelporte) published the second "JFX In Action" video. This time he talks to [**Daniel Zimmermann**](https://x.com/DystopianSnow) about the [combination of JavaFX and Kotlin to build nice user interfaces](https://webtechie.be/post/2024-06-12-jfxinaction-daniel-zimmermann/), making full use of the JVM to run on any platform and perform heavy tasks like testing network speeds up to 10Gbps!
+* [**Frank Delporte**](https://x.com/FrankDelporte) published [the second "JFX In Action" video](https://webtechie.be/post/2024-06-12-jfxinaction-daniel-zimmermann/). This time he talks with [**Daniel Zimmermann**](https://x.com/DystopianSnow) about the combination of JavaFX and Kotlin to build nice user interfaces, making full use of the JVM to run on any platform and perform heavy tasks like testing network speeds up to 10Gbps!
 
 ## Tutorials
 
