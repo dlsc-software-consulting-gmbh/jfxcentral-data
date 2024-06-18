@@ -1226,5 +1226,21 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "JFX In Action with Christopher Schnick about XPipe, an app to manage all your servers",
+    "tags": "JFXInAction, javafx, application, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Infrastructure",
+    "description": "Interview with Christopher Schnick about XPipe. Christopher is a software engineer with experience in the Java ecosystem and desktop application development. He is passionate about designing innovative solutions for end users and learning new technologies and tools when needed. XPipe brings your entire server infrastructure at your fingertips. It helps you to manage all your servers from your local desktop without any remote setup.",
+    "id": "mZV1OJ23d2c",
+    "minutes" : "24",
+    "createdOn": "2024-06-18",
+    "modifiedOn": "2024-06-18",
+    "publishedOn": "2024-06-18",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
