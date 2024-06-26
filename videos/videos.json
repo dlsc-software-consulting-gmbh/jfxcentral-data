@@ -1245,5 +1245,24 @@
     "libraryIds": [
       "atlantafx"
     ]
+  },
+  {
+    "name": "JFX In Action with Robert Ladstätter about LogoRRR, a cross-platform log analysis tool",
+    "tags": "JFXInAction, javafx, application, library, Scala",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Infrastructure",
+    "description": "Interview with Robert Ladstätter about LogoRRR. Robert is Team Lead at NEXTSENSE Worldwide and develops software with Scala and JavaFX. LogoRRR is a cross-platform log analysis tool, written in Scala and JavaFX, that offers a clear and rapid way to navigate through large text files, emphasizing critical events with its interactive, user-friendly interface.",
+    "id": "2y8aK_t--gM",
+    "minutes" : "18",
+    "createdOn": "2024-06-26",
+    "modifiedOn": "2024-06-26",
+    "publishedOn": "2024-06-26",
+    "personIds": [
+      "f.delporte"
+    ],
+    "toolIds": [
+      "testfx"
+    ]
   }
 ]
