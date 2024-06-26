@@ -11,7 +11,8 @@ autumo UI is a rapid Java FX development framework.
 - Registration view and application component for seamless integration with
 the registration module
 - Check for product update view that can be configured with simple online XML
-files on any public web-server Full application configuration handling for
+files on any public web-server
+- Full application configuration handling for
 macOS, Windows and Linux/UNIX
 - Includes the extensive [autumo-commons](https://products.autumo.ch/javadoc/autumo-commons/index.html) base library with many additional
 features and ready-to-use components (Console app framework/tools, caching,
