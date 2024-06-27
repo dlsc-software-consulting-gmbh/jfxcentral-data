@@ -1,2 +1,1 @@
-Software architect, Java and Scala enthusiast. JavaOne Rockstar, and Duke's Choice award 
-winner. Gluon co-founder.
+Software architect, Java and Scala enthusiast. JavaOne Rockstar, and Duke's Choice award winner. Gluon co-founder.
