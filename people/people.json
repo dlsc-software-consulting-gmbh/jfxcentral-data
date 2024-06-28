@@ -374,6 +374,27 @@
     ]
   },
   {
+    "name": "Michael Gasche",
+    "email": "",
+    "companyId": "autumo",
+    "website": "https://autumo.ch",
+    "gitHub": "autumoswitzerland",
+    "blogId": "",
+    "linkedIn": "",
+    "twitter": "autumo",
+    "champion": false,
+    "rockstar": false,
+    "id": "m.gasche",
+    "createdOn": "2024-06-28",
+    "modifiedOn": "2024-06-28",
+    "libraryIds": [
+      "autumoui"
+    ],
+    "companyIds": [
+      "autumo"
+    ]
+  },
+  {
     "name": "Michael Hoffer",
     "email": "",
     "companyId": "",
