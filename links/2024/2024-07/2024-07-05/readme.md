@@ -4,7 +4,7 @@
 
 ## Applications
 
-* [**Özkan Pakdil** is working on an opensource alternative for Postman](https://foojay.social/deck/@thejvmbender@techhub.social/112693990830742891): "I am looking for people to test or join, it's in beta phase but I am sure http get is working." You can [find it on GitHub](https://github.com/ozkanpakdil/swaggerific).
+* [**Özkan Pakdil** is working on an opensource alternative for Postman](https://foojay.social/deck/@thejvmbender@techhub.social/112693990830742891): "I am looking for people to test or join, it's in beta phase, but I am sure http get is working." You can [find it on GitHub](https://github.com/ozkanpakdil/swaggerific).
 
 ## Games
 

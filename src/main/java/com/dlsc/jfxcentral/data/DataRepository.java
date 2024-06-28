@@ -1037,7 +1037,9 @@ public class DataRepository {
                     in.close();
 
                     QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
-                    result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
+                    if (!queryResult.getResponse().getDocs().isEmpty()) {
+                        result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
+                    }
                 }
             } else {
                 result.set("unknown");

@@ -184,7 +184,7 @@ public class ImageManagerTest {
     }
 
     @Test
-    public void shouldGetYouTubImage() {
+    public void shouldGetYouTubeImage() {
         // when .. then
         DataRepository2.getInstance().getVideos().forEach(item -> {
             ObjectProperty<Image> property = ImageManager.getInstance().youTubeImageProperty(item);
