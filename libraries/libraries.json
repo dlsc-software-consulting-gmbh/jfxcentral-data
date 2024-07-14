@@ -1148,5 +1148,27 @@
     "groupId": "com.dooapp.fxform2",
     "artifactId": "core",
     "companyId": "dooapp"
+  },
+  {
+    "id": "scell",
+    "name": "SCell",
+    "summary": "JavaFX Spreadsheet Library",
+    "description": "SCell is a Java-based spreadsheet library featuring its own user-friendly interface and background processing capabilities for seamless creation, editing, and management of spreadsheets.",
+    "tags": "office, embedded component, spreadsheet",
+    "license": "proprietary",
+    "homepage": "https://scalable-components.com",
+    "documentation": "https://scomponents.github.io/scell-public-docs/index.html",
+    "repository": "https://github.com/Scomponents/scell-demo",
+    "githubAccount": "Scomponents",
+    "githubProject": "scell-demo",
+    "issueTracker": "",
+    "createdOn": "2023-12-27",
+    "modifiedOn": "2024-07-14",
+    "ensemble": "false",
+    "featuredImageName": "demo.jpg",
+    "logoAvailable": "true",
+    "groupId": "com.intechcore.scomponents.scell",
+    "artifactId": "api-interfaces-core",
+    "companyId": "intechcore"
   }
 ]
