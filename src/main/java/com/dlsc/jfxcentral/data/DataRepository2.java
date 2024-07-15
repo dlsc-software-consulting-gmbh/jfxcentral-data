@@ -687,6 +687,8 @@ public class DataRepository2 {
     private void loadArtifactVersion(String groupId, String artifactId, StringProperty result) {
         HttpURLConnection con = null;
 
+        System.out.println("loadArtifactVersion: " + groupId + " " + artifactId);
+
         try {
             URL url = new URL(MessageFormat.format("https://search.maven.org/solrsearch/select?q=g:{0}+AND+a:{1}", groupId, artifactId));
 
@@ -705,6 +707,8 @@ public class DataRepository2 {
                     in.close();
 
                     QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
+                    String version = queryResult.getResponse().getDocs().get(0).getLatestVersion();
+                    System.out.println("version: " + version);
                     result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
                 }
             } else {
