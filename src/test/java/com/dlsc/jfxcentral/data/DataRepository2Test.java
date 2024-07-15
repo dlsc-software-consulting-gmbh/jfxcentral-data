@@ -443,7 +443,7 @@ public class DataRepository2Test {
             String groupId = lib.getGroupId();
             String artifactId = lib.getArtifactId();
 
-            System.out.println("  >>>>>>> groupId = " + groupId + " artifactId = " + artifactId)
+            System.out.println("  >>>>>>> groupId = " + groupId + " artifactId = " + artifactId);
 
             if (StringUtils.isNotBlank(groupId) && StringUtils.isNotBlank(artifactId)) {
                 StringProperty version = repository.getArtifactVersion(lib);
