@@ -431,14 +431,19 @@ public class DataRepository2Test {
 
     @Test
     public void shouldLoadLibraryArtifactVersion() {
+        System.out.println("TEST CI");
         // given
         DataRepository2 repository = DataRepository2.getInstance();
         repository.reload();
 
         assertFalse(repository.getLibraries().isEmpty());
 
+        System.out.println("BEFORE FOREACH");
         // when
         repository.getLibraries().forEach(lib -> {
+
+            System.out.println("START FOREACH");
+            System.out.println("LIB IS: " + lib);
 
             String groupId = lib.getGroupId();
             String artifactId = lib.getArtifactId();
