@@ -442,6 +442,8 @@ public class DataRepository2Test {
 
             String groupId = lib.getGroupId();
             String artifactId = lib.getArtifactId();
+            System.out.println(" >> Group ID:" + groupId);
+            System.out.println(" >> Artifact ID:" + artifactId);
 
             if (StringUtils.isNotBlank(groupId) && StringUtils.isNotBlank(artifactId)) {
                 StringProperty version = repository.getArtifactVersion(lib);
