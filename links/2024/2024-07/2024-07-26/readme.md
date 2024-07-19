@@ -16,7 +16,7 @@
 
 ## Podcasts, Videos, Books
 
-*
+* **Frank Delporte** published a [video in which he experiments with the Azul Zulu runtimes with JavaFX support, JBang, and SDKMAN on a Raspberry Pi](https://www.youtube.com/watch?v=XhDQvkcYJ88)  and a lot of colored circles. It's also available with more info, here on [JFX Central in the Learn section](https://www.jfx-central.com/learn-raspberrypi/zulu-sdkman-jbang).
 
 ## Tutorials
 
@@ -24,7 +24,7 @@
 
 ## Miscellaneous
 
-*
+* [**Gerrit Grunwald** shared a screenshot](https://x.com/hansolo_/status/1813616079769686335) of a private project ("sorry not allowed to share...") which recreates the [QLOCKTWO](https://www.qlocktwo.com/en-be/) in JavaFX.
 
 ## JFX Central
 
