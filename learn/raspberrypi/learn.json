@@ -19,5 +19,15 @@
     ],
     "canonicalUrl": "https://pi4j.com/examples/jbang/pixelblaze_output_expander_javafx/",
     "sourceCodeUrl": "https://github.com/Pi4J/pi4j-jbang/blob/main/PixelblazeOutputExpanderJavaFX.java"
+  },
+  {
+    "id": "zulu-sdkman-jbang",
+    "createdOn": "2024-07-19",
+    "modifiedOn": "2024-07-19",
+    "name": "Experiment with Azul Zulu, SDKMAN, and JBANG",
+    "personIds": [
+      "f.delporte"
+    ],
+    "sourceCodeUrl": "https://gist.github.com/FDelporte/c69a02c57acc892b4c996a9779d4f830"
   }
 ]
