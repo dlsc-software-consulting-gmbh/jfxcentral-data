@@ -176,12 +176,12 @@ private void onTick() {
 
 ### Executing the Applications
 
-I used the following approach to run the application:
+You can use the following approach to run this demo application:
 
-* Save the code to a file FxNodesVersusCanvas.java
+* Save the code to a file `FxNodesVersusCanvas.java`.
 * Install a Java runtime with JavaFX, e.g. from [Azul Zulu](https://www.azul.com/downloads/?package=jdk-fx#zulu) or with [SDKMAN](https://sdkman.io/).
 * Install J'BANG!, either from [jbang.dev](https://www.jbang.dev/) or with SDKMAN (`sdk install jbang`).
-* Start the application with `jbang FxNodesVersusCanvas.java`
+* Start the application with `jbang FxNodesVersusCanvas.java`.
 
 ## Conclusion
 

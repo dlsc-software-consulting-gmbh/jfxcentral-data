@@ -12,11 +12,12 @@
 
 ## Components, Libraries, Tools
 
-*
+* [**Pedro Duke** shared a video](https://x.com/P_Duke/status/1815390389974503934): "A bunch of changes coming to Transit Theme... One of them is that if you change it to Dark style it will also change the Window frame of where the theme is applied. (JavaFX always shows the Window frame in light color)"
 
 ## Podcasts, Videos, Books
 
 * **Frank Delporte** published a [video in which he experiments with the Azul Zulu runtimes with JavaFX support, JBang, and SDKMAN on a Raspberry Pi](https://www.youtube.com/watch?v=XhDQvkcYJ88)  and a lot of colored circles. It's also available with more info, here on [JFX Central in the Learn section](https://www.jfx-central.com/learn-raspberrypi/zulu-sdkman-jbang).
+  * Based on this experiment, he published an additional blog and video with a demo application to compare the performance between [thousands of Nodes versus drawing the same number of elements on a Canvas](https://webtechie.be/post/2024-07-22-javafx-nodes-versus-canvas/).
 
 ## Tutorials
 
