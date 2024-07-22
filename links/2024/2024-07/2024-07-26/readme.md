@@ -16,7 +16,7 @@
 
 ## Podcasts, Videos, Books
 
-* **Frank Delporte** published a [video in which he experiments with the Azul Zulu runtimes with JavaFX support, JBang, and SDKMAN on a Raspberry Pi](https://www.youtube.com/watch?v=XhDQvkcYJ88)  and a lot of colored circles. It's also available with more info, here on [JFX Central in the Learn section](https://www.jfx-central.com/learn-raspberrypi/zulu-sdkman-jbang).
+* **Frank Delporte** published a [video in which he experiments with the Azul Zulu runtimes with JavaFX support, JBang, and SDKMAN on a Raspberry Pi](https://www.youtube.com/watch?v=XhDQvkcYJ88)  and a lot of colored circles.
   * Based on this experiment, he published an additional blog and video with a demo application to compare the performance between [thousands of Nodes versus drawing the same number of elements on a Canvas](https://webtechie.be/post/2024-07-22-javafx-nodes-versus-canvas/).
 
 ## Tutorials
@@ -29,4 +29,6 @@
 
 ## JFX Central
 
-* 
+* Learn > JavaFX: [Comparing Nodes versus
+  Canvas](https://www.jfx-central.com/learn-javafx/nodes-versus-canvas).
+* Learn > JavaFX on Raspberry Pi: [Experiment with Azul Zulu, SDKMAN, and JBANG](https://www.jfx-central.com/learn-raspberrypi/zulu-sdkman-jbang). 
