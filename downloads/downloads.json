@@ -543,47 +543,47 @@
     "repository": "https://github.com/binjr/binjr",
     "downloadType": "APPLICATION",
     "createdOn": "2021-08-18",
-    "modifiedOn": "2024-04-25",
+    "modifiedOn": "2024-07-19",
     "files": [
       {
         "name": "Windows (MSI)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.msi",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_windows-amd64.msi",
         "fileName": "",
         "package": "MSI"
       }, 
       {
         "name": "Windows (ZIP)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.zip",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_windows-amd64.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "macOS (PKG)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.pkg",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_mac-x86_64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "macOS (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_mac-x86_64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       },
       {
         "name": "Linux (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_linux-amd64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       },
       {
         "name": "Linux (DEB)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.deb",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_linux-amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "Linux (RPM)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.rpm",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_linux-amd64.rpm",
         "fileName": "",
         "package": "RPM"
       }
