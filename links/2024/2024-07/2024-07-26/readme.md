@@ -13,6 +13,7 @@
 ## Components, Libraries, Tools
 
 * [**Pedro Duke** shared a video](https://x.com/P_Duke/status/1815390389974503934): "A bunch of changes coming to Transit Theme... One of them is that if you change it to Dark style it will also change the Window frame of where the theme is applied. (JavaFX always shows the Window frame in light color)"
+  * And Pedro published a new post: ["Transit Version 2.0 Released"](https://pixelduke.com/2024/07/24/transit-version-2-0-released/): "Styles work as User Agent Stylesheets like Modena (much easier to override) + True Dark Mode (Window frame also changes when set to Dark style)."
 
 ## Podcasts, Videos, Books
 
