@@ -1,0 +1,9 @@
+{
+  "images": [
+    {
+      "path": "featured.png",
+      "title": "autumo UI Demo (FX)",
+      "description": "Demo app for autumo UI (Rapid Java FX development framework)."
+    }
+  ]
+}

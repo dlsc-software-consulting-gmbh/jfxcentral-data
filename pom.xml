@@ -22,9 +22,10 @@
         <maven.compiler.release>11</maven.compiler.release>
 
         <!-- We stay on 11 in this project so that the TestFX stuff and Monocle work correctly. -->
-        <javafx.version>11.0.2</javafx.version>
+        <javafx.version>17.0.11</javafx.version>
         <enforcer.skip>true</enforcer.skip>
         <jpro.version>2023.2.2</jpro.version>
+        <testfx.version>4.0.18</testfx.version>
     </properties>
 
     <repositories>
@@ -113,19 +114,19 @@
             <dependency>
                 <groupId>org.testfx</groupId>
                 <artifactId>testfx-core</artifactId>
-                <version>4.0.16-alpha</version>
+                <version>${testfx.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.testfx</groupId>
                 <artifactId>testfx-junit5</artifactId>
-                <version>4.0.16-alpha</version>
+                <version>${testfx.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.testfx</groupId>
                 <artifactId>openjfx-monocle</artifactId>
-                <version>jdk-11+26</version>
+                <version>17.0.10</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -214,8 +215,11 @@
                 <configuration>
                     <argLine>
                         -Dtestfx.headless=true
+                        --add-exports javafx.base/com.sun.javafx.logging=ALL-UNNAMED
+                        --add-exports javafx.graphics/com.sun.javafx.util=ALL-UNNAMED
                         --add-exports javafx.graphics/com.sun.javafx.application=ALL-UNNAMED
                         --add-opens javafx.graphics/com.sun.glass.ui=ALL-UNNAMED
+                        --add-opens javafx.graphics/com.sun.javafx.application=ALL-UNNAMED
                     </argLine>
                 </configuration>
             </plugin>
