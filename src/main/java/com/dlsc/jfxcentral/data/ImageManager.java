@@ -268,7 +268,7 @@ public class ImageManager {
                 throw new RuntimeException(e);
             }
         } else {
-            if(placeholderImage == null) {
+            if (placeholderImage == null) {
                 throw new RuntimeException("Image not found: " + file.getAbsolutePath());
             }
             property.set(placeholderImage);
@@ -291,7 +291,7 @@ public class ImageManager {
     }
 
     public ObjectProperty<Image> githubAvatarImageProperty(String loginName) {
-        return remoteImageProperty("https://github.com/" + loginName + ".png","&size=100", "github-" + loginName, MISSING_USER_IMAGE, 100, 100);
+        return remoteImageProperty("https://github.com/" + loginName + ".png", "&size=100", "github-" + loginName, MISSING_USER_IMAGE, 100, 100);
     }
 
     private Map<String, ObjectProperty<Image>> remoteImageCache = new HashMap<>();
@@ -332,7 +332,7 @@ public class ImageManager {
                 image.exceptionProperty().addListener(it -> image.getException().printStackTrace());
 
                 // when running unit tests we set the loaded image immediately
-                if(DataRepository.testing) {
+                if (DataRepository.testing) {
                     property.set(image);
                 }
             } catch (Exception e) {
