@@ -18,7 +18,7 @@
 ## Podcasts, Videos, Books
 
 * **Frank Delporte** published a [video in which he experiments with the Azul Zulu runtimes with JavaFX support, JBang, and SDKMAN on a Raspberry Pi](https://www.youtube.com/watch?v=XhDQvkcYJ88)  and a lot of colored circles.
-  * Based on this experiment, he published an additional blog and video with a demo application to compare the performance between [thousands of Nodes versus drawing the same number of elements on a Canvas](https://webtechie.be/post/2024-07-22-javafx-nodes-versus-canvas/).
+  * Based on this experiment, he published an additional blog and video with a demo application to compare the performance between [thousands of Nodes versus drawing the same number of elements on a Canvas](https://webtechie.be/post/2024-07-22-javafx-nodes-versus-canvas/): "On a Mac Studio, performance drops after 15k Nodes, versus 150k with Canvas."
 * YouTube Shorts by **OrangoMango**:
   * [Falling sand with JavaFX](https://www.youtube.com/shorts/2T3UNo5EVXg)
   * [Conway's Game Of Life implementation in Java and JavaFX](https://www.youtube.com/shorts/iaOnGQj86lQ)
@@ -26,7 +26,7 @@
 ## Miscellaneous
 
 * [**Gerrit Grunwald** shared a screenshot](https://x.com/hansolo_/status/1813616079769686335) of a private project ("sorry not allowed to share...") which recreates the [QLOCKTWO](https://www.qlocktwo.com/en-be/) in JavaFX.
-* [Christopher Schnick** reports](https://x.com/crschnick/status/1814024272295178515): "Seems like JavaFX applications run fine on Windows ARM systems through the x86_64 compatibility layer."
+* [**Christopher Schnick** reports](https://x.com/crschnick/status/1814024272295178515): "Seems like JavaFX applications run fine on Windows ARM systems through the x86_64 compatibility layer."
 * [**Chris** is wondering](https://x.com/cbm64/status/1815503568897540159): "Why are large displays in public spaces, including electronic ordering screens windows based?! It should be JavaFX territory running lightweight Linux on an SOC device."
 
 ## JFX Central
