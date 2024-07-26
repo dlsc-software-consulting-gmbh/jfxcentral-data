@@ -235,5 +235,19 @@
     "libraryIds": [
       "fxform2"
     ]
+  },
+  {
+    "id": "autumo",
+    "name": "autumo GmbH",
+    "summary": "Intelligence & IT Security Products and Services.",
+    "description": "autumo focuses on the development of security-related software and uses a range of modern technologies for its products, including JavaFX.",
+    "homepage": "https://www.autumo.ch",
+    "tags": "software development, consulting",
+    "createdOn": "2024-06-21",
+    "consulting": "true",
+    "freelancing": "true",
+    "libraryIds": [
+      "autumoui"
+    ]
   }
 ]

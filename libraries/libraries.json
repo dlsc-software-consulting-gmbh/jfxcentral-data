@@ -1170,5 +1170,28 @@
     "groupId": "com.intechcore.scomponents.scell",
     "artifactId": "api-interfaces-core",
     "companyId": "intechcore"
-  }
+  },
+  {
+    "id": "autumoui",
+    "name": "autumo UI",
+    "summary": "Rapid Java FX dev-framework.",
+    "description": "autumo UI is a rapid Java FX development framework.",
+    "tags": "rapid, development, framework, javafx",
+    "license": "COMMERCIAL",
+    "homepage": "https://products.autumo.ch/modules/overview#at_ui",
+    "javadocs": "https://products.autumo.ch/javadoc/autumo-ui/index.html",
+    "documentation": "https://products.autumo.ch/modules/overview#at_ui",
+    "repository": "",
+    "githubAccount": "",
+    "githubProject": "",
+    "issueTracker": "https://issues.autumo.ch/",
+    "createdOn": "2024-06-21",
+    "modifiedOn": "2024-06-21",
+    "ensemble": "false",
+    "featuredImageName": "featured.png",
+    "logoAvailable": "false",
+    "groupId": "ch.autumo.commons",
+    "artifactId": "ch.autumo.ui",
+    "companyId": "autumo"
+  } 
 ]

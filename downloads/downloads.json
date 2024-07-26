@@ -434,43 +434,43 @@
     "files": [
       {
         "name": "MSI Installer (Windows Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.0/JDKMon-21.0.0.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.5/JDKMon-21.0.5.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.0/JDKMon-21.0.0.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.5/JDKMon-21.0.5.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.0/JDKMon-21.0.0-aarch64.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.5/JDKMon-21.0.5-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.0/jdkmon_21.0.0_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.5/jdkmon_21.0.5_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.0/jdkmon-21.0.0-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.5/jdkmon-21.0.5-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.0/jdkmon_21.0.0_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.5/jdkmon_21.0.5_arm64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.0/jdkmon-21.0.0-1.aarch64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.5/jdkmon-21.0.5-1.aarch64.rpm",
         "fileName": "",
         "package": "RPM"
       }
@@ -543,47 +543,47 @@
     "repository": "https://github.com/binjr/binjr",
     "downloadType": "APPLICATION",
     "createdOn": "2021-08-18",
-    "modifiedOn": "2024-04-25",
+    "modifiedOn": "2024-07-19",
     "files": [
       {
         "name": "Windows (MSI)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.msi",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_windows-amd64.msi",
         "fileName": "",
         "package": "MSI"
       }, 
       {
         "name": "Windows (ZIP)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.zip",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_windows-amd64.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "macOS (PKG)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.pkg",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_mac-x86_64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "macOS (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_mac-x86_64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       },
       {
         "name": "Linux (TAR.GZ)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.tar.gz",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_linux-amd64.tar.gz",
         "fileName": "",
         "package": "TAR.GZ"
       },
       {
         "name": "Linux (DEB)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.deb",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_linux-amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "Linux (RPM)",
-        "url": "https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.rpm",
+        "url": "https://github.com/binjr/binjr/releases/download/v3.19.0/binjr-3.19.0_linux-amd64.rpm",
         "fileName": "",
         "package": "RPM"
       }
