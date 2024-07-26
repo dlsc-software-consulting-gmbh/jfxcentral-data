@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "path": "judiciary_bk.png",
+      "title": "Judiciary - Integration of SCell into bk.text",
+      "description": "The customer-specific text-processing system bk.text, based on JavaFX, aims to revolutionize text processing in the German justice sector and is set to be implemented in around 100,000 workplaces across Germany, demonstrating SCell's scalability and reliability."
+    },
+    {
+      "path": "judiciary_fs.png",
+      "title": "Judiciary - Integration into forumSTAR-Text",
+      "description": "forumSTAR-Text, running on Java Swing, integrates systems like dabag, forumSTAR, web.sta, and different eFile systems as eIP, eAS and e²A, becoming essential for document creation in major German legislatures."
+    },
+    {
+      "path": "intellij.png",
+      "title": "Industry - Integration into IntelliJ IDEA",
+      "description": "IntelliJ IDEA is our most used integrated development environment (IDE) by JetBrains were we integrated a read.only variant as plugin from SCell."
+    },
+    {
+      "path": "jpro.png",
+      "title": "Industry – Running also within JPro",
+      "description": "JPro the framework that allows JavaFX applications to run in a web browser has become a vital tool to integrate SCell into web-based applications seamlessly."
+    }
+  ]
+}
