@@ -1182,6 +1182,21 @@
     ]
   },
   {
+    "name": "SCell Integration for Optimized Justice Document Handling in Germany",
+    "tags": "javafx, spreadsheet, office, integration, embedded",
+    "type": "component",
+    "platform": "desktop",
+    "description": "Unveil SCell's integration in bk.text for the German justice system, enhancing document creation, editing, and storage. Enjoy seamless background operations, a compact editing window, quick XLSX file access, and a standalone version for comprehensive editing, making bk.text more robust and user-friendly.",
+    "id": "scell.bk-text",
+    "minutes" : "2",
+    "createdOn": "2023-10-27",
+    "modifiedOn": "2023-10-27",
+    "publishedOn": "2024-07-14",
+    "personIds": [
+      "v.smeltsov"
+    ]
+  },
+  {
     "name": "JFX In Action with Pedro Duque Vieira, aka Duke about Hero, PDFSam, FXThemes, FXComponents,...",
     "tags": "JFXInAction, javafx, application, library",
     "type": "JFX In Action",
