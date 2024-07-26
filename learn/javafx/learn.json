@@ -99,5 +99,16 @@
     ],
     "canonicalUrl": "https://coderscratchpad.com/getting-started-with-javafx-canvas/",
     "sourceCodeUrl": "https://github.com/edwardalgorist/jfx-tutorial/tree/main/src/main/java/com/coderscratchpad/javafxtutorial/canvas"
+  },
+  {
+    "id": "nodes-versus-canvas",
+    "createdOn": "2024-07-22",
+    "modifiedOn": "2024-07-22",
+    "name": "Comparing Nodes versus Canvas",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "https://webtechie.be/post/2024-07-22-javafx-nodes-versus-canvas/",
+    "sourceCodeUrl": "https://gist.github.com/FDelporte/c74cdf59ecd9ef1b14df86e08faa0c56"
   }
 ]

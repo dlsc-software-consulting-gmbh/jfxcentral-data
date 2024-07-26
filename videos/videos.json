@@ -895,7 +895,7 @@
     "type": "Real World Application",
     "domain": "Medical",
     "description": "CuratOR means powerful image reproduction and video management technology for visual OR solutions. Designed with scalability and expandability in mind, EIZO offers products and solutions specifically tailored to the requirements and workflow in the OR.",
-    "id": "O6OUmwLAPYM",
+    "id": "0Muf-yxuu7I",
     "minutes" : "2",
     "event": "",
     "platform": "",
@@ -1194,6 +1194,96 @@
     "publishedOn": "2024-07-14",
     "personIds": [
       "v.smeltsov"
+    ]
+  },
+  {
+    "name": "JFX In Action with Pedro Duque Vieira, aka Duke about Hero, PDFSam, FXThemes, FXComponents,...",
+    "tags": "JFXInAction, javafx, application, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Libraries, CAD, PDF",
+    "description": "Interview with Pedro Duque Vieira, developer of beautiful, graphical applications and libraries that users feel happy to use and that significantly boost their productivity.",
+    "id": "YaF62a4pebg",
+    "minutes" : "18",
+    "createdOn": "2024-06-06",
+    "modifiedOn": "2024-06-06",
+    "publishedOn": "2024-06-06",
+    "personIds": [
+      "p.vieira",
+      "f.delporte"
+    ],
+    "companyIds": [
+      "pixelduke.company"
+    ],
+    "libraryIds": [
+      "fxthemes",
+      "fxcomponents",
+      "jmetro",
+      "transit"
+    ],
+    "realworldIds": [
+      "hero",
+      "pdfsam"
+    ]
+  },
+  {
+    "name": "JFX In Action with Daniel Zimmermann about JavaFX and Kotlin",
+    "tags": "JFXInAction, javafx, application, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Infrastructure",
+    "description": "Interview with Daniel Zimmermann, who combines JavaFX with Kotlin to build network testing applications.",
+    "id": "OKbeVaHV3HA",
+    "minutes" : "20",
+    "createdOn": "2024-06-12",
+    "modifiedOn": "2024-06-12",
+    "publishedOn": "2024-06-12",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
+    "name": "JFX In Action with Christopher Schnick about XPipe, an app to manage all your servers",
+    "tags": "JFXInAction, javafx, application, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Infrastructure",
+    "description": "Interview with Christopher Schnick about XPipe. Christopher is a software engineer with experience in the Java ecosystem and desktop application development. He is passionate about designing innovative solutions for end users and learning new technologies and tools when needed. XPipe brings your entire server infrastructure at your fingertips. It helps you to manage all your servers from your local desktop without any remote setup.",
+    "id": "mZV1OJ23d2c",
+    "minutes" : "24",
+    "createdOn": "2024-06-18",
+    "modifiedOn": "2024-06-18",
+    "publishedOn": "2024-06-18",
+    "personIds": [
+      "f.delporte"
+    ],
+    "libraryIds": [
+      "atlantafx"
+    ],
+    "realworldIds": [
+      "xpipe"
+    ]
+  },
+  {
+    "name": "JFX In Action with Robert Ladstätter about LogoRRR, a cross-platform log analysis tool",
+    "tags": "JFXInAction, javafx, application, library, Scala",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Infrastructure",
+    "description": "Interview with Robert Ladstätter about LogoRRR. Robert is Team Lead at NEXTSENSE Worldwide and develops software with Scala and JavaFX. LogoRRR is a cross-platform log analysis tool, written in Scala and JavaFX, that offers a clear and rapid way to navigate through large text files, emphasizing critical events with its interactive, user-friendly interface.",
+    "id": "2y8aK_t--gM",
+    "minutes" : "18",
+    "createdOn": "2024-06-26",
+    "modifiedOn": "2024-06-26",
+    "publishedOn": "2024-06-26",
+    "personIds": [
+      "f.delporte"
+    ],
+    "toolIds": [
+      "testfx"
+    ],
+    "downloadIds": [
+      "logorrr"
     ]
   }
 ]

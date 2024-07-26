@@ -14,7 +14,7 @@
 
 *
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 *
 

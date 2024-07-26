@@ -30,7 +30,7 @@ Expect the next #LinksOfTheWeek at the end of August, so it will be actually a #
 * [**Gluon** is launching GluonFX](https://techhub.social/@gluonhq/110786277544214779): "A growing set of JavaFX tools/components that we maintain on github, targeting all platforms. GPL license, free for developers. If you use them in a commercial product, we have licenses for that as well". See [gluonhq.com/introducing-gluonfx](https://gluonhq.com/introducing-gluonfx/).
   * [**Johan Vos** adds](https://twitter.com/johanvos/status/1684563837188739072): "Streamlining our software, adding consistency in approach, on github (e.g. badges, javadoc, maven approach), and licensing. Gradually, more of our software will be in this umbrella, and it will work on all platforms -- including mobile."
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * [**Frank Delporte** discovered that an image he created for his book "Getting Started with Java on the Raspberry Pi" with a JavaFX application](https://foojay.social/@frankdelporte/110790391834861143) is used in the 2nd edition of ["The Definitive Guide to Modern Java Clients with JavaFX 17"](https://www.jfx-central.com/books/definitiveguide2modernjavaclients) by [**Stephen Chin**](https://www.jfx-central.com/people/s.chin), [**Johan Vos**](https://www.jfx-central.com/people/j.vos), [**Jeames Weaver**](https://www.jfx-central.com/people/j.weaver), and many others.
 

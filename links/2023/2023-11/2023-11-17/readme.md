@@ -23,7 +23,7 @@
   * And he is looking for advise: ["Which JavaFX control would you recommend to read very large text files?"](https://twitter.com/iAbhinay/status/1723647392908751267).
 * **Dirk Lemmermann** released a new JavaFX input field for phone numbers which is utilising the libphonenumber project from Google to format and validate the numbers. The project can be found [on GitHub](https://github.com/dlsc-software-consulting-gmbh/PhoneNumberFX). The main contributor is [**Gabriel Diaz**](https://twitter.com/gldiazcardenas).
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * On airhacks.fm, the podcast by **Adam Bien**: [How **Gerrit Grunwald** wrote SteelSeries](https://adambien.blog/roller/abien/entry/how_han_solo_wrote_steelseries). "A podcast episode about pixel perfect Java user interfaces, JavaFX, and Java's portability".
 

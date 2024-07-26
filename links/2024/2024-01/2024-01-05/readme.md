@@ -26,7 +26,7 @@ Our best wishes for 2024, wishing you all a healthy and fun new year!
   * He also shared a GitHub project as a showcase for jDeploy: [Sample FXGL project deployed with jDeploy via GitHub releases](https://github.com/shannah/fxgl-test8).
 * **Michael Gasche** shared a [showcase of a rapid development framework](https://products.autumo.ch/modules/overview#at_ui) on the Foojay Slack with some out-of-the-box functionalities (installer, licensing/registering, app-config, update-checks, some further dialogs) for Java FX UI apps: "It has default views which can be used with a one-liner to show an HTML page, license dialog, or other content that can be switched off per platform, e.g. because the Windows installer already has one. The Registration module in the demo is a "dummy" as it is quite big and advanced and possibly involves a server."
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * The [recording of the live stream](https://www.youtube.com/watch?v=IufaUwDsHUA) by **Frank Delporte** and **Almas Baim** provides a code walk-through of this blog post: [A JavaFX Game Application in a Single Java File with JBang and FXGL](https://webtechie.be/post/2023-12-14-jbang-fxgl/). 
 * New book by **Peter Späth**: [Frontend Development with JavaFX and Kotlin: Build State-of-the-Art Kotlin GUI Applications](https://www.amazon.nl/Frontend-Development-JavaFX-Kotlin-State/dp/1484297164).

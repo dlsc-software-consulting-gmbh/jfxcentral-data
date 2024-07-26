@@ -3,7 +3,7 @@
 * **Christopher Schnick** is working on a [standalone application running on NixOS](https://twitter.com/crschnick/status/1743296483544150114) with Deepin desktop environment: "The popup windows don't support transparency and the tray icon is cut off, but other than that it is working fine."
 * **Robert Ladstätter** published a [new release of LogoRRR](https://twitter.com/rladstaetter/status/1745586922515288416): "This update brings enhanced zip file support and animated clipboard actions, alongside various bug fixes." [Here you can find the release notes](https://github.com/rladstaetter/LogoRRR/releases/tag/24.2.0).
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * Nice video by **Akif (Sorest) Karaca** to help you [understand different sorting algorithms](https://www.youtube.com/watch?v=HmoRQkmyPnk) (selection, insertion, quick, bubble, heap, shell) by visualizing them with JavaFX (in Turkish).
 

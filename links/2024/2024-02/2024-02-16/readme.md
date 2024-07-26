@@ -18,7 +18,7 @@
 
 * [**Hallvard Trætteberg**](https://twitter.com/haltraet/status/1753728173387153866) shared [fxml-template-processor on GitHub](https://github.com/hallvard/fxml-template-processor): "String templates (preview in Java 21) allow you to inject expression values into strings, so you don't need to use explicit string concatenation, StringBuilder or formatting. An important point of template strings is building other data types from the string and constrain and validate the input accordingly. This project contains a String template processor for FXML, so you can use template strings for FXML code and convert to Node structures with FXMLLoader."
 
-## Conferences, Podcast, Video, Books
+## Conferences, Podcasts, Videos, Books
 
 * At Fosdem in Brussels, **Frank Delporte** showed a JavaFX AI-Chat-application based on LangChain4J to interact with a documentation set. The [video and links are available on his blog](https://webtechie.be/post/2024-02-02-links-presentation-experiment-ai-llm-chat-with-docs/).
 * [**Wolfgang Weigend** announced](https://twitter.com/wolflook/status/1744805486690537806) the [final agenda online](https://www.zeiss.com/meditec/en/news-events/events/jfx-adopters-meeting.html) for the "JFX Adopters Meeting" on 6th of March 2024.

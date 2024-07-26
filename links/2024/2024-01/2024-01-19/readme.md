@@ -12,7 +12,7 @@
 * [**Laurent Bourgès**](https://twitter.com/laurent_bourges) reached the milestone of +125,000 downloads of his [Marlin Renderer](https://github.com/bourgesl/marlin-renderer): "An open source (GPL2 + CP) Java2D RenderingEngine optimized for performance (improved memory usage (~ no GC) and footprint, better multi-threading) and better visual quality based on OpenJDK's Pisces implementation." And he adds: "[Enjoy FOSS & see you at FOSDEM24](https://mastodon.social/@laurent_bourges/111776582923358418)".
 * [**Carl Dea** shared a video](https://twitter.com/carldea/status/1746712384725483585): "JavaFX with the native background blurring effect on the MacOS is now working! Thanks to [**Steve Hannah**](https://twitter.com/shannah78) for the tremendous help in understanding the native side (MacOS). [Demo here](https://github.com/carldea/windowblur). Eventually will end up in [**Pedro Duque Vieira**](https://twitter.com/P_Duke)'s FXThemes project. I also want to give a shout-out to the amazing software engineer [**Martin Fox**](https://github.com/beldenfox) (a JavaFX contributor)."
 
-## Podcast, Video, Books
+## Podcasts, Videos, Books
 
 * [**Kinsley Kajiva**](https://www.linkedin.com/in/kinsley-kajiva/) published a video: "[Ripple WebRTC - JavaFX G Streamer Demo](https://www.youtube.com/watch?v=PYv9Pp-Wu3c)."
 
