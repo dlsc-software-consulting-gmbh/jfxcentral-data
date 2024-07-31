@@ -27,6 +27,7 @@
 
 * [**Igor De Souza** created a simple JavaFX Hello-world drawing the Olympic Game logo](https://x.com/Igfasouza/status/1816817407857479692). Sources on [GitHub](https://github.com/igfasouza/JavaFx-olympic-games-).
 * [**@konczdev** shared a video](https://x.com/konczdev/status/1804591278073532624): "A little fun with Java 22, JavaFX and Project Panama. Modified JavaFX window with a custom JavaFX title bar without any refection, JNI, JNA or native code."
+* [**Igor De Souza** shared a video](https://x.com/Igfasouza/status/1818609277969272873) : "Did you know that you can run JavaFX with Quarkus? A simple Quarkus-fx demo. Running on Raspberry Pi a JavaFX Quarkus traffic light demo."
 
 ## JFX Central
 
