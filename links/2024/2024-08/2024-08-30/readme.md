@@ -1,6 +1,7 @@
 ## Core
 
-* 
+* [**Pedro Duke shared](): "RichTextArea control is now available for testing [in the JavaFX incubator module](https://github.com/andy-goryachev-oracle/Test/blob/main/doc/RichTextArea/RichTextArea.md). Also includes CodeArea control. You can find the [JavaDoc here](https://cr.openjdk.org/~angorya/RichTextArea/javadoc/jfx.incubator.richtext/module-summary.html)."
+* [**Johan Vos** shared a screenshot](https://mastodon.social/@johanvos/112887802923547314): "Making progress. Running Java 23 and JavaFX 24-ea on an iPhone. Thanks to OpenJDK/mobile and Gluon tools."
 
 ## Applications
 
