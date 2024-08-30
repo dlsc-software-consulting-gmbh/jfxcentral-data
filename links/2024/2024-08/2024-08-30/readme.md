@@ -2,7 +2,7 @@ Because of the holidays, this Links Of The Week is actually a Links Of The Month
 
 ## Core
 
-* [**Pedro Duke shared**](): "RichTextArea control is now available for testing [in the JavaFX incubator module](https://github.com/andy-goryachev-oracle/Test/blob/main/doc/RichTextArea/RichTextArea.md). Also includes CodeArea control. You can find the [JavaDoc here](https://cr.openjdk.org/~angorya/RichTextArea/javadoc/jfx.incubator.richtext/module-summary.html)."
+* [**Pedro Duke shared**](https://x.com/P_Duke/status/1818672219419025743): "RichTextArea control is now available for testing [in the JavaFX incubator module](https://github.com/andy-goryachev-oracle/Test/blob/main/doc/RichTextArea/RichTextArea.md). Also includes CodeArea control. You can find the [JavaDoc here](https://cr.openjdk.org/~angorya/RichTextArea/javadoc/jfx.incubator.richtext/module-summary.html)."
 * [**Johan Vos** shared a screenshot](https://mastodon.social/@johanvos/112887802923547314): "Making progress. Running Java 23 and JavaFX 24-ea on an iPhone. Thanks to OpenJDK/mobile and Gluon tools."
 * A [proposal is available on GitHub for a new JavaFX CSS parser](https://gist.github.com/mstr2/f416996caf48e11193f0b6a5883a3926). It got [discussed on the openjfx-dev mailing list](https://mail.openjdk.org/pipermail/openjfx-dev/2024-August/048789.html), check it out if you want to share your ideas.
 
