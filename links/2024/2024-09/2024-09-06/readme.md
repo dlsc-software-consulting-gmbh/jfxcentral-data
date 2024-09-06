@@ -2,7 +2,7 @@
 
 * [**Pedro Duke** shared the following](https://x.com/P_Duke/status/1830644652287926277): "Noteworthy features coming in the next release of JavaFX (23) coming this month (September 17):"
   * CSS transitions: This introduces basic animation support in CSS. Won't be able to do it on Background and Borders for now. Work is already underway to also support that in a next release.
-  * Support "@3x and greater high-density image naming convention
+  * Support "@3x" and greater high-density image naming convention. Currently JavaFX supports `img.png` and `img@2x.png`, soon also `img@3x.png.
   * Horizontal scroll support with the keyboard on controls like ListView, TreeView
   * TextTruncated property to know when text is being truncated
   * Add support for EXT-X-MEDIA tag in HTTP Live Streaming
@@ -12,10 +12,7 @@
     
 ## Applications
 
-*  https://x.com/PDFsamOSS/status/1826188220570226707
-   X (formerly Twitter)X (formerly Twitter)
-   PDFsam (@PDFsamOSS) on X
-   We just released the new version 5.2.5 of PDFsam Basic. Most notably, you can use the keyword 'last' in the page selection of the extract pages tool, allowing you to extract the last page from multiple PDF documents.:partying_face: https://t.co/R3sf3sVdRh
+*  [PDFsam announced version 5.2.5 of PDFsam Basic](https://x.com/PDFsamOSS/status/1826188220570226707): "Most notably, you can use the keyword 'last' in the page selection of the extract pages tool, allowing you to extract the last page from multiple PDF documents." You can find the [Release Notes here](https://t.co/R3sf3sVdRh).
 
 ## Components, Libraries, Tools
 
@@ -32,7 +29,7 @@
 
 * [**Rumble Tumble Kid** shared a GitHub project](https://x.com/rumbletumblekid/status/1829538211846357065): "Here's a small template I created a while ago that shows you how to either package your Scala GUI application using jlink and jpackage or compile it ahead-of-time via Graal Native": [package-scalafx](https://github.com/RumbleTumbleKid/package-scalafx). 
 * Check [this thread by **Sankalp**](https://twitter.com/Sankalp0704/status/1831374170195947685). He found an old book and is comparing old Java that didn’t have resource files or design-time layout tools, versus current FXML and SceneBuilder.
-* [**Tim Pote** spent the weekend working with JavaFX](): "I gotta say having access to the JVM and real threads while writing a UI is very, very nice. Big shoutout to [@v1aaad](https://twitter.com/v1aaad) for his work on [cljfx](https://github.com/cljfx/cljfx)!". 
+* [**Tim Pote** spent the weekend working with JavaFX](https://twitter.com/potetm/status/1830966979332620442): "I gotta say having access to the JVM and real threads while writing a UI is very, very nice. Big shoutout to [@v1aaad](https://twitter.com/v1aaad) for his work on [cljfx](https://github.com/cljfx/cljfx)!". 
   * cljfx = "Declarative, functional, and extensible wrapper of JavaFX inspired by better parts of react and re-frame."
 
 ## JFX Central
