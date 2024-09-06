@@ -17,10 +17,6 @@
    PDFsam (@PDFsamOSS) on X
    We just released the new version 5.2.5 of PDFsam Basic. Most notably, you can use the keyword 'last' in the page selection of the extract pages tool, allowing you to extract the last page from multiple PDF documents.:partying_face: https://t.co/R3sf3sVdRh
 
-## Games
-
-* 
-
 ## Components, Libraries, Tools
 
 * [**Johan Vos** shared on Mastodon](https://mastodon.social/@johanvos/113085258956232434): "We're getting closer to a new version of Gluon Substrate, enabling Java 23 and JavaFX 23 on mobile (ios/android). Also, more focus on creating static libs  (containing compiled versions of your Java code) that can be plugged in new/existing ios/android projects. Since we don't have devrel/marketing, the website updates are way behind what we do. But we'll update it this time. Keep an eye on [gluonhq.com](https://gluonhq.com)."
@@ -30,11 +26,7 @@
 
 ## Podcasts, Videos, Books
 
-*
-
-## Tutorials
-
-*
+* [Video by **Sean Phillips**](https://www.youtube.com/watch?v=ccvhOEXtqJ4): "JSON RPC control of JavaFX visualization from Python/Jupyter. In this example a simple Python script, runnable from either CLI or Jupyter notebook uses httpx to post JSON formatted data (225 mbs of AI feature vectors) and commands to a receiving JavaFX application called Trinity."
 
 ## Miscellaneous
 
