@@ -2,7 +2,7 @@
 
 * [**Pedro Duke** shared the following](https://x.com/P_Duke/status/1830644652287926277): "Noteworthy features coming in the next release of JavaFX (23) coming this month (September 17):"
   * CSS transitions: This introduces basic animation support in CSS. Won't be able to do it on Background and Borders for now. Work is already underway to also support that in a next release.
-  * Support "@3x" and greater high-density image naming convention. Currently JavaFX supports `img.png` and `img@2x.png`, soon also `img@3x.png.
+  * Support "@3x" and greater high-density image naming convention. Currently JavaFX supports `img.png` and `img@2x.png`, soon also `img@3x.png`.
   * Horizontal scroll support with the keyboard on controls like ListView, TreeView
   * TextTruncated property to know when text is being truncated
   * Add support for EXT-X-MEDIA tag in HTTP Live Streaming
