@@ -27,4 +27,4 @@
   * [Your first JavaFX application](https://www.jfx-central.com/learn-javafx/hello-world)
   * [Using the Button Component](https://www.jfx-central.com/learn-javafx/button)
   * [Styling JavaFX Buttons with CSS](https://www.jfx-central.com/learn-javafx/button-styling)
-* [**Dirk Lemmermann** shared App Store screenshots](https://x.com/dlemmermann/status/1832065670030283200) for the JFX Central app, [created with @AppScreensASO](https://x.com/AppScreensASO).
+* [**Dirk Lemmermann** shared App Store screenshots](https://x.com/dlemmermann/status/1832065670030283200) for the JFX Central app, [created with @AppScreensASO](https://x.com/AppScreensASO). But ... "[Apple review is giving me a hard time](https://x.com/dlemmermann/status/1833421417913675942) to get the app into the App Store. E.g. '"'the app is not using any native iPhone features, e.g. Core location'"'. So simply making lots of data available doesn't seem to be good enough for Apple. But it would be for the users..."
