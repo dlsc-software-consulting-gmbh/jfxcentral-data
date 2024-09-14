@@ -187,6 +187,7 @@ public class ImageManagerTest {
     public void shouldGetYouTubeImage() {
         // when .. then
         DataRepository2.getInstance().getVideos().forEach(item -> {
+            System.out.println("Youtube image url: " + ImageManager.getInstance().youTubeImageURL(item));
             ObjectProperty<Image> property = ImageManager.getInstance().youTubeImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId());
