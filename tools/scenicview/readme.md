@@ -11,11 +11,11 @@ This lets you find bugs, and get things pixel perfect without having to do the c
 Builds for JDK 11 for Windows, Linux, and MacOS are built by Azure Pipelines, and downloads are available from the
 following links:
 
-| Platform | Download for JDK 11                                                                       |
-|----------|-------------------------------------------------------------------------------------------|
-| Windows  | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-win.zip)   |
-| MacOS    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-mac.zip)   |
-| Linux    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-linux.zip) |
+| Platform | Download for JDK 11                                                                          |
+|----------|----------------------------------------------------------------------------------------------|
+| Windows  | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-win.zip)   |
+| MacOS    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-mac.zip)   |
+| Linux    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-linux.zip) |
 
 You can also download platform-independent releases
 for [JDK 8](https://download.jonathangiles.net/downloads/scenic-view/scenic-view-8.7.0.zip)

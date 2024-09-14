@@ -1167,8 +1167,8 @@
     "ensemble": "false",
     "featuredImageName": "demo.jpg",
     "logoAvailable": "true",
-    "groupId": "com.intechcore.scomponents.scell",
-    "artifactId": "api-interfaces-core",
+    "ignore.groupId": "com.intechcore.scomponents.scell",
+    "ignore.artifactId": "api-interfaces-core",
     "companyId": "intechcore"
   },
   {
@@ -1190,8 +1190,8 @@
     "ensemble": "false",
     "featuredImageName": "featured.png",
     "logoAvailable": "false",
-    "groupId": "ch.autumo.commons",
-    "artifactId": "ch.autumo.ui",
+    "ignore.groupId": "ch.autumo.commons",
+    "ignore.artifactId": "ch.autumo.ui",
     "companyId": "autumo"
   } 
 ]
