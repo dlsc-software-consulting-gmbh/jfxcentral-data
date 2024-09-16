@@ -83,5 +83,19 @@
     "id": "o.shmuel",
     "createdOn": "2023-06-25",
     "modifiedOn": "2023-06-25"
+  },
+  {
+    "name": "Edward Nyirenda Jr",
+    "jobTitle": "Editor Learn JavaFX",
+    "email": "edwardnyirendajr@gmail.com",
+    "website": "https://coderscratchpad.com",
+    "linkedIn": "edward-nyirenda-jr-4b3880289",
+    "website": "https://coderscratchpad.com",
+    "twitter": "EdwardAlgorist",
+    "champion": false,
+    "rockstar": false,
+    "id": "e.nyirenda",
+    "createdOn": "2024-09-09",
+    "modifiedOn": "2024-09-09"
   }
 ]

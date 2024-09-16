@@ -1,5 +1,7 @@
 Let's take a look at the minimal code needed to create a JavaFX application.
 
+![alt](youtube:DStkASdqE2A)
+
 ## Understanding the Stage and Scene
 
 In JavaFX, the terms "stage" and "scene" are key concepts related to creating and managing the Graphical User Interface (GUI) of your Java application. 

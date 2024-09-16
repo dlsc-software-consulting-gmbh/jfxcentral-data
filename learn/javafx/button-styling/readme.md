@@ -1,5 +1,7 @@
 JavaFX is a versatile framework for building user interfaces in Java applications. When it comes to designing visually appealing applications, customizing the style of UI components is crucial. This article focuses on styling JavaFX buttons using CSS (Cascading Style Sheets) to create personalized and consistent button designs.
 
+![alt](youtube:tuOvCFYPk40)
+
 ## Why Use CSS for Styling?
 
 CSS offers a flexible and powerful way to separate the style from the code, making it easier to maintain and update the appearance of JavaFX buttons. By utilizing CSS, you can achieve a consistent look and feel across your application and customize the buttons to match your design preferences.
