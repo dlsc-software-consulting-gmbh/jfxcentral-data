@@ -766,5 +766,21 @@
     "companyIds": [
       "intechcore"
     ]
+  },
+  {
+    "id": "melodymatrix",
+    "name": "MelodyMatrix",
+    "company": "CodeWriter bv",
+    "url": "https://melodymatrix.rocks/",
+    "domain": "Music",
+    "tags": "music, midi",
+    "summary": "Look at your music...",
+    "description": "With MelodyMatrix you can connect to your MIDI instruments, record what you are playing, save and reload it, play it back to the same or other instrument, and visualize the music in multiple ways!",
+    "createdOn": "2024-09-16",
+    "modifiedOn": "2024-09-16",
+    "location": "Belgium",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
