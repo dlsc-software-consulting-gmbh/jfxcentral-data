@@ -195,7 +195,10 @@
     "tags": "software development, consulting, customized office application",
     "createdOn": "2023-02-13",
     "consulting": "true",
-    "freelancing": "false"
+    "freelancing": "false",
+    "libraryIds": [
+      "scell"
+    ]
   },
   {
     "id": "webswing",

@@ -664,7 +664,7 @@
   {
     "name": "Nikolai Vorobev",
     "email": "",
-    "companyId": "Intechcore GmbH",
+    "companyId": "intechcore",
     "website": "https://intechcore.com",
     "blogId": "",
     "linkedIn": "",
@@ -673,13 +673,16 @@
     "rockstar": false,
     "id": "n.vorobev",
     "gitHub": "",
+    "libraryIds": [
+      "scell"
+    ],
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
   },
   {
     "name": "Vasily Smeltsov",
     "email": "",
-    "companyId": "Intechcore GmbH",
+    "companyId": "intechcore",
     "website": "https://intechcore.com",
     "blogId": "",
     "linkedIn": "vasily-smeltsov",
@@ -688,6 +691,9 @@
     "rockstar": false,
     "id": "v.smeltsov",
     "gitHub": "",
+    "libraryIds": [
+      "scell"
+    ],
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
   },

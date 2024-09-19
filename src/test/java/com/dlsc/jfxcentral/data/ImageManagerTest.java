@@ -10,6 +10,10 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.testfx.framework.junit5.ApplicationExtension;
 
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 /**
@@ -21,6 +25,14 @@ public class ImageManagerTest {
 
     @BeforeAll
     public static void setup() {
+        Logger packageLogger = Logger.getLogger("com.dlsc.jfxcentral.data");
+        packageLogger.setLevel(Level.FINE);
+
+        Logger rootLogger = Logger.getLogger("");
+        for (Handler handler : rootLogger.getHandlers()) {
+            handler.setLevel(Level.FINE);
+        }
+
         DataRepository2.setTesting(true);
     }
 
@@ -188,6 +200,7 @@ public class ImageManagerTest {
     public void shouldGetYouTubeImage() {
         // when .. then
         DataRepository2.getInstance().getVideos().forEach(item -> {
+            System.out.println("Youtube image url: " + ImageManager.getInstance().youTubeImageURL(item));
             ObjectProperty<Image> property = ImageManager.getInstance().youTubeImageProperty(item);
             assertNotNull(property, "image property is null for item ID " + item.getId() + ", name = " + item.getName());
             assertNotNull(property.get(), "image is missing for item ID " + item.getId() + ", name = " + item.getName());
