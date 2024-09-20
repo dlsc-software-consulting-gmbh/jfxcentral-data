@@ -112,5 +112,16 @@
     ],
     "canonicalUrl": "https://webtechie.be/post/2024-07-22-javafx-nodes-versus-canvas/",
     "sourceCodeUrl": "https://gist.github.com/FDelporte/c74cdf59ecd9ef1b14df86e08faa0c56"
+  },
+  {
+    "id": "kotlin-versus-java",
+    "createdOn": "2024-09-20",
+    "modifiedOn": "2024-09-20",
+    "name": "JavaFX with Kotlin versus Java",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "https://webtechie.be/post/2024-09-20-javafx-with-kotlin-versus-java/",
+    "sourceCodeUrl": "https://github.com/FDelporte/javafx-with-java-versus-kotlin"
   }
 ]
