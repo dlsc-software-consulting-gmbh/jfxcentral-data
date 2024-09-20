@@ -1,6 +1,6 @@
 Kotlin also runs on the Java Virtual Machine (JVM) and is a very close sister of Java. In this tutorial, you'll learn the difference in code style when combining it with JavaFX.
 
-{{< youtube vjySdOJny14 >}}
+![alt](youtube:vjySdOJny14)
 
 ## About Kotlin
 
