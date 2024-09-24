@@ -1301,5 +1301,21 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Ramiro Domínguez Ayub about the Televic Generic Update Tool (TGUT)",
+    "tags": "JFXInAction, javafx, application, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "Interview with Ramiro Domínguez Ayub. He explains how he creates a tool for Televic with JavaFX that is used both internally and by their customers to update a lot of different types of devices on a train, tram, and/or metro.",
+    "id": "1gvKCS35ono",
+    "minutes" : "5",
+    "createdOn": "2024-09-24",
+    "modifiedOn": "2024-09-24",
+    "publishedOn": "2024-09-24",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
