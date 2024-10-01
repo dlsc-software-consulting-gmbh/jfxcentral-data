@@ -4,7 +4,7 @@ You can use the [GitHub project `javafx-jar-template`](https://github.com/FDelpo
 
 You can use Visual Studio Code or any other IDE for this project, the video and descriptions below are created with IntelliJ IDEA.
 
-![Screenshot of a JavaFX demo application displaying the GUI](/images/2024/jfx-template/running-app.png)
+![Screenshot of a JavaFX demo application displaying the GUI](running-app.png)
 
 ## Install JDK and Maven
 
@@ -63,10 +63,10 @@ You can find the [sources on GitHub: github.com/FDelporte/javafx-jar-template](h
 1. Check out the sources, directly in your IDE or with `git clone https://github.com/FDelporte/javafx-jar-template.git`
 1. Open in IntelliJ IDEA as a new Maven project
 1. Configure a JDK with JavaFX in "Project Structure > SDK"
-   ![Configuring the SDK in IntelliJIDEA](/images/2024/jfx-template/intellijidea-project-sdk.png)
+   ![Configuring the SDK in IntelliJIDEA](intellijidea-project-sdk.png)
 1. Go to the file `src/main/java/be/webtechie/app/AppLauncher.java`
 1. Click on the green button "Run AppLauncher.main()"
-   ![Running the application in IntelliJIDEA](/images/2024/jfx-template/intellijidea-run-app.png)
+   ![Running the application in IntelliJIDEA](intellijidea-run-app.png)
 
 ## Build as executable JAR with all dependencies
 
