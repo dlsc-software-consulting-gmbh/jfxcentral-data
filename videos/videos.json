@@ -1317,5 +1317,24 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Christoph Schwentker about JabRef",
+    "tags": "JFXInAction, javafx, application",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Education",
+    "description": "Interview with Christoph Schwentker about JabRef. It's a tool written in Java and JavaFX to collect, organize, and discover literature for research projects. JabRef is developed as free, open-source software and saves your data in a simple text-based file format with no vendor lock-in.",
+    "id": "-ddFxwh2U6E",
+    "minutes" : "17",
+    "createdOn": "2024-10-01",
+    "modifiedOn": "2024-10-01",
+    "publishedOn": "2024-10-01",
+    "personIds": [
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "jabref"
+    ]
   }
 ]
