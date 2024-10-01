@@ -114,6 +114,17 @@
     "sourceCodeUrl": "https://gist.github.com/FDelporte/c74cdf59ecd9ef1b14df86e08faa0c56"
   },
   {
+    "id": "fat-jar",
+    "createdOn": "2024-10-01",
+    "modifiedOn": "2024-10-01",
+    "name": "Template project to build a JavaFX application with Maven",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "https://webtechie.be/post/2024-10-03-javafx-maven-jar-template/",
+    "sourceCodeUrl": "https://github.com/FDelporte/javafx-jar-template"
+  },
+  {
     "id": "kotlin-versus-java",
     "createdOn": "2024-09-20",
     "modifiedOn": "2024-09-20",
