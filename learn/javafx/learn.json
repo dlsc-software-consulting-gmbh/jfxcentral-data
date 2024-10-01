@@ -117,7 +117,7 @@
     "id": "fat-jar",
     "createdOn": "2024-10-01",
     "modifiedOn": "2024-10-01",
-    "name": "Template project to build a JavaFX application with Maven as a JAR with dependencies",
+    "name": "Template project to build a JAR with dependencies with Maven",
     "personIds": [
       "f.delporte"
     ],
