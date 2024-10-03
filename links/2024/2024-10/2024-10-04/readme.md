@@ -3,10 +3,13 @@
 * Message from **Kevin Rushforth** in the `openjfx-dev-request@openjdk.org` mailing list that shows how OpenJDK and OpenJFX keep being aligned thanks to the 6-months release cycle: "_I propose to remove support for running JavaFX applications with a security manager in JavaFX 24. Any JavaFX application that uses a security manager will necessarily need to use JDK 21.x LTS going forward, and thus can similarly use JavaFX 21.x LTS._"
   * See [JDK-8341090](https://bugs.openjdk.org/browse/JDK-8341090): "The Java Security Manager was deprecated for removal in JDK 17 by [JEP 411](https://openjdk.org/jeps/411)."
 
-## Applications
+## SceneBuilder
 
 * [Gluon shared a screenshot](https://techhub.social/@gluonhq/113236888001051050) of the number of downloads of Scene Builder: "_Note how fast the adoption of Scene Builder 23 is! Work on 24 is in full-speed now._"
-* [**Arkutu** is making progress](https://x.com/i_am_arkutu/status/1841480908492128687): "_building my healthcare desktop application using JavaFX, Spring Boot, and MySQL! So far, I've completed the login and main home page. Now, I'm diving into creating and fetching patient data from the database. Stay tuned for more updates._"
+
+## Applications
+
+* [**Arkutu** shared a video](https://x.com/i_am_arkutu/status/1841480908492128687): "_Progress so far building my healthcare desktop application using JavaFX, Spring Boot, and MySQL! So far, I've completed the login and main home page. Now, I'm diving into creating and fetching patient data from the database. Stay tuned for more updates._"
 
 ## Games
 
