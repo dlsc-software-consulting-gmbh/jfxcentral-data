@@ -26,14 +26,14 @@
 
 ## Tutorials
 
-* **Frank Delporte** published a new tutorial ["Template project to build a JavaFX application as a JAR with dependencies with Maven"](https://webtechie.be/post/2024-10-03-javafx-maven-jar-template/) with the source code on GitHub, full explanation in the blog, and a video walk-through on YouTube.
+* **Frank Delporte** published a new tutorial ["Template project to build a JavaFX application as a JAR with dependencies with Maven"](https://webtechie.be/post/2024-10-02-javafx-maven-jar-template/) with the source code on GitHub, full explanation in the blog, and a video walk-through on YouTube.
 
 ## Miscellaneous
 
 * Some JavaFX love on Twitter:
   * [**SAI CHOWDARY** shared some key aspects of Java in front-end development](https://x.com/im_saichowdary/status/1842032245277696306)
-  * Reaction by [**𝐁𝐡𝐚𝐧𝐮**](https://x.com/ABprakash01/status/1842069633542848813): "_That's great info! JavaFX is indeed a powerful tool for creating dynamic desktop applications with impressive UI features like graphics and animations. It's a game-changer for front-end development!_"
-  * [**21st Computer Tech**](https://x.com/21stCompTech/status/1839657037896056852) compares Java and Python GUIs with this nice remark about Community & Support: "_Java has a large and active community for both Swing and JavaFX, with extensive documentation and examples available online._"
+  * Reaction by [**Bhanu**](https://x.com/ABprakash01/status/1842069633542848813): "_That's great info! JavaFX is indeed a powerful tool for creating dynamic desktop applications with impressive UI features like graphics and animations. It's a game-changer for front-end development!_"
+  * In a long thread, [**21st Computer Tech**](https://x.com/21stCompTech/status/1839657037896056852) compares Java and Python GUIs with this nice remark about Community & Support: "_Java has a large and active community for both Swing and JavaFX, with extensive documentation and examples available online._"
 
 ## JFX Central
 
