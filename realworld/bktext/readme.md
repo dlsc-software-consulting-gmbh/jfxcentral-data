@@ -1,4 +1,4 @@
-bk.text is the future text system for the judicial authorities in at least 11 federal states in Germany. It is based on Java and JavaFX and offers common features for editing and designing texts. Additional features support the digital processing of judicial proceedings and business transactions in courts and public prosecutor’s offices. For this purpose, bk.text is embedded in a system landscape consisting of databases with procedural data, electronic file systems and communication systems.
+bk.text is the future text system for the judicial authorities in at least 11 federal states in Germany. It is based on Java and JavaFX and offers common features for editing and designing texts. Additional features support the digital processing of judicial proceedings and business transactions in courts and public prosecutor's offices. For this purpose, bk.text is embedded in a system landscape consisting of databases with procedural data, electronic file systems and communication systems.
 
 ![Screen 2](Startmaske_1202.jpg)
 
