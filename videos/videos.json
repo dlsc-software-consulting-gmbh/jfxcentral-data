@@ -1336,5 +1336,21 @@
     "realworldIds": [
       "jabref"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Ulas Ergin: How JavaFX helps to migrate from Swing to React UIs, all combined in one Java app",
+    "tags": "JFXInAction, javafx, application",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Banking",
+    "description": "Interview with Ulas Ergin. He explains how his team uses JavaFX to migrate from a Swing based application, to a Java application which combines the old Swing screens with new React user interfaces.",
+    "id": "djbC7zWc-2w",
+    "minutes" : "17",
+    "createdOn": "2024-10-22",
+    "modifiedOn": "2024-10-22",
+    "publishedOn": "2024-10-22",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
