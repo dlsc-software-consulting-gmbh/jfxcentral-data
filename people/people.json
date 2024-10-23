@@ -829,5 +829,23 @@
     ],
     "createdOn": "2024-05-19",
     "modifiedOn": "2024-05-19"
+  },
+  {
+    "name": "Clément de Tastes",
+    "email": "clement.detastes@gmail.com",
+    "companyId": "",
+    "website": "",
+    "gitHub": "CodeSimcoe",
+    "blogId": "",
+    "linkedIn": "cl%C3%A9ment-de-tastes-a19734120/",
+    "twitter": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "c.detastes",
+    "libraryIds": [
+      "quarkus-fx"
+    ],
+    "createdOn": "2024-10-23",
+    "modifiedOn": "2024-10-23"
   }
 ]
