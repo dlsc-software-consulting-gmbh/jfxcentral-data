@@ -258,7 +258,7 @@ public class SampleApp {
 
 ### Live CSS reload
 
-Dev integrates a live CSS reload feature, allowing the developer to modify stylesheet files with live effect on the running application.
+Dev mode integrates a live CSS reload feature, allowing you to modify stylesheet files with live effect on the running application.
 
 Let's add some styling to our component by creating a `Sample.css` file :
 
@@ -285,3 +285,7 @@ Label, Button {
 The style is automatically applied :
 
 ![Red style](style-red.png)
+
+### Going further
+
+Read the [documentation](https://docs.quarkiverse.io/quarkus-fx/dev/index.html) to find all features and configurations provided with the extension. Don't hesitate to raise issues, if any, or contribute to the project if you feel so.
