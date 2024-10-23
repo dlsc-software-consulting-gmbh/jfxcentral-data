@@ -7,6 +7,8 @@ A comprehensive documentation can be found in the [quarkiverse dedicated page](h
 
 The source code is available on [Github](https://github.com/quarkiverse/quarkus-fx), as well as some useful [samples](https://github.com/quarkiverse/quarkus-fx/tree/main/samples).
 
+This guide helps you to make use of this extension in your Quarkus application.
+
 ### Bootstrap your QuarkusFX application
 
 The [Start Coding](https://code.quarkus.io/) page from the Quarkus website allows you to generate a starting project.
@@ -14,7 +16,7 @@ The [Start Coding](https://code.quarkus.io/) page from the Quarkus website allow
 You can select the extensions that you wish to include.
 Type "fx" in the search bar to find the _quarkus-fx_ extension.
 
-![select-extension.png](select-extension.png)
+![Select quarkus-fx extension](select-extension.png)
 
 Select any other extensions that you wish to use, like a REST client, an ORM for a given database, ... and click "Generate your application" to download the project archive.
 
@@ -115,7 +117,7 @@ public class SampleApp {
 
 When the quarkus application is launched, the stage is displayed.
 
-![starter.png](starter.png)
+![Starter app](starter.png)
 
 ### Supercharge your FX controllers with dependency injection !
 
@@ -269,7 +271,7 @@ Label, Button {
 
 After launch the application in dev mode :
 
-![style_blue.png](style_blue.png)
+![Blue style](style-blue.png)
 
 Let's change some style while the application is running :
 
@@ -282,4 +284,4 @@ Label, Button {
 
 The style is automatically applied :
 
-![style_red.png](style_red.png)
+![Red style](style-red.png)
