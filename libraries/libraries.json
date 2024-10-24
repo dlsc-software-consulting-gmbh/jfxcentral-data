@@ -1193,5 +1193,27 @@
     "groupId": "",
     "artifactId": "",
     "companyId": "autumo"
-  } 
+  },
+  {
+    "id": "quarkus-fx",
+    "name": "QuarkusFX",
+    "summary": "Run Java FX on Quarkus.",
+    "description": "An extension allowing to use JavaFX in your Quarkus application",
+    "tags": "quarkus, development, framework, javafx",
+    "license": "APACHE2",
+    "homepage": "https://quarkus.io/extensions/io.quarkiverse.fx/quarkus-fx/",
+    "javadocs": "https://javadoc.io/doc/io.quarkiverse.fx/quarkus-fx/latest/index.html",
+    "documentation": "https://docs.quarkiverse.io/quarkus-fx/dev/index.html",
+    "repository": "https://github.com/quarkiverse/quarkus-fx",
+    "githubAccount": "",
+    "githubProject": "",
+    "issueTracker": "https://github.com/quarkiverse/quarkus-fx/issues",
+    "createdOn": "2024-10-23",
+    "modifiedOn": "2024-10-23",
+    "ensemble": "false",
+    "featuredImageName": "featured.png",
+    "logoAvailable": "false",
+    "groupId": "io.quarkiverse.fx",
+    "artifactId": "quarkus-fx"
+  }
 ]
