@@ -14,5 +14,5 @@ The sources are hosted on [Github](https://github.com/quarkiverse/quarkus-fx), s
 * Benefit from live CSS reload
 * Reduce boilerplate code by using conventional views with `@FxView`
 * Perform processing in the JavaFX Application Thread with interceptor `@RunOnFxThread`
-* Inject `HostServices`, `FXMLLOader` and easily access primary `Stage` in your application
+* Inject `HostServices`, `FXMLLoader` and easily access primary `Stage` in your application
 * And more to come !
