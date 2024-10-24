@@ -843,7 +843,7 @@
     "rockstar": false,
     "id": "c.detastes",
     "libraryIds": [
-      "quarkus-fx"
+      "quarkusfx"
     ],
     "createdOn": "2024-10-23",
     "modifiedOn": "2024-10-23"

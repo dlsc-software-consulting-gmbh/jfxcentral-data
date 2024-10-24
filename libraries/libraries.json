@@ -1195,7 +1195,7 @@
     "companyId": "autumo"
   },
   {
-    "id": "quarkus-fx",
+    "id": "quarkusfx",
     "name": "QuarkusFX",
     "summary": "Run Java FX on Quarkus.",
     "description": "An extension allowing to use JavaFX in your Quarkus application",
