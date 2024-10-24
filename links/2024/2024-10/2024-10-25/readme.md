@@ -35,6 +35,6 @@
 
 * New content:
   * People: [Clément de Tastes](https://www.jfx-central.com/people/c.detastes) 
-  * Library: [QuarkusFX](https://www.jfx-central.com/libraries/quarkus-fx)
-  * Learn: [Using JavaFX in your Quarkus application](https://www.jfx-central.com/learn-javafx/quarkus-fx)
+  * Library: [QuarkusFX](https://www.jfx-central.com/libraries/quarkusfx)
+  * Learn: [Using JavaFX in your Quarkus application](https://www.jfx-central.com/learn-javafx/quarkusfx)
   * Video: [JavaFX In Action with Ulas Ergin about internal banking apps](https://www.jfx-central.com/videos/djbC7zWc-2w)
