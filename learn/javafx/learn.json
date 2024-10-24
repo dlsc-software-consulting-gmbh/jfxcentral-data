@@ -136,7 +136,7 @@
     "sourceCodeUrl": "https://github.com/FDelporte/javafx-with-java-versus-kotlin"
   },
   {
-    "id": "quarkus-fx",
+    "id": "getting-started-quarkusfx",
     "createdOn": "2024-10-23",
     "modifiedOn": "2024-10-23",
     "name": "Using JavaFX in your Quarkus application",
