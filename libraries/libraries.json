@@ -1202,7 +1202,7 @@
     "tags": "quarkus, development, framework, javafx",
     "license": "APACHE2",
     "homepage": "https://quarkus.io/extensions/io.quarkiverse.fx/quarkus-fx/",
-    "javadocs": "https://quarkus.io/extensions/io.quarkiverse.fx/quarkus-fx/",
+    "javadocs": "https://javadoc.io/doc/io.quarkiverse.fx/quarkus-fx/latest/index.html",
     "documentation": "https://docs.quarkiverse.io/quarkus-fx/dev/index.html",
     "repository": "https://github.com/quarkiverse/quarkus-fx",
     "githubAccount": "",
@@ -1213,7 +1213,7 @@
     "ensemble": "false",
     "featuredImageName": "featured.png",
     "logoAvailable": "false",
-    "groupId": "io.quarkiverse.fr",
+    "groupId": "io.quarkiverse.fx",
     "artifactId": "quarkus-fx"
   }
 ]
