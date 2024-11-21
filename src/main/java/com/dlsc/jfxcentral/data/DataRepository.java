@@ -786,13 +786,13 @@ public class DataRepository {
         return Collections.emptyList();
     }
 
-    public File getRepositoryDirectory() {
+    public static File getRepositoryDirectory() {
         if (testing) {
             try {
-                String path = this.getClass().getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
+                String path = DataRepository.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
 
                 // Convert the class file location to the Java file location
-                File classFile = new File(path, this.getClass().getName().replace('.', '/') + ".class");
+                File classFile = new File(path, DataRepository.class.getName().replace('.', '/') + ".class");
                 return classFile.getParentFile().getParentFile().getParentFile().getParentFile().getParentFile().getParentFile().getParentFile();
             } catch (URISyntaxException e) {
                 LOG.severe("Can not define source root path: " + e.getMessage());

@@ -254,7 +254,7 @@ public class DataRepositoryTest {
                 .findFirst();
 
         assertTrue(fd.isPresent());
-        assertEquals("frankdelporte.bsky.social", fd.get().getBluesky(), "bluesky link not loaded");
+        assertEquals("frankdelporte.be", fd.get().getBluesky(), "bluesky link not loaded");
     }
 
     @Test
@@ -305,7 +305,7 @@ public class DataRepositoryTest {
                 .findFirst();
 
         assertTrue(fd.isPresent());
-        assertEquals("frankdelporte.bsky.social", fd.get().getBluesky(), "bluesky link not loaded");
+        assertEquals("frankdelporte.be", fd.get().getBluesky(), "bluesky link not loaded");
     }
 
     @Test
