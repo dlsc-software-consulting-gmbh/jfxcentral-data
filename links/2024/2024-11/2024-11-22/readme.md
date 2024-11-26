@@ -31,6 +31,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* JFX Central is now also on Bluesky: [@jfxcentral.bsky.social](https://bsky.app/profile/jfxcentral.bsky.social)
+* JFX Central is now also on Bluesky: [@jfxcentral.com](https://bsky.app/profile/jfxcentral.com)
 * New content:
   * Video: [JavaFX In Action with Clément de Tastes about QuarkusFX](https://www.jfx-central.com/videos/Vw9S9uuPTlQ)
