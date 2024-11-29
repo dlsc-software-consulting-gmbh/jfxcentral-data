@@ -6,21 +6,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * And he also [shared a coding tip](https://bsky.app/profile/johanvos.bsky.social/post/3lbwvq7ppbc2n): "_JavaFX Performance tip: do not use Platform.runLater() unless you're sure it is required. The Runnables are executed on the same platform thread that is also doing the layout at 60 fps.
       I often see Platform.runLater() is used "just to make sure..." but that can slow down performance._"
 
-## SceneBuilder
-
-* 
-
-## Applications
-
-* 
-
 ## Games
 
 * [**Mark J. Koch**](https://bsky.app/profile/markjkoch.bsky.social/post/3lbutov6xp22o): "_One of my bucket list game projects has reached Alpha. I'm looking for enthusiasts to try it. I ported/re-engineered Neuromancer PC to JavaFX. Original content, all new engine. For now requires NetBeans IDE to run. Lots of things don't work. More comments follow..._" You can [find it on GitHub](https://github.com/maehem/javamancer).
-
-## Components, Libraries, Tools
-
-*
 
 ## Podcasts, Videos, Books
 
@@ -33,7 +21,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* A [tutorial by **Codez Up**](https://codezup.com/cloud-edge-computing-javafx-websocket-services/): "_Unlock Efficient Cloud and Edge Computing with JavaFX Websocket Services_", to create a JavaFX application that uses Websocket Services to communicate with a server.
 
 ## Miscellaneous
 
