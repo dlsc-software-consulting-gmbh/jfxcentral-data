@@ -26,7 +26,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* **Muhammed Afsal Villan** created a [livestream tutorial on YouTube](https://www.youtube.com/live/mWXTf27RmWc): "_JavaFX with Spring AI. Building a real LLM-based AI Assistant from Scratch._" The accompanying code [is available on GitHub](https://github.com/afsalashyana/javafx-ai-assistant).
 
 ## Miscellaneous
 
