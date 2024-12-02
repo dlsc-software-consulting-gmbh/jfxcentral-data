@@ -430,47 +430,47 @@
       "g.grunwald"
     ],
     "createdOn": "2021-09-27",
-    "modifiedOn": "2024-11-19",
+    "modifiedOn": "2024-12-02",
     "files": [
       {
         "name": "MSI Installer (Windows Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.9/JDKMon-21.0.9.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/JDKMon-21.0.13.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.9/JDKMon-21.0.9.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/JDKMon-21.0.13.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.9/JDKMon-21.0.9-aarch64.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/JDKMon-21.0.13-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.9/jdkmon_21.0.9_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon_21.0.13_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.9/jdkmon-21.0.9-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon-21.0.13-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.9/jdkmon_21.0.9_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon_21.0.13_arm64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.9/jdkmon-21.0.9-1.aarch64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon-21.0.13-1.aarch64.rpm",
         "fileName": "",
         "package": "RPM"
       }
