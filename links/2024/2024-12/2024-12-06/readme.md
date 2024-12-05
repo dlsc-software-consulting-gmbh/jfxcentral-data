@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* The OpenJFX project is [looking for UI designers and developers for a new modern theme](https://mail.openjdk.org/pipermail/openjfx-dev/2024-December/051222.html): "_Ideally, this is more than a "Modena 2025" refresh. I completely agree that this is a big project, and it requires talented people to pull it off. However, there are talented UI designers and developers in the JavaFX community. I hope this will start a discussion on how a modern JavaFX user experience can look like, and how we'd be able to achieve it._"
 
 ## SceneBuilder
 
@@ -22,7 +22,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* In [part 11 of the JFXInAction interviews](https://www.youtube.com/watch?v=RFSIBrP4mZM), **Frank Delporte** talks with **Almas Baim** about FXGL, a library that helps us create JavaFX games. But it’s much more than games! With the integrated Goal-Oriented Action Planning (GOAP) functionality, it can use game technology and AI to solve any goal, based on actions and preconditions. In the video, Almas live codes such a solution with a minimal amount of code! [More info in the blog post](https://webtechie.be/post/2024-12-05-jfxinaction-almas-baim/).
 
 ## Tutorials
 
@@ -35,4 +35,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content:
+  * Video: [JavaFX In Action with Almas Baim about FXGL](https://www.jfx-central.com/videos/RFSIBrP4mZM)
