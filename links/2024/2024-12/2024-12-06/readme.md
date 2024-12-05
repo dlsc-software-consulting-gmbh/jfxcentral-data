@@ -32,6 +32,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * [**Maciej Gorywoda** shared on Bluesky](https://bsky.app/profile/makingthematrix.github.io/post/3lc3bi4z2vk26): "_This is my BSky account if anyone was interested in talking about JavaFX on Android. In fact, I have a whole [repository of examples](https://github.com/makingthematrix/scalaonandroid)_."
 * [Coding tip by **Johan Vos**](https://bsky.app/profile/johanvos.bsky.social/post/3lc3b5tmnwk2u): "_[VisualVM](https://visualvm.github.io/) can be a great help in performance tuning for JavaFX apps. The screenshot shows the single-threaded JavaFX AppThread spends ca 2/3 of its time in "userspace" (Platform.runLater) and about 30% time in rendering (QuantumToolkit$$...)._"
+* **Frank Delporte** wrote a [post for JVM Advent 2024, the JVM Programming Advent Calendar](https://www.javaadvent.com/2024/12/coding-for-fun-an-experiment-with-virtual-threads-javafx-and-music.html): "_Coding for fun: An experiment with Virtual Threads, JavaFX, and Music! When a nerdy dad and 14-year-old music-playing son join forces and start experimenting with music and code, some nice things can happen. Did you ever present your music piece in a business dashboard with charts? Did you know that the FXGL game library can be used to generate a piano with fireworks? And can Virtual Threads play back MIDI events with just a few lines of code and thousands of threads?_"
 
 ## JFX Central
 
