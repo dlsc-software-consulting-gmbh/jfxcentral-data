@@ -1388,5 +1388,31 @@
     "libraryIds": [
       "quarkusfx"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Almas Baim about FXGL",
+    "tags": "JFXInAction, javafx, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Gaming",
+    "description": "In the \"JFX In Action\" interviews, we already saw many business use cases of JavaFX. Let's take a side step and look at game development. FXGL is a library that helps us create JavaFX games. But it's much more than games! With the integrated Goal-Oriented Action Planning (GOAP) functionality, it can use game technology and AI to solve any kind of goal based on actions and preconditions. In this video, Almas live-codes a fully working GOAP example application!",
+    "id": "RFSIBrP4mZM",
+    "minutes" : "30",
+    "createdOn": "2024-12-05",
+    "modifiedOn": "2024-12-05",
+    "publishedOn": "2024-12-05",
+    "personIds": [
+      "f.delporte",
+      "a.baimagambetov"
+    ],
+    "libraryIds": [
+      "fxgl"
+    ],
+    "tutorialIds": [
+      "fxdocs"
+    ],
+    "bookIds": [
+      "fxgl17"
+    ]
   }
 ]
