@@ -39,4 +39,7 @@ command. It produces custom runtime images, kind of Java Runtime Environments. S
 
 ## JFX Central
 
-* 
+* New content:
+  * Tools: [jDeploy, distribute your JavaFX app as a native bundle](https://www.jfx-central.com/tools/jdeploy)
+  * People: [Steve Hannah, creator of jDeploy](https://www.jfx-central.com/people/s.hannah)
+  * Video: [JavaFX In Action with Steve Hannah about jDeploy](https://www.jfx-central.com/videos/Lhmf9U0KYsg)

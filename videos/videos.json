@@ -1414,10 +1414,10 @@
   },
   {
     "name": "JavaFX In Action with Steve Hannah about jDeploy",
-    "tags": "JFXInAction, javafx, library",
+    "tags": "JFXInAction, javafx, tools",
     "type": "JFX In Action",
     "platform": "Desktop",
-    "domain": "Gaming",
+    "domain": "Distribution",
     "description": "Building a JavaFX app is easy and fun, but how do you efficiently distribute it to different systems? jpackage and GraalVM can help, but jDeploy makes things even more effortless by handling all the packaging and providing an upgrading flow! In this \"JFX In Action\" interview, you'll learn how this works from Steve Hannah, the creator of jDeploy.",
     "id": "Lhmf9U0KYsg",
     "minutes" : "32",
