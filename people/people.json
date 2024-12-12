@@ -850,5 +850,24 @@
     ],
     "createdOn": "2024-10-23",
     "modifiedOn": "2024-10-25"
+  },
+  {
+    "name": "Steve Hannah",
+    "email": "",
+    "companyId": "",
+    "website": "",
+    "gitHub": "shannah",
+    "blogId": "",
+    "linkedIn": "sjhannah",
+    "twitter": "shannah78",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "s.hannah",
+    "toolIds": [
+      "jdeploy"
+    ],
+    "createdOn": "2024-12-12",
+    "modifiedOn": "2024-12-12"
   }
 ]

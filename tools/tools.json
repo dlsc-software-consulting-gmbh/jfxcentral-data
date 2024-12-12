@@ -229,5 +229,18 @@
       "IpYlyCRZcxc",
       "rBHBlICJMcU"
     ]
+  },
+  {
+    "id": "jdeploy",
+    "name": "jdeploy",
+    "summary": "Distribute your JavaFX app as a native bundle.",
+    "description": "Deploy your app to Mac, Linux, and Windows users without the usual hassles.",
+    "tags": "jdeploy, swing, javafx, packaging, distribution, updates",
+    "homepage": "https://www.jdeploy.com/",
+    "createdOn": "2024-12-12",
+    "modifiedOn": "2024-12-12",
+    "personIds": [
+      "s.hannah"
+    ]
   }
 ]

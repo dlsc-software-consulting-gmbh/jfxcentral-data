@@ -25,6 +25,8 @@ command. It produces custom runtime images, kind of Java Runtime Environments. S
 ## Podcasts, Videos, Books
 
 * The third edition of "_The [Definitive Guide to Modern Java Clients with JavaFX](https://www.amazon.com/Definitive-Guide-Modern-Clients-JavaFX/dp/B0DFP9PY1T): Cross-Platform Mobile and Cloud Development Updated for JavaFX 21 and 23_" is now available. 644 pages of JavaFX brought to you by **Stephen Chin**, **Johan Vos**, and **James Weaver**.
+* In episode 12 of the "JFX In Action" interviews with **Steve Hannah**, you'll learn about jDeploy: "_Building a JavaFX app is easy and fun, but how do you efficiently distribute it to different systems? jpackage and GraalVM can help, but jDeploy makes things even more effortless by handling all the packaging and providing an upgrading flow!_" The [video is available on YouTube](https://www.youtube.com/watch?v=Lhmf9U0KYsg) with more info [in this blog post](https://webtechie.be/post/2024-12-12-jfxinaction-steve-hannah-jdeploy/).
+
 
 ## Tutorials
 
