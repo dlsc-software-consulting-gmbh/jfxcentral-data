@@ -28,6 +28,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Podcasts, Videos, Books
 
 * The talk by **Frank Delporte** and his son **Vik** about the MelodyMatrix application, at the JFall conference in November, got published: "_[Looking at Music: an experiment with Kotlin, JavaFX, MIDI, and VirtualThreads](https://www.youtube.com/watch?v=bwc8Y3qnduo)_"
+* [**Jago de Vreede**](https://bsky.app/profile/jagovreede.bsky.social) is working on a user interface for SDKMAN that also brings its full functionality to Windows! He uses Java, JavaFX, GraalVM, SceneBuilder,... and more as you can learn from this [new "JFX In Action" interview](https://webtechie.be/post/2024-12-19-jfxinaction-jago-de-vreede-sdkman-ui/) by **Frank Delporte**.
 
 ## Tutorials
 
@@ -40,4 +41,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content:
+  * Video: [JavaFX In Action with Jago de Vreede about SDKman UI]()

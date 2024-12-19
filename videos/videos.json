@@ -1431,5 +1431,21 @@
     "toolIds": [
       "jdeploy"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Jago de Vreede about SDKman UI",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "SDKman UI offers a cross-platform Graphical User Interface for SDKMAN. It extends the functionality of the terminal-tool SDKMAN with a user interface, but also makes the tool available for Window systems.",
+    "id": "t7CROVJbYto",
+    "minutes" : "26",
+    "createdOn": "2024-12-19",
+    "modifiedOn": "2024-12-19",
+    "publishedOn": "2024-12-19",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
