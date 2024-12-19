@@ -42,4 +42,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * New content:
-  * Video: [JavaFX In Action with Jago de Vreede about SDKman UI]()
+  * Video: [JavaFX In Action with Jago de Vreede about SDKman UI](https://www.jfx-central.com/videos/t7CROVJbYto)
