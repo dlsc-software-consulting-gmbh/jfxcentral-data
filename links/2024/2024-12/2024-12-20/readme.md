@@ -2,25 +2,15 @@ Here are the last JavaFX LinksOfTheWeek for 2024. We hope you enjoyed all the pr
 
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-## Core
-
-* 
-
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * [**Sean Phillips**](https://bsky.app/profile/seanmiphillips.bsky.social/post/3ldbhwnymi22l): "_New full [release for the Trinity XAI analysis tool](https://github.com/trinity-xai/Trinity/releases/tag/v2024.12.13) just in time for the holiday season 💙. Thanks again to [**Samypr100**](https://github.com/samypr100) for his build wizardry!_"
 * [**Patrik Karlström**](https://bsky.app/profile/trixon.se/post/3ldbewsqm7s2f): "_Say hello to [nbRsync 24.12](https://github.com/trixon/nbRsync/releases/tag/v24.12)! 🎆 It's a GUI for rsync written in Java & JavaFX atop the NetBeans Platform. nbRsync has a built-in scheduler that manages backups in a cron like fashion. AppImage for Linux is available too._"
 
-## Games
-
-* 
-
 ## Components, Libraries, Tools
 
+* [**Almas Baim** shares a video of an experiment with shaders](https://x.com/AlmasBaim/status/1869841144886243590) in pure Java (at runtime) in a 3D animation with FXGL.
+  * [**WhiteWoodCity** hopes to see more](https://x.com/WhiteWoodCity/status/1869712571865113040): "_plez do it, we are all expecting this & plez support vulkan. I made a [demo project for using shader in JavaFX](https://github.com/chengenzhao/java-vulkan-mac). it works for mac and should work for windows, since vulkan and ffm are both cross-platformed._"
 * **Pedro Duque Vieira** is wrapping up the for the next release of Transit Theme:
   * [PART 13](https://bsky.app/profile/p-duke.bsky.social/post/3lddzex7j7c2i): "_New LIGHT and DARK styles for ToolBar and DatePicker, including a "light" variation for ToolBar._"
   * "_The release is getting close. Still missing but already partially implemented: ListView, TreeView, TableView and TableTreeView._"
