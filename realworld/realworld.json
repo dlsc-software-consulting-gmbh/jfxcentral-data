@@ -94,6 +94,21 @@
       "binjr"
     ]
   },
+
+  {
+    "id": "barcodify",
+    "name": "Barcodify",
+    "company": "",
+    "url": "https://www.emadhanif.com/portfolio/barcodify-1868771494764236800",
+    "domain": "Software development",
+    "tags": "barcode, template generation, barcode customization, batch processing, intelligent bundling, high-performance enterprise solution",
+    "summary": "An application for barcode generation.",
+    "description": "Barcodify is a powerful JavaFX application for creating customizable, high-quality barcodes. Supporting 8 linear barcode types, it offers full customization, intelligent bundling, and concurrent batch processing. With advanced template options and enhanced performance, Barcodify simplifies and streamlines enterprise barcode generation.",
+    "createdOn": "2024-07-04",
+    "modifiedOn": "2024-07-04",
+    "location": "Unknown"
+  },
+
   {
     "id": "ebu",
     "name": "NEOS",
