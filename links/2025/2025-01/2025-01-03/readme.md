@@ -20,7 +20,7 @@ Here are the first JavaFX LinksOfTheWeek for 2025! We wish you all a fantastic n
 ## Podcasts, Videos, Books
 
 * Part 3 of the overview of the "JavaFX In Action" interviews by **Frank Delporte** got [published on Foojay](https://foojay.io/today/video-series-javafx-in-action-part-3/) with:
-  * **Özkan Pakdi**: Swaggerific, an open-source Postman alternative written in JavaFX
+  * **Özkan Pakdil**: Swaggerific, an open-source Postman alternative written in JavaFX
   * **Clément de Tastes**: QuarkusFX, combining the strengths of Quarkus and JavaFX
   * **Almas Baim**: FXGL, a multipurpose game library for JavaFX
   * **Steve Hannah**: jDeploy, to distribute your Java app as a native bundle
