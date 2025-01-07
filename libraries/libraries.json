@@ -1215,5 +1215,27 @@
     "logoAvailable": "false",
     "groupId": "io.quarkiverse.fx",
     "artifactId": "quarkus-fx"
+  },
+  {
+    "name": "FxPopup",
+    "summary": "High quality UI controls to complement the core JavaFX distribution.",
+    "tags": "actions, decoration, validation, responsive",
+    "description": "FxPopup is a JavaFX library simplifies the creation of automatic forms and popup messages with minimal effort. With just a single line of code, developers can generate dynamic forms or display messages, while maintaining the flexibility to use custom views for both functionalities.",
+    "documentation": "https://github.com/HugoQuinn2/fxpopup/wiki",
+    "license": "MIT",
+    "homepage": "https://github.com/HugoQuinn2/fxpopup",
+    "javadocs": "https://github.com/HugoQuinn2/fxpopup/wiki",
+    "repository": "https://github.com/HugoQuinn2/fxpopup",
+    "githubAccount": "fxpopup",
+    "githubProject": "fxpopup",
+    "issueTracker": "https://github.com/HugoQuinn2/fxpopup/issues",
+    "id": "fxpopup",
+    "createdOn": "2025-01-07",
+    "modifiedOn": "2025-01-07",
+    "groupId": "io.github.hugoquinn2",
+    "artifactId": "fxpopup",
+    "ensemble": "true",
+    "featuredImageName": "logo.png",
+    "logoAvailable": "false"
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "path": "example-form.png",
+      "title": "Example Form",
+      "description": ""
+    },
+    {
+      "path": "example-message.png",
+      "title": "Example Message",
+      "description": ""
+    }
+  ]
+}

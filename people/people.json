@@ -869,5 +869,24 @@
     ],
     "createdOn": "2024-12-12",
     "modifiedOn": "2024-12-12"
+  },
+  {
+    "name": "Hugo Quinn",
+    "email": "",
+    "companyId": "",
+    "website": "https://github.com/HugoQuinn2",
+    "gitHub": "HugoQuinn2",
+    "blogId": "",
+    "linkedIn": "Victor Hugo Gaspar Quinn",
+    "twitter": "",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "h.quinn",
+    "toolIds": [
+      "fxpopup"
+    ],
+    "createdOn": "2025-01-07",
+    "modifiedOn": "2025-01-07"
   }
 ]
