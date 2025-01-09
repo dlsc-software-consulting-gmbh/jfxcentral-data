@@ -883,7 +883,7 @@
     "champion": false,
     "rockstar": false,
     "id": "h.quinn",
-    "toolIds": [
+    "libraryIds": [
       "fxpopup"
     ],
     "createdOn": "2025-01-07",
