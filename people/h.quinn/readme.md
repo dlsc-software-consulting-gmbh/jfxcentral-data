@@ -1,1 +1,1 @@
-Just another java developer who is a javafx fan
+Just another Java developer who is a JavaFX fan.
