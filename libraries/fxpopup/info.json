@@ -1,19 +1,4 @@
 {
   "images": [
-    {
-      "path": "fxpopup.png",
-      "title": "Themes",
-      "description": "Theme examples"
-    },
-    {
-      "path": "example-form.png",
-      "title": "Example Form",
-      "description": "Screenshot of code and message popup"
-    },
-    {
-      "path": "example-message.png",
-      "title": "Example Message",
-      "description": "Screenshot of code and message form"
-    }
   ]
 }
