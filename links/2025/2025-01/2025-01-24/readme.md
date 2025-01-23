@@ -26,13 +26,20 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * The [first "JavaFX In Action" interview of 2025 is live! With Hydraulic Software, **Mike Hearn**](https://www.youtube.com/watch?v=CuI7-PllJZQ) solves a problem many developers struggle with: efficiently distributing your application and ensuring the users get the latest version. With Conveyor, he created a tool to easily create an installer for JavaFX, Electron, and Flutter apps! Check the [blog for more info](https://webtechie.be/post/2025-01-23-jfxinaction-mike-hearn-conveyor/).
 
+## Conferences
+
+* The online [JChampions Conference](https://jchampionsconf.com/schedule.html) is happening at this moment (January 23, 24, 27, and 28)! On Monday, [**Vik and Frank Delporte** present](https://www.youtube.com/watch?v=UW6fDQt-8BI) what can be done with a piano, Kotlin, Midi, JavaFX, and Virtual Threads.
+* The schedule has been published of JavaOne 2025 "_Where Java developers come to skill up_", March 18–20, 2025, USA. It contains three JavaFX sessions:
+  * [JavaFX 24 and Beyond](https://reg.rf.oracle.com/flow/oracle/javaone25/catalog/page/catalog/session/1734125339212001XwBE) by **Kevin Rushfort**
+  * [JavaFX in the web](https://reg.rf.oracle.com/flow/oracle/javaone25/catalog/page/catalog/session/1728506254826001MEHs) by **Karl Berger** and **Florian Kirmaier**
+  * [Building a Multiplatform SDKMAN in JavaFX](https://reg.rf.oracle.com/flow/oracle/javaone25/catalog/page/catalog/session/1728227349663001Wod9) by **Jago de Vreede**
+
 ## Tutorials
 
 * [Kotlin for Desktop Applications: Using JFX and Swing](https://codezup.com/kotlin-desktop-applications-jfx-swing/): "_In this comprehensive tutorial, we will explore the core concepts, implementation guide, and best practices for building desktop applications using Kotlin, JFX, and Swing._"
 
 ## Miscellaneous
 
-* The online [JChampions Conference](https://jchampionsconf.com/schedule.html) is happening at this moment (January 23, 24, 27, and 28)! On Monday, [**Vik and Frank Delporte** present](https://www.youtube.com/watch?v=UW6fDQt-8BI) what can be done with a piano, Kotlin, Midi, JavaFX, and Virtual Threads.
 * [**Peter Pilgrim** on Bluesky](https://bsky.app/profile/peterpilgrim.bsky.social/post/3lfwtvhci722y): "_**Jasper Potts** when he worked at Oracle had a lot of JavaOne demos including [this JavaFX 3D container ports](https://www.jasperpotts.com/project/3d-container-port-in-javafx/). Look at the H/W available today MacMini M4 then think of the possibilities, especially in Augmented Reality._"
 * [Top Java Chart Libraries for Data Visualization in 2025](https://www.fromdev.com/2025/01/top-java-chart-libraries-for-data-visualization-in-2025.html): "_In this article, we explore some of the best free and open-source Java chart libraries available. Each of these libraries offers unique features that cater to different requirements, making them ideal for a wide range of applications._"
 
