@@ -22,7 +22,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* The [first "JavaFX In Action" interview of 2025 is live! With Hydraulic Software, **Mike Hearn**](https://www.youtube.com/watch?v=CuI7-PllJZQ) solves a problem many developers struggle with: efficiently distributing your application and ensuring the users get the latest version. With Conveyor, he created a tool to easily create an installer for JavaFX, Electron, and Flutter apps! Check the [blog for more info](https://webtechie.be/post/2025-01-23-jfxinaction-mike-hearn-conveyor/).
 
 ## Tutorials
 
@@ -34,4 +34,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content:
+  * Video: [JavaFX In Action with Mike Hearn about Conveyor](https://www.jfx-central.com/videos/CuI7-PllJZQ)
