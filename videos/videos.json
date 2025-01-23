@@ -1447,5 +1447,27 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Mike Hearn about Conveyor",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Distribution",
+    "description": "Mike Hearn solves a problem that a lot of developers are struggling with: how to easily distribute your application and make sure the users get the latest version. With Conveyor he created a tool to do that easily with JavaFX, Electron, and Flutter apps!",
+    "id": "CuI7-PllJZQ",
+    "minutes" : "23",
+    "createdOn": "2025-01-23",
+    "modifiedOn": "2025-01-23",
+    "publishedOn": "2025-01-23",
+    "personIds": [
+      "f.delporte"
+    ],
+    "toolIds": [
+      "conveyor"
+    ],
+    "companyIds": [
+      "hydraulic"
+    ]
   }
 ]
