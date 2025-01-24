@@ -6,21 +6,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * [An early access build of the JavaFX from the "metal" branch of the openjdk/jfx-sandbox repository is available](https://jdk.java.net/javafxmetal/), implementing the new Metal graphics renderning pipeline for macOS: "_The goal of this release is to solicit feedback as we work toward integrating this functionality into JavaFX. Binaries are provided as a convenience so that users do not need to build from the source code. Warning: This build is based on an incomplete version of JavaFX 25._" 
 * Still running JavaFX 8 apps? As Oracle will end support for JavaFX on Java 8 in March 2025, [Azul has put up a page to inform you about your options](https://www.azul.com/javafx-java8-oracle-end-of-support/).
 
-## SceneBuilder
-
-* 
-
-## Applications
-
-* 
-
 ## Games
 
 * A [video on LinkedIn by **Almas Baim**](https://www.linkedin.com/posts/almasb_hand-tracking-via-mediapipe-in-fxgl-is-getting-activity-7288195001124098048-wgAc/) shows how he can move objects in an application with motion tracking: "_Hand tracking via MediaPipe in FXGL is getting an upgrade in the next version. The demo consumes raw tracking data with no fine-tuning. So improved user experience results are certainly possible._"
-
-## Components, Libraries, Tools
-
-*
 
 ## Podcasts, Videos, Books
 
