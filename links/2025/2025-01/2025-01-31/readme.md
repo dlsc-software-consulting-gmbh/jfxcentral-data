@@ -34,7 +34,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* [**Webdox** published a YouTube tutorial](https://www.youtube.com/watch?v=ew1k9yr-LHk): "_JavaFX GUI Tutorial for Beginners. In this video, you'll learn how to set up a basic JavaFX project, create a simple user interface, and understand how to use JavaFX components like Buttons, Labels, and Scenes. Whether you're new to Java or just getting started with JavaFX, this guide will help you build a solid foundation._"
 
 ## Miscellaneous
 
