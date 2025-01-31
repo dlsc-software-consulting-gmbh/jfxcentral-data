@@ -1,6 +1,5 @@
 Here are the first JavaFX LinksOfTheWeek for 2025! We wish you all a fantastic new year, with a lot of Java(FX) love 😍 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-
 ## Applications
 
 * [JabRef released the first 6.0 alpha version](https://blog.jabref.org/2024/12/23/JabRef6-0-alpha/): "_Packed with the cool features from GSOC and many other fixes: AI features, CSL Styles in LibreOffice, New search._"
