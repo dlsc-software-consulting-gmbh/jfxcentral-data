@@ -888,5 +888,21 @@
     ],
     "createdOn": "2025-01-07",
     "modifiedOn": "2025-01-07"
+  },
+  {
+    "name": "Sven Reimers",
+    "email": "",
+    "companyId": "",
+    "website": "",
+    "gitHub": "svenreimers",
+    "blogId": "",
+    "linkedIn": "svenreimers",
+    "twitter": "",
+    "bluesky": "sreimers.bsky.social",
+    "champion": true,
+    "rockstar": false,
+    "id": "s.reimers",
+    "createdOn": "2025-02-06",
+    "modifiedOn": "2025-02-06"
   }
 ]

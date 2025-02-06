@@ -1,0 +1,1 @@
+eXpert Groundsegment Software Architecture at Airbus Defence and Space with a long history in the Java and JavaFX community. He received the Dukes Choice Award in 2009 and became a Java Champion in 2015.

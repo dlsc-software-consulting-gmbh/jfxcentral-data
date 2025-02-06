@@ -1476,14 +1476,18 @@
     "type": "JFX In Action",
     "platform": "Desktop",
     "domain": "Education",
-    "description": "Sven Reimers created a JavaFX-based notebook application to make it easier to learn Java and experiment with notebooks that can visualize the variables in different ways like tables and graphs.",
+    "description": "Sven Reimers created JTaccuino, a JavaFX-based notebook application to make it easier to learn Java and experiment with notebooks that can visualize the variables in different ways like tables and graphs.",
     "id": "gkHgsamCoGc",
     "minutes" : "22",
     "createdOn": "2025-02-06",
     "modifiedOn": "2025-02-06",
     "publishedOn": "2025-02-06",
     "personIds": [
+      "s.reimers",
       "f.delporte"
+    ],
+    "realworldIds": [
+      "jtaccuino"
     ]
   }
 ]

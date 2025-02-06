@@ -797,5 +797,19 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "id": "jtaccuino",
+    "name": "JTaccuino",
+    "url": "https://jtaccuino.github.io/",
+    "domain": "Education",
+    "tags": "learning, education",
+    "summary": "JavaFX based notebook application for Java developers",
+    "description": "JTaccuino is a JavaFX based notebook application for Java developers. It is built for usages in education, interactive experimentation with algorithms, and more advanced use cases.",
+    "createdOn": "2025-02-06",
+    "modifiedOn": "2025-02-06",
+    "personIds": [
+      "s.reimers"
+    ]
   }
 ]
