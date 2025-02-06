@@ -500,6 +500,11 @@ public class DataRepositoryTest {
 
                 // then
                 System.out.println(">>>>> " + lib.getId());
+                if (StringUtils.isBlank(version.get())) {
+                    System.err.println("Error with version of library " + lib.getId());
+                } else {
+                    System.out.println("Version for library " + lib.getId() + ": " + version.get());
+                }
                 assertTrue(StringUtils.isNotBlank(version.get()), "unable to retrieve artifact version for library ID " + lib.getId());
             }
         });

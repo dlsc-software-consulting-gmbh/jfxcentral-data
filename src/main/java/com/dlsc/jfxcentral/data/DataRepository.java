@@ -25,7 +25,6 @@ import com.dlsc.jfxcentral.data.model.Tutorial;
 import com.dlsc.jfxcentral.data.model.Utility;
 import com.dlsc.jfxcentral.data.model.Video;
 import com.dlsc.jfxcentral.data.pull.PullRequest;
-import com.dlsc.jfxcentral.data.util.QueryResult;
 import com.fatboyindustrial.gsonjavatime.Converters;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -37,12 +36,13 @@ import com.rometools.rome.io.XmlReader;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import org.apache.commons.lang3.StringUtils;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.*;
 import java.lang.reflect.Type;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
@@ -680,8 +680,8 @@ public class DataRepository {
         HttpURLConnection con = null;
 
         try {
-            URL url = new URL(MessageFormat.format("https://search.maven.org/solrsearch/select?q=g:{0}+AND+a:{1}", groupId, artifactId));
-
+            //URL url = new URL(MessageFormat.format("https://search.maven.org/solrsearch/select?q=g:{0}+AND+a:{1}", groupId, artifactId));
+            URL url = new URL("https://repo1.maven.org/maven2/" + groupId.replace(".", "/") + "/" + artifactId + "/maven-metadata.xml");
             con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
             con.setUseCaches(false);
@@ -696,9 +696,17 @@ public class DataRepository {
                     }
                     in.close();
 
-                    QueryResult queryResult = gson.fromJson(content.toString(), QueryResult.class);
-                    if (!queryResult.getResponse().getDocs().isEmpty()) {
-                        result.set(queryResult.getResponse().getDocs().get(0).getLatestVersion());
+                    try {
+                        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+                        DocumentBuilder builder = factory.newDocumentBuilder();
+                        Document doc = builder.parse(new InputSource(new StringReader(content.toString())));
+
+                        NodeList latestNodes = doc.getElementsByTagName("latest");
+                        if (latestNodes.getLength() > 0) {
+                            result.set(latestNodes.item(0).getTextContent());
+                        }
+                    } catch (Exception e) {
+                        System.err.println("Error parsing Maven XML response: " + e.getMessage());
                     }
                 }
             } else {

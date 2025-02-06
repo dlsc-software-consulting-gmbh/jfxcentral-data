@@ -8,6 +8,7 @@ open module jfxcentral.data {
     requires java.logging;
     requires org.commonmark;
     requires jpro.webapi;
+    requires java.xml;
 
     exports com.dlsc.jfxcentral.data;
     exports com.dlsc.jfxcentral.data.pull;
