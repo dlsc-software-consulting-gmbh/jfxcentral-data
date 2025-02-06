@@ -41,3 +41,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * New content:
   * Video: [JavaFX In Action with Sven Reimers about JTaccuino](https://www.jfx-central.com/videos/gkHgsamCoGc)
+  * People: [Sven Reimers](https://www.jfx-central.com/people/s.reimers)
+  * Showcase: [JTaccuino, JavaFX based notebook application for Java developers](https://www.jfx-central.com/real_world/jtaccuino)
