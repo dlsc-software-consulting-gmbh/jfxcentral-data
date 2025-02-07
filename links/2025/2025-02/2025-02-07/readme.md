@@ -17,7 +17,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Miscellaneous
 
 * CheerpJ is a WebAssembly-based Java Virtual Machine for the browser. [It can run games like Minecraft right in your browser](https://bsky.app/profile/leaningtech.bsky.social/post/3lhj4a3hlh222). CheerpJ 3.1 got released and [4.0 is coming](https://bsky.app/profile/leaningtech.bsky.social/post/3lhj4axc3k222): "_It's a game-changer: Java 11+ support, WebAssembly-powered JNI (run native code, think Minecraft!), Full JavaFX & SWT, Improved mobile support. No plugins, just Java!_" Definitely an interesting project to keep an eye on!
-* [**Johan Vos** shares his frustrations...](https://foojay.social/deck/@johanvos@mastodon.social/113957593859446445): "_The biggest obstacles for running JavaFX on iOS is that I have to deal with Apple stuff that really makes me angry. I would accept this from an underfunded open-source project, or from Windows 95. But from a company that gets applauded for how user friendly it is, this is unacceptable. Stuck for 30 minutes in '100% completed'. Seriously, that is what makes it hard. Not the Java or C code._"
+* [**Johan Vos** shares his frustrations...](https://mastodon.social/@johanvos/113957593797425638): "_The biggest obstacles for running JavaFX on iOS is that I have to deal with Apple stuff that really makes me angry. I would accept this from an underfunded open-source project, or from Windows 95. But from a company that gets applauded for how user friendly it is, this is unacceptable. Stuck for 30 minutes in '100% completed'. Seriously, that is what makes it hard. Not the Java or C code._"
 
 ## JFX Central
 
