@@ -6,7 +6,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 22-year-old student **Abdoulaye Wade Cissé** created a JavaFX application to provide a virtual chemistry and biology lab for students in Senegal, in schools where there is no budget for a real lab. [Read more about it in this interview](https://lnkd.in/ebVbTPxD) by **Frank Delporte**.
+* 22-year-old student **Abdoulaye Wade Cissé** created a JavaFX application to provide a virtual chemistry and biology lab for students in Senegal, in schools where there is no budget for a real lab. [Read more about it in this interview](https://webtechie.be/post/2025-02-11-interview-abdoulaye-lab-app-in-javafx/) by **Frank Delporte**.
 
 ## Podcasts, Videos, Books
 
