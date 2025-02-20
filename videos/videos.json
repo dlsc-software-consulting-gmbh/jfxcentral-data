@@ -1489,5 +1489,28 @@
     "realworldIds": [
       "jtaccuino"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Chris Newland about DemoFX and JitWatch",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "Chris Newland has a long history in Java and JavaFX development. I invited him to talk about two of his JavaFX projects: DemoFX and JITWatch. While the demos are already impressive, Chris also gives a \"crash course\" in this video about Java and Byte code and how the Just-In-Time compiler converts these to native code in the Java Virtual Machine.",
+    "id": "8s14hFLp7cI",
+    "minutes" : "18",
+    "createdOn": "2025-02-20",
+    "modifiedOn": "2025-02-20",
+    "publishedOn": "2025-02-20",
+    "personIds": [
+      "c.newland",
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "jitwatch"
+    ],
+    "toolIds": [
+      "demofx"
+    ]
   }
 ]

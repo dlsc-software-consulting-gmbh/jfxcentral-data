@@ -83,7 +83,7 @@
     "name": "binjr",
     "company": "",
     "url": "https://binjr.eu",
-    "domain": "IT / Science / Software development",
+    "domain": "IT, Science, Software development",
     "tags": "time series, visualization, monitoring, charts, logs",
     "summary": "A time series browser.",
     "description": "A time series browser; it renders time series data produced by other applications as dynamically editable charts and provides advanced features to navigate the data smoothly and efficiently (drag & drop, zoom, history, detachable tabs, advanced time-range picker).",
@@ -813,6 +813,23 @@
     ],
     "videoIds": [
       "gkHgsamCoGc"
+    ]
+  },
+  {
+    "id": "jitwatch",
+    "name": "JitWatch",
+    "url": "https://github.com/AdoptOpenJDK/jitwatch",
+    "domain": "IT, Science, Software development",
+    "tags": "developer, tools, java, performance, compilation, hotspot, compiler",
+    "summary": "Log analyser and visualiser for the HotSpot JIT compiler",
+    "description": "JITWatch is a log analyser and visualiser for the HotSpot JIT compiler. It helps you to inspect inlining decisions, hot methods, bytecode, and assembly. You can view the results in a JavaFX user interface.",
+    "createdOn": "2025-02-20",
+    "modifiedOn": "2025-02-20",
+    "personIds": [
+      "c.newland"
+    ],
+    "videoIds": [
+      "8s14hFLp7cI"
     ]
   }
 ]

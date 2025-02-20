@@ -904,5 +904,22 @@
     "id": "s.reimers",
     "createdOn": "2025-02-06",
     "modifiedOn": "2025-02-06"
+  },
+  {
+    "name": "Chris Newland",
+    "email": "",
+    "companyId": "",
+    "website": "https://chriswhocodes.com/",
+    "gitHub": "chriswhocodes",
+    "blogId": "",
+    "linkedIn": "chriswhocodes",
+    "twitter": "",
+    "bluesky": "chriswhocodes.bsky.social",
+    "mastodon": "https://mastodon.social/@chriswhocodes",
+    "champion": true,
+    "rockstar": false,
+    "id": "c.newland",
+    "createdOn": "2025-02-20",
+    "modifiedOn": "2025-02-20"
   }
 ]
