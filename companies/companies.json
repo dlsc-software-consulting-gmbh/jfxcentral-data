@@ -252,5 +252,16 @@
     "libraryIds": [
       "autumoui"
     ]
+  },
+  {
+    "id": "certak",
+    "name": "Certak",
+    "summary": "Custom Software Development.",
+    "description": "Bespoke software focused on Java & JavaFX and all-things related to the JVM.",
+    "homepage": "https://www.certak.com",
+    "tags": "software development, java, jvm, javafx, consulting, desktop",
+    "createdOn": "2025-02-25",
+    "consulting": "true",
+    "freelancing": "true"
   }
 ]
