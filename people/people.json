@@ -869,5 +869,22 @@
     ],
     "createdOn": "2024-12-12",
     "modifiedOn": "2024-12-12"
+  },
+  {
+    "name": "Cormac Redmond",
+    "email": "credmond@certak.com",
+    "companyId": "certak",
+    "website": "https://www.certak.com",
+    "gitHub": "credmond",
+    "blogId": "",
+    "linkedIn": "cormacredmond",
+    "twitter": "CormacRedmond",
+    "mastodon": "https://mastodon.social/@credmond",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "c.redmond",
+    "createdOn": "2025-02-25",
+    "modifiedOn": "2025-02-25"
   }
 ]
