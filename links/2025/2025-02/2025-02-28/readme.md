@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* A long post by **Johan Vos** on his blog: "[Java Everywhere](https://johanvos.wordpress.com/2025/02/25/java-everywhere/)" about how he sees the future of Java(FX) Mobile and building a competitor for Android and iOS with YouStore: "_In this post, I’ll discuss my thoughts about a developer-driven approach to a store model, and since I am aware this is not a trivial thing to achieve, I lay out my second-best option, which is how to better support and maintain Java on mobile devices._"
 
 ## SceneBuilder
 
@@ -36,6 +36,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Miscellaneous
 
 * "[Why use JavaFX in 2025?](https://www.theserverside.com/tip/Why-use-JavaFX)" by **Frank Delporte** on TheServerSide: "_As a modern GUI framework, JavaFX is alive and kicking with a very broad community and many active projects. Here are some resources to deepen your knowledge and spark inspiration._"
+* [**Hallvard Trætteberg** on Bluesky](https://bsky.app/profile/hallvard.bsky.social/post/3lizpb23qek2d): "_In a recent post about my Sokoban, a JavaFX project on GitHub, I complained about build problems with Android. **Frank Delporte** pointed me to [an issue on gluonfx-maven-plugin](https://github.com/gluonhq/gluonfx-maven-plugin/issues/518) where **Johan Vos** explained the situation about the archival of vmone. I've now moved back to v1.0.23 and the build works again!_"
 
 ## JFX Central
 
