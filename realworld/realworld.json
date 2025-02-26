@@ -831,5 +831,24 @@
     "videoIds": [
       "8s14hFLp7cI"
     ]
+  },
+  {
+    "id": "kafkio",
+    "name": "KafkIO",
+    "company": "Certak",
+    "url": "https://www.kafkio.com",
+    "domain": "Software development",
+    "tags": "kafka, client, apache, brokers, schema, confluent, messaging, offsets, ksqldb, connect, avien",
+    "summary": "A Fast, Intuitive and Free Kafka Client For Mac, Windows and Linux.",
+    "description": "The Fast, Intuitive Apache Kafka™ GUI, for Engineers and Administrators with support for Confluent Schema Registry, Kafka Connect & ksqlDB. Fully manage ACLs, topics, consumers, schemas, connectors, and ksqlDB streams and tables. Easily produce messages, search/stream messages, tweak consumer offsets, dump topics to disk, create Avro/Protobuf/JSON schemas, stop/start/pause connectors, execute KSQL in the KSQL editor, and much more.",
+    "createdOn": "2025-02-25",
+    "modifiedOn": "2025-02-25",
+    "location": "Ireland",
+    "personIds": [
+      "c.redmond"
+    ],
+    "companyIds": [
+      "certak"
+    ]
   }
 ]
