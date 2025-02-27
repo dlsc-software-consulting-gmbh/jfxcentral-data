@@ -23,7 +23,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* In the following ["JavaFX In Action" interview, **Cormac Redmond** talks about KafkIO](https://www.youtube.com/watch?v=4qkflNl1ivA): "_It's a beautiful user interface for interacting with Kafka clusters, reading and producing messages, and much more. Above all, it's free and created with Java and JavaFX!_" More info [in this blog post](https://webtechie.be/post/2025-02-27-jfxinaction-cormac-redmond-kafkio/).
 
 ## Conferences
 
@@ -44,3 +44,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * Showcase: [KafkIO](https://www.jfx-central.com/showcases/kafkio)
   * People: [Cormac Redmond](https://www.jfx-central.com/people/c.redmond)
   * Company: [Certak](https://www.jfx-central.com/companies/certak)
+  * Video: [JavaFX In Action with Cormac Redmond about KafkIO](https://www.jfx-central.com/videos/4qkflNl1ivA)

@@ -1512,5 +1512,28 @@
     "toolIds": [
       "demofx"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Cormac Redmond about KafkIO",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "KafkIO is designed for easy, fast, and enjoyable use. It only takes a few clicks before you’re exploring your Kafka clusters. No web servers, configuration files, clunky installation, Docker, or funky licensing! You can seamlessly create/edit/delete/dump/clear topics, produce messages, advanced search and streaming with text, offset, and date range criteria, tweak offsets, delete consumers, and browse/create/update schemas. Easily manage access control lists (ACLs). View your data in a variety of ways. Manage Kafka Connect connectors and ksqlDB (with a flexible KSQL editor). Troubleshoot issues with a clear view of the broker, topic, ksqlDB, connector, and consumer configuration, with live statistics such as partition skew, out-of-sync replicas, consumer lag, etc.",
+    "id": "4qkflNl1ivA",
+    "minutes" : "32",
+    "createdOn": "2025-02-27",
+    "modifiedOn": "2025-02-27",
+    "publishedOn": "2025-02-27",
+    "personIds": [
+      "c.redmond",
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "kafkio"
+    ],
+    "companyIds": [
+      "certak"
+    ]
   }
 ]
