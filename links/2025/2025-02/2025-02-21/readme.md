@@ -28,6 +28,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * New content on JFX Central:
   * People: [Chris Newland](https://www.jfx-central.com/people/c.newland)
-  * Tools: [DemoFX](https://www.jfx-central.com/tools/demofx)
-  * Showcase: [JitWatch](https://www.jfx-central.com/real_world/jitwatch)
+  * Tools: [DemoFX, performance test platform for JavaFX](https://www.jfx-central.com/tools/demofx)
+  * Showcase: [JitWatch, log analyser and visualiser for the HotSpot JIT compiler](https://www.jfx-central.com/real_world/jitwatch)
   * Video: [JavaFX In Action with Chris Newland about DemoFX and JitWatch](https://www.jfx-central.com/videos/8s14hFLp7cI)

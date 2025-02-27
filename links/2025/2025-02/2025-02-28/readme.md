@@ -41,7 +41,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * New content:
-  * Showcase: [KafkIO](https://www.jfx-central.com/showcases/kafkio)
+  * Showcase: [KafkIO, A Fast, Intuitive and Free Kafka Client For Mac, Windows and Linux.](https://www.jfx-central.com/showcases/kafkio)
   * People: [Cormac Redmond](https://www.jfx-central.com/people/c.redmond)
   * Company: [Certak](https://www.jfx-central.com/companies/certak)
   * Video: [JavaFX In Action with Cormac Redmond about KafkIO](https://www.jfx-central.com/videos/4qkflNl1ivA)
