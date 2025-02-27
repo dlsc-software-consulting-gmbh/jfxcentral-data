@@ -2,7 +2,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* A long post by **Johan Vos** on his blog: "[Java Everywhere](https://johanvos.wordpress.com/2025/02/25/java-everywhere/)" about how he sees the future of Java(FX) Mobile and building a competitor for Android and iOS with YouStore: "_In this post, I’ll discuss my thoughts about a developer-driven approach to a store model, and since I am aware this is not a trivial thing to achieve, I lay out my second-best option, which is how to better support and maintain Java on mobile devices._"
+* Two long blog posts by **Johan Vos**:
+  * "[Java Everywhere](https://johanvos.wordpress.com/2025/02/25/java-everywhere/)" about how he sees the future of Java(FX) Mobile and building a competitor for Android and iOS with YouStore: "_In this post, I’ll discuss my thoughts about a developer-driven approach to a store model, and since I am aware this is not a trivial thing to achieve, I lay out my second-best option, which is how to better support and maintain Java on mobile devices._"
+  * "[Building OpenJFX using JDK](https://johanvos.wordpress.com/2025/02/27/building-openjfx-using-jdk/)" about building different versions of OpenJDK for different platforms: "_OpenJFX and OpenJDK/Mobile use a different build system. In an effort to simplify build complexity, and focus more on code, I am experimenting with using a single build system for OpenJFX and OpenJDK/Mobile. It turns out that the build system used by the JDK project does a great job for this._"
 
 ## SceneBuilder
 
