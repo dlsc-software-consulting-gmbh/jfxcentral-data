@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**JabRef** is excited](https://foojay.social/@jabref/114082584649148423): "_Once again, we get the chance to be part of the outstanding Google Summer of Code program! We are looking forward to some high-quality projects that benefit our large user base. You are interested in Java, JavaFX, and opensource and want to work on a project with a large user base? Check out [our application guide](https://summerofcode.withgoogle.com/programs/2025/organizations/jabref-ev)._"
 
 ## Games
 
