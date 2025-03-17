@@ -10,7 +10,6 @@ public class Person extends ModelObject {
     private String website;
     private String blogId;
     private String linkedIn;
-    private String twitter;
     private String gitHub;
     private String mastodon;
     private String bluesky;
@@ -67,14 +66,6 @@ public class Person extends ModelObject {
 
     public void setLinkedIn(String linkedIn) {
         this.linkedIn = linkedIn;
-    }
-
-    public String getTwitter() {
-        return twitter;
-    }
-
-    public void setTwitter(String twitter) {
-        this.twitter = twitter;
     }
 
     public String getGitHub() {

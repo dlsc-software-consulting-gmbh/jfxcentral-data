@@ -146,7 +146,7 @@ Follow these instructions for the different types of data:
 1. Add an entry to the file `people/people.json`, create a unique `ID` in the entry.
 2. Create a new directory inside the `people` directory with the name equal to the `ID` field you created in the previous step (e.g.: ID = `d.lemmermann` -> `people/d.lemmermann`).
 3. To the directory created in step 2: add an image file called `photo.jpeg` with the person's photo (ideally download the LinkedIn profile photo, it has the right format and size).
-4. To the directory created in step 2: add a file called `readme.md` and add a short bio about the person (I copied the Twitter bios by default).
+4. To the directory created in step 2: add a file called `readme.md` and add a short bio about the person.
 5. If the person entry inside the file `people/people.json` references other entities (for example a library) then make sure to also add those to the repository.
 
 ### Adding a Library

@@ -102,7 +102,7 @@
     "name": "BootstrapFX",
     "summary": "Bootstrap for JavaFX",
     "tags": "bootstrap, custom controls, web",
-    "description": "BootstrapFX is a partial port of Twitter Bootsrap for JavaFX.",
+    "description": "BootstrapFX is a partial port of Twitter Bootstrap for JavaFX.",
     "documentation": "https://github.com/kordamp/bootstrapfx/#readme",
     "repository": "https://github.com/kordamp/bootstrapfx",
     "license": "MIT",

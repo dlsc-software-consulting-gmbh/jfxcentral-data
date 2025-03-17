@@ -6,7 +6,6 @@ public class Member extends ModelObject {
     private String email;
     private String website;
     private String linkedIn;
-    private String twitter;
     private String gitHub;
     private String mastodon;
     private String bluesky;
@@ -46,14 +45,6 @@ public class Member extends ModelObject {
 
     public void setLinkedIn(String linkedIn) {
         this.linkedIn = linkedIn;
-    }
-
-    public String getTwitter() {
-        return twitter;
-    }
-
-    public void setTwitter(String twitter) {
-        this.twitter = twitter;
     }
 
     public String getGitHub() {
