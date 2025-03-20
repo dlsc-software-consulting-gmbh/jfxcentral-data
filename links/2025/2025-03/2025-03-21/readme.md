@@ -45,7 +45,7 @@ $ sdk list java | grep 24.fx
 
 ## Miscellaneous
 
-*
+* [Interview published on Foojay with Abdoulaye Wade Cissé](https://foojay.io/today/interview-with-abdoulaye-wade-cisse-using-a-javafx-application-as-a-virtual-chemistry-and-biology-lab/): "_Using a JavaFX application as a virtual chemistry and biology lab_" Students in Senegal created a project to provide a virtual-laboratory-as-software when the resources are not available for a physical lab.
 
 ## JFX Central
 
