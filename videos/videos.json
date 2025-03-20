@@ -1535,5 +1535,21 @@
     "companyIds": [
       "certak"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Brian Schlining: Annotating the Deep-Sea Wildlife",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Research",
+    "description": "Brian has a dream job! He is responsible for a complex system that allows scientific researchers to research the animals living in the deep sea. He provides them with the tools to annotate videos and images made by submarines diving thousands of meters deep in the oceans. While he works on this software, he gets to know all the amazing creatures living in this mysterious world.",
+    "id": "W9cs44DHIlA",
+    "minutes" : "27",
+    "createdOn": "2025-03-20",
+    "modifiedOn": "2025-03-20",
+    "publishedOn": "2025-03-20",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
