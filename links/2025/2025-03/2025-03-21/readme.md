@@ -4,7 +4,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * This week, OpenJDK and OpenJFX 24 were released! Check the [release notes of FX 24 here](https://github.com/openjdk/jfx/blob/jfx24/doc-files/release-notes-24.md): "_These release notes cover the standalone JavaFX 24 release. JavaFX 24 requires JDK 22 or later. JDK 24 is recommended._" Downloads are available on the [Gluon website](https://gluonhq.com/products/javafx/), or you can install bundles which include JavFX with [SDKMAN!](https://sdkman.io/):
   * `$ sdk list java | grep 24.fx`
-  * `24.fx-librca       
+  * `24.fx-librca`
   * `24.fx-zulu`
 * [**Ted M. Young** is asking for feedback](https://bsky.app/profile/ted.dev/post/3lkoaotxktk2x): "_JavaFX now has a Rich Text Area Control in incubation in 24 aimed at displaying formatted text. It supports a pluggable code syntax highlighter. Make sure to try it out and provide feedback!_"
 
