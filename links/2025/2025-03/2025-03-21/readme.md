@@ -9,11 +9,8 @@ $ sdk list java | grep 24.fx
  Liberica      | 24.fx-librca        
  Zulu          | 24.fx-zulu
 ```
+
 * [**Ted M. Young** is asking for feedback](https://bsky.app/profile/ted.dev/post/3lkoaotxktk2x): "_JavaFX now has a Rich Text Area Control in incubation in 24 aimed at displaying formatted text. It supports a pluggable code syntax highlighter. Make sure to try it out and provide feedback!_"
-
-## SceneBuilder
-
-* 
 
 ## Applications
 
@@ -23,10 +20,6 @@ $ sdk list java | grep 24.fx
 * [**Sean Phillips** shared screenshots](https://bsky.app/profile/seanmiphillips.bsky.social/post/3lkluwaxa7c2b): "_New Trinity XAI feature 'Hyperdrive' helps users import text and images, convert to embeddings, caption and label using local and remote hosted multimodal LLMs all in batch. Proof of fake life... bulk embedding vector and label selection for AI generated deep fakes of human faces._"
 * [**Alessandro Parisi** is working on FeedFX](https://github.com/palexdev/FeedFX): "_FeedFX is a desktop application built with Java and JavaFX that allows users to read and store RSS feeds from multiple sources. A key feature of FeedFX is its ability to categorize feeds using tags, making it easy to filter and organize content based on user preferences._"
 
-## Games
-
-* 
-
 ## Components, Libraries, Tools
 
 * **Dumilde Paulo Fernando** is [working on Jamba UI](https://github.com/DumiJDev/jamba-ui): "_It's a modular Java-based UI framework built in my free time to empower developers with a lightweight, rapid, and enjoyable way to create desktop applications. Inspired by the simplicity of Spring Boot and the speed of Vaadin, this framework is designed to make UI development fun and hassle-free._"
@@ -34,10 +27,6 @@ $ sdk list java | grep 24.fx
 ## Podcasts, Videos, Books
 
 * A new JavaFX In Action interview was published by **Frank Delporte**: "_**Brian Schlining** has a dream job! He is responsible for a complex system at the Monterey Bay Aquarium Research Institute (MBARI) that allows scientific researchers to research animals in the deep sea. He provides them with the tools to annotate videos and images made by submarines diving thousands of meters deep in the oceans. While he works on this software, he gets to know all the amazing creatures living in this mysterious world._" Check the [video on YouTube](https://www.youtube.com/watch?v=W9cs44DHIlA) or read more [in this blog post](https://webtechie.be/post/2025-03-20-jfxinaction-brian-schlining-annotating-deep-sea/).
-
-## Conferences
-
-*
 
 ## Tutorials
 
