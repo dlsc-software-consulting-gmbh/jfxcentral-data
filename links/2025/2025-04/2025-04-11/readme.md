@@ -2,6 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
+* [Slides from the presentation "JavaFX 24 and Beyond"](https://cr.openjdk.org/~kcr/presentations/javaone-2025/JavaFX-24-Final.pdf) by **Kevin Rushforth** at JavaOne, March 18th, 2025.
 * [ApiDoc of JavaFX 24](https://apidia.net/mvn/org.openjfx/javafx/24/) is available on [APIdia](https://bsky.app/profile/apidia.net), a growing collection of high-quality APIdocs, interlinked, without tracking.
   * [**Stefan Richthofer** shares a screenshot](https://bsky.app/profile/stewori.bsky.social/post/3lloo6w6ixc25): "_APIdia JavaFX 24 docs do now include the incubating modules, but you have to adjust visibility settings to see them._"
 * [**Johan Vos** on Mastodon](https://mastodon.social/@johanvos/114239659224933655): "_I'm still working on consolidation of JDK build with OpenJFX sources. Here is a [post describing my progress and a suggestion](https://johanvos.wordpress.com/2025/03/27/building-a-jdk-including-openjfx-part-2/). TLDR: I added a `--with-openjfx-modules=/path/to/openjfx` configure option for the JDK. Key goal is not to make JDK build system harder to maintain. I'll be honest about this. It's hard work, requires diving into very different low-level things, and in the end, JavaFX developers won't see anything from this work. But I believe I have to do this, as it is vital to JavaFX._"
