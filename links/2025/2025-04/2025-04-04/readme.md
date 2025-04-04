@@ -10,11 +10,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-* Live stream step-by-step in Korean - with CC 😉 - by **알클 ALOHA CLASS** in which he creates an application with SceneBuilder and FXML: [JavaFX - Controller](https://www.youtube.com/watch?v=S01AemsDXew)
+* Live stream step-by-step in Korean - with CC 😉 - by  **알클 ALOHA CLASS** in which he creates an application with SceneBuilder and FXML: [JavaFX - Controller](https://www.youtube.com/watch?v=S01AemsDXew).
 
 ## Tutorials
 
-* By **Codez Up**: [JavaFX: Build Modern Desktop Applications Easily](https://codezup.com/javafx-creating-modern-desktop-applications/)
+* By **Codez Up**: [JavaFX: Build Modern Desktop Applications Easily](https://codezup.com/javafx-creating-modern-desktop-applications/).
 * By **Sounetra Ghosal**: [How To Use JavaFX For GUI Development?](https://codingzap.com/javafx-for-gui-development/)
 
 ## Miscellaneous
