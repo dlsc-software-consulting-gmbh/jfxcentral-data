@@ -27,7 +27,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* **Frank Delporte** [interviewed **Gerrit Grunwald (aka hansolo)** for the JavaFX In Action series](): "_Gerrit created many JavaFX libraries and blog posts. I wanted to talk with him about his work with JavaFX, but I also learned more about SVGs and how the garbage collectors in the JVM are working, thanks to the amazing visualizations he creates with ... JavaFX of course._"
 
 ## Conferences
 
@@ -35,7 +35,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* **Frank Delporte** always forgets "_how to create a JavaFX ComboBox and configure it to show a specific field of an object in the opened and closed state of the ComboBox_" and [wrote a tutorial](https://webtechie.be/post/2025-04-09-javafx-combobox-with-objects/) "_hoping I remember that I blogged about it, the next time I need this functionality_".
 
 ## Miscellaneous
 
@@ -43,5 +43,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content:
+  * Video: []()
 

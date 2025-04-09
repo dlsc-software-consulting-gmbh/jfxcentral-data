@@ -1551,5 +1551,35 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Gerrit Grunwald: Creator of Many Amazing JavaFX Libraries",
+    "tags": "JFXInAction, javafx, libraries",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Libraries",
+    "description": "Gerrit Grunwald created many JavaFX libraries and blog posts. In this video he talks about his work with JavaFX, but also explains how the garbage collectors in the JVM are working, thanks to the amazing visualizations he created with... JavaFX, of course.",
+    "id": "6pgHlHLrX8c",
+    "minutes" : "31",
+    "createdOn": "2025-04-10",
+    "modifiedOn": "2025-04-10",
+    "publishedOn": "2025-04-10",
+    "personIds": [
+      "g.grunwald",
+      "f.delporte"
+    ],
+    "bookIds": [
+      "jfx9byexample"
+    ],
+    "blogIds": [
+      "foojay",
+      "harmoniccode"
+    ],
+    "downloadIds": [
+      "spacefx",
+      "tilesfx",
+      "jdkmon",
+      "glucostatusfx"
+    ]
   }
 ]
