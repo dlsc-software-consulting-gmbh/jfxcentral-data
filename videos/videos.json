@@ -1580,6 +1580,19 @@
       "tilesfx",
       "jdkmon",
       "glucostatusfx"
+    ],
+    "libraryIds": [
+      "harmonicfx",
+      "tilesfx",
+      "medusa",
+      "charts",
+      "countries"
+    ],
+    "tutorialIds": [
+      "fxdocs"
+    ],
+    "companyIds": [
+      "azul"
     ]
   }
 ]

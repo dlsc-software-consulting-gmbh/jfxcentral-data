@@ -44,5 +44,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * New content:
-  * Video: []()
+  * Video: [JavaFX In Action with Gerrit Grunwald: Creator of Many Amazing JavaFX Libraries](https://www.jfx-central.com/videos/6pgHlHLrX8c)
 
