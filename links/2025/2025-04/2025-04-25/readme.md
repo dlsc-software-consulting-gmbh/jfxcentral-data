@@ -19,7 +19,12 @@ The [slides (German only) from the talk are available online](https://www.dante.
 
 ## Components, Libraries, Tools
 
-*
+* A new library by **Alan Decunto**: "_[Language Manager](https://github.com/Snoopy137/language-manager) is a JavaFX library that enables dynamic language switching at runtime, allowing you to update the application language without needing to refresh the scene._":
+  * 🌍 Support for multiple languages using standard .properties files.
+  * 🔄 Change language on the fly without reloading scenes.
+  * 🔗 Automatic binding for Label, Button, TextField, and other controls using @FXML ids.
+  * ⚙️ Custom annotations to ignore specific fields from auto-binding.
+  * 📦 Lightweight and easy to integrate.
 
 ## Podcasts, Videos, Books
 
