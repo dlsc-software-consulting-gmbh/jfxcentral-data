@@ -971,7 +971,9 @@ public class DataRepositoryTest {
                     int responseCode = huc.getResponseCode();
                     System.out.println("response: " + responseCode);
 
-                    assertEquals(HttpURLConnection.HTTP_OK, responseCode, "checked url: " + url.toExternalForm());
+                    var returnCodeIsOk = responseCode == HttpURLConnection.HTTP_OK
+                            || responseCode == 429; // Sometimes https://fxgl.itch.io returns 429 (Too Many Requests)
+                    assertTrue(returnCodeIsOk, "checked url: " + url.toExternalForm());
                 } catch (MalformedURLException ex) {
                     fail("url was invalid, url = " + externalizedUrl);
                 } catch (IOException e) {
