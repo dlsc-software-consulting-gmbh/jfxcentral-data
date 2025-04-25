@@ -38,18 +38,6 @@ The [slides (German only) from the talk are available online](https://www.dante.
 
 * [Live stream with **Dashaun Carter** and **Catherine Edelveis**](https://www.youtube.com/watch?v=IxCfpxxS88w): "_Who said that desktop apps are dead? We prove them wrong! 🥊 We explore the world of rich and smart GUI apps that combine the powers of JavaFX and SpringBoot._"
 
-## Conferences
-
-*
-
 ## Tutorials
 
 * [Blog by **Catherine Edelveis** on Foojay](https://foojay.io/today/a-guide-to-creating-javafx-native-images/): "_A Guide to Creating JavaFX Native Images_"
-
-## Miscellaneous
-
-*
-
-## JFX Central
-
-* 
