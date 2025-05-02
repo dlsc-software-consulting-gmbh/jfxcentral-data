@@ -20,7 +20,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-* [The state and future of Java desktop application development](https://www.theserverside.com/tip/The-state-and-future-of-Java-desktop-application-development) by **Lofi Dewanto**= "_In today's world of web application development and SaaS, what does the future hold for Java desktop applications? It's brighter than you might think._"
+* [The state and future of Java desktop application development](https://www.theserverside.com/tip/The-state-and-future-of-Java-desktop-application-development) by **Lofi Dewanto**: "_In today's world of web application development and SaaS, what does the future hold for Java desktop applications? It's brighter than you might think._"
 
 ## JFX Central
 
