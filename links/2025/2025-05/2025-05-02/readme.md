@@ -36,8 +36,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* https://app.daily.dev/posts/lwhGPz4Lr
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * Libraries: [Language Manager](https://www.jfx-central.com/libraries/language-manager), update your FX application locale at runtime without reloading the scene.
