@@ -1243,9 +1243,7 @@
     "name": "Language Manager",
     "summary": "Update your FX application locale at runtime without reloading the scene",
     "tags": "locale, language, translate, translation",
-    "description": "Support for multiple languages using standard .properties files.
-Change language dynamically at runtime — no need to reload the scene.
-Automatic binding for JavaFX controls such as Label, Button, TextField, CheckBox, RadioButton, ChoiceBox, ComboBox, MenuItem, and more.",
+    "description": "Support for multiple languages using standard properties-files. Change language dynamically at runtime, no need to reload the scene. Automatic binding for JavaFX controls such as Label, Button, TextField, CheckBox, RadioButton, ChoiceBox, ComboBox, MenuItem, and more.",
     "documentation": "https://github.com/Snoopy137/language-manager?tab=readme-ov-file#language-manager",
     "repository": "https://github.com/Snoopy137/language-manager",
     "license": "MIT",
@@ -1255,8 +1253,8 @@ Automatic binding for JavaFX controls such as Label, Button, TextField, CheckBox
     "githubProject": "language-manager",
     "readme": "README.md",
     "issueTracker": "https://github.com/snoopy137/language-manager/issues",
-    "createdOn": "2025-06-04",
-    "modifiedOn": "2025-01-05",
+    "createdOn": "2025-05-01",
+    "modifiedOn": "2025-05-01",
     "groupId": "io.github.snoopy137",
     "artifactId": "language-manager",
     "logoAvailable": "false",
