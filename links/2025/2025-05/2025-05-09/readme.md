@@ -1,0 +1,41 @@
+Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
+
+## Core
+
+* 
+
+## SceneBuilder
+
+* 
+
+## Applications
+
+* 
+
+## Games
+
+* 
+
+## Components, Libraries, Tools
+
+*
+
+## Podcasts, Videos, Books
+
+* In Foojay Podcast #71, **James Gosling**, the "father of Java" has this message to share: "_[JavaFX is one of my favorite things of all times](https://youtu.be/6iP376VwcjY?si=xeH6fqA-3BzCO2ea&t=1454)._"
+
+## Conferences
+
+*
+
+## Tutorials
+
+*
+
+## Miscellaneous
+
+*
+
+## JFX Central
+
+* The overview of the Links Of The Week of April was [published on Foojay](https://foojay.io/today/javafx-links-of-april-2025/).
