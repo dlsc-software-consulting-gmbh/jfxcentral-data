@@ -38,4 +38,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
+* New content on JFX Central:
+  * Library: [TabShell](https://www.jfx-central.com/libraries/tabshell) for building tab-based applications providing customizable, ready-to-use components.
 * The overview of the Links Of The Week of April was [published on Foojay](https://foojay.io/today/javafx-links-of-april-2025/).
