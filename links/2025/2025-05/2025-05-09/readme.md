@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Cormac Redmond** announced version 1.2.1](◊) of [KafkIO](http://kafkio.com): "_Better IPV6 support, better OAUTHBEARER support, improved error information, improved Hex viewer, and now with a Hex serde -- easily produce binary messages!_"
 
 ## Games
 
@@ -18,7 +18,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* Screencast by JDeploy: [Using new JavaFX Project Template](https://jdeploy.substack.com/p/screencast-using-new-javafx-project): "_From Zero to a published JavaFX Desktop app in under 2 minutes._"
 
 ## Podcasts, Videos, Books
 
@@ -34,7 +34,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* [**Michiel** published](https://foojay.social/@michiel/114448405866930490) his first two opensource simple JavaFX projects on GitHub:
+  * [The NOP (no operation) Android app](https://www.dotjava.nl/2025/05/03/example-javafx-mobile-app-with-and-without-gluon/): "_It is a skeleton to use for new mobile applications and all those apps should have a proper exit function, so this Nop app does nothing but exit nicely._"
+  * [Simple Icelandic Euro to Krónas converter](https://github.com/michiel-jfx/iceconverter): "_This mobile phone application uses 100% Java and JavaFX with FXML to create a simple krónas to euro conversion app and vice versa._"
 
 ## JFX Central
 
