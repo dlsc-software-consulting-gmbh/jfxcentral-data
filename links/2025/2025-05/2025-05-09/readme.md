@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* [**Cormac Redmond** announced version 1.2.1](◊) of [KafkIO](http://kafkio.com): "_Better IPV6 support, better OAUTHBEARER support, improved error information, improved Hex viewer, and now with a Hex serde -- easily produce binary messages!_"
+* [**Cormac Redmond** announced version 1.2.1](https://mastodon.social/@credmond/114452411842991361) of [KafkIO](http://kafkio.com): "_Better IPV6 support, better OAUTHBEARER support, improved error information, improved Hex viewer, and now with a Hex serde -- easily produce binary messages!_"
 * **Javier Llorente** announced [V1.0.0 of OBS FX](https://github.com/javierllorente/obsfx): "_OBS FX is a basic JavaFX-based Open Build Service client. It uses the the jOBS library to consume the OBS REST API._"
 
 ## Components, Libraries, Tools
