@@ -1,21 +1,9 @@
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-## Core
-
-* 
-
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * [**Cormac Redmond** announced version 1.2.1](◊) of [KafkIO](http://kafkio.com): "_Better IPV6 support, better OAUTHBEARER support, improved error information, improved Hex viewer, and now with a Hex serde -- easily produce binary messages!_"
 * **Javier Llorente** announced [V1.0.0 of OBS FX](https://github.com/javierllorente/obsfx): "_OBS FX is a basic JavaFX-based Open Build Service client. It uses the the jOBS library to consume the OBS REST API._"
-
-## Games
-
-* 
 
 ## Components, Libraries, Tools
 
@@ -23,15 +11,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-* In Foojay Podcast #71, **James Gosling**, the "father of Java" has this message to share: "_[JavaFX is one of my favorite things of all time. That crew has done such a great work, even after Oracle basically disowned them](https://youtu.be/6iP376VwcjY?si=xeH6fqA-3BzCO2ea&t=1454)._"
-
-## Conferences
-
-*
+* In Foojay Podcast #71, **James Gosling**, the father of Java, has this message to share: "_[JavaFX is one of my favorite things of all time. That crew has done such a great work, even after Oracle basically disowned them](https://youtu.be/6iP376VwcjY?si=xeH6fqA-3BzCO2ea&t=1454)._"
 
 ## Tutorials
 
-*
+* From **Codez Up**: [Building Scalable Desktop Applications with JavaFX: A Step-by-Step Guide](https://codezup.com/building-scalable-desktop-applications-with-javafx-guide/).
 
 ## Miscellaneous
 
