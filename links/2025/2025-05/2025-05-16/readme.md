@@ -3,7 +3,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Applications
 
 * [**Sean Phillips** shared](https://bsky.app/profile/did:plc:sjb6gynmpo4rrf7akqedrkvo/post/3loynfomte22n) a link to the [sources of CocoAnnotationViewer](https://github.com/trinity-xai/CocoAnnotationViewer): "_Standalone JavaFX viewer for COCO annotations. Supports Bounding Boxes and Segmentation Polygons. Includes drag and drop support for annotation JSON files with Jackson based Serialization support._"
-
 * **Andrea Vacondio** posted on Foojay "[Building Autopo: An AI-powered Open Source Application to Manage .po Files](https://foojay.io/today/building-autopo-an-ai-powered-open-source-application-to-manage-po-files/)": "_In this article , I’ll walk you through the journey that led me to create Autopo, a free and open source JavaFX desktop tool for managing .po files and with AI-powered features to translate and validate .po entries._"
 
 ## Podcasts, Videos, Books
