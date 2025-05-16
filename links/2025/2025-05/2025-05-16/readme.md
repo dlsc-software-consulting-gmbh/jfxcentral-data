@@ -9,7 +9,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Podcasts, Videos, Books
 
 * **Matt Coley** published "[Drawing OpenGL to JavaFX](https://www.youtube.com/watch?v=zf7g-EPNqdU)": "_Ever try and put OpenGL stuff into a JavaFX scene? I have and was kinda disappointed by the built-in offerings, so I made a simple double-buffered canvas. I also recently saw a comment about Shaders in JavaFX and also demonstrated that at the end too 🎨._"
-* Student management app by **Flossing Q**: [part 1](https://www.youtube.com/watch?v=PoPmg20e-5Y), [part 2](), and [part 3](https://www.youtube.com/watch?v=WqgInkEsCXQ).
+* Student management app by **Flossing Q**: [part 1](https://www.youtube.com/watch?v=PoPmg20e-5Y), [part 2](https://www.youtube.com/watch?v=OcngkenAP20), and [part 3](https://www.youtube.com/watch?v=WqgInkEsCXQ).
 
 ## Conferences
 
