@@ -852,5 +852,18 @@
     "videoIds": [
       "4qkflNl1ivA"
     ]
+  },
+  {
+    "id": "glucostatusfx",
+    "name": "GlucoStatusFX",
+    "tags": "glucostatusfx, tools, diabetes, nightscout",
+    "url": "https://github.com/HanSolo/glucostatusfx",
+    "summary": "A glucose status monitor for Nightscout implemented in JavaFX.",
+    "description": "A glucose status monitor for Nightscout implemented in JavaFX. GlucoStatusFX is optimized for Macos but will also run on Windows and Linux.",
+    "createdOn": "2025-05-23",
+    "modifiedOn": "2025-05-23",
+    "personIds": [
+      "g.grunwald"
+    ]
   }
 ]

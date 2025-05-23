@@ -477,63 +477,6 @@
     ]
   },
   {
-    "id": "glucostatusfx",
-    "name": "GlucoStatusFX",
-    "tags": "glucostatusfx, tools, diabetes, nightscout",
-    "summary": "A glucose status monitor for Nightscout implemented in JavaFX.",
-    "description": "A glucose status monitor for Nightscout implemented in JavaFX. GlucoStatusFX is optimized for Macos but will also run on Windows and Linux.",
-    "downloadType": "APPLICATION",
-    "personIds": [
-      "g.grunwald"
-    ],
-    "createdOn": "2022-02-18",
-    "modifiedOn": "2023-11-28",
-    "files": [
-      {
-        "name": "MSI Installer (Windows Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/21.0.0/GlucoStatusFX-21.0.0.msi",
-        "fileName": "",
-        "package": "MSI"
-      },
-      {
-        "name": "PKG Installer (Mac Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/21.0.0/GlucoStatusFX-21.0.0.pkg",
-        "fileName": "",
-        "package": "PKG"
-      },
-      {
-        "name": "PKG Installer (Mac ARM64)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/21.0.0/GlucoStatusFX-21.0.0-aarch64.pkg",
-        "fileName": "",
-        "package": "PKG"
-      },
-      {
-        "name": "DEB Installer (Linux Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/21.0.0/glucostatusfx_21.0.0_amd64.deb",
-        "fileName": "",
-        "package": "DEB"
-      },
-      {
-        "name": "RPM Installer (Linux Intel)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/21.0.0/glucostatusfx-21.0.0-1.x86_64.rpm",
-        "fileName": "",
-        "package": "RPM"
-      },
-      {
-        "name": "DEB Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/21.0.0/glucostatusfx_21.0.0_arm64.deb",
-        "fileName": "",
-        "package": "DEB"
-      },
-      {
-        "name": "RPM Installer (Linux ARM64)",
-        "url": "https://github.com/HanSolo/glucostatusfx/releases/download/21.0.0/glucostatusfx-21.0.0-1.aarch64.rpm",
-        "fileName": "",
-        "package": "RPM"
-      }
-    ]
-  },
-  {
     "id": "binjr",
     "name": "binjr",
     "tags": "time series, visualization, monitoring, charts, logs",

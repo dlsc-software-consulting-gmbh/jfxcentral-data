@@ -15,6 +15,8 @@ In the lower part of the main window you see a chart showing the blood glucose v
 The area that you have defined for the normal range (default 70 mg/dl - 140 mg/dl) will be visualized as a green area. The area defined by the acceptable low and acceptable high
 values will be visualized by yellow lines. In addition the current average glucose value will be shown as a dotted line in the chart.
 
+![](MainWindow.png)
+
 In addition you will find 4 icons in the corners of the upper part of the app. The upper left icon will show you a matrix with the average values of the last 30 days colored by
 the actual average. If you click on a circle it will show the average value for the selected day for 3 seconds and then jump back to the date.
 The icon in the lower left corner will show you a pattern based on the values of the last week. The line in the chart shows the aggregated values for each hour of the day of all
@@ -60,3 +62,10 @@ The max normal value can be defined in the range of 120-160 mg/dl.
 **"Max acceptable"**
 The max acceptable value can be defined in the range of 120-250 mg/dl.
 
+![](InRange.png)
+
+![](Matrix.png)
+
+![](Pattern.png)
+
+![](Settings.png)
