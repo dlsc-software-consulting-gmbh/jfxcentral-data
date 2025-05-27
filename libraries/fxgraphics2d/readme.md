@@ -1,8 +1,7 @@
 # FXGraphics2D
 
 FXGraphics2D is an implementation of Java's `Graphics2D` API that targets the JavaFX `Canvas`. It makes it possible to
-reuse existing Java2D code in a JavaFX application. The code has been developed for the use of **Orson Charts
-** (http://www.object-refinery.com/orsoncharts/) and **JFreeChart** (http://www.jfree.org/jfreechart). Numerous demos
+reuse existing Java2D code in a JavaFX application. The code has been developed for the use of [Orson Charts](https://github.com/jfree/orson-charts "Orson Charts Project Page at GitHub") and [JFreeChart](https://github.com/jfree/jfreechart "JFreeChart Project Page at GitHub"). Numerous demos
 can be found in the [JFree-FXDemos](https://github.com/jfree/jfree-fxdemos "JFree-FXDemos Project Page at GitHub")
 project page at GitHub.
 
