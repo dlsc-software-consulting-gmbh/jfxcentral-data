@@ -1578,7 +1578,9 @@
     "downloadIds": [
       "spacefx",
       "tilesfx",
-      "jdkmon",
+      "jdkmon"
+    ],
+    "realworldIds": [
       "glucostatusfx"
     ],
     "libraryIds": [
@@ -1593,6 +1595,43 @@
     ],
     "companyIds": [
       "azul"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Dirk Lemmermann: Creator of JavaFX Libraries and Application",
+    "tags": "JFXInAction, javafx, libraries",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Libraries",
+    "description": "Dirk Lemmermann has created many open source and commercial libraries for Java Swing and JavaFX like CalenderFX, FlexGanttFX, GemsFX,... He is also the founder of JFX Central, the home to anything JavaFX related. In this interview he shows us some of his work, including applications used in companies, revealing the power of JavaFX to build custom tools.",
+    "id": "hY7RUN2hHJA",
+    "minutes" : "40",
+    "createdOn": "2025-05-29",
+    "modifiedOn": "2025-05-29",
+    "publishedOn": "2025-05-29",
+    "personIds": [
+      "d.lemmermann",
+      "f.delporte"
+    ],
+    "libraryIds": [
+      "gemsfx",
+      "gmapsfx",
+      "preferencesfx",
+      "calendarfx",
+      "flexganttfx",
+      "unitfx",
+      "keyboardfx",
+      "pdffx",
+      "formsfx",
+      "workbenchfx",
+      "controlsfx",
+      "pickerfx"
+    ],
+    "companyIds": [
+      "dlsc"
+    ],
+    "toolIds": [
+      "showcasefx"
     ]
   }
 ]
