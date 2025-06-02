@@ -1301,5 +1301,26 @@
     "logoAvailable": "false",
     "ensemble": "false",
     "featuredImageName": "light-theme.png"
-  }  
+  },
+  {
+    "id": "jeditermfx",
+    "name": "JediTermFX",
+    "summary": "A pure Java terminal emulator for JavaFX applications",
+    "tags": "terminal, terminal-emulator, console",
+    "description": "Techsenger JediTermFX is a pure Java terminal emulator designed for seamless integration into JavaFX applications.",
+    "license": "APACHE2",
+    "javadocs": "",
+    "repository": "https://github.com/techsenger/jeditermfx",
+    "githubAccount": "techsenger",
+    "githubProject": "jeditermfx",
+    "companyId": "",
+    "issueTracker": "https://github.com/techsenger/jeditermfx/issues",
+    "createdOn": "2025-06-01",
+    "modifiedOn": "2025-06-01",
+    "groupId": "com.techsenger.jeditermfx",
+    "artifactId": "jeditermfx-core",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "featuredImageName": "htop.png"
+  }
 ]
