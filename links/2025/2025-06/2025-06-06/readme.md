@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* [**Johan Vos** on Mastodon](https://mastodon.social/@johanvos/114629445557232949): "_Headless JavaFX platform passes almost all tests, with remaining failures being understood. Time to bring this to the next step._" See  [this message](https://mail.openjdk.org/pipermail/openjfx-dev/2025-June/054648.html) on the openjfx-dev mailing list.
 
 ## SceneBuilder
 
@@ -22,7 +22,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* A [YouTube short by **Kensoft PH**](https://www.youtube.com/shorts/vwXOAa_KVKw) showing that ChatGPT can create a working minimal JavaFX application. Check his YouTube profile for more JavaFX videos.
 
 ## Conferences
 
