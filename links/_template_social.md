@@ -3,4 +3,4 @@ Here is the new #JavaFX #LinksOfTheWeek, published on https://www.jfx-central.co
 Thanks to
 
 
-Happy reading, and have a lovely weekend!
+Happy reading, and have a lovely #Java weekend!
