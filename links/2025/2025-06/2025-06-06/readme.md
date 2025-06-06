@@ -7,7 +7,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Games
 
 * [JediTermFX and DOOM – Running the Legendary Game in JavaFX](https://www.linkedin.com/pulse/jeditermfx-doom-running-legendary-game-javafx-techsenger-xqiic/) by **Pavel Castornii**: "_About a year ago, we introduced our terminal emulator for JavaFX – JediTermFX. One of its key features is that it uses a Canvas for rendering, which allows it to work with almost any terminal-based program. Recently, we decided to test how the emulator handles something a bit unusual – the iconic game DOOM._"
-* Relesed on Steam on May 30th: [Nocturne FX](https://store.steampowered.com/app/3739280/Nocturne_FX/). "_A high-intensity arcade game built entirely in JavaFX. Dodge pipes, harness unpredictable power-ups, and survive a world that unravels the longer you last—including secrets no one prepared you for._"
+* Relesed on Steam on May 30th by **Gavin Lee Moutoux**: [Nocturne FX](https://store.steampowered.com/app/3739280/Nocturne_FX/). "_A high-intensity arcade game built entirely in JavaFX. Dodge pipes, harness unpredictable power-ups, and survive a world that unravels the longer you last—including secrets no one prepared you for._"
 
 ## Components, Libraries, Tools
 
@@ -43,5 +43,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * New content:
-  * Library: [JediTermFX](https://www.jfx-central.com/libraries/jeditermfx), a terminal emulator for JavaFX by Pavel Castornii.
+  * Library: [JediTermFX](https://www.jfx-central.com/libraries/jeditermfx), a terminal emulator for JavaFX by **Pavel Castornii**.
 * The overview of the Links Of The Week of May [got published on **Foojay**](https://foojay.io/today/javafx-links-of-may-2025/).
