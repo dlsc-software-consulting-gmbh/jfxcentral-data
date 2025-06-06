@@ -4,21 +4,14 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * [**Johan Vos** on Mastodon](https://mastodon.social/@johanvos/114629445557232949): "_Headless JavaFX platform passes almost all tests, with remaining failures being understood. Time to bring this to the next step._" See  [this message](https://mail.openjdk.org/pipermail/openjfx-dev/2025-June/054648.html) on the openjfx-dev mailing list.
 
-## SceneBuilder
-
-* 
-
-## Applications
-
-* 
-
 ## Games
 
 * [JediTermFX and DOOM – Running the Legendary Game in JavaFX](https://www.linkedin.com/pulse/jeditermfx-doom-running-legendary-game-javafx-techsenger-xqiic/) by **Pavel Castornii**: "_About a year ago, we introduced our terminal emulator for JavaFX – JediTermFX. One of its key features is that it uses a Canvas for rendering, which allows it to work with almost any terminal-based program. Recently, we decided to test how the emulator handles something a bit unusual – the iconic game DOOM._"
+* Relesed on Steam on May 30th: [Nocturne FX](https://store.steampowered.com/app/3739280/Nocturne_FX/). "_A high-intensity arcade game built entirely in JavaFX. Dodge pipes, harness unpredictable power-ups, and survive a world that unravels the longer you last—including secrets no one prepared you for._"
 
 ## Components, Libraries, Tools
 
-*
+* [Message from **JPro**](https://bsky.app/profile/jpro.one/post/3lqp4eaixlk2i): "_In JPro release 2025.2.1, we've updated how native keyboard shortcuts are handled, along with a number of small fixes & improvements. We're hard at work behind the scenes, so keep an eye [on our changelog](https://www.jpro.one/docs/jpro-webapi/changelog/1/1/2025.2.x) in the coming months._"
 
 ## Podcasts, Videos, Books
 
@@ -28,12 +21,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * [Recording of the talk "Building a native multiplatform SDKMAN in JavaFX"](https://www.devoxx.co.uk/talk/?id=17259) by **Jago de Vreede** at Devoxx UK has been published.
 
-## Tutorials
-
-*
-
 ## Miscellaneous
 
+* More AI by **Richard Baldwin**: [Enhancing JavaFX Applications with GPT-Supported Code](https://cloving.ai/tutorials/enhancing-javafx-applications-with-gpt-supported-code).
 * **APIdia** added API docs for the following JavaFX components, created by **Dirk Lemmermann**: "_These controls are frequent and crucial building blocks of advanced JavaFX applications._"
   * [afterburner.fx](https://apidia.net/mvn/com.dlsc.afterburner/afterburner.fx/)
   * [CalendarFX](https://apidia.net/mvn/com.calendarfx/view)
@@ -54,3 +44,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * New content:
   * Library: [JediTermFX](https://www.jfx-central.com/libraries/jeditermfx), a terminal emulator for JavaFX by Pavel Castornii.
+* The overview of the Links Of The Week of May [got published on **Foojay**](https://foojay.io/today/javafx-links-of-may-2025/).
