@@ -4,6 +4,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * **Catherine Edelveis** [struggled with a delay when starting sounds on macOS versus Linux](https://bsky.app/profile/cat-edelveis.bsky.social/post/3lr6vzolv3k2x) and [shared the solution](https://bsky.app/profile/cat-edelveis.bsky.social/post/3lrffxcymos2h): "_I found the culprit of sound latency with JavaFX on mac - the mp3 format! Converted to wav, and everything works as a charm now❤️‍🔥
   Heads up to everyone: mp3 is evil even in such non-trivial cases._"
+* An [interesting pull request by **Ambarish Rapte**](https://github.com/openjdk/jfx/pull/1824) in the OpenJFX project: "_This is the implementation of new graphics rendering pipeline for JavaFX using Metal APIs on MacOS. We released two Early Access (EA) builds and have reached a stage where it is ready to be integrated. Default rendering pipeline on macOS has not been changed by this PR. OpenGL still stays as the default rendering pipeline and Metal rendering pipeline is optional to choose by providing `-Dprism.order=mtl`._"
 
 ## SceneBuilder
 
