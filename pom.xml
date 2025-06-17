@@ -53,13 +53,13 @@
             <dependency>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-graphics</artifactId>
-                <version>${javafx.version}</version>
+                <version>20-ea+1</version>
             </dependency>
 
             <dependency>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-swing</artifactId>
-                <version>${javafx.version}</version>
+                <version>20-ea+1</version>
             </dependency>
 
             <dependency>
@@ -95,7 +95,7 @@
             <dependency>
                 <groupId>com.fatboyindustrial.gson-javatime-serialisers</groupId>
                 <artifactId>gson-javatime-serialisers</artifactId>
-                <version>1.1.1</version>
+                <version>1.1.2</version>
             </dependency>
 
             <dependency>
@@ -114,13 +114,13 @@
             <dependency>
                 <groupId>org.testfx</groupId>
                 <artifactId>testfx-core</artifactId>
-                <version>${testfx.version}</version>
+                <version>4.0.18</version>
             </dependency>
 
             <dependency>
                 <groupId>org.testfx</groupId>
                 <artifactId>testfx-junit5</artifactId>
-                <version>${testfx.version}</version>
+                <version>4.0.18</version>
             </dependency>
 
             <dependency>
