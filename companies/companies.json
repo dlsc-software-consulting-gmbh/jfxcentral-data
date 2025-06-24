@@ -263,5 +263,16 @@
     "createdOn": "2025-02-25",
     "consulting": "true",
     "freelancing": "true"
+  },
+  {
+    "id": "bellsoft",
+    "name": "BellSoft",
+    "summary": "The Most Complete Java Experience.",
+    "description": "BellSoft offers multiple solutions for various tasks related to development, deployment, and execution of Java applications.",
+    "homepage": "https://bell-sw.com/",
+    "tags": "consulting",
+    "createdOn": "2025-06-23",
+    "consulting": "true",
+    "freelancing": "false"
   }
 ]

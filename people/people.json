@@ -918,5 +918,22 @@
     "id": "c.redmond",
     "createdOn": "2025-02-25",
     "modifiedOn": "2025-02-25"
+  },
+  {
+    "name": "Catherine Edelveis",
+    "email": "",
+    "companyId": "bellsoft",
+    "website": "https://www.youtube.com/@cbrjar",
+    "gitHub": "des-felins",
+    "blogId": "",
+    "linkedIn": "catherine-edelveis-13b2632ab",
+    "twitter": "cat_edelveis",
+    "mastodon": "",
+    "bluesky": "cat-edelveis.bsky.social",
+    "champion": false,
+    "rockstar": false,
+    "id": "c.edelveis",
+    "createdOn": "2025-06-23",
+    "modifiedOn": "2025-06-23"
   }
 ]
