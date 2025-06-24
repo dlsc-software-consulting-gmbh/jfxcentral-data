@@ -1635,12 +1635,12 @@
     ]
   },
   {
-    "name": "Use Scene Builder to Create User Interfaces with Java FX",
+    "name": "Use SceneBuilder to Create User Interfaces with JavaFX",
     "tags": "JFXInAction, javafx, tools",
     "type": "JFX In Action",
     "platform": "Desktop",
     "domain": "Utilities",
-    "description": "Creating user interfaces with JavaFX is easy! Simply install Scene Builder and create a layout with a few clicks! In this video, we will create an interactive To Do app and in the process we will learn how to design UIs without coding.",
+    "description": "Creating user interfaces with JavaFX is easy! Simply install SceneBuilder and create a layout with a few clicks! In this video, we will create an interactive To Do app and in the process we will learn how to design UIs without coding.",
     "id": "PKvuXsfWe_M",
     "minutes" : "11",
     "createdOn": "2025-03-06",

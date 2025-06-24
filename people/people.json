@@ -934,6 +934,9 @@
     "rockstar": false,
     "id": "c.edelveis",
     "createdOn": "2025-06-23",
-    "modifiedOn": "2025-06-23"
+    "modifiedOn": "2025-06-23",
+    "companyIds": [
+      "bellsoft"
+    ]
   }
 ]
