@@ -119,8 +119,6 @@ https://gluonhq.com/products/scene-builder/#download
 
 That's all for the installation.
 
-[Back to main page](readme.md)
-
 ## Setting up VSCode for JavaFX on macOS or Linux
 
 ### Step 1. Check your Java version
