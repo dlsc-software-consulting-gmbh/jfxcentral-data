@@ -20,8 +20,6 @@ Installation methods differ depending on the operating system.
 
 ## Setting up VSCode for JavaFX on Windows
 
-[Back to main page](readme.md)
-
 ### Step 1. Check your Java version
 
 First, check if Java is installed on your system.
@@ -72,7 +70,6 @@ If you know that **git** is already installed on your PC, you can skip the first
 
 Scoop automatically adds the **JAVA_HOME** value and the **Path** to the Java executables into the "User Environment Variables" of your Windows OS. If you don't use Scoop, you need to add them manually.
 
-
 ### Step 4. Install Maven 3
 
 Next, we will install **Maven**, a build tool for Java.
@@ -105,9 +102,11 @@ Open VSCode and install two extensions for developing Java and JavaFX.
 It is recommended not to install any JavaFX plugins that are not included in the packs below, as their functions may overlap.
 
 #### Extension Pack for Java (Microsoft)
+
 ![Extension Pack for Java](extension_java.png)
 
 #### JavaFX Essentials Pack
+
 ![JavaFX Essentials Pack](extension_javafx.png)
 
 ### Step 7. Install Scene Builder
@@ -129,6 +128,7 @@ That's all for the installation.
 First, check if you have Java installed.
 
 Open a terminal and enter the following command:
+
 ```
 java -version
 ```
@@ -149,6 +149,7 @@ To install SDKMAN!, copy the line below, paste it into the terminal, and press t
 ```bash
 curl -s "https://get.sdkman.io" | bash
 ```
+
 After that, close the terminal and open a new one to enable SDKMAN!
 
 ### Step 3. Install Java (OpenJDK 21)
@@ -172,9 +173,11 @@ In this guide, we will use Maven to set up an environment for developing and run
 
 If you have already installed SDKMAN! in Step 2, installing Maven is straightforward.
 Type the following command in your terminal:
+
 ```bash
 sdk install maven
 ```
+
 You don't need to configure anything further.
 
 If you don't use SDKMAN!, the installation method differs for each OS. If you are a macOS user, you can use Homebrew:
@@ -196,9 +199,11 @@ Open VSCode and install two extensions for developing Java and JavaFX.
 It is recommended not to install any JavaFX plugins that are not included in the packs below, as their functions may overlap.
 
 #### Extension Pack for Java (Microsoft)
+
 ![Extension Pack for Java](extension_java.png)
 
 #### JavaFX Essentials Pack
+
 ![JavaFX Essentials Pack](extension_javafx.png)
 
 #### Note: VSCode-compatible IDEs (such as VSCodium)
@@ -218,8 +223,6 @@ Download and install Scene Builder from the official page:
 https://gluonhq.com/products/scene-builder/#download
 
 That's all for the installation.
-
-[Back to main page](readme.md)
 
 ## About versions
 
@@ -330,7 +333,6 @@ To create an executable (.exe, .dmg), open a terminal in VSCode and run the foll
 mvn clean package
 ```
 The generated executables are located under `target\jpackage\`.
-
 
 ## 9. About archetypes
 
