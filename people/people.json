@@ -938,5 +938,22 @@
     "companyIds": [
       "bellsoft"
     ]
+  },
+  {
+    "name": "Hidekazu Kubota",
+    "email": "hidekazu.kubota@gmail.com",
+    "companyId": "",
+    "website": "https://sosuisha.com",
+    "gitHub": "sosuisen",
+    "blogId": "",
+    "linkedIn": "hidekazu-kubota",
+    "twitter": "sosuisen_net",
+    "mastodon": "",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "h.kubota",
+    "createdOn": "2025-06-27",
+    "modifiedOn": "2025-06-27"
   }
 ]
