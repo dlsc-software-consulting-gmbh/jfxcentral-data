@@ -22,6 +22,17 @@
     "sourceCodeUrl": ""
   },
   {
+    "id": "vscode",
+    "createdOn": "2025-06-27",
+    "modifiedOn": "2025-06-27",
+    "name": "Guide for JavaFX Development on Visual Studio Code",
+    "personIds": [
+      "h.kubota"
+    ],
+    "canonicalUrl": "",
+    "sourceCodeUrl": ""
+  },
+  {
     "id": "hello-world",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
@@ -148,17 +159,6 @@
     ],
     "libraryIds": [
       "quarkusfx"
-    ],
-    "canonicalUrl": "",
-    "sourceCodeUrl": ""
-  },
-  {
-    "id": "vscode",
-    "createdOn": "2025-06-27",
-    "modifiedOn": "2025-06-27",
-    "name": "Guide for JavaFX Development on Visual Studio Code",
-    "personIds": [
-      "h.kubota"
     ],
     "canonicalUrl": "",
     "sourceCodeUrl": ""

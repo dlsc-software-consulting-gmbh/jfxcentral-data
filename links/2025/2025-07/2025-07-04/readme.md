@@ -38,4 +38,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * People: [Hidekazu Kubota](https://www.jfx-central.com/people/h.kubota)
+  * Learn JavaFX: [Guide for JavaFX Development on Visual Studio Code](https://www.jfx-central.com/learn-javafx/vscode)
