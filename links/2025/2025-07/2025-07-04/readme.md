@@ -15,7 +15,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-* Cljfx, created by [**vlaaad**](https://github.com/vlaaad), has reached [1k stars on GitHub](https://github.com/cljfx/cljfxis): "_It's a declarative, functional and extensible wrapper of JavaFX for Clojure inspired by better parts of react and re-frame._"
+* Cljfx, created by [**vlaaad**](https://github.com/vlaaad), has reached [1k stars on GitHub](https://github.com/cljfx/cljfx): "_It's a declarative, functional and extensible wrapper of JavaFX for Clojure inspired by better parts of react and re-frame._"
 
 ## Tutorials
 
