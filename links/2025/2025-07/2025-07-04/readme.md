@@ -27,3 +27,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * New content on JFX Central:
   * People: [Hidekazu Kubota](https://www.jfx-central.com/people/h.kubota)
   * Learn JavaFX: [Guide for JavaFX Development on Visual Studio Code](https://www.jfx-central.com/learn-javafx/vscode)
+* The overview of the Links Of The Week of June [got published on **Foojay**](https://foojay.io/today/javafx-links-of-june-2025/).
