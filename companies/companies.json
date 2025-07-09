@@ -274,5 +274,16 @@
     "createdOn": "2025-06-23",
     "consulting": "true",
     "freelancing": "false"
+  },
+  {
+    "id": "codewriter",
+    "name": "CodeWriter",
+    "summary": "Writing about code, coding to write",
+    "description": "CodeWriter is your partner for technical documentation, software, and multimedia challenges.",
+    "homepage": "https://codewriter.be/",
+    "tags": "software development, consulting, teaching, tutorials, writing",
+    "createdOn": "2025-07-09",
+    "consulting": "true",
+    "freelancing": "true"
   }
 ]
