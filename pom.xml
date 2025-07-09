@@ -22,9 +22,9 @@
         <maven.compiler.release>11</maven.compiler.release>
 
         <!-- We stay on 11 in this project so that the TestFX stuff and Monocle work correctly. -->
-        <javafx.version>17.0.11</javafx.version>
+        <javafx.version>24.0.1</javafx.version>
         <enforcer.skip>true</enforcer.skip>
-        <jpro.version>2023.2.2</jpro.version>
+        <jpro.version>2025.2.1</jpro.version>
         <testfx.version>4.0.18</testfx.version>
     </properties>
 
@@ -39,7 +39,7 @@
         <dependencies>
 
             <dependency>
-                <groupId>com.sandec.jpro</groupId>
+                <groupId>one.jpro</groupId>
                 <artifactId>jpro-webapi</artifactId>
                 <version>${jpro.version}</version>
                 <exclusions>
@@ -134,7 +134,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.sandec.jpro</groupId>
+            <groupId>one.jpro</groupId>
             <artifactId>jpro-webapi</artifactId>
         </dependency>
 
@@ -241,8 +241,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>24</source>
+                    <target>24</target>
                 </configuration>
             </plugin>
         </plugins>
