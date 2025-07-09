@@ -17,9 +17,9 @@
 
     <properties>
         <project.identifier>jfxcentraldata</project.identifier>
-        <project.github.repository>dlemmermann/jfxcentral-data</project.github.repository>
+        <project.github.repository>dlsc-software-consulting-gmbh/jfxcentral-data</project.github.repository>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>11</maven.compiler.release>
+        <maven.compiler.release>24</maven.compiler.release>
 
         <!-- We stay on 11 in this project so that the TestFX stuff and Monocle work correctly. -->
         <javafx.version>24.0.1</javafx.version>
