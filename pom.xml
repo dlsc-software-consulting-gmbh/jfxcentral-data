@@ -3,6 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <description>Model for the JFXCentral website / application</description>
+
     <parent>
         <groupId>com.dlsc</groupId>
         <artifactId>dlsc-maven-parent</artifactId>
@@ -34,17 +36,10 @@
 
     <distributionManagement>
         <repository>
-            <id>central</id>
-            <url>https://central.sonatype.com</url>
+            <id>ossrh</id>
+            <name>Sonatype Nexus Staging Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
-        <snapshotRepository>
-            <id>central</id>
-            <url>https://central.sonatype.com/snapshots</url>
-        </snapshotRepository>
-        <site>
-            <id>site</id>
-            <url>scm:git:ssh://git@github.com/${project.github.repository}.git</url>
-        </site>
     </distributionManagement>
 
     <dependencyManagement>
