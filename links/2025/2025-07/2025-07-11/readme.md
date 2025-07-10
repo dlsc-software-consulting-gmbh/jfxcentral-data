@@ -11,6 +11,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Applications
 
 * LeaderBoard by **Helal Anwar**: "_A Java-based application designed to manage and calculate student grades. It provides functionality to input student scores, calculate averages, and determine letter grades based on predefined thresholds. This project is ideal for educational institutions or instructors looking to automate grade calculations._" Sources and a video in the README-file are [available on GitHub](https://github.com/Hilal-Anwar/LeaderBoard).
+* **Frederik Handberg** is "_[working on a JavaFX application as a portfolio project](https://bsky.app/profile/frederikhandberg.com/post/3lt7fmm4iwk2a). It’s an instant messaging app that I am building using RMI._"
+* [Cedro Modern Dock by on GitHub](https://github.com/arthurdeka/cedro-modern-dock), a free and open-source dock software for Windows, created by [**Arthur Wagner A. Rodrigues**](https://www.linkedin.com/in/arthur-wa-rodrigues/): "_A sleek, open-source dock to enhance your desktop experience. Quick access to your favorite apps and system modules on Windows with customization._"
 
 ## Games
 
@@ -24,9 +26,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 *
 
-## Conferences
+## Conferences, Presentations
 
-*
+* [**Ian Brandt**](https://bsky.app/profile/ianbrandt.com) gave a presentation "Building JavaFX Apps with Kotlin" for the San Diego Kotlin User Group. Sorry, no recording, but you can read more here:
+  * [JavaFX dependencies via a ComponentMetadataRule instead of the JavaFX Gradle Plugin](https://discuss.gradle.org/t/javafx-dependencies-via-a-componentmetadatarule-instead-of-the-javafx-gradle-plugin/44037)
+  * [JavaFX Gradle Configuration on GitHub](https://github.com/ianbrandt/javafx-gradle-configuration): "_A slightly different approach to that of the current 0.1.0 version of the JavaFX Gradle Plugin for handling JavaFX dependencies in a Gradle project._"
 
 ## Tutorials
 
