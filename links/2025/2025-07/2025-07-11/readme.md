@@ -4,7 +4,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * LeaderBoard by **Helal Anwar**: "_A Java-based application designed to manage and calculate student grades. It provides functionality to input student scores, calculate averages, and determine letter grades based on predefined thresholds. This project is ideal for educational institutions or instructors looking to automate grade calculations._" Sources and a video in the README-file are [available on GitHub](https://github.com/Hilal-Anwar/LeaderBoard).
 * **Frederik Handberg** is "_[working on a JavaFX application as a portfolio project](https://bsky.app/profile/frederikhandberg.com/post/3lt7fmm4iwk2a). It’s an instant messaging app that I am building using RMI._"
-* [Cedro Modern Dock by on GitHub](https://github.com/arthurdeka/cedro-modern-dock), a free and open-source dock software for Windows, created by [**Arthur Wagner A. Rodrigues**](https://www.linkedin.com/in/arthur-wa-rodrigues/): "_A sleek, open-source dock to enhance your desktop experience. Quick access to your favorite apps and system modules on Windows with customization._"
+* Found on GitHub: [Cedro Modern Dock](https://github.com/arthurdeka/cedro-modern-dock), a free and open-source dock software for Windows. It's created by [**Arthur Wagner A. Rodrigues**](https://www.linkedin.com/in/arthur-wa-rodrigues/): "_A sleek, open-source dock to enhance your desktop experience. Quick access to your favorite apps and system modules on Windows with customization._"
 
 ## Podcasts, Videos, Books
 
@@ -23,6 +23,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * Added share with and links to Bluesky and Mastodon.
   * Removed share with and links to Twitter/X.
   * Improved icon search.
-  * Contributors: [Florian Kirmaier](@FlorianKirmaier), [Dirk Lemmermann](@dlemmermann), [Lee Wyatt](@leewyatt), [Frank Delporte](https://github.com/@FDelporte), [Dependabot](@dependabot)
+  * Contributors: [Florian Kirmaier](https://github.com/FlorianKirmaier), [Dirk Lemmermann](https://github.com/dlemmermann), [Lee Wyatt](https://github.com/leewyatt), [Frank Delporte](https://github.com/FDelporte), [Dependabot](https://github.com/dependabot)
 * New content on JFX Central:
   * Company: [CodeWriter](https://www.jfx-central.com/companies/codewriter)
