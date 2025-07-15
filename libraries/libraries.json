@@ -1322,5 +1322,26 @@
     "logoAvailable": "false",
     "ensemble": "false",
     "featuredImageName": "htop.png"
+  },
+  {
+    "id": "tabpanepro",
+    "name": "TabPanePro",
+    "summary": "Enhanced TabPane for JavaFX applications",
+    "tags": "tabpane, tab, custom controls",
+    "description": "Techsenger TabPanePro is a TabPane extension that adds dedicated control areas, support for custom tab shapes, tab drag-and-drop with edge scrolling, a tab scrollbar, and more.",
+    "license": "GPL2CLASSPATH",
+    "javadocs": "",
+    "repository": "https://github.com/techsenger/tabpanepro",
+    "githubAccount": "techsenger",
+    "githubProject": "tabpanepro",
+    "companyId": "",
+    "issueTracker": "https://github.com/techsenger/tabpanepro/issues",
+    "createdOn": "2025-07-15",
+    "modifiedOn": "2025-07-15",
+    "groupId": "com.techsenger.tabpanepro",
+    "artifactId": "tabpanepro-core",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "featuredImageName": "tabpanepro0.png"
   }
 ]
