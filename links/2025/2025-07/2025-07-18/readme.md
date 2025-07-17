@@ -33,6 +33,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Tutorials
 
 * Published by **Eleftheria Drosopoulou**: [Migrating Legacy Java Swing Applications to Modern JavaFX](https://www.javacodegeeks.com/2025/07/migrating-legacy-java-swing-applications-to-modern-javafx.html).
+* Video tutorial [POS Project Setup in Netbeans IDE](https://www.youtube.com/watch?v=YBggVcv62OE): "_The goal of this course is to provide you with a working knowledge of JavaFx GUI applications. We'll start with the basics, starting from installing JavaFx on variety of IDE's e.g. Eclipse, IntelliJ Idea, Netbeans etc on different Operating Systems like Window, Mac and Linux. Next, We will learn how to create our first JavaFx project. Then we will Learn How to built-in use different JavaFX UI controls like Label, Button,..._"
 
 ## Miscellaneous
 
