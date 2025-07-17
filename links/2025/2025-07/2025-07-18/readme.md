@@ -2,7 +2,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* **Kevin Rushforth** of Oracle announced on the mailinglist: "_JavaFX 25 Rampdown Phase 1 (RDP1) starts July 17th. I will fork the 'jfx25'
+  branch at 16:00 UTC. During rampdown of JavaFX 25, the 'master' branch of the jfx repo will be open for JavaFX 26 fixes._"
 
 ## SceneBuilder
 
