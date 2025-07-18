@@ -17,12 +17,12 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Conferences, Presentations
 
-* The JPro talk from JavaOne is now [available on YouTube](https://www.youtube.com/watch?v=cxaOM1rkonA): "_This session explores building JavaFX applications for both desktop and web, offering practical solutions to modern development challenges. Learn best practices for styling with CSSFX and how JPro enables Java’s “Write Once, Run Anywhere” (WORA) principle by running JavaFX applications in the browser._"
+* The JPro talk by **Florian Kirmaier** from JavaOne is now [available on YouTube](https://www.youtube.com/watch?v=cxaOM1rkonA): "_This session explores building JavaFX applications for both desktop and web, offering practical solutions to modern development challenges. Learn best practices for styling with CSSFX and how JPro enables Java’s “Write Once, Run Anywhere” (WORA) principle by running JavaFX applications in the browser._"
 
 ## Tutorials
 
 * Published by **Eleftheria Drosopoulou**: [Migrating Legacy Java Swing Applications to Modern JavaFX](https://www.javacodegeeks.com/2025/07/migrating-legacy-java-swing-applications-to-modern-javafx.html).
-* Video tutorial [POS Project Setup in Netbeans IDE](https://www.youtube.com/watch?v=YBggVcv62OE): "_The goal of this course is to provide you with a working knowledge of JavaFx GUI applications. We'll start with the basics, starting from installing JavaFx on variety of IDE's e.g. Eclipse, IntelliJ Idea, Netbeans etc on different Operating Systems like Window, Mac and Linux. Next, We will learn how to create our first JavaFx project. Then we will Learn How to built-in use different JavaFX UI controls like Label, Button,..._"
+* Video tutorial by **xemacscode** [POS Project Setup in Netbeans IDE](https://www.youtube.com/watch?v=YBggVcv62OE): "_The goal of this course is to provide you with a working knowledge of JavaFx GUI applications. We'll start with the basics, starting from installing JavaFx on variety of IDE's e.g. Eclipse, IntelliJ Idea, Netbeans etc on different Operating Systems like Window, Mac and Linux. Next, We will learn how to create our first JavaFx project. Then we will Learn How to built-in use different JavaFX UI controls like Label, Button,..._"
 
 ## Miscellaneous
 
