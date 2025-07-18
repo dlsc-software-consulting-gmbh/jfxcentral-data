@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* [**Johan Vos** on Mastodon](https://mastodon.social/@johanvos/114873558280486295): "_JavaFX very much needs a top-level headless platform (for testing, server-side rendering, and more). The [pull request is currently in review](https://github.com/openjdk/jfx/pull/1836)._"
 
 ## SceneBuilder
 
