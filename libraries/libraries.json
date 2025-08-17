@@ -918,6 +918,29 @@
     ]
   },
   {
+    "id": "bentofx",
+    "name": "BentoFX",
+    "summary": "A docking system for JavaFX.",
+    "tags": "docking, custom control",
+    "description": "BentoFX provides a simple tree-like docking system capable of common docking system operations.",
+    "documentation": "https://github.com/Col-E/BentoFX",
+    "license": "MIT",
+    "homepage": "https://github.com/Col-E/BentoFX",
+	"githubAccount": "Col-E",
+    "githubProject": "BentoFX",
+    "javadocs": "",
+    "createdOn": "2025-04-25",
+    "modifiedOn": "2025-08-17",
+    "groupId": "software.coley",
+    "artifactId": "bento-fx",
+    "logoAvailable": "true",
+    "ensemble": "false",
+    "featuredImageName": "example-drag.png",
+    "videoIds": [
+      "7ZJ6Mro1iAk"
+    ]
+  },
+  {
     "name": "AtlantaFX",
     "summary": "Modern theme collection with additional controls.",
     "tags": "theme, css, custom controls",
