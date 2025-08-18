@@ -15,7 +15,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Games
 
-* **Konstantin Ryadov** is [experimenting with FXGL](https://github.com/kryadov/labyrinth).
+* **Konstantin Ryadov** is [experimenting with FXGL to build a labyrinth game](https://github.com/kryadov/labyrinth7) and published two videos:
+  * [Opensourced: Yet another labyrinth using JavaFX and FXGL](https://www.youtube.com/watch?v=NgOb9DGl8pA)
+  * [1.0.1 - new updates](https://www.youtube.com/watch?v=6qFd9VvMIec)
 
 ## Components, Libraries, Tools
 
@@ -39,4 +41,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
+* New content on JFX Central:
+  * Library: [BentoFX: A docking system for JavaFX.](https://www.jfx-central.com/libraries/bentofx)
+  * Video: [BentoFX - Demo](https://www.jfx-central.com/videos/7ZJ6Mro1iAk)
 * The overview of the Links Of The Week of July [got published on **Foojay**](https://foojay.io/today/javafx-links-of-july-2025/).
