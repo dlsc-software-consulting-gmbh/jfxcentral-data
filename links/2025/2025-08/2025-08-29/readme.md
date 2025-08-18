@@ -15,7 +15,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Games
 
-* **Konstantin Ryadov** is [experimenting with FXGL to build a labyrinth game](https://github.com/kryadov/labyrinth7) and published two videos:
+* **Konstantin Ryadov** is [experimenting with FXGL to build a labyrinth game](https://github.com/kryadov/labyrinth7): "_A small first‑person labyrinth game built with Java 21, JavaFX 21 (3D) and FXGL. A randomized maze is generated each level; find the animated exit to advance. The game features textured 3D walls/floor/ceiling, ambient lighting, footstep sounds, and background music for the menu and in‑game._" He published two videos:
   * [Opensourced: Yet another labyrinth using JavaFX and FXGL](https://www.youtube.com/watch?v=NgOb9DGl8pA)
   * [1.0.1 - new updates](https://www.youtube.com/watch?v=6qFd9VvMIec)
 
