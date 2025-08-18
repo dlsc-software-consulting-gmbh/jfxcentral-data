@@ -37,7 +37,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* [**A N M "Bazlur" Rahman** on LinkedIn](https://www.linkedin.com/posts/bazlur_java-javafx-activity-7361613329703862272-Rl0h/): "_You can create incredible things with JavaFX. [Here are some examples I made with it](https://github.com/rokon12/Mandelbrot)._"
 
 ## JFX Central
 
