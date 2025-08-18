@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "containers.png",
+      "title": "Containers",
+      "description": "A diagram outlining the container types used in Bento"
+    },
+    {
+      "path": "controls.png",
+      "title": "Controls",
+      "description": "A diagram of the leaf container labled by backing controls"
+    },
+    {
+      "path": "example.png",
+      "title": "Example",
+      "description": "A screenshot of a minimal use case of Bento, creating a UI similar to an IDE"
+    }
+  ]
+}

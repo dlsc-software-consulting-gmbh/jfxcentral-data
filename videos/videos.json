@@ -1100,6 +1100,18 @@
     "publishedOn": "2022-03-16"
   },
   {
+    "name": "BentoFX - Demo",
+    "tags": "docking, custom controls",
+    "type": "Library",
+    "domain": "",
+    "description": "A demonstration of BentoFX's docking capabilities.",
+    "id": "7ZJ6Mro1iAk",
+    "minutes" : "2",
+    "createdOn": "2025-08-17",
+    "modifiedOn": "2025-08-17",
+    "publishedOn": "2025-08-17"
+  },
+  {
     "name": "SmartFinder Desktop Search - Sample search",
     "tags": "desktop search, search engine, windows search, spotlight",
     "type": "Real World Application",
