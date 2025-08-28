@@ -1,9 +1,12 @@
+Only one links of the week for August thanks to a nice summer break. So this is actually a links of the month... ;-)
+
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
 ## Core
 
 * [Announced by **Johan Vos**](https://bsky.app/profile/did:plc:tysr26jaqf3moymuf7jc2uyr/post/3lv2hizyo6k25): "_JavaFX now has a Headless platform. [JDK-8324941](https://bugs.openjdk.org/browse/JDK-8324941) is now Resolved! Pfew, that took me 1 year, 5 months and 29 days. Goodnight!_"
   * Read more in this blog post: [Introducing the Headless Platform for JavaFX](https://gluonhq.com/introducing-the-headless-platform-for-javafx/).
+* And **Johan** is also [making progress with Java on Mobile](https://mastodon.social/@johanvos/115105044172821272): "_OpenJDK on mobile developers should be excited: we're very close to a full, transparent, open release of the status. Workflow is cool now: I made a simple change in OpenJDK, ran 2 scripts, clicked "cmd-R" in Xcode, and HelloWorld appeared again (with the changed JDK) on my iPhone._"
 
 ## SceneBuilder
 
@@ -38,6 +41,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Miscellaneous
 
 * [**A N M "Bazlur" Rahman** on LinkedIn](https://www.linkedin.com/posts/bazlur_java-javafx-activity-7361613329703862272-Rl0h/): "_You can create incredible things with JavaFX. [Here are some examples I made with it](https://github.com/rokon12/Mandelbrot)._"
+* [**William Antônio Siqueira** shared a screenshot on LinkedIn](https://www.linkedin.com/posts/william-ant%C3%B4nio-siqueira-968bba14_i-just-added-a-log-inspector-to-llm-fx-suggestion-activity-7359788094599966722-nMEu/): "_I just added a log inspector to LLM FX, suggestion from **Max Rydahl Andersen** - thanks! This feature allow us to precisely see what Tools were called by the LLM Server and what messages were sent to it. This was possible because today was Day of Learning at Red Hat, so I invested some time learning more about Jupyter Lab extensions, LLM Tools Calling internally and then took some time to inspect some tools call._"
 
 ## JFX Central
 
