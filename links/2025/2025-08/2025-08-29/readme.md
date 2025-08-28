@@ -28,7 +28,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* During the [CyberJAR live stream "Chatting about Java, JavaFX, and Experiments on the Raspberry Pi"](https://www.youtube.com/watch?v=axbx2kTuJf0) with **Catherine Edelveis** and **Frank Delporte**,  several JavaFX applications where demonstrated running on Raspberry Pi.
 
 ## Conferences, Presentations
 
