@@ -2,6 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
+* On September 16th, Java and JavaFX 25 will be released. [These are the issues](https://bugs.openjdk.org/browse/JDK-8313556?filter=47140) that got fixed in this release. And the merge request with the [release notes is here](https://github.com/openjdk/jfx/pull/1871). First important change: "_JavaFX 25 Requires JDK 23 or Later_".
 * Gluon announced the [new website for OpenJDK on Mobile](https://openjdk-mobile.github.io): "_An initiative to collaborate on tools/expertise for real Java on Mobile, see [the `mobile-dev` mailinglist](https://mail.openjdk.org/pipermail/mobile-dev/2025-August/000985.html). Let's leverage the power, beauty and maintainability of OpenJDK to run Java apps on mobile!_"
 
 ## SceneBuilder
