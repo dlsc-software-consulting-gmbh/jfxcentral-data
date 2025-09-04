@@ -13,6 +13,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * **Dean Courtney** shared the [sources of DietAI](https://github.com/dean-703/dietai): "_It's a JavaFX application designed for diet analysis, allowing users to import CSV files from diet trackers. It displays entries in a table, summarizes nutritional data, and utilizes AI for personalized evaluations. Users can set profiles and goals and compare actual intake against targets._"
 * **Helal Anwar** shared the [sources, including a video demo, of GradedAttendance](https://github.com/Hilal-Anwar/GradedAttendance): "_A comprehensive attendance management system with integrated grading capabilities, designed to streamline educational institution workflows and provide efficient student attendance tracking._"
+* [Message from JabRef](https://foojay.social/@jabref/115117290929844138): "_JabRef has so many features that it's sometimes difficult to get started. This year's completed GSOC project from our student Yubo changes this. He successfully implemented a Welcome Walkthrough that helps new users to set up JabRef. This also includes the revamped welcome tab with quick settings. For more details, see [our blog post](https://blog.jabref.org/2025/08/14/walkthrough-and-welcome-tab/)._"
 
 ## Games
 
