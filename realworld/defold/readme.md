@@ -12,3 +12,13 @@ We load the entire set of editable project data into memory, but non-editable re
 
 Check this [README on GitHub](https://github.com/defold/defold/blob/dev/editor/README.md) as the starting point for more information about the editor and its source code.
 
+![Defold Editor](editor-1.png)
+
+![Defold Editor](editor-2.png)
+
+![Defold Editor](editor-3.png)
+
+![Sample game](sample-game.png)
+
+![About the Defold Editor](about.png)
+
