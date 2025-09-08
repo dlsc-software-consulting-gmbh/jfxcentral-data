@@ -38,4 +38,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * [Defold, the game engine for high-performance cross-platform games](https://www.jfx-central.com/showcases/defold)
