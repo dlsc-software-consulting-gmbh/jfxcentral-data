@@ -861,6 +861,7 @@
     "name": "GlucoStatusFX",
     "tags": "glucostatusfx, tools, diabetes, nightscout",
     "url": "https://github.com/HanSolo/glucostatusfx",
+    "domain": "Healthcare",
     "summary": "A glucose status monitor for Nightscout implemented in JavaFX.",
     "description": "A glucose status monitor for Nightscout implemented in JavaFX. GlucoStatusFX is optimized for Macos but will also run on Windows and Linux.",
     "createdOn": "2025-05-23",
@@ -868,5 +869,16 @@
     "personIds": [
       "g.grunwald"
     ]
+  },
+  {
+    "id": "defold",
+    "name": "Defold",
+    "tags": "defold, gaming",
+    "url": "https://github.com/defold/defold",
+    "summary": "The game engine for high-performance cross-platform games.",
+    "domain": "Game Development",
+    "description": "Defold is a completely free to use game engine for development of console, desktop, mobile and web games. There are no up-front costs, no licensing fees and no royalties. The Defold editor runs on Windows, Linux and macOS and includes a code editor, debugger, profiler and advanced scene and UI editors. Game logic is written in Lua with the option to use native code to extend the engine with additional functionality.",
+    "createdOn": "2025-09-09",
+    "modifiedOn": "2025-09-08"
   }
 ]
