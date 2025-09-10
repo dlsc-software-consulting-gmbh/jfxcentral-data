@@ -464,15 +464,9 @@
       },
       {
         "name": "DEB Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/jdkmon_21.0.17_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/jdkmon_21.0.17_amd64.deb",
         "fileName": "",
         "package": "DEB"
-      },
-      {
-        "name": "RPM Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/jdkmon-21.0.17-1.aarch64.rpm",
-        "fileName": "",
-        "package": "RPM"
       }
     ]
   },
