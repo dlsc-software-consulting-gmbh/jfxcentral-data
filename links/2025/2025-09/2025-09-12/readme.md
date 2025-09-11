@@ -12,6 +12,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Applications
 
 * Just like last week, a new [AI project shared on GitHub by **Dean Courtney**](https://github.com/dean-703/aiassistant): "_AI Assistant - OpenAI Desktop Client: a JavaFX client for ChatGPT, designed to be a useful and versatile interface to the OpenAI API._"
+* **Helal Anwar** created a Quiz app as part of an internship at Elevate Labs using JavaFX. Sources, screenshots and demo video are [available on GitHub](https://github.com/Hilal-Anwar/QuizTime).
+
 
 ## Games
 
