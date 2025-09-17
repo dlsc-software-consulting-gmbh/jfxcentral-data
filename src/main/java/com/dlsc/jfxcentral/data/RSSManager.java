@@ -23,7 +23,7 @@ public class RSSManager {
     private static final Logger LOG = Logger.getLogger(RSSManager.class.getName());
 
     public static String createRSS() {
-        DataRepository2 repository = DataRepository2.getInstance();
+        DataRepository repository = DataRepository.getInstance();
         List<LinksOfTheWeek> links = repository.getLinksOfTheWeek();
 
         // Based on the example provided on
@@ -62,7 +62,7 @@ public class RSSManager {
         return "";
     }
 
-    private static String getLinksOfTheWeekAsHtml(DataRepository2 repository, LinksOfTheWeek linksOfTheWeek) {
+    private static String getLinksOfTheWeekAsHtml(DataRepository repository, LinksOfTheWeek linksOfTheWeek) {
         StringProperty markdownContent = new SimpleStringProperty();
         repository.loadLinksOfTheWeekText(linksOfTheWeek, markdownContent);
 

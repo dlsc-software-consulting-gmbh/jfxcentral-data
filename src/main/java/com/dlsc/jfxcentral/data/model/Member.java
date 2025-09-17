@@ -6,9 +6,9 @@ public class Member extends ModelObject {
     private String email;
     private String website;
     private String linkedIn;
-    private String twitter;
     private String gitHub;
     private String mastodon;
+    private String bluesky;
     private boolean champion;
     private boolean rockstar;
 
@@ -47,14 +47,6 @@ public class Member extends ModelObject {
         this.linkedIn = linkedIn;
     }
 
-    public String getTwitter() {
-        return twitter;
-    }
-
-    public void setTwitter(String twitter) {
-        this.twitter = twitter;
-    }
-
     public String getGitHub() {
         return gitHub;
     }
@@ -69,6 +61,14 @@ public class Member extends ModelObject {
 
     public void setMastodon(String mastodon) {
         this.mastodon = mastodon;
+    }
+
+    public String getBluesky() {
+        return bluesky;
+    }
+
+    public void setBluesky(String bluesky) {
+        this.bluesky = bluesky;
     }
 
     public boolean isChampion() {

@@ -1100,6 +1100,18 @@
     "publishedOn": "2022-03-16"
   },
   {
+    "name": "BentoFX - Demo",
+    "tags": "docking, custom controls",
+    "type": "Library",
+    "domain": "",
+    "description": "A demonstration of BentoFX's docking capabilities.",
+    "id": "7ZJ6Mro1iAk",
+    "minutes" : "2",
+    "createdOn": "2025-08-17",
+    "modifiedOn": "2025-08-17",
+    "publishedOn": "2025-08-17"
+  },
+  {
     "name": "SmartFinder Desktop Search - Sample search",
     "tags": "desktop search, search engine, windows search, spotlight",
     "type": "Real World Application",
@@ -1284,6 +1296,373 @@
     ],
     "downloadIds": [
       "logorrr"
+    ]
+  },
+  {
+    "name": "JFX In Action with Maciej Gorywoda about the Android app FxCalculator",
+    "tags": "JFXInAction, javafx, application, library, Scala",
+    "type": "JFX In Action",
+    "platform": "Mobile",
+    "domain": "Utilities",
+    "description": "Interview with Maciej Gorywoda, the Product Marketing Manager in the IntelliJ Scala team at JetBrains. He is a Scala Ambassador, teaches Scala and makes its community more beginner-friendly. He is also self-publishing a fantasy novel. FxCalculator is a calculator for your Android phone. It's got all the usual buttons with numbers and operators, and parentheses, as well as buttons for storing the partial results of your calculations in the memory. It also has an advanced editor mode, under the \"Fx\" button. In this mode, you can write an expression with your virtual keyboard as if you were writing simple programming code. You can use variables and functions, combine them, and write custom ones. They're stored on the phone so they can be actually useful to you more than once.",
+    "id": "93OozqMTqJQ",
+    "minutes" : "29",
+    "createdOn": "2024-09-17",
+    "modifiedOn": "2024-09-17",
+    "publishedOn": "2024-09-17",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Ramiro Domínguez Ayub about the Televic Generic Update Tool",
+    "tags": "JFXInAction, javafx, application, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "Interview with Ramiro Domínguez Ayub. He explains how he creates a tool for Televic with JavaFX that is used both internally and by their customers to update a lot of different types of devices on a train, tram, and/or metro.",
+    "id": "1gvKCS35ono",
+    "minutes" : "5",
+    "createdOn": "2024-09-24",
+    "modifiedOn": "2024-09-24",
+    "publishedOn": "2024-09-24",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Christoph Schwentker about JabRef",
+    "tags": "JFXInAction, javafx, application",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Education",
+    "description": "Interview with Christoph Schwentker about JabRef. It's a tool written in Java and JavaFX to collect, organize, and discover literature for research projects. JabRef is developed as free, open-source software and saves your data in a simple text-based file format with no vendor lock-in.",
+    "id": "-ddFxwh2U6E",
+    "minutes" : "17",
+    "createdOn": "2024-10-01",
+    "modifiedOn": "2024-10-01",
+    "publishedOn": "2024-10-01",
+    "personIds": [
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "jabref"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Ulas Ergin about internal banking apps",
+    "tags": "JFXInAction, javafx, application",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Banking",
+    "description": "Interview with Ulas Ergin. He explains how his team uses JavaFX to migrate from a Swing based application, to a Java application which combines the old Swing screens with new React user interfaces.",
+    "id": "djbC7zWc-2w",
+    "minutes" : "17",
+    "createdOn": "2024-10-22",
+    "modifiedOn": "2024-10-22",
+    "publishedOn": "2024-10-22",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Özkan Pakdil about Swaggerific",
+    "tags": "JFXInAction, javafx, application",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "This interview gives insights into a new open-source JavaFX project: Swaggerific. It's created by Özkan Pakdil, who tells us more about this Postman alternative to interact with REST endpoints documented with a Swagger JSON.",
+    "id": "3_T0LDZ-Wt4",
+    "minutes" : "12",
+    "createdOn": "2024-11-05",
+    "modifiedOn": "2024-11-05",
+    "publishedOn": "2024-11-05",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Clément de Tastes about QuarkusFX",
+    "tags": "JFXInAction, javafx, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Libraries",
+    "description": "In this interview, we look at the combination of JavaFX and Quarkus. Thanks to QuarkusFX, created by Clément de Tastes, we can use the many advantages of the Quarkus system to create a desktop application.",
+    "id": "Vw9S9uuPTlQ",
+    "minutes" : "24",
+    "createdOn": "2024-11-19",
+    "modifiedOn": "2024-11-19",
+    "publishedOn": "2024-11-19",
+    "personIds": [
+      "f.delporte",
+      "c.detastes"
+    ],
+    "libraryIds": [
+      "quarkusfx"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Almas Baim about FXGL",
+    "tags": "JFXInAction, javafx, library",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Gaming",
+    "description": "In the \"JFX In Action\" interviews, we already saw many business use cases of JavaFX. Let's take a side step and look at game development. FXGL is a library that helps us create JavaFX games. But it's much more than games! With the integrated Goal-Oriented Action Planning (GOAP) functionality, it can use game technology and AI to solve any kind of goal based on actions and preconditions. In this video, Almas live-codes a fully working GOAP example application!",
+    "id": "RFSIBrP4mZM",
+    "minutes" : "30",
+    "createdOn": "2024-12-05",
+    "modifiedOn": "2024-12-05",
+    "publishedOn": "2024-12-05",
+    "personIds": [
+      "f.delporte",
+      "a.baimagambetov"
+    ],
+    "libraryIds": [
+      "fxgl"
+    ],
+    "bookIds": [
+      "fxgl17"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Steve Hannah about jDeploy",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Distribution",
+    "description": "Building a JavaFX app is easy and fun, but how do you efficiently distribute it to different systems? jpackage and GraalVM can help, but jDeploy makes things even more effortless by handling all the packaging and providing an upgrading flow! In this \"JFX In Action\" interview, you'll learn how this works from Steve Hannah, the creator of jDeploy.",
+    "id": "Lhmf9U0KYsg",
+    "minutes" : "32",
+    "createdOn": "2024-12-12",
+    "modifiedOn": "2024-12-12",
+    "publishedOn": "2024-12-12",
+    "personIds": [
+      "f.delporte",
+      "s.hannah"
+    ],
+    "toolIds": [
+      "jdeploy"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Jago de Vreede about SDKman UI",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "SDKman UI offers a cross-platform Graphical User Interface for SDKMAN. It extends the functionality of the terminal-tool SDKMAN with a user interface, but also makes the tool available for Window systems.",
+    "id": "t7CROVJbYto",
+    "minutes" : "26",
+    "createdOn": "2024-12-19",
+    "modifiedOn": "2024-12-19",
+    "publishedOn": "2024-12-19",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Mike Hearn about Conveyor",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Distribution",
+    "description": "Mike Hearn solves a problem that a lot of developers are struggling with: how to easily distribute your application and make sure the users get the latest version. With Conveyor he created a tool to do that easily with JavaFX, Electron, and Flutter apps!",
+    "id": "CuI7-PllJZQ",
+    "minutes" : "23",
+    "createdOn": "2025-01-23",
+    "modifiedOn": "2025-01-23",
+    "publishedOn": "2025-01-23",
+    "personIds": [
+      "f.delporte"
+    ],
+    "toolIds": [
+      "conveyor"
+    ],
+    "companyIds": [
+      "hydraulic"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Sven Reimers about JTaccuino",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Education",
+    "description": "Sven Reimers created JTaccuino, a JavaFX-based notebook application to make it easier to learn Java and experiment with notebooks that can visualize the variables in different ways like tables and graphs.",
+    "id": "gkHgsamCoGc",
+    "minutes" : "22",
+    "createdOn": "2025-02-06",
+    "modifiedOn": "2025-02-06",
+    "publishedOn": "2025-02-06",
+    "personIds": [
+      "s.reimers",
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "jtaccuino"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Chris Newland about DemoFX and JitWatch",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "Chris Newland has a long history in Java and JavaFX development. I invited him to talk about two of his JavaFX projects: DemoFX and JITWatch. While the demos are already impressive, Chris also gives a \"crash course\" in this video about Java and Byte code and how the Just-In-Time compiler converts these to native code in the Java Virtual Machine.",
+    "id": "8s14hFLp7cI",
+    "minutes" : "18",
+    "createdOn": "2025-02-20",
+    "modifiedOn": "2025-02-20",
+    "publishedOn": "2025-02-20",
+    "personIds": [
+      "c.newland",
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "jitwatch"
+    ],
+    "toolIds": [
+      "demofx"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Cormac Redmond about KafkIO",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "KafkIO is designed for easy, fast, and enjoyable use. It only takes a few clicks before you’re exploring your Kafka clusters. No web servers, configuration files, clunky installation, Docker, or funky licensing! You can seamlessly create/edit/delete/dump/clear topics, produce messages, advanced search and streaming with text, offset, and date range criteria, tweak offsets, delete consumers, and browse/create/update schemas. Easily manage access control lists (ACLs). View your data in a variety of ways. Manage Kafka Connect connectors and ksqlDB (with a flexible KSQL editor). Troubleshoot issues with a clear view of the broker, topic, ksqlDB, connector, and consumer configuration, with live statistics such as partition skew, out-of-sync replicas, consumer lag, etc.",
+    "id": "4qkflNl1ivA",
+    "minutes" : "32",
+    "createdOn": "2025-02-27",
+    "modifiedOn": "2025-02-27",
+    "publishedOn": "2025-02-27",
+    "personIds": [
+      "c.redmond",
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "kafkio"
+    ],
+    "companyIds": [
+      "certak"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Brian Schlining: Annotating the Deep-Sea Wildlife",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Research",
+    "description": "Brian has a dream job! He is responsible for a complex system that allows scientific researchers to research the animals living in the deep sea. He provides them with the tools to annotate videos and images made by submarines diving thousands of meters deep in the oceans. While he works on this software, he gets to know all the amazing creatures living in this mysterious world.",
+    "id": "W9cs44DHIlA",
+    "minutes" : "27",
+    "createdOn": "2025-03-20",
+    "modifiedOn": "2025-03-20",
+    "publishedOn": "2025-03-20",
+    "personIds": [
+      "f.delporte"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Gerrit Grunwald: Creator of Many Amazing JavaFX Libraries",
+    "tags": "JFXInAction, javafx, libraries",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Libraries",
+    "description": "Gerrit Grunwald created many JavaFX libraries and blog posts. In this video he talks about his work with JavaFX, but also explains how the garbage collectors in the JVM are working, thanks to the amazing visualizations he created with... JavaFX, of course.",
+    "id": "6pgHlHLrX8c",
+    "minutes" : "31",
+    "createdOn": "2025-04-10",
+    "modifiedOn": "2025-04-10",
+    "publishedOn": "2025-04-10",
+    "personIds": [
+      "g.grunwald",
+      "f.delporte"
+    ],
+    "bookIds": [
+      "jfx9byexample"
+    ],
+    "blogIds": [
+      "foojay",
+      "harmoniccode"
+    ],
+    "downloadIds": [
+      "spacefx",
+      "tilesfx",
+      "jdkmon"
+    ],
+    "realworldIds": [
+      "glucostatusfx"
+    ],
+    "libraryIds": [
+      "harmonicfx",
+      "tilesfx",
+      "medusa",
+      "charts",
+      "countries"
+    ],
+    "tutorialIds": [
+      "fxdocs"
+    ],
+    "companyIds": [
+      "azul"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Dirk Lemmermann: Creator of JavaFX Libraries and Apps",
+    "tags": "JFXInAction, javafx, libraries",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Libraries",
+    "description": "Dirk Lemmermann has created many open source and commercial libraries for Java Swing and JavaFX like CalenderFX, FlexGanttFX, GemsFX,... He is also the founder of JFX Central, the home to anything JavaFX related. In this interview he shows us some of his work, including applications used in companies, revealing the power of JavaFX to build custom tools.",
+    "id": "hY7RUN2hHJA",
+    "minutes" : "40",
+    "createdOn": "2025-05-29",
+    "modifiedOn": "2025-05-29",
+    "publishedOn": "2025-05-29",
+    "personIds": [
+      "d.lemmermann",
+      "f.delporte"
+    ],
+    "libraryIds": [
+      "gemsfx",
+      "gmapsfx",
+      "preferencesfx",
+      "calendarfx",
+      "flexganttfx",
+      "unitfx",
+      "keyboardfx",
+      "pdffx",
+      "formsfx",
+      "workbenchfx",
+      "controlsfx",
+      "pickerfx"
+    ],
+    "companyIds": [
+      "dlsc"
+    ],
+    "toolIds": [
+      "showcasefx"
+    ]
+  },
+  {
+    "name": "Use SceneBuilder to Create User Interfaces with JavaFX",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "Creating user interfaces with JavaFX is easy! Simply install SceneBuilder and create a layout with a few clicks! In this video, we will create an interactive To Do app and in the process we will learn how to design UIs without coding.",
+    "id": "PKvuXsfWe_M",
+    "minutes" : "11",
+    "createdOn": "2025-03-06",
+    "modifiedOn": "2025-03-06",
+    "publishedOn": "2025-03-06",
+    "personIds": [
+      "c.edelveis"
+    ],
+    "companyIds": [
+      "bellsoft"
     ]
   }
 ]

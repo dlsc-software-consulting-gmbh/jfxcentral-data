@@ -84,3 +84,5 @@ mvn archetype:generate \
 ```
 
 Open the generated directory, open the file `App.java` and click on `Run` on top of the `main` method. 
+
+A more detailed explanation on how you can use VSC for JavaFX projects, is explained in the tutorial ["Guide for JavaFX Development on Visual Studio Code" by Hidekazu Kubota](https://www.jfx-central.com/learn-javafx/vscode)

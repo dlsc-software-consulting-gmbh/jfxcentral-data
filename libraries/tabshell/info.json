@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "text-editor.png",
+      "title": "Text Editor",
+      "description": ""
+    },
+    {
+      "path": "terminal.png",
+      "title": "Terminal",
+      "description": ""
+    },
+    {
+      "path": "dialogs.png",
+      "title": "Dialogs",
+      "description": ""
+    }
+  ]
+}

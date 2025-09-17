@@ -252,5 +252,38 @@
     "libraryIds": [
       "autumoui"
     ]
+  },
+  {
+    "id": "certak",
+    "name": "Certak",
+    "summary": "Custom Software Development.",
+    "description": "Bespoke software focused on Java & JavaFX and all-things related to the JVM.",
+    "homepage": "https://www.certak.com",
+    "tags": "software development, java, jvm, javafx, consulting, desktop",
+    "createdOn": "2025-02-25",
+    "consulting": "true",
+    "freelancing": "true"
+  },
+  {
+    "id": "bellsoft",
+    "name": "BellSoft",
+    "summary": "The Most Complete Java Experience.",
+    "description": "BellSoft offers multiple solutions for various tasks related to development, deployment, and execution of Java applications.",
+    "homepage": "https://bell-sw.com/",
+    "tags": "consulting",
+    "createdOn": "2025-06-23",
+    "consulting": "true",
+    "freelancing": "false"
+  },
+  {
+    "id": "codewriter",
+    "name": "CodeWriter",
+    "summary": "Writing about code, coding to write",
+    "description": "CodeWriter is your partner for technical documentation, software, and multimedia challenges.",
+    "homepage": "https://codewriter.be/",
+    "tags": "software development, consulting, teaching, tutorials, writing",
+    "createdOn": "2025-07-09",
+    "consulting": "true",
+    "freelancing": "true"
   }
 ]

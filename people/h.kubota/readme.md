@@ -1,0 +1,1 @@
+Lecturer in software design, Java, and JavaFX. Jakarta EE hackathon winner, recognized for contributions to the Jakarta EE documentation. Ph.D. in Engineering.

@@ -13,13 +13,13 @@ public class RSSManagerTest {
 
     @BeforeAll
     public static void setup() {
-        DataRepository2.setTesting(true);
+        DataRepository.setTesting(true);
     }
 
     @Test
     void shouldCreateLinksOfTheWeekRss() {
         // given
-        DataRepository2 repository = DataRepository2.getInstance();
+        DataRepository repository = DataRepository.getInstance();
         assertFalse(repository.getLinksOfTheWeek().isEmpty());
 
         String rss = RSSManager.createRSS();

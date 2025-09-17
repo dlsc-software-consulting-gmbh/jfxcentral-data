@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "path": "light-theme.png",
+      "title": "Light Theme",
+      "description": ""
+    },
+    {
+      "path": "dark-theme.png",
+      "title": "Dark Theme",
+      "description": ""
+    }
+  ]
+}

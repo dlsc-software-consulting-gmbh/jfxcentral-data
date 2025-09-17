@@ -1,0 +1,1 @@
+Software Developer, DevRel at BellSoft. I like contributing to open-source projects, as well as blogging and speaking about all things Java and OpenJFX in particular.

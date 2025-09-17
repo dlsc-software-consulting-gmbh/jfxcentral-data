@@ -22,6 +22,17 @@
     "sourceCodeUrl": ""
   },
   {
+    "id": "vscode",
+    "createdOn": "2025-06-27",
+    "modifiedOn": "2025-06-27",
+    "name": "Guide for JavaFX Development on Visual Studio Code",
+    "personIds": [
+      "h.kubota"
+    ],
+    "canonicalUrl": "",
+    "sourceCodeUrl": ""
+  },
+  {
     "id": "hello-world",
     "createdOn": "2023-10-18",
     "modifiedOn": "2023-10-18",
@@ -112,5 +123,44 @@
     ],
     "canonicalUrl": "https://webtechie.be/post/2024-07-22-javafx-nodes-versus-canvas/",
     "sourceCodeUrl": "https://gist.github.com/FDelporte/c74cdf59ecd9ef1b14df86e08faa0c56"
+  },
+  {
+    "id": "fat-jar",
+    "createdOn": "2024-10-01",
+    "modifiedOn": "2024-10-01",
+    "name": "Template project to build a JAR with dependencies with Maven",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "https://webtechie.be/post/2024-10-03-javafx-maven-jar-template/",
+    "sourceCodeUrl": "https://github.com/FDelporte/javafx-jar-template"
+  },
+  {
+    "id": "kotlin-versus-java",
+    "createdOn": "2024-09-20",
+    "modifiedOn": "2024-09-20",
+    "name": "JavaFX with Kotlin versus Java",
+    "personIds": [
+      "f.delporte"
+    ],
+    "canonicalUrl": "https://webtechie.be/post/2024-09-20-javafx-with-kotlin-versus-java/",
+    "sourceCodeUrl": "https://github.com/FDelporte/javafx-with-java-versus-kotlin"
+  },
+  {
+    "id": "quarkusfx",
+    "createdOn": "2024-10-23",
+    "modifiedOn": "2024-10-23",
+    "name": "Using JavaFX in your Quarkus application",
+    "personIds": [
+      "c.detastes"
+    ],
+    "videoIds": [
+      "Vw9S9uuPTlQ"
+    ],
+    "libraryIds": [
+      "quarkusfx"
+    ],
+    "canonicalUrl": "",
+    "sourceCodeUrl": ""
   }
 ]

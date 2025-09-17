@@ -229,5 +229,34 @@
       "IpYlyCRZcxc",
       "rBHBlICJMcU"
     ]
+  },
+  {
+    "id": "jdeploy",
+    "name": "jdeploy",
+    "summary": "Distribute your JavaFX app as a native bundle.",
+    "description": "Deploy your app to Mac, Linux, and Windows users without the usual hassles.",
+    "tags": "jdeploy, swing, javafx, packaging, distribution, updates",
+    "homepage": "https://www.jdeploy.com/",
+    "createdOn": "2024-12-12",
+    "modifiedOn": "2024-12-12",
+    "personIds": [
+      "s.hannah"
+    ]
+  },
+  {
+    "id": "demofx",
+    "name": "DemoFX",
+    "summary": "DemoFX is a performance test platform for JavaFX.",
+    "description": "DemoFX can layer and schedule effects on a timeline. It is used to discover the best techniques to optimize JavaFX performance on the Raspberry Pi and Desktop.",
+    "tags": "javafx, performance, animation",
+    "homepage": "https://github.com/chriswhocodes/DemoFX",
+    "createdOn": "2025-02-20",
+    "modifiedOn": "2025-02-20",
+    "personIds": [
+      "c.newland"
+    ],
+    "videoIds": [
+      "8s14hFLp7cI"
+    ]
   }
 ]

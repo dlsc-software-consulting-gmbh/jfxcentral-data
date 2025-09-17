@@ -1,0 +1,1 @@
+Chris Newland is a FinTech Java developer, Java Champion, and creator of open-source JVM tools including JITWatch. He regularly speaks at conference and is a published author on Java performance techniques.

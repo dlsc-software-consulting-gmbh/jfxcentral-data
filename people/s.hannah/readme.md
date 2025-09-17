@@ -1,0 +1,1 @@
+Creator of jDeploy, Xataface, SWeTE, PDF OCR X, Java-Objective-C bridge. Co-Founder of Web Lite Translation Corp. Software Engineer at Codename One.
