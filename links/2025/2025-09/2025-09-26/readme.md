@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* **Stefan Richthofer** published on APIdia the [documentation of the new JavaFX 25 release](https://apidia.net/mvn/org.openjfx/javafx/25/): "_This includes the incubating modules (input and richtext), however they are hidden by default. You can enable hidden modules via the menu in the top-right, see [the screenshot](https://bsky.app/profile/stewori.bsky.social/post/3lz6x4ha2uk24)._"
 
 ## SceneBuilder
 
