@@ -31,11 +31,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* A great article with a lot of code examples by **Catherine Edelveis** on DZone: [Top 7 Mistakes When Testing JavaFX Applications](https://dzone.com/articles/top-javafx-testing-mistakes). "_Testing JavaFX programs may seem non-trivial at first. This article describes the most common mistakes when testing desktop apps, their causes, and solutions._"
 
 ## Miscellaneous
 
-*
+* 
 
 ## JFX Central
 
