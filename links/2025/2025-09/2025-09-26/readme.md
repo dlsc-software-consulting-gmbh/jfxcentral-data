@@ -19,4 +19,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-* [**Clement of Tastes** published "Valhalla & Value Types au pays des fractales"](https://blog.sciam.fr/2025/09/22/value-types-et-fractales.html) in French. Translated intro: "_We invite you to make a leap in the future of Java, especially through improvements that the Valhalla project prepares for us. We will take the opportunity to put them into practice on a talking example: the calculation and visualization of the whole of Mandelbrot._" In the article, JavaFX is used to generate beautiful fractals.
+* [**Clément de Tastes** published "Valhalla & Value Types au pays des fractales"](https://blog.sciam.fr/2025/09/22/value-types-et-fractales.html) in French. Translated intro: "_We invite you to make a leap in the future of Java, especially through improvements that the Valhalla project prepares for us. We will take the opportunity to put them into practice on a talking example: the calculation and visualization of the whole of Mandelbrot._" In the article, JavaFX is used to generate beautiful fractals.
