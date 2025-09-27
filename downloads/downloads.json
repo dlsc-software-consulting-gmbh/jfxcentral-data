@@ -434,45 +434,39 @@
     "files": [
       {
         "name": "MSI Installer (Windows Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/JDKMon-21.0.13.msi",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/JDKMon-21.0.17.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac Intel)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/JDKMon-21.0.13.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/JDKMon-21.0.17.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "PKG Installer (Mac aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/JDKMon-21.0.13-aarch64.pkg",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/JDKMon-21.0.17-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon_21.0.13_amd64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/jdkmon_21.0.17_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux x64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon-21.0.13-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/jdkmon-21.0.17-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       },
       {
         "name": "DEB Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon_21.0.13_arm64.deb",
+        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.17/jdkmon_21.0.17_amd64.deb",
         "fileName": "",
         "package": "DEB"
-      },
-      {
-        "name": "RPM Installer (Linux aarch64)",
-        "url": "https://github.com/HanSolo/JDKMon/releases/download/21.0.13/jdkmon-21.0.13-1.aarch64.rpm",
-        "fileName": "",
-        "package": "RPM"
       }
     ]
   },
