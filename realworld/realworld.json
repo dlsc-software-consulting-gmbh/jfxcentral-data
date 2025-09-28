@@ -34,6 +34,26 @@
     "videoIds": []
   },
   {
+    "id": "polarion",
+    "name": "Polarion Application Lifecycle Management (ALM)",
+    "company": "Siemens Digital Industries Software (Siemens AG)",
+    "url": "https://plm.sw.siemens.com/de-DE/polarion/application-lifecycle-management-alm",
+    "domain": "application lifecycle management",
+    "tags": "plm, alm, project-management, requirements-management, application-lifecycle-management",
+    "summary": "Polarion ALM is a Siemens platform for end-to-end software lifecycle management and traceability.",
+    "description": "Polarion ALM is a Siemens web-based platform that unifies requirements, project and test management, change control, and compliance to provide full end-to-end traceability across the entire software development lifecycle.",
+    "createdOn": "2025-09-27",
+    "modifiedOn": "2025-09-27",
+    "location": "Germany",
+    "videoIds": [],
+    "personIds": [
+      "v.smeltsov", "f.kirmaier"
+    ],
+    "companyIds": [
+      "intechcore"
+    ]
+  },
+   {
     "id": "presentationbuilder",
     "name": "Presentation Builder",
     "company": "Sideline Sports",
