@@ -56,11 +56,11 @@ Within the scope of a specific customer project at an international manufacturer
 
 These customer-specific enhancement demonstrates how flexibly SCell can be adapted beyond standard use cases. At the same time, all future users **benefit** from the core engine and can integrate similarly tailored features into their own ALM environments.
 
-**Demo – Video**
+**Demo Video**
 
 A live demo of the integration is available on our YouTube channel (1:39 minutes):
 
-[SCell in Polarion ALM mit JPro – YouTube](https://www.youtube.com/watch?v=BRatqb2RwIw)
+![SCell in Polarion ALM mit JPro](youtube:BRatqb2RwIw)
 
 **Advantages and Benefits**
 
