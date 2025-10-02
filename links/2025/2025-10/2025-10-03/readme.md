@@ -23,7 +23,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* [**Frank Delporte** is working on the 2025 update](https://bsky.app/profile/did:plc:jx7h5s74cqipmtc7zrb5224m/post/3m27psgxob22t) of his book with Java and JavaFX examples for the Raspberry Pi: "_I have just published a new version of my book, 'Getting Started with Java on the Raspberry Pi,' on Leanpub. If you purchase now, you will receive any future updates at no additional cost. Updated for Java 25, with more updates following soon!_"
 
 ## Conferences, Presentations
 
