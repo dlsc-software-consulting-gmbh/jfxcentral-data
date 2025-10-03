@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* [**Johan Vos** is working on Java on Mobile](https://mastodon.social/@johanvos/115309280336500000): "_I can now run HelloFX on an iPhone. This required only really minor changes to OpenJFX and OpenJDK, and I'll update [github.com/openjdk-mobile/openjfx-build](https://github.com/openjdk-mobile/openjfx-build) as soon as I find some time. Most of the work (> 99%) went into understanding the tons of options in XCode. Next step is the integration of Leyden code into OpenJDK/mobile. Hope to get support from the Leyden experts._"
 
 ## SceneBuilder
 
