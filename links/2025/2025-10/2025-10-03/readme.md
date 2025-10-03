@@ -13,25 +13,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * [**Patrik Karlström** released version 25.09 of nbRsync](https://bsky.app/profile/trixon.se/post/3lzsd33jkzs2a), a rsync GUI: "_It's mostly about dependency updates such as Netbeans 27, JDK and JavaFX 25._" You can find it on [GitHub](https://github.com/trixon/nbRsync).
 * [Video shared by LogoRRR on Bluesky](https://bsky.app/profile/logorrr.bsky.social/post/3lzywsev5622b): "_Working on a nice addition to LogoRRR - Group and reuse your search queries! Reapply them to your multiple log files - this will surely save you time. This will be part of the next release._"
 
-## Games
-
-* 
-
-## Components, Libraries, Tools
-
-* 
-
 ## Podcasts, Videos, Books
 
 * [**Frank Delporte** is working on the 2025 update](https://bsky.app/profile/did:plc:jx7h5s74cqipmtc7zrb5224m/post/3m27psgxob22t) of his book with Java and JavaFX examples for the Raspberry Pi: "_I have just published a new version of my book, 'Getting Started with Java on the Raspberry Pi,' on Leanpub. If you purchase now, you will receive any future updates at no additional cost. Updated for Java 25, with more updates following soon!_"
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
 
 ## Miscellaneous
 
@@ -42,3 +26,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * New content on JFX Central:
   * Showcase: [Polarion Application Lifecycle Management (ALM)](https://www.jfx-central.com/showcases/polarion)
+* The links of September got [published on Foojay](https://foojay.io/today/javafx-links-of-september-2025/).
