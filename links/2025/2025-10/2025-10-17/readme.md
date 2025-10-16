@@ -38,4 +38,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * People: [Vlad Protsenko](https://www.jfx-central.com/people/v.protsenko)
+  * Tools: [Cljfx](https://www.jfx-central.com/tools/cljfx)
+  * Videos: [JavaFX In Action with Vlad Protsenko: Combining Clojure with JavaFX ](https://www.jfx-central.com/videos/1JL6zdkM1GU)
