@@ -22,7 +22,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* **Frank Delporte** published a new interview in his "JavaFX In Action" series: [**Vlad Protsenko**, Combining Clojure with JavaFX for Game Development with Defold](https://webtechie.be/post/2025-10-16-jfxinaction-vlad-protsenko-closure-cljfx-defold/). "_Vlad is a Clojure developer working at Defold. While I initially wanted to learn about the Cljfx project, our conversation evolved into a learning experience: a practical getting-started guide to Clojure, a hands-on demonstration of building JavaFX user interfaces with minimal code, and an inside look at the Defold game engine and its JavaFX-based IDE._"
 
 ## Conferences, Presentations
 
