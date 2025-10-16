@@ -193,7 +193,7 @@ public class DataRepository {
             }.getType()));
 
         } catch (Exception e) {
-            LOG.severe("error loading data: " + e.getMessage());
+            LOG.severe("Error loading data: " + e.getMessage());
         }
 
         LOG.fine("data loading finished");
@@ -203,6 +203,7 @@ public class DataRepository {
         try (FileReader fr = new FileReader(file, StandardCharsets.UTF_8)) {
             return gson.fromJson(fr, type);
         } catch (IOException e) {
+            LOG.severe("Error loading data from file " + file + ": " + e.getMessage());
             throw new RuntimeException(e);
         }
     }
