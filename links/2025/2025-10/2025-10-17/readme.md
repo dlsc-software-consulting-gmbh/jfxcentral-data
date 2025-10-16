@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [LogoRRR shared a screenshot of an upcoming release](https://bsky.app/profile/logorrr.bsky.social/post/3m3bbbh3pjk2x): "_The goal is absolute simplicity for you, which requires a lot of development and careful planning behind the scenes._"
 
 ## Games
 
@@ -18,7 +18,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* [JPM shared a video](https://bsky.app/profile/sunnykentz.bsky.social/post/3m37jrdglpc2a): "_To show the true power of [JPM](www.jpmhub.org) I created Neutron, a native app builder that leverages the power of JavaFX's webview for easy development._" [Sources on GitHub](https://github.com/jpm-hub/neutron?tab=readme-ov-file).
+* [Message from **Clément de Tastes**](https://bsky.app/profile/cdetastes.bsky.social/post/3m2w77c2kts2w): "_A major milestone has been reached on the quarkus-fx extension as it now supports native build in its 0.10.0 release. [Please report any found issue](https://github.com/quarkiverse/quarkus-fx)._"
 
 ## Podcasts, Videos, Books
 
