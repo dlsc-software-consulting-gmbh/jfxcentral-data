@@ -27,7 +27,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Conferences, Presentations
 
-*
+* Already listed in the links from previous week, but now the video is available of this Devoxx talk: [Robotics and GraalVM native libraries by **Florian Enner**](https://www.youtube.com/watch?v=md2JFgegN7U). It shows a very impressive JavaFX UI with 3D visualization of the interactions with robot arms.
 
 ## Tutorials
 
@@ -40,6 +40,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * New content on JFX Central:
-  * People: [Vlad Protsenko](https://www.jfx-central.com/people/v.protsenko)
+  * People: [**Vlad Protsenko**](https://www.jfx-central.com/people/v.protsenko)
   * Tools: [Cljfx](https://www.jfx-central.com/tools/cljfx)
   * Videos: [JavaFX In Action with Vlad Protsenko: Combining Clojure with JavaFX ](https://www.jfx-central.com/videos/1JL6zdkM1GU)
