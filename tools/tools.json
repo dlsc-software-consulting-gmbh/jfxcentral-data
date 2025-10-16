@@ -258,5 +258,24 @@
     "videoIds": [
       "8s14hFLp7cI"
     ]
+  },
+  {
+    "id": "cljfx",
+    "name": "Cljfx",
+    "summary": "Cljfx is a declarative, functional and extensible wrapper of JavaFX inspired by better parts of react and re-frame.",
+    "description": "Cljfx is a declarative, functional and extensible wrapper of JavaFX inspired by better parts of react and re-frame.",
+    "tags": "javafx, clojure",
+    "homepage": "https://github.com/cljfx/cljfx",
+    "createdOn": "2025-10-16",
+    "modifiedOn": "2025-10-16",,
+    "personIds": [
+      "v.protsenko"
+    ],
+    "realworldIds": [
+      "defold"
+    ],
+    "videoIds": [
+      "1JL6zdkM1GU"
+    ]
   }
 ]

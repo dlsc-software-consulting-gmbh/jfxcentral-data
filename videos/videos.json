@@ -1648,8 +1648,8 @@
   },
   {
     "name": "Use SceneBuilder to Create User Interfaces with JavaFX",
-    "tags": "JFXInAction, javafx, tools",
-    "type": "JFX In Action",
+    "tags": "javafx, tools",
+    "type": "Tutorial",
     "platform": "Desktop",
     "domain": "Utilities",
     "description": "Creating user interfaces with JavaFX is easy! Simply install SceneBuilder and create a layout with a few clicks! In this video, we will create an interactive To Do app and in the process we will learn how to design UIs without coding.",
@@ -1663,6 +1663,29 @@
     ],
     "companyIds": [
       "bellsoft"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Vlad Protsenko: Combining Clojure with JavaFX ",
+    "tags": "JFXInAction, javafx, tools, clojure, defold",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Libraries",
+    "description": "Vlad Protsenko is a Clojure developer working at Defold. In this video you'll learn about the Cljfx project, getting-started to Clojure, building JavaFX user interfaces with minimal code, and the Defold game engine and its JavaFX-based IDE.",
+    "id": "1JL6zdkM1GU",
+    "minutes" : "18",
+    "createdOn": "2025-10-16",
+    "modifiedOn": "2025-10-16",
+    "publishedOn": "2025-10-16",
+    "personIds": [
+      "v.protsenko",
+      "f.delporte"
+    ],
+    "toolIds": [
+      "cljfx"
+    ],
+    "realworldIds": [
+      "defold"
     ]
   }
 ]

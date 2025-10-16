@@ -956,5 +956,22 @@
     "id": "h.kubota",
     "createdOn": "2025-06-27",
     "modifiedOn": "2025-06-27"
+  },
+  {
+    "name": "Vlad Protsenko",
+    "email": "",
+    "companyId": "",
+    "website": "https://vlaaad.github.io/",
+    "gitHub": "vlaaad",
+    "blogId": "",
+    "linkedIn": "vlad-protsenko-0999b2163",
+    "twitter": "",
+    "mastodon": "",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "v.protsenko",
+    "createdOn": "2025-10-16",
+    "modifiedOn": "2025-10-16"
   }
 ]
