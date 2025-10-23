@@ -3,7 +3,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Core
 
 * [Message from Gluon](https://bsky.app/profile/gluonhq.com/post/3m3puhsuhrk2a): "_The CPU releases for JavaFX are available. [Download the latest JavaFX SDKs with security fixes](https://gluonhq.com/products/javafx/) or get them from Maven Central. You'll find the latest released, JavaFX 25.0.1 and the Gluon JavaFX LTS releases 17.0.17 and 21.0.9._"
-* Is the "OpenSource Model" broken for OpenJFX, and of course also many other projects? And are those who are making money from it not interested in fixing it? [Interesting discussion on Bluesky](https://bsky.app/profile/johanvos.bsky.social/post/3m3mejmxq5k2p)...
+* Is the "OpenSource Model" broken for OpenJFX (and all other projects)? And are those who are making money from it not interested in fixing it? [Interesting discussion on Bluesky](https://bsky.app/profile/johanvos.bsky.social/post/3m3mejmxq5k2p)...
 
 ## SceneBuilder
 
