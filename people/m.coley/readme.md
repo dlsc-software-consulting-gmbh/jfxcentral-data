@@ -1,0 +1,1 @@
+Matt Coley got into Java development when he wanted to find out how Minecraft works. Because of his many experiments, he gained a lot of knowledge about Java byte code, how it can be converted back to Java code, and how JARs can hide the real code from the user or contain malicious code. He combines all his knowledge in the Recaf tool and the JavaFX libraries he created.

@@ -909,5 +909,23 @@
     "videoIds": [
       "1JL6zdkM1GU"
     ]
+  },
+  {
+    "id": "recaf",
+    "name": "Recaf",
+    "tags": "recaf, tools",
+    "url": "https://recaf.coley.software/",
+    "summary": "The modern Java bytecode editor ",
+    "domain": "Software development",
+    "description": "Recaf is an open-source Java bytecode editor that simplifies the process of editing compiled Java applications.",
+    "createdOn": "2025-10-24",
+    "modifiedOn": "2025-10-24",
+    "personIds": [
+      "m.coley"
+    ],
+    "libraryIds": [
+      "bentofx",
+      "treemapfx"
+    ]
   }
 ]

@@ -936,8 +936,34 @@
     "logoAvailable": "true",
     "ensemble": "false",
     "featuredImageName": "example-drag.png",
+    "peopleIds": [
+      "m.coley"
+    ],
     "videoIds": [
       "7ZJ6Mro1iAk"
+    ]
+  },
+  {
+    "id": "treemapfx",
+    "name": "TreeMapFX",
+    "summary": "A simple TreeMap control for JavaFX.",
+    "tags": "docking, custom control",
+    "description": "A simple and flexible tree map chart control for JavaFX.",
+    "documentation": "https://github.com/Col-E/TreeMapFX",
+    "license": "MIT",
+    "homepage": "https://github.com/Col-E/TreeMapFX",
+    "githubAccount": "Col-E",
+    "githubProject": "TreeMapFX",
+    "javadocs": "",
+    "createdOn": "2025-10-24",
+    "modifiedOn": "2025-10-24",
+    "groupId": "software.coley",
+    "artifactId": "treemap-fx",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "featuredImageName": "treemapfx.png",
+    "peopleIds": [
+      "m.coley"
     ]
   },
   {
