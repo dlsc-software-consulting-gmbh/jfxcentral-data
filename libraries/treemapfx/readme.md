@@ -2,6 +2,8 @@
 
 A simple and flexible _"tree map"_ chart control for JavaFX.
 
+![](treemapfx.png)
+
 ## Usage
 
 The `TreeMapPane` has two properties that are set in the constructor that determine how content is rendered,

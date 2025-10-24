@@ -38,4 +38,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * People: [Matt Coley](https://www.jfx-central.com/people/m.coley)
+  * Showcase: [Recaf](https://www.jfx-central.com/showcases/recaf)
+  * Library: [TreeMapFX](https://www.jfx-central.com/libraries/treemapfx)
