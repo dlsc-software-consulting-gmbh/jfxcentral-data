@@ -947,7 +947,7 @@
     "id": "treemapfx",
     "name": "TreeMapFX",
     "summary": "A simple TreeMap control for JavaFX.",
-    "tags": "docking, custom control",
+    "tags": "custom control",
     "description": "A simple and flexible tree map chart control for JavaFX.",
     "documentation": "https://github.com/Col-E/TreeMapFX",
     "license": "MIT",
