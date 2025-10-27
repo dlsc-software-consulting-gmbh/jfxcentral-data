@@ -22,7 +22,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* A new video by **Catherine Edelveis**: [Top 7 JavaFX Testing Mistakes You Need To Avoid! ](https://www.youtube.com/watch?v=2KiFPZIc0MI): "_Stop making these common JavaFX testing mistakes! No more random NullPointerExceptions or deadlocks — in this video, we'll show you how to fix the 7 most common TestFX pitfalls when testing JavaFX applications. Learn how to handle FX threading, integrate with Spring Boot, avoid event queue races, fix pixel test differences, configure headless CI with Monocle, and properly separate business logic from UI tests. Whether you're writing your first JavaFX test or debugging flaky CI builds, this guide will help you build reliable and maintainable UI tests._"
 
 ## Conferences, Presentations
 
