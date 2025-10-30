@@ -44,4 +44,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * People: [Matt Coley](https://www.jfx-central.com/people/m.coley)
   * Showcase: [Recaf](https://www.jfx-central.com/showcases/recaf)
   * Library: [TreeMapFX](https://www.jfx-central.com/libraries/treemapfx)
-  * Video: [Matt Coley about Recaf and his JavaFX libraries]()
+  * Video: [JavaFX In Action with Matt Coley about Recaf and his JavaFX libraries](https://www.jfx-central.com/videos/6NIJ54h3iVY)
