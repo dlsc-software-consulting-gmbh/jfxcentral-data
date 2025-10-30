@@ -1666,7 +1666,7 @@
     ]
   },
   {
-    "name": "JavaFX In Action with Vlad Protsenko: Combining Clojure with JavaFX ",
+    "name": "JavaFX In Action with Vlad Protsenko: Combining Clojure with JavaFX",
     "tags": "JFXInAction, javafx, tools, clojure, defold",
     "type": "JFX In Action",
     "platform": "Desktop",
@@ -1686,6 +1686,30 @@
     ],
     "realworldIds": [
       "defold"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Matt Coley: Recaf and his JavaFX libraries",
+    "tags": "JFXInAction, javafx, tools, recaf",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Utilities",
+    "description": "Matt Coley is the creator of Recaf and multiple JavaFX libraries. In this interview, you get a demo of Recaf, a deep-dive course on Java byte code, investigating obfuscated code, and how JARs can be (ab)used to hide the real code they are executing...!",
+    "id": "6NIJ54h3iVY",
+    "minutes" : "49",
+    "createdOn": "2025-10-30",
+    "modifiedOn": "2025-10-30",
+    "publishedOn": "2025-10-30",
+    "personIds": [
+      "m.coley",
+      "f.delporte"
+    ],
+    "libraryIds": [
+      "treemapfx",
+      "bentofx"
+    ],
+    "realworldIds": [
+      "recaf"
     ]
   }
 ]

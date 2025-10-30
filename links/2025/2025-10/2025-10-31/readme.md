@@ -23,6 +23,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Podcasts, Videos, Books
 
 * A new video by **Catherine Edelveis**: [Top 7 JavaFX Testing Mistakes You Need To Avoid! ](https://www.youtube.com/watch?v=2KiFPZIc0MI): "_Stop making these common JavaFX testing mistakes! No more random NullPointerExceptions or deadlocks — in this video, we'll show you how to fix the 7 most common TestFX pitfalls when testing JavaFX applications. Learn how to handle FX threading, integrate with Spring Boot, avoid event queue races, fix pixel test differences, configure headless CI with Monocle, and properly separate business logic from UI tests. Whether you're writing your first JavaFX test or debugging flaky CI builds, this guide will help you build reliable and maintainable UI tests._"
+* **Frank Delporte** interviewed **Matt Coley** about Recaf and the JavaFX libraries he's working on: "_But unexpectedly, I got a deep-dive course on #Java byte code, obfuscated code, and how JARs can be (ab)used to hide the real code they are executing...! So, it's not just a new JavaFX In Action interview, but an inspiring story about how Matt got into the foundations of the Java language thanks to his love for Minecraft._" The [video is on YouTube](https://www.youtube.com/watch?v=6NIJ54h3iVY) with [more info in this blog post](https://webtechie.be/post/2025-10-30-jfxinaction-matt-coley-recaf-bentofx-treemapfx-glcanvasfx/).
 
 ## Conferences, Presentations
 
@@ -43,3 +44,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * People: [Matt Coley](https://www.jfx-central.com/people/m.coley)
   * Showcase: [Recaf](https://www.jfx-central.com/showcases/recaf)
   * Library: [TreeMapFX](https://www.jfx-central.com/libraries/treemapfx)
+  * Video: [Matt Coley about Recaf and his JavaFX libraries]()
