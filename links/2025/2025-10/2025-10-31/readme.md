@@ -6,11 +6,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## SceneBuilder
 
-* 
+* **Plant Fall** published a new video about a SceneBuilder-alternative without XML: "_In [this video](https://www.youtube.com/watch?v=BrXzMbWUU-Y), I show the progress of Morphos Desktop FX – Version 2, a powerful GUI builder that lets you create your JavaFX interfaces visually — and now it can generate complete source code and save your layouts as JSON files._"
 
 ## Applications
 
-* 
+* [v3.25.0 of binjr, a standalone time series browser, is now available](https://social.binjr.eu/@binjr/statuses/01K8R4TE2R0HDXQR1816KE4MC6): "_Aside from being based on the latest Java25 runtime — making this a somewhat themed release — the main features this time around are: much improved support for the ZGC garbage collector logs files for the OpenJDK JVM, improvements to handling of CSV files with things like support for comments and better number parsing for uncommon notations, bug fixes, and quality of life enhancements. Full changelog and download links are available on [binjr.eu](https://binjr.eu)._"
 
 ## Games
 
