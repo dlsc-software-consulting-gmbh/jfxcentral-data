@@ -277,5 +277,15 @@
     "videoIds": [
       "1JL6zdkM1GU"
     ]
+  },
+  {
+    "id": "sdkman-gui",
+    "name": "sdkman-gui",
+    "summary": "A modern graphical management tool for SDKMAN, providing an Applite-like user experience.",
+    "description": "A modern graphical management tool for SDKMAN, providing an Applite-like user experience.",
+    "tags": "javafx, tools",
+    "homepage": "https://github.com/youngledo/sdkman-gui",
+    "createdOn": "2025-11-01",
+    "modifiedOn": "2025-11-03"
   }
 ]
