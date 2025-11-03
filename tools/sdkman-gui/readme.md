@@ -6,10 +6,13 @@ Built with JavaFX 25 + Maven 4.0, inspired by Applite's design aesthetic, offeri
 
 ## Demo
 
-<img src="home.png" alt="home">
-<img src="jdk.png" alt="jdk">
-<img src="sdk.png" alt="sdk">
-<img src="settings.png" alt="settings">
+![Home](home.png)
+
+![JDK](jdk.png)
+
+![SDK](sdk.png)
+
+![Settings](settings.png)
 
 [Watch Demo Video](https://github.com/youngledo/sdkman-gui/blob/master/sdkman-gui.webm)
 
