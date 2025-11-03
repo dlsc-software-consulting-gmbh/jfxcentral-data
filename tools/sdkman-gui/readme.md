@@ -1,4 +1,4 @@
-# SDKMAN GUI
+# [SDKMAN GUI](https://github.com/youngledo/sdkman-gui)
 
 **English** | [中文](README_ZH.md)
 
@@ -13,7 +13,7 @@ Built with JavaFX 25 + Maven 4.0, inspired by Applite's design aesthetic, offeri
 <img src="sdk.png" alt="sdk">
 <img src="settings.png" alt="settings">
 
-**[📹 Watch Demo Video (sdkman-gui.webm)](sdkman-gui.webm)**
+**[📹 Watch Demo Video (sdkman-gui.webm)]([sdkman-gui.webm](https://github.com/youngledo/sdkman-gui/blob/master/sdkman-gui.webm))**
 
 ## ✨ Features
 
