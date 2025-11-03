@@ -260,6 +260,22 @@
     ]
   },
   {
+    "id": "fxgldialogueeditor",
+    "name": "FXGL Dialogue Editor",
+    "tags": "game development, dialogue graph, visualization, dialogue editor",
+    "summary": "A dialogue editor for games.",
+    "description": "An editor used for creating dialogue sequences for games based on the FXGL gaming framework.",
+    "homepage": "https://fxgl.itch.io/fxgl-dialogue-editor",
+    "personIds": [
+      "a.baimagambetov"
+    ],
+    "libraryIds": [
+      "fxgl"
+    ],
+    "createdOn": "2021-12-17",
+    "modifiedOn": "2021-12-17"
+  },
+  {
     "id": "cljfx",
     "name": "Cljfx",
     "summary": "Cljfx is a declarative, functional and extensible wrapper of JavaFX inspired by better parts of react and re-frame.",
@@ -280,7 +296,7 @@
   },
   {
     "id": "sdkman-gui",
-    "name": "sdkman-gui",
+    "name": "SDKMAN GUI",
     "summary": "A modern graphical management tool for SDKMAN, providing an Applite-like user experience.",
     "description": "A modern graphical management tool for SDKMAN, providing an Applite-like user experience.",
     "tags": "javafx, tools",
