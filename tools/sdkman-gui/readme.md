@@ -6,6 +6,8 @@ Built with JavaFX 25 + Maven 4.0, inspired by Applite's design aesthetic, offeri
 
 ## Demo
 
+### Images
+
 ![Home](home.png)
 
 ![JDK](jdk.png)
@@ -14,8 +16,9 @@ Built with JavaFX 25 + Maven 4.0, inspired by Applite's design aesthetic, offeri
 
 ![Settings](settings.png)
 
-**[📹 Watch Demo Video (sdkman-gui.webm)](https://youtu.be/gbxEjiw3i-o)**
+### Video
 
+![alt](youtube:gbxEjiw3i-o)
 
 ## Features
 
