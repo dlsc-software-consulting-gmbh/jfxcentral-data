@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* [Article by **Paul Krill** on InfoWorld](https://www.infoworld.com/article/4082709/will-javafx-return-to-java.html): "Will JavaFX return to Java?" "_Just as a proposal to return JavaFX to the Java Development Kit has drawn interest in the OpenJDK community, Oracle too says it wants to make the Java-based rich client application more approachable within the JDK. ... An [October 29 post by **Bruce Haddon** on an OpenJDK discussion list](https://mail.openjdk.org/pipermail/discuss/2025-October/006553.html) argues that the reasons for the separation ... are much less applicable today._"
 
 ## SceneBuilder
 
@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Rafael Gutierrez** shared on Bluesky](https://bsky.app/profile/abaddongtz.bsky.social/post/3m4rdpoes5s2a): "A Pomodoro Timer built with JavaFX and Spring Shell using Hexagonal Architecture (any feedback is welcome.)_" You can find it [on GitHub](https://github.com/abadongutierrez/pomodoro-timer).
 
 ## Games
 
