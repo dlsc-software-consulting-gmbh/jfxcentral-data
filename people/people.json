@@ -2,7 +2,6 @@
   {
     "name": "Robert Lichtenberger",
     "email": "r.lichtenberger@gmail.com",
-    "companyId": "synedra",
     "website": "",
     "gitHub": "effad",
     "blogId": "",
@@ -13,13 +12,15 @@
     "libraryIds": [
       "validatorfx"
     ],
+    "companyIds": [
+      "synedra"
+    ],
     "createdOn": "2021-11-11",
     "modifiedOn": "2021-11-11"
   },
   {
     "name": "Agostino De Marco",
     "email": "agostino.demarco@unina.it",
-    "companyId": "smartupengineering",
     "website": "https://www.docenti.unina.it/agostino.demarco",
     "gitHub": "agodemar",
     "blogId": "",
@@ -30,13 +31,15 @@
     "appIds": [
       "jpadmodeller"
     ],
+    "companyIds": [
+      "smartupengineering"
+    ],
     "createdOn": "2021-11-02",
     "modifiedOn": "2021-11-02"
   },
   {
     "name": "Eugene Ryzhikov",
     "email": "",
-    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -57,7 +60,6 @@
   {
     "name": "Abhinay Agarwal",
     "email": "",
-    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -81,7 +83,6 @@
   {
     "name": "Dirk Lemmermann",
     "email": "dlemmermann@gmail.com",
-    "companyId": "dlsc",
     "website": "https://www.dlsc.com",
     "blogId": "pixel-perfect",
     "linkedIn": "dlemmermann",
@@ -116,7 +117,6 @@
   {
     "name": "Almas Baimagambetov",
     "email": "almaslvl@gmail.com",
-    "companyId": "",
     "website": "https://www.youtube.com/channel/UCmjXvUa36DjqCJ1zktXVbUA/videos",
     "gitHub": "AlmasB",
     "blogId": "",
@@ -139,7 +139,6 @@
   {
     "name": "Frank Delporte",
     "email": "frank@webtechie.be",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "frankdelporte",
@@ -162,7 +161,6 @@
   {
     "name": "Andres Almiray",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "aalmiray",
@@ -184,7 +182,6 @@
   {
     "name": "Sergei Grinev",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "sergeigrinev",
@@ -203,7 +200,6 @@
   {
     "name": "Bruno Borges",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -216,7 +212,6 @@
   {
     "name": "Carl Dea",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -229,7 +224,6 @@
   {
     "name": "Dean Iverson",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -242,7 +236,6 @@
   {
     "name": "Gerrit Grunwald",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "gerritgrunwald",
@@ -268,7 +261,6 @@
   {
     "name": "Hendrik Ebbers",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "hendrik-ebbers",
@@ -281,7 +273,6 @@
   {
     "name": "James Weaver",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -294,7 +285,6 @@
   {
     "name": "Johan Vos",
     "email": "",
-    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -315,7 +305,6 @@
   {
     "name": "Jonathan Giles",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -337,7 +326,6 @@
   {
     "name": "José Pereda",
     "email": "",
-    "companyId": "gluon",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -361,7 +349,6 @@
   {
     "name": "Michael Gasche",
     "email": "",
-    "companyId": "autumo",
     "website": "https://autumo.ch",
     "gitHub": "autumoswitzerland",
     "blogId": "",
@@ -381,7 +368,6 @@
   {
     "name": "Michael Hoffer",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -394,7 +380,6 @@
   {
     "name": "Mohamed Taman",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -408,7 +393,6 @@
   {
     "name": "Pedro Duque Vieira",
     "email": "pedro.duquevieira@gmail.com",
-    "companyId": "pixelduke",
     "website": "https://www.pixelduke.com",
     "blogId": "pixelduke",
     "linkedIn": "pedro-duque-vieira-2644038",
@@ -426,13 +410,15 @@
       "transit",
       "fxthemes"
     ],
+    "companyIds": [
+      "pixelduke"
+    ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2023-10-03"
   },
   {
     "name": "Sean Phillips",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -446,7 +432,6 @@
   {
     "name": "Stephen Chin",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -460,7 +445,6 @@
   {
     "name": "Tom Schindl",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -475,7 +459,6 @@
     "name": "Weiqi Gao",
     "description": "JavaFX Author",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "",
@@ -489,7 +472,6 @@
   {
     "name": "Anton Epple",
     "email": "",
-    "companyId": "",
     "website": "https://eppleton.de",
     "blogId": "",
     "linkedIn": "",
@@ -503,7 +485,6 @@
   {
     "name": "Jakob Jenkov",
     "email": "jakob@jenkov.com",
-    "companyId": "",
     "website": "https://jenkov.com",
     "blogId": "",
     "linkedIn": "jakob-jenkov-4a3a8",
@@ -520,7 +501,6 @@
   {
     "name": "Matthieu Brouillard",
     "email": "",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "matthieu-brouillard-5b57a624",
@@ -537,7 +517,6 @@
   {
     "name": "Florian Kirmaier",
     "email": "fk@sandec.de",
-    "companyId": "jpro",
     "website": "",
     "blogId": "",
     "linkedIn": "floriankirmaier",
@@ -561,7 +540,6 @@
   {
     "name": "Andrea Vacondio",
     "email": "andrea@soberlemur.com",
-    "companyId": "soberlemur",
     "website": "",
     "blogId": "",
     "linkedIn": "torakiki",
@@ -573,13 +551,15 @@
     "appIds": [
       "pdfsam"
     ],
+    "companyIds": [
+      "soberlemur"
+    ],
     "createdOn": "2021-09-28",
     "modifiedOn": "2021-09-28"
   },
   {
     "name": "Vladyslav Lubenskyi",
     "email": "vladyslav.lubenskyi@teamdev.com",
-    "companyId": "teamdev",
     "website": "",
     "gitHub": "vlad-lubenskyi",
     "blogId": "",
@@ -591,12 +571,14 @@
     "libraryIds": [
       "jxbrowser"
     ],
+    "companyIds": [
+      "teamdev"
+    ],
     "createdOn": "2021-12-29"
   },
   {
     "name": "Dustin Redmond",
     "email": "dustin@dustinredmond.com",
-    "companyId": "",
     "website": "https://dustinredmond.com",
     "blogId": "",
     "linkedIn": "dustin-redmond",
@@ -614,7 +596,6 @@
   {
     "name": "Jan Gassen",
     "email": "",
-    "companyId": "",
     "website": "http://www.jangassen.de",
     "blogId": "",
     "linkedIn": "jangassen",
@@ -632,7 +613,6 @@
   {
     "name": "Simona Russo",
     "email": "",
-    "companyId": "serendipity",
     "website": "",
     "blogId": "",
     "linkedIn": "simorusso",
@@ -641,13 +621,15 @@
     "rockstar": false,
     "id": "s.russo",
     "gitHub": "SerendipityOfficialDev",
+    "companyIds": [
+      "serendipity"
+    ],
     "createdOn": "2023-01-19",
     "modifiedOn": "2023-01-19"
   },
   {
     "name": "Nikolai Vorobev",
     "email": "",
-    "companyId": "intechcore",
     "website": "https://intechcore.com",
     "blogId": "",
     "linkedIn": "",
@@ -659,13 +641,15 @@
     "libraryIds": [
       "scell"
     ],
+    "companyIds": [
+      "intechcore"
+    ],
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
   },
   {
     "name": "Vasily Smeltsov",
     "email": "",
-    "companyId": "intechcore",
     "website": "https://intechcore.com",
     "blogId": "",
     "linkedIn": "vasily-smeltsov",
@@ -677,13 +661,15 @@
     "libraryIds": [
       "scell"
     ],
+    "companyIds": [
+      "intechcore"
+    ],
     "createdOn": "2023-03-10",
     "modifiedOn": "2023-03-10"
   },
   {
     "name": "Surajit Mondal",
     "email": "surajit.mondal@live.com",
-    "companyId": "",
     "website": "",
     "blogId": "",
     "linkedIn": "surajit-mondal-67a61664",
@@ -701,7 +687,6 @@
   {
     "name": "Edward Nyirenda Jr",
     "email": "edwardnyirendajr@gmail.com",
-    "companyId": "",
     "website": "https://coderscratchpad.com",
     "blogId": "",
     "linkedIn": "edward-nyirenda-jr-4b3880289",
@@ -719,7 +704,6 @@
   {
     "name": "Gail Anderson",
     "email": "gail.anderson@asgteach.com",
-    "companyId": "asgteach",
     "website": "http://www.gailanderson.org/",
     "blogId": "",
     "linkedIn": "gail-asgteach",
@@ -737,7 +721,6 @@
   {
     "name": "Paul Anderson",
     "email": "paul.anderson@asgteach.com",
-    "companyId": "asgteach",
     "website": "http://www.gailanderson.org/",
     "blogId": "",
     "linkedIn": "paul-asgteach",
@@ -755,7 +738,6 @@
   {
     "name": "Viktor Meszaros",
     "email": "support@webswing.org",
-    "companyId": "webswing",
     "website": "https://webswing.org",
     "blogId": "",
     "linkedIn": "viktor-meszaros-53aa598",
@@ -774,7 +756,6 @@
   {
     "name": "Gregor Schmid",
     "email": "gregor.schmid@qfs.de",
-    "companyId": "qfs",
     "website": "https://www.qfs.de",
     "blogId": "",
     "linkedIn": "",
@@ -793,7 +774,6 @@
   {
     "name": "Ralph J. Steinhagen",
     "email": "r.steinhagen@gsi.de",
-    "companyId": "GSI/FAIR",
     "website": "https://github.com/fair-acc",
     "blogId": "",
     "linkedIn": "ralphsteinhagen",
@@ -816,7 +796,6 @@
   {
     "name": "Clément de Tastes",
     "email": "clement.detastes@gmail.com",
-    "companyId": "",
     "website": "",
     "gitHub": "CodeSimcoe",
     "blogId": "",
@@ -835,7 +814,6 @@
   {
     "name": "Steve Hannah",
     "email": "",
-    "companyId": "",
     "website": "",
     "gitHub": "shannah",
     "blogId": "",
@@ -854,7 +832,6 @@
   {
     "name": "Victor Hugo Gaspar Quinn",
     "email": "",
-    "companyId": "",
     "website": "https://github.com/HugoQuinn2",
     "gitHub": "HugoQuinn2",
     "blogId": "",
@@ -873,7 +850,6 @@
   {
     "name": "Sven Reimers",
     "email": "",
-    "companyId": "",
     "website": "",
     "gitHub": "svenreimers",
     "blogId": "",
@@ -889,7 +865,6 @@
   {
     "name": "Chris Newland",
     "email": "",
-    "companyId": "",
     "website": "https://chriswhocodes.com/",
     "gitHub": "chriswhocodes",
     "blogId": "",
@@ -906,7 +881,6 @@
   {
     "name": "Cormac Redmond",
     "email": "credmond@certak.com",
-    "companyId": "certak",
     "website": "https://www.certak.com",
     "gitHub": "credmond",
     "blogId": "",
@@ -917,13 +891,15 @@
     "champion": false,
     "rockstar": false,
     "id": "c.redmond",
+    "companyIds": [
+      "certak"
+    ],
     "createdOn": "2025-02-25",
     "modifiedOn": "2025-02-25"
   },
   {
     "name": "Catherine Edelveis",
     "email": "",
-    "companyId": "bellsoft",
     "website": "https://www.youtube.com/@cbrjar",
     "gitHub": "des-felins",
     "blogId": "",
@@ -943,7 +919,6 @@
   {
     "name": "Hidekazu Kubota",
     "email": "hidekazu.kubota@gmail.com",
-    "companyId": "",
     "website": "https://sosuisha.com",
     "gitHub": "sosuisen",
     "blogId": "",
@@ -960,7 +935,6 @@
   {
     "name": "Vlad Protsenko",
     "email": "",
-    "companyId": "",
     "website": "https://vlaaad.github.io/",
     "gitHub": "vlaaad",
     "blogId": "",
@@ -977,7 +951,6 @@
   {
     "name": "Matt Coley",
     "email": "",
-    "companyId": "",
     "website": "https://www.coley.software/",
     "gitHub": "Col-E",
     "blogId": "",
