@@ -3,6 +3,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Core
 
 * [Article by **Paul Krill** on InfoWorld](https://www.infoworld.com/article/4082709/will-javafx-return-to-java.html): "Will JavaFX return to Java?" "_Just as a proposal to return JavaFX to the Java Development Kit has drawn interest in the OpenJDK community, Oracle too says it wants to make the Java-based rich client application more approachable within the JDK. ... An [October 29 post by **Bruce Haddon** on an OpenJDK discussion list](https://mail.openjdk.org/pipermail/discuss/2025-October/006553.html) argues that the reasons for the separation ... are much less applicable today._"
+  * **Frank Delporte** sees a perfect match with the Java on Mobile project and published a post about it: [Will OpenJDK Be Merged Into OpenJDK? It Would Be a Perfect Match with Java on Mobile!](https://webtechie.be/post/2025-11-05-openjfx-returning-to-openjdk/) "_Again, some exciting developments seem to be happening in the Java world! There’s a growing discussion about bringing JavaFX back into the OpenJDK, and it couldn’t come at a better time, especially with Johan Vos and the team at Gluon working hard on making Java a first-class citizen on mobile platforms._"
 
 ## SceneBuilder
 
