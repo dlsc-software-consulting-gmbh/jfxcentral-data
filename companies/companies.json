@@ -8,7 +8,10 @@
     "createdOn": "2021-11-02",
     "consulting": "true",
     "freelancing": "false",
-    "tags": "consulting, aerospace, jpad modeller"
+    "tags": "consulting, aerospace, jpad modeller",
+    "peopleIds": [
+      "a.demarco"
+    ]
   },
   {
     "id": "dlsc",
@@ -125,6 +128,9 @@
       "fxcomponents",
       "transit",
       "fxthemes"
+    ],
+    "peopleIds": [
+      "p.vieira"
     ]
   },
   {
