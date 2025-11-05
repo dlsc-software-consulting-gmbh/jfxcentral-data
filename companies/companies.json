@@ -1,6 +1,6 @@
 [
   {
-    "id": "smartup.engineering",
+    "id": "smartupengineering",
     "name": "SmartUp Engineering srl",
     "summary": "Software for industrial and scientific applications.",
     "description": "SmartUp Engineering is an Italian startup and a spin-off company of the University of Naples Federico II. The company develops software for industrial and scientific applications related to the aerospace field.",
@@ -108,7 +108,7 @@
     "freelancing": "false"
   },
   {
-    "id": "pixelduke.company",
+    "id": "pixelduke",
     "name": "Pixel Duke",
     "summary": "Developing applications to boost customer productivity.",
     "description": "Pixel Duke is a company specialized in the development of beautiful, graphical applications that users feel happy to use and that significantly boost their productivity.",
