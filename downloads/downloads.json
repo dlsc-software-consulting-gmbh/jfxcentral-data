@@ -565,32 +565,6 @@
     ]
   },
   {
-    "id": "fxgldialogueeditor",
-    "name": "FXGL Dialogue Editor",
-    "tags": "game development, dialogue graph, visualization, dialogue editor",
-    "summary": "A dialogue editor for games.",
-    "description": "An editor used for creating dialogue sequences for games based on the FXGL gaming framework.",
-    "homepage": "https://fxgl.itch.io/fxgl-dialogue-editor",
-    "repository": "https://github.com/AlmasB/FXGL",
-    "downloadType": "APPLICATION",
-    "personIds": [
-      "a.baimagambetov"
-    ],
-    "libraryIds": [
-      "fxgl"
-    ],
-    "createdOn": "2021-12-17",
-    "modifiedOn": "2021-12-17",
-    "files": [
-      {
-        "name": "Windows ZIP",
-        "url": "https://fxgl.itch.io/fxgl-dialogue-editor",
-        "fileName": "",
-        "package": "ZIP"
-      }
-    ]
-  },
-  {
     "id": "atlantafx",
     "name": "AtlantaFX",
     "tags": "theme, css, custom controls, material design",
