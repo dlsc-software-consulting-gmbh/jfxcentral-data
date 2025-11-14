@@ -118,25 +118,25 @@
     "files": [
       {
         "name": "MSI Installer (Windows)",
-        "url": "https://github.com/HanSolo/SpaceFX/releases/download/17.0.0/SpaceFX-17.0.0.msi",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/25.0.0/SpaceFX-25.0.0.msi",
         "fileName": "",
         "package": "MSI"
       },
       {
         "name": "PKG Installer (Mac)",
-        "url": "https://github.com/HanSolo/SpaceFX/releases/download/17.0.0/SpaceFX-17.0.0.pkg",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/25.0.0/SpaceFX-25.0.0-aarch64.pkg",
         "fileName": "",
         "package": "PKG"
       },
       {
         "name": "DEB Installer (Linux)",
-        "url": "https://github.com/HanSolo/SpaceFX/releases/download/17.0.0/SpaceFX_17.0.0-1_amd64.deb",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/25.0.0/spacefx_25.0.0_amd64.deb",
         "fileName": "",
         "package": "DEB"
       },
       {
         "name": "RPM Installer (Linux)",
-        "url": "https://github.com/HanSolo/SpaceFX/releases/download/17.0.0/SpaceFX-17.0.0-1.x86_64.rpm",
+        "url": "https://github.com/HanSolo/SpaceFX/releases/download/25.0.0/spacefx-25.0.0-1.x86_64.rpm",
         "fileName": "",
         "package": "RPM"
       }
