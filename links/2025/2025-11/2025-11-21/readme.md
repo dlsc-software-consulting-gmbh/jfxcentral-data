@@ -30,7 +30,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* **Troels Mortensen** continues publishing tutorials on YouTube:
+  * [ViewManager v3](https://www.youtube.com/watch?v=ylkQyqZxiIg)
 
 ## Miscellaneous
 
