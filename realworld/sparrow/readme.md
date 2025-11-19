@@ -25,6 +25,4 @@ Sparrow is also strongly supportive of privacy, and aims to be a wallet that tak
 
 ![](control-your-sends.png)
 
-![](detailed-wallet-history.png)
-
 ![](feature-test.png)

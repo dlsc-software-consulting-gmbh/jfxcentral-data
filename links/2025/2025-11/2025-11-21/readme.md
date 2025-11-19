@@ -39,4 +39,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * Showcase: [Sparrow Bitcoin Wallet](https://www.jfx-central.com/real_world/sparrow)
+  * People: [Craig Raw](https://www.jfx-central.com/people/c.raw)
