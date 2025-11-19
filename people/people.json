@@ -970,5 +970,24 @@
     "realworldIds": [
       "recaf"
     ]
+  },
+  {
+    "name": "Craig Raw",
+    "email": "",
+    "website": "https://www.coley.software/",
+    "gitHub": "craigraw",
+    "blogId": "",
+    "linkedIn": "",
+    "twitter": "",
+    "mastodon": "",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "c.raw",
+    "createdOn": "2025-11-19",
+    "modifiedOn": "2025-11-19",
+    "realworldIds": [
+      "sparrow"
+    ]
   }
 ]
