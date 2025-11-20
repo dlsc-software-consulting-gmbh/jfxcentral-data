@@ -21,7 +21,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* [Message on Reddit JavaFX](https://www.reddit.com/r/JavaFX/comments/1p178xg/webfx_now_supports_teavm_bringing_webassembly_and/) by **Bruno Salmon**: "WebFX now supports TeaVM: bringing WebAssembly and Kotlin to JavaFX on the Web!" with a [link to a full blog post](https://blog.webfx.dev/2025/11/17/teavm/): "_We’re excited to announce that WebFX now officially supports TeaVM, a Java to WebAssembly compiler that unlocks faster startup times and broader JVM language compatibility with now Kotlin and Scala! We already have multiple live demos running with TeaVM._"
 
 ## Podcasts, Videos, Books
 
