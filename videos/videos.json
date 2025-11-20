@@ -1711,5 +1711,25 @@
     "realworldIds": [
       "recaf"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Craig Raw about the Sparrow Bitcoin Wallet,  for those who value financial self sovereignty. Sparrow’s emphasis is on security, privacy and usability. Sparrow does not hide information from you. On the contrary it attempts to provide as much detail as possible about your transactions and UTXOs, but in a way that is manageable and usable.",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Financial",
+    "description": "Craig Raw is the creator of the Sparrow Bitcoin Wallet. ",
+    "id": "Mc3fUTxoKIg",
+    "minutes" : "40",
+    "createdOn": "2025-11-20",
+    "modifiedOn": "2025-11-20",
+    "publishedOn": "2025-11-20",
+    "personIds": [
+      "c.raw",
+      "f.delporte"
+    ],
+    "realworldIds": [
+      "sparrow"
+    ]
   }
 ]
