@@ -8,8 +8,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Applications
 
 * [**codedead** announced](https://bsky.app/profile/codedead.com/post/3m5oxetgrec2x) Opal v1.5.1. [Here are the release notes](https://codedead.com/blog/2025/11/15/opal-1.5.1/). "_Opal is a simple app that includes different sound groupings to suit anyone, from office to fantasy. All have volume controls so you can keep faint in the background or bring them forward. You can also set up a delay timer from the settings tab to remind you to take a break. You also have the option to combine multiple sounds at varying volumes to produce the perfect background noise._"
-  https://www.youtube.com/watch?v=Mc3fUTxoKIg
-* https://webtechie.be/post/2025-11-20-jfxinaction-craig-raw-sparrow-bitcoin-wallet/
 
 ## Components, Libraries, Tools
 
@@ -17,12 +15,15 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-* New ["JavaFX In Action" interview published by **Frank Delporte** with **Craig Raw** about the Sparrow Bitcoin Wallet](https://www.youtube.com/watch?v=Mc3fUTxoKIg): "_I don't have any bitcoin myself, but still find the idea of the blockchain and 'public shared money' fascinating. And as it turns out, there is a free and open-source bitcoin wallet, Sparrow, created with JavaFX, that wants to help people understand how the Bitcoin system works and make transactions easy to understand. And while he explains the app itself, we also learn a lot about the Bitcoin ecosystem, reproducible builds, security, hardware wallets, and more!_"
+* New ["JavaFX In Action" interview published by **Frank Delporte** with **Craig Raw** about the Sparrow Bitcoin Wallet](https://www.youtube.com/watch?v=Mc3fUTxoKIg): "_I don't have any bitcoin myself, but still find the idea of the blockchain and 'public shared money' fascinating. And as it turns out, there is a free and open-source bitcoin wallet, Sparrow, created with JavaFX, that wants to help people understand how the Bitcoin system works and make transactions easy to understand. And while Craig explains the app itself, we also learn a lot about the Bitcoin ecosystem, reproducible builds, security, hardware wallets, and more!_"
 
 ## Tutorials
 
 * **Troels Mortensen** continues publishing tutorials on YouTube:
   * [ViewManager v3](https://www.youtube.com/watch?v=ylkQyqZxiIg)
+  * [Putting fxml files into resource directory](https://www.youtube.com/watch?v=KVD12NS8VQg)
+  * [Single view application](https://www.youtube.com/watch?v=8eIY_xsRm2A)
+  * [The Controller Configurator](https://www.youtube.com/watch?v=AUNqzm4AJxo)
 
 ## Miscellaneous
 
