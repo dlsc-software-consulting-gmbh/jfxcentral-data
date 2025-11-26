@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* **Frank Delporte**'s post "Will OpenJFX Be Merged Into OpenJDK? It Would Be a Perfect Match with Java on Mobile!" got [republished on Foojay.io](https://foojay.io/today/will-openjfx-be-merged-into-openjdk-it-would-be-a-perfect-match-with-java-on-mobile/). "_There's a growing discussion about bringing JavaFX back into the OpenJDK, and it couldn't come at a better time, especially with Johan Vos and the team at Gluon working hard on making Java a first-class citizen on mobile platforms._"
 
 ## SceneBuilder
 
@@ -30,7 +30,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-* https://www.youtube.com/watch?v=KVD12NS8VQg
+* More tutorials by **Troels Mortensen**:
 
 ## Miscellaneous
 
