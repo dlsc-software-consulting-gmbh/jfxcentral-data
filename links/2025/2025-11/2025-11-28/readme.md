@@ -10,11 +10,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Cormac Redmond** shared an impressive screenshot](https://mastodon.social/@credmond/115617279097981595) showing a lot of different UI windows of KafkIO: "_Version 2.0.14 is released, packed with new features. [Download the fast, easy Apache Kafka™ GUI](https://kafkio.com/)._"
 
 ## Games
 
-* 
+* [Defold, the free game engine with a JavaFX UI engine, shared](https://bsky.app/profile/defold.com/post/3m6m2cbjfgk2f): "_[The Defold Editor Overview manual](https://defold.com/manuals/editor/) has been updated! Get familiar with the new Editor features and let us know if there is anything we could improve further._"
 
 ## Components, Libraries, Tools
 
