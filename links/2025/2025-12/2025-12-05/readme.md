@@ -40,5 +40,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * New content on JFX Central:
+  * People: [Florian Enner](https://www.jfx-central.com/people/f.enner)
   * Video: [JavaFX In Action with Florian Enner about Robot 3D Visualizations and Charts](https://www.jfx-central.com/videos/_DGz4YyojpE)
 * The links of November got [published on Foojay](https://foojay.io/today/javafx-links-of-november-2025/).
