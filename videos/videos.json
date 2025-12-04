@@ -1546,6 +1546,9 @@
     ],
     "companyIds": [
       "certak"
+    ],
+    "libraryIds": [
+      "atlantafx"
     ]
   },
   {
@@ -1663,6 +1666,9 @@
     ],
     "companyIds": [
       "bellsoft"
+    ],
+    "toolIds": [
+      "scenebuilder"
     ]
   },
   {
@@ -1730,6 +1736,30 @@
     ],
     "realworldIds": [
       "sparrow"
+    ],
+    "libraryIds": [
+      "atlantafx"
+    ]
+  },
+  {
+    "name": "JavaFX In Action with Florian Enner about Robot 3D Visualizations and Charts with JavaFX",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Manufacturing",
+    "description": "Florian Enner takes JavaFX to the next level by visualizing the movements of robots in a 3D environment and the measurements of sensors in charts capable of rendering millions of data points, both on desktop and mobile.",
+    "id": "_DGz4YyojpE",
+    "minutes" : "35",
+    "createdOn": "2025-12-04",
+    "modifiedOn": "2025-12-04",
+    "publishedOn": "2025-12-04",
+    "personIds": [
+      "f.delporte"
+    ],
+    "libraryIds": [
+      "chartfx",
+      "fxyz",
+      "atlantafx"
     ]
   }
 ]
