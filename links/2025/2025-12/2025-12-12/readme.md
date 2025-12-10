@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* **Juan Antonio Breña Moral** created an "animated spinning ripple surface rendered with JavaFX" using `MemorySegment` from the FFM API (Java 22+), [JEP 454](https://openjdk.org/jeps/454), to increase performance. [Sources and screenshot on GitHub](https://github.com/jabrena/sombrero).
 
 ## Games
 
@@ -18,7 +18,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* [Message by **Dirk Lemmermann** on Bluesky](https://bsky.app/profile/dlemmermann.bsky.social/post/3m7asibknqc2u): "_Check out FXMLKit. Another convention-over-configuration framework that removes boilerplate code for loading screens done in FXML. It is inspired by afterburner.fx but also supports JPro multi-user sessions and dependency injection for nested components._" [Sources and more description on GitHub](https://github.com/dlsc-software-consulting-gmbh/FxmlKit) and v1.1.0 on Maven Central.
 
 ## Podcasts, Videos, Books
 
