@@ -35,6 +35,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Miscellaneous
 
 * On Reddit, [**Rvaranda** shared a video and is asking for support](https://www.reddit.com/r/JavaFX/comments/1pk0la8/fxgl_fps_problem/): "_I'm having a weird problem with FXGL. Don't know if it's FPS related, but what happens is, when I start the game, the app's timer spikes up very briefly at the start, then it stabilizes. As a result, all moving entities moves very quickly initialy, then they slow down to their actual speed._"
+* [**Clément de Tastes** shared a screenshot](https://bsky.app/profile/cdetastes.bsky.social/post/3ma7olcch2k2q): "_Exploring Mandelbrot’s fascinating fractals has been a wonderful way for me to play with Java features. It started as a JavaFX project only, then became the perfect playground to experiment with upcoming features such as Valhalla Value Types and the Vector API. Special mention to FFM as well._"
 
 ## JFX Central
 
