@@ -1,0 +1,1 @@
+Craig Raw is the creator of the Sparrow Bitcoin Wallet. He loves Java and JavaFX because of how easy it is to create user-friendly interfaces. He also values the security built into Java. Another important aspect for him is the ability to create reproducible builds, a key factor in the security of the Bitcoin ecosystem.

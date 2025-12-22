@@ -103,8 +103,7 @@
       "formsfx",
       "workbenchfx",
       "controlsfx",
-      "pickerfx",
-      "fxmlkit"
+      "pickerfx"
     ],
     "companyIds": [
       "dlsc"
@@ -973,23 +972,44 @@
     ]
   },
   {
-    "name": "Lee Wyatt",
-    "email": "leewyatt7788@gmail.com",
+    "name": "Craig Raw",
+    "email": "",
     "website": "",
+    "gitHub": "craigraw",
     "blogId": "",
-    "linkedIn": "wyatt-lee-a19066271",
-    "bluesky": "leewyatt.bsky.social",
+    "linkedIn": "",
+    "twitter": "",
+    "mastodon": "",
+    "bluesky": "",
     "champion": false,
     "rockstar": false,
-    "id": "l.wyatt",
-    "gitHub": "leewyatt",
-    "libraryIds": [
-      "fxmlkit"
+    "id": "c.raw",
+    "createdOn": "2025-11-19",
+    "modifiedOn": "2025-11-19",
+    "realworldIds": [
+      "sparrow"
     ],
-    "toolIds": [
-      "fxtools"
-    ],
-    "createdOn": "2025-12-22",
-    "modifiedOn": "2025-12-22"
+    "videoIds": [
+      "Mc3fUTxoKIg"
+    ]
+  },
+  {
+    "name": "Florian Enner",
+    "email": "",
+    "website": "https://ennerf.github.io/",
+    "gitHub": "ennerf",
+    "blogId": "",
+    "linkedIn": "florian-enner-59b81466",
+    "twitter": "",
+    "mastodon": "",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "f.enner",
+    "createdOn": "2025-12-04",
+    "modifiedOn": "2025-12-04",
+    "videoIds": [
+      "_DGz4YyojpE"
+    ]
   }
 ]
