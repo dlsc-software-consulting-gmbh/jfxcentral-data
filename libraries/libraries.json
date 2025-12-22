@@ -1392,5 +1392,27 @@
     "logoAvailable": "false",
     "ensemble": "false",
     "featuredImageName": "tabpanepro0.png"
+  },
+  {
+    "name": "FxmlKit",
+    "id": "fxmlkit",
+    "summary": "A modern JavaFX FXML framework with hot reload, zero-configuration loading, and optional dependency injection",
+    "tags": "fxml, css, hot-reload, injection",
+    "description": "FxmlKit is a modern JavaFX FXML framework that eliminates boilerplate code, provides FXML/CSS hot reload during development, and supports optional progressive dependency injection.",
+    "documentation": "https://github.com/dlsc-software-consulting-gmbh/FxmlKit#readme",
+    "license": "APACHE2",
+    "homepage": "",
+    "javadocs": "",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/FxmlKit",
+    "githubAccount": "dlsc-software-consulting-gmbh",
+    "githubProject": "FxmlKit",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/FxmlKit/issues",
+    "createdOn": "2025-12-22",
+    "modifiedOn": "2025-12-22",
+    "groupId": "com.dlsc.fxmlkit",
+    "artifactId": "fxmlkit",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "featuredImageName": "hot-reload.jpg"
   }
 ]
