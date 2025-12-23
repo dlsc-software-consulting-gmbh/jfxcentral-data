@@ -103,7 +103,8 @@
       "formsfx",
       "workbenchfx",
       "controlsfx",
-      "pickerfx"
+      "pickerfx",
+      "fxmlkit"
     ],
     "companyIds": [
       "dlsc"
@@ -1011,5 +1012,25 @@
     "videoIds": [
       "_DGz4YyojpE"
     ]
+  },
+  {
+    "name": "Lee Wyatt",
+    "email": "leewyatt7788@gmail.com",
+    "website": "",
+    "blogId": "",
+    "linkedIn": "wyatt-lee-a19066271",
+    "bluesky": "leewyatt.bsky.social",
+    "champion": false,
+    "rockstar": false,
+    "id": "l.wyatt",
+    "gitHub": "leewyatt",
+    "libraryIds": [
+      "fxmlkit"
+    ],
+    "toolIds": [
+      "fxtools"
+    ],
+    "createdOn": "2025-12-22",
+    "modifiedOn": "2025-12-22"
   }
 ]

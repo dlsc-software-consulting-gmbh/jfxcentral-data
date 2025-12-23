@@ -303,5 +303,18 @@
     "homepage": "https://github.com/youngledo/sdkman-gui",
     "createdOn": "2025-11-01",
     "modifiedOn": "2025-11-03"
+  },
+  {
+    "id": "fxtools",
+    "name": "FXTools",
+    "summary": "A practical desktop toolkit for JavaFX developers, providing image processing, color picking, SVG path extraction, font preview, and more.",
+    "description": "A practical desktop toolkit for JavaFX developers, providing image processing, color picking, SVG path extraction, font preview, and more.",
+    "tags": "svg, image, color, font, tools",
+    "homepage": "https://github.com/leewyatt/FXTools",
+    "createdOn": "2025-12-22",
+    "modifiedOn": "2025-12-22",
+    "videoIds": [
+      "lDj1Wa_2IfM"
+    ]
   }
 ]
