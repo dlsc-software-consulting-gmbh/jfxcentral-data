@@ -915,7 +915,7 @@
     "name": "Recaf",
     "tags": "recaf, tools",
     "url": "https://recaf.coley.software/",
-    "summary": "The modern Java bytecode editor ",
+    "summary": "The modern Java bytecode editor",
     "domain": "Software development",
     "description": "Recaf is an open-source Java bytecode editor that simplifies the process of editing compiled Java applications.",
     "createdOn": "2017-08-04",
@@ -929,6 +929,23 @@
     ],
     "videoIds": [
       "6NIJ54h3iVY"
+    ]
+  },
+  {
+    "id": "sparrow",
+    "name": "Sparrow Bitcoin Wallet",
+    "tags": "bitcoin, tools",
+    "url": "https://www.sparrowwallet.com/",
+    "summary": "Sparrow is a Bitcoin wallet for those who value financial self sovereignty",
+    "domain": "Finance",
+    "description": "Sparrow is a Bitcoin wallet for those who value financial self sovereignty. Sparrow’s emphasis is on security, privacy and usability. Sparrow does not hide information from you - on the contrary it attempts to provide as much detail as possible about your transactions and UTXOs, but in a way that is manageable and usable.",
+    "createdOn": "2025-11-19",
+    "modifiedOn": "2025-11-19",
+    "personIds": [
+      "c.raw"
+    ],
+    "videoIds": [
+      "Mc3fUTxoKIg"
     ]
   }
 ]

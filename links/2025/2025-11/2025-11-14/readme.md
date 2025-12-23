@@ -7,7 +7,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* **Gerrit Grunwald** updated JDKMon to Java(FX) 25. [Downloads are available on GitHub](https://github.com/HanSolo/SpaceFX/releases). JDKMon a little tool written in JavaFX that tries to detect all JDKs installed on your machine.
+* **Gerrit Grunwald** updated JDKMon to Java(FX) 25. [Downloads are available on GitHub](https://github.com/HanSolo/SpaceFX/releases). JDKMon is a little tool written in JavaFX that tries to detect all JDKs installed on your machine.
 
 ## Games
 

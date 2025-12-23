@@ -970,5 +970,46 @@
     "realworldIds": [
       "recaf"
     ]
+  },
+  {
+    "name": "Craig Raw",
+    "email": "",
+    "website": "",
+    "gitHub": "craigraw",
+    "blogId": "",
+    "linkedIn": "",
+    "twitter": "",
+    "mastodon": "",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "c.raw",
+    "createdOn": "2025-11-19",
+    "modifiedOn": "2025-11-19",
+    "realworldIds": [
+      "sparrow"
+    ],
+    "videoIds": [
+      "Mc3fUTxoKIg"
+    ]
+  },
+  {
+    "name": "Florian Enner",
+    "email": "",
+    "website": "https://ennerf.github.io/",
+    "gitHub": "ennerf",
+    "blogId": "",
+    "linkedIn": "florian-enner-59b81466",
+    "twitter": "",
+    "mastodon": "",
+    "bluesky": "",
+    "champion": false,
+    "rockstar": false,
+    "id": "f.enner",
+    "createdOn": "2025-12-04",
+    "modifiedOn": "2025-12-04",
+    "videoIds": [
+      "_DGz4YyojpE"
+    ]
   }
 ]
