@@ -31,6 +31,8 @@ A practical desktop toolkit for JavaFX developers, providing image processing, c
 
 ## Tutorials
 
+![alt](youtube:lDj1Wa_2IfM)
+
 - [Video Introduction (YouTube)](https://youtu.be/lDj1Wa_2IfM)
 
 ## Resources
