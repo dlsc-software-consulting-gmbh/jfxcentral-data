@@ -28,7 +28,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* Published on Foojay: [Video series “JavaFX In Action”, Part 6](https://foojay.io/today/video-series-javafx-in-action-part-6/) with **Vlad Protsenko** (Clojure), **Matt Coley** (Recaf), **Craig Raw** (Sparrow), and **Florian Enner** (3D Robot Visualization).
 
 ## Conferences, Presentations
 
