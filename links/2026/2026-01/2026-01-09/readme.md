@@ -11,6 +11,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Applications
 
 * [Message by JabRef](https://foojay.social/@jabref/115765522014656502): "_Thanks to the cool feature of #javafx called the `shortcut` modifier, we can now display and handle the keyboard shortcuts in a more OS independent way. On Linux and Windows `cmd` key will be replaced with `ctrl` automatically and `option` key with `alt`. [Grab the latest version here](https://builds.jabref.org/main/)._"
+  * And a [blog post announcing an alpha release](https://blog.jabref.org/2025/12/26/JabRef6-0-alpha4/): "_Happy Holidays from the JabRef Team! We have a present for you: We are happy to announce the release of JabRef 6.0 Alpha 4, the next step towards the stable version of JabRef 6.0. This alpha release brings a number of bug fixes, improvements, and new features, as well as some changes under the hood in the machine room of JabRef, to make future improvements easier and JabRef more versatile._"
 
 ## Games
 
