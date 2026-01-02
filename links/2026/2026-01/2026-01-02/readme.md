@@ -31,7 +31,7 @@ Here is the first list of JavaFX Links for the new year... Did we miss anything?
 
 ## Miscellaneous
 
-* [**Dirk Lemmermann** on Bluesky](https://bsky.app/profile/dlemmermann.bsky.social/post/3mal5vjvgpk2n): "_The online JavaFX 'Ensemble' demos are pretty cool. Wished more library developers would leverage it. Check [jfx-ensemble.com](www.jfx-ensemble.com)._"
+* [**Dirk Lemmermann** on Bluesky](https://bsky.app/profile/dlemmermann.bsky.social/post/3mal5vjvgpk2n): "_The online JavaFX 'Ensemble' demos are pretty cool. Wished more library developers would leverage it. Check [jfx-ensemble.com](https://www.jfx-ensemble.com)._"
 
 ## JFX Central
 
