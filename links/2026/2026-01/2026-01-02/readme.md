@@ -27,7 +27,7 @@ Here is the first list of JavaFX Links for the new year... Did we miss anything?
 
 ## Tutorials
 
-* **Carl Dea** updated his blog series from 2022 on Foojay.io ["Project Panama for Newbies"](https://foojay.social/@foojay/115818063541453234). In [Part 4 you can read more](https://foojay.io/today/project-panama-for-newbies-part-4/) about "_Imagine C code capable of performing a computation and after its completion the C code will notify Java code to perform updates to JavaFX UI components..."
+* **Carl Dea** updated his blog series from 2022 on Foojay.io ["Project Panama for Newbies"](https://foojay.social/@foojay/115818063541453234). In [Part 4 you can read more](https://foojay.io/today/project-panama-for-newbies-part-4/) about "_Imagine C code capable of performing a computation and after its completion the C code will notify Java code to perform updates to JavaFX UI components..._"
 
 ## Miscellaneous
 
