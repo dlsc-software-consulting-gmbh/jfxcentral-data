@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* A [video on Reddit of Mable](https://www.reddit.com/r/JavaFX/comments/1q5m017/added_a_few_features_since_my_last_showcase_d/), a cross-platform deadline management application, created by [**@n-xiao**](https://github.com/n-xiao). Sources are [available on GitHub](https://github.com/n-xiao/mable). "_Mable is an application which allows you to create Countdowns — it counts down the days till a date you set. When a Countdown approaches or passes its due date, the built-in Heads Up Display will update, showing you how many Countdowns are either overdue, due today or due tomorrow. Mable is not intended to replace your Calendar or To-Do list. Instead, it provides you with a quick overview about how much time you have left for multiple deadlines._"
 
 ## Games
 
@@ -22,7 +22,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* **Frank Delporte** continues his #JavaOnSingleBoardComputers and [published a video](https://www.youtube.com/watch?v=X_t8DiUWBUo) and [blog with more info](https://webtechie.be/post/2026-01-12-first-test-orangepi-java/) showing Java and JavaFX on an OrangePi 5 Ultra with ARM processor. As expected, JavaFX doesn't work on an OrangePi RV2 with RISC-V processor. Challenge for 2026: Who can build JavaFX on RISC-V?
+* A video by **Binary Academy**: [JavaFX 3D Solar System Full Animation Tutorial | Planets Orbiting Around the Sun](https://www.youtube.com/watch?v=ISFUT9Aax8U).
 
 ## Conferences, Presentations
 
@@ -34,7 +35,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* Found [on Hacker News by **ezst**](https://news.ycombinator.com/item?id=43860582): "_Call me an idiot, but I still gladly take Swing and javafx over JS and monstrosities like react. The state of Qt is also very good. Web won because the distribution model is easier on the user, and because managers thought UX designers would be making whole apps now, saving on rates. Not because it's technically superior._"
 
 ## JFX Central
 
