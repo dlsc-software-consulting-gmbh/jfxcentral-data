@@ -36,6 +36,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Miscellaneous
 
 * Found [on Hacker News by **ezst**](https://news.ycombinator.com/item?id=43860582): "_Call me an idiot, but I still gladly take Swing and javafx over JS and monstrosities like react. The state of Qt is also very good. Web won because the distribution model is easier on the user, and because managers thought UX designers would be making whole apps now, saving on rates. Not because it's technically superior._"
+* In March 2024, ArcGIS announced that they were deprecating ArcGIS Maps SDK for Java. In a new [blog post by **Lucas Danzinger**](https://www.esri.com/arcgis-blog/products/sdk-java/developers/using-arcgis-maps-sdk-for-qt-in-a-javafx-based-application) they explore a technique of using ArcGIS Maps SDK for Qt as a map control in a JavaFX based application: "_Through the above techniques, we’ve shown that it is possible to display a Qt MapView in Java, as well as to have two-way communication between Java and Qt via JNI. While this example is by no means a silver bullet, we hope that it might be an inspiration on how you can continue to move forward with your JavaFX apps using the latest ArcGIS technology._"
 
 ## JFX Central
 
