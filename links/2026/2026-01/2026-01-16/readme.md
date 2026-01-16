@@ -1,43 +1,16 @@
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-## Core
-
-* 
-
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * A [video on Reddit of Mable](https://www.reddit.com/r/JavaFX/comments/1q5m017/added_a_few_features_since_my_last_showcase_d/), a cross-platform deadline management application, created by [**@n-xiao**](https://github.com/n-xiao). Sources are [available on GitHub](https://github.com/n-xiao/mable). "_Mable is an application which allows you to create Countdowns — it counts down the days till a date you set. When a Countdown approaches or passes its due date, the built-in Heads Up Display will update, showing you how many Countdowns are either overdue, due today or due tomorrow. Mable is not intended to replace your Calendar or To-Do list. Instead, it provides you with a quick overview about how much time you have left for multiple deadlines._"
-
-## Games
-
-* 
-
-## Components, Libraries, Tools
-
-*
+* [**Lidiany Cerqueira**](https://bsky.app/profile/lidianycs.bsky.social) built a tool to detect AI-generated fake references in academic papers. A [long and detailed post is available on dev.to](https://dev.to/lidianycs/how-i-built-a-tool-to-detect-ai-generated-fake-references-2891). "_Seeing the flawed metadata published in a journal was a wake-up call that led me to build CERCA, an open-source tool designed to assist researchers, reviewers, and editors in quickly verifying the accuracy of references. It was developed to improve trust, transparency, and reliability academic writing._"
 
 ## Podcasts, Videos, Books
 
 * **Frank Delporte** continues his #JavaOnSingleBoardComputers and [published a video](https://www.youtube.com/watch?v=X_t8DiUWBUo) and [blog with more info](https://webtechie.be/post/2026-01-12-first-test-orangepi-java/) showing Java and JavaFX on an OrangePi 5 Ultra with ARM processor. As expected, JavaFX doesn't work on an OrangePi RV2 with RISC-V processor. Challenge for 2026: Who can build JavaFX on RISC-V?
 * A video by **Binary Academy**: [JavaFX 3D Solar System Full Animation Tutorial | Planets Orbiting Around the Sun](https://www.youtube.com/watch?v=ISFUT9Aax8U).
 
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
-
 ## Miscellaneous
 
 * Found [on Hacker News by **ezst**](https://news.ycombinator.com/item?id=43860582): "_Call me an idiot, but I still gladly take Swing and javafx over JS and monstrosities like react. The state of Qt is also very good. Web won because the distribution model is easier on the user, and because managers thought UX designers would be making whole apps now, saving on rates. Not because it's technically superior._"
 * In March 2024, ArcGIS announced that they were deprecating ArcGIS Maps SDK for Java. In a new [blog post by **Lucas Danzinger**](https://www.esri.com/arcgis-blog/products/sdk-java/developers/using-arcgis-maps-sdk-for-qt-in-a-javafx-based-application) they explore a technique of using ArcGIS Maps SDK for Qt as a map control in a JavaFX based application: "_Through the above techniques, we’ve shown that it is possible to display a Qt MapView in Java, as well as to have two-way communication between Java and Qt via JNI. While this example is by no means a silver bullet, we hope that it might be an inspiration on how you can continue to move forward with your JavaFX apps using the latest ArcGIS technology._"
-
-## JFX Central
-
-* 
