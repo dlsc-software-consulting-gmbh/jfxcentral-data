@@ -11,40 +11,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * The [Azul release notes](https://docs.azul.com/core/release-notes) show the list of [Fixed Common Vulnerabilities and Exposures](https://docs.azul.com/core/release-notes#fixed-common-vulnerabilities-and-exposures) in this release. There are 11 in total, of which 7 are related to JavaFX.
 * [**Lee Wyatt** has a proposal for a missing component in JavaFX](https://bsky.app/profile/leewyatt.bsky.social/post/3mcz3c5qogk2w): "_It is missing a native Switch control — every major UI framework has one except JavaFX. I've implemented a SwitchButton with full theme support. Hope to contribute to OpenJFX. [Check the README for details](https://github.com/leewyatt/SwitchButtonShowcase) on why JavaFX needs this._"
 
-
-## SceneBuilder
-
-* 
-
-## Applications
-
-* 
-
-## Games
-
-* 
-
-## Components, Libraries, Tools
-
-*
-
-## Podcasts, Videos, Books
-
-*
-
-## Conferences, Presentations
-
-*
-
 ## Tutorials
 
 * Video tutorial by **Hacktrickz**: "[31.1: JavaFX Introduction, Setup & Application Structure| [Abdul Bari] Java course](https://www.youtube.com/watch?v=CtKEM_giUIw)"
 * Video tutorial by **Kawsar Technologies**: "[Part 13 | User Management System in JavaFX & MySQL | Fetch Assigned Roles & Display Them in Table](https://www.youtube.com/watch?v=ghRx5TcR5W4)"
-
-## Miscellaneous
-
-*
-
-## JFX Central
-
-* 
