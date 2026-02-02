@@ -38,4 +38,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* The links of January 2026 got [published on Foojay](https://foojay.io/today/javafx-links-of-january-2026/).
