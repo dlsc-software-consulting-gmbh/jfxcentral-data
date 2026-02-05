@@ -23,6 +23,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Podcasts, Videos, Books
 
 * New video by **Helal Anwar** showing new features in his : [Student management app (Part 5)](https://www.youtube.com/watch?v=rhRcOt3TUy4). Sources of the project [are on GitHub](https://github.com/24F3004969/GradedAttendance).
+* New JavaFX In Action interview published by **Frank Delporte**: "_While reviewing scientific papers, **Lidiany Cerqueira** had a recurring problem: each reference needed to be checked, as more and more of them were #hallucinations introduced by LLMs and Chatbots. As a solution, she created CERCA during her Christmas holiday. Thanks to #Java, #JavaFX, open-source libraries, and free APIs, the number of references to be checked gets reduced a lot, making her work and that of many other reviewers a lot easier!_" You can find the [video interview on YouTube](https://www.youtube.com/watch?v=QVN57j1zcik) and [more info in this blog post](https://webtechie.be/post/2026-02-05-jfxinaction-lidiany-cerqueira-cerca/).
 
 ## Conferences, Presentations
 

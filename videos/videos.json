@@ -1761,5 +1761,21 @@
       "fxyz",
       "atlantafx"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Lidiany Cerqueira about CERCA",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Education",
+    "description": "CERCA is an open-source research tool that supports the verification of bibliographic references in scientific manuscripts. It extracts references from PDF files and checks their existence and consistency against authoritative metadata sources, producing explainable diagnostics, audit logs, and reproducible reports.",
+    "id": "QVN57j1zcik",
+    "minutes" : "28",
+    "createdOn": "2026-02-05",
+    "modifiedOn": "2026-02-05",
+    "publishedOn": "2026-02-05",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
