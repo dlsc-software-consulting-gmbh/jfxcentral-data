@@ -30,7 +30,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* **Nicolas Frankel** published do Foojay.io: [From a JAR to a full-fledged MacOS app](https://foojay.io/today/from-a-jar-to-a-full-fledged-macos-app/). "_The solution is straightforward: create a regular MacOS app from the UberJAR. At its simplest, a MacOS app is only a folder with a specific structure. You could replicate it by hand, but I'm lazy, and there are tools for this. jpackage is such a tool. jpackage is one of the tools I learned about, am ecstatic about, used once, and forgot until the next time. Add one to the counter._"
 
 ## Miscellaneous
 
