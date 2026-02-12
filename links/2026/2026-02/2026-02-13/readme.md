@@ -18,7 +18,10 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* Library updates by **Dirk Lemmermann**:
+  * [On Bluesky with screenshot](https://bsky.app/profile/dlemmermann.bsky.social/post/3melv56fvhs2p): "_I revisited the PopOver control that I wrote years ago. I noticed that the clipping wasn't working perfectly and that the placement logic had issues (to say the least), which caused the popover arrow to point at the wrong location. It's all fixed now and will be in the next GemsFX release._"
+  * [Release 3.9.0 of #GemsFX is out now and published on Maven Central. ](https://bsky.app/profile/dlemmermann.bsky.social/post/3melvqalpnc2n)
+  * 
 
 ## Podcasts, Videos, Books
 
