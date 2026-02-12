@@ -34,7 +34,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* "[Java UI in 2026: The Complete Guide](https://robintegg.com/2026/02/08/java-ui-in-2026-the-complete-guide)" by [**Robin Tegg**](https://bsky.app/profile/robintegg.bsky.social): "_When developers think about building user interfaces today, the conversation often revolves around the same familiar choices. But Java offers a fully modern, end-to-end alternative — desktop, web, terminal, and even mobile apps — all powered by a single language. With one cohesive Java stack, teams and AI tools can reason, build, and iterate more efficiently than ever._"
+  * This guide (and JavaFX) are also mentioned in the [JVM Weekly newsletter](https://www.linkedin.com/pulse/java-reaches-gpu-records-fall-off-cliff-gatherers-prove-skowro%C5%84ski-rnqlf/) by [**Artur Skowroński**](https://bsky.app/profile/askowronski.bsky.social).
 
 ## JFX Central
 
