@@ -38,4 +38,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * Video: [JavaFX In Action with Helal Anwar about GradedAttendance](https://www.jfx-central.com/videos/pbQZK68tplA)
