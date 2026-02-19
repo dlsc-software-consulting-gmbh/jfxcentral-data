@@ -1777,5 +1777,21 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "JavaFX In Action with Helal Anwar about GradedAttendance",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Education",
+    "description": "GradedAttendance is a desktop application built with JavaFX to manage student attendance and classroom activities in educational settings. The application demonstrates several key advantages of using JavaFX for educational tools, making it a perfect solution for teachers and educational institutions.",
+    "id": "pbQZK68tplA",
+    "minutes" : "17",
+    "createdOn": "2026-02-19",
+    "modifiedOn": "2026-02-19",
+    "publishedOn": "2026-02-19",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
