@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* Amazing work by **CommonGround_2048**: "_🚀 Excited to share Cycle Power – a complete cycling ecosystem built entirely with Java! 🚴‍ From a native mobile app to a web dashboard, it's 'Java Everywhere' in action. Huge thanks to **Johan Vos** and the Gluon team for making native mobile Java a reality. It's 'Java Everywhere' in action!_" Check [the thread on Mastodon for screenshots](https://mastodon.social/@CommonGround_2048/116092121019823454).
+* Amazing work by **CommonGround_2048**: "_Excited to share Cycle Power, a complete cycling ecosystem built entirely with Java! From a native mobile app to a web dashboard, it's 'Java Everywhere' in action. Huge thanks to **Johan Vos** and the Gluon team for making native mobile Java a reality. It's 'Java Everywhere' in action!_" Check [the thread on Mastodon for screenshots](https://mastodon.social/@CommonGround_2048/116092121019823454).
   * "_The Mobile App (Android/iOS) uses GluonFX & JavaFX for a high-performance native experience._"
   * "_The Web Dashboard is the cherry on top! Built with #WebFX, it transpiles JavaFX directly to JavaScript._"
   * [Reply by **Johan Vos**](https://mastodon.social/@johanvos/116093437764667818): "_Fantastic work! Java and JavaFX are extremely suitable for many end-to-end applications, bridging the gap between user-friendly applications and enterprise data platforms._"
