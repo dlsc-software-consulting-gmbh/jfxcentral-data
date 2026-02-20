@@ -1,13 +1,5 @@
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-## Core
-
-* 
-
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * Amazing work by **CommonGround_2048**: "_🚀 Excited to share Cycle Power – a complete cycling ecosystem built entirely with Java! 🚴‍ From a native mobile app to a web dashboard, it's 'Java Everywhere' in action. Huge thanks to **Johan Vos** and the Gluon team for making native mobile Java a reality. It's 'Java Everywhere' in action!_" Check [the thread on Mastodon for screenshots](https://mastodon.social/@CommonGround_2048/116092121019823454).
@@ -18,10 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * [JabRef news](https://foojay.social/@jabref/116025388844914606): "_In the latest development version, JabRef now supports multiple citation fetchers/providers, including SemanticScholar, crossref, opencitations, and OpenAlex. And at the bottom we provide some additional metrics from scite.ai. [Grab the version here](https://builds.jabref.org/main/). PS: This version now uses also JavaFX 25.02 and JDK 25.02. -_"
 * [Message with screenshot by **Tom Dörr**](https://bsky.app/profile/tom-doerr.bsky.social/post/3mezxgtgt3f2e): "_Customizable application dock for Windows built with JavaFX._" You can [find it on GitHub](https://github.com/arthurdeka/cedro-modern-dock).
 * [**Lidiany Cerqueira** announced a new release of CERCA](https://bsky.app/profile/lidianycs.bsky.social/post/3meykpmad6s2p), the Citation Extraction & Reference Checking Assistant, with support for Semantic Scholar's API. Get it from [Sourceforge](https://sourceforge.net/projects/cerca/) or check the [code on GitHub](https://github.com/lidianycs/cerca).
-
-## Games
-
-* 
+* [Message with screenshot by LogoRRR](https://bsky.app/profile/logorrr.bsky.social/post/3mfaiintmjk2v): "_LogoRRR just got a major facelift. Analysing logs has never looked this good ;-) [Get it here](https://www.logorrr.app/posts/release-26.1.0/)_."
 
 ## Components, Libraries, Tools
 
@@ -32,15 +21,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * **Frank Delporte** published a new interview in his "JavaFX In Action" series: "_**Helal Anwar** builds impressive educational tools with Java and JavaFX. In this interview, we discuss his GradedAttendance application and other projects he's working on._" The [video is on YouTube](https://www.youtube.com/watch?v=pbQZK68tplA) with [more info in this blog post](https://webtechie.be/post/2026-02-19-jfxinaction-helal-anwar-gradedattendance/).
 * [Video by **Florian Enner**](https://www.youtube.com/watch?v=0kpWW36GDKs): "_POC: JavaFX native-image snapshots integrated into wxPython. A JavaFX application compiled as a native-image and called from Python. The wxPython GUI updates the JavaFX state and integrates the JavaFX snapshot as an image._"
-  
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
+* [Video by **Sethlans Forge**](https://www.youtube.com/watch?v=7vtGXLgZ3XQ): "_Vulkan rendering surface embedded inside a JavaFX application, using Java and LWJGL. This setup demonstrates how low-level Vulkan rendering can coexist with a high-level JavaFX UI, enabling tools, editors, or engine frontends built in Java while keeping full control over the GPU. This is part of the development of Sethlans, a Vulkan graphics engine written in Java, focusing on modern rendering, engine architecture, and low-level GPU control._"
+* [Video by **Ken Kousen**](https://www.youtube.com/watch?v=q8sXNXR6iKc): "_I Built a Star Trek Computer with Java 25 & Spring AI. Is it possible to launch a full Spring Boot AI application in 35 milliseconds? Yes—if you use the right tools. In this video, we aren't just faking a sci-fi UI. We are building the actual ENGINE of a Star Trek computer using the latest in the Java ecosystem: Java 25, Spring AI, and the Model Context Protocol (MCP), using Java FX Voice Interface at 10'50"._"
 
 ## Miscellaneous
 
