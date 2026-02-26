@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* **Vitor Pereira** is working on his version of Wireshark and [shared some ot the challenges and solutions](https://www.linkedin.com/posts/vitordef_java-softwareengineering-performance-activity-7431169143522914304-vOW8/): "_The result was a 5x reduction in RAM usage. I dropped from 5GB on 800,000 packets down to just 1GB._" Check [Java Packet Analyzer on GitHub](https://github.com/VitorDeF/PacketAnalyser) for the sources.
 
 ## Games
 
@@ -18,7 +18,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* [Message by **Dirk Lemmermann**](https://bsky.app/profile/dlemmermann.bsky.social/post/3mfm7pcta5223) : "_Version 3.10.0 of GemsFX is out now and available on Maven Central. It contains a new feature for the InfoCenterPane allowing you to specify where to show notifications (upper left, upper right, etc...)._"
 
 ## Podcasts, Videos, Books
 
