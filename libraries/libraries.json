@@ -1414,5 +1414,27 @@
     "logoAvailable": "false",
     "ensemble": "false",
     "featuredImageName": "hot-reload.jpg"
+  },
+  {
+    "name": "Lottie4J",
+    "id": "lottie4j",
+    "summary": "A library to parse Lottie animations as Java objects and play them as JavaFX animations.",
+    "tags": "animation, lottie",
+    "description": "Lottie4J provides a set of Java libraries that can parse existing Lottie animations to Java objects, generate Lottie files from Java objects, and play Lottie animations in JavaFX.",
+    "documentation": "https://lottie4j.com/",
+    "license": "GPL-2.0",
+    "homepage": "",
+    "javadocs": "",
+    "repository": "https://github.com/lottie4j/lottie4j",
+    "githubAccount": "lottie4j",
+    "githubProject": "lottie4j",
+    "issueTracker": "https://github.com/lottie4j/lottie4j/issues",
+    "createdOn": "2026-03-02",
+    "modifiedOn": "2026-03-02",
+    "groupId": "com.lottie4j",
+    "artifactId": "fxplayer",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "featuredImageName": "fxfileviewer.png"
   }
 ]

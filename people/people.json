@@ -156,6 +156,9 @@
       "codewriter",
       "foojay"
     ],
+    "libraryIds": [
+      "lottie4j"
+    ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2023-04-07"
   },
