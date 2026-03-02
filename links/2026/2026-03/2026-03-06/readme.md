@@ -18,7 +18,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* **Frank Delporte** announced the first release of Lottie4J, a new Java(FX) library: "_With this library, you can load and parse LottieFiles animations as Java objects, and integrate them as a JavaFX animation component in your application. Watch [this video for more info](https://www.youtube.com/watch?v=6t1O7APENIo) or [read this blog](https://webtechie.be/post/2026-03-03-introducing-lottie4j/)._"
 
 ## Podcasts, Videos, Books
 
