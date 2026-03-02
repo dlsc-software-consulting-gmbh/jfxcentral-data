@@ -38,4 +38,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
+* New content on JFX Central:
+  * Library: [Lottie4J](https://www.jfx-central.com/libraries/lottie4j)
 * The JavaFX Links Of The Week of February got bundled and [published on Foojay.io](https://foojay.io/today/javafx-links-of-february-2026/).
