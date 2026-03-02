@@ -38,4 +38,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* The JavaFX Links Of The Week of February got bundled and [published on Foojay.io](https://foojay.io/today/javafx-links-of-february-2026/).
