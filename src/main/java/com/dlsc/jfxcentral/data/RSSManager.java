@@ -5,7 +5,6 @@ import com.dlsc.jfxcentral.data.util.DateUtils;
 import com.rometools.rome.feed.synd.*;
 import com.rometools.rome.io.FeedException;
 import com.rometools.rome.io.SyndFeedOutput;
-
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import org.commonmark.parser.Parser;
@@ -16,7 +15,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
 
 public class RSSManager {
 
@@ -38,7 +36,10 @@ public class RSSManager {
         List<SyndEntry> entries = new ArrayList<>();
         feed.setEntries(entries);
 
-        List<LinksOfTheWeek> allLinksOfTheWeek = links.stream().sorted(Comparator.comparing(LinksOfTheWeek::getCreatedOn).reversed()).collect(Collectors.toList());
+        List<LinksOfTheWeek> allLinksOfTheWeek = links.stream()
+                .sorted(Comparator.comparing(LinksOfTheWeek::getCreatedOn).reversed())
+                .limit(25) // Last 25 weeks
+                .toList();
 
         for (LinksOfTheWeek linksOfTheWeek : allLinksOfTheWeek) {
             SyndContentImpl description = new SyndContentImpl();

@@ -24,13 +24,13 @@ public class RSSManagerTest {
 
         String rss = RSSManager.createRSS();
 
-        System.out.println(rss);
+        System.out.println("RSS length: " + rss.length());
 
         // then
         assertAll(
-            () -> assertTrue(StringUtils.isNotBlank(rss), "RSS output with Links Of The Week is missing"),
-            () -> assertTrue(rss.contains("JabRef 5.13 now runs on JavaFX 22"), "Content from April 5, 2024 is missing"),
-            () -> assertTrue(rss.contains("barcode generator, improving the application speed"), "Content from April 26, 2024 is missing")
+                () -> assertTrue(StringUtils.isNotBlank(rss), "RSS output with Links Of The Week is missing"),
+                () -> assertTrue(rss.contains("GNUBSD404 Long N162 PacMan XXL"), "Content from March 6, 2026 is missing"),
+                () -> assertTrue(rss.length() > 10_000, "RSS content length should be longer")
         );
     }
 }
