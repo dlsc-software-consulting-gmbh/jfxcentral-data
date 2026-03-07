@@ -19,6 +19,8 @@ import java.util.logging.Logger;
 public class RSSManager {
 
     private static final Logger LOG = Logger.getLogger(RSSManager.class.getName());
+    private static final DateTimeFormatter TITLE_DATE_FORMAT = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+    private static final DateTimeFormatter PATH_DATE_FORMAT = DateTimeFormatter.ISO_LOCAL_DATE;
 
     public static String createRSS() {
         DataRepository repository = DataRepository.getInstance();
@@ -32,6 +34,7 @@ public class RSSManager {
         feed.setTitle("JFX-Central Links Of The Week");
         feed.setDescription("Your weekly update on all-things-JavaFX");
         feed.setLink("https://jfx-central.com/rss/linksoftheweek");
+        feed.setUri("https://www.jfx-central.com/lotw/rss.xml");
 
         List<SyndEntry> entries = new ArrayList<>();
         feed.setEntries(entries);
@@ -46,9 +49,13 @@ public class RSSManager {
             description.setType("text/html");
             description.setValue(getLinksOfTheWeekAsHtml(repository, linksOfTheWeek));
 
+            String itemUrl = "https://www.jfx-central.com/links/"
+                    + linksOfTheWeek.getCreatedOn().format(PATH_DATE_FORMAT);
+
             SyndEntry entry = new SyndEntryImpl();
-            entry.setTitle("Links Of The Week - " + linksOfTheWeek.getCreatedOn().format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
-            entry.setLink("https://jfx-central.com/links");
+            entry.setTitle("Links Of The Week - " + linksOfTheWeek.getCreatedOn().format(TITLE_DATE_FORMAT));
+            entry.setLink(itemUrl);
+            entry.setUri(itemUrl);
             entry.setPublishedDate(DateUtils.asDate(linksOfTheWeek.getCreatedOn()));
             entry.setDescription(description);
             entries.add(entry);

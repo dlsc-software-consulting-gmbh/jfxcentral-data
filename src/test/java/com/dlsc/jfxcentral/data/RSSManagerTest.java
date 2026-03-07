@@ -25,6 +25,7 @@ public class RSSManagerTest {
         String rss = RSSManager.createRSS();
 
         System.out.println("RSS length: " + rss.length());
+        System.out.println("RSS content:\n" + rss);
 
         // then
         assertAll(
