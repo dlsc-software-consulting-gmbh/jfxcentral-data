@@ -15,12 +15,17 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Logger;
+import java.util.regex.Pattern;
 
 public class RSSManager {
 
     private static final Logger LOG = Logger.getLogger(RSSManager.class.getName());
+
+    private static final String FEED_URL = "https://jfx-central.com/lotw/rss.xml";
+    private static final String LINKS_PAGE_URL = "https://jfx-central.com/links";
     private static final DateTimeFormatter TITLE_DATE_FORMAT = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     private static final DateTimeFormatter PATH_DATE_FORMAT = DateTimeFormatter.ISO_LOCAL_DATE;
+    private static final Pattern WWW_LINK_PATTERN = Pattern.compile("(?i)(<(?:a|img)\\b[^>]*\\s(?:href|src)=\")www\\.");
 
     public static String createRSS() {
         DataRepository repository = DataRepository.getInstance();
@@ -33,8 +38,8 @@ public class RSSManager {
         feed.setFeedType("rss_2.0");
         feed.setTitle("JFX-Central Links Of The Week");
         feed.setDescription("Your weekly update on all-things-JavaFX");
-        feed.setLink("https://jfx-central.com/rss/linksoftheweek");
-        feed.setUri("https://www.jfx-central.com/lotw/rss.xml");
+        feed.setLink(LINKS_PAGE_URL);
+        feed.setUri(FEED_URL);
 
         List<SyndEntry> entries = new ArrayList<>();
         feed.setEntries(entries);
@@ -49,7 +54,7 @@ public class RSSManager {
             description.setType("text/html");
             description.setValue(getLinksOfTheWeekAsHtml(repository, linksOfTheWeek));
 
-            String itemUrl = "https://www.jfx-central.com/links/"
+            String itemUrl = LINKS_PAGE_URL + "/"
                     + linksOfTheWeek.getCreatedOn().format(PATH_DATE_FORMAT);
 
             SyndEntry entry = new SyndEntryImpl();
@@ -62,7 +67,9 @@ public class RSSManager {
         }
 
         try {
-            return new SyndFeedOutput().outputString(feed);
+            String rss = new SyndFeedOutput().outputString(feed);
+            rss = removeDublinCoreDates(rss);
+            return addAtomSelfLink(rss);
         } catch (FeedException e) {
             LOG.severe("Feed could not be generated: " + e.getMessage());
         }
@@ -81,10 +88,29 @@ public class RSSManager {
         Parser parser = Parser.builder().build();
         HtmlRenderer renderer = HtmlRenderer.builder().build();
         try {
-            return renderer.render(parser.parse(markdownContent.get()));
+            String html = renderer.render(parser.parse(markdownContent.get()));
+            return normalizeRelativeUrls(html);
         } catch (Exception e) {
             LOG.severe("Error while rendering markdown content: " + e.getMessage());
         }
         return "";
+    }
+
+    private static String removeDublinCoreDates(String rss) {
+        return rss
+                .replace(" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"", "")
+                .replaceAll("\\s*<dc:date>.*?</dc:date>", "");
+    }
+
+    private static String addAtomSelfLink(String rss) {
+        return rss
+                .replace("<rss version=\"2.0\">",
+                        "<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">")
+                .replace("<channel>",
+                        "<channel>\n    <atom:link href=\"" + FEED_URL + "\" rel=\"self\" type=\"application/rss+xml\" />");
+    }
+
+    private static String normalizeRelativeUrls(String html) {
+        return WWW_LINK_PATTERN.matcher(html).replaceAll("$1https://www.");
     }
 }
