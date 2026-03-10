@@ -9,7 +9,20 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import org.commonmark.parser.Parser;
 import org.commonmark.renderer.html.HtmlRenderer;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 
+import javax.xml.XMLConstants;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import java.io.StringReader;
+import java.io.StringWriter;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -21,8 +34,11 @@ public class RSSManager {
 
     private static final Logger LOG = Logger.getLogger(RSSManager.class.getName());
 
-    private static final String FEED_URL = "https://jfx-central.com/lotw/rss.xml";
-    private static final String LINKS_PAGE_URL = "https://jfx-central.com/links";
+    private static final String SITE_URL = "https://www.jfx-central.com";
+    private static final String FEED_URL = SITE_URL + "/lotw/rss.xml";
+    private static final String LINKS_PAGE_URL = SITE_URL + "/links";
+    private static final String ATOM_NAMESPACE = "http://www.w3.org/2005/Atom";
+    private static final String DUBLIN_CORE_NAMESPACE = "http://purl.org/dc/elements/1.1/";
     private static final DateTimeFormatter TITLE_DATE_FORMAT = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     private static final DateTimeFormatter PATH_DATE_FORMAT = DateTimeFormatter.ISO_LOCAL_DATE;
     private static final Pattern WWW_LINK_PATTERN = Pattern.compile("(?i)(<(?:a|img)\\b[^>]*\\s(?:href|src)=\")www\\.");
@@ -67,10 +83,8 @@ public class RSSManager {
         }
 
         try {
-            String rss = new SyndFeedOutput().outputString(feed);
-            rss = removeDublinCoreDates(rss);
-            return addAtomSelfLink(rss);
-        } catch (FeedException e) {
+            return postProcessRss(new SyndFeedOutput().outputString(feed));
+        } catch (Exception e) {
             LOG.severe("Feed could not be generated: " + e.getMessage());
         }
 
@@ -96,21 +110,73 @@ public class RSSManager {
         return "";
     }
 
-    private static String removeDublinCoreDates(String rss) {
-        return rss
-                .replace(" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"", "")
-                .replaceAll("\\s*<dc:date>.*?</dc:date>", "");
+    private static String postProcessRss(String rss) throws Exception {
+        Document document = parseXml(rss);
+        Element rssElement = document.getDocumentElement();
+        Element channelElement = (Element) document.getElementsByTagName("channel").item(0);
+
+        if (rssElement == null || channelElement == null) {
+            throw new FeedException("Generated RSS is missing the rss/channel structure");
+        }
+
+        removeElementsByNamespace(document, DUBLIN_CORE_NAMESPACE, "date");
+        rssElement.removeAttributeNS(XMLConstants.XMLNS_ATTRIBUTE_NS_URI, "dc");
+        rssElement.setAttributeNS(XMLConstants.XMLNS_ATTRIBUTE_NS_URI, "xmlns:atom", ATOM_NAMESPACE);
+        removeElementsByNamespace(channelElement, ATOM_NAMESPACE, "link");
+        insertAtomSelfLink(document, channelElement);
+
+        return toXml(document);
     }
 
-    private static String addAtomSelfLink(String rss) {
-        return rss
-                .replace("<rss version=\"2.0\">",
-                        "<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">")
-                .replace("<channel>",
-                        "<channel>\n    <atom:link href=\"" + FEED_URL + "\" rel=\"self\" type=\"application/rss+xml\" />");
+    private static Document parseXml(String xml) throws Exception {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        factory.setNamespaceAware(true);
+        factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+        factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+        factory.setFeature("http://xml.org/sax/features/external-general-entities", false);
+        factory.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+        factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+        factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
+
+        return factory.newDocumentBuilder().parse(new InputSource(new StringReader(xml)));
+    }
+
+    private static void removeElementsByNamespace(Node scope, String namespace, String localName) {
+        NodeList elements = scope instanceof Document document
+                ? document.getElementsByTagNameNS(namespace, localName)
+                : ((Element) scope).getElementsByTagNameNS(namespace, localName);
+
+        while (elements.getLength() > 0) {
+            Node node = elements.item(0);
+            node.getParentNode().removeChild(node);
+        }
+    }
+
+    private static void insertAtomSelfLink(Document document, Element channelElement) {
+        Element atomLink = document.createElementNS(ATOM_NAMESPACE, "atom:link");
+        atomLink.setAttribute("href", FEED_URL);
+        atomLink.setAttribute("rel", "self");
+        atomLink.setAttribute("type", "application/rss+xml");
+        channelElement.insertBefore(atomLink, channelElement.getFirstChild());
+    }
+
+    private static String toXml(Document document) throws Exception {
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        transformerFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+        transformerFactory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+        transformerFactory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
+
+        var transformer = transformerFactory.newTransformer();
+        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty(OutputKeys.METHOD, "xml");
+
+        StringWriter writer = new StringWriter();
+        transformer.transform(new DOMSource(document), new StreamResult(writer));
+        return writer.toString();
     }
 
     private static String normalizeRelativeUrls(String html) {
-        return WWW_LINK_PATTERN.matcher(html).replaceAll("$1https://www.");
+        return WWW_LINK_PATTERN.matcher(html).replaceAll("$1https://");
     }
 }
