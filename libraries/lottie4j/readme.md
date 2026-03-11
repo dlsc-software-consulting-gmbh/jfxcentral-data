@@ -12,6 +12,18 @@ standard for vector animations on mobile and web.
 
 More info is available on [lottie4j.com/lottie-format](https://lottie4j.com/lottie-format/).
 
+### Release 1.0.0
+
+First release.
+
+![alt](youtube:6t1O7APENIo)
+
+### Release 1.1.0
+
+Better rendering and smarter debugging.
+
+![alt](youtube:_zZ1q6zbRgM)
+
 ## Showing a Lottie Animation in a JavaFX Application
 
 Add the dependency in your `pom.xml`:
