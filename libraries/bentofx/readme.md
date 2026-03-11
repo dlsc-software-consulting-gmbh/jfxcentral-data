@@ -72,6 +72,7 @@ Bento bento = new Bento();
 bento.placeholderBuilding().setDockablePlaceholderFactory(dockable -> new Label("Empty Dockable"));
 bento.placeholderBuilding().setContainerPlaceholderFactory(container -> new Label("Empty Container"));
 bento.events().addEventListener(System.out::println);
+
 DockBuilding builder = bento.dockBuilding();
 DockContainerBranch branchRoot = builder.root("root");
 DockContainerBranch branchWorkspace = builder.branch("workspace");

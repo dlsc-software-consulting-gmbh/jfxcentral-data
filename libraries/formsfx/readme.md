@@ -13,15 +13,15 @@ A framework for easily creating forms in JavaFX.
 ## Usage
 
 ```Java
-Form loginForm=Form.of(
+Form loginForm = Form.of(
         Group.of(
-        Field.ofStringType(model.usernameProperty())
-        .label("Username"),
-        Field.ofStringType(model.passwordProperty())
-        .label("Password")
-        .required("This field can’t be empty")
+                Field.ofStringType(model.usernameProperty())
+                        .label("Username"),
+                Field.ofStringType(model.passwordProperty())
+                        .label("Password")
+                        .required("This field can’t be empty")
         )
-        ).title("Login");
+).title("Login");
 ```
 
 ## Semantics
@@ -37,13 +37,13 @@ Creating a form is as simple as calling `Form.of()`.
 ```Java
 Form.of(
         Group.of(
-        Field.ofStringType("")
-        .label("Username"),
-        Field.ofStringType("")
-        .label("Password")
-        .required("This field can’t be empty")
-        ),
-        Group.of(…)
+            Field.ofStringType("")
+                .label("Username"),
+            Field.ofStringType("")
+                .label("Password")
+                .required("This field can’t be empty")
+            ),
+            Group.of(…)
         ).title("Login");
 ```
 
@@ -201,7 +201,7 @@ String Control
 The only point of interaction is the `FormRenderer`. It delegates rendering of further components to other renderers.
 
 ```java
-Pane root=new Pane();
+Pane root = new Pane();
         root.getChildren().add(new FormRenderer(form));
 ```
 
@@ -219,7 +219,7 @@ Forms are used to create and manipulate data. In order to use this data in other
 can be used. These classes contain properties, which are then bound to the persisted value of a field.
 
 ```java
-StringProperty name=new SimpleStringProperty("Hans");
+StringProperty name = new SimpleStringProperty("Hans");
         Field.ofStringType(name);
 ```
 
@@ -236,13 +236,12 @@ translation. By default, FormsFX includes a `ResourceBundle`-based implementatio
 custom implementation.
 
 ```java
-private ResourceBundle rbDE=ResourceBundle.getBundle("demo.demo-locale",new Locale("de","CH"));
-private ResourceBundle rbEN=ResourceBundle.getBundle("demo.demo-locale",new Locale("en","UK"));
+private ResourceBundle rbDE = ResourceBundle.getBundle("demo.demo-locale",new Locale("de","CH"));
+private ResourceBundle rbEN = ResourceBundle.getBundle("demo.demo-locale",new Locale("en","UK"));
 
-private ResourceBundleService rbs=new ResourceBundleService(rbEN);
+private ResourceBundleService rbs = new ResourceBundleService(rbEN);
 
-        Form.of(…)
-        .i18n(rbs);
+        Form.of(…).i18n(rbs);
 ```
 
 ## Validation
