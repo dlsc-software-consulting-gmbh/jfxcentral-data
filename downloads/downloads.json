@@ -1,38 +1,5 @@
 [
   {
-    "id": "makeover",
-    "name": "Extreme GUI Makeover",
-    "tags": "makeover, demo, presentation, javaone, oracle codeone",
-    "homepage": "https://github.com/hendrikebbers/ExtremeGuiMakeover",
-    "summary": "A demo highlighting JavaFX capabilities.",
-    "description": "This is an interactive presentation software presented by Dirk Lemmermann and Hendrik Ebbers at various conferences (JFXDays, JavaOne, etc...). The application takes the user step by step through the process of beautifying a given application.",
-    "downloadType": "APPLICATION",
-    "personIds": [
-      "d.lemmermann",
-      "h.ebbers"
-    ],
-    "companyIds": [
-      "dlsc",
-      "karakun"
-    ],
-    "createdOn": "2021-06-01",
-    "modifiedOn": "2021-06-01",
-    "files": [
-      {
-        "name": "DMG for Mac",
-        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/makeover.dmg",
-        "fileName": "",
-        "package": "DMG"
-      },
-      {
-        "name": "PKG for Mac",
-        "url": "https://dlsc.com/wp-content/html/jfxcentraldownloads/makeover.pkg",
-        "fileName": "",
-        "package": "PKG"
-      }
-    ]
-  },
-  {
     "id": "emirates",
     "name": "FlexGanttFX POC for Emirates Airlines",
     "tags": "demo, poc, airline, emirates, scheduling, planning, gantt",
