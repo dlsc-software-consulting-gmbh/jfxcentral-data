@@ -185,7 +185,7 @@ FxmlKit uses Java's built-in `WatchService` for FXML/CSS hot reload. Performance
 ```
 
 **Gradle:**
-```gradle
+```groovy
 implementation 'com.dlsc.fxmlkit:fxmlkit:1.5.0'
 ```
 
