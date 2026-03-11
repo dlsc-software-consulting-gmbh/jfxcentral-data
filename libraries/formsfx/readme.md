@@ -201,7 +201,7 @@ The only point of interaction is the `FormRenderer`. It delegates rendering of f
 
 ```java
 Pane root = new Pane();
-        root.getChildren().add(new FormRenderer(form));
+root.getChildren().add(new FormRenderer(form));
 ```
 
 All fields have a default control that is used for rendering. This can be changed to another compatible implementation
@@ -218,7 +218,7 @@ can be used. These classes contain properties, which are then bound to the persi
 
 ```java
 StringProperty name = new SimpleStringProperty("Hans");
-        Field.ofStringType(name);
+Field.ofStringType(name);
 ```
 
 The `persist()` and `reset()` methods can be used to store and revert field values, which in turn updates the binding.

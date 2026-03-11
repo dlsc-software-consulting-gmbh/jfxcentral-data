@@ -28,7 +28,7 @@ public class Sampler extends Application {
     public void start(Stage primaryStage) throws Exception {              // <1>
         Panel panel = new Panel("This is the title");
         panel.getStyleClass().add("panel-primary");  
-        // <2>
+
         BorderPane content = new BorderPane();
         content.setPadding(new Insets(20));
         
