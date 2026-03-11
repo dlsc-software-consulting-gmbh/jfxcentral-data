@@ -46,7 +46,7 @@ new Bounce(text).play();
 
 ### Play an animation after another
 
-```
+```java
 Text text = new Text("AnimateFX");
 
 public void HandleAnimation(ActionEvent actionEvent) {
