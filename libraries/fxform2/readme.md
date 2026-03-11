@@ -27,5 +27,3 @@ MyBean myBean = new MyBean(); // get an instance of the bean to be edited
 Node fxForm = new FXForm(myBean);  // create the FXForm node for your bean
 root.getChildren().add(fxForm);  // add it to your scene graph
 ````
-
-That's it!

@@ -17,7 +17,7 @@ For more information and performance data please visit ChartFx's [project site](
 
 The corresponding source code `ChartFxSample.java`
 
-```Java
+```java
 package com.example.chartfx;
 
 import io.fair_acc.chartfx.XYChart;
