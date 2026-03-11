@@ -11,7 +11,7 @@ provides new widgets, behavior and a grid system. Some of these features may be 
 Once the `bootstrapfx-core` dependency is in your classpath you just need to apply the `boostrapfx.css` stylesheet to
 a scene, for example
 
-```
+```java
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Node;

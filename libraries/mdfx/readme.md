@@ -11,7 +11,7 @@ For Gradle, add the following to your `build.gradle`:
 
 Add the following repository:
 
-```
+```json
 repositories {
     maven {
         url "https://sandec.jfrog.io/artifactory/repo"
@@ -21,7 +21,7 @@ repositories {
 
 Add The following dependency:
 
-```
+```json
 dependencies {
     compile "com.sandec:mdfx:0.2.4"
 }
@@ -29,7 +29,7 @@ dependencies {
 
 Usage:
 
-```
+```java
 import com.sandec.mdfx.MarkdownView;
 
 MarkdownView mdfx = new MarkdownView("your-markdown");
@@ -51,15 +51,13 @@ your markdown-code.
 
 Run the sample:
 
-```
+```bash
 ./gradlew example:run
 ./gradlew example:jproRun
 ```
 
 Deploy new release:
 
-```
+```bash
 ./gradlew :publish
 ```
-
-{"mode":"full","isActive":false}

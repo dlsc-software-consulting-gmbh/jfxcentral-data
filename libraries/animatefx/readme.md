@@ -39,14 +39,14 @@ AnimateFX is a library of ready-to-use animations for JavaFX.
 
 ### Basic
 
-```
+```java
 Text text = new Text("AnimateFX");
 new Bounce(text).play();
 ```
 
 ### Play an animation after another
 
-```
+```java
 Text text = new Text("AnimateFX");
 
 public void HandleAnimation(ActionEvent actionEvent) {
