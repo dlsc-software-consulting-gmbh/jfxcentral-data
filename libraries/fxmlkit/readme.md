@@ -21,23 +21,6 @@ new MainView(diAdapter);
 
 A modern JavaFX FXML framework that eliminates boilerplate code, provides FXML/CSS hot reload, and optional progressive dependency injection support.
 
-[中文文档](README_CN.md) | [Sample Projects](fxmlkit-samples)
-
----
-
-## Table of Contents
-
-- [Why FxmlKit](#why-fxmlkit)
-- [Core Features](#core-features)
-- [Acknowledgments](#acknowledgments)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Hot Reload](#hot-reload)
-- [Core Concepts](#core-concepts)
-- [Annotations](#annotations)
-- [FAQ](#faq)
-- [Sample Projects](#sample-projects)
-
 ---
 
 ## Why FxmlKit?
