@@ -8,7 +8,7 @@ authored by Lincoln Minto.
 
 The following code shows how to quickly get started with DesktopPaneFX.
 
-```
+```java
 package com.acme;
 
 import javafx.application.Application;

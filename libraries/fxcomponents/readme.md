@@ -11,5 +11,4 @@ If you want to use FXComponents, the best place to start is by checking out the 
 page: [https://pixelduke.com/fxcomponents/](https://pixelduke.com/fxcomponents/)
 
 - The GitHub repository is located at: [https://github.com/dukke/FXComponents](https://github.com/dukke/FXComponents)
-
 - The issue tracker is here: [https://github.com/dukke/FXComponents/issues](https://github.com/dukke/FXComponents/issues)

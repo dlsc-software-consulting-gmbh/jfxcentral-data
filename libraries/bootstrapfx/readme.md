@@ -27,12 +27,15 @@ public class Sampler extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {              // <1>
         Panel panel = new Panel("This is the title");
-        panel.getStyleClass().add("panel-primary");                       // <2>
+        panel.getStyleClass().add("panel-primary");  
+
         BorderPane content = new BorderPane();
         content.setPadding(new Insets(20));
+        
         Button button = new Button("Hello BootstrapFX");
         button.getStyleClass().setAll("btn","btn-danger");                // <2>
         content.setCenter(button);
+        
         panel.setBody(content);
 
         Scene scene = new Scene(panel);
@@ -46,9 +49,9 @@ public class Sampler extends Application {
 }
 ```
 
-<1> Custom widget from BootstrapFX
-<2> Apply CSS class to widgets
-<3> Apply BootstrapFX stylesheet to scene
+- <1> Custom widget from BootstrapFX
+- <2> Apply CSS class to widgets
+- <3> Apply BootstrapFX stylesheet to scene
 
 ## Supported CSS Classes
 

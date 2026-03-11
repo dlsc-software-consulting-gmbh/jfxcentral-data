@@ -1,14 +1,4 @@
 {
     "images": [
-        {
-            "path": "hot-reload.jpg",
-            "title": "FXML/CSS Hot Reload",
-            "description": "Edit FXML and CSS files while running to see changes instantly without restarting"
-        },
-        {
-            "path": "comparison.jpg",
-            "title": "FxmlKit vs Native JavaFX",
-            "description": "Feature comparison between FxmlKit and native JavaFX FXML loading"
-        }
     ]
 }
