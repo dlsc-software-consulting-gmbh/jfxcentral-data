@@ -12,6 +12,18 @@ standard for vector animations on mobile and web.
 
 More info is available on [lottie4j.com/lottie-format](https://lottie4j.com/lottie-format/).
 
+### Release 1.0.0
+
+First release.
+
+![alt](youtube:6t1O7APENIo)
+
+### Release 1.1.0
+
+Better rendering and smarter debugging.
+
+![alt](youtube:_zZ1q6zbRgM)
+
 ## Showing a Lottie Animation in a JavaFX Application
 
 Add the dependency in your `pom.xml`:
@@ -28,7 +40,7 @@ Add the dependency in your `pom.xml`:
 This is the minimal code needed to display a Lottie animation.
 
 ```java
-import com.lottie4j.core.loader.LottieFileLoader;
+import com.lottie4j.core.file.LottieFileLoader;
 import com.lottie4j.core.model.Animation;
 import com.lottie4j.fxplayer.LottiePlayer;
 import javafx.application.Application;
@@ -39,24 +51,23 @@ import java.io.File;
 
 public class DemoApplication extends Application {
 
-    static void main(String[] args) {
-        launch(args);
-    }
+  static void main(String[] args) {
+    launch(args);
+  }
 
-    @Override
-    public void start(Stage stage) throws Exception {
-        File lottieFile = new File("PATH_OF_LOTTIE_FILE.json");
+  @Override
+  public void start(Stage stage) throws Exception {
+    File lottieFile = new File("PATH_OF_LOTTIE_FILE.json");
 
-        Animation animation = LottieFileLoader.load(lottieFile);
+    Animation animation = LottieFileLoader.load(lottieFile);
 
-        var scene = new Scene(new LottiePlayer(animation),
-                animation.width() != null ? animation.width() : 500,
-                animation.height() != null ? animation.height() : 500
-        );
-        stage.setTitle(lottieFile.getName());
-        stage.setScene(scene);
-        stage.show();
-    }
+    var scene = new Scene(new LottiePlayer(animation), 1200, 800);
+    stage.setTitle(lottieFile.getName());
+    stage.setScene(scene);
+    stage.show();
+
+    animation.play();
+  }
 }
 ```
 

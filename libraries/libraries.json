@@ -1433,7 +1433,7 @@
     "modifiedOn": "2026-03-02",
     "groupId": "com.lottie4j",
     "artifactId": "fxplayer",
-    "logoAvailable": "false",
+    "logoAvailable": "true",
     "ensemble": "false",
     "featuredImageName": "fxfileviewer.png"
   }
