@@ -206,7 +206,7 @@ implementation 'com.dlsc.fxmlkit:fxmlkit:1.5.0'
 ```
 
 **Gradle:**
-```gradle
+```groovy
 implementation 'com.dlsc.fxmlkit:fxmlkit-guice:1.5.0'
 implementation 'com.google.inject:guice:7.0.0'
 ```
