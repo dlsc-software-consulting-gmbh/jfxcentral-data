@@ -43,8 +43,7 @@ Form.of(
                 .label("Password")
                 .required("This field can’t be empty")
             ),
-            Group.of(…)
-        ).title("Login");
+            Group.of(…)).title("Login");
 ```
 
 Fields have a range of options that define their semantics and change their functionality.
@@ -209,8 +208,7 @@ All fields have a default control that is used for rendering. This can be change
 using the `render()` method.
 
 ```java
-Field.ofMultiSelectionType(…)
-        .render(new SimpleCheckBoxControl<>())
+Field.ofMultiSelectionType(…).render(new SimpleCheckBoxControl<>())
 ```
 
 ## Model
@@ -241,7 +239,7 @@ private ResourceBundle rbEN = ResourceBundle.getBundle("demo.demo-locale",new Lo
 
 private ResourceBundleService rbs = new ResourceBundleService(rbEN);
 
-        Form.of(…).i18n(rbs);
+Form.of(…).i18n(rbs);
 ```
 
 ## Validation
