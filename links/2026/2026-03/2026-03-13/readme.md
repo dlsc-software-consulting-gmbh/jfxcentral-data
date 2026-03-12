@@ -37,6 +37,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Miscellaneous
 
 * [**Dirk Lemmermann**](https://bsky.app/profile/dlemmermann.bsky.social/post/3mgflg35sgc2u) "_did some more evaluation of GitHub Copilot CLI today and built a nice launcher app for my GemsFX open source project. The productivity I get out of this surpassed all my expectations._"
+* [Post by Gluon](https://gluonhq.com/why-spend-a-week-on-a-bug-that-we-can-fix-in-an-hour/): "_We’ve all been there. You’re working on a JavaFX application, and you hit that wall. Maybe it’s a strange rendering glitch on a specific OS, a memory leak you can’t pin down, or a performance bottleneck that only appears in production. You search the forums. You check Stack Overflow. You spend days tweaking code, hoping for a breakthrough. There is a faster way! To make it easier for teams to experience the value of expert support, we are introducing a one-time JavaFX Quick-Fix Package._"
 
 ## JFX Central
 
