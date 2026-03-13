@@ -1,74 +1,50 @@
 # LibRawFX
 
-Integration of the [LibRaw](https://www.libraw.org) library for JavaFX for all major operating systems (Linux, Windows,
-OSX). All raw formats can be loaded with the Image class and manipulated by Pixelwriter/Pixelreader. Limitation is that
-the image class only supports 8-bit color deph but converts all 16bit image format to 8bit automatically.
+Integration of [LibRaw](https://www.libraw.org) for JavaFX on Linux, Windows, and macOS. Load raw image formats via JavaFX's `Image` class; 16-bit images are automatically converted to 8-bit.
 
 ## Status
 
-The lib is in production ready status. That means it is tested on all operating systems (OSX, Linux, Win10) and under
-different threading scenarios.
+Production-ready — tested on all platforms under various threading scenarios. Integrated LibRaw version: 0.20.2.
 
-Supported OS:
+| OS | Notes |
+|----|-------|
+| Linux | glibc ≥ 2.27 (Ubuntu 18+) |
+| macOS | Up to 10.15; no M1 build |
+| Windows | 10 |
 
-- Linux (min. glibc 2.27 which means Ubuntu 18 or later)
-- OSX up to 10.15 (actually no M1 build)
-- Windows 10
-
-Integrated LibRaw version is 0.20.2 (https://www.libraw.org/download#changelog)
-
-Only the following raw formats are enabled (see class `RAWDescriptor.java`):
-
-- Adobe DNG
-- Nikon NEF
-- Canon CRW/CR2
-- SIMGA Merrill/Quattro X3F
-- Fuji X-Trans RAF
-- Sony
-- Leica
-
-The lib now resizes the image before sending it to memory (the same as the Javafx is doing for PNG/JPG).
+**Supported RAW formats:** Adobe DNG, Nikon NEF, Canon CRW/CR2, Sigma X3F, Fuji RAF, Sony, Leica.
 
 ## Usage
 
-- One of the first lines needed is the following code to install the file handler (in the class where the _start_ method
-  is).
+In your `start()` method, install the image loader:
 
-`RAWImageLoaderFactory.install();`
+```java
+RAWImageLoaderFactory.install();
+```
 
-- and add the following lines to your java config:
+Add to your JVM config (module name: `org.librawfx`):
 
 ```
---add-modules jdk.incubator.foreign --enable-native-access=org.librawfx  
---add-exports=javafx.graphics/com.sun.javafx.iio=org.librawfx 
+--add-modules jdk.incubator.foreign
+--enable-native-access=org.librawfx
+--add-exports=javafx.graphics/com.sun.javafx.iio=org.librawfx
 --add-exports=javafx.graphics/com.sun.javafx.iio.common=org.librawfx
 ```
 
-- **Metadata**
-  Just create an instance of class LibrawImage with the file to get the metadata and print the return values
+Load a RAW image like any standard JavaFX image:
 
-```
-HashMap<String, String> metaData = new LibrawImage(initialFile.getAbsolutePath()).getMetaData();
-VBox vb = new VBox();
-metaData.entrySet().forEach((entry) -> {
-   Label l = new Label(entry.getKey() + " " + entry.getValue());
-   vb.getChildren().add(l);
-});
+```java
+Image img = new Image(file.toURI().toURL().toString(), false);
+ImageView view = new ImageView(img);
+view.setFitWidth(200);
+view.setFitHeight(200);
+view.setPreserveRatio(true);
 ```
 
-- **Module name: org.librawfx**
+**Reading metadata:**
 
-Just create an Image with the URL/stream and add it to the image view:
-
+```java
+HashMap<String, String> metaData = new LibrawImage(file.getAbsolutePath()).getMetaData();
 ```
-  Image img=new Image(initialFile.toURI().toURL().toString(), false);  
-  ImageView view = new ImageView();  
-  view.setFitHeight(200);  
-  view.setFitWidth(200);  
-  view.setPreserveRatio(true);  
-  stack.getChildren().add(view);  
-  view.setImage(img);
-```  
 
-You can also use the lib without adding the file handler. This means you can also forget the "...install" line and just
-load a file URL with the lib.
+The `install()` call is optional — you can also load images directly without registering the handler.
