@@ -160,7 +160,7 @@ if (Boolean.getBoolean("dev.mode")) FxmlKit.enableDevelopmentMode();
 
 ### File Resolution Convention
 
-```
+```text
 src/main/resources/com/example/
 ├── UserView.fxml    ← matched by UserView.java (same name, same package)
 ├── UserView.css     ← auto-attached
@@ -275,7 +275,7 @@ See `fxmlkit-samples/tier3.multiuser` for a full example simulating multi-user s
 
 The `fxmlkit-samples` module contains complete examples in three tiers:
 
-```
+```text
 tier1/  hello, i18n, provider, viewpath, theme   # Zero configuration
 tier2/  fxmlobject, guice, login                  # Dependency injection
 tier3/  multiuser                                  # JPro multi-user isolation

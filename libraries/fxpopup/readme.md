@@ -1,31 +1,23 @@
 # FxPopup
 
-FxPopup is a JavaFX library that simplifies the creation of automatic forms
-and popup messages with minimal effort. With just a single line of code, developers
-can generate dynamic forms or display messages, while maintaining the flexibility to
-use custom views for both functionalities. The same library includes a light and dark style.
+A JavaFX library for creating popup messages and auto-generated forms with minimal code. Supports custom views and includes built-in light and dark styles.
 
 ![](fxpopup.png)
 
-## Example Code
-
-Some example code for the different use-cases.
-
-### Message Popup
+## Message Popup
 
 ![Screenshot of code and message popup](https://github.com/user-attachments/assets/d8bd3c96-ac0b-4818-b2c7-df24deecbbfe)
 
 ```java
-// Full Message.
-Message exampleMessage = new Message(
-   "Title",
-   "Context",
-   MessageType. SUCCESS, // Message.INFO, Message.WARNING, Message.ERROR
-   10 //Duration seconds 
-)
+Message message = new Message(
+    "Title",
+    "Context",
+    MessageType.SUCCESS, // INFO, WARNING, ERROR
+    10 // duration in seconds
+);
 ```
 
-### Message Form
+## Message Form
 
 ![Screenshot of code and message form](https://github.com/user-attachments/assets/b63da29d-6197-4528-9f43-eb33c259c28f)
 

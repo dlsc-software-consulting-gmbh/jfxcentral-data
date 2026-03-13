@@ -37,60 +37,16 @@ Field options:
 
 ## Field Types
 
-<table>
-  <tbody>
-    <tr><td><img src="StringField.png" /></td></tr>
-    <tr><td><b>String</b><br/><pre lang="java">Field.ofStringType("CHF").label("Currency")</pre></td></tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr><td><img src="IntegerField.png"/></td></tr>
-    <tr><td><b>Integer</b><br/><pre lang="java">Field.ofIntegerType(8401120).label("Population")</pre></td></tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr><td><img src="DoubleField.png" /></td></tr>
-    <tr><td><b>Double</b><br/><pre lang="java">Field.ofDoubleType(41285.0).label("Area")</pre></td></tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr><td><img src="BooleanField.png" /></td></tr>
-    <tr><td><b>Boolean</b><br/><pre lang="java">Field.ofBooleanType(false).label("Independent")</pre></td></tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr><td><img src="ComboBoxField.png" /></td></tr>
-    <tr><td><b>ComboBox</b><br/><pre lang="java">Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1)
-     .label("Capital")</pre></td></tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr><td><img src="RadioButtonField.png" /></td></tr>
-    <tr><td><b>RadioButton</b><br/><pre lang="java">Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0)
-     .label("Driving on the")
-     .render(new SimpleRadioButtonControl<>())</pre></td></tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr><td><img src="CheckBoxField.png" /></td></tr>
-    <tr><td><b>CheckBox</b><br/><pre lang="java">Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2))
-     .label("Continent")
-     .render(new SimpleCheckBoxControl<>())</pre></td></tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr><td><img src="ListField.png" /></td></tr>
-    <tr><td><b>ListView</b><br/><pre lang="java">Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …))
-     .label("Biggest Cities")</pre></td></tr>
-  </tbody>
-</table>
+| Type | Preview | Example |
+|------|---------|---------|
+| **String** | ![](StringField.png) | `Field.ofStringType("CHF").label("Currency")` |
+| **Integer** | ![](IntegerField.png) | `Field.ofIntegerType(8401120).label("Population")` |
+| **Double** | ![](DoubleField.png) | `Field.ofDoubleType(41285.0).label("Area")` |
+| **Boolean** | ![](BooleanField.png) | `Field.ofBooleanType(false).label("Independent")` |
+| **ComboBox** | ![](ComboBoxField.png) | `Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1).label("Capital")` |
+| **RadioButton** | ![](RadioButtonField.png) | `Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0).label("Driving on the").render(new SimpleRadioButtonControl<>())` |
+| **CheckBox** | ![](CheckBoxField.png) | `Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2)).label("Continent").render(new SimpleCheckBoxControl<>())` |
+| **ListView** | ![](ListField.png) | `Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …)).label("Biggest Cities")` |
 
 ## Rendering
 

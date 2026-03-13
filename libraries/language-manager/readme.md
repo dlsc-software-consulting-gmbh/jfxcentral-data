@@ -1,24 +1,17 @@
 # Language Manager
 
-**Language Manager** is a JavaFX library that enables **dynamic language switching at runtime**, allowing you to update the application language without needing to refresh the scene.
+**Language Manager** is a JavaFX library that enables **dynamic language switching at runtime**, allowing you to update the application language without reloading the scene.
 
 ## Features
 
-* Support for multiple languages using standard `.properties` files.
-* Change language dynamically at runtime — no need to reload the scene.
-* Automatic binding for JavaFX controls such as `Label`, `Button`, `TextField`, `CheckBox`, `RadioButton`, `ChoiceBox`, `ComboBox`, `MenuItem`, and more.
-* Programmatic binding for controls without `@FXML` IDs — perfect for dynamically created interfaces.
-* Custom annotations to ignore or customize specific field bindings.
-* Support for `TreeItem` and `Tab` bindings as well.
+- Dynamic language switching using standard `.properties` files
+- Automatic binding for `Label`, `Button`, `TextField`, `CheckBox`, `RadioButton`, `ChoiceBox`, `ComboBox`, `MenuItem`, `TreeItem`, `Tab`, and more
+- Programmatic binding for dynamically created controls (no `@FXML` required)
+- Custom annotations to ignore or customize specific field bindings
 
 ## Installation
 
-Add the library to your project using Maven or Gradle
-
-### Maven
-
-Add the following to your `pom.xml`:
-
+**Maven:**
 ```xml
 <dependency>
     <groupId>io.github.snoopy137</groupId>
@@ -27,55 +20,44 @@ Add the following to your `pom.xml`:
 </dependency>
 ```
 
-### Gradle
-
-Add this to your `build.gradle`:
-
+**Gradle:**
 ```groovy
-dependencies {
-    implementation 'io.github.snoopy137:language-manager:1.1.1'
-}
+implementation 'io.github.snoopy137:language-manager:1.1.1'
 ```
 
 ## Usage
 
 ### FXML-Based Auto Binding
 
-If you're using FXML, annotate your controller fields and call `Language.autoBind(this)` to automatically bind controls based on their @FXML IDs.
+Annotate controller fields and call `Language.autoBind(this)` to bind controls by their `@FXML` IDs:
 
 ```java
-@FXML
-private Label greeting;
-
-@FXML
-private Button submitButton;
+@FXML private Label greeting;
+@FXML private Button submitButton;
 
 public void initialize() {
-   Language.autoBind(this); // Binds all supported @FXML controls automatically
+    Language.autoBind(this);
 }
 ```
 
-Supported controls include Label, Button, TextField, TextArea, CheckBox, MenuItem, Tab, Tooltip, and more.
-
-To exclude a specific field from being auto-bound, use the `@IgnoreBind` annotation:
+To exclude a field, use `@IgnoreBind`:
 
 ```java
 @FXML @IgnoreBind
 private Label doNotTranslate;
 ```
 
-### Programmatic Binding (No FXML Required)
+### Programmatic Binding
 
-If you're not using FXML or want to create and bind controls dynamically, you can use the `@Bind` annotation without @FXML. Make sure to initialize your controls before calling `Language.autoBind(this)`
+For dynamically created controls, use `@Bind` and initialize before calling `autoBind`:
 
 ```java
 @Bind
 private Label dynamicLabel;
 
 public void initialize() {
-   dynamicLabel = new Label();
-   rootPane.setCenter(dynamicLabel);
-
-   Language.autoBind(this); // Binds to key "dynamicLabel"
+    dynamicLabel = new Label();
+    rootPane.setCenter(dynamicLabel);
+    Language.autoBind(this); // binds to key "dynamicLabel"
 }
 ```

@@ -1,87 +1,42 @@
 # CalendarFX
 
-A Java framework for creating sophisticated calendar views based on JavaFX. A detailed developer manual can be found
-here: [CalendarFX Developer Manual](https://dlsc-software-consulting-gmbh.github.io/CalendarFX/).
+A framework for creating sophisticated calendar views based on JavaFX. See the [Developer Manual](https://dlsc-software-consulting-gmbh.github.io/CalendarFX/) for full documentation.
 
 ## Usage
 
-The following section shows you how to quickly create a JavaFX application that will show a
-complete calendar user interface. It includes a day view, a week view, a month view, a year
-view, an agenda view, a calendar selection view, and a search UI.
+Creates a full calendar UI including day, week, month, year, agenda, and search views:
 
 ```java
-package com.calendarfx.app;
+CalendarView calendarView = new CalendarView(); // (1)
 
-import java.time.LocalDate;
-import java.time.LocalTime;
+Calendar birthdays = new Calendar("Birthdays"); // (2)
+birthdays.setStyle(Style.STYLE1); // (3)
 
-import com.calendarfx.model.Calendar;
-import com.calendarfx.model.Calendar.Style;
-import com.calendarfx.model.CalendarSource;
-import com.calendarfx.view.CalendarView;
+Calendar holidays = new Calendar("Holidays");
+holidays.setStyle(Style.STYLE2);
 
-import javafx.application.Application;
-import javafx.application.Platform;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
+CalendarSource myCalendarSource = new CalendarSource("My Calendars"); // (4)
+myCalendarSource.getCalendars().addAll(birthdays, holidays);
 
-public class CalendarApp extends Application {
+calendarView.getCalendarSources().addAll(myCalendarSource); // (5)
+calendarView.setRequestedTime(LocalTime.now());
 
+// Keep the displayed time current
+Thread updateTimeThread = new Thread("Calendar: Update Time Thread") {
     @Override
-    public void start(Stage primaryStage) throws Exception {
-
-        CalendarView calendarView = new CalendarView(); (1)
-
-        Calendar birthdays = new Calendar("Birthdays"); (2)
-        birthdays.setStyle(Style.STYLE1); (3)
-        
-        Calendar holidays = new Calendar("Holidays");
-        holidays.setStyle(Style.STYLE2);
-
-        CalendarSource myCalendarSource = new CalendarSource("My Calendars"); (4)
-        myCalendarSource.getCalendars().addAll(birthdays, holidays);
-
-        calendarView.getCalendarSources().addAll(myCalendarSource); (5)
-        calendarView.setRequestedTime(LocalTime.now());
-
-        Thread updateTimeThread = new Thread("Calendar: Update Time Thread") {
- 
-            @Override
-            public void run() {
-                    while (true) {
-                            Platform.runLater(() -> {
-                                    calendarView.setToday(LocalDate.now());
-                                    calendarView.setTime(LocalTime.now());
-                            });
-
-                            try {
-                                    // update every 10 seconds
-                                    sleep(10000);
-                            } catch (InterruptedException e) {
-                                    e.printStackTrace();
-                            }
-
-                    }
-            };
-        };
-
-        updateTimeThread.setPriority(Thread.MIN_PRIORITY);
-        updateTimeThread.setDaemon(true);
-        updateTimeThread.start();
-
-        Scene scene = new Scene(calendarView);
-        primaryStage.setTitle("Calendar");
-        primaryStage.setScene(scene);
-        primaryStage.setWidth(1300);
-        primaryStage.setHeight(1000);
-        primaryStage.centerOnScreen();
-        primaryStage.show();
+    public void run() {
+        while (true) {
+            Platform.runLater(() -> {
+                calendarView.setToday(LocalDate.now());
+                calendarView.setTime(LocalTime.now());
+            });
+            try { sleep(10000); } catch (InterruptedException e) { e.printStackTrace(); }
+        }
     }
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-}
+};
+updateTimeThread.setPriority(Thread.MIN_PRIORITY);
+updateTimeThread.setDaemon(true);
+updateTimeThread.start();
 ```
 
 1. Create the calendar view
