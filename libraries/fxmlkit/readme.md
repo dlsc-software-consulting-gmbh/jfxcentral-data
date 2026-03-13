@@ -1,5 +1,3 @@
-# FxmlKit
-
 **FxmlKit = Automatic FXML Loading + Hot Reload + Optional Dependency Injection**
 
 A modern JavaFX FXML framework that eliminates boilerplate, provides FXML/CSS hot reload, and optional dependency injection.

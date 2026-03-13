@@ -1,5 +1,3 @@
-# AtlantaFX
-
 A modern flat design JavaFX theme inspired by web component frameworks.
 
 ## Features

@@ -1,5 +1,3 @@
-# NSMenuFX
-
 A library to customize the macOS menu bar, giving your JavaFX app a more [native look and feel](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/MenuBarMenus.html). NSMenuFX maps JavaFX `Menu` objects to AppKit's `NSMenu` using [JNA](https://github.com/java-native-access/jna).
 
 ## Menu Types

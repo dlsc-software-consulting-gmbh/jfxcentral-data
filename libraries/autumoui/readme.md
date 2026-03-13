@@ -1,5 +1,3 @@
-# autumo UI
-
 A rapid JavaFX development framework following a classic MVC structure.
 
 ## Features

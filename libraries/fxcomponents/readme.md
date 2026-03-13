@@ -1,5 +1,3 @@
-# FXComponents
-
 A Java library containing a collection of new controls for JavaFX applications.
 
 ## Resources

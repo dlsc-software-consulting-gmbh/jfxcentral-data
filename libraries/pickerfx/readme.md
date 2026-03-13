@@ -1,5 +1,3 @@
-# PickerFX
-
 A lightweight framework for touch-friendly picker controls.
 
 ![alt](youtube:hGG4I7QIzx0)

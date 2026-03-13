@@ -1,5 +1,3 @@
-# LibHeifFX
-
 Integration of [Libheif](https://github.com/strukturag/libheif) for JavaFX on Linux, Windows, and macOS. Load any HEIF format via JavaFX's `Image` class and manipulate via `PixelWriter`/`PixelReader`. 16-bit images are automatically converted to 8-bit.
 
 **Requires JDK 17** (uses Foreign Linker API / Project Panama).

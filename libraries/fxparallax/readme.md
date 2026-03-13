@@ -1,5 +1,3 @@
-# FXParallax
-
 Parallax framework for Java (JavaFX). This framework adds controls to add Parallax effects to JavaFX application, this
 effect can add a sense of depth (3D like) to where it’s used.
 

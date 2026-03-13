@@ -1,5 +1,3 @@
-# ControlsFX
-
 ControlsFX is a library of UI controls and useful APIs for JavaFX 8.0 and beyond.
 
 ## Usage

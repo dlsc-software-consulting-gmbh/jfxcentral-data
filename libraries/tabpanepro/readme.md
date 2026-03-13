@@ -1,5 +1,3 @@
-# TabPanePro
-
 Techsenger TabPanePro is a lightweight JavaFX library that extends the standard TabPane with practical features such
 as custom control areas, custom tab shapes, tab drag-and-drop with edge scrolling, a tab scrollbar, and more. The
 library is built on top of the standard TabPaneSkin, carefully extracted from the OpenJFX project along with a

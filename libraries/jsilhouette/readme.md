@@ -1,5 +1,3 @@
-# JSilhouette
-
 Additional shapes for JavaFX applications. Since `javafx.scene.shape.Shape` is closed for extension, shapes are exposed via:
 
 ```java

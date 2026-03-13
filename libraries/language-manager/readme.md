@@ -1,5 +1,3 @@
-# Language Manager
-
 **Language Manager** is a JavaFX library that enables **dynamic language switching at runtime**, allowing you to update the application language without reloading the scene.
 
 ## Features

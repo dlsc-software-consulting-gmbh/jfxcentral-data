@@ -1,5 +1,3 @@
-# PreferencesFX
-
 Preference dialogs for business applications made easy.
 
 ![screenshot of created preferences dialog](preferences-demo.png)

@@ -1,5 +1,3 @@
-# ChartFx
-
 ChartFx is a scientific charting library developed at [GSI](https://www.gsi.de) for [FAIR](https://fair-center.eu/),
 optimised for real-time data visualisation at 25 Hz update rates. It handles datasets from tens of thousands to
 millions of points, commonly used in digital signal processing applications.

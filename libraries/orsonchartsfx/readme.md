@@ -1,5 +1,3 @@
-# Orson Charts FX
-
 A JavaFX library for generating a wide variety of interactive 3D charts for desktop applications.
 
 ![Orson Charts sample](https://user-images.githubusercontent.com/1835893/150652500-87741095-5148-454f-b8e9-8f836174c068.png)

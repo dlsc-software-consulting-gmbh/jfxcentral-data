@@ -1,5 +1,3 @@
-# PDFViewFX
-
 A custom control for displaying PDF files, built on Apache PDFBox.
 
 ## Usage

@@ -1,5 +1,3 @@
-# Transit Theme
-
 A Java/JavaFX theme that builds on JMetro. Inspired by Fluent Design but with an original direction — drawing from Fluent Design and other known themes rather than copying them directly.
 
 Transit is composed of stylesheets and new skins provided via the FXSkins library. Currently targeted at Java 17 / JavaFX 20.

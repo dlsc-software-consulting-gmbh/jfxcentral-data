@@ -1,5 +1,3 @@
-# FXyz3D
-
 A JavaFX 3D visualization and component library with many custom shapes (e.g. `SpringMesh`, shown in the screenshots).
 
 ## Sample

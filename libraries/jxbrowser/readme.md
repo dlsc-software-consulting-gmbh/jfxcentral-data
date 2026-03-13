@@ -1,5 +1,3 @@
-# JxBrowser
-
 Embed Chromium in Java apps — display web pages, PDFs, and work with DOM, JS, networking, printing, and downloads. Supports JavaFX, Swing, and SWT.
 
 Runs on Windows x86/x64, macOS x64/ARM, Linux x64/ARM, Java 8+.

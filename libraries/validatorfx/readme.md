@@ -1,5 +1,3 @@
-# ValidatorFX
-
 ValidatorFX is a validation library for JavaFX inspired by [ControlsFX](https://github.com/controlsfx/controlsfx),
 designed to overcome its limitations:
 

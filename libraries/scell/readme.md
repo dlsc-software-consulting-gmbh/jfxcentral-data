@@ -1,5 +1,3 @@
-# SCell
-
 SCell integrates powerful spreadsheet capabilities into Java and JavaFX applications.
 
 ## Features

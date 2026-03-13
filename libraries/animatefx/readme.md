@@ -1,5 +1,3 @@
-# AnimateFX
-
 AnimateFX is a library of 70+ ready-to-use animations for JavaFX, inspired by [Animate.css](https://github.com/daneden/animate.css). Supports custom animations and interpolators, play/stop control, and chaining animations.
 
 ## Animations

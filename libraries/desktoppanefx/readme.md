@@ -1,5 +1,3 @@
-# DesktopPaneFX
-
 A JavaFX equivalent of Swing's `JDesktopPane` — a container for MDI-style internal windows (like `JInternalFrame`). Forked from [JavaFXMDI](https://github.com/lincolnminto/javaFXMDI) by Lincoln Minto.
 
 ## Usage

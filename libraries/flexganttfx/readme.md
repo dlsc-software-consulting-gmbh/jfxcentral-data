@@ -1,5 +1,3 @@
-# FlexGanttFX
-
 A state-of-the-art Gantt chart custom control for JavaFX 8+.
 
 ## Use Cases

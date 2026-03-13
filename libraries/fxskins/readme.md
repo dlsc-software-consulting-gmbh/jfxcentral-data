@@ -1,5 +1,3 @@
-# FXSkins
-
 A collection of new Skins for existing JavaFX controls that add more functionality with minimal changes to existing code. Supports Java 11 and above.
 
 ## Resources

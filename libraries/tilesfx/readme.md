@@ -1,5 +1,3 @@
-# TilesFX
-
 TilesFX is a JavaFX library of Dashboard Tiles with 50+ predefined skins and support for custom skins. See the `Demo` class in the repository for usage examples of each skin.
 
 ## Resources

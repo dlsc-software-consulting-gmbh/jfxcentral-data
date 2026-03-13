@@ -1,5 +1,3 @@
-# FXRibbon
-
 Ribbon control for JavaFX, based on the [Microsoft Ribbon](https://en.wikipedia.org/wiki/Ribbon_(computing)). Useful for applications with a large number of actions, and widely adopted across products like Microsoft Office, Outlook, MSPaint, Windows Explorer, and AutoCAD.
 
 ## Resources

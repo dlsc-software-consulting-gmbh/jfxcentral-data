@@ -1,5 +1,3 @@
-# BentoFX
-
 A docking system for JavaFX (requires JavaFX 19+ and Java 21+).
 
 ![overview](overview.png)

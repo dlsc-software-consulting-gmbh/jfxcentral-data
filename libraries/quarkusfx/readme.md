@@ -1,5 +1,3 @@
-# QuarkusFX
-
 QuarkusFX is a [Quarkus](https://quarkus.io/) extension that allows you to use JavaFX in your Quarkus application.
 It allows component injection in FX Controllers as well as many CDI features.
 

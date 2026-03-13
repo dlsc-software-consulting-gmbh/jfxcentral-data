@@ -1,5 +1,3 @@
-# BootstrapFX
-
 BootstrapFX is a partial port of [Twitter Bootstrap](https://getbootstrap.com/) for JavaFX, providing a CSS stylesheet
 that closely resembles the original while being tailored for JavaFX's CSS flavor.
 

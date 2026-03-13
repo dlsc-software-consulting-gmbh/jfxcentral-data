@@ -1,5 +1,3 @@
-# MaterialFX
-
 MaterialFX is an open source Java library which provides material design components for JavaFX.
 
 Over the years the way of creating GUIs has often changed and JavaFX default appearance is still pretty much the same.

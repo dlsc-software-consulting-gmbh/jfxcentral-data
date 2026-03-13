@@ -1,5 +1,3 @@
-# TiwulFX Dock
-
 TiwulFX-Dock provides enhanced JavaFX TabPane that supports tab reordering, detaching and docking.
 
 ## Usage

@@ -1,5 +1,3 @@
-# StagePro
-
 A library for creating fully customizable JavaFX stages. Includes a sampler module with key usage examples.
 
 ## Features

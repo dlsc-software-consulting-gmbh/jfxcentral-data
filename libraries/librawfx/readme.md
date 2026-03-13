@@ -1,5 +1,3 @@
-# LibRawFX
-
 Integration of [LibRaw](https://www.libraw.org) for JavaFX on Linux, Windows, and macOS. Load raw image formats via JavaFX's `Image` class; 16-bit images are automatically converted to 8-bit.
 
 ## Status

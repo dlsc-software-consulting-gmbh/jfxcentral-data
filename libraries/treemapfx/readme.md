@@ -1,5 +1,3 @@
-# TreeMapFX
-
 A simple and flexible _"tree map"_ chart control for JavaFX.
 
 ![](treemapfx.png)

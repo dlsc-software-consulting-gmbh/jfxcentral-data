@@ -1,5 +1,3 @@
-# UnitFX
-
 A lightweight JavaFX framework for unit-of-measure (UOM) text field input controls. `QuantityInputField` validates input and converts between units automatically. A "base unit" can be set on a field — the field highlights when the user selects a different unit. Requires JDK 11+.
 
 ## Usage

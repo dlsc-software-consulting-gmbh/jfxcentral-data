@@ -1,5 +1,3 @@
-# Charts
-
 A JavaFX library for scientific charts not found in (or differently flavored from) the standard JavaFX chart set.
 
 Charts are implemented using the JavaFX `Canvas` node — CSS styling is **not** supported, but this enables better performance and supports dual X/Y axes with an optional grid overlay.

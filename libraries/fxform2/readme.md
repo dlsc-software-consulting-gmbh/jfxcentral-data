@@ -1,5 +1,3 @@
-# FXForm2
-
 Automatic JavaFX form generation from bean properties.
 
 ![Screen 1](fxform2.png)

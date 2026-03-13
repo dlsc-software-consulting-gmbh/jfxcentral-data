@@ -1,5 +1,3 @@
-# GemsFX
-
 A collection of JavaFX controls and utilities.
 
 ## Controls

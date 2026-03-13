@@ -1,5 +1,3 @@
-# TabShell
-
 A lightweight MVVM platform for building tab-based JavaFX applications. Consists of a core shell plus ready-made components that significantly reduce development time.
 
 ## Features

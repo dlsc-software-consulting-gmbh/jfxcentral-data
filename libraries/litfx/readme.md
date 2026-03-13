@@ -1,5 +1,3 @@
-# LitFX
-
 Bolt on upgrades for your JavaFX GUI that provide custom special effects such as:
 
 - Lightning

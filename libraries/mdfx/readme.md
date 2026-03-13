@@ -1,5 +1,3 @@
-# MDFX
-
 A simple Markdown renderer for JavaFX, based on flexmark-java. Used to render documentation at jpro.one.
 
 ## Setup (Gradle)

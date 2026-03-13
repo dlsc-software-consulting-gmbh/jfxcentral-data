@@ -1,5 +1,3 @@
-# GMapsFX
-
 A pure JavaFX API for embedding Google Maps without interacting with the underlying JavaScript API directly. Requires Java 11 and JavaFX 17.
 
 ![Example Map](map.png)

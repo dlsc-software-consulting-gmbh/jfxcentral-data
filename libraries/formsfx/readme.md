@@ -1,5 +1,3 @@
-# FormsFX
-
 A framework for easily creating forms in JavaFX with a fluent API, pre-defined controls, validation, and localisation.
 
 ## Semantics

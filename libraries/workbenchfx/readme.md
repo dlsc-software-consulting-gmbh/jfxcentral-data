@@ -1,5 +1,3 @@
-# WorkbenchFX
-
 The one and only framework to build large JavaFX Applications!
 
 ## Components

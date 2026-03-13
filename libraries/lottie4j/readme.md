@@ -1,5 +1,3 @@
-# Lottie4J
-
 Java libraries to handle and play [Lottie](https://lottiefiles.com/what-is-lottie) files — a JSON-based animation format created by Airbnb, now the industry standard for vector animations on mobile and web. Further information: [lottie4j.com](https://lottie4j.com).
 
 ## Showing a Lottie Animation in JavaFX

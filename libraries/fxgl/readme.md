@@ -1,5 +1,3 @@
-# FXGL
-
 JavaFX Game Development Framework. No installation or setup required — works out of the box on Java 8-15, Win/Mac/Linux/Android 8+/iOS 11.0+/Web. Games package into a single executable `.jar` or native image.
 
 Key features: Entity-Component system, interpolated animations, particles, superset of JavaFX UI API. See the [full feature list](https://github.com/AlmasB/FXGL/wiki/Core-Features).
