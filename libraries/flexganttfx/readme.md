@@ -11,8 +11,8 @@ A state-of-the-art Gantt chart custom control for JavaFX 8+.
 
 ## Benefits
 
-| | |
-|-|---|
+| Benefit         | Description                                                                                                                                                              |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Flexibility** | Pluggable renderer architecture supports anything from one task per row to thousands of non-overlapping activities, rendered exactly as needed via the JavaFX canvas API |
-| **Speed** | Specialized algorithms bypass costly CSS operations; smooth scrolling remains possible with 250,000+ activities |
-| **Elegance** | Follows JavaFX 8 guidelines; controls use skins to cleanly separate implementation from API |
+| **Speed**       | Specialized algorithms bypass costly CSS operations; smooth scrolling remains possible with 250,000+ activities                                                          |
+| **Elegance**    | Follows JavaFX 8 guidelines; controls use skins to cleanly separate implementation from API                                                                              |
