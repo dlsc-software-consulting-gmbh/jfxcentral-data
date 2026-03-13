@@ -6,15 +6,10 @@ RichTextArea is a text input control that provides rich text features along with
 
 ## Usage
 
-To use the RichTextArea control in your project, simply create an instance and add it to your JavaFX application:
-
 ```java
-@Override
-public void start(Stage stage) {
-    RichTextArea editor = new RichTextArea();
-    BorderPane root = new BorderPane(editor);
-    Scene scene = new Scene(root, 800, 600);
-    stage.setScene(scene);
-    stage.show();
-}
+RichTextArea editor = new RichTextArea();
+BorderPane root = new BorderPane(editor);
+Scene scene = new Scene(root, 800, 600);
+stage.setScene(scene);
+stage.show();
 ```

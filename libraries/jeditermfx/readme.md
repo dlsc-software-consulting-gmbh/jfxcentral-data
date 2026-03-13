@@ -6,8 +6,6 @@ based on this library can be seamlessly integrated into any JavaFX application.
 
 ## Features
 
-Key features include:
-
 * Local terminal for Unix, Mac and Windows using Pty4J
 * Xterm emulation - passes most of tests from vttest
 * Xterm 256 colours

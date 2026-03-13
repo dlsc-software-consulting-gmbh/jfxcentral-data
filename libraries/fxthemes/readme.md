@@ -1,18 +1,8 @@
 # FXThemes
 
-This is a library that contains classes to help in advanced theme development.
+A library with helper classes for advanced theme development in JavaFX, including APIs to change the appearance of a native window frame and backdrop (e.g., transparency effects on Windows).
 
-For example, it contains helper classes to change the appearance of a native window frame as well as the backdrop of JavaFX
-native Windows (the type of transparency effect on Windows).
+## Resources
 
-As of the time of writing of this documentation page, FXThemes is being built using Java 21 (the latest LTS Java release) 
-and JavaFX 21.
-
-## Usage
-
-If you want to use FXThemes, the best place to start is by checking out the documentation
-page: [https://pixelduke.com/fxthemes/](https://pixelduke.com/fxthemes/)
-
-- The GitHub repository is located at: [https://github.com/dukke/FXThemes](https://github.com/dukke/FXThemes)
-
-- The issue tracker is here: [https://github.com/dukke/FXThemes/issues](https://github.com/dukke/FXThemes/issues)
+- [Documentation](https://pixelduke.com/fxthemes/)
+- [GitHub](https://github.com/dukke/FXThemes) · [Issue Tracker](https://github.com/dukke/FXThemes/issues)

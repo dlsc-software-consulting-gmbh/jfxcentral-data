@@ -7,9 +7,6 @@ work solely with its public API and JavaFX classes that they are already familia
 
 ## Usage
 
-From within your JavaFX application, adding a tray icon is as simple as two lines of code.
-Yes, really, that's it!
-
 ```java
 // Pass in the app's main stage, and path to the icon image
 FXTrayIcon icon=new FXTrayIcon(stage,getClass().getResource("someImageFile.png"));

@@ -15,6 +15,3 @@ minimal set of required classes.
 * Supports tab scrolling via a ScrollBar, with four CSS-configurable positions per side.
 * API for programmatic tab scrolling with scroll state tracking.
 * Tab drag-and-drop with edge auto-scrolling.
-* A demo application showcasing all library features.
-* Comprehensive documentation.
-
