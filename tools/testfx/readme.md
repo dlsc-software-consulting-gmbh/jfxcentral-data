@@ -24,7 +24,7 @@ See the [changelog](https://github.com/TestFX/TestFX/blob/master/CHANGES.md) for
 
 To add a dependency on TestFX using Gradle, use the following:
 
-```gradle
+```groovy
 dependencies {
     testCompile "org.testfx:testfx-core:4.0.16-alpha"
 }
@@ -40,7 +40,7 @@ the [JavaFX Gradle Plugin](https://github.com/openjfx/javafx-gradle-plugin).
 
 After following the README for the JavaFX Gradle Plugin you will end up with something like:
 
-```gradle
+```groovy
 plugins {
     id 'org.openjfx.javafxplugin' version '0.0.8'
 }
@@ -58,7 +58,7 @@ JUnit 4, JUnit 5, and Spock.
 
 #### JUnit 4
 
-```gradle
+```groovy
 dependencies {
     testCompile "junit:junit:4.13-beta-3"
     testCompile "org.testfx:testfx-junit:4.0.16-alpha"
@@ -67,7 +67,7 @@ dependencies {
 
 #### JUnit 5
 
-```gradle
+```groovy
 dependencies {
     testCompile 'org.junit.jupiter:junit-jupiter-api:5.5.1'
     testCompile "org.testfx:testfx-junit5:4.0.16-alpha"
@@ -76,7 +76,7 @@ dependencies {
 
 #### Spock
 
-```gradle
+```groovy
 dependencies {
     testCompile "org.spockframework:spock-core:1.3-groovy-2.5"
     testCompile "org.testfx:testfx-spock:4.0.16-alpha"
@@ -90,13 +90,13 @@ TestFX currently supports Hamcrest matchers or AssertJ assertions.
 
 #### Hamcrest
 
-```gradle
+```groovy
 testCompile group: 'org.hamcrest', name: 'hamcrest', version: '2.1'
 ```
 
 #### AssertJ
 
-```gradle
+```groovy
 testCompile group: 'org.assertj', name: 'assertj-core', version: '3.13.2'
 ```
 
@@ -105,7 +105,6 @@ testCompile group: 'org.assertj', name: 'assertj-core', version: '3.13.2'
 To add a dependency on TestFX using Maven, use the following:
 
 ```xml
-
 <dependency>
     <groupId>org.testfx</groupId>
     <artifactId>testfx-core</artifactId>
@@ -125,7 +124,6 @@ the [JavaFX Maven Plugin](https://github.com/openjfx/javafx-maven-plugin).
 After following the README for the JavaFX Maven Plugin you will end up with something like:
 
 ```xml
-
 <dependencies>
     <dependency>
         <groupId>org.openjfx</groupId>
@@ -157,7 +155,6 @@ JUnit 4, JUnit 5, and Spock.
 #### JUnit 4
 
 ```xml
-
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
@@ -165,17 +162,16 @@ JUnit 4, JUnit 5, and Spock.
     <scope>test</scope>
 </dependency>
 <dependency>
-<groupId>org.testfx</groupId>
-<artifactId>testfx-junit</artifactId>
-<version>4.0.16-alpha</version>
-<scope>test</scope>
+    <groupId>org.testfx</groupId>
+    <artifactId>testfx-junit</artifactId>
+    <version>4.0.16-alpha</version>
+    <scope>test</scope>
 </dependency>
 ```
 
 #### JUnit 5
 
 ```xml
-
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-api</artifactId>
@@ -183,17 +179,16 @@ JUnit 4, JUnit 5, and Spock.
     <scope>test</scope>
 </dependency>
 <dependency>
-<groupId>org.testfx</groupId>
-<artifactId>testfx-junit5</artifactId>
-<version>4.0.16-alpha</version>
-<scope>test</scope>
+    <groupId>org.testfx</groupId>
+    <artifactId>testfx-junit5</artifactId>
+    <version>4.0.16-alpha</version>
+    <scope>test</scope>
 </dependency>
 ```
 
 #### Spock
 
 ```xml
-
 <dependency>
     <groupId>org.spockframework</groupId>
     <artifactId>spock-core</artifactId>
@@ -201,10 +196,10 @@ JUnit 4, JUnit 5, and Spock.
     <scope>test</scope>
 </dependency>
 <dependency>
-<groupId>org.testfx</groupId>
-<artifactId>testfx-spock</artifactId>
-<version>4.0.16-alpha</version>
-<scope>test</scope>
+    <groupId>org.testfx</groupId>
+    <artifactId>testfx-spock</artifactId>
+    <version>4.0.16-alpha</version>
+    <scope>test</scope>
 </dependency>
 ```
 
@@ -216,7 +211,6 @@ TestFX currently supports Hamcrest matchers or AssertJ assertions.
 #### Hamcrest
 
 ```xml
-
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>hamcrest</artifactId>
@@ -228,7 +222,6 @@ TestFX currently supports Hamcrest matchers or AssertJ assertions.
 #### AssertJ
 
 ```xml
-
 <dependency>
     <groupId>org.assertj</groupId>
     <artifactId>assertj-core</artifactId>
@@ -535,7 +528,7 @@ take the following steps:
    as a test dependency:
 
    `build.gradle`
-    ```gradle
+    ```groovy
     dependencies {
         testCompile "org.testfx:openjfx-monocle:8u76-b04" // jdk-9+181 for Java 9, jdk-11+26 for Java 11
     }
@@ -720,4 +713,4 @@ version of `testfx-legacy`. Using a newer version of `testfx-core` with an older
 
 ## Credits
 
-Thanks to all of the [contributors of TestFX](https://github.com/TestFX/TestFX/graphs/contributors)!
+Thanks to all the [contributors of TestFX](https://github.com/TestFX/TestFX/graphs/contributors)!
