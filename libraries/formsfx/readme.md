@@ -1,5 +1,3 @@
-# FormsFX
-
 A framework for easily creating forms in JavaFX.
 
 ## Main Features
