@@ -1,60 +1,152 @@
-A framework for easily creating forms in JavaFX with a fluent API, pre-defined controls, validation, and localisation.
+# FormsFX
 
-## Semantics
+A framework for easily creating forms in JavaFX.
 
-FormsFX has three semantic layers: a `Form` contains `Group`s (and `Section`s), which contain `Field`s. Fields are the end user's primary point of interaction for data input.
+## Main Features
 
-## Defining a Form
+- Simple and understandable Fluent API
+- Different semantic items
+- Pre-defined controls
+- Validation
+- Localisation
 
-```java
-Form.of(
-    Group.of(
-        Field.ofStringType("")
-            .label("Username"),
-        Field.ofStringType("")
-            .label("Password")
-            .required("This field can't be empty")
-    ),
-    Group.of(…)
+## Usage
+
+```Java
+Form loginForm = Form.of(
+        Group.of(
+                Field.ofStringType(model.usernameProperty())
+                        .label("Username"),
+                Field.ofStringType(model.passwordProperty())
+                        .label("Password")
+                        .required("This field can’t be empty")
+        )
 ).title("Login");
 ```
 
-Field options:
+## Semantics
 
-| Option | Description |
-|--------|-------------|
-| `label(String)` | Concise description; always visible, usually placed beside the control. |
-| `tooltip(String)` | Contextual hint displayed on hover or focus. |
-| `placeholder(String)` | Hint describing expected input while the field is empty. |
-| `required(boolean/String)` | Marks the field as required for form correctness. |
-| `editable(boolean)` | Controls whether the user can edit the field. |
-| `id(String)` | Unique identifier; not visible, but usable for styling. |
-| `styleClass(List<String>)` | Adds CSS style classes to the field. |
-| `span(int/ColSpan)` | Column span on the view layer (1–12 or a `ColSpan` fraction). |
-| `render(SimpleControl)` | Sets a custom control to render this field. |
+FormsFX offers different semantic layers. The largest entity is the form. It contains groups and sections, which in turn
+act as containers for fields. Fields are the end user's primary point of interaction as they handle data input and
+presentation.
 
-## Field Types
+## Defining a form
 
-| Type | Example |
-|------|---------|
-| **String** | `Field.ofStringType("CHF").label("Currency")` |
-| **Integer** | `Field.ofIntegerType(8401120).label("Population")` |
-| **Double** | `Field.ofDoubleType(41285.0).label("Area")` |
-| **Boolean** | `Field.ofBooleanType(false).label("Independent")` |
-| **ComboBox** | `Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1).label("Capital")` |
-| **RadioButton** | `Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0).label("Driving on the").render(new SimpleRadioButtonControl<>())` |
-| **CheckBox** | `Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2)).label("Continent").render(new SimpleCheckBoxControl<>())` |
-| **ListView** | ```Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …)).label("Biggest Cities")``` |
+Creating a form is as simple as calling `Form.of()`.
 
-## Rendering
-
-Add a form to the scene using `FormRenderer`:
-
-```java
-root.getChildren().add(new FormRenderer(form));
+```Java
+Form.of(
+        Group.of(
+            Field.ofStringType("")
+                .label("Username"),
+            Field.ofStringType("")
+                .label("Password")
+                .required("This field can’t be empty")
+            ),
+            Group.of(…)).title("Login");
 ```
 
-Override the default control with `render()`:
+Fields have a range of options that define their semantics and change their functionality.
+
+ Option                                        | Description                                                                                                                            
+-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------
+ `label(String)`                               | Describes the field’s content in a concise manner. This description is always visible and usually placed next to the editable control. 
+ `tooltip(String)`                             | This contextual hint further describes the field. It is usually displayed on hover or focus.                                           
+ `placeholder(String)`                         | This hint describes the expected input as long as the field is empty.                                                                  
+ `required(boolean)` <br /> `required(String)` | Determines, whether entry in this field is required for the correctness of the form.                                                   
+ `editable(boolean)`                           | Determines, whether end users can edit the contents of this field.                                                                     
+ `id(String)`                                  | Describes the field with a unique ID. This is not visible directly, but can be used for styling purposes.                              
+ `styleClass(List<String>)`                    | Adds styling hooks to the field. This can be used on the view layer.                                                                   
+ `span(int)` <br /> `span(ColSpan)`            | Determines, how many columns the field should span on the view layer. Can be a number between 1 and 12 or a ColSpan fraction.          
+ `render(SimpleControl)`                       | Determines the control that is used to render this field on the view layer.                                                            
+
+The following sections show how to create different fields and how they look by default:
+
+### String Control
+
+![String Field](StringField.png)
+
+```java
+Field.ofStringType("CHF")
+    .label("Currency")
+```
+
+### Integer Control
+
+![Integer Field](IntegerField.png)
+
+```java
+Field.ofIntegerType(8401120)
+    .label("Population")
+```
+
+### Double Control
+
+![Double Field](DoubleField.png)
+
+```java
+Field.ofDoubleType(41285.0)
+    .label("Area")
+```
+
+### Boolean Control
+
+![Boolean Field](BooleanField.png)
+
+```java
+Field.ofBooleanType(false)
+    .label("Independent")
+```
+
+### ComboBox Control
+
+![ComboBox Field](ComboBoxField.png)
+
+```java
+Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1)
+    .label("Capital")
+```
+
+### RadioButton Control
+
+![RadioButton Field](RadioButtonField.png)
+
+```java
+Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0)
+    .label("Driving on the")
+    .render(new SimpleRadioButtonControl<>())
+```
+
+### CheckBox Control
+
+![CheckBox Field](CheckBoxField.png)
+
+```java
+Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2))
+    .label("Continent")
+    .render(new SimpleCheckBoxControl<>())
+```
+
+### ListView Control
+
+![List Field](ListField.png)
+
+```java
+Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …))
+    .label("Biggest Cities")
+```
+
+## Rendering a form
+
+The only point of interaction is the `FormRenderer`. It delegates rendering of further components to other renderers.
+
+```java
+Pane root = new Pane();
+        root.getChildren().add(new FormRenderer(form));
+```
+
+All fields have a default control that is used for rendering. This can be changed to another compatible implementation
+using the `render()` method.
 
 ```java
 Field.ofMultiSelectionType(…).render(new SimpleCheckBoxControl<>())
@@ -62,35 +154,53 @@ Field.ofMultiSelectionType(…).render(new SimpleCheckBoxControl<>())
 
 ## Model
 
-Bind form fields directly to model properties:
+Forms are used to create and manipulate data. In order to use this data in other parts of an application, model classes
+can be used. These classes contain properties, which are then bound to the persisted value of a field.
 
 ```java
 StringProperty name = new SimpleStringProperty("Hans");
-Field.ofStringType(name);
+        Field.ofStringType(name);
 ```
 
-Use `persist()` and `reset()` to store or revert values. Set `BindingMode.CONTINUOUS` on the form to enable automatic persistence.
+The `persist()` and `reset()` methods can be used to store and revert field values, which in turn updates the binding.
+
+Fields in FormsFX store their values in multiple steps. For free-form fields, like `StringField` or `DoubleField`, the
+exact user input is stored, along with a type-transformed value and a persistent value. The persistence is, by default,
+handled manually, but this can be overridden by setting the `BindingMode` to `CONTINUOUS` on the form level.
 
 ## Localisation
 
-All display strings support localisation via a `ResourceBundleService`:
+All displayed values are localisable. Methods like `label()`, `placeholder()` accept keys which are then used for
+translation. By default, FormsFX includes a `ResourceBundle`-based implementation, however, this can be exchanged for a
+custom implementation.
 
 ```java
-ResourceBundleService rbs = new ResourceBundleService(
-    ResourceBundle.getBundle("demo.demo-locale", new Locale("en", "UK")));
+private ResourceBundle rbDE = ResourceBundle.getBundle("demo.demo-locale",new Locale("de","CH"));
+private ResourceBundle rbEN = ResourceBundle.getBundle("demo.demo-locale",new Locale("en","UK"));
+
+private ResourceBundleService rbs = new ResourceBundleService(rbEN);
 
 Form.of(…).i18n(rbs);
 ```
 
 ## Validation
 
-Fields are validated on every edit. Pre-defined validators:
+All fields are validated whenever end users edit the contained data. FormsFX offers a wide range of pre-defined
+validators, but also includes support for custom validators using the `CustomValidator.forPredicate()` method.
 
-| Validator | Description |
-|-----------|-------------|
-| `CustomValidator` | Predicate-based; returns valid/invalid for a field. |
-| `DoubleRangeValidator` | Valid number range for doubles (one or both bounds). |
-| `IntegerRangeValidator` | Valid number range for integers (one or both bounds). |
-| `RegexValidator` | Validates text against a regex; includes presets for common cases (e.g. email). |
-| `SelectionLengthValidator` | Valid selection length interval (one or both bounds). |
-| `StringLengthValidator` | Valid string length interval (one or both bounds). |
+| Validator                  | Description                                                                                                                             |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| `CustomValidator`          | Define a predicate that returns whether the field is valid or not.                                                                      |
+| `DoubleRangeValidator`     | Define a number range which is considered valid. This range can be limited in either one direction or in both directions.               |
+| `IntegerRangeValidator`    | Define a number range which is considered valid. This range can be limited in either one direction or in both directions.               |
+| `RegexValidator`           | Valiate text against a regular expression. This validator offers pre-defined expressions for common use cases, such as email addresses. 
+| `SelectionLengthValidator` | Define a length interval which is considered valid. This range can be limited in either one direction or in both directions.            |
+| `StringLengthValidator`    | Define a length interval which is considered valid. This range can be limited in either one direction or in both directions.            |
+
+## Advantages
+
+- Less error-prone
+- Less code needed
+- Easy to learn
+- Easy to understand
+- Easy to extend
