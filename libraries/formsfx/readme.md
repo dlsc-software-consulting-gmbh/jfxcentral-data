@@ -1,5 +1,3 @@
-# FormsFX
-
 A framework for easily creating forms in JavaFX.
 
 ## Main Features
@@ -60,140 +58,76 @@ Fields have a range of options that define their semantics and change their func
  `span(int)` <br /> `span(ColSpan)`            | Determines, how many columns the field should span on the view layer. Can be a number between 1 and 12 or a ColSpan fraction.          
  `render(SimpleControl)`                       | Determines the control that is used to render this field on the view layer.                                                            
 
-The following table shows how to create different fields and how they look by default:
+The following sections show how to create different fields and how they look by default:
 
-String Control
+### String Control
 
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">String Control</td>
-    </tr>
-    <tr>
-      <td><img src="StringField.png" /></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofStringType("CHF")
-     .label("Currency")</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">Integer Control</td>
-    </tr>
-    <tr>
-      <td><img src="IntegerField.png"/></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofIntegerType(8401120)
-     .label("Population")</pre>
-      </td>
-    </tr> 
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">Double Control</td>
-    </tr>
-    <tr>
-      <td><img src="DoubleField.png" /></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofDoubleType(41285.0)
-       .label("Area")</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">Boolean Control</td>
-    </tr>
-    <tr>
-      <td><img src="BooleanField.png" /></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofBooleanType(false)
-     .label("Independent")</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">ComboBox Control</td>
-    </tr>
-    <tr>
-      <td><img src="ComboBoxField.png" /></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1)
-     .label("Capital")</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">RadioButton Control</td>
-    </tr>
-    <tr>
-      <td><img src="RadioButtonField.png" /></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0)
-     .label("Driving on the")
-     .render(new SimpleRadioButtonControl<>())</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">CheckBox Control</td>
-    </tr>
-    <tr>
-      <td><img src="CheckBoxField.png" /></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2))
-     .label("Continent")
-     .render(new SimpleCheckBoxControl<>())</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-      <td colspan="2">ListView Control</td>
-    </tr>
-    <tr>
-      <td><img src="ListField.png" /></td>
-    </tr>
-    <tr>
-      <td>
-        <pre lang="java">Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …))
-     .label("Biggest Cities")</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
+![String Field](StringField.png)
+
+```java
+Field.ofStringType("CHF").label("Currency")
+```
+
+### Integer Control
+
+![Integer Field](IntegerField.png)
+
+```java
+Field.ofIntegerType(8401120).label("Population")
+```
+
+### Double Control
+
+![Double Field](DoubleField.png)
+
+```java
+Field.ofDoubleType(41285.0).label("Area")
+```
+
+### Boolean Control
+
+![Boolean Field](BooleanField.png)
+
+```java
+Field.ofBooleanType(false).label("Independent")
+```
+
+### ComboBox Control
+
+![ComboBox Field](ComboBoxField.png)
+
+```java
+Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1).label("Capital")
+```
+
+### RadioButton Control
+
+![RadioButton Field](RadioButtonField.png)
+
+```java
+Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0)
+    .label("Driving on the")
+    .render(new SimpleRadioButtonControl<>())
+```
+
+### CheckBox Control
+
+![CheckBox Field](CheckBoxField.png)
+
+```java
+Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2))
+    .label("Continent")
+    .render(new SimpleCheckBoxControl<>())
+```
+
+### ListView Control
+
+![List Field](ListField.png)
+
+```java
+Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …))
+    .label("Biggest Cities")
+```
 
 ## Rendering a form
 

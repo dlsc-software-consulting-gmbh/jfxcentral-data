@@ -1,63 +1,25 @@
-# AnimateFX
-
-AnimateFX is a library of ready-to-use animations for JavaFX.
-
-## Features
-
-- Custom animations
-- Custom interpolators
-- Play/Stop animation
-- Play an animation after another
-- More to come
+AnimateFX is a library of 70+ ready-to-use animations for JavaFX, inspired by [Animate.css](https://github.com/daneden/animate.css). Supports custom animations and interpolators, play/stop control, and chaining animations.
 
 ## Animations
 
-- Bounce
-- Flash
-- Pulse
-- RubberBand
-- Shake
-- Swing
-- Tada
-- Wobble
-- Jello
-- Bounce (In, InDown, InLeft, InRight, InUp, Out, OutDown, ...)
-- Fade (In, Out, InDown, InDownBig, InLeftBig, ....)
-- Flip (InX, InY, OutX, OutY)
-- LightSpeed (In, Out)
-- Rotate (In, InDownLeft, ...)
-- Slide (InUp, InDown, InLeft, InRight, OutUp, OutDown, ...)
-- Zoom (In, Out, OutDown, OutUp, ...)
-- Hinge
-- JackInTheBox
-- RollIn
-- RollOut
-- TextGlow
-- BackgroundGlow
+| Category | Variants |
+|----------|----------|
+| Attention | Bounce, Flash, Pulse, RubberBand, Shake, Swing, Tada, Wobble, Jello |
+| Bounce | In, InDown, InLeft, InRight, InUp, Out, OutDown, … |
+| Fade | In, Out, InDown, InDownBig, InLeftBig, … |
+| Flip | InX, InY, OutX, OutY |
+| LightSpeed | In, Out |
+| Rotate | In, InDownLeft, … |
+| Slide | InUp, InDown, InLeft, InRight, OutUp, OutDown, … |
+| Zoom | In, Out, OutDown, OutUp, … |
+| Special | Hinge, JackInTheBox, RollIn, RollOut, TextGlow, BackgroundGlow |
 
-## Quick start
-
-### Basic
+## Quick Start
 
 ```java
-Text text = new Text("AnimateFX");
+// Play a single animation
 new Bounce(text).play();
+
+// Chain animations
+new Bounce(text).setPlayOnFinished(new BounceIn(text)).play();
 ```
-
-### Play an animation after another
-
-```java
-Text text = new Text("AnimateFX");
-
-public void HandleAnimation(ActionEvent actionEvent) {
-   new Bounce(text).setPlayOnFinished(new BounceIn(text)).play();
-}
-```
-
-## Contributing
-
-Please see [CONTRIBUTING.md](https://github.com/Typhon0/AnimateFX/blob/master/CONTRIBUTING.md) for more information.
-
-## Credits
-
-Animations are inspired from the awesome project [Animate.css](https://github.com/daneden/animate.css)

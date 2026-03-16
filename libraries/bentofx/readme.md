@@ -1,71 +1,49 @@
-# BentoFX
-
-A docking system for JavaFX.
-
-## Usage
-
-Requirements:
-
-- JavaFX 19+
-- Java 21+
+A docking system for JavaFX (requires JavaFX 19+ and Java 21+).
 
 ![overview](overview.png)
 
-In terms of hierarchy, the `Node` structure of Bento goes like:
+## Structure
+
+The `Node` hierarchy in BentoFX:
 
 - `DockContainerRootBranch`
-    - `DockContainerBranch` _(Nesting levels depends on which kind of implementation used)_
-        - `DockContainerLeaf`
-            - `Dockable` _(Zero or more)_
+  - `DockContainerBranch` *(nesting depth depends on implementation)*
+    - `DockContainerLeaf`
+      - `Dockable` *(zero or more)*
 
-Each level of `*DockContainer` in the given hierarchy and `Dockable` instances can be constructed via a `Bento`
-instance's builder offered by `bento.dockBuilding()`.
+All containers and `Dockable` instances are built via a `Bento` instance using `bento.dockBuilding()`.
 
-### Containers
+## Containers
 
 ![containers](containers.png)
 
-Bento has a very simple model of branches and leaves. Branches hold additional child containers. 
-Leaves display `Dockable` items and handle drag-n-drop operations.
+| Container | Description |
+|-----------|-------------|
+| `DockContainerBranch` | Holds child containers in a `SplitPane`. Orientation and child scaling work the same as `SplitPane`. |
+| `DockContainerLeaf` | Displays any number of `Dockable` items rendered by a `HeaderPane`. Handles drag-and-drop. |
 
-| Container type        | Description                                                                                                                                                             |
-|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `DockContainerBranch` | Used to show multiple child `DockContainer` instances in a `SplitPane` display. Orientation and child node scaling are thus specified the same way as with `SplitPane`. |
-| `DockContainerLeaf`   | Used to show any number of `Dockable` instance rendered by a `HeaderPane`.                                                                                              |
-
-### Controls
+## Controls
 
 ![controls](controls.png)
 
-Bento comes with a few custom controls that you will want to create a custom stylesheet for to best fit the intended
-look and feel of your application.
+Bento's custom controls require a stylesheet — a reference `bento.css` is included in the dependency.
 
-An example reference sheet _(which is included in the dependency)_ can be found in `bento.css`.
+| Control | Description |
+|---------|-------------|
+| `Header` | Visual representation of a `Dockable`. |
+| `HeaderPane` | Holds multiple `Header` children and displays the selected one's content. |
+| `Headers` | Child of `HeaderPane`; a `HBox`/`VBox` holding multiple `Header` instances. |
+| `ButtonHBar` / `ButtonVBar` | Buttons in a `HeaderPane` for context menus and overflowing `Header` selection. |
 
-| Control                     | Description                                                                                                                                       |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| `Header`                    | Visual model of a `Dockable`.                                                                                                                     |
-| `HeaderPane`                | Control that holds multiple `Header` children, and displays the currently selected `Header`'s associated `Dockable` content.                      |
-| `Headers`                   | Child of `HeaderPane` that acts as a `HBox`/`VBox` holding multiple `Headers`.                                                                    |
-| `ButtonHBar` / `ButtonVBar` | Child of `HeaderPane` used to show buttons for the `DockContainerLeaf` for things like context menus and selection of overflowing `Header` items. |
+## Dockable
 
-### Dockable
-
-The `Dockable` can be thought of as the model behind each of a `HeaderPane`'s `Header` _(Much like a `Tab` of a `TabPane`)_.
-It outlines capabilities like whether the `Header` can be draggable, where it can be dropped, what text/graphic to display,
-and the associated JavaFX `Node` to display when placed into a `DockContainerLeaf`.
+`Dockable` is the model behind each `Header` (analogous to `Tab` in a `TabPane`). It defines whether the header is draggable, where it can be dropped, what text/graphic to display, and the associated JavaFX `Node` to show inside a `DockContainerLeaf`.
 
 ## Example
 
+An IDE-style layout: project explorer on the left, editor in the center, console at the bottom.
+
 ![example](example.png)
-
-As an example, this is a very basic skeleton of how an IDE would be laid out.
-
-- Project explorer + associated tools on the right
-- Primary editor + tabs of open files in the center
-- Console output + associated tools on the bottom
-
-A full runnable version of this example code/snippet can be found in the project's test directory.
 
 ```java
 Bento bento = new Bento();
@@ -80,55 +58,54 @@ DockContainerLeaf leafWorkspaceTools = builder.leaf("workspace-tools");
 DockContainerLeaf leafWorkspaceHeaders = builder.leaf("workspace-headers");
 DockContainerLeaf leafTools = builder.leaf("misc-tools");
 
-// These leaves shouldn't auto-expand. They are intended to be a set size.
+// Fixed-size tool panels — should not auto-expand
 DockContainerBranch.setResizableWithParent(leafTools, false);
 DockContainerBranch.setResizableWithParent(leafWorkspaceTools, false);
 
-// Root: Workspace on top, tools on bottom
-// Workspace: Explorer on left, primary editor tabs on right
+// Root: workspace on top, tools on bottom
+// Workspace: explorer on left, editor tabs on right
 branchRoot.setOrientation(Orientation.VERTICAL);
 branchWorkspace.setOrientation(Orientation.HORIZONTAL);
 branchRoot.addContainers(branchWorkspace, leafTools);
 branchWorkspace.addContainers(leafWorkspaceTools, leafWorkspaceHeaders);
 
-// Changing tool header sides to be aligned with application's far edges (to facilitate better collaps
+// Align tool headers with application edges for better collapse UX
 leafWorkspaceTools.setSide(Side.LEFT);
 leafTools.setSide(Side.BOTTOM);
 
-// Tools shouldn't allow splitting (mirroring intellij behavior)
+// Tools shouldn't allow splitting (mirroring IntelliJ behavior)
 leafWorkspaceTools.setCanSplit(false);
 leafTools.setCanSplit(false);
 
 // Primary editor space should not prune when empty
 leafWorkspaceHeaders.setPruneWhenEmpty(false);
 
-// Set intended sizes for tools (leaf does not need to be a direct child, just some level down in the 
+// Set initial sizes for tool panels
 branchRoot.setContainerSizePx(leafTools, 200);
 branchRoot.setContainerSizePx(leafWorkspaceTools, 300);
 
-// Make the bottom collapsed by default
+// Collapse the bottom tools panel by default
 branchRoot.setContainerCollapsed(leafTools, true);
 
-// Adding dockables to the leafs
+// Populate leaves with dockable items
 leafWorkspaceTools.addDockables(
-		buildDockable(builder, 1, 0, "Workspace"),
-		buildDockable(builder, 1, 1, "Bookmarks"),
-		buildDockable(builder, 1, 2, "Modifications")
+    buildDockable(builder, 1, 0, "Workspace"),
+    buildDockable(builder, 1, 1, "Bookmarks"),
+    buildDockable(builder, 1, 2, "Modifications")
 );
 leafTools.addDockables(
-		buildDockable(builder, 2, 0, "Logging"),
-		buildDockable(builder, 2, 1, "Terminal"),
-		buildDockable(builder, 2, 2, "Problems")
+    buildDockable(builder, 2, 0, "Logging"),
+    buildDockable(builder, 2, 1, "Terminal"),
+    buildDockable(builder, 2, 2, "Problems")
 );
 leafWorkspaceHeaders.addDockables(
-		buildDockable(builder, 0, 0, "Class 1"),
-		buildDockable(builder, 0, 1, "Class 2"),
-		buildDockable(builder, 0, 2, "Class 3"),
-		buildDockable(builder, 0, 3, "Class 4"),
-		buildDockable(builder, 0, 4, "Class 5")
+    buildDockable(builder, 0, 0, "Class 1"),
+    buildDockable(builder, 0, 1, "Class 2"),
+    buildDockable(builder, 0, 2, "Class 3"),
+    buildDockable(builder, 0, 3, "Class 4"),
+    buildDockable(builder, 0, 4, "Class 5")
 );
 
-// Show it
 Scene scene = new Scene(branchRoot);
 scene.getStylesheets().add("/bento.css");
 stage.setScene(scene);

@@ -1,98 +1,21 @@
-# UnitFX
-
-UnitFX is a lightweight framework for creating textfield input controls based on a "unit of measure" UOM. Currently the
-only documentation is the source code itself. Please take a look at the file DemoApp.java to find out how to use the
-framework.
-
-QuantityInputField will perform validation and conversion between different units out-of-the-box. A "base" unit can be
-set on a textfield and the field will be highlighted when the user changes the textfield's unit to something different
-than the base unit.
-
-At least JDK 11 is required.
+A lightweight JavaFX framework for unit-of-measure (UOM) text field input controls. `QuantityInputField` validates input and converts between units automatically. A "base unit" can be set on a field — the field highlights when the user selects a different unit. Requires JDK 11+.
 
 ## Usage
 
-The following code is the demo code that is included in the library. It should give you a good idea on
-how to create UOM input fields.
+The same three-line pattern applies to any `javax.measure` quantity type:
 
 ```java
-package com.dlsc.unitfx.demo;
+QuantityInputField<Length> lengthField = new QuantityInputField<>();
+lengthField.getAvailableUnits().addAll(Units.getInstance().getUnits(Length.class));
+lengthField.setBaseUnit(Units.getInstance().getUnit(Length.class));
+lengthField.setAutoFixValue(true);
 
-import com.dlsc.unitfx.QuantityInputField;
-import com.dlsc.unitfx.util.Units;
-import javafx.application.Application;
-import javafx.scene.Node;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
+QuantityInputField<Temperature> tempField = new QuantityInputField<>();
+tempField.getAvailableUnits().addAll(Units.getInstance().getUnits(Temperature.class));
+tempField.setBaseUnit(Units.getInstance().getUnit(Temperature.class));
+tempField.setAutoFixValue(true);
 
-import javax.measure.quantity.Angle;
-import javax.measure.quantity.Length;
-import javax.measure.quantity.Mass;
-import javax.measure.quantity.Speed;
-import javax.measure.quantity.Temperature;
-
-public class DemoApp extends Application {
-
-    @Override
-    public void start(Stage stage) {
-        QuantityInputField<Length> lengthField = new QuantityInputField<>();
-        lengthField.getAvailableUnits().addAll(Units.getInstance().getUnits(Length.class));
-        lengthField.setBaseUnit(Units.getInstance().getUnit(Length.class));
-        lengthField.setAutoFixValue(true);
-
-        QuantityInputField<Angle> angleField = new QuantityInputField<>();
-        angleField.getAvailableUnits().addAll(Units.getInstance().getUnits(Angle.class));
-        angleField.setBaseUnit(Units.getInstance().getUnit(Angle.class));
-        angleField.setAutoFixValue(true);
-
-        QuantityInputField<Speed> speedField = new QuantityInputField<>();
-        speedField.getAvailableUnits().addAll(Units.getInstance().getUnits(Speed.class));
-        speedField.setBaseUnit(Units.getInstance().getUnit(Speed.class));
-        speedField.setAutoFixValue(true);
-
-        QuantityInputField<Temperature> temperatureField = new QuantityInputField<>();
-        temperatureField.getAvailableUnits().addAll(Units.getInstance().getUnits(Temperature.class));
-        temperatureField.setBaseUnit(Units.getInstance().getUnit(Temperature.class));
-        temperatureField.setAutoFixValue(true);
-
-        QuantityInputField<Mass> massField = new QuantityInputField<>();
-        massField.getAvailableUnits().addAll(Units.getInstance().getUnits(Mass.class));
-        massField.setBaseUnit(Units.getInstance().getUnit(Mass.class));
-        massField.setAutoFixValue(true);
-
-
-        VBox vbox = new VBox();
-        vbox.setPrefWidth(250);
-        vbox.setSpacing(20);
-        vbox.setFillWidth(true);
-        vbox.setStyle("-fx-padding: 20px;");
-
-        vbox.getChildren().add(wrap("Length Field", lengthField));
-        vbox.getChildren().add(wrap("Angle Field", angleField));
-        vbox.getChildren().add(wrap("Speed Field", speedField));
-        vbox.getChildren().add(wrap("Temperature Field", temperatureField));
-        vbox.getChildren().add(wrap("Mass Field", massField));
-
-        Scene scene = new Scene(vbox);
-        stage.setTitle("UnitFX Demo");
-        stage.setScene(scene);
-        stage.sizeToScene();
-        stage.centerOnScreen();
-        stage.show();
-    }
-
-    private Node wrap(String title, Node node) {
-        Label titleLabel = new Label(title);
-        titleLabel.setStyle("-fx-font-size: 16px;");
-        VBox box = new VBox(titleLabel, node);
-        box.setStyle("-fx-background-color: black, white; -fx-background-insets: 0, 1; -fx-padding: 10px; -fx-spacing: 20;");
-        return box;
-    }
-
-    public static void main(String[] args) {
-        launch();
-    }
-}
+// Same pattern works for: Angle, Speed, Mass, and other javax.measure quantities
 ```
+
+See `DemoApp.java` in the source for a full working example.

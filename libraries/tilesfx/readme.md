@@ -1,17 +1,7 @@
-# TilesFX
+TilesFX is a JavaFX library of Dashboard Tiles with 50+ predefined skins and support for custom skins. See the `Demo` class in the repository for usage examples of each skin.
 
-TilesFX is a JavaFX library containing Tiles for Dashboards.
+## Resources
 
-At the moment the library contains 50 predefined skins but it's easy to create your own skins. In the TilesFX demo
-mentioned below you will find an example on how to create a custom skin. If you would like to find out how to use the
-different skins please take a look at the Demo.class in the tilesfx repository.
-
-## Demo
-
-A demo project for TilesFX can be [found on GitHub](https://github.com/HanSolo/tilesfxdemo).
-
-## Videos on YouTube
-
-- TilesFX Demo (older version) youtube
-- TilesFX in combination with Medusa [youtube](https://youtu.be/cOiDLPESS_A)
-- TilesFx in combination with Medusa with 10ms updates [youtube](https://youtu.be/ybDlnt7lxnw)
+- [Demo project on GitHub](https://github.com/HanSolo/tilesfxdemo)
+- [TilesFX in combination with Medusa](https://youtu.be/cOiDLPESS_A) (YouTube)
+- [TilesFX + Medusa with 10ms updates](https://youtu.be/ybDlnt7lxnw) (YouTube)

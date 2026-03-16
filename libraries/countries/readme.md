@@ -1,5 +1,3 @@
-# Countries
-
 Countries is a JavaFX library which contains information about countries like their shape, gps coordinates, cities and
 airports.
 

@@ -1,63 +1,24 @@
-# MDFX
+A simple Markdown renderer for JavaFX, based on flexmark-java. Used to render documentation at jpro.one.
 
-MDFX is a simple markdown-renderer for JavaFX. It's based on flexmark-java. It is used to render the documentation for
-jpro at jpro.one.
+## Setup (Gradle)
 
-## Usage
-
-### Add the library to your project:
-
-For Gradle, add the following to your `build.gradle`:
-
-Add the following repository:
-
-```json
+```groovy
 repositories {
-    maven {
-        url "https://sandec.jfrog.io/artifactory/repo"
-    }
+    maven { url "https://sandec.jfrog.io/artifactory/repo" }
 }
-```
 
-Add The following dependency:
-
-```json
 dependencies {
     compile "com.sandec:mdfx:0.2.4"
 }
 ```
 
-Usage:
+## Usage
 
 ```java
-import com.sandec.mdfx.MarkdownView;
-
 MarkdownView mdfx = new MarkdownView("your-markdown");
 content.getStylesheets().add("/com/sandec/mdfx/mdfx-default.css");
 ```
 
-Simple Application:
-[Source Code](https://github.com/jpro-one/markdown-javafx-renderer/blob/master/example/src/main/java/com/sandec/mdfx/ExampleMDFX.java)
+Styling is fully customizable via CSS — replace the default stylesheet with your own to control the appearance.
 
-Feature Overview:
-[Reference-Markdown-File](https://github.com/jpro-one/markdown-javafx-renderer/blob/master/example/src/main/resources/com/sandec/mdfx/sample.md)
-
-You can personalize the looking of your markdown via css.
-[Minimal default-file](https://github.com/jpro-one/markdown-javafx-renderer/blob/master/src/main/resources/com/sandec/mdfx/mdfx-default.css)
-Instead of using `/com/sandec/mdfx/mdfx-default.css` you can create your own css-file, to personalize the looking of
-your markdown-code.
-
-### Development
-
-Run the sample:
-
-```bash
-./gradlew example:run
-./gradlew example:jproRun
-```
-
-Deploy new release:
-
-```bash
-./gradlew :publish
-```
+See also: [Example app](https://github.com/jpro-one/markdown-javafx-renderer/blob/master/example/src/main/java/com/sandec/mdfx/ExampleMDFX.java) · [Feature reference](https://github.com/jpro-one/markdown-javafx-renderer/blob/master/example/src/main/resources/com/sandec/mdfx/sample.md) · [Default CSS](https://github.com/jpro-one/markdown-javafx-renderer/blob/master/src/main/resources/com/sandec/mdfx/mdfx-default.css)
