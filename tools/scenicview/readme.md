@@ -27,20 +27,20 @@ and [JDK 9](https://download.jonathangiles.net/downloads/scenic-view/scenic-view
 
 Download the Scenic View custom image for your platform from the above links. Unzip and then run:
 
-```
+```bash
 cd scenicview/bin
 ./scenicView
 ```
 
 Also, you can clone or download this project, and run Scenic View as stand-alone application:
 
-```
+```bash
 ./gradlew run
 ```
 
 or if you build a custom image:
 
-```
+```bash
 cd build/scenicview/bin
 ./scenicView
 ```
@@ -50,7 +50,7 @@ Then run a JavaFX application, and it will be detected by Scenic View.
 Alternatively, you can also run the `scenicview.jar` in any platform, providing that JDK 11 and JavaFX SDK 11 are
 installed:
 
-```
+```bash
 cd build/libs/
 java --module-path /path-to/javafx-11-sdk/lib --add-modules javafx.web,javafx.fxml,javafx.swing -jar scenicview.jar
 ```
@@ -71,7 +71,7 @@ the JavaFX dependencies, you should add them to your project, in case these were
 For instance, if you are running a Gradle project, add the jar to a `libs` folder, then add it to the `build.gradle`
 file, like:
 
-```
+```groovy
 plugins {
   id 'application'
   id 'org.openjfx.javafxplugin' version '0.0.7'
@@ -92,7 +92,7 @@ javafx {
 
 Also add it to the `module-info.java` file requirements:
 
-```
+```java
 requires javafx.controls;
 requires javafx.fxml;
 requires transitive javafx.web;
@@ -103,7 +103,7 @@ requires org.scenicview.scenicview;
 
 Finally, you can run it from the application class:
 
-```
+```java
 Scene scene = new Scene(root);
 stage.setScene(scene);
 stage.show();
