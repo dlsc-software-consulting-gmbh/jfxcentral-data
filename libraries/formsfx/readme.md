@@ -67,8 +67,7 @@ The following sections show how to create different fields and how they look by 
 ![String Field](StringField.png)
 
 ```java
-Field.ofStringType("CHF")
-    .label("Currency")
+Field.ofStringType("CHF").label("Currency")
 ```
 
 ### Integer Control
@@ -76,8 +75,7 @@ Field.ofStringType("CHF")
 ![Integer Field](IntegerField.png)
 
 ```java
-Field.ofIntegerType(8401120)
-    .label("Population")
+Field.ofIntegerType(8401120).label("Population")
 ```
 
 ### Double Control
@@ -85,8 +83,7 @@ Field.ofIntegerType(8401120)
 ![Double Field](DoubleField.png)
 
 ```java
-Field.ofDoubleType(41285.0)
-    .label("Area")
+Field.ofDoubleType(41285.0).label("Area")
 ```
 
 ### Boolean Control
@@ -94,8 +91,7 @@ Field.ofDoubleType(41285.0)
 ![Boolean Field](BooleanField.png)
 
 ```java
-Field.ofBooleanType(false)
-    .label("Independent")
+Field.ofBooleanType(false).label("Independent")
 ```
 
 ### ComboBox Control
@@ -103,8 +99,7 @@ Field.ofBooleanType(false)
 ![ComboBox Field](ComboBoxField.png)
 
 ```java
-Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1)
-    .label("Capital")
+Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1).label("Capital")
 ```
 
 ### RadioButton Control
@@ -142,7 +137,7 @@ The only point of interaction is the `FormRenderer`. It delegates rendering of f
 
 ```java
 Pane root = new Pane();
-        root.getChildren().add(new FormRenderer(form));
+root.getChildren().add(new FormRenderer(form));
 ```
 
 All fields have a default control that is used for rendering. This can be changed to another compatible implementation
@@ -159,7 +154,7 @@ can be used. These classes contain properties, which are then bound to the persi
 
 ```java
 StringProperty name = new SimpleStringProperty("Hans");
-        Field.ofStringType(name);
+Field.ofStringType(name);
 ```
 
 The `persist()` and `reset()` methods can be used to store and revert field values, which in turn updates the binding.
