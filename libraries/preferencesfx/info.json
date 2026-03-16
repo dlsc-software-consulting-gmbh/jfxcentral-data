@@ -1,9 +1,4 @@
 {
   "images": [
-    {
-      "path": "preferences-demo.png",
-      "title": "Demo Application",
-      "description": "A UI created with PreferencesFX"
-    }
   ]
 }
