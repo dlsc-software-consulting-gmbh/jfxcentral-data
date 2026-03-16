@@ -1,9 +1,5 @@
 Preference dialogs for business applications made easy.
 
-![screenshot of created preferences dialog](preferences-demo.png)
-
-## Features
-
 ![screenshot of created preferences dialog with features](preferencesFX_in_use_border.png)
 
 | # | Feature | Description |

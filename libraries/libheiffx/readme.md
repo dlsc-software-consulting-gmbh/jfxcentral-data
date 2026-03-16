@@ -33,7 +33,7 @@ HEIFImageLoaderFactory.install();
 
 Add to your JVM config (module name: `org.libheiffx`):
 
-```text
+```
 --add-modules jdk.incubator.foreign
 --enable-native-access=org.libheiffx
 --add-exports=javafx.graphics/com.sun.javafx.iio=org.libheiffx
