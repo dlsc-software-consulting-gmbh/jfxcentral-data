@@ -15,7 +15,7 @@ following examples.
 
 JavaFX dependencies are added as usual:
 
-```
+```xml
 <dependency>
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-controls</artifactId>
@@ -25,7 +25,7 @@ JavaFX dependencies are added as usual:
 
 Add the plugin:
 
-```
+```xml
 <plugin>
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-maven-plugin</artifactId>
@@ -38,7 +38,7 @@ Add the plugin:
 
 Compile the project:
 
-```
+```bash
 mvn compile
 ```
 
@@ -47,13 +47,13 @@ the [maven-compiler-plugin](https://maven.apache.org/plugins/maven-compiler-plug
 
 Run the project:
 
-```
+```bash
 mvn javafx:run
 ```
 
 For modular projects, create and run a custom image:
 
-```
+```bash
 mvn javafx:jlink
 
 target/image/bin/java -m hellofx/org.openjfx.App
@@ -94,7 +94,7 @@ This plugin supports Maven toolchains using the "jdk" tool.
 
 The following configuration adds some VM options, and a command line argument:
 
-```
+```xml
 <plugin>
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-maven-plugin</artifactId>
@@ -114,7 +114,7 @@ The following configuration adds some VM options, and a command line argument:
 * This is helpful for developers trying to test a local build of OpenJFX.
 * Since transitive dependencies are not resolved, all the required jars need to be added as a separate dependency, like:
 
-```
+```xml
 <properties>
     <sdk>/path/to/javafx-sdk</sdk>
 </properties>
@@ -153,7 +153,7 @@ The same command line options for `jlink` can be set:
 
 For instance, with the following configuration:
 
-```
+```xml
 <plugin>
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-maven-plugin</artifactId>
@@ -173,7 +173,7 @@ For instance, with the following configuration:
 
 A custom image can be created and run as:
 
-```
+```bash
 mvn clean javafx:jlink
 
 target/hello/bin/hellofx
