@@ -13,4 +13,5 @@ open module jfxcentral.data {
     exports com.dlsc.jfxcentral.data;
     exports com.dlsc.jfxcentral.data.pull;
     exports com.dlsc.jfxcentral.data.model;
+    exports com.dlsc.jfxcentral.data.util;
 }
