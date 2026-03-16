@@ -31,7 +31,7 @@ more explicit and extensible lifecycle for components.
 
 Cljfx uses `tools.deps`, so you can add this repo with latest sha as a
 dependency:
-```edn
+```groovy
  cljfx {:git/url "https://github.com/cljfx/cljfx" :sha "<insert-sha-here>"}
 ```
 Cljfx is also published on Clojars, so you can add `cljfx` as a maven
