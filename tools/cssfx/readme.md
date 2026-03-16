@@ -8,7 +8,7 @@ While developing you can run your JavaFX application, modify some CSS sources in
 
 Starting monitoring CSS changes in development is as simple as adding one line in your application code.
 
-```
+```java
 CSSFX.start()
 ```
 

@@ -34,7 +34,7 @@ mvn clean package
 
 ## Run
 
-```
+```bash
 ./run.sh [options]
 
 -e <effects>               comma separated list of effects (See SimpleEffectFactory)
@@ -61,7 +61,7 @@ tiles, triangles, tubestack, tunnel, twister, typetext, vumeter, wordsearch
 
 ```
 Examples:
-```
+```bash
 # Default settings
 ./run.sh
 
@@ -96,13 +96,13 @@ Examples:
 In order to run in another java version, like Java 9. JAVA_HOME should be set.
 In MAC:
 
-```
+```bash
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home
 ./run.sh
 ```
 
 If the frame rate is not vsynced on Ubuntu then run:
 
-```
+```bash
 export _JAVA_OPTIONS="-Dquantum.multithreaded=false"
 ```
