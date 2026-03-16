@@ -1,18 +1,38 @@
 {
   "images": [
     {
-      "path": "text-editor.png",
-      "title": "Text Editor",
+      "path": "1.png",
+      "title": "Browser-like Workspace",
       "description": ""
     },
     {
-      "path": "terminal.png",
-      "title": "Terminal",
+      "path": "2.png",
+      "title": "IDE-like Workspace",
       "description": ""
     },
     {
-      "path": "dialogs.png",
+      "path": "3.png",
+      "title": "Pages",
+      "description": ""
+    },
+    {
+      "path": "4.png",
       "title": "Dialogs",
+      "description": ""
+    },
+    {
+      "path": "5.png",
+      "title": "DevTools Components",
+      "description": ""
+    },
+    {
+      "path": "6.png",
+      "title": "DevTools Nodes",
+      "description": ""
+    },
+    {
+      "path": "7.png",
+      "title": "DevTools Events",
       "description": ""
     }
   ]
