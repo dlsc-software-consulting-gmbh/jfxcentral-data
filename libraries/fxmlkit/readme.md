@@ -158,7 +158,7 @@ if (Boolean.getBoolean("dev.mode")) FxmlKit.enableDevelopmentMode();
 
 ### File Resolution Convention
 
-```text
+```
 src/main/resources/com/example/
 ├── UserView.fxml    ← matched by UserView.java (same name, same package)
 ├── UserView.css     ← auto-attached
