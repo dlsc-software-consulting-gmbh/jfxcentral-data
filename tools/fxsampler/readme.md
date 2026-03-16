@@ -43,7 +43,6 @@ It is suggested that frameworks use a multi-module Maven setup and add a separat
 samples. The `pom.xml` file of this module has to contain a dependency to *FXSampler* like this:
 
 ```xml
-
 <dependency>
     <groupId>org.controlsfx</groupId>
     <artifactId>fxsampler</artifactId>
@@ -174,5 +173,5 @@ changes to the `module-info.java` file. For CalendarFX it would look like this:
 
 ```java
 provides fxsampler.FXSamplerProject with com.calendarfx.demo.CalendarFXFXSamplerProject;
-        uses fxsampler.FXSamplerProject;
+uses fxsampler.FXSamplerProject;
 ```
