@@ -35,16 +35,16 @@ Field options:
 
 ## Field Types
 
-| Type | Preview | Example |
-|------|---------|---------|
-| **String** | ![](StringField.png) | `Field.ofStringType("CHF").label("Currency")` |
-| **Integer** | ![](IntegerField.png) | `Field.ofIntegerType(8401120).label("Population")` |
-| **Double** | ![](DoubleField.png) | `Field.ofDoubleType(41285.0).label("Area")` |
-| **Boolean** | ![](BooleanField.png) | `Field.ofBooleanType(false).label("Independent")` |
-| **ComboBox** | ![](ComboBoxField.png) | `Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1).label("Capital")` |
-| **RadioButton** | ![](RadioButtonField.png) | `Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0).label("Driving on the").render(new SimpleRadioButtonControl<>())` |
-| **CheckBox** | ![](CheckBoxField.png) | `Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2)).label("Continent").render(new SimpleCheckBoxControl<>())` |
-| **ListView** | ![](ListField.png) | `Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …)).label("Biggest Cities")` |
+| Type | Example |
+|------|---------|
+| **String** | `Field.ofStringType("CHF").label("Currency")` |
+| **Integer** | `Field.ofIntegerType(8401120).label("Population")` |
+| **Double** | `Field.ofDoubleType(41285.0).label("Area")` |
+| **Boolean** | `Field.ofBooleanType(false).label("Independent")` |
+| **ComboBox** | `Field.ofSingleSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), 1).label("Capital")` |
+| **RadioButton** | `Field.ofSingleSelectionType(Arrays.asList("Right", "Left"), 0).label("Driving on the").render(new SimpleRadioButtonControl<>())` |
+| **CheckBox** | `Field.ofMultiSelectionType(Arrays.asList("Africa", "Asia", …), Collections.singletonList(2)).label("Continent").render(new SimpleCheckBoxControl<>())` |
+| **ListView** | ```Field.ofMultiSelectionType(Arrays.asList("Zürich (ZH)", "Bern (BE)", …), Arrays.asList(0, 1, …)).label("Biggest Cities")``` |
 
 ## Rendering
 
