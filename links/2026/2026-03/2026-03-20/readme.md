@@ -2,7 +2,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* Java and JavaFX 26 got released!
+  * JavaFX 26 requires JDK 24 or later.
+  * You can find all important changes, removed and new features, and fixed issues in the [Release Notes for JavaFX 26](https://github.com/openjdk/jfx/blob/jfx26/doc-files/release-notes-26.md).
+  * You can download JavaFX 26 [from the Gluon website](https://gluonhq.com/products/javafx/). 
+  * A [remarkable move by Oracle](https://www.techzine.eu/news/devops/139673/oracle-releases-java-26-ai-security-and-the-java-verified-portfolio/): "_Oracle is introducing the Java Verified Portfolio (JVP). This is a curated collection of enterprise-grade tools, frameworks, and libraries that Oracle commercially supports. ... It is worth noting that JavaFX, the Java GUI framework, is once again supported via JVP. According to Oracle, this is due to growing demand. Support will be available for all new Java versions and all LTS versions during the five-year Premium Support tier. Support for JDK 8 will be extended until March 2028._"
 
 ## SceneBuilder
 
