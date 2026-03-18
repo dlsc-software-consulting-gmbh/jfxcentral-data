@@ -28,7 +28,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* New video by **Helal Anwar**: [Student management app (Part 6)](https://www.youtube.com/watch?v=ZHnSynN5R3Y)
 
 ## Conferences, Presentations
 
