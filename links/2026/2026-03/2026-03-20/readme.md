@@ -30,6 +30,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Podcasts, Videos, Books
 
 * New video by **Helal Anwar**: [Student management app (Part 6)](https://www.youtube.com/watch?v=ZHnSynN5R3Y)
+* **Florian Enner** published a video demonstrating [HebiCharts](https://www.youtube.com/live/B5GT9XAcqB8): "_A 2D and 3D plotting library built in JavaFX with ChartFX, compiled as GraalVM native-image, and accessible from Python / C++ / MATLAB via idiomatic interface over a C ABI._"
+
 
 ## Conferences, Presentations
 
