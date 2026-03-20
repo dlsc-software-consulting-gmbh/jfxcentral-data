@@ -10,18 +10,10 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * [Blog post by Oracle](https://blogs.oracle.com/java/announcing-jvp): "_Announcing the Oracle Java Verified Portfolio including Helidon and reintroduction of JavaFX Commercial Support_."
   * [**Johan Vos** announced](https://mastodon.social/@johanvos/116245211784256953): "_Gluon continues to lead the OpenJFX project. Here is JavaFX 26._" With a link to a [Gluon blog post about JavaFX 26](https://gluonhq.com/javafx-26-is-now-available/).
 
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * **Robert von Burg** shared the [sources of LumineLog](https://github.com/eitch/LumineLog): "_A modern, cross-platform log viewer application built with JavaFX. It provides a real-time 'tail -f' experience with powerful highlighting and multi-file support._"
 * [Message by **Robert Ladstätter**](https://bsky.app/profile/rladstaetter.bsky.social/post/3mhaoaaiw6s2k): "_Just released CameraApp on Windows and Linux appstores! [Check out this project](https://github.com/rladstaetter/CameraApp) which resurrects my old passion of doing work with JavaCV and JavaFX. This project can be used as a starting point for experiments with OpenCV and Java._"
-
-## Games
-
-* 
 
 ## Components, Libraries, Tools
 
@@ -32,20 +24,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * New video by **Helal Anwar**: [Student management app (Part 6)](https://www.youtube.com/watch?v=ZHnSynN5R3Y)
 * **Florian Enner** published a video demonstrating [HebiCharts](https://www.youtube.com/live/B5GT9XAcqB8): "_A 2D and 3D plotting library built in JavaFX with ChartFX, compiled as GraalVM native-image, and accessible from Python / C++ / MATLAB via idiomatic interface over a C ABI._"
 
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
-
-## Miscellaneous
-
-*
-
 ## JFX Central
 
 * JFX Central content:
   * Libraries: [TabShell](https://www.jfx-central.com/libraries/tabshell) got updated.
+* Internal improvements in JFX Central with latest release of [JPro](https://www.jpro.one/).
