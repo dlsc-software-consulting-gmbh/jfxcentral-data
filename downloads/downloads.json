@@ -1,39 +1,5 @@
 [
   {
-    "id": "emirates",
-    "name": "FlexGanttFX POC for Emirates Airlines",
-    "tags": "demo, poc, airline, emirates, scheduling, planning, gantt",
-    "summary": "Use JavaFX and FlexGanttFX for resource scheduling.",
-    "description": "A proof-of-concept application developed for Emirates Airlines. The demo shows how FlexGanttFX is capable of displaying thousands and thousands of activities (in this case \"flights\").",
-    "downloadType": "APPLICATION",
-    "homepage": "https://www.flexganttfx.com",
-    "personIds": [
-      "d.lemmermann"
-    ],
-    "companyIds": [
-      "dlsc"
-    ],
-    "libraryIds": [
-      "flexganttfx"
-    ],
-    "createdOn": "2021-06-02",
-    "modifiedOn": "2021-06-02",
-    "files": [
-      {
-        "name": "MSI for Windows",
-        "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-windows-msi.zip",
-        "fileName": "",
-        "package": "MSI"
-      },
-      {
-        "name": "PKG for Mac",
-        "url": "https://www.flexganttfx.com/downloads/installer/aircraft-demo-mac-pkg.zip",
-        "fileName": "",
-        "package": "PKG"
-      }
-    ]
-  },
-  {
     "id": "ikonlibrowser",
     "name": "Ikonli Browser",
     "tags": "icons, library, demo, application",
@@ -161,40 +127,6 @@
         "url": "https://download.cnlab.ch/performance/macos/cnlabSpeedTest.dmg",
         "fileName": "",
         "package": "DMG"
-      }
-    ]
-  },
-  {
-    "id": "covid",
-    "name": "Covid Data Explorer",
-    "tags": "covid, data exploration, health, medical, flexgantt",
-    "summary": "Covid data analysis tool written in JavaFX and FlexGanttFX",
-    "description": "A data exploration tool based on Covid data from the \"Our World in Data\" website. The application uses the charting capabilities of FlexGanttFX and allows the user to compare countries with each other.",
-    "homepage": "https://www.flexganttfx.com",
-    "downloadType": "APPLICATION",
-    "createdOn": "2021-06-15",
-    "modifiedOn": "2021-06-15",
-    "personIds": [
-      "d.lemmermann"
-    ],
-    "libraryIds": [
-      "flexganttfx"
-    ],
-    "companyIds": [
-      "dlsc"
-    ],
-    "files": [
-      {
-        "name": "PKG Installer (Mac)",
-        "url": "https://www.flexganttfx.com/downloads/installer/covid-explorer-pkg.zip",
-        "fileName": "",
-        "package": "PKG"
-      },
-      {
-        "name": "MSI Installer (Windows)",
-        "url": "https://www.flexganttfx.com/downloads/installer/covid-explorer-msi.zip",
-        "fileName": "",
-        "package": "PKG"
       }
     ]
   },
