@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Robert van Burg** announced LumineLog 0.3.0](https://mstdn.gsi.li/@eitch/116285194315067384): "_A modern, cross-platform log viewer application built with JavaFX. It provides a real-time `tail -f` experience with powerful highlighting and multi-file support. As always, feedback is welcome. Feel free to [raise a ticket](https://github.com/eitch/LumineLog)._"
 
 ## Games
 
