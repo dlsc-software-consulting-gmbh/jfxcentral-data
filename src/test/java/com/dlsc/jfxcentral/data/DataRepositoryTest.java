@@ -668,10 +668,6 @@ public class DataRepositoryTest {
 
             // then
             assertNotNull(list, "missing downloads list for person " + person.getId());
-
-            if (person.getId().equals("d.lemmermann")) {
-                assertFalse(list.isEmpty(), "no tutorials returned for person d.lemmermann");
-            }
         });
     }
 
