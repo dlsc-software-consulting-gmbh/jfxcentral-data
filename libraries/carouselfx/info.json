@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "path": "carousel-1.gif",
+      "title": "Carousel Animation Preview 1",
+      "description": ""
+    },
+    {
+      "path": "carousel-2.gif",
+      "title": "Carousel Animation Preview 2",
+      "description": ""
+    },
+    {
+      "path": "carousel-3.gif",
+      "title": "Carousel Animation Preview 3",
+      "description": ""
+    },
+    {
+      "path": "carousel-app.gif",
+      "title": "Carousel App Navigation",
+      "description": ""
+    },
+    {
+      "path": "carousel-show-case.png",
+      "title": "Carousel Showcase",
+      "description": ""
+    }
+  ]
+}

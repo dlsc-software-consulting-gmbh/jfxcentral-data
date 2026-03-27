@@ -2513,5 +2513,30 @@
     "artifactId": "livedirsfx",
     "logoAvailable": "false",
     "ensemble": "false"
+  },
+  {
+    "id": "carouselfx",
+    "name": "CarouselFX",
+    "summary": "Feature-rich carousel component with 75+ transition animations.",
+    "tags": "carousel, slideshow, animation, navigation, gallery",
+    "description": "A feature-rich carousel / slideshow component for JavaFX with 75+ built-in page transition animations.",
+    "documentation": "https://github.com/dlsc-software-consulting-gmbh/CarouselFX#readme",
+    "repository": "https://github.com/dlsc-software-consulting-gmbh/CarouselFX",
+    "license": "APACHE2",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "dlsc-software-consulting-gmbh",
+    "githubProject": "CarouselFX",
+    "readme": "readme.md",
+    "issueTracker": "https://github.com/dlsc-software-consulting-gmbh/CarouselFX/issues",
+    "createdOn": "2026-03-27",
+    "modifiedOn": "2026-03-27",
+    "groupId": "com.dlsc.carousel",
+    "artifactId": "carousel",
+    "logoAvailable": "false",
+    "ensemble": "false",
+    "personIds": [
+      "l.wyatt"
+    ]
   }
 ]

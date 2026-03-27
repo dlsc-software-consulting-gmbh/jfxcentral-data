@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "name": "Robert Lichtenberger",
     "email": "r.lichtenberger@gmail.com",
@@ -178,8 +178,7 @@
       "harmonicfx",
       "desktoppanefx"
     ],
-    "bookIds": [
-    ],
+    "bookIds": [],
     "createdOn": "2021-05-18",
     "modifiedOn": "2021-05-28"
   },
@@ -792,8 +791,7 @@
     "companyIds": [
       "gsi"
     ],
-    "toolIds": [
-    ],
+    "toolIds": [],
     "createdOn": "2024-05-19",
     "modifiedOn": "2024-05-19"
   },
@@ -1028,12 +1026,13 @@
     "id": "l.wyatt",
     "gitHub": "leewyatt",
     "libraryIds": [
-      "fxmlkit"
+      "fxmlkit",
+      "carouselfx"
     ],
     "toolIds": [
       "fxtools"
     ],
     "createdOn": "2025-12-22",
-    "modifiedOn": "2025-12-22"
+    "modifiedOn": "2026-03-27"
   }
 ]
