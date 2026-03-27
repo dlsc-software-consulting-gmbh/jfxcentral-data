@@ -14,19 +14,19 @@
     "files": [
       {
         "name": "ZIP for Linux",
-        "url": "https://github.com/kordamp/ikonli/releases/download/12.3.0.EarlyAccess/ikonli-browser-12.3.0.EarlyAccess-linux-x86_64.zip",
+        "url": "https://github.com/kordamp/ikonli/releases/download/12.4.0.EarlyAccess/ikonli-browser-12.4.0.EarlyAccess-linux-x86_64.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "ZIP for Mac",
-        "url": "https://github.com/kordamp/ikonli/releases/download/12.3.0.EarlyAccess/ikonli-browser-12.3.0.EarlyAccess-osx-x86_64.zip",
+        "url": "https://github.com/kordamp/ikonli/releases/download/12.4.0.EarlyAccess/ikonli-browser-12.4.0.EarlyAccess-osx-x86_64.zip",
         "fileName": "",
         "package": "ZIP"
       },
       {
         "name": "ZIP for Windows",
-        "url": "https://github.com/kordamp/ikonli/releases/download/12.3.0.EarlyAccess/ikonli-browser-12.3.0.EarlyAccess-windows-x86_64.zip",
+        "url": "https://github.com/kordamp/ikonli/releases/download/12.4.0.EarlyAccess/ikonli-browser-12.4.0.EarlyAccess-windows-x86_64.zip",
         "fileName": "",
         "package": "ZIP"
       }
