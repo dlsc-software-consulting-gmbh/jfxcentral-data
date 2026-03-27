@@ -2472,5 +2472,15 @@
     "personIds": [
       "l.wyatt"
     ]
+  },
+  {
+    "id": "candlefx",
+    "name": "CandleFX",
+    "summary": "Candle-stick chart library for JavaFX with real-time trading data support",
+    "description": "CandleFX provides a feature-rich candle-stick chart for JavaFX applications. It supports live syncing of real-time trading data via WebSocket, incremental paging of historical data, and is built around an abstract Exchange model that can be implemented for any trading platform.",
+    "tags": "chart, finance, trading, candlestick",
+    "groupId": "com.brcolow",
+    "artifactId": "candlefx",
+    "repositoryUrl": "https://github.com/brcolow/candlefx"
   }
 ]
