@@ -1,4 +1,14 @@
 {
   "images": [
+    {
+      "path": "dark.png",
+      "title": "Dark Theme Terminal",
+      "description": ""
+    },
+    {
+      "path": "default.png",
+      "title": "Default Theme Terminal",
+      "description": ""
+    }
   ]
 }

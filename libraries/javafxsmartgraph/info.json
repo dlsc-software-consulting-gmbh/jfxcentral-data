@@ -1,4 +1,29 @@
 {
   "images": [
+    {
+      "path": "smartgraph_realtime.gif",
+      "title": "smartgraph realtime",
+      "description": ""
+    },
+    {
+      "path": "graph_circle_placement.png",
+      "title": "graph circular placement",
+      "description": ""
+    },
+    {
+      "path": "graph_automatic_layout.png",
+      "title": "graph automatic layout",
+      "description": ""
+    },
+    {
+      "path": "digraph_circle_placement.png",
+      "title": "digraph circular placement",
+      "description": ""
+    },
+    {
+      "path": "digraph_automatic_layout.png",
+      "title": "digraph automatic layout",
+      "description": ""
+    }
   ]
 }

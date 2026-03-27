@@ -1,4 +1,14 @@
 {
   "images": [
+    {
+      "path": "dockfxhover.png",
+      "title": "Dockfxhover",
+      "description": ""
+    },
+    {
+      "path": "dockfxdocked.png",
+      "title": "Dockfxdocked",
+      "description": ""
+    }
   ]
 }

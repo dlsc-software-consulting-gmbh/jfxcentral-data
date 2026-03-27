@@ -1,4 +1,19 @@
 {
   "images": [
+    {
+      "path": "intersectionexamples.png",
+      "title": "Examples of how intersections look in the graph editor demo.",
+      "description": ""
+    },
+    {
+      "path": "skinexamples.png",
+      "title": "Examples of skins provided with the graph editor demo.",
+      "description": ""
+    },
+    {
+      "path": "demo.gif",
+      "title": "Demo of a fully customized application.",
+      "description": ""
+    }
   ]
 }

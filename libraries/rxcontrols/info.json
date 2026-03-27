@@ -1,4 +1,34 @@
 {
   "images": [
+    {
+      "path": "img6.png",
+      "title": "RXControls Screenshot 1",
+      "description": ""
+    },
+    {
+      "path": "img1.png",
+      "title": "RXControls Screenshot 2",
+      "description": ""
+    },
+    {
+      "path": "img2.png",
+      "title": "RXControls Screenshot 3",
+      "description": ""
+    },
+    {
+      "path": "img3.png",
+      "title": "RXControls Screenshot 4",
+      "description": ""
+    },
+    {
+      "path": "img4.png",
+      "title": "RXControls Screenshot 5",
+      "description": ""
+    },
+    {
+      "path": "img5.png",
+      "title": "RXControls Screenshot 6",
+      "description": ""
+    }
   ]
 }

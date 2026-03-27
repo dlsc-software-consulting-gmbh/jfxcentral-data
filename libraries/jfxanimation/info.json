@@ -1,4 +1,19 @@
 {
   "images": [
+    {
+      "path": "v2_fromto_reset.gif",
+      "title": "Alt text",
+      "description": ""
+    },
+    {
+      "path": "v2_fluenttransition.gif",
+      "title": "Alt text",
+      "description": ""
+    },
+    {
+      "path": "jfx_animation_demo.gif",
+      "title": "Alt text",
+      "description": ""
+    }
   ]
 }

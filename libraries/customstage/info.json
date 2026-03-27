@@ -1,4 +1,29 @@
 {
   "images": [
+    {
+      "path": "custom_stage.png",
+      "title": "CustomStage",
+      "description": ""
+    },
+    {
+      "path": "transparent.png",
+      "title": "Transparent CustomStage",
+      "description": ""
+    },
+    {
+      "path": "custom_icon.png",
+      "title": "CustomStage with custom icons",
+      "description": ""
+    },
+    {
+      "path": "custom-stage-ios.png",
+      "title": "CustomStage iOS Style",
+      "description": ""
+    },
+    {
+      "path": "kvawjlm.png",
+      "title": "CustomStage Demo",
+      "description": ""
+    }
   ]
 }

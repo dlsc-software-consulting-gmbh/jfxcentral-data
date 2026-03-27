@@ -1,4 +1,49 @@
 {
   "images": [
+    {
+      "path": "button.gif",
+      "title": "Button Demo",
+      "description": ""
+    },
+    {
+      "path": "checkbox.gif",
+      "title": "Check Box Demo",
+      "description": ""
+    },
+    {
+      "path": "toggle-button.gif",
+      "title": "Toggle Button Demo",
+      "description": ""
+    },
+    {
+      "path": "dialog.gif",
+      "title": "Dialog Demo",
+      "description": ""
+    },
+    {
+      "path": "listview.gif",
+      "title": "List View Demo",
+      "description": ""
+    },
+    {
+      "path": "highlighter.gif",
+      "title": "Highlighter",
+      "description": ""
+    },
+    {
+      "path": "chipview.gif",
+      "title": "Chip View",
+      "description": ""
+    },
+    {
+      "path": "nodes-list.gif",
+      "title": "Nodes List Demo",
+      "description": ""
+    },
+    {
+      "path": "masonry.gif",
+      "title": "Masonry Demo",
+      "description": ""
+    }
   ]
 }

@@ -1,4 +1,39 @@
 {
   "images": [
+    {
+      "path": "logo.png",
+      "title": "JavaFXTaskbarProgressbar",
+      "description": ""
+    },
+    {
+      "path": "areo-progressbar.jpg",
+      "title": "Taskbar progressbar in windows 7",
+      "description": ""
+    },
+    {
+      "path": "normal-progress.jpg",
+      "title": "Normal Taskbar progressbar",
+      "description": ""
+    },
+    {
+      "path": "indeterminate.gif",
+      "title": "Indeterminate Taskbar progressbar",
+      "description": ""
+    },
+    {
+      "path": "full-error-progress.jpg",
+      "title": "Full errror taskbar progress",
+      "description": ""
+    },
+    {
+      "path": "paused-progress.jpg",
+      "title": "Paused progress",
+      "description": ""
+    },
+    {
+      "path": "error-progress.jpg",
+      "title": "Paused progress",
+      "description": ""
+    }
   ]
 }

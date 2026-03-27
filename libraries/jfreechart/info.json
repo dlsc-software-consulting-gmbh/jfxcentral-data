@@ -1,4 +1,9 @@
 {
   "images": [
+    {
+      "path": "coffee_prices.png",
+      "title": "JFreeChart sample",
+      "description": ""
+    }
   ]
 }

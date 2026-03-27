@@ -1,4 +1,39 @@
 {
   "images": [
+    {
+      "path": "agenda.png",
+      "title": "Agenda",
+      "description": ""
+    },
+    {
+      "path": "calendartextfield.png",
+      "title": "Calendar Text Field",
+      "description": ""
+    },
+    {
+      "path": "circularpane.png",
+      "title": "Circular Pane",
+      "description": ""
+    },
+    {
+      "path": "popupmenu.gif",
+      "title": "Popup Menu",
+      "description": ""
+    },
+    {
+      "path": "cornermenu.gif",
+      "title": "Corner Menu",
+      "description": ""
+    },
+    {
+      "path": "basicrounddailgauge.png",
+      "title": "Basic Round Dial Gauge",
+      "description": ""
+    },
+    {
+      "path": "simplemetroarcgauge.png",
+      "title": "Simple Metro Arc Gauge",
+      "description": ""
+    }
   ]
 }

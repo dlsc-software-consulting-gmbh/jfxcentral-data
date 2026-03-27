@@ -2097,28 +2097,6 @@
     "ensemble": "false"
   },
   {
-    "id": "cssfx",
-    "name": "CssFX",
-    "summary": "Enables live CSS reloading in running JavaFX applications for faster development.",
-    "tags": "css, hot-reload, styling, developer",
-    "description": "Allow runtime modification of JavaFX CSS",
-    "documentation": "https://github.com/McFoggy/cssfx#readme",
-    "repository": "https://github.com/McFoggy/cssfx",
-    "license": "APACHE2",
-    "homepage": "",
-    "javadocs": "",
-    "githubAccount": "McFoggy",
-    "githubProject": "cssfx",
-    "readme": "readme.md",
-    "issueTracker": "https://github.com/McFoggy/cssfx/issues",
-    "createdOn": "2026-03-26",
-    "modifiedOn": "2026-03-26",
-    "groupId": "fr.brouillard.oss",
-    "artifactId": "cssfx",
-    "logoAvailable": "false",
-    "ensemble": "false"
-  },
-  {
     "id": "jfxtras-labs",
     "name": "JFXtras Labs",
     "summary": "Experimental and incubating controls and utilities for JavaFX.",

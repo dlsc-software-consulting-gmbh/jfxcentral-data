@@ -1,4 +1,9 @@
 {
   "images": [
+    {
+      "path": "devtools.png",
+      "title": "DevTools",
+      "description": ""
+    }
   ]
 }

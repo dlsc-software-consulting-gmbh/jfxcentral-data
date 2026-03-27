@@ -1,4 +1,14 @@
 {
   "images": [
+    {
+      "path": "screenshot2.png",
+      "title": "JCSG Screenshot",
+      "description": ""
+    },
+    {
+      "path": "screenshot-02.png",
+      "title": "JFXScad Screenshot",
+      "description": ""
+    }
   ]
 }

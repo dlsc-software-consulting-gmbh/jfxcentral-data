@@ -1,4 +1,29 @@
 {
   "images": [
+    {
+      "path": "logo.png",
+      "title": "Logo",
+      "description": ""
+    },
+    {
+      "path": "hello-world.png",
+      "title": "Hello World",
+      "description": ""
+    },
+    {
+      "path": "app-example.png",
+      "title": "App Example",
+      "description": ""
+    },
+    {
+      "path": "state-example.png",
+      "title": "State Example",
+      "description": ""
+    },
+    {
+      "path": "pane-example.png",
+      "title": "Pane Example",
+      "description": ""
+    }
   ]
 }
