@@ -2481,6 +2481,8 @@
     "tags": "chart, finance, trading, candlestick",
     "groupId": "com.brcolow",
     "artifactId": "candlefx",
-    "repositoryUrl": "https://github.com/brcolow/candlefx"
+    "repository": "https://github.com/brcolow/candlefx",
+    "githubAccount": "brcolow",
+    "githubProject": "candlefx"
   }
 ]
