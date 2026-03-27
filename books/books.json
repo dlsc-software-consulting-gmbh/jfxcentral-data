@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "projfx9",
     "summary": "A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients",
@@ -221,5 +221,46 @@
     "amazonASIN": "1484297164",
     "isbn": "978-1484297162",
     "publishedDate": "2023-12-09"
+  },
+  {
+    "id": "definitiveguide-javafx21",
+    "name": "The Definitive Guide to Modern Java Clients with JavaFX",
+    "subtitle": "Cross-Platform Mobile and Cloud Development Updated for JavaFX 21 and 23",
+    "summary": "Cross-Platform Mobile and Cloud Development Updated for JavaFX 21 and 23",
+    "description": "Build enhanced visual experiences and design and deploy modern, easy-to-maintain, client applications across a variety of platforms. This third edition covers the latest features in JavaFX 21 and 23, including new APIs: Map, FlatMap, and OrElse fluent bindings for ObservableValue, along with the new Subscription API. A professional reference for building Java applications for desktop, mobile, and embedded in the Cloud age.",
+    "publisher": "Apress",
+    "authors": "Stephen Chin, Johan Vos, James Weaver",
+    "personIds": [
+      "s.chin",
+      "j.vos",
+      "j.weaver"
+    ],
+    "url": "https://link.springer.com/book/10.1007/979-8-8688-0998-9",
+    "isbn": "979-8-8688-0997-2",
+    "publishedDate": "2024-12-06"
+  },
+  {
+    "id": "einfuehrung-javafx",
+    "name": "Einführung in JavaFX/OpenJFX",
+    "subtitle": "Moderne GUIs für RIAs und Java-Applikationen",
+    "summary": "Moderne GUIs für RIAs und Java-Applikationen (German)",
+    "description": "Das JavaFX-Framework gibt es schon seit einigen Jahren, hat aber mit den ersten Versionen fast nur noch den Namen gemeinsam. Seit der Version 2 hat JavaFX jedoch einen festen und ausgereiften Stand erreicht und ist mittlerweile die aktuelle Technologie im Java-Umfeld, um leistungsfähige und moderne grafische Benutzeroberflächen (GUI) erstellen zu können. Dieses Buch stellt Ihnen dazu eine Vielzahl an Widgets und Komponenten samt dem JavaFX-API vor. Es zeigt Ihnen auch, wie Sie mit Hilfe des APIs sowohl aus Java heraus, aber auch über einen XML-basierenden Ansatz (FXML) samt einem visuellen Designer-Tool (Scene Builder) grafische User-Interfaces erstellen können.",
+    "publisher": "Springer Vieweg",
+    "authors": "Ralph Steyer",
+    "url": "https://link.springer.com/book/10.1007/978-3-658-35539-5",
+    "isbn": "978-3-658-35538-8",
+    "publishedDate": "2022-03-22"
+  },
+  {
+    "id": "java-two-semesters",
+    "name": "Java in Two Semesters",
+    "subtitle": "Featuring JavaFX",
+    "summary": "A gentle introduction to Java programming using JavaFX for GUI development",
+    "description": "This easy-to-follow textbook teaches Java programming from first principles, as well as covering design and testing methodologies. Divided into two parts, each supporting a one-semester module, it uses JavaFX throughout for constructing event-driven graphical interfaces. The fourth edition covers key developments introduced in Java 8, including material on JavaFX, lambda expressions and the Stream API. Includes self-test questions, programming exercises, and two illuminating case studies.",
+    "publisher": "Springer",
+    "authors": "Quentin Charatan, Aaron Kans",
+    "url": "https://link.springer.com/book/10.1007/978-3-319-99420-8",
+    "isbn": "978-3-319-99419-2",
+    "publishedDate": "2019-01-22"
   }
 ]
