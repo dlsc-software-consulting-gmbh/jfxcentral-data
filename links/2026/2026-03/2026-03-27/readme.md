@@ -21,5 +21,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* [**Dirk Lemmermann** shared a screenshot](https://bsky.app/profile/dlemmermann.bsky.social/post/3mhxunuetrk2h): "_We finally moved to #JavaFX 25 for JFX Central and this now allows us to use StageStyle.EXTENDED. Sounds like a minor thing but allows apps to look much more native than before. No more custom resizing borders and behaviour._"
+* [**Dirk Lemmermann** shared a screenshot](https://bsky.app/profile/dlemmermann.bsky.social/post/3mhxunuetrk2h): "_We finally moved to JavaFX 25 for JFX Central and this now allows us to use StageStyle.EXTENDED. Sounds like a minor thing but allows apps to look much more native than before. No more custom resizing borders and behaviour._"
 
