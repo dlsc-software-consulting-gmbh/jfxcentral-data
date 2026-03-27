@@ -8,17 +8,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * Related to the announcement of the Oracle Java Verified Portfolio (JVP) and the reintroduction of commercial support for JavaFX, **Frank Delporte** wrote a blog: [The JavaFX Revival: Good News for the Community, Business as Usual for Azul](https://www.azul.com/blog/the-javafx-revival-good-news-for-the-community-business-as-usual-for-azul/).
 * Already want to experiment with JavaFX 27? Check the [early-access builds](https://jdk.java.net/javafx27/).
 
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * [**Robert van Burg** announced LumineLog 0.3.0](https://mstdn.gsi.li/@eitch/116285194315067384): "_A modern, cross-platform log viewer application built with JavaFX. It provides a real-time `tail -f` experience with powerful highlighting and multi-file support. As always, feedback is welcome. Feel free to [raise a ticket](https://github.com/eitch/LumineLog)._"
-
-## Games
-
-* 
 
 ## Components, Libraries, Tools
 
@@ -27,23 +19,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * **Dirk Lemmermann** announced: "_I created a new [website for GemsFX](https://dlsc-software-consulting-gmbh.github.io/GemsFX/) that will give you an idea which controls are available in this library._"
 * [**Lee Wyatt** shared the new library CarouselFX](https://bsky.app/profile/leewyatt.bsky.social/post/3mhvd52wuks2u): "_A JavaFX carousel / slideshow component with 70+ built-in transition effects._" [Demo on YouTube](https://www.youtube.com/watch?v=oFeuHs_HFwU) and [sources on GitHub](https://github.com/dlsc-software-consulting-gmbh/CarouselFX).
 
-## Podcasts, Videos, Books
-
-*
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
-
-## Miscellaneous
-
-*
-
 ## JFX Central
 
-* [**Dirk Lemmermann** shared a screenshot](https://bsky.app/profile/dlemmermann.bsky.social/post/3mhxunuetrk2h): "_We finally moved to #JavaFX 25 for JFX Central and this now allows us to use StageStyle.EXTENDED. Sounds like a minor thing but allows apps to look much more native than before. No more custom resizing borders and behaviour._"
+* [**Dirk Lemmermann** shared a screenshot](https://bsky.app/profile/dlemmermann.bsky.social/post/3mhxunuetrk2h): "_We finally moved to JavaFX 25 for JFX Central and this now allows us to use StageStyle.EXTENDED. Sounds like a minor thing but allows apps to look much more native than before. No more custom resizing borders and behaviour._"
 
