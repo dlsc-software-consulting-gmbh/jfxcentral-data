@@ -1,12 +1,12 @@
 {
   "images": [
     {
-      "path": "ubuntuthemedetection.gif",
+      "path": "ubuntuthemedetection.png",
       "title": "Running the demo app on Ubuntu",
       "description": ""
     },
     {
-      "path": "windows10themedetection.gif",
+      "path": "windows10themedetection.png",
       "title": "Running the demo app on Windows 10",
       "description": ""
     }

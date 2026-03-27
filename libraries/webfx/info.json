@@ -1,22 +1,22 @@
 {
   "images": [
     {
-      "path": "tallycounter.webp",
+      "path": "tallycounter.png",
       "title": "Tally Counter Demo",
       "description": ""
     },
     {
-      "path": "enzoclocks.webp",
+      "path": "enzoclocks.png",
       "title": "Enzo Clocks Demo",
       "description": ""
     },
     {
-      "path": "demofx.webp",
+      "path": "demofx.png",
       "title": "DemoFX Demo",
       "description": ""
     },
     {
-      "path": "raytracer.webp",
+      "path": "raytracer.png",
       "title": "Ray Tracer Demo",
       "description": ""
     }
