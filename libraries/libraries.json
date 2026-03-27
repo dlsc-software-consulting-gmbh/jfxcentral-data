@@ -1525,28 +1525,6 @@
     "ensemble": "false"
   },
   {
-    "id": "cljfx",
-    "name": "cljfx",
-    "summary": "Declarative functional wrapper of JavaFX for Clojure.",
-    "tags": "clojure, functional, reactive, framework",
-    "description": "Declarative, functional and extensible wrapper of JavaFX inspired by React and re-frame",
-    "documentation": "https://github.com/cljfx/cljfx#readme",
-    "repository": "https://github.com/cljfx/cljfx",
-    "license": "EPL",
-    "homepage": "",
-    "javadocs": "",
-    "githubAccount": "cljfx",
-    "githubProject": "cljfx",
-    "readme": "readme.md",
-    "issueTracker": "https://github.com/cljfx/cljfx/issues",
-    "createdOn": "2026-03-26",
-    "modifiedOn": "2026-03-26",
-    "groupId": "cljfx",
-    "artifactId": "cljfx",
-    "logoAvailable": "false",
-    "ensemble": "false"
-  },
-  {
     "id": "testfx",
     "name": "TestFX",
     "summary": "A simple and clean testing framework for JavaFX applications.",
