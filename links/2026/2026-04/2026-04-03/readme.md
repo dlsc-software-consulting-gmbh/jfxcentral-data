@@ -10,7 +10,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [PDFsam announced](https://bsky.app/profile/pdfsam.org/post/3midyc6gytc2l): "_The new PDFsam Basic 6.0.0 is out with a lot of work done on the PDF engine and accessibility, upgraded JDK and JavaFX and more._" Check [this post](https://blog.pdfsam.org/new-release/pdfsam-basic-6-0-0-is-out/2592/) for more details.
+
 
 ## Games
 
