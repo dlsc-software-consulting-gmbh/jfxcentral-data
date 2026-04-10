@@ -19,7 +19,7 @@
     "url": "https://github.com/ant-design/ant-design-icons",
     "fontVersion": "4.0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.antdesignicons",
@@ -41,7 +41,7 @@
     "url": "https://github.com/ant-design/ant-design-icons",
     "fontVersion": "4.0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.bootstrapicons",
@@ -63,7 +63,7 @@
     "url": "https://github.com/twbs/icons",
     "fontVersion": "1.4.1",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.boxicons",
@@ -85,7 +85,7 @@
     "url": "https://github.com/atisawd/boxicons",
     "fontVersion": "2.0.7",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.boxicons",
@@ -107,7 +107,7 @@
     "url": "https://github.com/atisawd/boxicons",
     "fontVersion": "2.0.7",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.boxicons",
@@ -129,7 +129,7 @@
     "url": "https://github.com/atisawd/boxicons",
     "fontVersion": "2.0.7",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.bpmn",
@@ -151,7 +151,7 @@
     "url": "https://github.com/bpmn-io/bpmn-font",
     "fontVersion": "0.10.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.captainicon",
@@ -173,7 +173,7 @@
     "url": "https://mariodelvalle.github.io/CaptainIconWeb/",
     "fontVersion": "20140501",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.carbonicons",
@@ -195,7 +195,7 @@
     "url": "https://github.com/carbon-design-system/carbon/",
     "fontVersion": "10.23.2",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.codicons",
@@ -217,7 +217,7 @@
     "url": "https://github.com/microsoft/vscode-codicons",
     "fontVersion": "0.0.12",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.coreui",
@@ -239,7 +239,7 @@
     "url": "https://github.com/coreui/coreui-icons",
     "fontVersion": "2.0.0-beta.5",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.coreui",
@@ -261,7 +261,7 @@
     "url": "https://github.com/coreui/coreui-icons",
     "fontVersion": "2.0.0-beta.5",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.dashicons",
@@ -283,7 +283,7 @@
     "url": "https://github.com/WordPress/dashicons",
     "fontVersion": "20200504",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.devicons",
@@ -327,7 +327,7 @@
     "url": "https://github.com/fontello/elusive.font",
     "fontVersion": "2.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.entypo",
@@ -371,7 +371,7 @@
     "url": "https://akveo.github.io/eva-icons/#/",
     "fontVersion": "1.1.3",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.feather",
@@ -393,7 +393,7 @@
     "url": "https://feathericons.com/",
     "fontVersion": "4.28",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fileicons",
@@ -415,7 +415,7 @@
     "url": "https://github.com/file-icons/icons",
     "fontVersion": "2.1.44",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fluentui",
@@ -437,7 +437,7 @@
     "url": "https://github.com/microsoft/fluentui-system-icons/",
     "fontVersion": "1.1.74",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fluentui",
@@ -459,7 +459,7 @@
     "url": "https://github.com/microsoft/fluentui-system-icons/",
     "fontVersion": "1.1.74",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fluentui",
@@ -481,7 +481,7 @@
     "url": "https://github.com/microsoft/fluentui-system-icons/",
     "fontVersion": "1.1.74",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fluentui",
@@ -503,7 +503,7 @@
     "url": "https://github.com/microsoft/fluentui-system-icons/",
     "fontVersion": "1.1.74",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fontawesome",
@@ -547,7 +547,7 @@
     "url": "https://fontawesome.com",
     "fontVersion": "5.15.3",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fontawesome5",
@@ -569,7 +569,7 @@
     "url": "https://fontawesome.com",
     "fontVersion": "5.15.3",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fontawesome5",
@@ -591,7 +591,7 @@
     "url": "https://fontawesome.com",
     "fontVersion": "5.15.3",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fontelico",
@@ -613,7 +613,7 @@
     "url": "https://github.com/fontello/fontelico.font",
     "fontVersion": "0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.foundation",
@@ -635,7 +635,7 @@
     "url": "http://zurb.com/playground/foundation-icon-fonts-3",
     "fontVersion": "3.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.hawcons",
@@ -657,7 +657,7 @@
     "url": "http://hawcons.com/",
     "fontVersion": "20140708",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.hawcons",
@@ -679,7 +679,7 @@
     "url": "http://hawcons.com/",
     "fontVersion": "20140708",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.icomoon",
@@ -701,7 +701,7 @@
     "url": "https://icomoon.io/#icons-icomoon",
     "fontVersion": "0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.ionicons",
@@ -723,7 +723,7 @@
     "url": "https://ionicons.com/v2/",
     "fontVersion": "2.0.1",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.ionicons4",
@@ -745,7 +745,7 @@
     "url": "https://ionicons.com/",
     "fontVersion": "4.1.2",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.ionicons4",
@@ -767,7 +767,7 @@
     "url": "https://ionicons.com/",
     "fontVersion": "4.1.2",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.ionicons4",
@@ -789,7 +789,7 @@
     "url": "https://ionicons.com/",
     "fontVersion": "4.1.2",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.jam",
@@ -833,7 +833,7 @@
     "url": "http://kudakurage.com/ligature_symbols/",
     "fontVersion": "2.11",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.lineawesome",
@@ -855,7 +855,7 @@
     "url": "https://icons8.com/line-awesome",
     "fontVersion": "1.3.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.lineawesome",
@@ -877,7 +877,7 @@
     "url": "https://icons8.com/line-awesome",
     "fontVersion": "1.3.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.lineawesome",
@@ -899,7 +899,7 @@
     "url": "https://icons8.com/line-awesome",
     "fontVersion": "1.3.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.linecons",
@@ -921,7 +921,7 @@
     "url": "https://designmodo.com/linecons-free/linecons",
     "fontVersion": "0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.maki",
@@ -943,7 +943,7 @@
     "url": "https://github.com/mapbox/maki",
     "fontVersion": "0.5.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.maki2",
@@ -965,7 +965,7 @@
     "url": "https://github.com/mapbox/maki",
     "fontVersion": "6.2.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.mapicons",
@@ -987,7 +987,7 @@
     "url": "https://github.com/scottdejonge/map-icons",
     "fontVersion": "3.0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material",
@@ -1009,7 +1009,7 @@
     "url": "https://fonts.google.com/icons?icon.set=Material+Icons",
     "fontVersion": "50",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1031,7 +1031,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1053,7 +1053,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1075,7 +1075,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1097,7 +1097,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1119,7 +1119,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1141,7 +1141,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1163,7 +1163,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.material2",
@@ -1185,7 +1185,7 @@
     "url": "https://github.com/material-icons/material-icons-font",
     "fontVersion": "20200820",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.materialdesign",
@@ -1207,7 +1207,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "1.7.22",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1229,7 +1229,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1251,7 +1251,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1273,7 +1273,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1295,7 +1295,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1317,7 +1317,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1339,7 +1339,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1361,7 +1361,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1383,7 +1383,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1405,7 +1405,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1427,7 +1427,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1449,7 +1449,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1471,7 +1471,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1493,7 +1493,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1515,7 +1515,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1537,7 +1537,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1559,7 +1559,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1581,7 +1581,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1603,7 +1603,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1625,7 +1625,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1647,7 +1647,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1669,7 +1669,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1691,7 +1691,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1713,7 +1713,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1735,7 +1735,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1757,7 +1757,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "materialdesign2",
@@ -1779,7 +1779,7 @@
     "url": "https://github.com/Templarian/MaterialDesign",
     "fontVersion": "5.8.55",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.medicons",
@@ -1801,7 +1801,7 @@
     "url": "https://github.com/samcome/webfont-medical-icons",
     "fontVersion": "20170612",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.metrizeicons",
@@ -1823,7 +1823,7 @@
     "url": "http://www.alessioatzeni.com/metrize-icons/",
     "fontVersion": "0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.microns",
@@ -1845,7 +1845,7 @@
     "url": "https://github.com/stephenhutchings/microns",
     "fontVersion": "1.0.8",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.ociicons",
@@ -1867,7 +1867,7 @@
     "url": "https://github.com/opencontainers/artwork#oci-icons",
     "fontVersion": "1.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.octicons",
@@ -1889,7 +1889,7 @@
     "url": "https://github.com/github/octicons",
     "fontVersion": "14.2.2",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.openiconic",
@@ -1911,7 +1911,7 @@
     "url": "https://github.com/iconic/open-iconic/",
     "fontVersion": "1.1.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.paymentfont",
@@ -1933,7 +1933,7 @@
     "url": "https://github.com/AlexanderPoellmann/PaymentFont",
     "fontVersion": "1.2.5",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.prestashopicons",
@@ -1955,7 +1955,7 @@
     "url": "https://github.com/PrestaShop/prestashop-icon-font",
     "fontVersion": "0.8.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.remixicon",
@@ -1977,7 +1977,7 @@
     "url": "https://remixicon.com/",
     "fontVersion": "2.5.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.remixicon",
@@ -1999,7 +1999,7 @@
     "url": "https://remixicon.com/",
     "fontVersion": "2.5.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.runestroicons",
@@ -2043,7 +2043,7 @@
     "url": "https://simpleicons.org/",
     "fontVersion": "3.12.2",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.simplelineicons",
@@ -2065,7 +2065,7 @@
     "url": "https://github.com/thesabbir/simple-line-icons",
     "fontVersion": "2.5.4",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.subway",
@@ -2087,7 +2087,7 @@
     "url": "https://github.com/mariuszostrowski/subway",
     "fontVersion": "20201108",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.themify",
@@ -2109,7 +2109,7 @@
     "url": "https://themify.me/themify-icons",
     "fontVersion": "1.0.1",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.typicons",
@@ -2131,7 +2131,7 @@
     "url": "https://github.com/stephenhutchings/typicons.font",
     "fontVersion": "2.0.7",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.unicons",
@@ -2153,7 +2153,7 @@
     "url": "https://github.com/Iconscout/unicons",
     "fontVersion": "20201106",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.unicons",
@@ -2175,7 +2175,7 @@
     "url": "https://github.com/Iconscout/unicons",
     "fontVersion": "20201106",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.unicons",
@@ -2197,7 +2197,7 @@
     "url": "https://github.com/Iconscout/unicons",
     "fontVersion": "20201106",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.weathericons",
@@ -2219,7 +2219,7 @@
     "url": "http://erikflowers.github.io/weather-icons/",
     "fontVersion": "2.0.10",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.websymbols",
@@ -2241,7 +2241,7 @@
     "url": "http://www.justbenice.ru",
     "fontVersion": "0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.whhg",
@@ -2263,7 +2263,7 @@
     "url": "https://www.webhostinghub.com/glyphs/",
     "fontVersion": "20201105",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.whhg",
@@ -2285,7 +2285,7 @@
     "url": "https://www.webhostinghub.com/glyphs/",
     "fontVersion": "20201105",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.win10",
@@ -2307,7 +2307,7 @@
     "url": "https://github.com/icons8/windows-10-icons",
     "fontVersion": "1.0.1",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.zondicons",
@@ -2329,7 +2329,7 @@
     "url": "https://www.zondicons.com/",
     "fontVersion": "20170712",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fontawesome6",
