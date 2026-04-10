@@ -7,12 +7,12 @@
     "iconStyle": "FILLED",
     "description": "Ant Design SVG Icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-antdesignicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-antdesignicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-antdesignicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -29,12 +29,12 @@
     "iconStyle": "OUTLINED",
     "description": "Ant Design SVG Icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-antdesignicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-antdesignicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-antdesignicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -51,12 +51,12 @@
     "iconStyle": "MIXING",
     "description": "Official open source SVG icon library for Bootstrap.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bootstrapicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bootstrapicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-bootstrapicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -73,12 +73,12 @@
     "iconStyle": "FILLED",
     "description": "High Quality web friendly icons.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-boxicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -95,12 +95,12 @@
     "iconStyle": "OUTLINED",
     "description": "High Quality web friendly icons.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-boxicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -117,12 +117,12 @@
     "iconStyle": "FILLED",
     "description": "High Quality web friendly icons.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-boxicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-boxicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -139,12 +139,12 @@
     "iconStyle": "OUTLINED",
     "description": "A BPMN 2.0 symbol font",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bpmn-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bpmn-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-bpmn-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -161,12 +161,12 @@
     "iconStyle": "FILLED",
     "description": "+350 AWESOME FREE VECTOR ICONS TO EMPOWER YOUR MOBILE AND WEB DESIGNS",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-captainicon-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-captainicon-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-captainicon-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -183,12 +183,12 @@
     "iconStyle": "OUTLINED",
     "description": "Carbon is an open-source design system built by IBM. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-carbonicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-carbonicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-carbonicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -205,12 +205,12 @@
     "iconStyle": "OUTLINED",
     "description": "The icon font for Visual Studio Code",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-codicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-codicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-codicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -227,12 +227,12 @@
     "iconStyle": "FILLED",
     "description": "CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont and raster formats",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-coreui-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-coreui-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-coreui-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -249,12 +249,12 @@
     "iconStyle": "OUTLINED",
     "description": "CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont and raster formats",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-coreui-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-coreui-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-coreui-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -271,12 +271,12 @@
     "iconStyle": "FILLED",
     "description": "Dashicons, the WordPress admin icon font. For the official resource, please see the WordPress Developer Hub.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-dashicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-dashicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-dashicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -293,12 +293,12 @@
     "iconStyle": "FILLED",
     "description": "Devicons - An iconic font made for developers",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-devicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-devicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-devicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -315,12 +315,12 @@
     "iconStyle": "FILLED",
     "description": "transformed Elusive Icons font",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-elusive-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-elusive-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-elusive-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -337,12 +337,12 @@
     "iconStyle": "FILLED",
     "description": "411 carefully crafted premium pictograms by Daniel Bruce — CC BY-SA 4.0.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-entypo-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-entypo-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-entypo-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -359,12 +359,12 @@
     "iconStyle": "MIXING",
     "description": "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.\nDownload our set on the desktop to use them in your digital products for Web, iOS and Android.\nCompatible with Eva Design System.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-evaicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-evaicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-evaicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -381,12 +381,12 @@
     "iconStyle": "OUTLINED",
     "description": "Simply beautiful open source icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-feather-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-feather-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-feather-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -403,12 +403,12 @@
     "iconStyle": "FILLED",
     "description": "Source files for the custom icon-font used by the File-Icons package.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fileicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fileicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fileicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -425,12 +425,12 @@
     "iconStyle": "FILLED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fluentui-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -447,12 +447,12 @@
     "iconStyle": "FILLED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fluentui-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -469,12 +469,12 @@
     "iconStyle": "OUTLINED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fluentui-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -491,12 +491,12 @@
     "iconStyle": "OUTLINED",
     "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fluentui-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -513,12 +513,12 @@
     "iconStyle": "FILLED",
     "description": "FontAwesome (Legacy)",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fontawesome-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -529,18 +529,18 @@
   },
   {
     "module": "org.kordamp.ikonli.fontawesome5",
-    "title": "FontAwesome5 (Latest)",
+    "title": "FontAwesome5",
     "name": "FontAwesomeBrands",
     "id": "fontawesomebrands",
     "iconStyle": "FILLED",
     "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fontawesome5-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -551,18 +551,18 @@
   },
   {
     "module": "org.kordamp.ikonli.fontawesome5",
-    "title": "FontAwesome5 (Latest)",
+    "title": "FontAwesome5",
     "name": "FontAwesomeRegular",
     "id": "fontawesomeregular",
     "iconStyle": "OUTLINED",
     "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fontawesome5-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -573,18 +573,18 @@
   },
   {
     "module": "org.kordamp.ikonli.fontawesome5",
-    "title": "FontAwesome5 (Latest)",
+    "title": "FontAwesome5",
     "name": "FontAwesomeSolid",
     "id": "fontawesomesolid",
     "iconStyle": "FILLED",
     "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fontawesome5-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -601,12 +601,12 @@
     "iconStyle": "OUTLINED",
     "description": "Opensource iconic font from Fontello project.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontelico-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontelico-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-fontelico-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -623,12 +623,12 @@
     "iconStyle": "FILLED",
     "description": "Foundation Icon Fonts 3",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-foundation-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-foundation-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-foundation-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -645,12 +645,12 @@
     "iconStyle": "FILLED",
     "description": "Over 500 free icons.\nIntroducing something never seen before.\nWelcome to a world of free high quality icons - handcrafted with passion.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-hawcons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-hawcons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-hawcons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -667,12 +667,12 @@
     "iconStyle": "OUTLINED",
     "description": "Over 500 free icons.\nIntroducing something never seen before.\nWelcome to a world of free high quality icons - handcrafted with passion.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-hawcons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-hawcons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-hawcons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -689,12 +689,12 @@
     "iconStyle": "FILLED",
     "description": "Pixel Perfect Icon Solutions",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-icomoon-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-icomoon-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-icomoon-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -711,12 +711,12 @@
     "iconStyle": "MIXING",
     "description": "The premium icon font for Ionic Framework.\n100% free and open source. MIT Licensed.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-ionicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -733,12 +733,12 @@
     "iconStyle": "MIXING",
     "description": "Open source icons.\nLovingly hand-crafted.\nPremium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by Ionic.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-ionicons4-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -755,12 +755,12 @@
     "iconStyle": "FILLED",
     "description": "Open source icons.\nLovingly hand-crafted.\nPremium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by Ionic.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-ionicons4-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -777,12 +777,12 @@
     "iconStyle": "MIXING",
     "description": "Open source icons.\nLovingly hand-crafted.\nPremium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by Ionic.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ionicons4-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-ionicons4-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -799,12 +799,12 @@
     "iconStyle": "MIXING",
     "description": "Jam icons is a set of SVG icons designed for web projects, illustrations, print projects, etc. Licensed under MIT",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-jamicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-jamicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-jamicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -821,12 +821,12 @@
     "iconStyle": "MIXING",
     "description": "Ligature kudakurage Symbols\nby Kazuyuki Motoyama",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ligaturesymbols-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ligaturesymbols-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-ligaturesymbols-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -843,12 +843,12 @@
     "iconStyle": "OUTLINE",
     "description": "Replace Font Awesome with modern line icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-lineawesome-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -865,12 +865,12 @@
     "iconStyle": "OUTLINE",
     "description": "Replace Font Awesome with modern line icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-lineawesome-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -887,12 +887,12 @@
     "iconStyle": "OUTLINE",
     "description": "Replace Font Awesome with modern line icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-lineawesome-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-lineawesome-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -909,12 +909,12 @@
     "iconStyle": "OUTLINE",
     "description": "Linecons is a set of remarkable free vector icons. The set contains 48 fully scalable vector icons with outline styles.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-linecons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-linecons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-linecons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -931,12 +931,12 @@
     "iconStyle": "FILLED",
     "description": "A pixel-aligned point of interest icon set made for cartographers.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-maki-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-maki-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-maki-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -953,12 +953,12 @@
     "iconStyle": "FILLED",
     "description": "A pixel-aligned point of interest icon set made for cartographers.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-maki2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-maki2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-maki2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -975,12 +975,12 @@
     "iconStyle": "FILLED",
     "description": "Map Icons is an icon font for use with Google Maps API and Google Places API using SVG markers and icon labels",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-mapicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-mapicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-mapicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -997,12 +997,12 @@
     "iconStyle": "MIXING",
     "description": "The icons are based on the core Material Design principles and metrics.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1019,12 +1019,12 @@
     "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1041,12 +1041,12 @@
     "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1063,12 +1063,12 @@
     "iconStyle": "OUTLINED",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1085,12 +1085,12 @@
     "iconStyle": "OUTLINED",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1107,12 +1107,12 @@
     "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1129,12 +1129,12 @@
     "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1151,12 +1151,12 @@
     "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1173,12 +1173,12 @@
     "iconStyle": "MIXING",
     "description": "Material Design Icons is the official icon set from Google. The icons are designed under the material design guidelines.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-material2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-material2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1195,12 +1195,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1217,12 +1217,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1239,12 +1239,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1261,12 +1261,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1283,12 +1283,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1305,12 +1305,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1327,12 +1327,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1349,12 +1349,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1371,12 +1371,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1393,12 +1393,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1415,12 +1415,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1437,12 +1437,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1459,12 +1459,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1481,12 +1481,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1503,12 +1503,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1525,12 +1525,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1547,12 +1547,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1569,12 +1569,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1591,12 +1591,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1613,12 +1613,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1635,12 +1635,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1657,12 +1657,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1679,12 +1679,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1701,12 +1701,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1723,12 +1723,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1745,12 +1745,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1767,12 +1767,12 @@
     "iconStyle": "MIXING",
     "description": "7000+ Material Design Icons from the Community",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-materialdesign2-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1789,12 +1789,12 @@
     "iconStyle": "FILLED",
     "description": "WebFont Medical Icons - 72 ICONS (X2) specialized in the Clinical & Medical world FREE and easy to use!",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-medicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-medicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-medicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1811,12 +1811,12 @@
     "iconStyle": "OUTLINE",
     "description": "Free Collection of 300 Metro-Style Icons for Designers and Developers.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-metrizeicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-metrizeicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-metrizeicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1833,12 +1833,12 @@
     "iconStyle": "MIXING",
     "description": "Microns are a no-nonsense set of icons designed specifically for user interfaces. Rather than provide a large library of unnecessary glyphs, microns provide a sensible baseline of well-drawn icons that will cover 99% of your use cases for less than 10kb.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-microns-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-microns-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-microns-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1855,12 +1855,12 @@
     "iconStyle": "FILLED",
     "description": "This repository contains OCI artwork and logos in a variety of formats.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ociicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-ociicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-ociicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1877,12 +1877,12 @@
     "iconStyle": "OUTLINE",
     "description": "Octicons are a set of SVG icons built by GitHub for GitHub.\n\n",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-octicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-octicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-octicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1899,12 +1899,12 @@
     "iconStyle": "MIXING",
     "description": "An open source icon set with 223 marks in SVG, webfont and raster formats",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-openiconic-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-openiconic-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-openiconic-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1921,12 +1921,12 @@
     "iconStyle": "FILLED",
     "description": "A sleek webfont featuring your favourite payment methods",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-paymentfont-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-paymentfont-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-paymentfont-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1943,12 +1943,12 @@
     "iconStyle": "OUTLINE",
     "description": "An open source icon pack made with love by the PrestaShop design team. You can use it everywhere to make your designs and websites look awesome.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-prestashopicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-prestashopicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-prestashopicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1965,12 +1965,12 @@
     "iconStyle": "MIXING",
     "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-remixicon-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-remixicon-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-remixicon-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -1987,12 +1987,12 @@
     "iconStyle": "MIXING",
     "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-remixicon-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-remixicon-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-remixicon-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2009,12 +2009,12 @@
     "iconStyle": "FILLED",
     "description": "The stylish pictographic web font",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-runestroicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-runestroicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-runestroicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2031,12 +2031,12 @@
     "iconStyle": "FILLED",
     "description": "Simple Icons\n2466 Free SVG icons for popular brands",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-simpleicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-simpleicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-simpleicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2053,12 +2053,12 @@
     "iconStyle": "OUTLINE",
     "description": "Simple and Minimal Line Icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-simplelineicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-simplelineicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-simplelineicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2075,12 +2075,12 @@
     "iconStyle": "MIXING",
     "description": "Subway is a set of 306 pixel perfect crafted icons optimized for iOS, Apple Watch, Windows and BlackBerry 10.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-subway-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-subway-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-subway-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2097,12 +2097,12 @@
     "iconStyle": "OUTLINE",
     "description": "Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7 - available to the public, 100% FREE! You may use or distribute it for any purpose, whether personal or commercial. This icon set is a must have tool for web designers and developers.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-themify-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-themify-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-themify-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2119,12 +2119,12 @@
     "iconStyle": "OUTLINE",
     "description": "336 pixel perfect, all-purpose vector icons in a web-font kit",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-typicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-typicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-typicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2141,12 +2141,12 @@
     "iconStyle": "OUTLINE",
     "description": "1000+ Pixel-perfect vector icons and Iconfont for your next project.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-unicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2163,12 +2163,12 @@
     "iconStyle": "FILLED",
     "description": "1000+ Pixel-perfect vector icons and Iconfont for your next project.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-unicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2185,12 +2185,12 @@
     "iconStyle": "MIXING",
     "description": "1000+ Pixel-perfect vector icons and Iconfont for your next project.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-unicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-unicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2207,12 +2207,12 @@
     "iconStyle": "OUTLINE",
     "description": "Weather Icons is the only icon font and CSS with 222 weather themed icons, ready to be dropped right into Bootstrap, or any project that needs high quality weather, maritime, and meteorological based icons!",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-weathericons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-weathericons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-weathericons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2229,12 +2229,12 @@
     "iconStyle": "FILLED",
     "description": "",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-websymbols-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-websymbols-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-websymbols-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2251,12 +2251,12 @@
     "iconStyle": "FILLED",
     "description": "Glyph Icon Font from WebHostingHub\nHigh quality icons that are easy to use with Bootstrap, other CSS frameworks and in any web projects. They also work in desktop software such as Adobe Photoshop or Microsoft Word. They are perfect for use in mobile developement on Android or iOS devices.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-whhg-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-whhg-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-whhg-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2273,12 +2273,12 @@
     "iconStyle": "FILLED",
     "description": "Glyph Icon Font from WebHostingHub\nHigh quality icons that are easy to use with Bootstrap, other CSS frameworks and in any web projects. They also work in desktop software such as Adobe Photoshop or Microsoft Word. They are perfect for use in mobile developement on Android or iOS devices.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-whhg-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-whhg-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-whhg-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2295,12 +2295,12 @@
     "iconStyle": "OUTLINE",
     "description": "Free Windows 10 Icons",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-win10-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-win10-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-win10-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2317,12 +2317,12 @@
     "iconStyle": "MIXING",
     "description": "A set of free premium SVG icons for you to use on your digital products.",
     "installing": {
-      "gradle": "implementation 'org.kordamp.ikonli:ikonli-zondicons-pack:12.3.1'",
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-zondicons-pack:12.4.0'",
       "maven": {
         "dependency": {
           "groupId": "org.kordamp.ikonli",
           "artifactId": "ikonli-zondicons-pack",
-          "version": "12.3.1"
+          "version": "12.4.0"
         }
       }
     },
@@ -2330,5 +2330,247 @@
     "fontVersion": "20170712",
     "createdOn": "2023-01-01",
     "modifiedOn": "2023-02-01"
+  },
+  {
+    "module": "org.kordamp.ikonli.fontawesome6",
+    "title": "FontAwesome6",
+    "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome6-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-fontawesome6-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://fontawesome.com",
+    "fontVersion": "6.5.2",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "FontAwesomeBrands",
+    "id": "fontawesome6brands",
+    "iconStyle": "FILLED"
+  },
+  {
+    "module": "org.kordamp.ikonli.fontawesome6",
+    "title": "FontAwesome6",
+    "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome6-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-fontawesome6-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://fontawesome.com",
+    "fontVersion": "6.5.2",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "FontAwesomeRegular",
+    "id": "fontawesome6regular",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.fontawesome6",
+    "title": "FontAwesome6",
+    "description": "Take the hassle out of icons in your website.\nFont Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-fontawesome6-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-fontawesome6-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://fontawesome.com",
+    "fontVersion": "6.5.2",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "FontAwesomeSolid",
+    "id": "fontawesome6solid",
+    "iconStyle": "FILLED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsThinAL",
+    "id": "bytedanceiconsthinal",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsThinMZ",
+    "id": "bytedanceiconsthinmz",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsRegularAL",
+    "id": "bytedanceiconsregularal",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsRegularMZ",
+    "id": "bytedanceiconsregularmz",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsBoldAL",
+    "id": "bytedanceiconsboldal",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsBoldMZ",
+    "id": "bytedanceiconsboldmz",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsExtraBoldAL",
+    "id": "bytedanceiconsextraboldal",
+    "iconStyle": "OUTLINED"
+  },
+  {
+    "module": "org.kordamp.ikonli.bytedance",
+    "title": "BytedanceIcons",
+    "description": "IconPark provides over 2000 high-quality icons in 4 stroke weights: Thin, Regular, Bold, and ExtraBold.",
+    "installing": {
+      "gradle": "implementation 'org.kordamp.ikonli:ikonli-bytedance-pack:12.4.0'",
+      "maven": {
+        "dependency": {
+          "groupId": "org.kordamp.ikonli",
+          "artifactId": "ikonli-bytedance-pack",
+          "version": "12.4.0"
+        }
+      }
+    },
+    "url": "https://github.com/bytedance/iconpark",
+    "fontVersion": "1.3.0",
+    "createdOn": "2026-04-10",
+    "modifiedOn": "2026-04-10",
+    "name": "BytedanceIconsExtraBoldMZ",
+    "id": "bytedanceiconsextraboldmz",
+    "iconStyle": "OUTLINED"
   }
 ]
