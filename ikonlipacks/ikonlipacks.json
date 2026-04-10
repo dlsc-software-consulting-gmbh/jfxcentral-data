@@ -302,10 +302,10 @@
         }
       }
     },
-    "url": "http://vorillaz.github.io/devicons/",
+    "url": "https://github.com/devicons/devicon",
     "fontVersion": "1.8.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.elusive",
@@ -346,10 +346,10 @@
         }
       }
     },
-    "url": "http://www.entypo.com",
+    "url": "https://icongr.am/entypo",
     "fontVersion": "1.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.evaicons",
@@ -522,10 +522,10 @@
         }
       }
     },
-    "url": "http://fortawesome.github.io/Font-Awesome/",
+    "url": "https://fontawesome.com",
     "fontVersion": "4.7.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.fontawesome5",
@@ -808,10 +808,10 @@
         }
       }
     },
-    "url": "https://github.com/michaelampr/jam",
+    "url": "https://jam-icons.com/",
     "fontVersion": "3.0.0",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.ligaturesymbols",
@@ -2018,10 +2018,10 @@
         }
       }
     },
-    "url": "http://525icons.com/",
+    "url": "https://github.com/runestro/525icons",
     "fontVersion": "5.6",
     "createdOn": "2023-01-01",
-    "modifiedOn": "2023-02-01"
+    "modifiedOn": "2026-04-10"
   },
   {
     "module": "org.kordamp.ikonli.simpleicons",
