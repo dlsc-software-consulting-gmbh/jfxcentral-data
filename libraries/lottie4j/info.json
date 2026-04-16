@@ -1,4 +1,14 @@
 {
   "images": [
+    {
+      "path": "logo.png",
+      "title": "Project logo, also used as test animation",
+      "description": ""
+    },
+    {
+      "path": "fxfileviewer.png",
+      "title": "Lottie comparison test application",
+      "description": ""
+    }
   ]
 }
