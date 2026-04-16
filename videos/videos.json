@@ -1196,7 +1196,7 @@
   {
     "name": "SCell Integration for Optimized Justice Document Handling in Germany",
     "tags": "javafx, spreadsheet, office, integration, embedded",
-    "type": "component",
+    "type": "Component",
     "platform": "desktop",
     "description": "Unveil SCell's integration in bk.text for the German justice system, enhancing document creation, editing, and storage. Enjoy seamless background operations, a compact editing window, quick XLSX file access, and a standalone version for comprehensive editing, making bk.text more robust and user-friendly.",
     "id": "Df0Jo0sq_lQ",
@@ -1792,6 +1792,34 @@
     "publishedOn": "2026-02-19",
     "personIds": [
       "f.delporte"
+    ]
+  },
+  {
+    "name": "MelodyMatrix First Release LIVE",
+    "tags": "javafx, jdeploy",
+    "type": "Interview",
+    "platform": "Desktop",
+    "domain": "Music",
+    "description": "MelodyMatrix is a desktop app to look at music. In this video, the first release is published using jDeploy, GitHub Actions and Auto-Update with the help of Steve Hannah, the creator of jDeploy.",
+    "id": "_-IL7uHalIU",
+    "minutes": "63",
+    "createdOn": "2026-04-16",
+    "modifiedOn": "2026-04-16",
+    "publishedOn": "2026-04-16",
+    "personIds": [
+      "f.delporte",
+      "s.hannah"
+    ],
+    "toolIds": [
+      "jdeploy"
+    ],
+    "realworldIds": [
+      "melodymatrix"
+    ],
+    "libraryIds": [
+      "atlantafx",
+      "bentofx",
+      "lottie4j"
     ]
   }
 ]
