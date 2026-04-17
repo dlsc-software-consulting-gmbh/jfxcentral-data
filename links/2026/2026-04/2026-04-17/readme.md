@@ -1,20 +1,9 @@
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-## Core
-
-* 
-
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * **Frank Delporte** did the first release of [MelodyMatrix](https://melodymatrix.rocks/), live on camera, together with **Steve Hannah**, the creator of [jDeploy](https://www.jdeploy.com/). You can watch the [full video on YouTube](https://www.youtube.com/watch?v=_-IL7uHalIU) and find more information [in this blog post](https://webtechie.be/post/2026-04-16-first-release-of-melodymatrix-with-jdeploy/). MelodyMatrix is a desktop app to experience music in a new way with real-time MIDI recording, multiple visualization views, and powerful playback features. Perfect for musicians, educators, and music enthusiasts.
-
-## Games
-
-* 
+* [**Viktor Karpyuk** shared on LinkedIn](https://www.linkedin.com/posts/viktor-karpyuk_mongodb-opensource-developertools-ugcPost-7449866993488297985-sKxe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAMtmUkBuuAVyJKMU3vtXsADMtuaTKIO8IA): "_It started with a small frustration: Studio 3T Community Edition only allowed 3 database connections. That limitation kept getting in the way of real day-to-day work, so instead of working around it, I decided to build something simpler, lighter, and more practical for everyday MongoDB usage. That is how Mongo Explorer was born — a native MongoDB client focused on the things developers actually need: quick connections, easy browsing, solid querying, and a clean desktop experience without unnecessary overhead._" It's [available on GitHub](https://github.com/viktor-karpyuk/mongo-explorer).
 
 ## Components, Libraries, Tools
 
@@ -23,19 +12,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Podcasts, Videos, Books
 
 * [**Catherine Edelveis** published a new video](https://www.youtube.com/watch?v=Ytdo8OGEYFI): "_New on CyberJAR: Comparing Top OpenJDK Distributions. If you're looking for more than vanilla Java - JavaFX, Java 6 an 7, hardened container images, extended LTS support - check out this comparative summary._"
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
-
-## Miscellaneous
-
-*
-
-## JFX Central
-
-* 
+* [Live coding session with **Johannes Rabauer** and **Ryan Jarvinen**](https://www.youtube.com/watch?v=uvQwVpG3c5A): "_AI Coding with IBM Bob: Building a JavaFX Chess Game Live. In this live coding session we'll we explore IBM Bob, IBM’s new AI-first development environment designed to act as a true software engineering partner rather than just an autocomplete tool. Bob integrates directly into the IDE and supports chat-driven development, real-time code review, and security-aware refactoring, while understanding your codebase and intent. It is purpose-built for tasks like Java modernization, large-scale refactoring, and enterprise-grade development workflows. The goal of this session is simple: Use a limited trial budget (40 Bobcoins) to build a functional JavaFX chess game and evaluate how far an AI IDE can realistically take us._"
+* [And also a finished chess game in 3D by **Olivier Pillods**](https://www.linkedin.com/posts/olivier-pillods-9286a0113_javajavafx-3d-chess-final-project-2023-ugcPost-7450104328989663232-MdE6): "_We were asked to replicate the classic chess game with JavaFX, and to add new pieces and rule variants. I was the only student that decided to make it 3D. Developed my own obj file importer. I created piece animations and colored interactions for movement availability. To finish, I made a graveyard system, and a rollback functionality that remembers all until start._"
