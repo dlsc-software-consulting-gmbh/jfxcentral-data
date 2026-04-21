@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* Related to the three-monthly security update, a merge request has been created in the OpenJFX repo with the [release notes for 26.0.1](https://github.com/openjdk/jfx26u/pull/23/changes) with seven fixes and one known issue: "_Media Playback Does Not Work on Ubuntu 26.04. This is because JavaFX Media does not support libavcodec version 62. Support will be added with [JDK-8378510](https://bugs.openjdk.org/browse/JDK-8378510)._".
 
 ## SceneBuilder
 
