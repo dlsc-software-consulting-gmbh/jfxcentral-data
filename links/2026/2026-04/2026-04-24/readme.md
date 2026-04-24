@@ -2,41 +2,22 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
+* Blog post by Gluon: [April 2026 Critical Patch Update for OpenJFX Now Available](https://gluonhq.com/april-2026-critical-patch-update-for-openjfx-now-available/). With a [message shared by **Johan Vos**](https://bsky.app/profile/johanvos.bsky.social/post/3mjzkzn6zzs2v): "_Enjoy the latest and safest releases of JavaFX! And if you want to help us building/distributing these releases, consider our [LTS support at gluonhq.com/lts](https://gluonhq.com/services/javafx-support/#pricing)._"
 * Related to the three-monthly security update, a merge request has been created in the OpenJFX repo with the [release notes for 26.0.1](https://github.com/openjdk/jfx26u/pull/23/changes) with seven fixes and one known issue: "_Media Playback Does Not Work on Ubuntu 26.04. This is because JavaFX Media does not support libavcodec version 62. Support will be added with [JDK-8378510](https://bugs.openjdk.org/browse/JDK-8378510)._".
-
-## SceneBuilder
-
-* 
-
-## Applications
-
-* 
-
-## Games
-
-* 
+* Still on Java 8 with your JavaFX application and using Amazon Corretto? Apparently the [April 2026 release is the last one Amazon is providing with JavaFX 8 support](https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-corretto-april-2026-quarterly-updates/).
 
 ## Components, Libraries, Tools
 
 * [**Christopher Schnick** shared info about KickstartFX v1.1](https://www.reddit.com/r/JavaFX/comments/1sr105r/kickstartfx_v11_the_most_advanced_template_for/): "_A few months ago I released a ready-to-use application template called [KickstartFX](https://github.com/xpipe-io/kickstartfx). You can clone it and get started instantly or try out the pre-built releases on GitHub. The code and buildscripts are the same you find in a real-world production application as most of them are taken straight from one, in this case [XPipe](https://github.com/xpipe-io/xpipe). Since then, quite a few additions and bug fixes have been integrated._"
-* **Frank Delporte** blogged about Lottie4J, a library for parsing Lottie animations as Java objects and playing them as JavaFX animations: "_Lottie4J had a unit test I marked 'can not run on CI, because it requires a display.' JavaFX 26 fixed that. There's a built-in headless platform now, one JVM flag, and GitHub Actions just work without any display setup. There's a small catch with Java version juggling (JavaFX 26 requires Java 24+, Lottie4J targets Java 21), but a Maven profile handles it cleanly. [Full write-up here](https://webtechie.be/post/2026-04-20-lottie4j-unit-test-with-headless-javafx/)._"
+* [**Frank Delporte** blogged about headless testing of Lottie4J](https://webtechie.be/post/2026-04-20-lottie4j-unit-test-with-headless-javafx/), a library for parsing Lottie animations as Java objects and playing them as JavaFX animations: "_Lottie4J had a unit test I marked 'can not run on CI, because it requires a display.' JavaFX 26 fixed that. There's a built-in headless platform now, one JVM flag, and GitHub Actions just work without any display setup. There's a small catch with Java version juggling (JavaFX 26 requires Java 24+, Lottie4J targets Java 21), but a Maven profile handles it cleanly._"
+* [**Dirk Lemmermann** published a FlexGanttFX Showcase Application](https://www.reddit.com/r/JavaFX/comments/1sti4zh/flexganttfx_showcase_application/) : "_  created a jdeploy installer for the FlexGanttFX showcase application. You can [find it here](https://www.jdeploy.com/~flexganttfxshowcase). The installer will allow you to run the demo locally and the installation will auto-update whenever I push a new release. FlexGanttFX is a framework for building UIs for planning and scheduling applications. The showcase application contains a couple of demos and feature samples. If there is anything you would like to see being added to the demos then please let me know and I will try to come up with an example. I will soon add a JPro-based website that will allow you to run the same application in your browser._"
 
 ## Podcasts, Videos, Books
 
 * **Frank Delporte** was "_struggling with the BentoFX layout in MelodyMatrix, and called **Matt Coley**, the person who wrote it. We used ScenicView to inspect the running JavaFX scene graph, cleaned up some AI-generated code, and possibly found a bug. Honest and practical session._" Watch the [video on YouTube](https://www.youtube.com/watch?v=grwzIWWZMNw) and check the [blog post with more info and links](https://webtechie.be/post/2026-04-21-improving-melodymatrix-ui-with-bentofx/).
+* Video by **Lee Wyatt**: [JavaFX Hot Reload in IntelliJ — One Click, Zero Code Changes (FxmlKit + JavaFX Tools) ](https://www.youtube.com/watch?v=ycj1X_TwfeU): "_JavaFX hot reload without touching your production code. FxmlKit 1.5.1 introduces a system property to enable dev mode externally. JavaFX Tools 2.1.1 takes it one step further — just click the purple Runner button in IntelliJ IDEA, and your app starts with FXML/CSS hot reload enabled automatically. No need to call FxmlKit.enableDevelopmentMode() in your code. No risk of shipping dev mode to production. No extra configuration._"
 
 ## Conferences, Presentations
 
-*
+* [Picture shared by **Wolfgang Weigend**](https://bsky.app/profile/wolfgangweigend.bsky.social/post/3mjz5326mxk2p): "_A nice conversation about various topics such as Java dependencies, JUnit and also JavaFX at the oracle Java booth at the JCON 2026 conference in Cologne with Christian Stein and Adam Bien._"
 
-## Tutorials
-
-*
-
-## Miscellaneous
-
-*
-
-## JFX Central
-
-* 
