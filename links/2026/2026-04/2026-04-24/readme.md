@@ -19,5 +19,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Conferences, Presentations
 
-* [Picture shared by **Wolfgang Weigend**](https://bsky.app/profile/wolfgangweigend.bsky.social/post/3mjz5326mxk2p): "_A nice conversation about various topics such as Java dependencies, JUnit and also JavaFX at the oracle Java booth at the JCON 2026 conference in Cologne with Christian Stein and Adam Bien._"
+* [Picture shared by **Wolfgang Weigend**](https://bsky.app/profile/wolfgangweigend.bsky.social/post/3mjz5326mxk2p): "_A nice conversation about various topics such as Java dependencies, JUnit and also JavaFX at the oracle Java booth at the JCON 2026 conference in Cologne with **Christian Stein** and **Adam Bien**._"
 
