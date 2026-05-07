@@ -10,7 +10,10 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [Message from JabRef](https://foojay.social/@jabref/116501474018435951): "_We are excited that we are participating in GSOC2026 with 3 projects:_"
+  * Improved handling of older documents with OCR and AI-powered tools.
+  * Improved LibreOffice-JabRef integration with one particular aspect of compatibility with other reference managers.
+  * Improving startup times for JabKit by leveraging the power of GraalVM
 
 ## Games
 
@@ -19,7 +22,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Components, Libraries, Tools
 
 * [Screenshot shared by **Dirk Lemmermann**](https://bsky.app/profile/dlemmermann.bsky.social/post/3ml4e55poms24): "_GemsFX 4.0.4 is out on Maven Central with fixes to the styling of the InfoCenterView. Try it out via the [installer](www.jdeploy.com/~gemsfxdemo). Browse the available controls at [gemsfx.dlsc.com](https://gemsfx.dlsc.com/)._"
-* [Message shared by **Austin Lehman**](https://bsky.app/profile/cupofcode.bsky.social/post/3mkz6awptu22i): "_[Aussom-Lang](https://aussom-lang.com/) now has support for JavaFX, GTK4, a Java native interface with dynamic Jar loading, and native library interface via Panama. Quite a bit that can be done with it now. Aussom is a safe, sandboxed scripting language for the JVM. Embed it in your Java app, run it on the server with Aussom Server, or use it in the browser with Aussom-Script._"
+* [Message shared by **Austin Lehman**](https://bsky.app/profile/cupofcode.bsky.social/post/3mkz6awptu22i): "_[Aussom-Lang](https://aussom-lang.com/) now has support for JavaFX, GTK4, a Java native interface with dynamic Jar loading, and native library interface via Panama. Quite a bit that can be done with it now. Aussom is a safe, sandboxed scripting language for the JVM. Embed it in your Java app, run it on the server with Aussom Server, or use it in the browser with Aussom-Script._" A JavaFX example is [available in the documentation](https://aussom-lang.com/docPage?product=aussom&page=written/javafx-example-simple.md&title=JavaFX%20Example).
+* **Frank Delporte** announced "_V1.2.3 of Lottie4J, the library for parsing Lottie animations as Java objects and playing them as JavaFX animations. In this release: improved unit tests, data model and player improvements, and more! All info [in the release notes](https://lottie4j.com/releases/index.html)._"
 
 ## Podcasts, Videos, Books
 
