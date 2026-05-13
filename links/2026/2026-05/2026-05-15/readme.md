@@ -27,7 +27,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Conferences, Presentations
 
-*
+* On June 16th, the [JFX Adopters Meeting](https://www.zeiss.com/meditec/en/news-events/events/jfx-adopters-meeting-2026.html) will take place in Munich, Germany. "_We will be hosting a JFX Adopters Meeting to exchange information on current projects and future plans. Representatives of the JavaFX 'ecosystem' will also be there to help develop a viable picture of JavaFX. The success of future developments depends on the contribution of adopter companies making our community stronger._"
 
 ## Tutorials
 
