@@ -11,8 +11,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-* New impressive [video by **Florian Enner** of the JavaFX HEBI Charts](https://www.youtube.com/watch?v=TlaJmlVQf98) showing 50 KHz update, 100 subplots, chart with 1000 lines, and more. You can find the [example repo on GitHub](github.com/HebiRobotics/hebi-charts-examples).
-
+* New impressive [video by **Florian Enner** of the JavaFX HEBI Charts](https://www.youtube.com/watch?v=TlaJmlVQf98) showing 50 KHz update, 100 subplots, chart with 1000 lines, and more. You can find the [example repo on GitHub](https://github.com/HebiRobotics/hebi-charts-examples).
 
 ## Tutorials
 
