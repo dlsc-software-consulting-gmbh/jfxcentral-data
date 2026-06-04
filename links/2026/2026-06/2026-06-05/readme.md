@@ -23,7 +23,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-* Video by [**Ethan Lee**](https://bsky.app/profile/ingstudios.dev/post/3mncdhcnbds2f)= "_I Built My Own Agentic AI Browser now with Java CEF, Swing, and embedded JavaFX components. [Go watch it on YouTube](Java CEF, Swing, and embedded JavaFX components)._"
+* [**Frank Delporte** published a blog and video](https://webtechie.be/post/2026-06-04-interview-with-naail-from-lottiefiles/): "_Lottie4J started as a single question: can JavaFX render Lottie animations without a WebView? That question turned into a library. The library attracted pull requests. And now I had a 50-minute conversation with **Naail Abdul Rahman**, R&D engineer at LottieFiles, to talk about where the format is heading and what that means for a Java implementation._"
+* Video by [**Ethan Lee**](https://bsky.app/profile/ingstudios.dev/post/3mncdhcnbds2f): "_I Built My Own Agentic AI Browser now with Java CEF, Swing, and embedded JavaFX components. [Go watch it on YouTube](https://www.youtube.com/watch?v=WzU8Cnl3kE0)._"
 
 ## Conferences, Presentations
 
