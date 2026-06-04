@@ -2,7 +2,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* [Message by **Johan Vos**](https://bsky.app/profile/johanvos.bsky.social/post/3mnans5s67c2u): "_I've spent most of today (and the past few days) on JavaFX 17/21/25 LTS. It's a lot of work, but almost a pleasure because the tools/procedures are so clear. Skara is extremely helpful with backports. And it's deterministic. JavaFX is very well maintained._"
+* [**Dirk Lemmermann** shared screenshots](https://bsky.app/profile/dlemmermann.bsky.social/post/3mncofbca722s) of the new `StageStyle.EXTENDED`: "_I recently updated the FlexGanttFX showcase application to use the new HeaderBar component and StageStyle.EXTENDED type. This results in a very clean and professional looking UI._"
 
 ## SceneBuilder
 
@@ -22,7 +23,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* Video by [**Ethan Lee**](https://bsky.app/profile/ingstudios.dev/post/3mncdhcnbds2f)= "_I Built My Own Agentic AI Browser now with Java CEF, Swing, and embedded JavaFX components. [Go watch it on YouTube](Java CEF, Swing, and embedded JavaFX components)._"
 
 ## Conferences, Presentations
 
