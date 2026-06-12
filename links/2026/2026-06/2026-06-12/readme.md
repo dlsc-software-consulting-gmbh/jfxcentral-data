@@ -1,41 +1,11 @@
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-## Core
-
-* 
-
-## SceneBuilder
-
-* 
-
 ## Applications
 
-* 
-
-## Games
-
-* 
-
-## Components, Libraries, Tools
-
-*
+* [**Gufran Thakur** created a simple, minimal Canvas Application in JavaFX](https://www.reddit.com/r/java/comments/1u10ble/created_a_simple_minimal_canvas_application_in/): "_After like a year finally getting back to JavaFX, decided to make an excalidraw inspired app for fun. It's a very minimal canvas app with basic features. [Source code is on ExplainFX](https://github.com/gufranthakur/ExplainFX). Features: Drawing, Create Squares and Circles, Text, Vary stroke size/font size,... Please let me know if you have any questions!_"
+* **Max Xiong** continuous his "Building In Public" journey with for his DataCollie application. [Follow him on Bluesky for regular updates and screenshots](https://bsky.app/profile/maxiong.bsky.social/post/3mnulx7aomc2u): "_Tonight I implemented the custom UI styling for Project context menu items._"
 
 ## Podcasts, Videos, Books
 
-*
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
-
-## Miscellaneous
-
-*
-
-## JFX Central
-
-* 
+* [**Pedro Duque Vieira** shared a video on LinkedIn](https://www.linkedin.com/posts/pedro-duque-vieira-2644038_healthcare-healthtech-healthcareit-ugcPost-7467911189063245824-igkN/): "_New capability added to the IKE Knowledge Layout Editor: display semantics can now be viewed in a table format. This provides a more structured way to inspect semantic information, which can be especially useful when working with large numbers of semantics._"
+* A live session of 2,5 hours with **Johannes Rabauer** and **Anton Arhipov**: [Building a MIDI Visualizer with Junie, IntelliJ and JavaFX](https://www.youtube.com/live/LekXCf-FJ00): "_AI assisted development is becoming a core part of modern software engineering. But what does that actually look like in a real Java project? In this live coding session, we explore AI powered development inside IntelliJ IDEA while building a JavaFX application that visualizes MIDI music through animated waveform based visualizations. Rather than treating AI as a code generator, we will use Junie and other IntelliJ AI capabilities as development partners throughout the process. Together, we'll explore how AI can help with architecture, implementation, refactoring, testing, and day to day development decisions._"
