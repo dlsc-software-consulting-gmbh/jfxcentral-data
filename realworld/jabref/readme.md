@@ -1,6 +1,9 @@
 JabRef is an open-source, cross-platform citation and reference management tool.
 
 Stay on top of your literature: JabRef helps you to collect and organize sources, find the paper you need and discover the latest research.
+It reads and writes BibTeX (`.bib`) files and is therefore widely known in the LaTeX field.
+
+The development takes place on [GitHub](https://github.com/jabref/jabref) with a strong [emphasis on education friendly](https://devdocs.jabref.org/teaching.html).
 
 ## Collect
 
