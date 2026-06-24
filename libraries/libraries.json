@@ -2484,5 +2484,27 @@
     "repository": "https://github.com/brcolow/candlefx",
     "githubAccount": "brcolow",
     "githubProject": "candlefx"
+  },
+  {
+    "id": "svgnode",
+    "name": "SvgNode",
+    "summary": "Lightweight JavaFX node for rendering SVG paths at any size.",
+    "tags": "svg, icon, node, fxml, css",
+    "description": "SvgNode is a lightweight, optimized JavaFX node for rendering SVG paths at any size. It fully supports FXML, property binding, and CSS styling, and works with SVG libraries that expose their icons as paths.",
+    "documentation": "https://github.com/Maran23/svgnode#readme",
+    "repository": "https://github.com/Maran23/svgnode",
+    "license": "MIT",
+    "homepage": "",
+    "javadocs": "",
+    "githubAccount": "Maran23",
+    "githubProject": "svgnode",
+    "readme": "readme.md",
+    "issueTracker": "https://github.com/Maran23/svgnode/issues",
+    "createdOn": "2026-06-24",
+    "modifiedOn": "2026-06-24",
+    "groupId": "tools.maran",
+    "artifactId": "svgnode",
+    "logoAvailable": "false",
+    "ensemble": "false"
   }
 ]
