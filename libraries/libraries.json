@@ -2488,7 +2488,7 @@
   {
     "id": "svgnode",
     "name": "SvgNode",
-    "summary": "Lightweight JavaFX node for rendering SVG paths at any size.",
+    "summary": "Lightweight JavaFX node for rendering SVG paths at any size",
     "tags": "svg, icon, node, fxml, css",
     "description": "SvgNode is a lightweight, optimized JavaFX node for rendering SVG paths at any size. It fully supports FXML, property binding, and CSS styling, and works with SVG libraries that expose their icons as paths.",
     "documentation": "https://github.com/Maran23/svgnode#readme",
