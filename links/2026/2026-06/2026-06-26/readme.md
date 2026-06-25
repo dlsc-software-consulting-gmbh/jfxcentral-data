@@ -25,6 +25,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
   and events inside JavaFx Desktop Applications. I could use a few
   eyes/ideas before I cut an initial release and stabilize the API._"
 * [**techsenger** published ShellFX on GitHub Topics (recently updated)](https://github.com/topics/javafx-library?o=desc&s=updated): a platform for building JavaFX applications using an extended MVP pattern. [Source repo](https://github.com/techsenger/shellfx) (updated June 17, 2026). Part of the growing Techsenger JavaFX library ecosystem (alongside CEFFX, TabPanePro, PatternFX, StagePro, etc.).
+* [FX Flow 0.6.1](https://github.com/int4-org/FX/releases/tag/0.6.1) got released (June 19–21): declarative, fluent UI library for JavaFX. Adds validation support for atomic multi-value updates. More info on on [Reddit/r/JavaFX](https://www.reddit.com/r/JavaFX/comments/1uf8l0h/fx_flow_061_released_declarative_ui_building_for/).
 
 ## Podcasts, Videos, Books
 
