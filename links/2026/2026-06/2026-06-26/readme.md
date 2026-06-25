@@ -44,4 +44,5 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * Library: [SvgNode](https://www.jfx-central.com/libraries/svgnode), a lightweight JavaFX node for rendering SVG paths at any size. Fully supports FXML, property binding, and CSS styling.
