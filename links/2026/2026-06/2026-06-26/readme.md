@@ -24,6 +24,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * **Jonathan S. Fisher** is working on [DiFX, a CDI / Dependency Injection For JavaFX](https://github.com/exabrial/difx): "_The goal is to have CDI backed beans
   and events inside JavaFx Desktop Applications. I could use a few
   eyes/ideas before I cut an initial release and stabilize the API._"
+* [**techsenger** published ShellFX on GitHub Topics (recently updated)](https://github.com/topics/javafx-library?o=desc&s=updated): a platform for building JavaFX applications using an extended MVP pattern. [Source repo](https://github.com/techsenger/shellfx) (updated June 17, 2026). Part of the growing Techsenger JavaFX library ecosystem (alongside CEFFX, TabPanePro, PatternFX, StagePro, etc.).
 
 ## Podcasts, Videos, Books
 
