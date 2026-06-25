@@ -32,7 +32,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Conferences, Presentations
 
-*
+* Apparently, the JFX Adopters Meeting 2026 led to a pull request by **Marius Hanl** in the OpenJFX repository: [8386663: Stylesheet/StyleClass list should be lazily initialized](https://github.com/openjdk/jfx/pull/2191). Thanks, [**Oliver Kopp** for sharing this info](https://mastodon.acm.org/@koppor/116810873255149882)
 
 ## Tutorials
 
