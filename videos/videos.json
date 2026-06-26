@@ -1821,5 +1821,21 @@
       "bentofx",
       "lottie4j"
     ]
+  },
+  {
+    "name": "JavaFX In Action with David Gutierrez about JMathAnim",
+    "tags": "JFXInAction, javafx, tools",
+    "type": "JFX In Action",
+    "platform": "Desktop",
+    "domain": "Education",
+    "description": "JMathAnim is a Java library and UI built on JavaFX that lets you create animated mathematical visualizations. The goal is simple: make it easy to build videos that explain mathematical concepts through animation. It’s inspired by the kind of content you see on YouTube channels like 3Blue1Brown.",
+    "id": "pb54youm6AM",
+    "minutes" : "17",
+    "createdOn": "2026-06-25",
+    "modifiedOn": "2026-06-25",
+    "publishedOn": "2026-06-25",
+    "personIds": [
+      "f.delporte"
+    ]
   }
 ]
