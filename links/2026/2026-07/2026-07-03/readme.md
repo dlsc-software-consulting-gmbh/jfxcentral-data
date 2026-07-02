@@ -18,11 +18,11 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* [**Frank Delporte** blogged about a big rendering upgrade for Lottie4J](https://webtechie.be/post/closing-the-visual-gap-between-the-official-lottie-webplayer-and-lottie4j/): "_My goal was to make the JavaFX output match the official LottieFiles web player as closely as possible, pixel for pixel. ... After the improvements, most of the animations used in the test now hit 99.5%+ similarity with the reference!_"
 
 ## Podcasts, Videos, Books
 
-*
+* **Helal Anwar** published a new [video with the progress he made in his student management app](https://www.youtube.com/watch?v=XiHcp-WseBE).
 
 ## Conferences, Presentations
 
