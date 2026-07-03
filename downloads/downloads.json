@@ -410,36 +410,23 @@
   {
     "id": "logorrr",
     "name": "LogoRRR",
-    "tags": "log, log files, visualization, log file analysis, logs",
-    "summary": "Log file visualization.",
-    "description": "_LogoRRR_ is a tool written in JavaFX to analyze log files. Streamline troubleshooting - Cross-platform log analysis with easy drag-and-drop, interactive filtering, and real-time monitoring.",
+    "tags": "log, logs, log files, log viewer, log analysis, log analyzer, log file analysis, visual log viewer, visualization, text analysis, troubleshooting, monitoring, real-time monitoring, filtering, search, desktop, macos, windows, linux, javafx",
+    "summary": "Visual desktop log viewer and analyzer for large local log files.",
+    "description": "_LogoRRR_ is a JavaFX desktop log viewer and analyzer for macOS, Windows, and Linux. It keeps log data local while helping developers and operations teams open large log files, ZIP archives, and directories; visualize dense logs as color-coded blocks; search and filter entries interactively; follow live updates; and spot errors, recurring patterns, and time-based clusters faster.",
     "homepage": "https://www.logorrr.app/",
-    "repository": "https://github.com/rladstaetter/logorrr",
     "downloadType": "APPLICATION",
     "createdOn": "2021-12-17",
-    "modifiedOn": "2024-01-11",
+    "modifiedOn": "2026-07-03",
     "files": [
       {
         "name": "Windows Installer (EXE)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/24.2.0/LogoRRR-24.2.0-installer.exe",
+        "url": "https://www.logorrr.app/downloads/26.2.0/LogoRRR-26.2.0-installer.exe",
         "fileName": "",
         "package": "EXE"
       },
       {
-        "name": "MacOsX (Appstore)",
-        "url": "https://apps.apple.com/at/app/logorrr/id1583786769?l=en&mt=12",
-        "fileName": "",
-        "package": "PKG"
-      },
-      {
         "name": "Linux ARM64 (DEB)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/24.2.0/logorrr_24.2.0_arm64.deb",
-        "fileName": "",
-        "package": "DEB"
-      },
-      {
-        "name": "Linux x64 (DEB)",
-        "url": "https://github.com/rladstaetter/LogoRRR/releases/download/24.2.0/logorrr_24.2.0_amd64.deb",
+        "url": "https://www.logorrr.app/downloads/26.2.0/logorrr_26.2.0_arm64.deb",
         "fileName": "",
         "package": "DEB"
       }
