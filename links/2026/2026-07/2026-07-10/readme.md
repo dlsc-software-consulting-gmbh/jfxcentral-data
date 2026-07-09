@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Frank Delporte** announced a new release of MelodyMatrix](https://bsky.app/profile/did:plc:jx7h5s74cqipmtc7zrb5224m/post/3mq6xaeph7c2p): "_Looking at MIDI music is now possible in multiple languages with release 1.1.0 of MelodyMatrix. And the [website got totally reworked](https://melodymatrix.rocks/), is more flashy now, and also available in multiple languages. More updates coming soon..._"
 
 ## Games
 
