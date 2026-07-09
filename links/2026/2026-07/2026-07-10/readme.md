@@ -18,7 +18,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* [**Frank Delporte** released Lottie4J v1.2.5](https://foojay.social/@lottie4j/116890414437899888) with many rendering accuracy fixes: "_The JavaFX animations are now more closely aligned with the official LottieFiles web player. Most test files reach the 99,5% similarity goal._" All info [on the website](https://lottie4j.com/status/2026/20260709-release-1.2.5/).
 
 ## Podcasts, Videos, Books
 
