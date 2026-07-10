@@ -2,11 +2,10 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
-
-## SceneBuilder
-
-* 
+* From the OpenJFX mailing list: [**Marius Hanl** was appointed as a new OpenJFX Reviewer](https://mail-archive.com/openjfx-dev@openjdk.org/msg27455.html), as announced by **Michael Strauß** on July 4, 2026. Marius has been an active contributor to the OpenJFX project, most recently submitting the [Stylesheet/StyleClass lazy initialization PR](https://github.com/openjdk/jfx/pull/2191) and leading tests improvements.
+* From the OpenJFX mailing list: **Kevin Rushforth** [opened the review for the JavaFX 26.0.2 release notes](https://mail-archive.com/openjfx-dev@openjdk.org/msg27475.html) (`[jfx26u] RFR: 8387774: Create release notes for JavaFX 26.0.2`), for the upcoming **JavaFX update release** (planned July 21, 2026). This is the first update release of the JavaFX 26 train.
+* Early-Access Builds of JavaFX 27 (to be released in September) are available on [jdk.java.net/javafx27](https://jdk.java.net/javafx27/) and from the [Gluon website](https://gluonhq.com/products/javafx/#downloads).
+* Both JavaFX 26 and 27 need at least JDK 24 to run. 
 
 ## Applications
 
@@ -22,20 +21,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
-
-## Miscellaneous
-
-*
-
-## JFX Central
-
-* 
+* [**Austin Lehman** announced](https://bsky.app/profile/cupofcode.bsky.social/post/3mqadlpurrc2y): "_Aussom CLI 1.2.0 is now available for download along the first free [PDF book 'Building Desktop Applications in Aussom with JavaFX'](https://aussom-lang.com/books)!_"
