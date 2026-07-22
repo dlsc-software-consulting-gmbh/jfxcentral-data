@@ -22,7 +22,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* [**Johannes Rabauer** shared a video](https://bsky.app/profile/rabauer.dev/post/3mqyzcln42w24): "_If you are interested in playing around with midi devices and files, check out melodymatrix.rocks. It's free and quite fun :) **Frank Delporte** built this with his son, which is such a great idea on it's own! #JavaFX #MIDI #Piano_"
 
 ## Conferences, Presentations
 
