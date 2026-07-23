@@ -39,4 +39,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* New content on JFX Central:
+  * Library: [Sheetmusic4J](https://www.jfx-central.com/libraries/sheetmusic4j), a Java library to parse MusicXML and render sheet music natively in JavaFX.
+
+
