@@ -284,6 +284,10 @@
     "tags": "software development, consulting, teaching, tutorials, writing",
     "createdOn": "2025-07-09",
     "consulting": "true",
-    "freelancing": "true"
+    "freelancing": "true",
+    "libraryIds": [
+      "lottie4j",
+      "sheetmusic4j"
+    ]
   }
 ]

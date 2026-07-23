@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "path": "logo.png",
+      "title": "Project logo",
+      "description": ""
+    },
+    {
+      "path": "screenshot-demo-app.png",
+      "title": "Sheetmusic4J fxdemo application showing a rendered score alongside its inspection pane",
+      "description": ""
+    },
+    {
+      "path": "melodymatrix-screenshot.png",
+      "title": "MelodyMatrix staff notation view, rendered with Sheetmusic4J",
+      "description": ""
+    }
+  ]
+}

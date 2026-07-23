@@ -157,7 +157,8 @@
       "foojay"
     ],
     "libraryIds": [
-      "lottie4j"
+      "lottie4j",
+      "sheetmusic4j"
     ],
     "createdOn": "2021-05-18",
     "modifiedOn": "2023-04-07"
