@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* [**nlisker** shared on Reddit](https://www.reddit.com/r/java/comments/1va4vsm/jextractgui_a_javafx_gui_wrapper_for_the_jextract/): jextractGUI - A JavaFX GUI wrapper for the jextract tool. "_It's written in JavaFX and embeds jextract (and its libclang) within it. Since jextract is in early-access, newer versions broke it and I needed to do some rewrites since I first conjured it a couple of years ago. It's now aligned with the current latest build - 25-jextract+2-4 (2025/11/25)._" Project is [available on GitHub](https://github.com/nlisker/jextractGUI)?
+* [**nlisker** shared on Reddit](https://www.reddit.com/r/java/comments/1va4vsm/jextractgui_a_javafx_gui_wrapper_for_the_jextract/): jextractGUI - A JavaFX GUI wrapper for the jextract tool. "_It's written in JavaFX and embeds jextract (and its libclang) within it. Since jextract is in early-access, newer versions broke it and I needed to do some rewrites since I first conjured it a couple of years ago. It's now aligned with the current latest build - 25-jextract+2-4 (2025/11/25)._" Project is [available on GitHub](https://github.com/nlisker/jextractGUI).
 
 ## Components, Libraries, Tools
 
