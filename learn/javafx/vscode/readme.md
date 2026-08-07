@@ -9,9 +9,9 @@ This document contains the following content:
 
 # Setting up the VSCode environment for JavaFX
 
-This guide will install the following software:
+In this guide, you will install the following software:
 
-- OpenJDK 21
+- OpenJDK 25
 - Maven 3
 - Visual Studio Code and the necessary extensions
 - Scene Builder
@@ -20,11 +20,16 @@ Installation methods differ depending on the operating system.
 
 ## Setting up VSCode for JavaFX on Windows
 
+You may be using Windows on Arm. 
+Although Java has an Arm version, the JavaFX libraries fetched via pom.xml do not support the Arm version of Java.
+Therefore, please install the x64 version of Java.
+In addition, some parts differ from Windows on x64, so please read the notes for each section.
+
 ### Step 1. Check your Java version
 
 First, check if Java is installed on your system.
 Search your Windows OS for the **Terminal** app.
-You can do this by clicking the Start menu and typing “Terminal” in the search bar.
+You can do this by clicking the Start menu and typing "Terminal" in the search bar.
 
 Open the "Terminal" (Windows PowerShell) and enter the following command:
 ```
@@ -34,72 +39,49 @@ java -version
 
 If an error is displayed, Java is not installed on your PC.
 Otherwise, the installed version of Java will be displayed.
-In the example in the photo above, openjdk version "21.0.6" is shown.
+In the example in the screenshot above, openjdk version "25.0.4" is shown.
 
-If the version is less than 21, please uninstall Java.
-The minor version numbers (the x.x part of 21.x.x) can be anything.
-If Java 21 or higher is already installed, no installation is necessary; proceed to **Step 4**.
+If the major version is less than 25, please uninstall Java.
+The minor version number (the x.x part of 25.x.x) can be anything.
+If Java 25 or higher is already installed, no installation is necessary; proceed to **Step 3**.
 
-### Step 2. Install Scoop
+### Step 2. Install OpenJDK
 
-If you are unfamiliar with setting up development environments, we recommend using **Scoop**. [Scoop](https://scoop.sh) is a package manager for Windows that automatically installs the necessary software for development and configures it for use.
+The first thing we need to install for Java development is OpenJDK. JDK stands for Java Development Kit.
 
-To install Scoop, copy the two lines below, paste them into Terminal (PowerShell), and press the Enter key to execute them.
+There are many distributions of OpenJDK. Any distribution will work, but this guide uses Eclipse Temurin.
 
-```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
-```
+Please download Temurin from https://adoptium.net/temurin and install it.
 
-![Install Scoop](scoop.png)
+In the Custom Setup dialog during installation, make sure to select the "Set JAVA_HOME variable" option.
 
-### Step 3. Install Java (OpenJDK 21)
+Even if you are using Windows on Arm, please install the x64 version of Temurin.
 
-For those just starting to learn Java, OpenJDK is recommended as it is a free Java Development Kit (JDK).
-
-There are many distributions of OpenJDK. Any distribution will work, but this guide uses Microsoft's distribution.
-
-Installing Java involves running the following three commands in your Terminal.
-
-```
-scoop install git
-scoop bucket add java
-scoop install microsoft21-jdk
-```
-If you know that **git** is already installed on your PC, you can skip the first `scoop install git` command.
-
-Scoop automatically adds the **JAVA_HOME** value and the **Path** to the Java executables into the "User Environment Variables" of your Windows OS. If you don't use Scoop, you need to add them manually.
-
-### Step 4. Install Maven 3
+### Step 3. Install Maven 3
 
 Next, we will install **Maven**, a build tool for Java.
 
 A build tool manages the libraries needed for development projects and enables automatic building.
 In this guide, we will use Maven to set up an environment for developing and running JavaFX in your projects.
 
-If you have already installed Scoop in Step 2, installing Maven is straightforward.
-Please run the following two commands in your terminal.
-```
-scoop install maven
-[Environment]::SetEnvironmentVariable("MAVEN_HOME", "$env:USERPROFILE\scoop\apps\maven\current", "User")
-```
-You don't need to configure anything further.
+Please download a zip file from the [Maven official site](https://maven.apache.org), extract it somewhere on your PC, and add **MAVEN_HOME** to "User Environment Variables". These steps are straightforward for those familiar with development but may be a bit troublesome for beginners. Nowadays, you can simply ask an AI chatbot what Windows environment variables are and how to set them.
 
-If you don't use Scoop, you need to download a zip file from the [Maven official site](https://maven.apache.org), extract it somewhere on your PC, and add **MAVEN_HOME** to "User Environment Variables". This process is straightforward for those familiar with development but may be a bit troublesome for beginners.
-
-### Step 5. Install Visual Studio Code
+### Step 4. Install Visual Studio Code
 
 Download and install Visual Studio Code from the official page:
 
 https://code.visualstudio.com
 
-You can also install VS Code using Scoop; however, it is recommended to limit Scoop installations to command-line development tools (such as OpenJDK and Maven) that do not have graphical interfaces. GUI applications like VS Code include built-in automatic update features, which can conflict with Scoop's software update mechanism. For beginners, it is advisable to use standard installers instead of Scoop for applications with graphical interfaces.
+If you are using Windows on Arm, please install the x64 version of VS Code, not the Arm64 version.
+On Windows on Arm, you also need to open VS Code Settings and add the path to Eclipse Temurin as the value of `java.jdt.ls.java.home`. Below are examples of this setting.
+![VSCode settings](vscode_arm1.png)
+![VSCode settings](vscode_arm2.png)
 
-### Step 6. Install extensions
+### Step 5. Install extensions
 
 Open VSCode and install two extensions for developing Java and JavaFX.
 
-It is recommended not to install any JavaFX plugins that are not included in the packs below, as their functions may overlap.
+It is recommended not to install any extensions that are not included in the packs below, as their functions may overlap.
 
 #### Extension Pack for Java (Microsoft)
 
@@ -109,7 +91,7 @@ It is recommended not to install any JavaFX plugins that are not included in the
 
 ![JavaFX Essentials Pack](extension_javafx.png)
 
-### Step 7. Install Scene Builder
+### Step 6. Install Scene Builder
 
 This is a graphical UI editor.
 
@@ -134,9 +116,9 @@ java -version
 If an error is displayed, Java is not installed on your PC.
 Otherwise, the installed version of Java will be displayed.
 
-If the version is less than 21, please uninstall Java.
-The minor version numbers (the x.x part of 21.x.x) can be anything.
-If Java 21 or higher is already installed, no installation is necessary; proceed to **Step 4**.
+If the major version is less than 25, please uninstall Java.
+The minor version number (the x.x part of 25.x.x) can be anything.
+If Java 25 or higher is already installed, no installation is necessary; proceed to **Step 4**.
 
 ### Step 2. Install SDKMAN!
 
@@ -148,18 +130,18 @@ To install SDKMAN!, copy the line below, paste it into the terminal, and press t
 curl -s "https://get.sdkman.io" | bash
 ```
 
-After that, close the terminal and open a new one to enable SDKMAN!
+After that, close the terminal and open a new one to enable SDKMAN!.
 
-### Step 3. Install Java (OpenJDK 21)
+### Step 3. Install OpenJDK
 
-For those who are just starting to learn Java, OpenJDK is recommended as it is a free Java Development Kit (JDK).
+The first thing we need to install for Java development is OpenJDK. JDK stands for Java Development Kit.
 
-There are many distributions of OpenJDK. Any distribution will work, but this guide uses the official OpenJDK distribution.
+There are many distributions of OpenJDK. Any distribution will work, but this guide uses Eclipse Temurin.
 
 To install Java, type the following command in your terminal:
 
 ```bash
-sdk install java 21.0.2-open
+sdk install java 25.0.4-tem
 ```
 
 ### Step 4. Install Maven 3
@@ -194,7 +176,7 @@ https://code.visualstudio.com
 
 Open VSCode and install two extensions for developing Java and JavaFX.
 
-It is recommended not to install any JavaFX plugins that are not included in the packs below, as their functions may overlap.
+It is recommended not to install any JavaFX extensions that are not included in the packs below, as their functions may overlap.
 
 #### Extension Pack for Java (Microsoft)
 
@@ -221,12 +203,6 @@ Download and install Scene Builder from the official page:
 https://gluonhq.com/products/scene-builder/#download
 
 That's all for the installation.
-
-## About versions
-
-This guide assumes Java 21 and JavaFX 23. This is a relatively new environment as of spring 2025. 
-
-Java 25 and JavaFX 25 will be released in fall 2025. You can continue to use Java 21 and JavaFX 23 even after fall. If you choose to use Java 25 and JavaFX 25, you will need slightly different procedures from those outlined in this document.
 
 # Create your first JavaFX project
 
@@ -258,11 +234,11 @@ Press the Enter key to select the latest version.
 
 ## 4. About your project
 
-The following are the details of your project. 
+Next, you will enter the details of your project. 
 
 ### 4.1 groupId
 
-groupId is the reverse domain name notation for your organization. For a simple practice app, you can use `com.example` as groupId.
+The groupId is your organization's domain name in reverse order (reverse domain name notation). For a simple practice app, you can use `com.example` as groupId.
 
 ![groupId](archetype04.png)
 
@@ -276,7 +252,7 @@ Allowed characters include:
 - numbers
 - hyphens (-)
 
-![articactId](archetype05.png)
+![artifactId](archetype05.png)
 
 ### 4.3 version and package
 
@@ -290,7 +266,7 @@ Press the Enter key.
 
 ![Confirmation](archetype07.png)
 
-## 5 Project created
+## 5. Project created
 
 A folder with the same name as the artifactId will be created. 
 
@@ -321,9 +297,9 @@ This is a graphical UI editor.
 
 Select `Launcher.java` and click Run or Debug to launch your app.
 
-As a result, a blank window appears.
+A blank window will appear.
 
-## 8. Build executable
+## 8. Build an executable
 
 To create an executable (.exe, .dmg), open a terminal in VSCode and run the following command:
 
@@ -344,7 +320,7 @@ If you want to explore an architecture similar to MVC, the javafx-sss-fxml-mvc a
 
 This is just the starting point. 
 
-If you use libraries for development, you need to search in Maven Central (https://central.sonatype.com) and add the dependency to your pom.xml.
+If you use libraries for development, you need to search on Maven Central (https://central.sonatype.com) and add the dependencies to your pom.xml.
 
 If you want to customize the build, you will need to learn more about Maven.
 
