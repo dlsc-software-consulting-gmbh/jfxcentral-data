@@ -21,7 +21,10 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* **Dirk Lemmermann** announced](https://www.reddit.com/r/JavaFX/comments/1vtizzj/flexganttfx_is_now_open_source_the_professional/) that FlexGanttFX, the professional JavaFX Gantt chart framework, is now open source (AGPLv3). "_After more than a decade as a commercial product, I'm happy to announce that FlexGanttFX is now an open source project. FlexGanttFX is a professional Gantt chart and scheduling framework for JavaFX, built by DLSC Software & Consulting. It has been used in aviation, logistics, manufacturing, healthcare, and resource planning applications for years - and it's now available to everyone._"
+  * Source code: [github.com/dlsc-software-consulting-gmbh/FlexGanttFX](https://github.com/dlsc-software-consulting-gmbh/FlexGanttFX)
+  * Website and documentation: [flexganttfx.com](https://www.flexganttfx.com)
+  * Online demo: [FlexGanttFX Showcase on JPro](https://demos.jpro.one/flexganttfx-showcase.html)
 
 ## Podcasts, Videos, Books
 
