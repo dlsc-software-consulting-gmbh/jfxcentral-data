@@ -25,6 +25,10 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * Source code: [github.com/dlsc-software-consulting-gmbh/FlexGanttFX](https://github.com/dlsc-software-consulting-gmbh/FlexGanttFX)
   * Website and documentation: [flexganttfx.com](https://www.flexganttfx.com)
   * Online demo: [FlexGanttFX Showcase on JPro](https://demos.jpro.one/flexganttfx-showcase.html)
+* [**mstr_2** on Reddit]([https://www.reddit.com/r/JavaFX/comments/1v7x0qj/java](https://www.reddit.com/r/JavaFX/comments/1vwi754/fxml2_for_javafx/)): "_FXML/2 is a compiled, type-safe, declarative markup language for JavaFX that I've been working on for the past several years. It borrows from classic FXML and adds lots of useful features. Depending on your specific use case, you'll also notice a substantial performance increase: FXML/2 documents don't need to be parsed at runtime (since they are compiled classfiles), which removes the FXMLLoader bottleneck._"
+  * [Sources on GitHub](https://github.com/jfxcore/fxml-compiler)
+  * [Documentation](https://jfxcore.github.io/fxml-compiler/)
+  * [Tutorial: MVVM pattern with FXML/2](https://jfxcore.github.io/fxml-compiler/getting-started/mvvm.html)
 
 ## Podcasts, Videos, Books
 
