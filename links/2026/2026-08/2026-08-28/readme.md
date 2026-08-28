@@ -41,3 +41,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * The content on [Guide for JavaFX Development on Visual Studio Code](https://www.jfx-central.com/learn-javafx/vscode) has been updated by [**Hidekazu Kubota**](https://github.com/sosuisen) for Java 25 and Windows on Arm.
+* The JavaFX Links Of The Week of July got [bundled and published on Foojay.io](https://foojay.io/today/javafx-links-of-july-2026/).
