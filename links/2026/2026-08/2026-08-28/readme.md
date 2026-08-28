@@ -1,4 +1,4 @@
-We took a summer break, so this Link Of The Week actually covers all of August! But as almost everyone seemed to be on vacation, there is not much news to report. We hope you had a great summer and are ready for more JavaFX news in the coming weeks!
+We took a summer break, so this Link Of The Week actually covers all of August! We hope you had a great summer and are ready for more JavaFX news in the coming weeks!
 
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
