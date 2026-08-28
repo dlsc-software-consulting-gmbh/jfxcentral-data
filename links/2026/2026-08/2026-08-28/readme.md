@@ -1,21 +1,21 @@
-We took a summerbreak, to this Link Of The Week acutally covers all of August! But as almost everyone seemed to be on vacation, there is not much news to report. We hope you had a great summer and are ready for more JavaFX news in the coming weeks!
+We took a summer break, so this Link Of The Week actually covers all of August! But as almost everyone seemed to be on vacation, there is not much news to report. We hope you had a great summer and are ready for more JavaFX news in the coming weeks!
 
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
 ## Core
 
-* From the OpenJFX mailing list: 
-  * **Johan Vos** integrated a large batch of third-party dependency updates into the LTS update branches on August 19, including [WebKit 625.1 in jfx17u](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28519.html), [GStreamer 1.28.3](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28537.html), [GLib 2.84.3](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28526.html), [libxml2 2.15.3](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28527.html) and [ICU4C 77.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28470.html), landed across the jfx17u, jfx21u and jfx25u branches. This looks like groundwork for the next Critical Patch Update.
+* From the OpenJFX mailing list:
+  * **Johan Vos** integrated a large batch of third-party dependency updates into the LTS update branches in mid-August: [WebKit 625.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28519.html), [GStreamer 1.28.3](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28537.html), [GLib 2.84.3](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28526.html), [libxml2 2.15.3](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28527.html) and [ICU4C 77.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28470.html). These landed across the jfx17u, jfx21u and jfx25u branches, and look like groundwork for the next Critical Patch Update.
   * **Michael Strauß** is running a broad pixel-snapping correctness push. He integrated [8390440: Region.layoutInArea measures content-biased children against an unsnapped value](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28510.html) and followed up with PRs implementing correct snapping for [StackPane](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28560.html), [AnchorPane](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28514.html), [SplitPane](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28513.html) and [BorderPane](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28512.html), plus new [pixel-snapping documentation](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28396.html) that drew review comments from **Nir Lisker**, **John Hendrikx**, **Andy Goryachev** and **Marius Hanl**.
-  * **Nir Lisker** integrated [8250802: Refactor StringConverter and its subclasses](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28480.html), an API cleanup that had been open since 2020, after 14 review rounds.
+  * **Nir Lisker** integrated [8250802: Refactor StringConverter and its subclasses](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg28480.html), an API cleanup for an issue that had been open since 2020, reviewed by **Andy Goryachev**, **Kevin Rushforth** and **John Hendrikx**.
 
 ## Games
 
-* [**Digital Brain** on Bluesky](https://bsky.app/profile/yourdigitalbrain.bsky.social/post/3mrzkqny5jf2t): HMCL, the cross-platform Minecraft launcher that has nearly 9,800 stars on GitHub. "_The tool is built with JavaFX and works on Windows, Linux, macOS, and FreeBSD, in addition to supporting uncommon architectures like ARM, RISC-V, MIPS, and LoongArch, something that most commercial launchers do not offer._" Sources are [on GitHub](https://github.com/HMCL-dev/HMCL).
+* [**Digital Brain** on Bluesky](https://bsky.app/profile/yourdigitalbrain.bsky.social/post/3mrzkqny5jf2t): HMCL, the cross-platform Minecraft launcher that has nearly 10,000 stars on GitHub. "_The tool is built with JavaFX and works on Windows, Linux, macOS, and FreeBSD, in addition to supporting uncommon architectures like ARM, RISC-V, MIPS, and LoongArch, something that most commercial launchers do not offer._" Sources are [on GitHub](https://github.com/HMCL-dev/HMCL).
 
 ## Components, Libraries, Tools
 
-* [**mstr_2** on Reddit]([https://www.reddit.com/r/JavaFX/comments/1v7x0qj/java](https://www.reddit.com/r/JavaFX/comments/1vwi754/fxml2_for_javafx/)): "_FXML/2 is a compiled, type-safe, declarative markup language for JavaFX that I've been working on for the past several years. It borrows from classic FXML and adds lots of useful features. Depending on your specific use case, you'll also notice a substantial performance increase: FXML/2 documents don't need to be parsed at runtime (since they are compiled classfiles), which removes the FXMLLoader bottleneck._"
+* [**mstr_2** on Reddit](https://www.reddit.com/r/JavaFX/comments/1vwi754/fxml2_for_javafx/): "_FXML/2 is a compiled, type-safe, declarative markup language for JavaFX that I've been working on for the past several years. It borrows from classic FXML and adds lots of useful features. Depending on your specific use case, you'll also notice a substantial performance increase: FXML/2 documents don't need to be parsed at runtime (since they are compiled classfiles), which removes the FXMLLoader bottleneck._"
   * [Sources on GitHub](https://github.com/jfxcore/fxml-compiler)
   * [Documentation](https://jfxcore.github.io/fxml-compiler/)
   * [Tutorial: MVVM pattern with FXML/2](https://jfxcore.github.io/fxml-compiler/getting-started/mvvm.html)
@@ -31,12 +31,12 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Conferences, Presentations
 
-* [**Sven Reimers** will present at Devoxx Belgium](https://bsky.app/profile/sreimers.bsky.social/post/3mszs2zlaks2x): "Java is for Data Science, Too: Building an End-to-End ML Pipeline Without Leaving the JVM. #JavaFX"
+* [**Sven Reimers** will present at Devoxx Belgium](https://bsky.app/profile/sreimers.bsky.social/post/3mszs2zlaks2x): "_Java is for Data Science, Too: Building an End-to-End ML Pipeline Without Leaving the JVM. #JavaFX_"
 
 ## Miscellaneous
 
 * [**Johan Vos** asks for feedback](https://bsky.app/profile/johanvos.bsky.social/post/3msquc3hunc2f): "_Looking for input/feedback from Java developers on 2 different topics: Is there interest in a JavaFX workshop/conference/training in Belgium? Is there interest in a gathering with fellow Java developers working on scientific topics (writing java code, not only using 3th party code)?_"
-* [**Geordanys Martinez** is selling](https://www.linkedin.com/posts/xssit_java-softwareengineering-cloudarchitecture-share-7498537339640512512-AQjU/) a "Complete Pure Java 17 PDF Engine (Full IP, Source Code, & Copyright)" "_I have taken this engine to production-grade completion and am selling the entire asset, including full source code ownership, copyrights, and intellectual property distribution rights. I am ready to clear my plate and move on to a brand-new engineering challenge. jux-pdf is a massive, clean-room, file-by-file port of Google Chrome’s native pdfium engine and the FreeType font rasterizer, completely rewritten into pure Java 17._"
+* [**Geordanys Martinez** is selling](https://www.linkedin.com/posts/xssit_java-softwareengineering-cloudarchitecture-share-7498537339640512512-AQjU/) a "Complete Pure Java 17 PDF Engine (Full IP, Source Code, & Copyright)": "_I have taken this engine to production-grade completion and am selling the entire asset, including full source code ownership, copyrights, and intellectual property distribution rights. I am ready to clear my plate and move on to a brand-new engineering challenge. jux-pdf is a massive, clean-room, file-by-file port of Google Chrome’s native pdfium engine and the FreeType font rasterizer, completely rewritten into pure Java 17._"
 
 ## JFX Central
 
