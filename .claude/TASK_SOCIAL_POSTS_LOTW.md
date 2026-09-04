@@ -23,7 +23,7 @@ Thanks to
 Happy reading, and have a lovely #Java weekend!
 ```
 
-Provide this as as copy-ready text for each platform, and make sure to include the appropriate hashtags and mentions. You can shorten first and last line to stay within the character limits of each platform.
+Provide this as a copy-ready text for each platform, and make sure to include the appropriate hashtags and mentions. You can shorten first and last line to stay within the character limits of each platform.
 
 ## Authors
 
@@ -32,3 +32,4 @@ Provide this as as copy-ready text for each platform, and make sure to include t
 | Dirk Lemmerman | dlemmermann.bsky.social | @dlemmermann@mastodon.social |
 | Gerrit Grunwald | hansolo.eu | @hansolo_@mastodon.social |
 | Frank Delporte | frankdelporte.be | @frankdelporte@foojay.social |
+| Erik Costlow | - | @costlow@mastodon.social |

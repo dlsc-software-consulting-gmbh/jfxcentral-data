@@ -4,7 +4,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * From the OpenJFX mailing list:
     * **Alexander Zuev** integrated [8384483: Create implementation of NSAccessibilityTable protocol](https://marc.info/?l=openjdk-openjfx-dev&m=178836230081558&w=2), a 585-line addition across 11 files that gives macOS proper accessibility support for tables and lists: "*To preserve functionality the separate native peers for tables and lists are created; the list peer for now reports its role as a table for backward compatibility, that can be changed later; fixed the long existed bug where table reported incorrectly currently selected rows.*" Reviewed by **Andy Goryachev** and **Ambarish Rapte**. [PR #2217](https://git.openjdk.org/jfx/pull/2217) — [changeset 67853fbf](https://git.openjdk.org/jfx/commit/67853fbf55117f92d0fabcc02798a1115837e2e5)
-* [**Gufran Thakur** asks on Reddit](https://www.reddit.com/r/JavaFX/comments/1w4o4t0/what_is_the_future_of_javafx_looking_like/): "_What is the future of JavaFX looking like?_" A lot of interesting answers already. Want to add yours? And, thank you **Maran23**, for mentioning **JFX Central** in your answer, we appreciate it! :-) 
+* [**Gufran Thakur** asks on Reddit](https://www.reddit.com/r/JavaFX/comments/1w4o4t0/what_is_the_future_of_javafx_looking_like/): "_What is the future of JavaFX looking like?_" A lot of interesting answers already. Want to add yours? And, thank you **Marius Hanl**, for mentioning **JFX Central** in your answer, we appreciate it! :-) 
 
 ## Applications
 
