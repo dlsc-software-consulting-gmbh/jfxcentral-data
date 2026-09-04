@@ -1,11 +1,12 @@
-# Sharing Links of the Week on social media
+# Sharing Links of the Week (LOTW) on Social Media
 
 ## Task
+
 Prepare the social media posts for sharing the latest JavaFX Links of the Week. Use the following template to create engaging posts to be published on:
 
 * Bluesky
   * Account: https://bsky.app/profile/jfxcentral.com
-  * Include Frank
+  * Include Frank if mentioned in the LOTW
 * Mastodon
   * Account: https://foojay.social/deck/@frankdelporte
   * Don't include Frank
