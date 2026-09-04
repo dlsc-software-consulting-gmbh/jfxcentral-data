@@ -34,3 +34,4 @@ Provide this as a copy-ready text for each platform, and make sure to include th
 | Gerrit Grunwald | hansolo.eu | @hansolo_@mastodon.social |
 | Frank Delporte | frankdelporte.be | @frankdelporte@foojay.social |
 | Erik Costlow | - | @costlow@mastodon.social |
+| Foojay | @foojay.io | @foojay@foojay.social
