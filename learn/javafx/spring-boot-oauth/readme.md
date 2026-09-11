@@ -160,7 +160,6 @@ SecurityContextHolder.setStrategyName(SecurityContextHolder.MODE_GLOBAL);
 @SpringBootApplication(exclude = {
         SecurityFilterChainAutoConfiguration.class,
         UserDetailsServiceAutoConfiguration.class,
-        OAuth2ClientAutoConfiguration.class,
         OAuth2ClientWebSecurityAutoConfiguration.class
 })
 public class DesktopApplication extends Application { /* ... */ }
