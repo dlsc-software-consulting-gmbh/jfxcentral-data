@@ -54,6 +54,7 @@ server.port=9090
 spring.threads.virtual.enabled=true
 
 spring.security.oauth2.authorizationserver.client.javafx.registration.client-id=javafx
+spring.security.oauth2.authorizationserver.client.javafx.registration.client-authentication-methods=none
 spring.security.oauth2.authorizationserver.client.javafx.registration.authorization-grant-types=authorization_code,refresh_token
 spring.security.oauth2.authorizationserver.client.javafx.registration.redirect-uris=http://127.0.0.1:8385/login/oauth2/code/javafx
 spring.security.oauth2.authorizationserver.client.javafx.registration.scopes=openid,profile,email,user.read
