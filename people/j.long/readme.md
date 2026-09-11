@@ -1,4 +1,1 @@
-Spring Developer Advocate at Broadcom, Java Champion and Kotlin Google Developer Expert.
-Host of the "Coffee + Software" YouTube channel and the Bootiful Podcast, and author of several
-books on Spring. Josh regularly explores how Spring Boot fits together with other parts of the
-Java ecosystem, including JavaFX for building native desktop applications.
+Spring Developer Advocate at Broadcom, Java Champion and Kotlin Google Developer Expert. Host of the "Coffee + Software" YouTube channel and the Bootiful Podcast, and author of several books on Spring. Josh regularly explores how Spring Boot fits together with other parts of the Java ecosystem, including JavaFX for building native desktop applications.
