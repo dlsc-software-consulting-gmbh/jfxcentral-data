@@ -1837,5 +1837,37 @@
     "personIds": [
       "f.delporte"
     ]
+  },
+  {
+    "name": "The Ultimate Desktop Client Stack: Building High-Performance Apps with Spring Boot & JavaFX",
+    "tags": "javafx, spring, spring boot, graalvm, native image, fxml, desktop",
+    "type": "Tutorial",
+    "platform": "Desktop",
+    "domain": "",
+    "description": "Josh Long builds a JavaFX desktop application on top of Spring Boot: starting both runtimes in the right order, publishing a StageInitializedEvent so Spring components can pick up the JavaFX stage, loading FXML and CSS through Spring's resource abstraction, reading the window title from the Spring environment, and finally compiling the whole thing to a GraalVM native image.",
+    "id": "Od2NDwHED58",
+    "minutes": "14",
+    "createdOn": "2026-09-11",
+    "modifiedOn": "2026-09-11",
+    "publishedOn": "2026-09-01",
+    "personIds": [
+      "j.long"
+    ]
+  },
+  {
+    "name": "Build Secure Desktop Apps with JavaFX, Spring Boot & PKCE OAuth 2.0",
+    "tags": "javafx, spring, spring boot, spring security, oauth2, pkce, graalvm, desktop",
+    "type": "Tutorial",
+    "platform": "Desktop",
+    "domain": "",
+    "description": "Follow-up to the first video: Josh Long adds authentication to the Spring Boot and JavaFX desktop application. Because a desktop client cannot keep a client secret, the app uses OAuth 2.0 with PKCE, opens the user's system browser, catches the callback on a small embedded web server, and then calls a protected resource server with the resulting token. Ends with a GraalVM native image of the secured app.",
+    "id": "gB7FIbxMEos",
+    "minutes": "39",
+    "createdOn": "2026-09-11",
+    "modifiedOn": "2026-09-11",
+    "publishedOn": "2026-09-03",
+    "personIds": [
+      "j.long"
+    ]
   }
 ]

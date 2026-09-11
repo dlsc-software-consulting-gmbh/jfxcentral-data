@@ -162,5 +162,35 @@
     ],
     "canonicalUrl": "",
     "sourceCodeUrl": ""
+  },
+  {
+    "id": "spring-boot",
+    "createdOn": "2026-09-11",
+    "modifiedOn": "2026-09-11",
+    "name": "JavaFX and Spring Boot",
+    "tags": "spring, spring boot, graalvm, native image, fxml, desktop",
+    "personIds": [
+      "j.long"
+    ],
+    "videoIds": [
+      "Od2NDwHED58"
+    ],
+    "canonicalUrl": "https://www.youtube.com/watch?v=Od2NDwHED58",
+    "sourceCodeUrl": ""
+  },
+  {
+    "id": "spring-boot-oauth",
+    "createdOn": "2026-09-11",
+    "modifiedOn": "2026-09-11",
+    "name": "Securing a JavaFX desktop application with Spring Security and OAuth 2.0",
+    "tags": "spring, spring boot, spring security, oauth2, pkce, graalvm, desktop",
+    "personIds": [
+      "j.long"
+    ],
+    "videoIds": [
+      "gB7FIbxMEos"
+    ],
+    "canonicalUrl": "https://www.youtube.com/watch?v=gB7FIbxMEos",
+    "sourceCodeUrl": ""
   }
 ]
