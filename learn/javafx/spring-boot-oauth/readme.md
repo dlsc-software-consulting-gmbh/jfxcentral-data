@@ -259,6 +259,7 @@ Security source the token:
 @Bean
 RestClient restClient(RestClient.Builder builder, OAuth2AuthorizedClientManager manager) {
     var interceptor = new OAuth2ClientHttpRequestInterceptor(manager);
+    interceptor.setClientRegistrationIdResolver(request -> "javafx");
     return builder.requestInterceptor(interceptor).build();
 }
 ```
