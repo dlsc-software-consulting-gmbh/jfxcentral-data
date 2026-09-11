@@ -196,7 +196,18 @@ app.title=Beautiful JavaFX
 
 Do you have to ship a JRE with this? No. GraalVM needs some hints to understand JavaFX - reflection,
 resources, and so on - and Josh Long maintains an open source library with exactly those hints,
-available on Maven Central.
+available on Maven Central. Add it next to the JavaFX dependencies:
+
+```xml
+<dependency>
+    <groupId>com.joshlong</groupId>
+    <artifactId>hints</artifactId>
+    <version>0.0.16</version>
+</dependency>
+```
+
+It registers the reflection and resource hints for JavaFX and for the FXML loader, so the native
+build needs no hand-written configuration:
 
 ```shell
 ./mvnw -DskipTests native:compile

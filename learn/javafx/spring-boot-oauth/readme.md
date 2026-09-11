@@ -181,7 +181,15 @@ spring.threads.virtual.enabled=true
 ```
 
 And a very ordinary Spring MVC controller receives the redirect, calls the `finish` half of the
-flow, and renders a small Mustache page telling the user they can go back to the application.
+flow, and renders a small page telling the user they can go back to the application. The page is
+rendered with Mustache, so the desktop application needs that starter as well:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mustache</artifactId>
+</dependency>
+```
 
 ```java
 @Controller
@@ -205,7 +213,22 @@ class AuthorizationCodeRedirectController {
 ```
 
 Make sure this is not annotated with `@ResponseBody` or `@RestController`, otherwise Spring treats
-the return value as a REST response instead of a view name.
+the return value as a REST response instead of a view name. The view itself lives in
+`src/main/resources/templates/signed-in.mustache` and is as plain as it gets:
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Signed in</title>
+</head>
+<body>
+<h1>You're signed in, {{name}}.</h1>
+<p>You can close this window and go back to the app.</p>
+</body>
+</html>
+```
 
 ### Wiring the button - and the JavaFX thread
 
@@ -266,9 +289,10 @@ RestClient restClient(RestClient.Builder builder, OAuth2AuthorizedClientManager 
 
 The client then only has to say *which* registration it wants to use. Better still, with the
 declarative HTTP service clients from Spring Framework 6 and 7 the whole client collapses into an
-interface:
+interface, and `@ClientRegistrationId` is where it names the registration:
 
 ```java
+@ClientRegistrationId("javafx")
 interface MessageClient {
 
     @GetExchange("http://localhost:8081/message")
@@ -280,9 +304,16 @@ interface MessageClient {
 @Configuration
 @ImportHttpServices(group = "message", types = MessageClient.class)
 class MessageClientConfiguration {
+
+    @Bean
+    OAuth2RestClientHttpServiceGroupConfigurer oauth2GroupConfigurer(OAuth2AuthorizedClientManager manager) {
+        return OAuth2RestClientHttpServiceGroupConfigurer.from(manager);
+    }
 }
 ```
 
+The group configurer is what installs the OAuth 2.0 interceptor on the `RestClient` behind the
+declarative clients - without it the annotation has nothing to talk to and no token is attached.
 Register the `RestClient` group once per JVM - it does not matter whether you have one of these
 clients or a thousand, you declare it exactly once - and calling the API is a one-liner. Press
 **Call** and the text area fills with `Hello Josh`.
