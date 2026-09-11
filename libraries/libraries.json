@@ -1783,8 +1783,8 @@
     "issueTracker": "https://github.com/javaterminal/TerminalFX/issues",
     "createdOn": "2026-03-26",
     "modifiedOn": "2026-03-26",
-    "groupId": "com.kodedu.terminalfx",
-    "artifactId": "terminalfx",
+    "groupId": "",
+    "artifactId": "",
     "logoAvailable": "false",
     "ensemble": "false"
   },

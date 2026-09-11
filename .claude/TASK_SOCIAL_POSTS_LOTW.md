@@ -2,7 +2,7 @@
 
 ## Task
 
-Prepare the social media posts for sharing the latest JavaFX Links of the Week. Use the following template to create engaging posts to be published on:
+Prepare the social media posts for sharing the latest JavaFX Links of the Week in `/links/YYYY/YYYY-MM/YYYY-MM-DD/readme.md`. Use the following template to create engaging posts to be published on:
 
 * Bluesky
   * Account: https://bsky.app/profile/jfxcentral.com
@@ -34,4 +34,5 @@ Provide this as a copy-ready text for each platform, and make sure to include th
 | Gerrit Grunwald | hansolo.eu | @hansolo_@mastodon.social |
 | Frank Delporte | frankdelporte.be | @frankdelporte@foojay.social |
 | Erik Costlow | - | @costlow@mastodon.social |
-| Foojay | @foojay.io | @foojay@foojay.social
+| Foojay | @foojay.io | @foojay@foojay.social |
+| Josh Long | starbuxman.joshlong.com | @starbuxman@mastodon.online |

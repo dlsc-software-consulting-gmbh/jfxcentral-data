@@ -1035,5 +1035,19 @@
     ],
     "createdOn": "2025-12-22",
     "modifiedOn": "2026-03-27"
+  },
+  {
+    "name": "Josh Long",
+    "email": "",
+    "website": "https://joshlong.com",
+    "gitHub": "joshlong",
+    "blogId": "",
+    "linkedIn": "joshlong",
+    "bluesky": "starbuxman.joshlong.com",
+    "champion": true,
+    "rockstar": false,
+    "id": "j.long",
+    "createdOn": "2026-09-11",
+    "modifiedOn": "2026-09-11"
   }
 ]
