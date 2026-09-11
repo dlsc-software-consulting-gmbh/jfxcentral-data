@@ -8,7 +8,9 @@ and the FXML components are looked up by ID and ready to receive behaviour. Now 
 API on their behalf.
 
 This tutorial is based on the video by
-[**Josh Long**](https://www.jfx-central.com/people/j.long).
+[**Josh Long**](https://www.jfx-central.com/people/j.long). The complete source code is on GitHub in
+[coffee-software-show/2026-08-18-bootiful-native-javafx](https://github.com/coffee-software-show/2026-08-18-bootiful-native-javafx): the `desktop-client`, `auth` and
+`service` modules are the desktop application, the authorization server and the resource server.
 
 ![alt](youtube:gB7FIbxMEos)
 

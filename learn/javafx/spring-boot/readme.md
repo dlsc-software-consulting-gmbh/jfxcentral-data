@@ -17,6 +17,10 @@ the end user only needs to download one binary - no JRE required.
 In a [follow-up tutorial](https://www.jfx-central.com/learn-javafx/spring-boot-oauth) the same application is secured with
 Spring Security and OAuth 2.0.
 
+The complete source code is on GitHub in
+[coffee-software-show/2026-08-18-bootiful-native-javafx](https://github.com/coffee-software-show/2026-08-18-bootiful-native-javafx) - the desktop application lives in the
+`desktop-client` module.
+
 ### Generating the project
 
 Start from [start.spring.io](https://start.spring.io) and pick the dependencies you need. For this
