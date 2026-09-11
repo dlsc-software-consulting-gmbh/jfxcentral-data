@@ -24,7 +24,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* [**Josh Long** published two videos](https://bsky.app/profile/starbuxman.joshlong.com/post/3muyzvqkb6r23) on combining Spring Boot, JavaFX, GraalVM native images and Spring Security to build desktop applications: "*native, lightning-fast, dynamic, efficient, reusable desktop applications that run well on Mac, Windows, and Linux, and look amazing, while taking small fractions of the RAM of a similar Electron-based application*". Also mentioned in [This Week in Spring, September 8th, 2026](https://spring.io/blog/2026/09/08/this-week-in-spring-september-8th-2026).
+  * [The Ultimate Desktop Client Stack: Building High-Performance Apps with Spring Boot & JavaFX](https://youtu.be/Od2NDwHED58) shows how to use Spring Boot and JavaFX together, "*so that you get the component model, event dispatch subsystem, internationalization, lifecycle management, and, of course, the entire and very rich ecosystem of Spring components and can use them to manage JavaFX components, too*", and ends with native image compilation.
+  * [Build Secure Desktop Apps with JavaFX, Spring Boot & PKCE OAuth 2.0](https://youtu.be/gB7FIbxMEos) looks at using Spring Security's OAuth client in the context of a desktop application, "*which can not, by definition, hold a client secret*".
 
 ## Conferences, Presentations
 
