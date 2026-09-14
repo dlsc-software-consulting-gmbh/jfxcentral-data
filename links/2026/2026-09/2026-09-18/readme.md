@@ -25,7 +25,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* [**Artistic_Solution117** shared a video on Reddit](https://www.reddit.com/r/JavaFX/comments/1wg2whq/pure_javafx_google_earth_nasa_worldwind_like/) of a "_Pure JavaFX Google Earth / Nasa Worldwind like viewer in a single shot. On-the-fly on the JVM were the agent runs._" The 11-minute screen recording, [Second test of Java-EARTH-GLOBE-1](https://youtu.be/76pWS0WFu_U) on the **Anahata TV - Java AI, AGI, ASI** channel, shows the result, built with "_gemini 3.8 flash with 24-core raytracing and local disk caching_".
 
 ## Conferences, Presentations
 
