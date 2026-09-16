@@ -16,7 +16,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Thunder_ZEK** shared his tiny project on Reddit](https://www.reddit.com/r/JavaFX/comments/1wi4552/sharing_my_tiny_project_please_check_it_out/), Memento: "_It's an application where you are asked 100 questions... about your life, and answers to these 100 questions are basically in depth information about you and your life. So after answering you can download a PDF and share this to anybody._" Built with JDK 17, JavaFX 17, SQLite and OpenPDF, with all data staying on your device unless you export it. The [sources are on GitHub](https://github.com/Savirar0/Memento). He learned JavaFX from YouTube tutorials and built this over a few months to show he had picked it up - a Windows installer is included, but "_it's only working on my laptop lol._"
 
 ## Games
 
