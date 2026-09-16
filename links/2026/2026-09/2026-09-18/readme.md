@@ -6,6 +6,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
   * JavaFX 27 requires JDK 25 or later: "*JavaFX 27 is compiled with `--release 25` and thus requires JDK 25 or later in order to run.*" JDK 27 is recommended.
   * "*Metal is now the default rendering pipeline on macOS, replacing the OpenGL-based ES2 pipeline*" (JDK-8373091).
   * The other new features are conditional stylesheet imports (JDK-8364149), ConditionalFeature and Platform media queries (JDK-8374804, JDK-8374822), JavaFX controls in the title bar (JDK-8386617), and two additions to RichTextArea: tab stops attributes (JDK-8356042) and embedded image, text background and wavy underline attributes (JDK-8366198).
+* The **Gluon Team** published [JavaFX 27 is Now Available](https://gluonhq.com/news/2026-09-15-javafx-27-is-now-available/) with an overview of the release: the Metal rendering pipeline as the new default on macOS, conditional stylesheets and media queries in CSS, JavaFX controls in the window title bar, the RichTextArea additions, and over 70 bug fixes and control performance improvements. Two things to check before upgrading: JavaFX 27 is compiled with `--release 25`, so an older JDK fails at startup, and on macOS you can fall back to the previous pipeline with the `-Dprism.order=es2` launch parameter.
 
 ## SceneBuilder
 
