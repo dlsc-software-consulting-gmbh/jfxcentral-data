@@ -28,6 +28,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
+* **Florian Enner** published a short video, [JavaFX 27 Native Image running AtlantaFX Sampler on Raspberry Pi 5](https://www.youtube.com/watch?v=GA_iAnxznO8), showing the AtlantaFX Sampler - which uses all controls and nearly all features JavaFX offers - as an ahead-of-time (AOT) compiled JavaFX 27 Native Image created with the latest Oracle GraalVM 25.3: "_Everything works, including javafx.media, javafx.web, as well as the desktop integration to open files._" The native image is built with his [jfx-static-feature](https://github.com/HebiRobotics/jfx-static-feature), a GraalVM Feature that statically links the JavaFX native code into a standalone executable, with support for rich text, WebView and media on Windows, Linux and macOS, on both Intel and ARM.
 * [**Artistic_Solution117** shared a video on Reddit](https://www.reddit.com/r/JavaFX/comments/1wg2whq/pure_javafx_google_earth_nasa_worldwind_like/) of a "_Pure JavaFX Google Earth / Nasa Worldwind like viewer in a single shot. On-the-fly on the JVM were the agent runs._" The 11-minute screen recording, [Second test of Java-EARTH-GLOBE-1](https://youtu.be/76pWS0WFu_U) on the **Anahata TV - Java AI, AGI, ASI** channel, shows the result, built with "_gemini 3.8 flash with 24-core raytracing and local disk caching_".
 
 ## Conferences, Presentations
