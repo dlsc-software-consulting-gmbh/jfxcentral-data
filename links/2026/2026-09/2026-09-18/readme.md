@@ -9,39 +9,27 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * The **Gluon Team** published [JavaFX 27 is Now Available](https://gluonhq.com/news/2026-09-15-javafx-27-is-now-available/) with an overview of the release: the Metal rendering pipeline as the new default on macOS, conditional stylesheets and media queries in CSS, JavaFX controls in the window title bar, the RichTextArea additions, and over 70 bug fixes and control performance improvements. Two things to check before upgrading: JavaFX 27 is compiled with `--release 25`, so an older JDK fails at startup, and on macOS you can fall back to the previous pipeline with the `-Dprism.order=es2` launch parameter.
 * **Andy Goryachev** integrated [8390913: RichTextArea: Down arrow stuck on paragraph if space above and below are set](https://mail-archive.com/openjfx-dev@openjdk.org/msg29554.html): "_Fixes broken navigation introduced in JDK-8370902 with non-zero paragraph spacing (above, below, line spacing)._" The Rich Editor Demo was also updated to allow setting paragraph line spacing in addition to space above/below (right click → Paragraph). A sizeable change at 539 lines across 11 files, reviewed by **Jose Pereda** and **Lukasz Kostyra**, integrated on 15 September. ([PR on GitHub](https://github.com/openjdk/jfx/pull/2280), [changeset](https://github.com/openjdk/jfx/commit/23c3580cc2d25b13dbf4cb8142afb51691c2cf5f))
 * **Marius Hanl** integrated [8392149: Mark deprecated snap methods for removal in SkinBase](https://mail-archive.com/openjfx-dev@openjdk.org/msg29563.html), a heads-up for anyone writing custom skins: "_Since we will remove the snapping methods in `Region` at one point, we should also do that in `SkinBase`._" A continuation of JDK-8390773, reviewed by **Kevin Rushforth** and **Andy Goryachev**, integrated on 15 September. ([PR on GitHub](https://github.com/openjdk/jfx/pull/2311), [changeset](https://github.com/openjdk/jfx/commit/bb1789c15faadc866656a5ee2520e1ee4cabd95a))
-
-## SceneBuilder
-
-* 
+* [**Michael Redlich** wrote up the Java 27 release for InfoQ, with a section on JavaFX 27](https://www.infoq.com/news/2026/09/java27-released/): JavaFX 27 joins Helidon 27 and Jipher 20 as new additions to the Oracle [Java Verified Portfolio](https://www.oracle.com/java/technologies/downloads/jvp/), delivering a "*metal rendering pipeline on macOS for smoother performance on modern Apple hardware*", enhanced text editing controls, and continued accessibility improvements.
 
 ## Applications
 
 * [**Thunder_ZEK** shared his tiny project on Reddit](https://www.reddit.com/r/JavaFX/comments/1wi4552/sharing_my_tiny_project_please_check_it_out/), Memento: "_It's an application where you are asked 100 questions... about your life, and answers to these 100 questions are basically in depth information about you and your life. So after answering you can download a PDF and share this to anybody._" Built with JDK 17, JavaFX 17, SQLite and OpenPDF, with all data staying on your device unless you export it. The [sources are on GitHub](https://github.com/Savirar0/Memento). He learned JavaFX from YouTube tutorials and built this over a few months to show he had picked it up - a Windows installer is included, but "_it's only working on my laptop lol._"
 
-## Games
-
-* 
-
 ## Components, Libraries, Tools
 
-*
+* [**Guilty_Village_958** announced on Reddit](https://www.reddit.com/r/JavaFX/comments/1wjc3zr/luvml_21_is_on_maven_central_a_typesafe_java_dsl/) that luvml 2.1 is on Maven Central, "_a type-safe Java DSL that treats your HTML, CSS, and Vue templates as one typed authoring language instead of three._" The one to watch for JavaFX developers is the sibling project [luvjfx](https://github.com/luvml/luvjfx), "_a terse, type-safe construction DSL for JavaFX_": nested calls instead of imperative setup, with the property methods machine-generated from JavaFX itself by reflection (367 capabilities across 51 node types), built-in one-way and two-way binding, and an escape hatch to the raw JavaFX API. No releases yet, so no Maven coordinates for luvjfx for now.
+* [**Chad Preisler** needed a sorted list that stays usable at scale](https://bsky.app/profile/chadpreisler.bsky.social/post/3mvpxdc3m622z): "_I needed a sorted list in #JavaFX that could show millions of records in a TableView and still be usable._" The [mods](https://github.com/jfxmodules/mods) project - "_New components for JavaFX or enhancements to existing JavaFX functionality_" - was created several years ago, but recently got some threading fixes, improved string sorting and usage information in the readme. 
 
 ## Podcasts, Videos, Books
 
 * **Florian Enner** published a short video, [JavaFX 27 Native Image running AtlantaFX Sampler on Raspberry Pi 5](https://www.youtube.com/watch?v=GA_iAnxznO8), showing the AtlantaFX Sampler - which uses all controls and nearly all features JavaFX offers - as an ahead-of-time (AOT) compiled JavaFX 27 Native Image created with the latest Oracle GraalVM 25.3: "_Everything works, including javafx.media, javafx.web, as well as the desktop integration to open files._" The native image is built with his [jfx-static-feature](https://github.com/HebiRobotics/jfx-static-feature), a GraalVM Feature that statically links the JavaFX native code into a standalone executable, with support for rich text, WebView and media on Windows, Linux and macOS, on both Intel and ARM.
 * [**Artistic_Solution117** shared a video on Reddit](https://www.reddit.com/r/JavaFX/comments/1wg2whq/pure_javafx_google_earth_nasa_worldwind_like/) of a "_Pure JavaFX Google Earth / Nasa Worldwind like viewer in a single shot. On-the-fly on the JVM were the agent runs._" The 11-minute screen recording, [Second test of Java-EARTH-GLOBE-1](https://youtu.be/76pWS0WFu_U) on the **Anahata TV - Java AI, AGI, ASI** channel, shows the result, built with "_gemini 3.8 flash with 24-core raytracing and local disk caching_".
-
-## Conferences, Presentations
-
-*
-
-## Tutorials
-
-*
+* [**Chad Preisler** shared a demo video of a pure JavaFX Kafka client](https://bsky.app/profile/chadpreisler.bsky.social/post/3mvpvd2towc2z): "_Check out my Pure #JavaFX Kafka Client application. This project has come a long way since I first showed it. I find it incredibly useful. I hope you like it._" The [Visual Kafka (VK) Demo](https://youtu.be/lsiJBYTlxVs) walks through the result on the **Chad Preisler** YouTube channel. We linked a very early version of this, then still "a very basic Kafka topic viewer", back in [February 2023](https://www.jfx-central.com/links/2023-02-24).
 
 ## Miscellaneous
 
 * [**Nirvex1** is looking for advice on Reddit](https://www.reddit.com/r/javahelp/comments/1wckpbm/building_a_javafx_hibernate_talent_acquisition/) while building a desktop Talent Acquisition System with Java 11, JavaFX, Maven, Hibernate and MariaDB: "_One of the more challenging parts so far has been managing around 17 different FXML views and connecting all of them properly with their controllers. I also had to spend quite a bit of time understanding `module-info.java`, resource paths, and how everything fits together in a modular JavaFX application. Thankfully, that part is finally stable._" The questions are about Hibernate session management and `LazyInitializationException`, how to run database queries without freezing the UI, and which threading patterns and architectural choices keep a large multi-view JavaFX application maintainable. The first answers mostly argue for putting a backend service between the desktop client and the database instead of connecting to it directly.
+* [**enthalpyzx** started a discussion on Reddit](https://www.reddit.com/r/JavaFX/comments/1wjhtou/how_can_javafx_attract_more_developers/), "How can JavaFX attract more developers?", from the perspective of someone who hasn't written a JavaFX application yet but likes what they see: "_I've noticed that JavaFX is very capable of doing incredible things that I had never imagined._" The open questions are how multiplatform JavaFX really is, whether applications can look native on every desktop (with [AtlantaFX](https://www.jfx-central.com/libraries/atlantafx) mentioned as the likely answer, next to wrappers like Java-GI and QtJambi), why things like tray icons and notifications still need AWT, and above all the lack of a single recommended way of working: "_I would like Gluon or Oracle to stand up and say: look, this is how things work now, this is how you work for desktop apps, this is how you work for mobile apps, this is the library you have to use._" Also asked: are [The Definitive Guide to Modern Java Clients with JavaFX](https://www.jfx-central.com/books/definitiveguide2modernjavaclients) and [Learn JavaFX 17](https://www.jfx-central.com/books/learnjfx17) a good starting point?
 
 ## JFX Central
 
