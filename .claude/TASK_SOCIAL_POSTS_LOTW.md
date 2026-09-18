@@ -36,3 +36,12 @@ Provide this as a copy-ready text for each platform, and make sure to include th
 | Erik Costlow | - | @costlow@mastodon.social |
 | Foojay | @foojay.io | @foojay@foojay.social |
 | Josh Long | starbuxman.joshlong.com | @starbuxman@mastodon.online |
+| Chad Preisler | chadpreisler.bsky.social | - |
+| José Pereda | jperedadnr.bsky.social | - |
+| Gluon | gluonhq.bsky.social | @gluonhq@techhub.social |
+| Andy Goryachev | - | - |
+| Marius Hanl | - | - |
+| Kevin Rushforth | - | - |
+| Lukasz Kostyra | - | - |
+| Michael Redlich | - | - |
+| Florian Enner | - | - |
