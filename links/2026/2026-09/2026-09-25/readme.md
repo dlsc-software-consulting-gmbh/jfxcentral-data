@@ -2,7 +2,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* **Alexander Matveev** integrated [8331458: Replace qtdemux with MP4 demux based on Media Foundation](https://marc.info/?l=openjdk-openjfx-dev&m=179004515064455&w=2) in OpenJFX: "*Replaced `qtdemux` with a Media Foundation-based MP4 demuxer on Windows. H.264 video from MP4 and fMP4 (HLS) is now decoded using Media Foundation instead of DirectShow. This change avoids several DirectShow issues encountered with the new MP4 demuxer and reduces implementation complexity.*" The changeset also fixes 8305842 (video sometimes does not start when reinitializing on Windows 11) and touches 4731 lines across 37 files. See [PR #2206](https://git.openjdk.org/jfx/pull/2206) and [commit 67f70684](https://git.openjdk.org/jfx/commit/67f70684baa3f6168c9c0183e588c6d294d9f65d).
+* Integrated by **Alexander Matveev**:
+  * [8331458: Replace qtdemux with MP4 demux based on Media Foundation](https://marc.info/?l=openjdk-openjfx-dev&m=179004515064455&w=2) in OpenJFX: "*Replaced `qtdemux` with a Media Foundation-based MP4 demuxer on Windows. H.264 video from MP4 and fMP4 (HLS) is now decoded using Media Foundation instead of DirectShow. This change avoids several DirectShow issues encountered with the new MP4 demuxer and reduces implementation complexity.*" The changeset also fixes 8305842 (video sometimes does not start when reinitializing on Windows 11) and touches 4731 lines across 37 files. See [PR #2206](https://git.openjdk.org/jfx/pull/2206) and [commit 67f70684](https://git.openjdk.org/jfx/commit/67f70684baa3f6168c9c0183e588c6d294d9f65d).
+  *  [A new MP4 demuxer for Windows](https://marc.info/?l=openjdk-openjfx-dev&m=179004515064455&w=2) that uses Media Foundation and replaces `qtdemux`: "*H.264 video from MP4 and fMP4 (HLS) is now decoded using Media Foundation instead of DirectShow.*" The change also fixes video that sometimes did not start when reinitializing on Windows 11. See [PR #2206](https://git.openjdk.org/jfx/pull/2206) and the [commit](https://git.openjdk.org/jfx/commit/67f70684baa3f6168c9c0183e588c6d294d9f65d).
 
 ## SceneBuilder
 
