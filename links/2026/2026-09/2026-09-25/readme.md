@@ -42,7 +42,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* **indyjoe** asked [on Reddit](https://www.reddit.com/r/JavaFX/comments/1wp4u70/javafx_in_the_browser/) for good options to run JavaFX in the browser with minimal rewriting, still allowing a desktop version, supporting a large per-client data model, and scaling to hundreds of concurrent users. The discussion weighs WebFX (promising but limited control support and mostly a one-person project), CheerpJ (good for AWT/Swing, no timeline for JavaFX), Gluon (an old prototype not being updated without funded support), JPro (server-side rendering, a concern for apps with large per-user data), and whether a GraalVM-to-WASM path is even possible.
 
 ## JFX Central
 
