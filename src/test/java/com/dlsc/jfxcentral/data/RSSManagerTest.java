@@ -1,5 +1,6 @@
 package com.dlsc.jfxcentral.data;
 
+import com.dlsc.jfxcentral.data.model.LinksOfTheWeek;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -11,6 +12,9 @@ import org.xml.sax.InputSource;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.StringReader;
+import java.time.format.DateTimeFormatter;
+import java.util.Comparator;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -22,6 +26,7 @@ public class RSSManagerTest {
     private static final String LINKS_PAGE_URL = SITE_URL + "/links";
     private static final String ATOM_NAMESPACE = "http://www.w3.org/2005/Atom";
     private static final String DUBLIN_CORE_NAMESPACE = "http://purl.org/dc/elements/1.1/";
+    private static final DateTimeFormatter TITLE_DATE_FORMAT = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
     @BeforeAll
     public static void setup() {
@@ -40,6 +45,18 @@ public class RSSManagerTest {
         DataRepository repository = DataRepository.getInstance();
         assertFalse(repository.getLinksOfTheWeek().isEmpty());
 
+        List<LinksOfTheWeek> sortedLinksOfTheWeek = repository.getLinksOfTheWeek().stream()
+                .sorted(Comparator.comparing(LinksOfTheWeek::getCreatedOn).reversed())
+                .toList();
+
+        // The RSS feed only contains the last 25 weeks, so pick the current (most recent)
+        // week and one 20 weeks older, both of which are guaranteed to still be inside that window.
+        LinksOfTheWeek currentWeek = sortedLinksOfTheWeek.get(0);
+        LinksOfTheWeek currentWeekMinus20 = sortedLinksOfTheWeek.get(Math.min(20, sortedLinksOfTheWeek.size() - 1));
+
+        String currentWeekTitle = "Links Of The Week - " + currentWeek.getCreatedOn().format(TITLE_DATE_FORMAT);
+        String currentWeekMinus20Title = "Links Of The Week - " + currentWeekMinus20.getCreatedOn().format(TITLE_DATE_FORMAT);
+
         String rss = RSSManager.createRSS();
         System.out.println("RSS content:\n" + rss);
 
@@ -54,7 +71,8 @@ public class RSSManagerTest {
         // then
         assertAll(
                 () -> assertTrue(StringUtils.isNotBlank(rss), "RSS output with Links Of The Week is missing"),
-                () -> assertTrue(rss.contains("GNUBSD404 Long N162 PacMan XXL"), "Content from March 6, 2026 is missing"),
+                () -> assertTrue(rss.contains(currentWeekTitle), "Content from the current week is missing"),
+                () -> assertTrue(rss.contains(currentWeekMinus20Title), "Content from 20 weeks ago is missing"),
                 () -> assertTrue(rss.length() > 10_000, "RSS content length should be longer"),
                 () -> assertEquals("rss", document.getDocumentElement().getTagName(), "Root element should be rss"),
                 () -> assertNotNull(atomLink, "Atom self-link is missing"),
