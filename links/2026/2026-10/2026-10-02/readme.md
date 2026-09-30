@@ -38,4 +38,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* The links of September got bundled in a [monthly overview on Foojay](https://foojay.io/today/javafx-links-of-september-2026/).
