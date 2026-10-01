@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Igor Azarny** released Gitember 3.5.1](https://github.com/iazarny/gitember/releases/tag/3.5.1), the JavaFX Git GUI client ("_not just another git GUI client_"). This release adds commit signing and signature validation, a reflog feature, commit note support, enhanced submodule support, and adjusted LFS support, plus several small fixes (undo commit, rename branch locally and remotely, merge preview, force push option). [Project on GitHub](https://github.com/iazarny/gitember).
 
 ## Games
 
