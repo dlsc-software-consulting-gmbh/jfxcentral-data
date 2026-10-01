@@ -18,7 +18,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-*
+* **Frank Delporte** released version 1.2.6 of Lottie4J, the library to parse, generate & play Lottie animations natively in JavaFX. "_It's a minor update which reduces the logging when animations are started and stopped. Thanks to **David Gerber** for the merge request._" All info on the [Lottie4J website](https://lottie4j.com/releases/).
 
 ## Podcasts, Videos, Books
 
