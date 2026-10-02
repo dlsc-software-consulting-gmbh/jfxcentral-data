@@ -1,13 +1,5 @@
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
-## Core
-
-* 
-
-## SceneBuilder
-
-* 
-
 ## Applications
 
 * [**Igor Azarny** released Gitember 3.5.1](https://github.com/iazarny/gitember/releases/tag/3.5.1), the JavaFX Git GUI client ("_not just another git GUI client_"). This release adds commit signing and signature validation, a reflog feature, commit note support, enhanced submodule support, and adjusted LFS support, plus several small fixes (undo commit, rename branch locally and remotely, merge preview, force push option). [Project on GitHub](https://github.com/iazarny/gitember).
@@ -24,12 +16,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*  **Josh Long** features **Andres Almiray** in [a Spring Office Hours podcast episode](https://ms.podbean.com/media/share/pb-uv35s-1b73a7f). A wide-ranging, high-energy conversation about the future of desktop Java, the pain of Electron, the elegance of JavaFX, and JReleaser — the tool that helps Java projects publish releases, package native installers, generate distribution bundles, compute signatures and checksums, and automate releases across GitHub, GitLab, Maven Central, and more. 
+* **Josh Long** features **Andres Almiray** in [a Spring Office Hours podcast episode](https://ms.podbean.com/media/share/pb-uv35s-1b73a7f). A wide-ranging, high-energy conversation about the future of desktop Java, the pain of Electron, the elegance of JavaFX, and JReleaser — the tool that helps Java projects publish releases, package native installers, generate distribution bundles, compute signatures and checksums, and automate releases across GitHub, GitLab, Maven Central, and more.
 * [**Libán Bande González** announced his book "Skinning JavaFX Applications"](https://foojay.io/today/announcing-skinning-javafx-applications/), "_a practical, code-first book built from years of shipping real desktop business applications,_" focused on the Control-Skin architecture for building custom controls and skins. It covers custom window chrome, runtime theme switching, modern design materials like Mica and Acrylic from Fluent Design, and micro-interactions, arguing that "CSS is not enough" to make JavaFX apps look like modern Microsoft or JetBrains interfaces. More info on the [book's website](https://skinning-javafx-applications.netlify.app).
-
-## Conferences, Presentations
-
-*
 
 ## Tutorials
 
