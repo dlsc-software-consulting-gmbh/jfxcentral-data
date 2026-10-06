@@ -2,7 +2,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* [**Igor Azarny** released Gitember 3.5.1](https://github.com/iazarny/gitember/releases/tag/3.5.1), the JavaFX Git GUI client ("_not just another git GUI client_"). This release adds commit signing and signature validation, a reflog feature, commit note support, enhanced submodule support, and adjusted LFS support, plus several small fixes (undo commit, rename branch locally and remotely, merge preview, force push option). [Project on GitHub](https://github.com/iazarny/gitember).
 * [**Max Xiong** shared a new screenshot](https://bsky.app/profile/maxiong.bsky.social/post/3mwrwlzd4yk2d) of DataCollie, his ongoing #BuildInPublic project, noting that "_PostgreSQL's privilege management is much more complex than MySQL's. Still, I'm making a little progress every day._"
 
 ## Games
