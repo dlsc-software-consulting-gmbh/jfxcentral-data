@@ -50,3 +50,5 @@ Provide this as a copy-ready text for each platform, and make sure to include th
 | Igor Azarny | - | - |
 | Libán Bande González | - | - |
 | Sombriks | - | - |
+| Mike (Klunk) | - | - |
+| afparks | afparks.bsky.social | - |
