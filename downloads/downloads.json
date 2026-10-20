@@ -131,43 +131,6 @@
     ]
   },
   {
-    "id": "scenicview",
-    "name": "Scenic View",
-    "tags": "debug, inspect, scene graph",
-    "summary": "Inspect the state of your JavaFX application.",
-    "description": "Scenic View is a JavaFX application designed to make it simple to understand the current state of your application scene graph, and to also easily manipulate properties of the scene graph without having to keep editing your code.",
-    "homepage": "https://github.com/JonathanGiles/scenic-view",
-    "downloadType": "APPLICATION",
-    "createdOn": "2021-06-16",
-    "modifiedOn": "2021-06-16",
-    "personIds": [
-      "j.giles"
-    ],
-    "files": [
-      {
-        "name": "Windows",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-win.zip",
-        "fileName": "",
-        "package": "ZIP"
-      },
-      {
-        "name": "Mac",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-mac.zip",
-        "fileName": "",
-        "package": "ZIP"
-      },
-      {
-        "name": "Linux",
-        "url": "https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-linux.zip",
-        "fileName": "",
-        "package": "ZIP"
-      }
-    ],
-    "videoIds": [
-      "fuDQg7W0v4g"
-    ]
-  },
-  {
     "id": "scenebuilder",
     "name": "Scene Builder 21",
     "tags": "debug, inspect, scene graph",

@@ -8,24 +8,13 @@ This lets you find bugs, and get things pixel perfect without having to do the c
 
 ## Downloads
 
-Builds for JDK 11 for Windows, Linux, and MacOS are built by Azure Pipelines, and downloads are available from the
-following links:
-
-| Platform | Download for JDK 11                                                                          |
-|----------|----------------------------------------------------------------------------------------------|
-| Windows  | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-win.zip)   |
-| MacOS    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-mac.zip)   |
-| Linux    | [Download](https://download.jonathangiles.net/downloads/scenic-view/scenicview-21-linux.zip) |
-
-You can also download platform-independent releases
-for [JDK 8](https://download.jonathangiles.net/downloads/scenic-view/scenic-view-8.7.0.zip)
-and [JDK 9](https://download.jonathangiles.net/downloads/scenic-view/scenic-view-9.0.0.zip).
+Download links are available on the [Scenic View GitHub project](https://github.com/JonathanGiles/scenic-view).
 
 ## Using Scenic View
 
 ### Stand-alone application
 
-Download the Scenic View custom image for your platform from the above links. Unzip and then run:
+Download the Scenic View custom image for your platform from the GitHub project. Unzip and then run:
 
 ```bash
 cd scenicview/bin
