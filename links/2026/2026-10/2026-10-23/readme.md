@@ -20,7 +20,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Components, Libraries, Tools
 
-* **Frank Delporte** announced [Sheetmusic4J 0.0.5](https://sheetmusic4j.com/status/2026/20261021-release-0.0.5/), the Java library to parse and render sheet music natively in JavaFX. This release adds support for the LilyPond format: "_load such a file and render it natively in JavaFX, without running LilyPond._" It also brings engraving improvements like better tuplet placement and octave clef support.
+* **Frank Delporte** announced version [0.0.4](https://sheetmusic4j.com/status/2026/20261016-release-0.0.4/) and [0.0.5](https://sheetmusic4j.com/status/2026/20261021-release-0.0.5/) of Sheetmusic4J, the library to parse and render sheet music natively in Java/JavaFX. These releases include new Node-based and 3D fly-over views, and add support for the LilyPond format: "_load such a file and render it natively in JavaFX, without running LilyPond._" It also brings engraving improvements like better tuplet placement and octave clef support. A video with a demo of the new views is [available on YouTube](https://www.youtube.com/watch?v=8n7WONyX0yk). 
 
 ## Podcasts, Videos, Books
 
