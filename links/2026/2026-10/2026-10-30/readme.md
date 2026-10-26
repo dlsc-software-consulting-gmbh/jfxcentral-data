@@ -34,7 +34,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-* [A developer on r/java asked for a modern Swing alternative](https://www.reddit.com/r/java/) after running into Wayland scaling/blurriness problems with Swing on Linux and considering GTK (java-gi) or Qt bindings; commenters pointed back to JavaFX, calling it "*the primary upgrade path from Swing for native Java GUI development*" over third-party C/C++ wrapper toolkits.
+* 
 
 ## JFX Central
 
