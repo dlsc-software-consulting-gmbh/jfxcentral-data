@@ -19,6 +19,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Components, Libraries, Tools
 
 * [**Frank Delporte** released Sheetmusic4J 0.0.5 with LilyPond import/export](https://sheetmusic4j.com/): Adds LilyPond (.ly) import/export through the unified ScoreFile facade via a parser/interpreter/assembler pipeline, plus engraving improvements such as better tuplet placement and octave clef support — building on the earlier 0.0.4 release, which added the clickable/draggable NodeSheetView and 3D FlyOverSheetView.
+* **Libán Bande González** [announced Vitra](https://foojay.io/today/announcing-vitra-modern-ui-library-for-javafx/), a modern UI library for JavaFX with Gantt, Kanban, calendar, charts, Fluent-inspired materials, glass surfaces and custom windows. All controls support CSS and runtime theme switching, and there are no external dependencies. More info is [on the website](https://skinning-javafx-applications.netlify.app).
 
 ## Podcasts, Videos, Books
 
