@@ -23,7 +23,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
-*
+* [**Adam Bien** talks with guest **Ingo Kegel** on airhacks.fm #419: "Agents Have No Runtime Insight"](https://airhacks.fm/#episode_419): Discusses giving AI coding agents JVM runtime insight through a JProfiler MCP server, including how an agent loop was used to double jclasslib's performance by outperforming ASM's bytecode parser, alongside memory-profiling fundamentals like dominator trees. They also touch on a possible Swing and JavaFX revival, because both ship with Java and LLMs know them well.
 
 ## Conferences, Presentations
 
