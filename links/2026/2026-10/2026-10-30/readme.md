@@ -3,6 +3,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Core
 
 * [JavaFX on Wayland — A Working Proof of Concept](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30638.html) was shared on the openjfx-dev mailing list: a community contributor presented a working proof of concept demonstrating native Wayland support for JavaFX, a long-requested capability for Linux desktops.
+* [Integrated: 8384258: Memory Leak in ListenerHelper](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30688.html): A fix for a memory leak in JavaFX's internal `ListenerHelper` has been integrated into OpenJFX.
+* [Integrated: 8264588: Double clicking a word in TextArea selects wrong word](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30689.html): A fix for incorrect word selection when double-clicking inside a `TextArea` has been integrated into OpenJFX.
 
 ## SceneBuilder
 
