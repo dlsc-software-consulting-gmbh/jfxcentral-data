@@ -10,7 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Max Xiong** is preparing to launch DataCollie](https://bsky.app/profile/maxiong.bsky.social/post/3myumzn6upk2e), his database client built with JavaFX, after a long #BuildInPublic journey: "_Doing some final prep before launching DataCollie. So many edge cases to handle!_"
 
 ## Games
 
@@ -31,7 +31,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* [**sosuisen** published "JavaFX Getting Started with VS Code"](https://sosuisen.net/posts/javafx-on-vscode/) on their renewed personal website. The article was originally written for JFXCentral and was rewritten for Japanese readers and their students. The page has a toggle between Japanese and English. [Announcement on Bluesky](https://bsky.app/profile/sosuisen.bsky.social/post/3myom5czros2q).
 
 ## Miscellaneous
 
