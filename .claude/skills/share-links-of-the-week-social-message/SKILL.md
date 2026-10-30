@@ -55,3 +55,4 @@ Provide this as a copy-ready text for each platform, and make sure to include th
 | afparks | afparks.bsky.social | - |
 | John Hendrikx | - | - |
 | Mohd Dilshad Khan | - | - |
+| Adam Bien | adambien.blog | - |
