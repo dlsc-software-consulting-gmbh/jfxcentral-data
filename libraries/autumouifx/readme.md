@@ -16,8 +16,7 @@ user settings and recent files, allowing developers to focus primarily on the co
 - Developer documentation and a complete demo application.
 - ...and much more to simplify JavaFX application development.
 
-[Website](https://products.autumo.ch/modules/overview#at_ui)
-[Demo](https://products.autumo.ch/modules/overview#at_ui)
+[Website](https://products.autumo.ch/modules/overview#at_ui) • [Demo](https://github.com/autumoswitzerland/autumo-ui-fx-demo)
 
 A separate commercial version of the framework is also available. It can be integrated into application licensing platforms 
 and provides an extended set of components and tools for general-purpose Java desktop application development.
