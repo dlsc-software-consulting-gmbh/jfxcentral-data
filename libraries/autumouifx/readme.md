@@ -19,5 +19,5 @@ user settings and recent files, allowing developers to focus primarily on the co
 [Website](https://products.autumo.ch/modules/overview#at_ui)
 [Demo](https://products.autumo.ch/modules/overview#at_ui)
 
-A separate Pro version of the framework is also available. It can be integrated into application licensing platforms 
-and provides an extended set of components and tools for general-purpose JavaFX desktop application development.
+A separate commercial version of the framework is also available. It can be integrated into application licensing platforms 
+and provides an extended set of components and tools for general-purpose Java desktop application development.
