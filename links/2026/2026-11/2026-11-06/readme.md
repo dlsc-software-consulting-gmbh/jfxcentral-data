@@ -39,4 +39,4 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## JFX Central
 
-* 
+* Content update: the commercial library autumo UI got replaced by the open-source (free) library [autumo UI FX](https://www.jfx-central.com/libraries/autumouifx), "_a rapid Java FX development framework_".
