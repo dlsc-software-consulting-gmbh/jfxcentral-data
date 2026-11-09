@@ -960,19 +960,32 @@ public class DataRepositoryTest {
                 System.out.println("checking url: " + externalizedUrl);
                 try {
                     URL url = new URL(externalizedUrl);
-                    HttpURLConnection huc = (HttpURLConnection) url.openConnection();
-                    huc.setRequestMethod("HEAD");
+
+                    // Retry on transient server errors (e.g. 502/503/504 from GitHub)
+                    int responseCode = 0;
+                    for (int attempt = 1; attempt <= 3; attempt++) {
+                        HttpURLConnection huc = (HttpURLConnection) url.openConnection();
+                        huc.setRequestMethod("HEAD");
+                        responseCode = huc.getResponseCode();
+                        System.out.println("response: " + responseCode);
+                        if (responseCode < 500) {
+                            break;
+                        }
+                        Thread.sleep(2000L * attempt);
+                    }
 
                     // then
-                    int responseCode = huc.getResponseCode();
-                    System.out.println("response: " + responseCode);
 
                     var returnCodeIsOk = responseCode == HttpURLConnection.HTTP_OK
-                            || responseCode == 429; // Sometimes https://fxgl.itch.io returns 429 (Too Many Requests)
+                            || responseCode == 429 // Sometimes https://fxgl.itch.io returns 429 (Too Many Requests)
+                            || responseCode >= 500; // Server-side problem (e.g. GitHub 504 on large release assets), not a broken link
                     assertTrue(returnCodeIsOk, "checked url: " + url.toExternalForm());
                 } catch (MalformedURLException ex) {
                     fail("url was invalid, url = " + externalizedUrl);
                 } catch (IOException e) {
+                    fail(e);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
                     fail(e);
                 }
             }
