@@ -14,7 +14,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**xdsswar** showed on Reddit](https://www.reddit.com/r/JavaFX/comments/1xr2dpy/a_full_pdf_suite_in_100_javafx_on_my_own_engine/) Mergi, a Windows desktop PDF suite built in 100% JavaFX, without WebView, AWT or Swing, on top of the author's own pure Java PDF engine jux-pdf. It offers a viewer, full editing, comments, forms, signatures, real redaction, a small word processor that writes PDFs, conversion to Word and Excel, and everyday tools such as merge, split, compress and protect. Mergi will be released with a free and a paid version, and the viewer and editor will also be published as a JavaFX control.
 
 ## Games
 
@@ -40,6 +40,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 * [**neopointer** asked on Reddit](https://www.reddit.com/r/JavaFX/comments/1xk68hx/javafx_architecture/) which architecture to use for a JavaFX application. Commenters suggested MVC with FXML and Scene Builder, MVVM as used by [JabRef](https://devdocs.jabref.org/code-howtos/javafx.html#architecture-model---view---controller---viewmodel-mvcvm) with data binding between View and ViewModel, and the MVCI pattern described on [Pragmatic Coding](https://www.pragmaticcoding.ca/javafx/mvci/). Some also pointed out that JavaFX lacks a definitive guide on architecture and packaging.
 * [**V_Bifi** asked on Reddit](https://www.reddit.com/r/JavaFX/comments/1xknh3j/javafx_environment/) how others set up their JavaFX environment, from IDE and embedded database to deployment and distribution, as it feels harder than the old Eclipse with e(fx)clipse days. Commenters recommended a JDK with JavaFX included such as Liberica JDK Full or Azul JDKFX, IntelliJ IDEA with JavaFX as a Maven dependency and jpackage for distribution, or Gradle with the JavaFX plugin and jlink, as in [this build.gradle](https://github.com/CodeDead/opal/blob/master/build.gradle). The author ran into problems combining jlink with the multi-module H2 database.
+* [**hamsterrage1** announced on Reddit](https://www.reddit.com/r/JavaFX/comments/1xqeo4k/website_rebuild/) a complete rebuild of [pragmaticcoding.ca](https://www.pragmaticcoding.ca), moving from Jekyll and GitHub Pages to Hugo with the Blowfish theme. The JavaFX content is reorganized: the "Elements" section explains how JavaFX components work, while the new "Techniques" section covers how to use them, including custom Nodes and the MVCI pattern. The articles aim to explain first principles, and most later code samples are in Kotlin.
 
 ## JFX Central
 
