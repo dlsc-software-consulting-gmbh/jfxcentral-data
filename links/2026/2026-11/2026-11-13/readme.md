@@ -5,6 +5,8 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * [Integrated: 8396109: [Linux] Robot: screencast restore token is wrongly assumed to be a UUID](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30775.html): A fix was integrated into OpenJFX correcting an incorrect assumption that the Robot screencast restore token on Linux is always formatted as a UUID.
 * [Integrated: 8395994: Update GStreamer to 1.28.8](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30777.html): The bundled GStreamer dependency was updated to version 1.28.8 (integrated for the jfx27u maintenance branch).
 * [Integrated: 8391822: Use Gradle's Java Toolchain](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30812.html): A change to use Gradle's Java Toolchain support has been integrated into the OpenJFX codebase.
+* [Intregrated: JDK-8394228: Property value set by a listener during CSS reset is not overridden by its style](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30831.html): The OpenJFX fix for issue 8394228 was integrated into the mainline, resolving a CSS reset edge case where a listener-set property value could be incorrectly overridden.
+
 
 ## SceneBuilder
 
