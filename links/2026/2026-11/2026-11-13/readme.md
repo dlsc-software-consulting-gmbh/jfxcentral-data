@@ -15,6 +15,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Applications
 
 * [**xdsswar** showed on Reddit](https://www.reddit.com/r/JavaFX/comments/1xr2dpy/a_full_pdf_suite_in_100_javafx_on_my_own_engine/) Mergi, a Windows desktop PDF suite built in 100% JavaFX, without WebView, AWT or Swing, on top of the author's own pure Java PDF engine jux-pdf. It offers a viewer, full editing, comments, forms, signatures, real redaction, a small word processor that writes PDFs, conversion to Word and Excel, and everyday tools such as merge, split, compress and protect. Mergi will be released with a free and a paid version, and the viewer and editor will also be published as a JavaFX control.
+* [**Guilty_Village_958** showed on Reddit](https://www.reddit.com/r/JavaFX/comments/1xnunnr/multiuser_javafx_client_for_whatsapp_with_gated/) a multi-user WhatsApp client built with JavaFX and Whatsmeow, made with Claude. Up to 8 numbers can be logged in at once, each with its own color throughout the UI, and the app uses less than half the RAM of the regular WhatsApp desktop app. A CLI lets tools such as Claude Code automate WhatsApp, gated by approvals given in the UI per process tree, limited in time and scope. It is an unofficial hobby project, with [source code and a pre-release download on GitHub](https://github.com/chatsgate/whatsappfx/).
 
 ## Games
 
