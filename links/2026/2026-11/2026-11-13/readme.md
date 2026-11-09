@@ -44,3 +44,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * Content update: the commercial library autumo UI got replaced by the open-source (free) library [autumo UI FX](https://www.jfx-central.com/libraries/autumouifx), "_a rapid Java FX development framework_".
+* New content on JFX Central:
+  * Book: [Skinning JavaFX Applications](https://www.jfx-central.com/books/skinning-javafx-applications), a code-first guide to the Control–Skin architecture. 
+  * Libraries:
+    * [Vitra](https://www.jfx-central.com/libraries/vitra), rich controls customizable from CSS.
+    * [Celestia](https://www.jfx-central.com/libraries/celestia), a collection of micro-interactions.
+  * People: [Libán Bande González](https://www.jfx-central.com/people/l.bande-gonzalez), author of this book and the libraries.

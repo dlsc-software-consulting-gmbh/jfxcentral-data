@@ -2529,5 +2529,39 @@
     "logoAvailable": "true",
     "ensemble": "false",
     "featuredImageName": "screenshot-demo-app.png"
+  },
+  {
+    "id": "vitra",
+    "name": "Vitra",
+    "summary": "Rich JavaFX controls, fully customizable from CSS.",
+    "description": "A JavaFX UI library of rich, ready-to-use controls (calendar, file explorer, notification cards, glass panels, Gantt chart, custom window chrome and more) that can be customized entirely from CSS.",
+    "tags": "controls, css, skin, ui, javafx",
+    "license": "COMMERCIAL",
+    "homepage": "https://skinning-javafx-applications.netlify.app",
+    "createdOn": "2026-11-09",
+    "modifiedOn": "2026-11-09",
+    "ensemble": "false",
+    "featuredImageName": "featured.jpg",
+    "logoAvailable": "false",
+    "personIds": [
+      "l.bande-gonzalez"
+    ]
+  },
+  {
+    "id": "celestia",
+    "name": "Celestia",
+    "summary": "Micro-interactions for JavaFX.",
+    "description": "A JavaFX library of micro-interactions: small animated details that add feedback and polish to user interfaces.",
+    "tags": "micro-interactions, animation, ui, javafx",
+    "license": "COMMERCIAL",
+    "homepage": "https://skinning-javafx-applications.netlify.app",
+    "createdOn": "2026-11-09",
+    "modifiedOn": "2026-11-09",
+    "ensemble": "false",
+    "featuredImageName": "featured.jpg",
+    "logoAvailable": "false",
+    "personIds": [
+      "l.bande-gonzalez"
+    ]
   }
 ]

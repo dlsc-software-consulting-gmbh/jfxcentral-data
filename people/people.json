@@ -1049,5 +1049,22 @@
     "id": "j.long",
     "createdOn": "2026-09-11",
     "modifiedOn": "2026-09-11"
+  },
+  {
+    "id": "l.bande-gonzalez",
+    "name": "Libán Bande González",
+    "email": "libanbande@gmail.com",
+    "website": "https://skinning-javafx-applications.netlify.app/",
+    "linkedIn": "www.linkedin.com/in/liban-bande-gonzalez",
+    "bookIds": [
+      "skinning-javafx-applications"
+    ],
+    "createdOn": "2026-10-01",
+    "modifiedOn": "2026-10-01",
+    "libraryIds": [
+      "vitra",
+      "celestia"
+    ],
+    "gitHub": ""
   }
 ]

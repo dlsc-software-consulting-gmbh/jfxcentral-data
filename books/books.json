@@ -262,5 +262,19 @@
     "url": "https://link.springer.com/book/10.1007/978-3-319-99420-8",
     "isbn": "978-3-319-99419-2",
     "publishedDate": "2019-01-22"
+  },
+  {
+    "id": "skinning-javafx-applications",
+    "name": "Skinning JavaFX Applications",
+    "subtitle": "A code-first book for JavaFX developers",
+    "summary": "CSS alone won't make JavaFX look modern. Skins will.",
+    "description": "Build your own controls with the Control–Skin architecture. The first half skins the controls JavaFX already ships. The second half designs original controls for components the platform doesn't provide. Covers runtime theme switching, Fluent materials (Mica, Acrylic, Reveal), custom stages, micro-interactions and complete Control / Skin / CSS source for every control in the book.",
+    "authors": "Libán Bande González",
+    "publisher": "Libán Bande González",
+    "url": "https://skinning-javafx-applications.netlify.app/",
+    "publishedDate": "2026-10-01",
+    "personIds": [
+      "l.bande-gonzalez"
+    ]
   }
 ]
