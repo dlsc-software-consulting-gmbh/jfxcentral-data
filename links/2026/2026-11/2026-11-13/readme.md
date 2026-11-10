@@ -7,10 +7,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 * [Integrated: 8391822: Use Gradle's Java Toolchain](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30812.html): A change to use Gradle's Java Toolchain support has been integrated into the OpenJFX codebase.
 * [Intregrated: JDK-8394228: Property value set by a listener during CSS reset is not overridden by its style](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30831.html): The OpenJFX fix for issue 8394228 was integrated into the mainline, resolving a CSS reset edge case where a listener-set property value could be incorrectly overridden.
 
-
 ## SceneBuilder
 
-* 
+* [**Emad Hanif** shared on LinkedIn](https://www.linkedin.com/posts/emad-hanif-00b4aa227_the-one-core-feature-id-love-to-see-in-scenebuilder-share-7525911503078752256-td8G/) the one core feature he would love to see in SceneBuilder: automatic conversion of FXML into abstract Java classes, such as `public abstract class Home extends StackPane {...}`, formatted with Google Java Formatter. He already automates this in his own workflow, but thinks it should be the default for two reasons: reusability and obfuscation, as FXML files can't be obfuscated. Do you agree? Join the discussion on LinkedIn.
 
 ## Applications
 
