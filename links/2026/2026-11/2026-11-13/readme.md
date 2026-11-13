@@ -1,4 +1,4 @@
-**Took some days off last week, so skipped of week for the links overview. And as a result... yes, a much longer list then usual today :-)**
+**Took some days off last week, so skipped a week for the links overview. And as a result... yes, a much longer list then usual today :-)**
 
 Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@jfx-central.com.
 
@@ -37,13 +37,14 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Miscellaneous
 
 * [**Wolfgang Weigend** announced on Bluesky](https://bsky.app/profile/wolfgangweigend.bsky.social/post/3n24fepjpec2o) that his article about JavaFX, written in German, is published in the new Javamagazin 12.2026. The article covers the JavaFX UI technology.
-* [**neopointer** asked on Reddit](https://www.reddit.com/r/JavaFX/comments/1xk68hx/javafx_architecture/) which architecture to use for a JavaFX application. Commenters suggested MVC with FXML and Scene Builder, MVVM as used by [JabRef](https://devdocs.jabref.org/code-howtos/javafx.html#architecture-model---view---controller---viewmodel-mvcvm) with data binding between View and ViewModel, and the MVCI pattern described on [Pragmatic Coding](https://www.pragmaticcoding.ca/javafx/mvci/). Some also pointed out that JavaFX lacks a definitive guide on architecture and packaging.
+* [**neopointer** asked on Reddit](https://www.reddit.com/r/JavaFX/comments/1xk68hx/javafx_architecture/) which architecture to use for a JavaFX application. Commenters suggested MVC with FXML and Scene Builder, MVVM as used by [JabRef](https://devdocs.jabref.org/code-howtos/javafx.html#architecture-model---view---controller---viewmodel-mvcvm) with data binding between View and ViewModel, and the MVCI pattern. Some also pointed out that JavaFX lacks a definitive guide on architecture and packaging.
 * [**V_Bifi** asked on Reddit](https://www.reddit.com/r/JavaFX/comments/1xknh3j/javafx_environment/) how others set up their JavaFX environment, from IDE and embedded database to deployment and distribution, as it feels harder than the old Eclipse with e(fx)clipse days. Commenters recommended a JDK with JavaFX included such as Liberica JDK Full or Azul JDKFX, IntelliJ IDEA with JavaFX as a Maven dependency and jpackage for distribution, or Gradle with the JavaFX plugin and jlink, as in [this build.gradle](https://github.com/CodeDead/opal/blob/master/build.gradle). The author ran into problems combining jlink with the multi-module H2 database.
 * [**hamsterrage1** announced on Reddit](https://www.reddit.com/r/JavaFX/comments/1xqeo4k/website_rebuild/) a complete rebuild of [pragmaticcoding.ca](https://www.pragmaticcoding.ca), moving from Jekyll and GitHub Pages to Hugo with the Blowfish theme. The JavaFX content is reorganized: the "Elements" section explains how JavaFX components work, while the new "Techniques" section covers how to use them, including custom Nodes and the MVCI pattern. The articles aim to explain first principles, and most later code samples are in Kotlin.
 
 ## JFX Central
 
-* Content update: the commercial library autumo UI got replaced by the open-source (free) library [autumo UI FX](https://www.jfx-central.com/libraries/autumouifx), "_a rapid Java FX development framework_".
+* Content update on JFX Central: 
+  * Library: the commercial library autumo UI got replaced by the open-source (free) library [autumo UI FX](https://www.jfx-central.com/libraries/autumouifx), "_a rapid Java FX development framework_".
 * New content on JFX Central:
   * Book: [Skinning JavaFX Applications](https://www.jfx-central.com/books/skinning-javafx-applications), a code-first guide to the Control–Skin architecture. 
   * Libraries:
