@@ -10,6 +10,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## SceneBuilder
 
 * [**Emad Hanif** shared on LinkedIn](https://www.linkedin.com/posts/emad-hanif-00b4aa227_the-one-core-feature-id-love-to-see-in-scenebuilder-share-7525911503078752256-td8G/) the one core feature he would love to see in SceneBuilder: automatic conversion of FXML into abstract Java classes, such as `public abstract class Home extends StackPane {...}`, formatted with Google Java Formatter. He already automates this in his own workflow, but thinks it should be the default for two reasons: reusability and obfuscation, as FXML files can't be obfuscated. Do you agree? Join the discussion on LinkedIn.
+* [**Gluon** (**José Pereda**) published the Scene Builder 27.0.0-RC release candidate on GitHub](https://github.com/gluonhq/scenebuilder/releases/tag/27.0.0-RC): The changelog covers build and packaging changes, including removal of the macOS Intel installer. Installers are available for Windows, Linux and macOS Apple Silicon, plus the Scene Builder Kit jar.
 
 ## Applications
 
