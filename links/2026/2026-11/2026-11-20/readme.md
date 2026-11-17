@@ -3,7 +3,10 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Core
 
 * [JavaFX 28 Early-Access Build 17 published by **OpenJFX / Oracle**](https://jdk.java.net/javafx28/): standalone SDKs and jmods for Linux, macOS (x86_64 and AArch64) and Windows, for testing against early-access JDK 28 builds.
-* [Integrated: 8394318: Weird characters appear in TextArea with surrogates](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30962.html): the fix for garbled characters in `TextArea` when surrogate pairs are involved has been integrated into OpenJFX.
+* Integrations from the mailing list:
+  * [8394318: Weird characters appear in TextArea with surrogates](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30962.html): the fix for garbled characters in `TextArea` when surrogate pairs are involved has been integrated into OpenJFX.
+  * [8395867: Update ICU4C to 79.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30984.html): OpenJFX updated its bundled ICU4C text-handling library to version 79.1. The completed change was announced on the openjfx-dev list at https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30991.html.
+  * [8396583: WebSocket throws UnsatisfiedLinkError on Linux](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30990.html): A fix for the `UnsatisfiedLinkError` thrown by WebSocket on Linux has been integrated. The [backport to jfx27u](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31016.html) has been integrated too.
 
 ## SceneBuilder
 
