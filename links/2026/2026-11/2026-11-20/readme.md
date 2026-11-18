@@ -38,7 +38,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* [**Antoinedeloup** asked on Reddit](https://www.reddit.com/r/JavaFX/comments/1xxvaul/writing_the_ui_programmatically_or_through_fxml/) "_Writing the UI programmatically or through FXML?_". A learning developer building a baker's percentage calculator is confused by the many ways to set up a JavaFX project. They like designing in Scene Builder, but wonder how to handle dynamic UI such as an "Add ingredient" button that creates new rows with spinners and labels, and whether the styling from Scene Builder can be reused. Most tutorials and the AtlantaFX Sampler are written programmatically, so they ask how others build their apps and which resources to follow as a novice. The replies mostly recommend FXML with Scene Builder for layout and plain CSS for styling (with a shared style class for children of an `HBox`/`VBox`, as these have no default style class), an MVVM or MVP structure, and the code.makery.ch tutorial. Others point to [FXML/2](https://github.com/jfxcore/fxml-compiler), which compiles FXML to bytecode and suits MVVM, and to the [luvjfx](https://github.com/luvml/luvjfx) and [int4-org/FX](https://github.com/int4-org/FX) DSLs for building UIs in code.
 
 ## JFX Central
 
