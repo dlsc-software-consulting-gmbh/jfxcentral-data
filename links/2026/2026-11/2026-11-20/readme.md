@@ -14,7 +14,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Applications
 
-* 
+* [**Helal Anwar** shared a description and video on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7528563572105453568/) of "Graded Attendance", an education-management application built for his own coaching centre and used daily with about 100 students. It started as an attendance tool and grew to cover fees, timetables, a question bank, exam scheduling, automatic question-paper and result generation, OMR sheet processing, PDF reports, and camera-based face recognition. It is built with Java, JavaFX, SQLite, OpenCV/JavaCV, Apache PDFBox, ONNX Runtime and JLaTeXMath, and is still under development.
 
 ## Games
 
