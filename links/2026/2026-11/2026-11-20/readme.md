@@ -2,11 +2,14 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
+* [Create release notes for JavaFX 27.0.1.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31028.html): Release notes for the JavaFX 27.0.1.1 update have been integrated into the jfx27u branch.
 * [JavaFX 28 Early-Access Build 17 published by **OpenJFX / Oracle**](https://jdk.java.net/javafx28/): standalone SDKs and jmods for Linux, macOS (x86_64 and AArch64) and Windows, for testing against early-access JDK 28 builds.
 * Integrations from the mailing list:
   * [8394318: Weird characters appear in TextArea with surrogates](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30962.html): the fix for garbled characters in `TextArea` when surrogate pairs are involved has been integrated into OpenJFX.
   * [8395867: Update ICU4C to 79.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30984.html): OpenJFX updated its bundled ICU4C text-handling library to version 79.1. The completed change was announced on the openjfx-dev list at https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30991.html.
   * [8396583: WebSocket throws UnsatisfiedLinkError on Linux](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30990.html): A fix for the `UnsatisfiedLinkError` thrown by WebSocket on Linux has been integrated. The [backport to jfx27u](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31016.html) has been integrated too.
+  * [8397389: Add default style class to HeaderBar](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31055.html): The change that gives `HeaderBar` a default style class has been integrated into OpenJFX.
+
 
 ## SceneBuilder
 
@@ -15,6 +18,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## Applications
 
 * [**Helal Anwar** shared a description and video on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7528563572105453568/) of "Graded Attendance", an education-management application built for his own coaching centre and used daily with about 100 students. It started as an attendance tool and grew to cover fees, timetables, a question bank, exam scheduling, automatic question-paper and result generation, OMR sheet processing, PDF reports, and camera-based face recognition. It is built with Java, JavaFX, SQLite, OpenCV/JavaCV, Apache PDFBox, ONNX Runtime and JLaTeXMath, and is still under development.
+* [**Striking_Creme864** shared on Reddit](https://www.reddit.com/r/JavaFX/comments/1y08p3x/greywolf_the_beginning_of_a_story/) "GreyWolf - The Beginning of a Story", an integrated file management environment built from a core and dynamically loadable plugins, bringing together several earlier projects by the same team such as PatternFX, ShellFX, JediTermFX and CEFFX. Five plugins are available so far (Navigator, Terminal and three DevTools), with more than 20 planned. Navigator is a file manager with Details, List and Tiles views and asynchronous file loading for large folders, and Dual Panels allow two Navigator or Terminal instances side by side. Support for FTP, Samba, Google Drive and archive formats is planned. The project is still far from a first release, but binaries are available on [GitHub Releases](https://github.com/techsenger/greywolf/releases) and contributors are welcome.
 
 ## Games
 
