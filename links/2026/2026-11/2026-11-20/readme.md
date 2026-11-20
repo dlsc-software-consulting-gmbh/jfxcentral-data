@@ -2,7 +2,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* [Create release notes for JavaFX 27.0.1.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31028.html): Release notes for the JavaFX 27.0.1.1 update have been integrated into the jfx27u branch.
+* [Release notes for the JavaFX 27.0.1.1](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31028.html) update have been integrated into the jfx27u branch.
 * [JavaFX 28 Early-Access Build 17 published by **OpenJFX / Oracle**](https://jdk.java.net/javafx28/): standalone SDKs and jmods for Linux, macOS (x86_64 and AArch64) and Windows, for testing against early-access JDK 28 builds.
 * Integrations from the mailing list:
   * [8394318: Weird characters appear in TextArea with surrogates](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg30962.html): the fix for garbled characters in `TextArea` when surrogate pairs are involved has been integrated into OpenJFX.
