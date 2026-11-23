@@ -2,7 +2,9 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Core
 
-* 
+* From the mailing list:
+  * [[jfx25u] Integrated: 8375466: Metal rendering pipeline crashes on virtualized OS](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31111.html): Fix for a Metal rendering pipeline crash on virtualized operating systems, integrated into the JavaFX 25 update release line (jfx25u).
+  * [Integrated: 8392117: VirtualFlow may end up creating 1-2 unnecessary cells](https://www.mail-archive.com/openjfx-dev@openjdk.org/msg31116.html): Fix integrated so VirtualFlow, which backs ListView, TableView and TreeView, no longer creates 1-2 unnecessary cells.
 
 ## SceneBuilder
 
