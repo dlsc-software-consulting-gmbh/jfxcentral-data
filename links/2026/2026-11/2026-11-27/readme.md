@@ -25,6 +25,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Podcasts, Videos, Books
 
+* [**Frank Delporte** published "Interview with Libán Bande González: Going Beyond CSS in JavaFX"](https://foojay.io/today/interview-with-liban-bande-gonzalez-skinning-javafx-applications/) on Foojay. [**Libán Bande González**](https://www.jfx-central.com/people/l.bande-gonzalez) builds business-management desktop apps in Cuba and talks about his book [Skinning JavaFX Applications](https://www.jfx-central.com/books/skinning-javafx-applications), which teaches the Control-Skin architecture to restyle existing controls and create new ones beyond what CSS can do. He also discusses his libraries [Vitra](https://www.jfx-central.com/libraries/vitra), with Fluent-based controls such as a calendar, date range picker, Gantt chart and Kanban board, and [Celestia](https://www.jfx-central.com/libraries/celestia), with micro-interactions and animations for JavaFX nodes.
 * [**Anahata TV** published the video "Pure-JavaFX 3D Planetary Engine - Continuous Horizon LOD & 3D Topographic Wireframe Relief"](https://www.youtube.com/watch?v=s2ITSa-RKR8), a real-time demo of the Anahata Universe, a 3D planetary rendering engine built with only JavaFX, featuring quadtree LOD, AWS Terrarium heightmaps, a neon wireframe overlay and 6DOF camera controls.
 
 ## Conferences, Presentations
