@@ -33,7 +33,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Tutorials
 
-*
+* * [Advanced Accessibility in JavaFX](https://dev.java/learn/javafx/a11y/advanced/) got an update: A dev.java guide on building fully accessible custom JavaFX components, using a theater seat map as the example. It covers overriding accessibility methods on Node, notifying assistive technology of state changes, and screen reader navigation.
 
 ## Miscellaneous
 
