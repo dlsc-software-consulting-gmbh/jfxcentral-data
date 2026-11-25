@@ -44,3 +44,6 @@ Did we miss anything? Is there anything you want to have included in one of the 
 ## JFX Central
 
 * [**Shai Almog** published "Debug Your Dart in a Java Debugger, and JFX Central on a Phone"](https://www.codenameone.com/blog/debug-dart-in-a-java-debugger/) on the Codename One blog, including a demo video of JFX Central running on an iPhone. He is working on a [merge request](https://github.com/dlsc-software-consulting-gmbh/jfxcentral2/pull/712) to bring the latest version of JFX Central to iOS and Android with a new `codenameone` module, without a rewrite.
+* New content on JFX Central:
+  * Showcase: [VisioTheca](https://www.jfx-central.com/showcases/visiotheca):     A free Windows photo organizer for collectors of historical
+    photographs
