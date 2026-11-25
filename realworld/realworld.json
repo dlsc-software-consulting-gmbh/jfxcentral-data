@@ -947,5 +947,17 @@
     "videoIds": [
       "Mc3fUTxoKIg"
     ]
+  },
+  {
+    "id": "visiotheca",
+    "name": "VisioTheca",
+    "tags": "photo, collections, organizer, windows",
+    "url": "https://rembase.org/photo/visiotheca",
+    "summary": "A free Windows photo organizer for collectors of historical photographs",
+    "domain": "Photography",
+    "description": "VisioTheca is a free Windows photo organizer built with JavaFX. Collectors can record a date range for photos with an unknown exact date, group related photos into series, and search their collections by date or tag.",
+    "createdOn": "2026-11-25",
+    "modifiedOn": "2026-11-25"
   }
+
 ]
