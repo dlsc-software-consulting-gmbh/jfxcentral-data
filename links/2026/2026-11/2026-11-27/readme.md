@@ -39,7 +39,7 @@ Did we miss anything? Is there anything you want to have included in one of the 
 
 ## Miscellaneous
 
-*
+* [**Dirk Lemmermann** shared on Bluesky](https://bsky.app/profile/dlemmermann.bsky.social/post/3n37qtsgnkk2u) a Thanksgiving card made with AnimatorFX and AI, including animations.
 
 ## JFX Central
 
